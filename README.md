@@ -1,6 +1,8 @@
-La idea es obtener todos los puestos TAI de Madrid.
+La idea es concretar todos los puestos TAI de Madrid hasta el punto que se pueda hacer un mapa geográfico con ellos.
 
-El resultado se puede ver en: https://s-nt-s.github.io/TAI-Madrid/tabla.html
+La primera fase es generar un listado, el cual se puede ver en: https://s-nt-s.github.io/TAI-Madrid/tabla.html
+
+Y cuando se tengan las direcciones se generará el mapa.
 
 Para ver lo que se entiende por puesto TAI en Madrid observar la función `isTAIMadrid` de `api/core.py`
 
