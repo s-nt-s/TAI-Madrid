@@ -8,7 +8,7 @@ import bs4
 from api import Descripciones, Info, Jnj2, Puesto
 
 sp = re.compile(r"\s+")
-j2 = Jnj2("j2/", "html/")
+j2 = Jnj2("j2/", "docs/")
 
 
 def fix(html, *args, **kargs):
