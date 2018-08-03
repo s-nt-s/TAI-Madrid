@@ -2,7 +2,7 @@ La idea es obtener todos los puestos TAI de Madrid.
 
 El resultado se puede ver en: https://s-nt-s.github.io/TAI-Madrid/tabla.html
 
-Para ver lo que se entiende por puesto TAI en Madrid observar la función isTAIMadrid de `api/core.py`
+Para ver lo que se entiende por puesto TAI en Madrid observar la función `isTAIMadrid` de `api/core.py`
 
 Como fuente de datos se usa los `RPT` de http://transparencia.gob.es/transparencia/transparencia_Home/index/PublicidadActiva/OrganizacionYEmpleo/Relaciones-Puestos-Trabajo.html
 
@@ -19,7 +19,7 @@ Habría que revisar dicho txt para comprobar que no se esta excluyendo ningún p
 
 ## Mejorar el filtro
 
-Como anteriormente se ha dicho, isTAIMadrid de `api/core.py` decide si un puesto tiene posibilidades de ser TAI y estar en Madrid. Convendría revisar esta función por si se puede afinar más.
+Como anteriormente se ha dicho, `isTAIMadrid` de `api/core.py` decide si un puesto tiene posibilidades de ser TAI y estar en Madrid. Convendría revisar esta función por si se puede afinar más.
 
 ## Encontrar las localizaciones buenas
 
