@@ -1,0 +1,53 @@
+body {
+    font-family: arial,sans serif;
+    font-size: 11pt;
+}
+h1 {
+	background-color: dimgray;
+	border-radius: 6px;
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+span.min {
+	width: 3.5em;
+	display: inline-block;
+	text-align: right;
+}
+table {
+	margin-top: 14px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	width: 100%;
+}
+thead {
+	background-color: lightblue;
+}
+td, th {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table tbody tr:nth-child(even) {
+	background-color: #ddd;
+}
+tbody tr:hover {
+	background-color: lightyellow !important;
+}
+.idde > span:first-child::after {
+	content: " - ";
+}
+.repe {
+	opacity: 0.2;
+}
+caption {
+	border: 1px solid black;
+	border-bottom: none;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px;
+	font-weight: bold;
+}
+.nb {
+    text-align: right;
+}

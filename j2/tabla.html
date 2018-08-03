@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Puestos TAI en Madrid</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+		{% for id, des in info.next_ministerio %}
+			<table>
+				<caption class="idde"><span>{{id}}</span><span>{{ des }}</caption>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Centro Directivo</th>
+						<th>Unidad</th>
+						<th>Puesto</th>
+						<th>Grupo</th>
+						<th>Nivel</th>
+						<th>Complemento</th>
+						<!--th>Pais</th-->
+						<!--th>Provincia</th-->
+						<th>Localidad</th>
+						<th>Observaciones</th>
+						<th>+</th>
+					</tr>
+				</thead>
+				<tbody>
+				{% for p in info.puestos_by_ministerio %}
+				<tr>
+					<td>{{p.idPuesto}}</td>
+					<td class="idde"><span>{{p.idCentroDirectivo}}</span><span>{{ p.deCentroDirectivo }}</span></td>
+					<td class="idde"><span>{{p.idUnidad}}</span><span>{{ p.deUnidad }}</span></td>
+					<td>{{ p.dePuesto }}</td>
+					<td>{{ p.grupo }}</td>
+					<td class="nb">{{ p.nivel }}</td>
+					<td class="nb">{{ p.complemento | int }}</td>
+					<!--td>{{ p.pais }}</td-->
+					<!--td>{{ p.deProvincia }}</td-->
+					<td title="{{p.idResidencia}}">{{ p.deLocalidad }}</td>
+					<td>{{ p.deObservaciones }}</td>
+					<td></td>
+				</tr>
+				{%endfor%}
+				</tbody>
+			</table>
+		{%endfor%}
+	</body>
+</html>
