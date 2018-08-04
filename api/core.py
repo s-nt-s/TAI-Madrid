@@ -141,7 +141,7 @@ class Puesto:
             return False
         if "C1" not in self.grupo:
             return False
-        if self.nivel < 15 and self.nivel > 22:
+        if self.nivel < 15 and self.nivel > 18: #18 es más realista que 22
             return False
         if self.idProvision == "L":
             return False

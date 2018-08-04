@@ -4,7 +4,7 @@ La primera fase es generar un listado, el cual se puede ver en: https://s-nt-s.g
 
 Y cuando se tengan las direcciones se generará el mapa.
 
-Para ver lo que se entiende por puesto TAI en Madrid observar la función `isTAIMadrid` de `api/core.py`
+Para ver lo que se entiende por puesto TAI en Madrid observar la función `isTAIMadrid` de `api/core.py` (a groso modo: son plazas C1 de nivel entre 15 y 18, que no sean de libre disposición y que contengan alguna palabra clave en su descripción).
 
 Como fuente de datos se usa los `RPT` de http://transparencia.gob.es/transparencia/transparencia_Home/index/PublicidadActiva/OrganizacionYEmpleo/Relaciones-Puestos-Trabajo.html
 
