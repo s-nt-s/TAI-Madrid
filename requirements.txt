@@ -1,0 +1,5 @@
+Jinja2==2.10
+xlrd==1.1.0
+requests==2.9.1
+PyPDF2==1.26.0
+beautifulsoup4==4.6.1
