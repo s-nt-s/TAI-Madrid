@@ -49,7 +49,7 @@ def fix(html, *args, **kargs):
         for tr in table.select("tbody tr"):
             tds = tr.findAll("td")
             rowB = [sp.sub(" ", td.get_text()).strip() for td in tds]
-            for i in range(len(rowB)):
+            for i in range(1, len(rowB)):
                 if rowA[i] == rowB[i]:
                     cl = tds[i].attrs.get("class", [])
                     cl.append("repe")
@@ -61,7 +61,7 @@ def fix(html, *args, **kargs):
 
     return str(html)
 
-todos = Puesto.load()
+todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301] #Exclur CENTROS PENITENCIARIOS 
 descripciones = Descripciones.load()
 
 paths=[]
@@ -76,7 +76,7 @@ for pais in set([p.pais for p in todos]):
         nf = Info(puestos, descripciones)
 
         j2.save("table.html", destino=path, info=nf, parse=fix)
-        paths.append((nf.deProvincia, path))
+        paths.append((nf.deProvincia, path, len([p for p in puestos if p.estado=="V"])))
 
 paths = sorted(paths)
 j2.save("index.html", paths=paths)

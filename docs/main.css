@@ -51,3 +51,27 @@ caption {
 .nb {
     text-align: right;
 }
+.vacantes {
+    cursor: help;
+    width: 2em;
+    text-align: right;
+    display: inline-block;
+}
+
+body.V .NV {
+    display: none;
+}
+
+body.V .repe {
+    opacity: 1;
+}
+
+tr.V td.V {
+    background-color: red;
+    color: white;
+	font-weight: bold;
+}
+abbr {
+    cursor: help;
+    text-decoration: none;
+}

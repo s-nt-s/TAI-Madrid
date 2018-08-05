@@ -9,8 +9,8 @@
         <p>Código fuente en <a href="https://github.com/s-nt-s/TAI-Madrid">github.com/s-nt-s/TAI-Madrid</a>.<br/>
         Se necesita ayuda para completar el listado, ver <a href="https://github.com/s-nt-s/TAI-Madrid/blob/master/README.md">README.md</a></p>
         <ul>
-		{% for txt, path in paths %}
-            <li><a href="{{path}}">{{txt}}</a></li>
+		{% for txt, path, vacantes in paths %}
+            <li><span class="vacantes" title="Vacantes">{{vacantes}}</span> <a href="{{path}}">{{txt}}</a></li>
 		{%endfor%}
         </ul>
 	</body>

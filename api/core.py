@@ -184,3 +184,10 @@ class Info:
             if k in ministerios:
                 self.cur_ministerio = k
                 yield (k, v)
+                
+    @property
+    def estado_ministerio(self):
+        if "V" in set([p.estado for p in self.puestos if p.idMinisterio == self.cur_ministerio]):
+            return "V"
+        return "NV"
+        
