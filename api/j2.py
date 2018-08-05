@@ -1,4 +1,5 @@
 from jinja2 import Environment, FileSystemLoader
+import os
 
 
 class Jnj2():
@@ -21,6 +22,13 @@ class Jnj2():
             html = parse(html, **kwargs)
         if self.post:
             html = self.post(html, **kwargs)
-        with open(self.destino + destino, "wb") as fh:
+
+        destino = self.destino + destino
+        directorio = os.path.dirname(destino)
+
+        if not os.path.exists(directorio):
+            os.makedirs(directorio)
+
+        with open(destino, "wb") as fh:
             fh.write(bytes(html, 'UTF-8'))
         return html

@@ -2,13 +2,16 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
+import os
 
 import bs4
+from shutil import copyfile
 
 from api import Descripciones, Info, Jnj2, Puesto
 
+root = "docs/"
 sp = re.compile(r"\s+")
-j2 = Jnj2("j2/", "docs/")
+j2 = Jnj2("j2/", root)
 
 
 def fix(html, *args, **kargs):
@@ -58,9 +61,23 @@ def fix(html, *args, **kargs):
 
     return str(html)
 
-puestos = Puesto.load()
+todos = Puesto.load()
 descripciones = Descripciones.load()
 
-nf = Info(puestos, descripciones)
+paths=[]
 
-j2.save("tabla.html", info=nf, parse=fix)
+for pais in set([p.pais for p in todos]):
+    for provincia in set([p.provincia for p in todos if p.pais==pais]):
+
+        puestos = [p for p in todos if p.pais==pais and p.provincia==provincia]
+        
+        path = "%03d/%02d/index.html" %(pais or "XXX", provincia or "XXX")
+        
+        nf = Info(puestos, descripciones)
+
+        j2.save("table.html", destino=path, info=nf, parse=fix)
+        paths.append((nf.deProvincia, path))
+
+paths = sorted(paths)
+j2.save("index.html", paths=paths)
+copyfile(root+"index.html", root+"tabla.html")

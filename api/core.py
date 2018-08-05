@@ -132,11 +132,7 @@ class Puesto:
     def order(self):
         return (self.deCentroDirectivo or "", self.deUnidad or "", self.deResidencia or "", self.dePuesto or "", self.nivel or -1, self.complemento or -1, self.grupo or "", self.pais or -1, self.provincia or -1, self.localidad or "")
 
-    def isTAIMadrid(self, resto=None):
-        if self.pais is not None and self.pais != 724:
-            return False
-        if self.provincia is not None and self.provincia != 28:
-            return False
+    def isTAI(self, resto=None):
         if self.grupo is None or self.nivel is None or self.dePuesto is None:
             return False
         if "C1" not in self.grupo:
@@ -170,6 +166,9 @@ class Info:
         self.descripciones = descripciones
         self.puestos = puestos
         self.cur_ministerio = None
+        self.pais = puestos[0].pais
+        self.provincia = puestos[0].provincia
+        self.deProvincia = puestos[0].deProvincia or "¿?¿?"
 
     @property
     def puestos_by_ministerio(self):

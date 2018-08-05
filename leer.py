@@ -98,7 +98,7 @@ for i in soup.select("section#block_content_ministerios a"):
                     p = Puesto(*row)
                     puestos.append(p)
 
-puestos = [p for p in puestos if p.isTAIMadrid(resto)]
+puestos = [p for p in puestos if p.isTAI(resto)]
 idde = {}
 
 for p in puestos:
