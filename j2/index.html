@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Puestos TAI</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+        <ul>
+		{% for txt, path in paths %}
+            <li><a href="{{path}}">{{txt}}</a></li>
+		{%endfor%}
+        </ul>
+	</body>
+</html>
