@@ -4,7 +4,8 @@ import re
 
 re_informatica = re.compile(
     r"(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION)", re.IGNORECASE)
-
+re_no_informatica = re.compile(
+    r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
@@ -141,7 +142,7 @@ class Puesto:
             return False
         if self.idProvision == "L":
             return False
-        if not re_informatica.search(self.dePuesto):
+        if not re_informatica.search(self.dePuesto) or re_no_informatica.search(self.dePuesto):
             if resto is not None:
                 resto.add(self.dePuesto)
             return False
