@@ -3,7 +3,7 @@ import json
 import re
 
 re_informatica = re.compile(
-    r"(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION)", re.IGNORECASE)
+    r"\b(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION|ADMINISTRADORA? DE RED|TECNIC[AO] DE GESTION DE RED)\b", re.IGNORECASE)
 re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
@@ -139,8 +139,6 @@ class Puesto:
         if "C1" not in self.grupo:
             return False
         if self.nivel < 15 or self.nivel > 18: #18 es más realista que 22
-            return False
-        if self.idProvision == "L":
             return False
         if not re_informatica.search(self.dePuesto) or re_no_informatica.search(self.dePuesto):
             if resto is not None:

@@ -62,7 +62,7 @@ def fix(html, *args, **kargs):
     return str(html)
 
 #Exclur CENTROS PENITENCIARIOS, y volver a comprobar que es TAI
-todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301 and p.isTAI()]
+todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301 and p.idProvision not in ("L", "C") and p.isTAI()]
 descripciones = Descripciones.load()
 
 paths=[]
