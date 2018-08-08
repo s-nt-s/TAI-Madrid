@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ranking destinos</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+        <p>Código fuente en <a href="https://github.com/s-nt-s/TAI-Madrid">github.com/s-nt-s/TAI-Madrid</a>.<br/>
+        Se necesita ayuda para completar el listado, ver <a href="https://github.com/s-nt-s/TAI-Madrid/blob/master/README.md">README.md</a></p>
+        <h1>Ranking</h1>
+        <p>Abajo están las fuentes completas, pero el ranking solo esta hecho con los datos de los {{pieza}} primeros que eligieron Madrid y los 10 últimos que eligieron Madrid</p>
+        <div class="ranking">
+		{% for year in ranking.keys()|sort|reverse %}
+            <h2>{{year}}</h2>
+            {% for key in claves %}
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>{{textos[key]}}</th>
+                            <th>Elegido por</th>
+                        </tr>
+                    </thead>
+                    <tbody class="arriba">
+                    {% for id, desc, veces, rank in ranking[year][key].arriba %}
+                        <tr>
+                            <td class="nb">{{id}}</td>
+                            <td>{{desc}}</td>
+                            <td class="nb">{{ rank|join(", ") }}</td>
+                        </tr>
+                    {%endfor%}
+                    </tbody>
+                    <tbody class="abajo">
+                    {% for id, desc, veces, rank in ranking[year][key].abajo|reverse %}
+                        <tr>
+                            <td class="nb">{{id}}</td>
+                            <td>{{desc}}</td>
+                            <td class="nb">{{ rank|join(", ") }}</td>
+                        </tr>
+                    {%endfor%}
+                    </tbody>
+                </table>
+            {%endfor%}
+		{%endfor%}
+        </div>
+
+
+        <h1>Fuentes</h1>
+		{% for year, _, _, nombramientos, destinos in convocatorias %}
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="10">{{year}} <sup><a href="http://www.boe.es/diario_boe/txt.php?id={{nombramientos}}" target="_blank">BOE</a></sup></th>
+                    </tr>
+                    <tr>
+                        <th>Posición</th>
+						<th>ID</th>
+						<th>Ministerio</th>
+						<th>Centro Directivo</th>
+						<th>Unidad</th>
+						<th>Puesto</th>
+						<th>Grupo</th>
+						<th>Nivel</th>
+						<th>Complemento</th>
+						<th>Localidad</th>
+						<th>Observaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+				{% for p in destinos %}
+                    <tr>
+                        <td class="nb">{{loop.index}}</td>
+                        <td>{{p.idPuesto}}</td>
+                        <td class="idde"><span>{{p.idMinisterio}}</span><span>{{ p.deMinisterio }}</span></td>
+                        <td class="idde"><span>{{p.idCentroDirectivo}}</span><span>{{ p.deCentroDirectivo }}</span></td>
+                        <td class="idde"><span>{{p.idUnidad}}</span><span>{{ p.deUnidad }}</span></td>
+                        <td>{{ p.dePuesto }}</td>
+                        <td>{{ p.grupo }}</td>
+                        <td class="nb">{{ p.nivel }}</td>
+                        <td class="nb">{{ p.complemento | int }}</td>
+                        <td title="{{p.idResidencia}}">{{ p.deLocalidad }}</td>
+                        <td>{{ p.deObservaciones }}</td>
+                    </tr>
+                {%endfor%}
+                </tbody>
+            </table>
+		{%endfor%}
+        
+	</body>
+</html>
