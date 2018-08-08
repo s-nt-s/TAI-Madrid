@@ -1,12 +1,17 @@
 from jinja2 import Environment, FileSystemLoader
 import os
 
+def minus(a, b):
+    if a and b in a:
+        a.remove(b)
+    return a
 
 class Jnj2():
 
     def __init__(self, origen, destino, pre=None, post=None):
         self.j2_env = Environment(
             loader=FileSystemLoader(origen), trim_blocks=True)
+        self.j2_env.globals['minus'] = minus
         self.destino = destino
         self.pre = pre
         self.post = post

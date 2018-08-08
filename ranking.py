@@ -74,7 +74,9 @@ convocatorias = (
 
 descripciones = Descripciones.load().__dict__
 puestos = {str(p.idPuesto): p for p in Puesto.load()}
+claves = ("idMinisterio", "idCentroDirectivo", "idUnidad")
 
+ofertas={}
 destinos = []
 for year, tipo, opositores, nombramientos, destinos in convocatorias:
     print ("")
@@ -87,6 +89,15 @@ for year, tipo, opositores, nombramientos, destinos in convocatorias:
         p=puestos[m]
         p.ranking = i
         destinos.append(p)
+        for k in claves:
+            dc = ofertas.get(k,{})
+            vl = p.__dict__.get(k, None)
+            if vl:
+                conv = dc.get(vl, set())
+                conv.add(year)
+                dc[vl]=conv
+                ofertas[k] = dc
+        
 
 def get_ranking(provincia, destinos, pieza, campo):
     destinos = [d for d in destinos if d.provincia == provincia]
@@ -112,7 +123,6 @@ def get_ranking(provincia, destinos, pieza, campo):
 pieza=15
 
 ranking = {}
-claves = ("idMinisterio", "idCentroDirectivo", "idUnidad")
 for year, _, _, _, destinos in convocatorias:
     ranking[year]={}
     for k in claves:
@@ -133,5 +143,6 @@ j2.save(
     },
     claves=claves,
     pieza=pieza,
+    ofertas=ofertas,
     parse=fix_html
 )
