@@ -19,6 +19,7 @@ table {
 	border-spacing: 0px;
 	border-collapse: collapse;
 	width: 100%;
+    margin-bottom: 14px;
 }
 thead {
 	background-color: lightblue;
@@ -74,4 +75,22 @@ tr.V td.V {
 abbr {
     cursor: help;
     text-decoration: none;
+}
+
+div.ranking table {
+    border-collapse: collapse;
+    width: unset !important;
+}
+div.ranking tr {
+    background-color: unset !important;
+}
+
+div.ranking tr {
+    background-color: unset !important;
+}
+div.ranking .repe {
+    opacity: unset !important;
+}
+div.ranking .abajo {
+    border-top: 15px solid red;
 }

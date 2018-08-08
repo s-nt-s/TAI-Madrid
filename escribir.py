@@ -7,62 +7,12 @@ import os
 import bs4
 from shutil import copyfile
 
-from api import Descripciones, Info, Jnj2, Puesto
+from api import Descripciones, Info, Jnj2, Puesto, fix_html
 
-root = "docs/"
-sp = re.compile(r"\s+")
-j2 = Jnj2("j2/", root)
-
-
-def fix(html, *args, **kargs):
-    html = bs4.BeautifulSoup(html, "html.parser")
-    for n in html.findAll("span"):
-        t = sp.sub("", n.get_text())
-        if len(t) == 0 or t == "None":
-            n.extract()
-
-    for n in html.findAll("td"):
-        t = sp.sub("", n.get_text())
-        if t == "None":
-            n.string = ""
-
-    for t in html.select(".idde"):
-        spans = t.findAll("span")
-        if len(spans) == 1:
-            spans[0].unwrap()
-            del t.attrs["class"]
-
-    for table in html.findAll("table"):
-        rows = []
-        for tr in table.select("tbody tr"):
-            rows.append([sp.sub("", td.get_text()) for td in tr.findAll("td")])
-        for i in range(len(rows[0]) - 1, -1, -1):
-            flag = True
-            for r in rows:
-                flag = flag and r[i] == ""
-            if flag:
-                for tr in table.select("tr"):
-                    tr.findAll(["td", "th"])[i].extract()
-
-    for table in html.findAll("table"):
-        rowA = (None, ) * 999
-        for tr in table.select("tbody tr"):
-            tds = tr.findAll("td")
-            rowB = [sp.sub(" ", td.get_text()).strip() for td in tds]
-            for i in range(1, len(rowB)):
-                if rowA[i] == rowB[i]:
-                    cl = tds[i].attrs.get("class", [])
-                    cl.append("repe")
-                    tds[i].attrs["class"] = cl
-            rowA = rowB
-
-    for n in html.findAll(text=lambda text: isinstance(text, bs4.Comment)):
-        n.extract()
-
-    return str(html)
+j2 = Jnj2("j2/", "docs/")
 
 #Exclur CENTROS PENITENCIARIOS, y volver a comprobar que es TAI
-todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301 and p.idProvision not in ("L", "C") and p.isTAI()]
+todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301 and p.idProvision not in ("L",) and p.isTAI()]
 descripciones = Descripciones.load()
 
 paths=[]
@@ -76,7 +26,7 @@ for pais in set([p.pais for p in todos]):
         
         nf = Info(puestos, descripciones)
 
-        j2.save("table.html", destino=path, info=nf, parse=fix)
+        j2.save("table.html", destino=path, info=nf, parse=fix_html)
         paths.append((nf.deProvincia, path, len([p for p in puestos if p.estado=="V"])))
 
 paths = sorted(paths)

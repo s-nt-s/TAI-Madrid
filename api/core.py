@@ -3,7 +3,7 @@ import json
 import re
 
 re_informatica = re.compile(
-    r"\b(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION|ADMINISTRADORA? DE RED|TECNIC[AO] DE GESTION DE RED)\b", re.IGNORECASE)
+    r"\b(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION|ADMINISTRADORA? DE RED|TECNIC[AO] DE GESTION DE RED|TECNIC[AO] DE REDES INFORMATICAS)\b", re.IGNORECASE)
 re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
@@ -52,7 +52,7 @@ class Puesto:
                         dt = desc.__dict__[k]
                         if id is not None:
                             setattr(p, k2, dt.get(id, None))
-                if p.provincia is not None:
+                if p.provincia is not None and str(p.provincia) in desc.provincias:
                     p.deProvincia = desc.provincias[str(p.provincia)]
                 else:
                     p.deProvincia = p.calcular_provincia(desc.provincias)
@@ -78,7 +78,7 @@ class Puesto:
         return p
 
     def __init__(self, *args):
-        self.remove = set(("remove",))
+        self.remove = set(("remove", "ranking"))
         if len(args) == 0:
             return
         self.idMinisterio, \
@@ -112,6 +112,7 @@ class Puesto:
                 int(i) for i in self.idResidencia.split("-")]
         if self.dePuesto is None:
             self.dePuesto = dePuestoCorta
+        self.ranking = None
 
     def calcular_provincia(self, provincias):
         if self.deCentroDirectivo and "CEUTA Y MELILLA" in self.deCentroDirectivo:
