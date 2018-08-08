@@ -3,6 +3,7 @@ import os
 
 def minus(a, b):
     if a and b in a:
+        a = set(a)
         a.remove(b)
     return a
 
