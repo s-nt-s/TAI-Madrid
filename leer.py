@@ -81,6 +81,7 @@ puestos = []
 
 count = 0
 
+visto = set()
 pdfs = set()
 for i in soup.select("section#block_content_ministerios a"):
     print (i.get_text().strip())
@@ -88,8 +89,12 @@ for i in soup.select("section#block_content_ministerios a"):
         if "funcionario" in li.get_text():
             pdf, xls = li.findAll("a")
             pdfs.add(pdf.attrs["href"])
-            print (xls.attrs["href"])
-            r = s.get(xls.attrs["href"])
+            xls = xls.attrs["href"]
+            if xls in visto:
+                continue
+            visto.add(xls)
+            print (xls)
+            r = s.get(xls)
             wb = xlrd.open_workbook(file_contents=r.content)
             sh = wb.sheet_by_index(0)
             for rx in range(sh.nrows):

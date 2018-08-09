@@ -31,4 +31,4 @@ for pais in set([p.pais for p in todos]):
 
 paths = sorted(paths)
 j2.save("index.html", paths=paths)
-copyfile(root+"index.html", root+"tabla.html")
+copyfile("docs/index.html", "docs/tabla.html")
