@@ -16,7 +16,6 @@ todos = [p for p in Puesto.load() if p.idCentroDirectivo!=1301 and p.idProvision
 descripciones = Descripciones.load()
 
 paths=[]
-
 for pais in set([p.pais for p in todos]):
     for provincia in set([p.provincia for p in todos if p.pais==pais]):
 
@@ -29,6 +28,8 @@ for pais in set([p.pais for p in todos]):
         j2.save("table.html", destino=path, info=nf, parse=fix_html)
         paths.append((nf.deProvincia, path, len([p for p in puestos if p.estado=="V"])))
 
+total_vacantes = len([p for p in todos if p.estado=="V"])
+
 paths = sorted(paths)
-j2.save("index.html", paths=paths)
+j2.save("index.html", paths=paths, total_vacantes=total_vacantes)
 copyfile("docs/index.html", "docs/tabla.html")
