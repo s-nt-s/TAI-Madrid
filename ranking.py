@@ -77,7 +77,6 @@ puestos = {str(p.idPuesto): p for p in Puesto.load()}
 claves = ("idMinisterio", "idCentroDirectivo", "idUnidad")
 
 ofertas={}
-destinos = []
 for year, tipo, opositores, nombramientos, destinos in convocatorias:
     print ("")
     print (year, tipo)
@@ -97,6 +96,7 @@ for year, tipo, opositores, nombramientos, destinos in convocatorias:
                 conv.add(year)
                 dc[vl]=conv
                 ofertas[k] = dc
+    Puesto.save(destinos, name=("%s_%s" % (year, tipo)))
         
 
 def get_ranking(provincia, destinos, pieza, campo):

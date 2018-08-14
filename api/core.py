@@ -60,8 +60,8 @@ class Puesto:
                     "-")[-1] if p.deResidencia else None
             return col
 
-    def save(col):
-        with open("data/destinos.json", "w") as f:
+    def save(col, name="destinos"):
+        with open("data/"+name+".json", "w") as f:
             f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
 
     def dict_to_puesto(obj):
