@@ -16,12 +16,21 @@ def parse_key(k):
 
 class Organismo:
 
-    def find(organismos, codigo):
+    def find(organismos, codigo, nombre=None):
         org = None
         for o in organismos:
             if o.codigo == codigo:
                 if org is None or org.version<o.version:
                     org = o
+        if org or nombre is None:
+            return org
+        nombre = nombre.lower()
+        codigos = set()
+        for o in organismos:
+            if nombre == o.deOrganismo:
+                codigos.add(o.codigo)
+        if len(codigos)==1:
+            return Organismo.find(organismos, codigos[0])
         return org
 
     def load(name="organismos"):
@@ -228,7 +237,7 @@ class Info:
             k = int(k)
             if k in ministerios:
                 self.cur_ministerio = k
-                org = Organismo.find(self.organismos, self.cur_ministerio)
+                org = Organismo.find(self.organismos, self.cur_ministerio, v)
                 yield (k, v, org)
 
     @property
@@ -238,7 +247,7 @@ class Info:
             k = int(k)
             if k in centrodirectivos:
                 self.cur_centrodirectivo = k
-                org = Organismo.find(self.organismos, self.cur_centrodirectivo)
+                org = Organismo.find(self.organismos, self.cur_centrodirectivo, v)
                 yield (k, v, org)
         self.cur_centrodirectivo = None
         if next(self.next_unidad, None):
@@ -251,7 +260,7 @@ class Info:
             k = int(k)
             if k in unidades:
                 self.cur_unidad = k
-                org = Organismo.find(self.organismos, self.cur_unidad)
+                org = Organismo.find(self.organismos, self.cur_unidad, v)
                 yield (k, v, org)
 
 
