@@ -27,9 +27,10 @@ class Organismo:
         nombre = nombre.lower()
         codigos = set()
         for o in organismos:
-            if nombre == o.deOrganismo:
+            if nombre == o.deOrganismo.lower():
                 codigos.add(o.codigo)
         if len(codigos)==1:
+            print (codigo, codigos[0])
             return Organismo.find(organismos, codigos[0])
         return org
 
