@@ -1,11 +1,14 @@
-from jinja2 import Environment, FileSystemLoader
 import os
+
+from jinja2 import Environment, FileSystemLoader
+
 
 def minus(a, b):
     if a and b in a:
         a = set(a)
         a.remove(b)
     return a
+
 
 class Jnj2():
 

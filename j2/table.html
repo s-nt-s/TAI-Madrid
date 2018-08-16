@@ -12,9 +12,9 @@
         <!--p>
             <input type="checkbox" id="vacantes" value="V" onclick="vacantes(this)"/> <label for="vacantes">Ver solo vacantes</label>
         </p-->
-		{% for id, des in info.next_ministerio %}
+		{% for id, des, _ in info.next_ministerio %}
 			<table class="{{info.estado_ministerio}}">
-				<caption class="idde"><span>{{id}}</span><span>{{ des }}</caption>
+				<caption class="idde"><span>{{id}}</span><span>{{ des }}</span></caption>
 				<thead>
 					<tr>
 						<th><abbr title="Vacante">V</abbr></th>

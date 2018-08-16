@@ -1,0 +1,9 @@
+{% if org %}
+    <p>Según Dir3:</p>
+    <ul>
+        <li><strong>ID</strong>: <span class="idde"><span>{{org.idOrganismo}}</span><span>{{org.deOrganismo}}</span></li>
+        <li><strong>Dirección</strong>: <span class="idde"><span>{{org.idDireccion}}</span><span>{{org.deDireccion}}</span></li>
+    </ul>
+{% else %}
+    <p>Según Dir3: ¡No encontrado!</p>
+{% endif %}

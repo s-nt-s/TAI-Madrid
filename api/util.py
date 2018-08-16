@@ -1,7 +1,9 @@
-import bs4
 import re
 
+import bs4
+
 sp = re.compile(r"\s+")
+
 
 def fix_html(html, *args, **kargs):
     html = bs4.BeautifulSoup(html, "html.parser")
@@ -25,7 +27,7 @@ def fix_html(html, *args, **kargs):
         rows = []
         for tr in table.select("tbody tr"):
             rows.append([sp.sub("", td.get_text()) for td in tr.findAll("td")])
-        if len (rows)==0:
+        if len(rows) == 0:
             continue
         for i in range(len(rows[0]) - 1, -1, -1):
             flag = True

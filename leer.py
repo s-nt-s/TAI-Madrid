@@ -2,43 +2,30 @@
 # -*- coding: utf-8 -*-
 import io
 import json
+import os
 import re
 import sys
-from subprocess import PIPE, Popen, check_output
-from urllib.parse import urljoin
+import xml.etree.ElementTree as ET
+from glob import glob
+from urllib.parse import unquote
 
 import bs4
-import PyPDF2
 import requests
 import xlrd
 
-from api import Descripciones, Puesto
+from api import Descripciones, Organismo, Puesto
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
 
 re_space = re.compile(r"  +")
 re_number = re.compile(r"^\d+,\d+$")
 re_categoria = re.compile(r"^\s*\d+\.\s*-\s*(.+)\s*:\s*$")
 re_spip = re.compile(r"^\s*(Página:|Fecha:|\d+/\d+/20\d+|\d+ de \d+)\s*$")
 re_residencia = re.compile(r"^\s*(\d+-\d+-\d+)\s+([A-Z].*)\s*$")
-
-root = "http://transparencia.gob.es/transparencia/transparencia_Home/index/PublicidadActiva/OrganizacionYEmpleo/Relaciones-Puestos-Trabajo.html"
-resto = set()
-
-default_headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0',
-    "Cache-Control": "no-cache",
-    "Pragma": "no-cache",
-    "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-    'Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'DNT': '1',
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    "X-Requested-With": "XMLHttpRequest",
-}
-
-s = requests.Session()
-s.headers = default_headers
+re_sp = re.compile(r"  +")
+re_puesto = re.compile(r"\b(\d{7})\b")
 
 
 def parse(cell):
@@ -57,56 +44,29 @@ def parse(cell):
         return v if len(v) else None
     return v
 
-
-def get(url, pdftotext=False):
-    if url.endswith(".pdf"):
-        if pdftotext:
-            ps = Popen(("curl", "-s", url), stdout=PIPE)
-            output = check_output(('pdftotext', '-', '-'), stdin=ps.stdout)
-            ps.wait()
-            return output.decode("utf-8")
-        r = s.get(url)
-        i = io.BytesIO(r.content)
-        pdf = PyPDF2.PdfFileReader(i, strict=False)
-        return pdf
-    r = s.get(url)
-    soup = bs4.BeautifulSoup(r.content, "lxml")
-    for a in soup.select("a[href]"):
-        a.attrs["href"] = urljoin(url, a.attrs["href"])
-    return soup
-
-soup = get(root)
-
-puestos = []
-
-count = 0
-
-visto = set()
-pdfs = set()
-for i in soup.select("section#block_content_ministerios a"):
-    print (i.get_text().strip())
-    for li in get(i.attrs["href"]).select("article#cont_gen li"):
-        if "funcionario" in li.get_text():
-            pdf, xls = li.findAll("a")
-            pdfs.add(pdf.attrs["href"])
-            xls = xls.attrs["href"]
-            if xls in visto:
-                continue
-            visto.add(xls)
-            print (xls)
-            r = s.get(xls)
-            wb = xlrd.open_workbook(file_contents=r.content)
-            sh = wb.sheet_by_index(0)
-            for rx in range(sh.nrows):
-                row = [parse(c) for c in sh.row(rx)]
-                if len(row) > 1 and isinstance(row[0], int):
-                    p = Puesto(*row)
-                    puestos.append(p)
-
-puestos = [p for p in puestos if p.isTAI(resto)]
 idde = {}
+idde["provincias"] = {}
 
-for p in puestos:
+with open("fuentes/cod_provincia.htm", 'rb') as html:
+    soup = bs4.BeautifulSoup(html, "lxml")
+    for tr in soup.select("table.miTabla tr"):
+        tds = [td.get_text().strip() for td in tr.findAll("td")]
+        if len(tds) == 2 and tds[0].isdigit():
+            cod, prov = tds
+            idde["provincias"][int(cod)] = prov
+
+todos = []
+
+for xls in glob("fuentes/*.xls"):
+    wb = xlrd.open_workbook(xls)
+    sh = wb.sheet_by_index(0)
+    for rx in range(sh.nrows):
+        row = [parse(c) for c in sh.row(rx)]
+        if len(row) > 1 and isinstance(row[0], int):
+            p = Puesto(*row)
+            todos.append(p)
+
+for p in todos:
     data = p.__dict__
     keys = [k for k in data.keys() if k.startswith("id")
             and data[k] is not None]
@@ -121,81 +81,200 @@ for p in puestos:
             v = data[k2]
             idde[sufi][k] = v
 
-idde["provincias"] = {}
-soup = get("http://www.ine.es/daco/daco42/codmun/cod_provincia.htm")
-for tr in soup.select("table.miTabla tr"):
-    tds = [td.get_text().strip() for td in tr.findAll("td")]
-    if len(tds) == 2 and tds[0].isdigit():
-        cod, prov = tds
-        idde["provincias"][int(cod)] = prov
+for pdf in glob("fuentes/*.pdf-nolayout.txt"):
+    with open(pdf, 'r') as myfile:
+        pdf = myfile.read()
+        flag = False
+        clave = None
+        key = None
+        value = None
+        for line in pdf.split("\n"):
+            line = line.replace(
+                "RELACIÓN DE PUESTOS DE TRABAJO DE FUNCIONARIOS", "")
+            line = line.strip()
+            if len(line) == 0 or re_spip.match(line):
+                continue
+            if line == "CLAVES UTILIZADAS":
+                flag = True
+                continue
+            if line == "ÍNDICE":
+                flag = False
+            if not flag:
+                continue
 
-for pdf in sorted(pdfs):
-    pdf = get(pdf, True)
-    flag = False
-    clave = None
-    key = None
-    value = None
-    for line in pdf.split("\n"):
-        line = line.replace(
-            "RELACIÓN DE PUESTOS DE TRABAJO DE FUNCIONARIOS", "")
-        line = line.strip()
-        if len(line) == 0 or re_spip.match(line):
-            continue
-        if line == "CLAVES UTILIZADAS":
-            flag = True
-            continue
-        if line == "ÍNDICE":
-            flag = False
-        if not flag:
-            continue
-
-        m = re_categoria.match(line)
-        if m or line == "RESIDENCIA:":
-            clave = None
-            key = None
-            line = m.group(1) if m else "RESIDENCIA"
-            if line in ("GENERALES", "CODIGOS DE LA UNIDADES", "CODIGOS DE LOS PUESTOS"):
-                pass
-            elif line == "TIPO DE PUESTO":
-                key = "tipoPuesto"
-            elif line == "ADSCRIPCION A ADMINISTRACION":
-                key = "adscripcionAdministrativa"
-            elif line == "ADSCRIPCION A CUERPOS":
-                key = "adscripcionCuerpo"
-            elif line == "TITULACIONES ACADEMICAS":
-                key = "titulacionAcademica"
-            elif line == "FORMACION ESPECIFICA":
-                key = "formacionEspecifica"
-            else:
-                key = line.lower()
-            continue
-
-        if key:
-            if clave is None:
-                m = re_residencia.match(line)
-                if m:
-                    clave, value = m.groups()
-                else:
-                    clave = line
-            else:
-                if value is not None and value[0] == '"':
-                    value = value + " " + line
-                else:
-                    value = line
-
-            if clave and value and (value[0] != '"' or value[-1] == '"'):
-                if value.startswith('"'):
-                    value = value[1:-1]
-                if key not in idde:
-                    idde[key] = {}
-                idde[key][clave] = value
+            m = re_categoria.match(line)
+            if m or line == "RESIDENCIA:":
                 clave = None
-                value = None
+                key = None
+                line = m.group(1) if m else "RESIDENCIA"
+                if line in ("GENERALES", "CODIGOS DE LA UNIDADES", "CODIGOS DE LOS PUESTOS"):
+                    pass
+                elif line == "TIPO DE PUESTO":
+                    key = "tipoPuesto"
+                elif line == "ADSCRIPCION A ADMINISTRACION":
+                    key = "adscripcionAdministrativa"
+                elif line == "ADSCRIPCION A CUERPOS":
+                    key = "adscripcionCuerpo"
+                elif line == "TITULACIONES ACADEMICAS":
+                    key = "titulacionAcademica"
+                elif line == "FORMACION ESPECIFICA":
+                    key = "formacionEspecifica"
+                else:
+                    key = line.lower()
+                continue
+
+            if key:
+                if clave is None:
+                    m = re_residencia.match(line)
+                    if m:
+                        clave, value = m.groups()
+                    else:
+                        clave = line
+                else:
+                    if value is not None and value[0] == '"':
+                        value = value + " " + line
+                    else:
+                        value = line
+
+                if clave and value and (value[0] != '"' or value[-1] == '"'):
+                    if value.startswith('"'):
+                        value = value[1:-1]
+                    if key not in idde:
+                        idde[key] = {}
+                    idde[key][clave] = value
+                    clave = None
+                    value = None
 
 idde = Descripciones(**idde)
 idde.save()
+Puesto.save(todos, name="destinos_all")
+
+puestos_ok = set()
+puestos_ko = set()
+
+puestos = [p for p in todos if p.isTAI(puestos_ok, puestos_ko)]
 Puesto.save(puestos)
 
-with open("data/resto_puestos.txt", "w") as f:
-    for p in sorted(resto):
+with open("data/puestos_ok.txt", "w") as f:
+    for p in sorted(puestos_ok):
         f.write(p + "\n")
+
+with open("data/puestos_ko.txt", "w") as f:
+    for p in sorted(puestos_ko):
+        f.write(p + "\n")
+
+tree = ET.parse('fuentes/Unidades.rdf')
+root = tree.getroot()
+
+
+ns = {
+    'escjr': 'http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#',
+    'rdf':   'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
+    'locn':  'http://www.w3.org/ns/locn#',
+    's': 'http://schema.org/',
+    'vcard': 'http://www.w3.org/2006/vcard/ns#',
+    'esadm': 'http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#',
+    'dcterms': 'http://purl.org/dc/terms/',
+    'skos': 'http://www.w3.org/2004/02/skos/core#',
+    'org': 'http://www.w3.org/ns/org#'
+}
+
+t_dire = "http://datos.gob.es/recurso/sector-publico/Direccion/"
+t_orga = "http://datos.gob.es/recurso/sector-publico/org/Organismo/"
+
+
+def full_attrib(attrib):
+    prefix, name = attrib.split(":")
+    attrib = "{%s}%s" % (ns[prefix], name)
+    return attrib
+
+
+def _find_rec(node, tag):
+    r = node.find(tag, ns)
+    if r is not None:
+        if r.text is None:
+            r = r.attrib.get(full_attrib("rdf:resource"), None)
+            if r is not None:
+                return unquote(r.split("/")[-1])
+        return r.text
+    for child in node:
+        r = _find_rec(child, tag)
+        if r is not None:
+            return r
+    return None
+
+
+def find_rec(node, *args):
+    for tag in args:
+        r = _find_rec(node, tag)
+        if r:
+            r = r.replace("-", " ")
+            r = re_sp.sub(" ", r)
+            r = r.strip()
+            return r
+    return None
+
+
+def parse_dire(node):
+    tipoVia = find_rec(node, "escjr:tipoVia")
+    fullAddress = find_rec(node, "locn:fullAddress", "s:streetAddress",
+                           "vcard:street-address", "escjr:officialName")
+    postCode = find_rec(node, "locn:postCode",
+                        "s:postalCode", "vcard:postal-code")
+    provincia = find_rec(node, "esadm:provincia")
+    autonomia = find_rec(node, "esadm:autonomia")
+    pais = find_rec(node, "esadm:pais")
+
+    direccion = (tipoVia.title() + " ") if tipoVia else ""
+    direccion = direccion + fullAddress
+    sufijo = [i for i in (postCode, provincia, autonomia,
+                          pais) if i is not None]
+    if len(sufijo)>0:
+        direccion = direccion + ", " + ", ".join(sufijo)
+
+    return direccion.strip()
+
+
+def parse_orga(node):
+    nombre = find_rec(node, "dcterms:title", "rdfs:label",
+                      "s:name", "vcard:organization-name", "skos:prefLabel")
+    direccion = find_rec(node, "org:siteAddress", "s:address",
+                         "locn:address", "vcard:hasAddress")
+    return nombre, direccion
+
+direcciones = {}
+for child in root:
+    about = child.attrib[full_attrib("rdf:about")]
+    if about.startswith(t_dire):
+        codigo = about[len(t_dire):].upper()
+        direccion = parse_dire(child)
+        direcciones[codigo] = direccion
+
+organismos = []
+for child in root:
+    about = child.attrib[full_attrib("rdf:about")]
+    if about.startswith(t_orga):
+        orga = about[len(t_orga):].upper()
+        nombre, direccion = parse_orga(child)
+        if direccion is not None:
+            o = Organismo(orga, nombre, direccion, direcciones[direccion])
+            organismos.append(o)
+
+Organismo.save(organismos)
+
+dic_puestos = {str(p.idPuesto): p for p in todos}
+convocatorias = (
+    (2016, 'L', 'BOE-A-2018-991'),
+    (2015, 'L', 'BOE-A-2016-12467'),
+)
+for year, tipo, nombramientos in convocatorias:
+    with open("fuentes/"+nombramientos+".pdf-layout.txt", "r") as pdf:
+        destinos=[]
+        txt = pdf.read()
+        i = 0
+        for m in re_puesto.findall(txt):
+            i = i + 1
+            p = dic_puestos[m]
+            p.ranking = i
+            destinos.append(p)
+        Puesto.save(destinos, name=("%s_%s" % (year, tipo)))

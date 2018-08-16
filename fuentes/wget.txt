@@ -1,0 +1,195 @@
+# Códigos de provincia
+http://www.ine.es/daco/daco42/codmun/cod_provincia.htm
+
+# Dir3
+http://dir3rdf.redsara.es/Unidades.rdf
+
+# BOE-A-2018-991 - 2016 Libre Nombramientos
+http://www.boe.es/boe/dias/2018/01/26/pdfs/BOE-A-2018-991.pdf
+
+# BOE-A-2016-12467 - 2015 Libre Nombramientos
+http://www.boe.es/boe/dias/2016/12/29/pdfs/BOE-A-2016-12467.pdf
+
+# Presidencia del Gobierno
+http://transparencia.gob.es/transparencia/dam/jcr:a2ecc827-175b-4f40-abe9-86b075d81717/RPT-MPRA-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:0835f107-1c8c-4205-8e5e-647a24474825/RPT-MPRA-PF.pdf
+
+# Presidencia del Gobierno
+
+# Agricultura, Pesca y Alimentación
+http://transparencia.gob.es/transparencia/dam/jcr:8469829a-3749-4a27-8e9f-45d6a8102c4a/RPT-MAPM-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:b2c125a5-0e0f-4089-8a20-6697693e4f46/RPT-MAPM-PF.pdf
+
+# Agricultura, Pesca y Alimentación
+
+# Agricultura, Pesca y Alimentación
+http://transparencia.gob.es/transparencia/dam/jcr:96e1ad9b-1ee8-4603-9713-7c7cb4e28094/RPT-MAPM-AEMET-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:bc9e2233-6a67-4f5d-847a-6fcc6911ff10/RPT-MAPM-AEMET-PF.pdf
+
+# Agricultura, Pesca y Alimentación
+
+# Asuntos Exteriores, Unión Europea y Cooperación
+http://transparencia.gob.es/transparencia/dam/jcr:25c2b1ed-69cf-46ac-9312-f7d81056adaf/RPT-MAEC-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:76aa7223-e60c-432a-87c6-17aa618c7825/RPT-MAEC-PF.pdf
+
+# Asuntos Exteriores, Unión Europea y Cooperación
+
+# Asuntos Exteriores, Unión Europea y Cooperación
+http://transparencia.gob.es/transparencia/dam/jcr:fa6c78aa-f6ae-4465-862d-4eddd5991914/RPT-MAEC-AECID-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:c6e3db66-ffce-4afb-8773-1d54c9e47b29/RPT-MAEC-AECID-PF.pdf
+
+# Asuntos Exteriores, Unión Europea y Cooperación
+
+# Defensa
+http://transparencia.gob.es/transparencia/dam/jcr:2e4a2c08-2e9b-428e-92f9-710ac347be86/RPT-MDEF-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:dbe3b91b-26e8-4738-9fde-6ac682062e71/RPT-MDEF-PF.pdf
+
+# Defensa
+
+# Economía y Empresa
+http://transparencia.gob.es/transparencia/dam/jcr:f5a9449a-aff7-43be-bc7e-5cb3c3e51e0a/RPT-MEIC-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:61e2d9b3-b36e-4403-917a-2dc8706c51d1/RPT-MEIC-PF.pdf
+
+# Economía y Empresa
+
+# Economía y Empresa
+http://transparencia.gob.es/transparencia/dam/jcr:518ecc73-5e37-4936-8018-85693e79ab96/RPT-MEIC-AEI-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:3d13f54b-7616-475d-890b-8bd32a8b3f43/RPT-MEIC-AEI-PF.pdf
+
+# Economía y Empresa
+
+# Economía y Empresa
+http://transparencia.gob.es/transparencia/dam/jcr:dc7f4c95-5ab9-4c51-8ac8-38ca09e202be/RPT-MEIC-CNMC-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:dae32880-1cc4-441c-916e-b6c8c18e2645/RPT-MEIC-CNMC-PF.pdf
+
+# Economía y Empresa
+
+# Economía y Empresa
+http://transparencia.gob.es/transparencia/dam/jcr:4b0c557a-7793-4db6-83f1-b146f4dcdb6f/RPT-MEIC-CSIC-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:4ba91b37-7003-475d-b980-ae488009dba4/RPT-MEIC-CSIC-PF.pdf
+
+# Economía y Empresa
+
+# Educación y Formación Profesional
+http://transparencia.gob.es/transparencia/dam/jcr:fd9bfefc-208b-4877-96d6-d5ff315f3063/RPT-MECD-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:7ed2246b-3d58-40ec-a9cf-c45b03da2efe/RPT-MECD-PF.pdf
+
+# Educación y Formación Profesional
+
+# Educación y Formación Profesional
+http://transparencia.gob.es/transparencia/dam/jcr:a591e24c-8767-4e23-8f8c-881d2f0b59b6/RPT-MECD-AEPSD-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:9f434c87-6e52-457c-85c5-c4c95b6a7aa4/RPT-MECD-AEPSD-PF.pdf
+
+# Educación y Formación Profesional
+
+# Fomento
+http://transparencia.gob.es/transparencia/dam/jcr:9c3bf99c-e849-43dd-b4b8-44b9566a172f/RPT-MFOM-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:6d05fa20-1f26-4d7d-92e1-28fa8d2715f1/RPT-MFOM-PF.pdf
+
+# Fomento
+
+# Fomento
+http://transparencia.gob.es/transparencia/dam/jcr:457a0e29-4023-4649-b393-83ee81d1a7c9/RPT-MFOM-AESA-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:d4e7cc63-623b-4800-9801-e3dee7ba6ed6/RPT-MFOM-AESA-PF.pdf
+
+# Fomento
+
+# Fomento
+http://transparencia.gob.es/transparencia/dam/jcr:6d9142f0-79cb-40f3-b197-f314ed941445/RPT-MFOM-AESF-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:b7f47afc-5133-4e77-b0d5-96644bf4d912/RPT-MFOM-AESF-PF.pdf
+
+# Fomento
+
+# Hacienda
+http://transparencia.gob.es/transparencia/dam/jcr:2da22bea-3bac-4143-9882-ba7f0ea2fb4f/RPT-MHFP-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:257cd2a7-5968-4087-b7b1-214087ff12e0/RPT-MHFP-PF.pdf
+
+# Hacienda
+
+# Hacienda
+http://transparencia.gob.es/transparencia/dam/jcr:82a5c435-2431-4dd4-8c37-08a01aa7bd54/RPT-MHFP-AEAT-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:83d26089-d0c8-48fb-a858-5ee5613ae163/RPT-MHFP-AEAT-PF.pdf
+
+# Hacienda
+
+# Hacienda
+http://transparencia.gob.es/transparencia/dam/jcr:f99ff621-e035-4295-98e1-66e7245fe2a8/RPT-MHFP-AIREF-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:02609e3b-1a92-4fd6-9f50-a806eff6bf34/RPT-MHFP-AIREF-PF.pdf
+
+# Hacienda
+http://transparencia.gob.es/transparencia/dam/jcr:42fdb2b1-a679-4536-84c9-929f307c0a87/RPT-MHFP-CTBG-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:319581d3-acb4-4b63-8e23-d549b9e8db88/RPT-MHFP-CTBG-PF.pdf
+
+# Hacienda
+http://transparencia.gob.es/transparencia/dam/jcr:83452f0a-bc49-4f03-af58-c0735ecb28b6/RPT-MHFP-FFPP-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:dbbb8133-4b21-40c1-aad2-d2d6784f9b70/RPT-MHFP-FFPP-PF.pdf
+
+# Industria, Comercio y Turismo
+http://transparencia.gob.es/transparencia/dam/jcr:af1a504c-501d-476f-91d4-41e74924abac/RPT-METU-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:3812d7af-519f-486a-b7c8-9eac944b2c6d/RPT-METU-PF.pdf
+
+# Industria, Comercio y Turismo
+
+# Interior
+http://transparencia.gob.es/transparencia/dam/jcr:3e1523bc-3ca8-4c32-ba4f-0d2f236b9795/RPT-MINT-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:cfc4d8ed-f508-41f6-8c0f-eead7c10f0c9/RPT-MINT-PF.pdf
+
+# Interior
+
+# Interior
+http://transparencia.gob.es/transparencia/dam/jcr:8cbf44e3-ce92-4ae5-ad51-18e19ba69869/RPT-MINT-TPFE-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:475e3143-dd2e-42f8-9388-0d327512016c/RPT-MINT-TPFE-PF.pdf
+
+# Interior
+
+# Justicia
+http://transparencia.gob.es/transparencia/dam/jcr:2438a871-5ad7-41cd-ba9e-94ff38add287/RPT-MJUS-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:285631f3-70c2-46c2-b0e6-dad6dd8b980a/RPT-MJUS-PF.pdf
+
+# Justicia
+
+# Presidencia, Relaciones con las Cortes e Igualdad
+# http://transparencia.gob.es/transparencia/dam/jcr:a2ecc827-175b-4f40-abe9-86b075d81717/RPT-MPRA-PF.xls
+# http://transparencia.gob.es/transparencia/dam/jcr:0835f107-1c8c-4205-8e5e-647a24474825/RPT-MPRA-PF.pdf
+
+# Presidencia, Relaciones con las Cortes e Igualdad
+
+# Presidencia, Relaciones con las Cortes e Igualdad
+http://transparencia.gob.es/transparencia/dam/jcr:f3cc8931-559f-441f-8876-8ed0ab4b1a0b/RPT-MPRA-BOE-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:42dacc6b-d92a-47a2-bddb-9387551806da/RPT-MPRA-BOE-PF.pdf
+
+# Presidencia, Relaciones con las Cortes e Igualdad
+
+# Presidencia, Relaciones con las Cortes e Igualdad
+http://transparencia.gob.es/transparencia/dam/jcr:7ca9c54f-310e-44a1-b08c-3e1d9ee4a7b5/RPT-MPRA-CAPN-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:56d57502-bb05-4f3a-aeaa-9fd895f32ea3/RPT-MPRA-CAPN-PF.pdf
+
+# Sanidad, Consumo y Bienestar Social
+http://transparencia.gob.es/transparencia/dam/jcr:9f417b27-5197-458b-ab0f-92b16076136e/RPT-MSSI-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:7ded66bd-3853-4c0b-b4ad-0176bfd3d37e/RPT-MSSI-PF.pdf
+
+# Sanidad, Consumo y Bienestar Social
+
+# Sanidad, Consumo y Bienestar Social
+http://transparencia.gob.es/transparencia/dam/jcr:0bf98e32-dce1-46a3-ac48-38e0eb24b71b/RPT-MSSI-AEMPS-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:2922805a-e770-4725-b9ba-31cfa73921ea/RPT-MSSI-AEMPS-PF.pdf
+
+# Sanidad, Consumo y Bienestar Social
+
+# Trabajo, Migraciones y Seguridad Social
+http://transparencia.gob.es/transparencia/dam/jcr:926a716a-9349-45ca-b381-3d5519bf9859/RPT-MESS-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:1dce9773-dc79-4a86-9284-6d5536e23dfe/RPT-MESS-PF.pdf
+
+# Trabajo, Migraciones y Seguridad Social
+
+# Agencia Española de Protección de Datos
+http://transparencia.gob.es/transparencia/dam/jcr:fbf372f4-14df-4144-b1ad-d350835728bd/RPT-AEPD-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:694c556a-c5bc-4ecd-9a7d-baa50057b952/RPT-AEPD-PF.pdf
+
+# Agencia Española de Protección de Datos
+
+# Consejo de Seguridad Nuclear
+http://transparencia.gob.es/transparencia/dam/jcr:8e0ba7f5-aed3-4f43-9ea9-6e38c526539b/RPT-CSN-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:02b3cf80-6302-4d42-b2be-e99cb9aac93e/RPT-CSN-PF.pdf
+
+# Consejo de Seguridad Nuclear

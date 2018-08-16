@@ -9,6 +9,13 @@ h1 {
 	padding: 10px;
 	margin: 0;
 }
+h2 {
+	background-color: black;
+	border-radius: 6px;
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
 span.min {
 	width: 3.5em;
 	display: inline-block;

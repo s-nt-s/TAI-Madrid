@@ -1,2 +1,8 @@
 *.pyc
 __pycache__
+notas.txt
+fuentes/*
+!fuentes/*.py
+!fuentes/*.sh
+!fuentes/*.md
+!fuentes/wget.txt
