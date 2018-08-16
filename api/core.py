@@ -24,14 +24,16 @@ class Organismo:
                     org = o
         if org or nombre is None:
             return org
+        '''
         nombre = nombre.lower()
         codigos = set()
         for o in organismos:
             if nombre == o.deOrganismo.lower():
                 codigos.add(o.codigo)
         if len(codigos)==1:
-            print (codigo, codigos[0])
-            return Organismo.find(organismos, codigos[0])
+            _codigo = codigos.pop()
+            return Organismo.find(organismos, _codigo)
+        '''
         return org
 
     def load(name="organismos"):
