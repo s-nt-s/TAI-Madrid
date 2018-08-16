@@ -8,8 +8,8 @@ Y cuando se tengan las direcciones se generará el mapa.
 
 Para ver lo que se entiende por puesto TAI observar la función `isTAI` de `api/core.py` (a groso modo: son plazas C1 de nivel entre 15 y 18, que no sean de libre disposición y que contengan alguna palabra clave en su descripción).
 
-Para entender que datos se han usado de fuente ver [fuentes/README.md](fuentes/README.md)  
-Para entender en que se convierten estos datos ver [data/README.md](data/README.md)
+Para entender que datos se han usado de fuente ver [fuentes/](fuentes/) y su README.md
+Para entender en que se convierten estos datos ver [data/](data/) y su README.md
 
 # ¿Quieres ayudar?
 

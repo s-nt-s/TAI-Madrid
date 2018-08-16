@@ -1,4 +1,4 @@
-Usándoselos ficheros de [fuentes](fuentes/README.md) se genera los siguientes datos:
+Usándoselos ficheros de [fuentes](fuentes/) se genera los siguientes datos:
 
 `destinos_all.json` con todos los destinos de los `RPT`
 
