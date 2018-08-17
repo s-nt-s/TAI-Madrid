@@ -176,7 +176,8 @@ ns = {
     'esadm': 'http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#',
     'dcterms': 'http://purl.org/dc/terms/',
     'skos': 'http://www.w3.org/2004/02/skos/core#',
-    'org': 'http://www.w3.org/ns/org#'
+    'org': 'http://www.w3.org/ns/org#',
+    'orges': 'http://datos.gob.es/def/sector-publico/organizacion/'
 }
 
 t_dire = "http://datos.gob.es/recurso/sector-publico/Direccion/"
@@ -234,14 +235,6 @@ def parse_dire(node):
 
     return direccion.strip()
 
-
-def parse_orga(node):
-    nombre = find_rec(node, "dcterms:title", "rdfs:label",
-                      "s:name", "vcard:organization-name", "skos:prefLabel")
-    direccion = find_rec(node, "org:siteAddress", "s:address",
-                         "locn:address", "vcard:hasAddress")
-    return nombre, direccion
-
 direcciones = {}
 for child in root:
     about = child.attrib[full_attrib("rdf:about")]
@@ -255,12 +248,28 @@ for child in root:
     about = child.attrib[full_attrib("rdf:about")]
     if about.startswith(t_orga):
         orga = about[len(t_orga):].upper()
-        nombre, direccion = parse_orga(child)
+        direccion = find_rec(child, "org:siteAddress", "s:address",
+                             "locn:address", "vcard:hasAddress")
         if direccion is not None:
-            o = Organismo(orga, nombre, direccion, direcciones[direccion])
+            nombre = find_rec(child, "dcterms:title", "rdfs:label",
+                              "s:name", "vcard:organization-name", "skos:prefLabel")
+            padre = find_rec(child, "org:subOrganizationOf")
+            raiz = find_rec(child, "orges:tieneUORaiz")            
+            o = Organismo(orga, nombre, direccion, direcciones[direccion], padre, raiz)
             organismos.append(o)
 
-Organismo.save(organismos)
+Organismo.save(organismos, name="organismos_all")
+
+organismos_E0 = {}
+for o in organismos:
+    if o.idOrganismo.startswith("E0"):
+        org = organismos_E0.get(o.rcp, None)
+        if org is None or org.version < o.version:
+            organismos_E0[o.rcp] = o
+
+organismos_E0 = sorted(organismos_E0.values(), key=lambda o: o.rcp)
+
+Organismo.save(organismos_E0, name="organismos_E0")
 
 dic_puestos = {str(p.idPuesto): p for p in todos}
 convocatorias = (

@@ -6,3 +6,4 @@ fuentes/*
 !fuentes/*.sh
 !fuentes/*.md
 !fuentes/wget.txt
+*.xml

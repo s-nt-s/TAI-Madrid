@@ -6,7 +6,9 @@ Usándoselos ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
 
 `2015_L.json` y `2016_L.json` con los destinos de las convocatorias pasadas
 
-`organismos.json` con los organismos de `Dir3` que tengan dirección
+`organismos_all.json` con todos los organismos de `Dir3` que tengan dirección y en todas sus versiones
+
+`organismos_E0.json` subconjunto del fichero anterior con solo los organismos `E0` y solo su última versión
 
 `descripciones.json` con la relación entre códigos y descripciones de la mayoría de los datos
 

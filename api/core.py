@@ -16,26 +16,6 @@ def parse_key(k):
 
 class Organismo:
 
-    def find(organismos, codigo, nombre=None):
-        org = None
-        for o in organismos:
-            if o.codigo == codigo:
-                if org is None or org.version<o.version:
-                    org = o
-        if org or nombre is None:
-            return org
-        '''
-        nombre = nombre.lower()
-        codigos = set()
-        for o in organismos:
-            if nombre == o.deOrganismo.lower():
-                codigos.add(o.codigo)
-        if len(codigos)==1:
-            _codigo = codigos.pop()
-            return Organismo.find(organismos, _codigo)
-        '''
-        return org
-
     def load(name="organismos"):
         with open("data/" + name + ".json", "r") as f:
             col = json.load(f, object_hook=Organismo.dict_to_organismo)
@@ -51,16 +31,20 @@ class Organismo:
         p = Organismo(**obj)
         return p
 
-    def __init__(self, idOrganismo, deOrganismo, idDireccion, deDireccion):
-        self.remove = {'remove', 'codigo', 'version'}
+    def __init__(self, idOrganismo, deOrganismo, idDireccion, deDireccion, idPadre, idRaiz, **kwargs):
+        #self.remove = {('remove',)}
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
         self.idDireccion = idDireccion
         self.deDireccion = deDireccion
+        self.idPadre = idPadre
+        self.idRaiz = idRaiz
 
-        if self.idOrganismo:
-            self.codigo = int(self.idOrganismo[2:-2])
+        if self.idOrganismo and self.idOrganismo.startswith("E0"):
+            self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
+            if self.idPadre:
+                self.rcpPadre = int(self.idPadre[2:-2])
 
 
 class Descripciones:
@@ -227,6 +211,19 @@ class Info:
         self.cur_centrodirectivo = None
         self.cur_unidad = None
 
+    def find_org(self, codigo, nombre=None, padre=None):
+        org = self.organismos.get(codigo, None)
+        if org is None and nombre is not None and padre is not None:
+            codigos = set()
+            nombre = nombre.lower()
+            for o in self.organismos.values():
+                if padre == o.rcpPadre and o.deOrganismo.lower() == nombre:
+                    codigos.add(o.rcp)
+            if len(codigos)==1:
+                codigo = codigos.pop()
+                return self.organismos[codigo]
+        return org
+
     @property
     def puestos_by_ministerio(self):
         puestos = sorted([p for p in self.puestos if p.idMinisterio ==
@@ -240,7 +237,7 @@ class Info:
             k = int(k)
             if k in ministerios:
                 self.cur_ministerio = k
-                org = Organismo.find(self.organismos, self.cur_ministerio, v)
+                org = self.find_org(self.cur_ministerio, v)
                 yield (k, v, org)
 
     @property
@@ -250,7 +247,7 @@ class Info:
             k = int(k)
             if k in centrodirectivos:
                 self.cur_centrodirectivo = k
-                org = Organismo.find(self.organismos, self.cur_centrodirectivo, v)
+                org = self.find_org(self.cur_centrodirectivo, v, self.cur_ministerio)
                 yield (k, v, org)
         self.cur_centrodirectivo = None
         if next(self.next_unidad, None):
@@ -263,7 +260,7 @@ class Info:
             k = int(k)
             if k in unidades:
                 self.cur_unidad = k
-                org = Organismo.find(self.organismos, self.cur_unidad, v)
+                org = self.find_org(self.cur_unidad, v, self.cur_centrodirectivo or self.cur_ministerio)
                 yield (k, v, org)
 
 
