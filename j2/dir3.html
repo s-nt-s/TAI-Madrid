@@ -1,8 +1,13 @@
 {% if org %}
-    <p>Según Dir3:</p>
+    <p>Según Dir3 ({% if org.rcp == id %}
+            <span class="match">{{org.idOrganismo}}</span>
+        {% else %}
+            <span class="nomatch" title="El código no coincide, se ha encontrado por nombre">¿{{org.idOrganismo}}?</span>
+        {% endif %}):
+    </p>
     <ul>
-        <li><strong>Organismo</strong>: <span class="idde"><span>{{org.idOrganismo}}</span><span>{{org.deOrganismo}}</span></li>
-        <li><strong>Dirección</strong>: <span class="idde"><span>{{org.idDireccion}}</span><span>{{org.deDireccion}}</span></li>
+        <li><strong>Organismo</strong>: {{org.deOrganismo}}</li>
+        <li><strong>Dirección</strong>: {% if org.deDireccion %}{{org.deDireccion}}{%else%}No tiene dirección ¿Quizá esta en el organismo padre?{%endif%}</li>
     </ul>
 {% else %}
     <p>Según Dir3: ¡No encontrado!</p>

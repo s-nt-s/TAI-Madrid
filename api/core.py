@@ -31,20 +31,22 @@ class Organismo:
         p = Organismo(**obj)
         return p
 
-    def __init__(self, idOrganismo, deOrganismo, idDireccion, deDireccion, idPadre, idRaiz, **kwargs):
-        #self.remove = {('remove',)}
+    def __init__(self, idOrganismo, deOrganismo, deDireccion=None, idPadres=None, idRaiz=None, **kwargs):
+        self.remove = {'remove', 'rcpPadres'}
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
-        self.idDireccion = idDireccion
         self.deDireccion = deDireccion
-        self.idPadre = idPadre
+        self.idPadres = idPadres
         self.idRaiz = idRaiz
-
+        self.rcp = None
+        self.rcpPadres = None
         if self.idOrganismo and self.idOrganismo.startswith("E0"):
             self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
-            if self.idPadre:
-                self.rcpPadre = int(self.idPadre[2:-2])
+        if self.idPadres:
+            rcpPadres = [int(i[2:-2]) for i in self.idPadres if i.startswith("E0")]
+            if len(rcpPadres)>0:
+                self.rcpPadres=rcpPadres
 
 
 class Descripciones:
@@ -217,10 +219,14 @@ class Info:
             codigos = set()
             nombre = nombre.lower()
             for o in self.organismos.values():
-                if padre == o.rcpPadre and o.deOrganismo.lower() == nombre:
-                    codigos.add(o.rcp)
+                if o.rcpPadres:
+                    for rcp in o.rcpPadres:
+                        if padre == rcp and o.deOrganismo.lower() == nombre:
+                            codigos.add(o.rcp)
             if len(codigos)==1:
+                print (codigo, end=" -> ")
                 codigo = codigos.pop()
+                print (codigo)
                 return self.organismos[codigo]
         return org
 

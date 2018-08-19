@@ -730,6 +730,25 @@
         "ranking": 37
     },
     {
+        "af": "F06",
+        "complemento": 5260.92,
+        "estado": "NV",
+        "grupo": "A2C1",
+        "idAdscripcionAdministrativa": "AE",
+        "idAdscripcionCuerpo": "EX27",
+        "idMinisterio": 47811,
+        "idProvision": "C",
+        "idPuesto": 905714,
+        "idResidencia": "724-08-001",
+        "idTipoPuesto": "N",
+        "idUnidad": 48689,
+        "localidad": 1,
+        "nivel": 18,
+        "pais": 724,
+        "provincia": 8,
+        "ranking": 38
+    },
+    {
         "complemento": 3940.72,
         "estado": "NV",
         "grupo": "C1",
@@ -747,7 +766,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 38
+        "ranking": 39
     },
     {
         "complemento": 3940.72,
@@ -767,7 +786,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 29,
-        "ranking": 39
+        "ranking": 40
     },
     {
         "complemento": 3940.72,
@@ -787,7 +806,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 40
+        "ranking": 41
     },
     {
         "complemento": 3444.56,
@@ -807,7 +826,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 41
+        "ranking": 42
     },
     {
         "complemento": 3444.56,
@@ -826,7 +845,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 41,
-        "ranking": 42
+        "ranking": 43
     },
     {
         "complemento": 3444.56,
@@ -846,7 +865,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 43
+        "ranking": 44
     },
     {
         "complemento": 3940.72,
@@ -866,7 +885,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 44
+        "ranking": 45
     },
     {
         "complemento": 3444.56,
@@ -886,7 +905,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 45
+        "ranking": 46
     },
     {
         "complemento": 3444.56,
@@ -906,7 +925,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 26,
-        "ranking": 46
+        "ranking": 47
     },
     {
         "complemento": 3444.56,
@@ -926,7 +945,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 47
+        "ranking": 48
     },
     {
         "complemento": 3444.56,
@@ -946,7 +965,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 48
+        "ranking": 49
     },
     {
         "complemento": 3444.56,
@@ -966,7 +985,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 49
+        "ranking": 50
     },
     {
         "complemento": 3444.56,
@@ -985,7 +1004,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 41,
-        "ranking": 50
+        "ranking": 51
     },
     {
         "complemento": 3444.56,
@@ -1005,7 +1024,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 51
+        "ranking": 52
     },
     {
         "complemento": 3444.56,
@@ -1025,7 +1044,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 52
+        "ranking": 53
     },
     {
         "complemento": 3444.56,
@@ -1045,7 +1064,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 53
+        "ranking": 54
     },
     {
         "complemento": 3940.72,
@@ -1065,7 +1084,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 30,
-        "ranking": 54
+        "ranking": 55
     },
     {
         "complemento": 4245.08,
@@ -1085,7 +1104,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 35,
-        "ranking": 55
+        "ranking": 56
     },
     {
         "complemento": 3940.72,
@@ -1105,7 +1124,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 56
+        "ranking": 57
     },
     {
         "complemento": 3940.72,
@@ -1125,7 +1144,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 57
+        "ranking": 58
     },
     {
         "complemento": 3940.72,
@@ -1145,7 +1164,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 12,
-        "ranking": 58
+        "ranking": 59
     },
     {
         "complemento": 3940.72,
@@ -1165,7 +1184,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 59
+        "ranking": 60
     },
     {
         "complemento": 3444.56,
@@ -1185,7 +1204,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 52,
-        "ranking": 60
+        "ranking": 61
     },
     {
         "complemento": 3940.72,
@@ -1205,7 +1224,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 61
+        "ranking": 62
     },
     {
         "complemento": 3444.56,
@@ -1224,7 +1243,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 46,
-        "ranking": 62
+        "ranking": 63
     },
     {
         "complemento": 3940.72,
@@ -1244,7 +1263,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 63
+        "ranking": 64
     },
     {
         "complemento": 3444.56,
@@ -1264,7 +1283,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 64
+        "ranking": 65
     },
     {
         "complemento": 3940.72,
@@ -1284,7 +1303,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 65
+        "ranking": 66
     },
     {
         "complemento": 3940.72,
@@ -1304,7 +1323,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 28,
-        "ranking": 66
+        "ranking": 67
     },
     {
         "complemento": 3940.72,
@@ -1324,7 +1343,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 26,
-        "ranking": 67
+        "ranking": 68
     },
     {
         "complemento": 3444.56,
@@ -1344,7 +1363,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 68
+        "ranking": 69
     },
     {
         "complemento": 3444.56,
@@ -1364,7 +1383,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 69
+        "ranking": 70
     },
     {
         "complemento": 3444.56,
@@ -1384,7 +1403,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 70
+        "ranking": 71
     },
     {
         "complemento": 3444.56,
@@ -1404,7 +1423,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 71
+        "ranking": 72
     },
     {
         "complemento": 3940.72,
@@ -1424,7 +1443,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 30,
-        "ranking": 72
+        "ranking": 73
     },
     {
         "complemento": 3940.72,
@@ -1444,7 +1463,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 44,
-        "ranking": 73
+        "ranking": 74
     },
     {
         "complemento": 3444.56,
@@ -1464,7 +1483,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 74
+        "ranking": 75
     },
     {
         "complemento": 3444.56,
@@ -1484,7 +1503,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 75
+        "ranking": 76
     },
     {
         "complemento": 3444.56,
@@ -1504,7 +1523,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 76
+        "ranking": 77
     },
     {
         "complemento": 3444.56,
@@ -1523,7 +1542,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 77
+        "ranking": 78
     },
     {
         "complemento": 3444.56,
@@ -1543,7 +1562,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 78
+        "ranking": 79
     },
     {
         "complemento": 3444.56,
@@ -1563,7 +1582,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 79
+        "ranking": 80
     },
     {
         "complemento": 3444.56,
@@ -1583,7 +1602,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 80
+        "ranking": 81
     },
     {
         "complemento": 3444.56,
@@ -1603,7 +1622,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 81
+        "ranking": 82
     },
     {
         "complemento": 3444.56,
@@ -1619,7 +1638,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 82
+        "ranking": 83
     },
     {
         "complemento": 3444.56,
@@ -1639,7 +1658,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 83
+        "ranking": 84
     },
     {
         "complemento": 3444.56,
@@ -1659,7 +1678,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 84
+        "ranking": 85
     },
     {
         "complemento": 3444.56,
@@ -1679,7 +1698,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 85
+        "ranking": 86
     },
     {
         "complemento": 3444.56,
@@ -1699,7 +1718,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 86
+        "ranking": 87
     },
     {
         "complemento": 3444.56,
@@ -1718,7 +1737,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 87
+        "ranking": 88
     },
     {
         "complemento": 3444.56,
@@ -1738,7 +1757,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 88
+        "ranking": 89
     },
     {
         "complemento": 3444.56,
@@ -1758,7 +1777,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 89
+        "ranking": 90
     },
     {
         "complemento": 3444.56,
@@ -1778,7 +1797,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 90
+        "ranking": 91
     },
     {
         "complemento": 3444.56,
@@ -1798,7 +1817,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 91
+        "ranking": 92
     },
     {
         "complemento": 3444.56,
@@ -1818,7 +1837,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 92
+        "ranking": 93
     },
     {
         "complemento": 3444.56,
@@ -1837,7 +1856,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 50,
-        "ranking": 93
+        "ranking": 94
     },
     {
         "complemento": 3444.56,
@@ -1857,7 +1876,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 31,
-        "ranking": 94
+        "ranking": 95
     },
     {
         "complemento": 3444.56,
@@ -1877,7 +1896,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 95
+        "ranking": 96
     },
     {
         "complemento": 3444.56,
@@ -1897,7 +1916,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 96
+        "ranking": 97
     },
     {
         "complemento": 3444.56,
@@ -1917,7 +1936,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 97
+        "ranking": 98
     },
     {
         "complemento": 3444.56,
@@ -1937,7 +1956,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 98
+        "ranking": 99
     },
     {
         "complemento": 3444.56,
@@ -1957,7 +1976,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 99
+        "ranking": 100
     },
     {
         "complemento": 3444.56,
@@ -1977,7 +1996,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 100
+        "ranking": 101
     },
     {
         "complemento": 3444.56,
@@ -1997,7 +2016,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 101
+        "ranking": 102
     },
     {
         "complemento": 3444.56,
@@ -2013,7 +2032,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 102
+        "ranking": 103
     },
     {
         "complemento": 3444.56,
@@ -2033,7 +2052,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 103
+        "ranking": 104
     },
     {
         "complemento": 3444.56,
@@ -2049,7 +2068,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 104
+        "ranking": 105
     },
     {
         "complemento": 3444.56,
@@ -2069,7 +2088,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 105
+        "ranking": 106
     },
     {
         "complemento": 3444.56,
@@ -2089,7 +2108,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 20,
-        "ranking": 106
+        "ranking": 107
     },
     {
         "complemento": 3444.56,
@@ -2109,7 +2128,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 107
+        "ranking": 108
     },
     {
         "complemento": 3444.56,
@@ -2129,7 +2148,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 108
+        "ranking": 109
     },
     {
         "complemento": 3444.56,
@@ -2149,7 +2168,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 109
+        "ranking": 110
     },
     {
         "complemento": 3444.56,
@@ -2169,7 +2188,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 110
+        "ranking": 111
     },
     {
         "complemento": 3444.56,
@@ -2189,7 +2208,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 111
+        "ranking": 112
     },
     {
         "complemento": 3444.56,
@@ -2209,7 +2228,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 112
+        "ranking": 113
     },
     {
         "complemento": 3444.56,
@@ -2229,7 +2248,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 113
+        "ranking": 114
     },
     {
         "complemento": 3444.56,
@@ -2249,7 +2268,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 38,
-        "ranking": 114
+        "ranking": 115
     },
     {
         "complemento": 3444.56,
@@ -2269,7 +2288,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 115
+        "ranking": 116
     },
     {
         "complemento": 3444.56,
@@ -2289,7 +2308,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 116
+        "ranking": 117
     },
     {
         "complemento": 3444.56,
@@ -2309,7 +2328,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 117
+        "ranking": 118
     },
     {
         "complemento": 3444.56,
@@ -2329,7 +2348,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 118
+        "ranking": 119
     },
     {
         "complemento": 3444.56,
@@ -2349,7 +2368,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 119
+        "ranking": 120
     },
     {
         "complemento": 3444.56,
@@ -2369,7 +2388,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 120
+        "ranking": 121
     },
     {
         "complemento": 3444.56,
@@ -2389,7 +2408,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 121
+        "ranking": 122
     },
     {
         "complemento": 3444.56,
@@ -2409,7 +2428,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 122
+        "ranking": 123
     },
     {
         "complemento": 3444.56,
@@ -2429,7 +2448,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 123
+        "ranking": 124
     },
     {
         "complemento": 3444.56,
@@ -2449,7 +2468,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 124
+        "ranking": 125
     },
     {
         "complemento": 3444.56,
@@ -2469,7 +2488,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 125
+        "ranking": 126
     },
     {
         "complemento": 3444.56,
@@ -2489,7 +2508,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 126
+        "ranking": 127
     },
     {
         "complemento": 3444.56,
@@ -2509,7 +2528,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 127
+        "ranking": 128
     },
     {
         "complemento": 3444.56,
@@ -2529,7 +2548,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 128
+        "ranking": 129
     },
     {
         "complemento": 3444.56,
@@ -2547,7 +2566,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 8,
-        "ranking": 129
+        "ranking": 130
     },
     {
         "complemento": 3444.56,
@@ -2567,7 +2586,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 130
+        "ranking": 131
     },
     {
         "complemento": 3444.56,
@@ -2587,7 +2606,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 131
+        "ranking": 132
     },
     {
         "complemento": 3940.72,
@@ -2607,7 +2626,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 8,
-        "ranking": 132
+        "ranking": 133
     },
     {
         "complemento": 3444.56,
@@ -2627,7 +2646,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 133
+        "ranking": 134
     },
     {
         "complemento": 3444.56,
@@ -2647,7 +2666,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 134
+        "ranking": 135
     },
     {
         "complemento": 3444.56,
@@ -2667,7 +2686,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 135
+        "ranking": 136
     },
     {
         "complemento": 3444.56,
@@ -2687,7 +2706,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 136
+        "ranking": 137
     },
     {
         "complemento": 3444.56,
@@ -2707,7 +2726,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 25,
-        "ranking": 137
+        "ranking": 138
     },
     {
         "complemento": 3444.56,
@@ -2727,7 +2746,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 138
+        "ranking": 139
     },
     {
         "complemento": 3444.56,
@@ -2747,7 +2766,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 139
+        "ranking": 140
     },
     {
         "complemento": 3444.56,
@@ -2767,7 +2786,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 140
+        "ranking": 141
     },
     {
         "complemento": 3444.56,
@@ -2787,7 +2806,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 141
+        "ranking": 142
     },
     {
         "complemento": 3444.56,
@@ -2807,7 +2826,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 8,
-        "ranking": 142
+        "ranking": 143
     },
     {
         "complemento": 3444.56,
@@ -2827,7 +2846,26 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 28,
-        "ranking": 143
+        "ranking": 144
+    },
+    {
+        "complemento": 4253.2,
+        "estado": "NV",
+        "grupo": "C1",
+        "idAdscripcionAdministrativa": "AE",
+        "idAdscripcionCuerpo": "EX11",
+        "idCentroDirectivo": 49260,
+        "idMinisterio": 49215,
+        "idProvision": "C",
+        "idPuesto": 964816,
+        "idResidencia": "724-08-001",
+        "idTipoPuesto": "N",
+        "idUnidad": 48063,
+        "localidad": 1,
+        "nivel": 15,
+        "pais": 724,
+        "provincia": 8,
+        "ranking": 145
     },
     {
         "complemento": 4245.08,
@@ -2847,7 +2885,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 7,
-        "ranking": 144
+        "ranking": 146
     },
     {
         "complemento": 3444.56,
@@ -2867,7 +2905,7 @@
         "nivel": 15,
         "pais": 724,
         "provincia": 7,
-        "ranking": 145
+        "ranking": 147
     },
     {
         "complemento": 3940.72,
@@ -2887,7 +2925,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 17,
-        "ranking": 146
+        "ranking": 148
     },
     {
         "complemento": 3940.72,
@@ -2907,7 +2945,7 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 8,
-        "ranking": 147
+        "ranking": 149
     },
     {
         "complemento": 4245.08,
@@ -2927,6 +2965,6 @@
         "nivel": 16,
         "pais": 724,
         "provincia": 7,
-        "ranking": 148
+        "ranking": 150
     }
 ]

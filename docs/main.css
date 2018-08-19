@@ -101,3 +101,9 @@ div.ranking .repe {
 div.ranking .abajo {
     border-top: 15px solid red;
 }
+
+span.nomatch {
+    color: red;
+    border-bottom: 1px dotted black;
+    cursor: help;
+}
