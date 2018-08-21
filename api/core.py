@@ -31,7 +31,7 @@ class Organismo:
         p = Organismo(**obj)
         return p
 
-    def __init__(self, idOrganismo, deOrganismo, deDireccion=None, idPadres=None, idRaiz=None, **kwargs):
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, idPadres=None, idRaiz=None, **kwargs):
         self.remove = {'remove', 'rcpPadres'}
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
@@ -40,6 +40,8 @@ class Organismo:
         self.idRaiz = idRaiz
         self.rcp = None
         self.rcpPadres = None
+        self.idUnidOrganica = None
+        self.latlon = None
         if self.idOrganismo and self.idOrganismo.startswith("E0"):
             self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
@@ -189,6 +191,8 @@ class Puesto:
 class MyEncoder(json.JSONEncoder):
 
     def default(self, obj):
+        if  isinstance(obj, set):
+            return super(MyEncoder, self).default(list(obj))
         if not isinstance(obj, Puesto) and not isinstance(obj, Organismo):
             return super(MyEncoder, self).default(obj)
         cp = obj.__dict__.copy()

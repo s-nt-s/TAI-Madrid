@@ -7,25 +7,31 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 from glob import glob
-from urllib.parse import unquote
+from urllib.parse import unquote, urljoin
+import time
 
 import bs4
 import requests
 import xlrd
 import argparse
+from subprocess import check_output
+import json
 
-from api import Descripciones, Organismo, Puesto
-
+from api import Descripciones, Organismo, Puesto, MyEncoder
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
-parser = argparse.ArgumentParser(description='Pasa los datos fuentes a json o similares')
+parser = argparse.ArgumentParser(
+    description='Pasa los datos fuentes a json o similares')
 parser.add_argument('--todo', action='store_true', help='Autoexplicativo')
-parser.add_argument('--rpt', action='store_true', help='Solo genera la parte de los RPT')
-parser.add_argument('--dir3', action='store_true', help='Solo genera la parte de Dir3')
-parser.add_argument('--gob', action='store_true', help='Solo genera la parte de administracion.gob.es')
+parser.add_argument('--rpt', action='store_true',
+                    help='Solo genera la parte de los RPT')
+parser.add_argument(
+    '--dir3', action='store_true', help='Solo genera la parte de Dir3')
+parser.add_argument('--gob', action='store_true',
+                    help='Solo genera la parte de administracion.gob.es')
 
 args = parser.parse_args()
 
@@ -36,7 +42,10 @@ re_categoria = re.compile(r"^\s*\d+\.\s*-\s*(.+)\s*:\s*$")
 re_spip = re.compile(r"^\s*(Página:|Fecha:|\d+/\d+/20\d+|\d+ de \d+)\s*$")
 re_residencia = re.compile(r"^\s*(\d+-\d+-\d+)\s+([A-Z].*)\s*$")
 re_sp = re.compile(r"  +")
+re_bk = re.compile(r"\s+")
 re_puesto = re.compile(r"\b(\d{6,7})\b")
+re_map = re.compile(
+    r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
 
 
 def parse(cell):
@@ -54,6 +63,7 @@ def parse(cell):
             return int(v) if v.is_integer() else v
         return v if len(v) else None
     return v
+
 
 def full_attrib(attrib):
     prefix, name = attrib.split(":")
@@ -90,8 +100,8 @@ def find_rec(node, *args, index=None):
             if value not in values:
                 values.append(value)
     if index is not None:
-        return values[index] if len(values)>index else None
-    return values if len(values)>0 else None
+        return values[index] if len(values) > index else None
+    return values if len(values) > 0 else None
 
 
 def parse_dire(node):
@@ -108,18 +118,10 @@ def parse_dire(node):
     direccion = direccion + fullAddress
     sufijo = [i for i in (postCode, provincia, autonomia,
                           pais) if i is not None]
-    if len(sufijo)>0:
+    if len(sufijo) > 0:
         direccion = direccion + ", " + ", ".join(sufijo)
 
     return direccion.strip()
-
-def get(url):
-    r = s.get(url)
-    soup = bs4.BeautifulSoup(r.content, "lxml")
-    for a in soup.select("a[href]"):
-        a.attrs["href"] = urljoin(url, a.attrs["href"])
-    return soup
-
 
 if args.rpt or args.todo:
     idde = {}
@@ -247,8 +249,8 @@ if args.rpt or args.todo:
         (2015, 'L', 'BOE-A-2016-12467'),
     )
     for year, tipo, nombramientos in convocatorias:
-        with open("fuentes/"+nombramientos+".pdf-layout.txt", "r") as pdf:
-            destinos=[]
+        with open("fuentes/" + nombramientos + ".pdf-layout.txt", "r") as pdf:
+            destinos = []
             txt = pdf.read()
             i = 0
             for m in re_puesto.findall(txt):
@@ -263,7 +265,6 @@ if args.dir3 or args.todo:
 
     tree = ET.parse('fuentes/Unidades.rdf')
     root = tree.getroot()
-
 
     ns = {
         'escjr': 'http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#',
@@ -318,9 +319,68 @@ if args.dir3 or args.todo:
             organismos_E.append(o)
 
     organismos_E.extend(organismos_E0.values())
-    organismos_E = sorted(organismos_E, key=lambda o: (o.rcp or 999999, o.idOrganismo))
+    organismos_E = sorted(
+        organismos_E, key=lambda o: (o.rcp or 999999, o.idOrganismo))
 
     Organismo.save(organismos_E, name="organismos_E")
+
+
+def tratar_gob_es(s, organismos_E, url, raiz, padre):
+    ## INICIO CHAPUZA: No tengo tiempo ahora mismo para ver porque da un 104 con s.get(url)
+    print (url)
+    url = url.replace("https://", "http://")
+    content = check_output(["curl", "-s", url])
+    ## FIN CHAPUZA
+    soup = bs4.BeautifulSoup(content, "lxml")
+    for a in soup.select("a[href]"):
+        a.attrs["href"] = urljoin(url, a.attrs["href"])
+    codigo = None
+    hijos = []
+    deDireccion = None
+    latlon = None
+    for div in soup.select("section div"):
+        for br in div.findAll("br"):
+            br.replaceWith(" ")
+        txt = re_bk.sub(" ", div.get_text()).strip()
+        if ":" not in txt:
+            continue
+        key, value = [i.strip() for i in txt.split(":", 1)]
+        if key == "Código de unidad orgánica":
+            codigo = value
+        elif key == "Estructura orgánica":
+            hijos = set([a.attrs["href"].split("&")[0]
+                        for a in div.findAll("a") if "idUnidOrganica=" in a.attrs["href"]])
+        elif key == "Dirección":
+            deDireccion = value
+    if not codigo:
+        return
+    org = organismos_E.get(codigo, None)
+    deOrganismo = re_bk.sub(
+        " ", soup.select("h1.ppg-heading")[0].get_text()).strip()
+    img = soup.find("img", attrs={"src": re_map})
+    if img:
+        latlon = re_map.search(img.attrs["src"]).group(1)
+    if org is None:
+        org = Organismo(codigo)
+    org.idUnidOrganica = int(url.split("=")[1])
+    if deOrganismo:
+        org.deOrganismo = deOrganismo
+    if deDireccion:
+        org.deDireccion = deDireccion
+    if latlon:
+        org.latlon = latlon
+    idPadres = org.idPadres or []
+    if padre and padre not in idPadres:
+        idPadres.append(padre)
+        org.idPadres = idPadres
+    if raiz:
+        org.idRaiz = raiz
+    organismos_E[codigo] = org
+    print (json.dumps(org, indent=4, cls=MyEncoder))
+
+    for h in hijos:
+        tratar_gob_es(s, organismos_E, h, raiz, codigo)
+
 
 if args.gob or args.todo:
     default_headers = {
@@ -340,6 +400,10 @@ if args.gob or args.todo:
     s = requests.Session()
     s.headers = default_headers
 
-    root = "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=1"
-    
-    
+    organismos_E = {
+        o.idOrganismo: o for o in Organismo.load(name="organismos_E")}
+
+    url = "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=1"
+    tratar_gob_es(s, organismos_E, url, None, None)
+
+    Organismo.save(organismos_E.values(), name="organismos_E")
