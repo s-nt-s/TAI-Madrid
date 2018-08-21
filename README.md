@@ -35,3 +35,7 @@ Usando `Dir3` (https://administracionelectronica.gob.es/ctt/dir3) y la alegre su
 Las que encuentra parece que están bien, pero hay lagunas importantes. Por ejemplo, sabemos que el puesto `4772958` fue en la calle Aguacate gracias al [mapa de la promoción 2016](https://www.google.com/maps/d/viewer?mid=1nFluM8VkTMcFcdYipA7KpeR-7U4&ll=40.37956469758672%2C-3.7415436354164058&z=14) y por lo tanto la unidad `50132` debería estar en Aguacate, pero este dato no aparece en `Dir3`.
 
 Por ello sería muy útil tener directamente los datos de `RCP` (Registro Central de Personal) o estudiar mejor `Dir3` a ver que se nos escapa, ya que la dirección de Aguacate si que aparece aunque no sea vinculada a la unidad `50132`.
+
+---------
+
+P.D: Este código se ha hecho deprisa y corriendo, ya lo pondré bonito para las siguientes opos.

@@ -17,7 +17,7 @@ import argparse
 from subprocess import check_output
 import json
 
-from api import Descripciones, Organismo, Puesto, MyEncoder
+from api import Descripciones, Organismo, Puesto
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -326,11 +326,9 @@ if args.dir3 or args.todo:
 
 
 def tratar_gob_es(s, organismos_E, url, raiz, padre):
-    ## INICIO CHAPUZA: No tengo tiempo ahora mismo para ver porque da un 104 con s.get(url)
     print (url)
-    url = url.replace("https://", "http://")
-    content = check_output(["curl", "-s", url])
-    ## FIN CHAPUZA
+    r = s.get(url)
+    content = r.content
     soup = bs4.BeautifulSoup(content, "lxml")
     for a in soup.select("a[href]"):
         a.attrs["href"] = urljoin(url, a.attrs["href"])
@@ -376,7 +374,6 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
     if raiz:
         org.idRaiz = raiz
     organismos_E[codigo] = org
-    print (json.dumps(org, indent=4, cls=MyEncoder))
 
     for h in hijos:
         tratar_gob_es(s, organismos_E, h, raiz, codigo)
@@ -406,4 +403,5 @@ if args.gob or args.todo:
     url = "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=1"
     tratar_gob_es(s, organismos_E, url, None, None)
 
-    Organismo.save(organismos_E.values(), name="organismos_E")
+    Organismo.save(list(organismos_E.values()), name="organismos_E")
+

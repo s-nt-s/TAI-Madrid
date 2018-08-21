@@ -31,7 +31,7 @@ class Organismo:
         p = Organismo(**obj)
         return p
 
-    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, idPadres=None, idRaiz=None, **kwargs):
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, **kwargs):
         self.remove = {'remove', 'rcpPadres'}
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
@@ -40,8 +40,8 @@ class Organismo:
         self.idRaiz = idRaiz
         self.rcp = None
         self.rcpPadres = None
-        self.idUnidOrganica = None
-        self.latlon = None
+        self.idUnidOrganica = idUnidOrganica
+        self.latlon = latlon
         if self.idOrganismo and self.idOrganismo.startswith("E0"):
             self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
