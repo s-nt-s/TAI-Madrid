@@ -11,7 +11,6 @@ from urllib.parse import unquote, urljoin
 import time
 
 import bs4
-import requests
 import xlrd
 import argparse
 import json
@@ -46,6 +45,10 @@ re_puesto = re.compile(r"\b(\d{6,7})\b")
 re_map = re.compile(
     r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
 
+def get_soup(f):
+    with open(f, 'rb') as html:
+        soup = bs4.BeautifulSoup(html, "lxml")
+        return soup
 
 def parse(cell):
     if not cell:
@@ -126,13 +129,12 @@ if args.rpt or args.todo:
     idde = {}
     idde["provincias"] = {}
 
-    with open("fuentes/cod_provincia.htm", 'rb') as html:
-        soup = bs4.BeautifulSoup(html, "lxml")
-        for tr in soup.select("table.miTabla tr"):
-            tds = [td.get_text().strip() for td in tr.findAll("td")]
-            if len(tds) == 2 and tds[0].isdigit():
-                cod, prov = tds
-                idde["provincias"][int(cod)] = prov
+    soup = get_soup("fuentes/cod_provincia.htm")
+    for tr in soup.select("table.miTabla tr"):
+        tds = [td.get_text().strip() for td in tr.findAll("td")]
+        if len(tds) == 2 and tds[0].isdigit():
+            cod, prov = tds
+            idde["provincias"][int(cod)] = prov
 
     todos = []
 
@@ -310,13 +312,18 @@ if args.dir3 or args.todo:
     Organismo.save(organismos_E, name="organismos_E")
 
 
-def tratar_gob_es(s, organismos_E, url, raiz, padre):
-    print (url)
-    r = s.get(url)
-    content = r.content
-    soup = bs4.BeautifulSoup(content, "lxml")
-    for a in soup.select("a[href]"):
-        a.attrs["href"] = urljoin(url, a.attrs["href"])
+def tratar_gob_es(visto, organismos_E, id, raiz, padre):
+    if id in visto:
+        org = visto[id]
+        idPadres = org.idPadres or []
+        if padre not in idPadres:
+            idPadres.append(padre)
+            org.idPadres = idPadres
+        return
+    print(id)
+    soup = get_soup("fuentes/administracion.gob.es/id_%06d.html" % id)
+    for n in soup.select(".hideAccessible"):
+        n.extract()
     codigo = None
     hijos = []
     deDireccion = None
@@ -325,7 +332,6 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
         for br in div.findAll("br"):
             br.replaceWith(" ")
         txt = div.get_text()
-        txt = txt.replace("Información", "")
         txt = re_bk.sub(" ", txt)
         txt = txt.strip()
         if ":" not in txt:
@@ -334,8 +340,7 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
         if key == "Código de unidad orgánica":
             codigo = value
         elif key == "Estructura orgánica":
-            hijos = set([a.attrs["href"].split("&")[0]
-                        for a in div.findAll("a") if "idUnidOrganica=" in a.attrs["href"]])
+            hijos = set([int(a.attrs["href"].split("&")[0].split("=")[1]) for a in div.select("a[href]") if "idUnidOrganica=" in a.attrs["href"]])
         elif key == "Dirección":
             deDireccion = value
     if not codigo:
@@ -348,7 +353,7 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
         latlon = re_map.search(img.attrs["src"]).group(1)
     if org is None:
         org = Organismo(codigo)
-    org.idUnidOrganica = int(url.split("=")[1])
+    org.idUnidOrganica = id
     if deOrganismo:
         org.deOrganismo = deOrganismo
     if deDireccion:
@@ -363,34 +368,23 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
         org.idRaiz = raiz
     organismos_E[codigo] = org
 
+    visto[id]=org
     for h in hijos:
-        if h!=url:
-            tratar_gob_es(s, organismos_E, h, raiz, codigo)
-
+        tratar_gob_es(visto, organismos_E, h, raiz, codigo)
 
 if args.gob or args.todo:
-    default_headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:54.0) Gecko/20100101 Firefox/54.0',
-        "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
-        "Expires": "Thu, 01 Jan 1970 00:00:00 GMT",
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'es-ES,es;q=0.8,en-US;q=0.5,en;q=0.3',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'DNT': '1',
-        'Connection': 'keep-alive',
-        'Upgrade-Insecure-Requests': '1',
-        "X-Requested-With": "XMLHttpRequest",
-    }
-
-    s = requests.Session()
-    s.headers = default_headers
-
     organismos_E = {
         o.idOrganismo: o for o in Organismo.load(name="organismos_E")}
 
-    url = "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=1"
-    tratar_gob_es(s, organismos_E, url, None, None)
+    ids = []
+    with open("fuentes/administracion.gob.es/ids.txt", "r") as f:
+        ids = f.readlines()
+
+    visto = {}
+
+    for h in ids:
+        id = int(h.strip())
+        tratar_gob_es(visto, organismos_E, id, None, None)
 
     Organismo.save(list(organismos_E.values()), name="organismos_E")
 

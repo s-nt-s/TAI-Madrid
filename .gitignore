@@ -1,6 +1,8 @@
 *.pyc
 __pycache__
+nohup.out
 notas.txt
+fuentes/administracion.gob.es/*.html
 fuentes/*
 !fuentes/*.py
 !fuentes/*.sh
