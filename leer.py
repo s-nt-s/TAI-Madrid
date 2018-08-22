@@ -14,7 +14,6 @@ import bs4
 import requests
 import xlrd
 import argparse
-from subprocess import check_output
 import json
 
 from api import Descripciones, Organismo, Puesto
@@ -307,21 +306,7 @@ if args.dir3 or args.todo:
             organismos.append(o)
 
     Organismo.save(organismos, name="organismos_all")
-
-    organismos_E0 = {}
-    organismos_E = []
-    for o in organismos:
-        if o.idOrganismo.startswith("E0"):
-            org = organismos_E0.get(o.rcp, None)
-            if org is None or org.version < o.version:
-                organismos_E0[o.rcp] = o
-        elif o.idOrganismo.startswith("EA"):
-            organismos_E.append(o)
-
-    organismos_E.extend(organismos_E0.values())
-    organismos_E = sorted(
-        organismos_E, key=lambda o: (o.rcp or 999999, o.idOrganismo))
-
+    organismos_E = [o for o in organismos if o.idOrganismo[0:2] in ("E0", "EA")]
     Organismo.save(organismos_E, name="organismos_E")
 
 
@@ -339,7 +324,10 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
     for div in soup.select("section div"):
         for br in div.findAll("br"):
             br.replaceWith(" ")
-        txt = re_bk.sub(" ", div.get_text()).strip()
+        txt = div.get_text()
+        txt = txt.replace("Información", "")
+        txt = re_bk.sub(" ", txt)
+        txt = txt.strip()
         if ":" not in txt:
             continue
         key, value = [i.strip() for i in txt.split(":", 1)]
@@ -376,7 +364,8 @@ def tratar_gob_es(s, organismos_E, url, raiz, padre):
     organismos_E[codigo] = org
 
     for h in hijos:
-        tratar_gob_es(s, organismos_E, h, raiz, codigo)
+        if h!=url:
+            tratar_gob_es(s, organismos_E, h, raiz, codigo)
 
 
 if args.gob or args.todo:
@@ -405,3 +394,17 @@ if args.gob or args.todo:
 
     Organismo.save(list(organismos_E.values()), name="organismos_E")
 
+
+organismos = Organismo.load(name="organismos_E")
+organismos_E0 = {}
+organismos_E = []
+for o in organismos:
+    if o.idOrganismo.startswith("E0"):
+        org = organismos_E0.get(o.rcp, None)
+        if org is None or org.version < o.version:
+            organismos_E0[o.rcp] = o
+    elif o.idOrganismo.startswith("EA"):
+        organismos_E.append(o)
+organismos_E.extend(organismos_E0.values())
+organismos = sorted(organismos_E, key=lambda o: (o.rcp or 999999, o.idOrganismo))
+Organismo.save(organismos, name="organismos_E")

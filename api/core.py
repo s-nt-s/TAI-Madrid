@@ -32,7 +32,7 @@ class Organismo:
         return p
 
     def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, **kwargs):
-        self.remove = {'remove', 'rcpPadres'}
+        self.remove = {'remove', 'rcpPadres', 'rcp', 'rcpPadres', 'version'}
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
         self.deDireccion = deDireccion
