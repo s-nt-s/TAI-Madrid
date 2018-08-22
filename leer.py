@@ -24,8 +24,8 @@ os.chdir(dname)
 parser = argparse.ArgumentParser(
     description='Pasa los datos fuentes a json o similares')
 parser.add_argument('--todo', action='store_true', help='Autoexplicativo')
-parser.add_argument('--rpt', action='store_true',
-                    help='Solo genera la parte de los RPT')
+parser.add_argument('--puestos', action='store_true',
+                    help='Solo genera la parte de los puestos (RPT)')
 parser.add_argument(
     '--dir3', action='store_true', help='Solo genera la parte de Dir3')
 parser.add_argument('--gob', action='store_true',
@@ -103,7 +103,7 @@ def find_rec(node, *args, index=None):
                 values.append(value)
     if index is not None:
         return values[index] if len(values) > index else None
-    return values if len(values) > 0 else None
+    return values
 
 
 def parse_dire(node):
@@ -125,10 +125,23 @@ def parse_dire(node):
 
     return direccion.strip()
 
-if args.rpt or args.todo:
+if args.puestos or args.todo:
+    xlss = list(sorted(glob("fuentes/*.xls")))
+    pdfs = list(sorted(glob("fuentes/*.pdf-nolayout.txt")))
+    
+    convocatorias = (
+        (2016, 'L', 'BOE-A-2018-991'),
+        (2015, 'L', 'BOE-A-2016-12467'),
+    )
+
+    total = 1 + len(xlss) + len(pdfs) + len(convocatorias)
+    count = 1
+    print ("Leyendo puestos")
+    print("%3d%% completado: cod_provincia.htm" % (count*100/total,), end="\r")
+    
     idde = {}
     idde["provincias"] = {}
-
+    
     soup = get_soup("fuentes/cod_provincia.htm")
     for tr in soup.select("table.miTabla tr"):
         tds = [td.get_text().strip() for td in tr.findAll("td")]
@@ -137,8 +150,10 @@ if args.rpt or args.todo:
             idde["provincias"][int(cod)] = prov
 
     todos = []
-
-    for xls in glob("fuentes/*.xls"):
+    
+    for xls in xlss:
+        count = count + 1
+        print("%3d%% completado: %-30s" % (count*100/total, os.path.basename(xls)), end="\r")
         wb = xlrd.open_workbook(xls)
         sh = wb.sheet_by_index(0)
         for rx in range(sh.nrows):
@@ -163,6 +178,8 @@ if args.rpt or args.todo:
                 idde[sufi][k] = v
 
     for pdf in glob("fuentes/*.pdf-nolayout.txt"):
+        count = count + 1
+        print("%3d%% completado: %-30s" % (count*100/total, os.path.basename(xls)[:-13]), end="\r")
         with open(pdf, 'r') as myfile:
             pdf = myfile.read()
             flag = False
@@ -245,11 +262,9 @@ if args.rpt or args.todo:
             f.write(p + "\n")
 
     dic_puestos = {str(p.idPuesto): p for p in todos}
-    convocatorias = (
-        (2016, 'L', 'BOE-A-2018-991'),
-        (2015, 'L', 'BOE-A-2016-12467'),
-    )
     for year, tipo, nombramientos in convocatorias:
+        count = count + 1
+        print("%3d%% completado: %-30s" % (count*100/total, nombramientos+".pdf"), end="\r")
         with open("fuentes/" + nombramientos + ".pdf-layout.txt", "r") as pdf:
             destinos = []
             txt = pdf.read()
@@ -261,9 +276,11 @@ if args.rpt or args.todo:
                 destinos.append(p)
             Puesto.save(destinos, name=("%s_%s" % (year, tipo)))
 
+    print ("")
 
 if args.dir3 or args.todo:
 
+    print ("Leyendo Dir3")
     tree = ET.parse('fuentes/Unidades.rdf')
     root = tree.getroot()
 
@@ -284,17 +301,25 @@ if args.dir3 or args.todo:
     t_dire = "http://datos.gob.es/recurso/sector-publico/Direccion/"
     t_orga = "http://datos.gob.es/recurso/sector-publico/org/Organismo/"
 
+    count = 0
+    total = len(root)*2
+
     direcciones = {}
     for child in root:
+        count = count + 1
         about = child.attrib[full_attrib("rdf:about")]
+        print("%3d%% completado" % (count*100/total,), end="\r")
         if about.startswith(t_dire):
             codigo = about[len(t_dire):].upper()
             direccion = parse_dire(child)
             direcciones[codigo] = direccion
+            print("%3d%% completado: %s" % (count*100/total, codigo), end="\r")
 
     organismos = []
     for child in root:
+        count = count + 1
         about = child.attrib[full_attrib("rdf:about")]
+        print("%3d%% completado" % (count*100/total,), end="\r")
         if about.startswith(t_orga):
             orga = about[len(t_orga):].upper()
             direccion = find_rec(child, "org:siteAddress", "s:address",
@@ -302,25 +327,25 @@ if args.dir3 or args.todo:
             direccion = direcciones.get(direccion, None)
             nombre = find_rec(child, "dcterms:title", "rdfs:label",
                               "s:name", "vcard:organization-name", "skos:prefLabel", index=0)
-            padre = find_rec(child, "org:subOrganizationOf")
+            padre = set(find_rec(child, "org:subOrganizationOf"))
             raiz = find_rec(child, "orges:tieneUORaiz", index=0)
             o = Organismo(orga, nombre, direccion, padre, raiz)
             organismos.append(o)
+            print("%3d%% completado: %s" % (count*100/total, orga), end="\r")
 
+    print ("")
     Organismo.save(organismos, name="organismos_all")
     organismos_E = [o for o in organismos if o.idOrganismo[0:2] in ("E0", "EA")]
     Organismo.save(organismos_E, name="organismos_E")
 
 
-def tratar_gob_es(visto, organismos_E, id, raiz, padre):
+def tratar_gob_es(total, visto, organismos_E, id, raiz, padre):
     if id in visto:
         org = visto[id]
-        idPadres = org.idPadres or []
-        if padre not in idPadres:
-            idPadres.append(padre)
-            org.idPadres = idPadres
+        if padre:
+            org.idPadres.add(padre)
         return
-    print(id)
+    print("%3d%% completado: %6d" % (len(visto.keys())*100/total, id), end="\r")
     soup = get_soup("fuentes/administracion.gob.es/id_%06d.html" % id)
     for n in soup.select(".hideAccessible"):
         n.extract()
@@ -360,32 +385,32 @@ def tratar_gob_es(visto, organismos_E, id, raiz, padre):
         org.deDireccion = deDireccion
     if latlon:
         org.latlon = latlon
-    idPadres = org.idPadres or []
-    if padre and padre not in idPadres:
-        idPadres.append(padre)
-        org.idPadres = idPadres
+    if padre:
+        org.idPadres.add(padre)
     if raiz:
         org.idRaiz = raiz
     organismos_E[codigo] = org
 
     visto[id]=org
     for h in hijos:
-        tratar_gob_es(visto, organismos_E, h, raiz, codigo)
+        tratar_gob_es(total, visto, organismos_E, h, raiz, codigo)
 
 if args.gob or args.todo:
     organismos_E = {
         o.idOrganismo: o for o in Organismo.load(name="organismos_E")}
 
+    print ("Leyendo administracion.gob.es")
+    
     ids = []
     with open("fuentes/administracion.gob.es/ids.txt", "r") as f:
         ids = f.readlines()
 
     visto = {}
-
+    total = len(ids)
     for h in ids:
         id = int(h.strip())
-        tratar_gob_es(visto, organismos_E, id, None, None)
-
+        tratar_gob_es(total, visto, organismos_E, id, None, None)
+    print("100% completado" + (" "*10))
     Organismo.save(list(organismos_E.values()), name="organismos_E")
 
 
@@ -399,6 +424,6 @@ for o in organismos:
             organismos_E0[o.rcp] = o
     elif o.idOrganismo.startswith("EA"):
         organismos_E.append(o)
+
 organismos_E.extend(organismos_E0.values())
-organismos = sorted(organismos_E, key=lambda o: (o.rcp or 999999, o.idOrganismo))
 Organismo.save(organismos, name="organismos_E")

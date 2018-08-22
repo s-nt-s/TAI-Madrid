@@ -22,6 +22,7 @@ class Organismo:
             return col
 
     def save(col, name="organismos"):
+        col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
         with open("data/" + name + ".json", "w") as f:
             f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
 
@@ -36,19 +37,19 @@ class Organismo:
         self.idOrganismo = idOrganismo
         self.deOrganismo = deOrganismo
         self.deDireccion = deDireccion
-        self.idPadres = idPadres
+        self.idPadres = idPadres or set()
         self.idRaiz = idRaiz
         self.rcp = None
-        self.rcpPadres = None
+        self.rcpPadres = set()
         self.idUnidOrganica = idUnidOrganica
         self.latlon = latlon
+        if isinstance(self.idPadres, list):
+            self.idPadres = set(self.idPadres)
         if self.idOrganismo and self.idOrganismo.startswith("E0"):
             self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
         if self.idPadres:
-            rcpPadres = [int(i[2:-2]) for i in self.idPadres if i.startswith("E0")]
-            if len(rcpPadres)>0:
-                self.rcpPadres=rcpPadres
+            self.rcpPadres = set([int(i[2:-2]) for i in self.idPadres if i.startswith("E0")])
 
 
 class Descripciones:
@@ -99,6 +100,7 @@ class Puesto:
             return col
 
     def save(col, name="destinos_tai"):
+        col = sorted(col, key=lambda o: o.idPuesto)
         with open("data/" + name + ".json", "w") as f:
             f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
 
@@ -191,15 +193,21 @@ class Puesto:
 class MyEncoder(json.JSONEncoder):
 
     def default(self, obj):
-        if  isinstance(obj, set):
-            return super(MyEncoder, self).default(list(obj))
+        if isinstance(obj, set):
+            return super(MyEncoder, self).default(list(sorted(obj)))
         if not isinstance(obj, Puesto) and not isinstance(obj, Organismo):
             return super(MyEncoder, self).default(obj)
         cp = obj.__dict__.copy()
         _remove = cp.get("remove", set())
         for k in list(cp.keys()):
-            if cp[k] is None or k in _remove:
+            v = cp[k]
+            if k in _remove or v is None:
                 del cp[k]
+            elif isinstance(v, set):
+                if len(v)==0:
+                    del cp[k]
+                else:
+                    cp[k] = list(sorted(v))
         return cp
 
 

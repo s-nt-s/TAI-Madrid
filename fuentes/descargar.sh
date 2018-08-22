@@ -30,3 +30,6 @@ while IFS='' read -r i || [[ -n "$line" ]]; do
     printf -v OUT "id_%06d.html" $i
     wget --no-clobber --continue -O $OUT "$URL"
 done < "ids.txt"
+
+sed -e '/^\s*$/d' -e 's/\s\s*/ /g' -i *.html
+
