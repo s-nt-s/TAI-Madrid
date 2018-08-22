@@ -1,14 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import os
-import re
-import sys
 from shutil import copyfile
 
 import bs4
-import sys
 
-from api import Descripciones, Info, Jnj2, Puesto, fix_html, Organismo
+from api import Descripciones, Info, Jnj2, Organismo, Puesto, fix_html
 
 j2 = Jnj2("j2/", "docs/")
 
@@ -17,7 +13,7 @@ j2 = Jnj2("j2/", "docs/")
 todos = [p for p in Puesto.load() if p.idCentroDirectivo !=
          1301 and p.idProvision not in ("L",) and p.isTAI()]
 descripciones = Descripciones.load()
-organismos = {(o.rcp or o.idOrganismo):o for o in Organismo.load(name="organismos_E")}
+organismos = {(o.rcp or o.idOrganismo): o for o in Organismo.load(name="organismos_E")}
 
 nf = Info(todos, descripciones, organismos)
 j2.save("direcciones.html", info=nf, parse=fix_html)

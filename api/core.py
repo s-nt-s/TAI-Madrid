@@ -49,7 +49,8 @@ class Organismo:
             self.rcp = int(self.idOrganismo[2:-2])
             self.version = int(self.idOrganismo[-2:])
         if self.idPadres:
-            self.rcpPadres = set([int(i[2:-2]) for i in self.idPadres if i.startswith("E0")])
+            self.rcpPadres = set([int(i[2:-2])
+                                  for i in self.idPadres if i.startswith("E0")])
 
 
 class Descripciones:
@@ -204,7 +205,7 @@ class MyEncoder(json.JSONEncoder):
             if k in _remove or v is None:
                 del cp[k]
             elif isinstance(v, set):
-                if len(v)==0:
+                if len(v) == 0:
                     del cp[k]
                 else:
                     cp[k] = list(sorted(v))
@@ -220,7 +221,7 @@ class Info:
         self.provincia = puestos[0].provincia
         self.deProvincia = puestos[0].deProvincia or "¿?¿?"
         self.organismos = organismos
-        
+
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None
@@ -235,7 +236,7 @@ class Info:
                     for rcp in o.rcpPadres:
                         if padre == rcp and o.deOrganismo.lower() == nombre:
                             codigos.add(o.rcp)
-            if len(codigos)==1:
+            if len(codigos) == 1:
                 print (codigo, end=" -> ")
                 codigo = codigos.pop()
                 print (codigo)
@@ -260,12 +261,14 @@ class Info:
 
     @property
     def next_centrodirectivo(self):
-        centrodirectivos = set([p.idCentroDirectivo for p in self.puestos if p.idMinisterio == self.cur_ministerio])
+        centrodirectivos = set(
+            [p.idCentroDirectivo for p in self.puestos if p.idMinisterio == self.cur_ministerio])
         for k, v in sorted(self.descripciones.centroDirectivo.items(), key=lambda i: i[1]):
             k = int(k)
             if k in centrodirectivos:
                 self.cur_centrodirectivo = k
-                org = self.find_org(self.cur_centrodirectivo, v, self.cur_ministerio)
+                org = self.find_org(self.cur_centrodirectivo,
+                                    v, self.cur_ministerio)
                 yield (k, v, org)
         self.cur_centrodirectivo = None
         if next(self.next_unidad, None):
@@ -273,14 +276,15 @@ class Info:
 
     @property
     def next_unidad(self):
-        unidades = set([p.idUnidad for p in self.puestos if p.idMinisterio == self.cur_ministerio and p.idCentroDirectivo == self.cur_centrodirectivo])
+        unidades = set([p.idUnidad for p in self.puestos if p.idMinisterio ==
+                        self.cur_ministerio and p.idCentroDirectivo == self.cur_centrodirectivo])
         for k, v in sorted(self.descripciones.unidad.items(), key=lambda i: i[1]):
             k = int(k)
             if k in unidades:
                 self.cur_unidad = k
-                org = self.find_org(self.cur_unidad, v, self.cur_centrodirectivo or self.cur_ministerio)
+                org = self.find_org(
+                    self.cur_unidad, v, self.cur_centrodirectivo or self.cur_ministerio)
                 yield (k, v, org)
-
 
     @property
     def estado_ministerio(self):

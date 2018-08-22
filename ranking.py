@@ -1,13 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import io
-import re
 from subprocess import PIPE, Popen, check_output
-from urllib.parse import urljoin
 
 import bs4
-import PyPDF2
 import requests
 
 from api import Descripciones, Info, Jnj2, Puesto, fix_html
