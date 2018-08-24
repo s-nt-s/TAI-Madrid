@@ -235,9 +235,9 @@ class Info:
 
     def _find_org(self, codigo, nombre=None, padre=None):
         if codigo in self.arreglos:
-            print (codigo, end=" -> ")
+            #print (codigo, end=" -> ")
             codigo = self.arreglos[codigo]
-            print (codigo)
+            #print (codigo)
             if isinstance(codigo,str):
                 return self.organismos[codigo]
         org = self.organismos.get(codigo, None)
@@ -250,9 +250,9 @@ class Info:
                         if padre == rcp and nombre in (o.deOrganismo.lower(), o.nombre):
                             codigos.add(o.rcp)
             if len(codigos) == 1:
-                print (codigo, end=" --> ")
+                #print (codigo, end=" --> ")
                 codigo = codigos.pop()
-                print (codigo)
+                #print (codigo)
                 return self.organismos[codigo]
         return org
 
@@ -263,22 +263,27 @@ class Info:
 
         deDireccion = None
         if org.deDireccion:
-            deDireccion = org.deDireccion.replace("Avda ", "Avenida").split(",")[0].lower()
+            deDireccion = org.deDireccion.replace("Avda ", "Avenida ").split(",")[0].lower()
         orgs = set()
         for o in self.organismos.values():
             if o != org and o.nombre == org.nombre:
                 orgs.add(o)
         if deDireccion and len(orgs)>1:
             for o in list(orgs):
-                if not o.deDireccion or not o.deDireccion.lower().startswith(deDireccion):
+                if not o.latlon or not o.deDireccion or not o.deDireccion.lower().startswith(deDireccion):
                     orgs.remove(o)
         if len(orgs)==1:
             o = orgs.pop()
             if o.idUnidOrganica:
-                print (str(codigo) + " ---> "+ str(o.idOrganismo))
-                print (org.deDireccion)
-                print (o.deDireccion)
+                #print (str(codigo) + " ---> "+ str(o.idOrganismo))
+                #print (org.deDireccion)
+                #print (o.deDireccion)
                 return o
+        if False and len(orgs)>1 and deDireccion:
+            print (codigo)
+            if org:
+                print (json.dumps(org, indent=4, sort_keys=True, cls=MyEncoder))
+            print (json.dumps(list(orgs), indent=4, sort_keys=True, cls=MyEncoder))
         return org
 
     @property
