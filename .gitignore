@@ -1,11 +1,12 @@
 *.pyc
+*.xml
 __pycache__
 nohup.out
 notas.txt
-fuentes/administracion.gob.es/*.html
 fuentes/*
+
+!fuentes/administracion.gob.es/ids.txt
 !fuentes/*.py
 !fuentes/*.sh
 !fuentes/*.md
 !fuentes/wget.txt
-*.xml

@@ -2,7 +2,7 @@
 
 cd "$(dirname "$0")"
 
-if [ "$1" == "--borrar" ];
+if [ "$1" == "--borrar" ]; then
     find . -type f -not -name '*.py' -not -name '*.md' -not -name '*.sh' -delete
     find administracion.gob.es -type f -name "*.html" -delete
 fi
