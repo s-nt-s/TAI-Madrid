@@ -2,6 +2,8 @@
 import json
 import re
 
+from .util import yaml_from_file
+
 re_informatica = re.compile(
     r"\b(PROGRAMADORA?|INFORMATIC[AO]|DESARROLLO|SISTEMAS|PROGRAMACION|ADMINISTRADORA? DE RED|TECNIC[AO] DE GESTION DE RED|TECNIC[AO] DE REDES INFORMATICAS)\b", re.IGNORECASE)
 re_no_informatica = re.compile(
@@ -51,6 +53,10 @@ class Organismo:
         if self.idPadres:
             self.rcpPadres = set([int(i[2:-2])
                                   for i in self.idPadres if i.startswith("E0")])
+
+    @property
+    def nombre(self):
+        return self.deOrganismo.lower().replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
 
 
 class Descripciones:
@@ -221,12 +227,19 @@ class Info:
         self.provincia = puestos[0].provincia
         self.deProvincia = puestos[0].deProvincia or "¿?¿?"
         self.organismos = organismos
+        self.arreglos = yaml_from_file("data/arreglos.yml")
 
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None
 
-    def find_org(self, codigo, nombre=None, padre=None):
+    def _find_org(self, codigo, nombre=None, padre=None):
+        if codigo in self.arreglos:
+            print (codigo, end=" -> ")
+            codigo = self.arreglos[codigo]
+            print (codigo)
+            if isinstance(codigo,str):
+                return self.organismos[codigo]
         org = self.organismos.get(codigo, None)
         if org is None and nombre is not None and padre is not None:
             codigos = set()
@@ -234,13 +247,38 @@ class Info:
             for o in self.organismos.values():
                 if o.rcpPadres:
                     for rcp in o.rcpPadres:
-                        if padre == rcp and o.deOrganismo.lower() == nombre:
+                        if padre == rcp and nombre in (o.deOrganismo.lower(), o.nombre):
                             codigos.add(o.rcp)
             if len(codigos) == 1:
-                print (codigo, end=" -> ")
+                print (codigo, end=" --> ")
                 codigo = codigos.pop()
                 print (codigo)
                 return self.organismos[codigo]
+        return org
+
+    def find_org(self, codigo, nombre=None, padre=None):
+        org = self._find_org(codigo, nombre=nombre, padre=padre)
+        if not org or org.idUnidOrganica:
+            return org
+
+        deDireccion = None
+        if org.deDireccion:
+            deDireccion = org.deDireccion.replace("Avda ", "Avenida").split(",")[0].lower()
+        orgs = set()
+        for o in self.organismos.values():
+            if o != org and o.nombre == org.nombre:
+                orgs.add(o)
+        if deDireccion and len(orgs)>1:
+            for o in list(orgs):
+                if not o.deDireccion or not o.deDireccion.lower().startswith(deDireccion):
+                    orgs.remove(o)
+        if len(orgs)==1:
+            o = orgs.pop()
+            if o.idUnidOrganica:
+                print (str(codigo) + " ---> "+ str(o.idOrganismo))
+                print (org.deDireccion)
+                print (o.deDireccion)
+                return o
         return org
 
     @property

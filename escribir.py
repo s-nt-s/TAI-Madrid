@@ -13,7 +13,12 @@ j2 = Jnj2("j2/", "docs/")
 todos = [p for p in Puesto.load() if p.idCentroDirectivo !=
          1301 and p.idProvision not in ("L",) and p.isTAI()]
 descripciones = Descripciones.load()
-organismos = {(o.rcp or o.idOrganismo): o for o in Organismo.load(name="organismos_E")}
+
+organismos = Organismo.load(name="organismos_E")
+
+organismos_rcp = {o.rcp: o for o in organismos if o.rcp}
+organismos_ids = {o.idOrganismo: o for o in organismos}
+organismos = {**organismos_rcp, **organismos_ids}
 
 nf = Info(todos, descripciones, organismos)
 j2.save("direcciones.html", info=nf, parse=fix_html)

@@ -1,7 +1,7 @@
 {% if org %}
     <p>Según Dir3
-        (<span {% if org.rcp != id %}class="nomatch" title="El código no coincide, se ha encontrado por nombre" {% endif %}>
-            {% if org.idUnidOrganica %}<a href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica={{org.idUnidOrganica}}">{% endif %}
+        (<span {% if org.rcp != id %}class="nomatch" title="El código no coincide, se ha encontrado por alguna ñapa" {% endif %}>
+            {% if org.idUnidOrganica %}<a target="_gob_es" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica={{org.idUnidOrganica}}">{% endif %}
             {{org.idOrganismo}}
             {% if org.idUnidOrganica %}</a>{% endif %}
         </span>):
@@ -9,11 +9,11 @@
     <ul>
         <li><strong>Organismo</strong>: {{org.deOrganismo}}</li>
         <li><strong>Dirección</strong>:
-            {% if org.latlon %}<a href="https://www.google.com/maps?q={{org.latlon}}">{% endif %}
+            {% if org.latlon %}<a target="_map" href="https://www.google.com/maps?q={{org.latlon}}">{% endif %}
             {% if org.deDireccion %}{{org.deDireccion}}{%else%}No tiene dirección ¿Quizá esta en el organismo padre?{%endif%}
             {% if org.idUnidOrganica %}</a>{% endif %}
         </li>
     </ul>
 {% else %}
-    <p>Según Dir3: ¡No encontrado!</p>
+    <p>Según Dir3: ¡No encontrado! <a target="_buscar" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm?CIdNivelAdmon=0&CDnmUdOrganica={{des}}" >¿Buscar?</a></p>
 {% endif %}

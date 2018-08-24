@@ -41,12 +41,6 @@ re_map = re.compile(
     r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
 
 
-def get_soup(f):
-    with open(f, 'rb') as html:
-        soup = bs4.BeautifulSoup(html, "lxml")
-        return soup
-
-
 def parse(cell):
     if not cell:
         return None
@@ -140,7 +134,7 @@ if args.puestos or args.todo:
     idde = {}
     idde["provincias"] = {}
 
-    soup = get_soup("fuentes/cod_provincia.htm")
+    soup = soup_from_file("fuentes/cod_provincia.htm")
     for tr in soup.select("table.miTabla tr"):
         tds = [td.get_text().strip() for td in tr.findAll("td")]
         if len(tds) == 2 and tds[0].isdigit():
@@ -351,7 +345,7 @@ def tratar_gob_es(total, visto, organismos_E, id, raiz, padre):
         return
     print("%3d%% completado: %6d" %
           (len(visto.keys()) * 100 / total, id), end="\r")
-    soup = get_soup("fuentes/administracion.gob.es/id_%06d.html" % id)
+    soup = soup_from_file("fuentes/administracion.gob.es/id_%06d.html" % id)
     for n in soup.select(".hideAccessible"):
         n.extract()
     codigo = None
@@ -432,4 +426,4 @@ for o in organismos:
         organismos_E.append(o)
 
 organismos_E.extend(organismos_E0.values())
-Organismo.save(organismos, name="organismos_E")
+Organismo.save(organismos_E, name="organismos_E")
