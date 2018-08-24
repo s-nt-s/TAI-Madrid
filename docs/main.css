@@ -103,7 +103,6 @@ div.ranking .abajo {
 }
 
 span.nomatch {
-    color: red;
-    border-bottom: 1px dotted black;
+    font-style: italic;
     cursor: help;
 }
