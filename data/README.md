@@ -1,4 +1,4 @@
-Usándoselos ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
+Usándose los ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
 
 `destinos_all.json` con todos los destinos de los `RPT`
 
@@ -6,9 +6,15 @@ Usándoselos ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
 
 `2015_L.json` y `2016_L.json` con los destinos de las convocatorias pasadas
 
-`organismos_all.json` con todos los organismos de `Dir3`
+`organismos_dir3.json` con todos los organismos de `Dir3`
 
-`organismos_E.json` subconjunto del fichero anterior con solo los organismos `E0` y solo su última versión + los organismos `EA`
+`organismos_dir3_E.json` subconjunto del fichero anterior con solo los organismos `E0` en su última versión + los organismos `EA`
+
+`organismos_rpt.json` organismos extraídos de los `RPT`
+
+`organismos_gob.es.json` organismos obtenidos de administracion.gob.es
+
+`organismos.json` una fusión de los `organismos_*.json` anteriores
 
 `descripciones.json` con la relación entre códigos y descripciones de la mayoría de los datos
 

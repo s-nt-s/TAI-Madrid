@@ -1,6 +1,6 @@
 {% if org %}
     <p>Según Dir3
-        (<span {% if org.rcp != id %}class="nomatch" title="El código no coincide, se ha encontrado por alguna ñapa" {% endif %}>
+        (<span {% if id != org.rcp %}class="nomatch" title="El código no coincide, se ha encontrado por alguna ñapa" {% endif %}>
             {% if org.idUnidOrganica %}<a target="_gob_es" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica={{org.idUnidOrganica}}">{% endif %}{{org.idOrganismo}}{% if org.idUnidOrganica %}</a>{% endif %}
         </span>) {% if not org.idUnidOrganica and not org.latlon %}<a title="Ver si esta en administracion.gob.es con otro código" target="_buscar" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm?CIdNivelAdmon=0&CDnmUdOrganica={{des}}" >¿actualizar?</a>{% endif %}:
     </p>

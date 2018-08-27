@@ -9,12 +9,15 @@ re_informatica = re.compile(
 re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
+re_guion=re.compile(r"\s*-\s*")
 
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
         return int(k)
     return k
 
+def simplificar(s):
+    return s.lower().replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
 
 class Organismo:
 
@@ -24,9 +27,8 @@ class Organismo:
             return col
 
     def save(col, name="organismos"):
-        col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
         with open("data/" + name + ".json", "w") as f:
-            f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
+            f.write(Organismo.to_json(col))
 
     def dict_to_organismo(obj):
         if not isinstance(obj, dict) or "idOrganismo" not in obj:
@@ -34,29 +36,75 @@ class Organismo:
         p = Organismo(**obj)
         return p
 
-    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, **kwargs):
-        self.remove = {'remove', 'rcpPadres', 'rcp', 'rcpPadres', 'version'}
+    def to_json(col):
+        if isinstance(col, list) or isinstance(col, set):
+            col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
+        return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
+
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, **kwargs):
+        self.remove = {'remove', 'nombres', 'nombre', 'rcp', 'version'}
+        if isinstance(idPadres, list):
+            idPadres = set(idPadres)
+        if isinstance(codigos, list):
+            codigos = set(codigos)
         self.idOrganismo = idOrganismo
+        self.idUnidOrganica = idUnidOrganica
         self.deOrganismo = deOrganismo
         self.deDireccion = deDireccion
+        self.postCode = postCode
         self.idPadres = idPadres or set()
+        self.codigos = codigos or set()
         self.idRaiz = idRaiz
-        self.rcp = None
-        self.rcpPadres = set()
-        self.idUnidOrganica = idUnidOrganica
         self.latlon = latlon
-        if isinstance(self.idPadres, list):
-            self.idPadres = set(self.idPadres)
-        if self.idOrganismo and self.idOrganismo.startswith("E0"):
-            self.rcp = int(self.idOrganismo[2:-2])
-            self.version = int(self.idOrganismo[-2:])
-        if self.idPadres:
-            self.rcpPadres = set([int(i[2:-2])
-                                  for i in self.idPadres if i.startswith("E0")])
+        self.nombres = None
+        self.rcp = None
+        self.version = None
+        if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
+            self.rcp, self.version = int(self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
+        self.genera_codigos()
+        self.genera_nombres()
+
+    def genera_codigos(self):
+        self.codigos.add(self.idOrganismo)
+        for c in list(self.codigos):
+            if isinstance(c, str) and c.startswith("E0"):
+                self.codigos.add(int(c[2:-2]))
+        for c in list(self.idPadres):
+            if isinstance(c, str) and c.startswith("E0"):
+                self.idPadres.add(int(c[2:-2]))
+
+    def genera_nombres(self):
+        nombre = simplificar(self.deOrganismo)
+        self.nombres = set()
+        self.nombres.add(nombre)
+        flag = True
+        #self.nombres.add(re_guion.sub(" ", nombre))
+        if nombre.startswith("s. g. "):
+            nombre = nombre.replace("s. g. ", "subdireccion general ")
+            self.nombres.add(nombre)
+        if nombre.startswith("del.gob. "):
+            nombre = nombre.replace("del.gob. ", "delegacion del gobierno ")
+            self.nombres.add(nombre)
+        if nombre.startswith("subdel.gob. "):
+            nombre = nombre.replace("subdel.gob. ", "subdelegacion del gobierno ")
+            self.nombres.add(nombre)
+        if nombre.startswith("subdelegacion ") and nombre.endswith(" - s.gral."):
+            nombre = nombre.replace(" - s.gral.", " - subdelegacion")
+            self.nombres.add(nombre)
+        if nombre.startswith("subdelegacion ") and nombre.endswith(" s.gral."):
+            nombre = nombre.replace(" s.gral.", " - subdelegacion")
+            self.nombres.add(nombre)
+        if len(self.nombres)==1 and not nombre.endswith(" - subdelegacion"):
+            self.nombres.add(re_guion.sub(" ", nombre))
 
     @property
-    def nombre(self):
-        return self.deOrganismo.lower().replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+    def dire(self):
+        if self.deDireccion is None:
+            return None
+        deDireccion = self.deDireccion.replace("Avda ", "Avenida ")
+        deDireccion = deDireccion.replace("-", " ")
+        deDireccion = deDireccion.split(",")[0].lower()
+        return deDireccion
 
 
 class Descripciones:
@@ -201,7 +249,7 @@ class MyEncoder(json.JSONEncoder):
 
     def default(self, obj):
         if isinstance(obj, set):
-            return super(MyEncoder, self).default(list(sorted(obj)))
+            return super(MyEncoder, self).default(list(obj))
         if not isinstance(obj, Puesto) and not isinstance(obj, Organismo):
             return super(MyEncoder, self).default(obj)
         cp = obj.__dict__.copy()
@@ -214,7 +262,7 @@ class MyEncoder(json.JSONEncoder):
                 if len(v) == 0:
                     del cp[k]
                 else:
-                    cp[k] = list(sorted(v))
+                    cp[k] = list(v)
         return cp
 
 
@@ -227,64 +275,10 @@ class Info:
         self.provincia = puestos[0].provincia
         self.deProvincia = puestos[0].deProvincia or "¿?¿?"
         self.organismos = organismos
-        self.arreglos = yaml_from_file("data/arreglos.yml")
 
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None
-
-    def _find_org(self, codigo, nombre=None, padre=None):
-        if codigo in self.arreglos:
-            #print (codigo, end=" -> ")
-            codigo = self.arreglos[codigo]
-            #print (codigo)
-            if isinstance(codigo,str):
-                return self.organismos[codigo]
-        org = self.organismos.get(codigo, None)
-        if org is None and nombre is not None and padre is not None:
-            codigos = set()
-            nombre = nombre.lower()
-            for o in self.organismos.values():
-                if o.rcpPadres:
-                    for rcp in o.rcpPadres:
-                        if padre == rcp and nombre in (o.deOrganismo.lower(), o.nombre):
-                            codigos.add(o.rcp)
-            if len(codigos) == 1:
-                #print (codigo, end=" --> ")
-                codigo = codigos.pop()
-                #print (codigo)
-                return self.organismos[codigo]
-        return org
-
-    def find_org(self, codigo, nombre=None, padre=None):
-        org = self._find_org(codigo, nombre=nombre, padre=padre)
-        if not org or org.idUnidOrganica:
-            return org
-
-        deDireccion = None
-        if org.deDireccion:
-            deDireccion = org.deDireccion.replace("Avda ", "Avenida ").split(",")[0].lower()
-        orgs = set()
-        for o in self.organismos.values():
-            if o != org and o.nombre == org.nombre:
-                orgs.add(o)
-        if deDireccion and len(orgs)>1:
-            for o in list(orgs):
-                if not o.latlon or not o.deDireccion or not o.deDireccion.lower().startswith(deDireccion):
-                    orgs.remove(o)
-        if len(orgs)==1:
-            o = orgs.pop()
-            if o.idUnidOrganica:
-                #print (str(codigo) + " ---> "+ str(o.idOrganismo))
-                #print (org.deDireccion)
-                #print (o.deDireccion)
-                return o
-        if False and len(orgs)>1 and deDireccion:
-            print (codigo)
-            if org:
-                print (json.dumps(org, indent=4, sort_keys=True, cls=MyEncoder))
-            print (json.dumps(list(orgs), indent=4, sort_keys=True, cls=MyEncoder))
-        return org
 
     @property
     def puestos_by_ministerio(self):
@@ -295,23 +289,22 @@ class Info:
     @property
     def next_ministerio(self):
         ministerios = set([p.idMinisterio for p in self.puestos])
-        for k, v in sorted(self.descripciones.ministerio.items(), key=lambda i: i[1]):
+        for k, v in sorted(self.descripciones.ministerio.items(), key=lambda i: (i[1], i[0])):
             k = int(k)
             if k in ministerios:
                 self.cur_ministerio = k
-                org = self.find_org(self.cur_ministerio, v)
+                org = self.organismos.get(k, None)
                 yield (k, v, org)
 
     @property
     def next_centrodirectivo(self):
         centrodirectivos = set(
             [p.idCentroDirectivo for p in self.puestos if p.idMinisterio == self.cur_ministerio])
-        for k, v in sorted(self.descripciones.centroDirectivo.items(), key=lambda i: i[1]):
+        for k, v in sorted(self.descripciones.centroDirectivo.items(), key=lambda i: (i[1], i[0])):
             k = int(k)
             if k in centrodirectivos:
                 self.cur_centrodirectivo = k
-                org = self.find_org(self.cur_centrodirectivo,
-                                    v, self.cur_ministerio)
+                org = self.organismos.get(k, None)
                 yield (k, v, org)
         self.cur_centrodirectivo = None
         if next(self.next_unidad, None):
@@ -321,12 +314,13 @@ class Info:
     def next_unidad(self):
         unidades = set([p.idUnidad for p in self.puestos if p.idMinisterio ==
                         self.cur_ministerio and p.idCentroDirectivo == self.cur_centrodirectivo])
-        for k, v in sorted(self.descripciones.unidad.items(), key=lambda i: i[1]):
+        for k, v in sorted(self.descripciones.unidad.items(), key=lambda i: (i[1], i[0])):
             k = int(k)
             if k in unidades:
+                if k == self.cur_centrodirectivo:
+                    continue
                 self.cur_unidad = k
-                org = self.find_org(
-                    self.cur_unidad, v, self.cur_centrodirectivo or self.cur_ministerio)
+                org = self.organismos.get(k, None)
                 yield (k, v, org)
 
     @property

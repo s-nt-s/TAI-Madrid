@@ -6,11 +6,12 @@ import re
 import xml.etree.ElementTree as ET
 from glob import glob
 from urllib.parse import unquote, urljoin
+import sys
 
 import bs4
 import xlrd
 
-from api import Descripciones, Organismo, Puesto
+from api import Descripciones, Organismo, Puesto, soup_from_file, yaml_from_file
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -25,6 +26,8 @@ parser.add_argument(
     '--dir3', action='store_true', help='Solo genera la parte de Dir3')
 parser.add_argument('--gob', action='store_true',
                     help='Solo genera la parte de administracion.gob.es')
+parser.add_argument('--fusion1', action='store_true',
+                    help='Fusionar organismo administracion.gob.es con dir3_E')
 
 args = parser.parse_args()
 
@@ -114,7 +117,7 @@ def parse_dire(node):
     if len(sufijo) > 0:
         direccion = direccion + ", " + ", ".join(sufijo)
 
-    return direccion.strip()
+    return direccion.strip(), postCode
 
 if args.puestos or args.todo:
     xlss = list(sorted(glob("fuentes/*.xls")))
@@ -142,6 +145,7 @@ if args.puestos or args.todo:
             idde["provincias"][int(cod)] = prov
 
     todos = []
+    organismos = {}
 
     for xls in xlss:
         count = count + 1
@@ -154,6 +158,16 @@ if args.puestos or args.todo:
             if len(row) > 1 and isinstance(row[0], int):
                 p = Puesto(*row)
                 todos.append(p)
+                if p.idMinisterio and p.idMinisterio not in organismos:
+                    organismos[p.idMinisterio] = Organismo(p.idMinisterio, p.deMinisterio)
+                if p.idCentroDirectivo and p.idCentroDirectivo not in organismos:
+                    idPadres = set({p.idMinisterio,})
+                    organismos[p.idCentroDirectivo] = Organismo(p.idCentroDirectivo, p.deCentroDirectivo, idPadres=idPadres)
+                if p.idUnidad and p.idUnidad not in organismos:
+                    idPadres = set({p.idCentroDirectivo or p.idMinisterio,})
+                    organismos[p.idUnidad] = Organismo(p.idUnidad, p.deUnidad, idPadres=idPadres)
+
+    Organismo.save(list(organismos.values()), name="organismos_rpt")
 
     for p in todos:
         data = p.__dict__
@@ -306,8 +320,8 @@ if args.dir3 or args.todo:
         print("%3d%% completado" % (count * 100 / total,), end="\r")
         if about.startswith(t_dire):
             codigo = about[len(t_dire):].upper()
-            direccion = parse_dire(child)
-            direcciones[codigo] = direccion
+            direccion, postCode = parse_dire(child)
+            direcciones[codigo] = (direccion, postCode)
             print("%3d%% completado: %s" %
                   (count * 100 / total, codigo), end="\r")
 
@@ -320,24 +334,49 @@ if args.dir3 or args.todo:
             orga = about[len(t_orga):].upper()
             direccion = find_rec(child, "org:siteAddress", "s:address",
                                  "locn:address", "vcard:hasAddress", index=0)
-            direccion = direcciones.get(direccion, None)
+            direccion, postCode = direcciones.get(direccion, (None, None))
             nombre = find_rec(child, "dcterms:title", "rdfs:label",
                               "s:name", "vcard:organization-name", "skos:prefLabel", index=0)
             padre = set(find_rec(child, "org:subOrganizationOf"))
             raiz = find_rec(child, "orges:tieneUORaiz", index=0)
-            o = Organismo(orga, nombre, direccion, padre, raiz)
+            o = Organismo(orga, nombre, direccion, postCode, padre, raiz)
             organismos.append(o)
             print("%3d%% completado: %s" %
                   (count * 100 / total, orga), end="\r")
 
     print ("")
-    Organismo.save(organismos, name="organismos_all")
-    organismos_E = [
-        o for o in organismos if o.idOrganismo[0:2] in ("E0", "EA")]
-    Organismo.save(organismos_E, name="organismos_E")
+    Organismo.save(organismos, name="organismos_dir3")
+
+    print ("Obteniendo EA y E0 en última versión")
+    count = 0
+    ok = 0
+    total = len(organismos)
+
+    organismos_dir3_E0 = {}
+    organismos_dir3_E = []
+    for o in organismos:
+        count += 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, o.idOrganismo, ok), end="\r")
+        rcp, version = o.rcp_version
+        if rcp is not None:
+            org = organismos_dir3_E0.get(rcp, None)
+            _, v = org.rcp_version if org else (None, None)
+            if v is None or v < version:
+                if v is None:
+                    ok = ok + 1
+                organismos_dir3_E0[rcp] = o
+        elif o.idOrganismo.startswith("EA"):
+            organismos_dir3_E.append(o)
+            ok = ok +1
+
+    print("")
+
+    organismos_dir3_E.extend(organismos_dir3_E0.values())
+    Organismo.save(organismos_dir3_E, name="organismos_dir3_E")
 
 
-def tratar_gob_es(total, visto, organismos_E, id, raiz, padre):
+def tratar_gob_es(total, visto, id, raiz, padre):
     if id in visto:
         org = visto[id]
         if padre:
@@ -370,14 +409,12 @@ def tratar_gob_es(total, visto, organismos_E, id, raiz, padre):
             deDireccion = value
     if not codigo:
         return
-    org = organismos_E.get(codigo, None)
     deOrganismo = re_bk.sub(
         " ", soup.select("h1.ppg-heading")[0].get_text()).strip()
     img = soup.find("img", attrs={"src": re_map})
     if img:
         latlon = re_map.search(img.attrs["src"]).group(1)
-    if org is None:
-        org = Organismo(codigo)
+    org = Organismo(codigo)
     org.idUnidOrganica = id
     if deOrganismo:
         org.deOrganismo = deOrganismo
@@ -389,16 +426,12 @@ def tratar_gob_es(total, visto, organismos_E, id, raiz, padre):
         org.idPadres.add(padre)
     if raiz:
         org.idRaiz = raiz
-    organismos_E[codigo] = org
 
     visto[id] = org
     for h in hijos:
-        tratar_gob_es(total, visto, organismos_E, h, raiz, codigo)
+        tratar_gob_es(total, visto, h, raiz, codigo)
 
 if args.gob or args.todo:
-    organismos_E = {
-        o.idOrganismo: o for o in Organismo.load(name="organismos_E")}
-
     print ("Leyendo administracion.gob.es")
 
     ids = []
@@ -409,21 +442,156 @@ if args.gob or args.todo:
     total = len(ids)
     for h in ids:
         id = int(h.strip())
-        tratar_gob_es(total, visto, organismos_E, id, None, None)
-    print("100% completado" + (" " * 10))
-    Organismo.save(list(organismos_E.values()), name="organismos_E")
+        tratar_gob_es(total, visto, id, None, None)
+    print("100%")# completado" + (" " * 10))
+    Organismo.save(list(visto.values()), name="organismos_gob.es")
 
 
-organismos = Organismo.load(name="organismos_E")
-organismos_E0 = {}
-organismos_E = []
+if args.fusion1 or args.todo:
+    organismos_dir3_E = Organismo.load(name="organismos_dir3_E")
+    organismos_gob_es = Organismo.load(name="organismos_gob.es")
+    dict_organi_rpt = {o.idOrganismo: o for o in Organismo.load(name="organismos_rpt")}
+    for o in organismos_dir3_E + organismos_gob_es:
+        orga_rpt = dict_organi_rpt.get(o.rcp, None)
+        if orga_rpt:
+            o.nombres = o.nombres.union(orga_rpt.nombres)
+
+    cod_gob_es = set([o.idOrganismo for o in organismos_gob_es])
+
+    print ("Fusionando organismo administracion.gob.es con dir3_E")
+    count = 0
+    ok = 0
+    total = len(organismos_gob_es)
+
+    fusionado = set()
+
+    # Si solo hay uno que se llama igual es que es el mismo
+    # si hay varios, pero solo uno de ellos esta en el mismo sitio es que es el mismo
+    for o in organismos_gob_es:
+        count += 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, o.idOrganismo, ok), end="\r")
+        orgs = set()
+        orgs_mismo_nombre = set()
+        o_deDirecion = o.dire
+        for n in organismos_dir3_E:
+            if n.idOrganismo == o.idOrganismo:
+                ok += 1
+                o.idPadres = o.idPadres.union(n.idPadres)
+                fusionado.add(n.idOrganismo)
+                if n.postCode is not None and o.deDireccion is not None and n.postCode in o.deDireccion:
+                    o.postCode = n.postCode
+            elif n.idOrganismo not in cod_gob_es and o.nombres.intersection(n.nombres):
+                orgs_mismo_nombre.add(n)
+                if o.deDireccion is None and n.deDireccion is None:
+                    orgs.add(n)
+                elif o.deDireccion is not None:
+                    orgs_mismo_nombre.add(n)
+                    if n.deDireccion:
+                        if n.postCode is None or n.postCode in o.deDireccion:
+                            deDireccion = n.dire
+                            deDireccion = deDireccion.split(",")[0]
+                            if o_deDirecion.startswith(deDireccion):
+                                orgs.add(n)
+        if len(orgs)==0 and len(orgs_mismo_nombre)==1:
+            orgs = orgs_mismo_nombre
+        if len(orgs)==1:
+            ok += 1
+            n = orgs.pop()
+            o.postCode = n.postCode
+            o.codigos.add(n.idOrganismo)
+            o.idPadres = o.idPadres.union(n.idPadres)
+            if n.deDireccion is not None and o.deDireccion is None:
+                o.deDireccion = n.deDireccion 
+
+    print("")
+
+    organismos = organismos_gob_es + [o for o in organismos_dir3_E if o.idOrganismo not in fusionado]
+
+    Organismo.save(organismos, name="organismos_dir3_E_gob.es")
+
+codigos_tai = set()
+for p in Puesto.load():
+    codigos_tai.add(p.idMinisterio)
+    codigos_tai.add(p.idCentroDirectivo)
+    codigos_tai.add(p.idUnidad)
+
+organismos = Organismo.load(name="organismos_dir3_E_gob.es")
+
+organismos_rpt = [o for o in Organismo.load(name="organismos_rpt") if o.idOrganismo in codigos_tai]
+
+# Arreglos hechos a mano
+dict_organismos = {o.idOrganismo: o for o in organismos}
+dict_organi_rpt = {o.idOrganismo: o for o in organismos_rpt}
+arreglos = yaml_from_file("data/arreglos.yml")
+
+
+print ("Añadiendo arreglos manuales")
+count = 0
+total = len(arreglos)
+fusionados = set()
+
+for rpt, org in arreglos.items():
+    count += 1
+    rpt_cod = rpt
+    print("%3d%% completado: %-30s" %
+          (count * 100 / total, str(rpt)+" -> "+org), end="\r")
+    org = dict_organismos.get(org, None)
+    rpt = dict_organi_rpt.get(rpt, None)
+    if org and rpt:
+        org.codigos.add(rpt.idOrganismo)
+        org.idPadres = org.idPadres.union(rpt.idPadres)
+        for o in organismos:
+            if o!=org and rpt_cod in o.codigos:
+                org.codigos = org.codigos.union(o.codigos)
+                org.idPadres = org.idPadres.union(o.idPadres)
+                fusionados.add(o)
+print("")
+organismos = [o for o in organismos if o not in fusionados]
+
+
+excluir_rpt = set([o.rcp for o in organismos if o.rcp and o.latlon])
+codigos_tai = codigos_tai - excluir_rpt
+organismos_rpt = [o for o in organismos_rpt if o.idOrganismo in codigos_tai]
+
+# Si con padre común solo hay un rpt con ese nombre es que es el mismo organismo
+
+print ("Fusionando organismos dir3_E/administracion.gob.es con rpt")
+total = len(organismos)
+ok = 0
+
+repetir = True
+while repetir:
+    repetir = False
+    count = 0
+    excluir_rpt_1 = set([o.rcp for o in organismos if o.rcp])
+    excluir_rpt_2 = set([o.rcp for o in organismos if o.rcp and o.idUnidOrganica])
+    for o in organismos:
+        count += 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, o.idOrganismo, ok), end="\r")
+        o.genera_codigos()
+        orgs = set()
+        for n in organismos_rpt:
+            if o.nombres.intersection(n.nombres) and n.idPadres.intersection(o.idPadres):
+                orgs.add(n)
+        if len(orgs)==1:
+            n = orgs.pop()
+            if not n.latlon and n.idOrganismo in excluir_rpt_2:
+                continue
+            if not n.idUnidOrganica and n.idOrganismo in excluir_rpt_1:
+                continue
+            if n.idOrganismo not in o.codigos:
+                ok += 1
+            o.codigos.add(n.idOrganismo)
+            antes = len(o.idPadres)
+            o.idPadres = o.idPadres.union(n.idPadres)
+            o.genera_codigos()
+            if antes < len(o.idPadres):
+                repetir = True
+    print ("")
+
 for o in organismos:
-    if o.idOrganismo.startswith("E0"):
-        org = organismos_E0.get(o.rcp, None)
-        if org is None or org.version < o.version:
-            organismos_E0[o.rcp] = o
-    elif o.idOrganismo.startswith("EA"):
-        organismos_E.append(o)
+    o.genera_codigos()
 
-organismos_E.extend(organismos_E0.values())
-Organismo.save(organismos_E, name="organismos_E")
+Organismo.save(organismos)
