@@ -47,6 +47,8 @@ class Organismo:
             idPadres = set(idPadres)
         if isinstance(codigos, list):
             codigos = set(codigos)
+        if deDireccion and deDireccion.startswith("Otros Aeropuerto Barajas"):
+            deDireccion = deDireccion[6:]
         self.idOrganismo = idOrganismo
         self.idUnidOrganica = idUnidOrganica
         self.deOrganismo = deOrganismo
@@ -81,6 +83,9 @@ class Organismo:
         #self.nombres.add(re_guion.sub(" ", nombre))
         if nombre.startswith("s. g. "):
             nombre = nombre.replace("s. g. ", "subdireccion general ")
+            self.nombres.add(nombre)
+        if nombre.startswith("s.g. "):
+            nombre = nombre.replace("s.g. ", "subdireccion general ")
             self.nombres.add(nombre)
         if nombre.startswith("del.gob. "):
             nombre = nombre.replace("del.gob. ", "delegacion del gobierno ")
