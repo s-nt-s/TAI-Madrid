@@ -10,16 +10,16 @@
         <p>Código fuente en <a href="https://github.com/s-nt-s/TAI-Madrid">github.com/s-nt-s/TAI-Madrid</a>.<br/>
         Se necesita ayuda para completar el listado, ver <a href="https://github.com/s-nt-s/TAI-Madrid/blob/master/README.md">README.md</a></p>
 		{% for id, des, org in info.next_ministerio %}
-            <h1 class="idde"><span>{{id}}</span><span>{{ des }}</span></h1>
+            <h1 class="idde"><span>{{id}}</span> <span>{{ des }}</span></h1>
             {%include "dir3.html" %}
             {% for id, des, org in info.next_centrodirectivo %}
-                <h2 class="idde">{% if id > -1 %}<span>{{id}}</span>{% endif %}<span>{{ des }}</span></h2>
+                <h2 class="idde">{% if id > -1 %}<span>{{id}}</span> {% endif %}<span>{{ des }}</span></h2>
                 {% if id > -1 %}
                 {%include "dir3.html" %}
                 {% endif %}
 
                 {% for id, des, org in info.next_unidad %}
-                    <h3 class="idde"><span>{{id}}</span><span>{{ des }}</span></h3>
+                    <h3 class="idde"><span>{{id}}</span> <span>{{ des }}</span></h3>
                     {%include "dir3.html" %}
                 {%endfor%}
                 

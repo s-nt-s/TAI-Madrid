@@ -10,6 +10,7 @@ re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
 re_guion=re.compile(r"\s*-\s*")
+re_paren=re.compile(r"\(.*$")
 
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
@@ -41,8 +42,8 @@ class Organismo:
             col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
         return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
 
-    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, **kwargs):
-        self.remove = {'remove', 'nombres', 'nombre', 'rcp', 'version'}
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, **kwargs):
+        self.remove = {'remove', 'nombres', 'rcp', 'version'}
         if isinstance(idPadres, list):
             idPadres = set(idPadres)
         if isinstance(codigos, list):
@@ -61,6 +62,8 @@ class Organismo:
         self.nombres = None
         self.rcp = None
         self.version = None
+        self.isCsic = isCsic
+        self.idCsic = idCsic
         if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
             self.rcp, self.version = int(self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
         self.genera_codigos()
@@ -76,7 +79,10 @@ class Organismo:
                 self.idPadres.add(int(c[2:-2]))
 
     def genera_nombres(self):
-        nombre = simplificar(self.deOrganismo)
+        nombre = self.deOrganismo
+        if self.isCsic:
+            nombre = re_paren.sub("", nombre).strip()
+        nombre = simplificar(nombre)
         self.nombres = set()
         self.nombres.add(nombre)
         flag = True
@@ -110,7 +116,14 @@ class Organismo:
         deDireccion = deDireccion.replace("-", " ")
         deDireccion = deDireccion.split(",")[0].lower()
         return deDireccion
-
+        
+    @property
+    def url(self):
+        if self.idUnidOrganica:
+            return "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=" + str(self.idUnidOrganica)
+        if self.idCsic:
+            return "http://www.csic.es/centros-de-investigacion1/-/centro/"+str(self.idCsic)
+        return None
 
 class Descripciones:
 

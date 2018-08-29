@@ -15,6 +15,9 @@ http://datos.gob.es/es/catalogo/e04990101-directorio-comun-de-unidades-organicas
 Parte del portal `administracion.gob.es` para actualizar y ampliar los datos de `Dir3`   
 Ver https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm
 
+Parte del portal `www.csic.es` para obtener las ubicaciones de sus centros   
+Ver http://www.csic.es/centros-de-investigacion1
+
 Algunos BOEs de convocatorias anteriores
 
 También sería muy útil los datos `RCP` (Registro Central de Personal) pero no los encuentro.

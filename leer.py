@@ -24,6 +24,8 @@ parser.add_argument('--puestos', action='store_true',
                     help='Solo genera la parte de los puestos (RPT)')
 parser.add_argument(
     '--dir3', action='store_true', help='Solo genera la parte de Dir3')
+parser.add_argument(
+    '--csic', action='store_true', help='Solo genera la parte de Csic')
 parser.add_argument('--gob', action='store_true',
                     help='Solo genera la parte de administracion.gob.es')
 parser.add_argument('--fusion1', action='store_true',
@@ -42,6 +44,8 @@ re_bk = re.compile(r"\s+")
 re_puesto = re.compile(r"\b(\d{6,7})\b")
 re_map = re.compile(
     r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
+re_ll = re.compile(r"https://maps.google.es/maps\?.*&ll=([\d\.,\-]+).*")
+re_paren=re.compile(r"\(.*$")
 
 
 def parse(cell):
@@ -158,14 +162,15 @@ if args.puestos or args.todo:
             if len(row) > 1 and isinstance(row[0], int):
                 p = Puesto(*row)
                 todos.append(p)
+                isCsic = p.idMinisterio == 47811
                 if p.idMinisterio and p.idMinisterio not in organismos:
-                    organismos[p.idMinisterio] = Organismo(p.idMinisterio, p.deMinisterio)
+                    organismos[p.idMinisterio] = Organismo(p.idMinisterio, p.deMinisterio, isCsic=isCsic)
                 if p.idCentroDirectivo and p.idCentroDirectivo not in organismos:
                     idPadres = set({p.idMinisterio,})
-                    organismos[p.idCentroDirectivo] = Organismo(p.idCentroDirectivo, p.deCentroDirectivo, idPadres=idPadres)
+                    organismos[p.idCentroDirectivo] = Organismo(p.idCentroDirectivo, p.deCentroDirectivo, idPadres=idPadres, isCsic=isCsic)
                 if p.idUnidad and p.idUnidad not in organismos:
                     idPadres = set({p.idCentroDirectivo or p.idMinisterio,})
-                    organismos[p.idUnidad] = Organismo(p.idUnidad, p.deUnidad, idPadres=idPadres)
+                    organismos[p.idUnidad] = Organismo(p.idUnidad, p.deUnidad, idPadres=idPadres, isCsic=isCsic)
 
     Organismo.save(list(organismos.values()), name="organismos_rpt")
 
@@ -184,7 +189,7 @@ if args.puestos or args.todo:
                 v = data[k2]
                 idde[sufi][k] = v
 
-    for pdf in glob("fuentes/*.pdf-nolayout.txt"):
+    for pdf in pdfs:
         count = count + 1
         print("%3d%% completado: %-30s" %
               (count * 100 / total, os.path.basename(xls)[:-13]), end="\r")
@@ -287,6 +292,40 @@ if args.puestos or args.todo:
 
     print ("")
 
+if args.csic or args.todo:
+    print ("Leyendo csic.es")
+
+    ids = []
+    with open("fuentes/csic.es/ids.txt", "r") as f:
+        ids = f.readlines()
+
+    col = []
+    total = len(ids)
+    count = 0
+    for h in ids:
+        id = int(h.strip())
+        soup = soup_from_file("fuentes/csic.es/id_%06d.html" % id)
+        deDireccion = None
+        latlon = None
+        deOrganismo = re_bk.sub(" ", soup.find("h2").get_text()).strip()
+        for tr in soup.findAll("tr"):
+            tds = [re_bk.sub(" ", td.get_text()).strip() for td in tr.findAll("td")]
+            if len(tds)==2:
+                if tds[0] == "Dirección":
+                    deDireccion = tds[1].replace("(ver mapa)","").strip()
+        soup = soup_from_file("fuentes/csic.es/mp_%06d.html" % id)
+        a = soup.find("a", attrs={"href": re_ll})
+        if a:
+            latlon = re_ll.search(a.attrs["href"]).group(1)
+        o = Organismo(id, deOrganismo, deDireccion, latlon=latlon, isCsic=True)
+        col.append(o)
+        count = count + 1
+        print("%3d%% completado: %6d" %
+              (count * 100 / total, id), end="\r")
+    print("100%")
+    Organismo.save(col, name="organismos_csic.es")
+    
+
 if args.dir3 or args.todo:
 
     print ("Leyendo Dir3")
@@ -358,10 +397,10 @@ if args.dir3 or args.todo:
         count += 1
         print("%3d%% completado: %-30s (%s)" %
               (count * 100 / total, o.idOrganismo, ok), end="\r")
-        rcp, version = o.rcp_version
+        rcp, version = o.rcp, o.version
         if rcp is not None:
             org = organismos_dir3_E0.get(rcp, None)
-            _, v = org.rcp_version if org else (None, None)
+            v = org.version if org else None
             if v is None or v < version:
                 if v is None:
                     ok = ok + 1
@@ -414,19 +453,7 @@ def tratar_gob_es(total, visto, id, raiz, padre):
     img = soup.find("img", attrs={"src": re_map})
     if img:
         latlon = re_map.search(img.attrs["src"]).group(1)
-    org = Organismo(codigo)
-    org.idUnidOrganica = id
-    if deOrganismo:
-        org.deOrganismo = deOrganismo
-    if deDireccion:
-        org.deDireccion = deDireccion
-    if latlon:
-        org.latlon = latlon
-    if padre:
-        org.idPadres.add(padre)
-    if raiz:
-        org.idRaiz = raiz
-
+    org = Organismo(codigo, deOrganismo, deDireccion, latlon=latlon, idRaiz=raiz, idUnidOrganica=id)
     visto[id] = org
     for h in hijos:
         tratar_gob_es(total, visto, h, raiz, codigo)
@@ -502,7 +529,7 @@ if args.fusion1 or args.todo:
             o.codigos.add(n.idOrganismo)
             o.idPadres = o.idPadres.union(n.idPadres)
             if n.deDireccion is not None and o.deDireccion is None:
-                o.deDireccion = n.deDireccion 
+                o.deDireccion = n.deDireccion
 
     print("")
 
@@ -593,5 +620,99 @@ while repetir:
 
 for o in organismos:
     o.genera_codigos()
+
+print ("Fusionando organismos con csic.es")
+arreglos = yaml_from_file("data/arreglos_csic.yml")
+organismos_csic = {o.idOrganismo: o for o in Organismo.load(name="organismos_csic.es")}
+codigos_csic=set([o.idOrganismo for o in organismos_rpt if o.isCsic])
+total = len(organismos)
+ok = 0
+count = 0
+for o in organismos:
+    if o.codigos.intersection(codigos_csic):
+        o.isCsic = True
+        org_csic = arreglos.get(o.rcp, None)
+        org_csic = organismos_csic.get(org_csic, None)
+        if org_csic is None:
+            orgs = set()
+            for n in organismos_csic.values():
+                if o.nombres.intersection(n.nombres):
+                    orgs.add(n)
+            if len(orgs)==1:
+                org_csic = orgs.pop()
+        if org_csic:
+            o.idCsic = org_csic.idOrganismo
+            o.deOrganismo = org_csic.deOrganismo
+            o.deDireccion = org_csic.deDireccion
+            o.latlon = org_csic.latlon
+            ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
+print ("")
+
+print ("Normalizando direcciones")
+organismos_gob_es = Organismo.load(name="organismos_gob.es")
+organismos_csic = Organismo.load(name="organismos_csic.es")
+total = len(organismos)*2 + len(organismos_gob_es)
+count = 0
+ok = 0
+direcciones={}
+for o in organismos_gob_es + organismos_csic:
+    if o.latlon:
+        latlon = direcciones.get(o.dire, set())
+        latlon.add(o.latlon)
+        direcciones[o.dire] = latlon
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+
+direcciones_falta = set([(o.dire, o.postCode) for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
+total = total + len(direcciones_falta)
+for d, p in direcciones_falta:
+    lls = set()
+    d_aux = d.split(",")[0]
+    for ll, dires in direcciones.items():
+        for dire in dires:
+            if dire.startswith(d_aux):
+                lls.add(ll)
+    if len(lls)==1:
+        ll = lls.pop()
+        latlon = direcciones.get(d, set())
+        latlon.add(ll)
+        direcciones[d] = latlon
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+
+for k, v in list(direcciones.items()):
+    if len(v)==1:
+        direcciones[k]=v.pop()
+    else:
+        del direcciones[k]
+
+for o in organismos:
+    if not o.latlon and o.deDireccion:
+        o.latlon = direcciones.get(o.dire, None)
+        ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+
+direcciones={}
+for o in organismos:
+    if o.latlon:
+        dire = direcciones.get(o.latlon, set())
+        dire.add(o.deDireccion)
+        direcciones[o.latlon] = dire
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+'''
+print("")
+for k, v in list(direcciones.items()):
+    if len(v)>1:
+        print ("\n".join(sorted(v)))
+        print ("----")
+'''
+print("")
+
+
 
 Organismo.save(organismos)

@@ -14,6 +14,8 @@ Usándose los ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
 
 `organismos_gob.es.json` organismos obtenidos de administracion.gob.es
 
+`organismos_csic.es.json` organismos obtenidos de csic.es
+
 `organismos.json` una fusión de los `organismos_*.json` anteriores
 
 `descripciones.json` con la relación entre códigos y descripciones de la mayoría de los datos

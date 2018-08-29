@@ -1,8 +1,8 @@
 {% if org %}
     <p>Según Dir3
         (<span {% if id != org.rcp %}class="nomatch" title="El código no coincide, se ha encontrado por alguna ñapa" {% endif %}>
-            {% if org.idUnidOrganica %}<a target="_gob_es" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica={{org.idUnidOrganica}}">{% endif %}{{org.idOrganismo}}{% if org.idUnidOrganica %}</a>{% endif %}
-        </span>) {% if not org.idUnidOrganica and not org.latlon %}<a title="Ver si esta en administracion.gob.es con otro código" target="_buscar" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm?CIdNivelAdmon=1&CDnmUdOrganica={{des}}" >¿actualizar?</a>{% endif %}:
+            {% if org.url %}<a target="_ficha" href="{{org.url}}">{% endif %}{{org.idOrganismo}}{% if org.url %}</a>{% endif %}
+        </span>) {% if not org.url %}¿<a title="Ver si esta en administracion.gob.es con otro código" target="_buscar" href="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm?CIdNivelAdmon=1&CDnmUdOrganica={{des}}" >actualizar</a>? {% if org.isCsic %}¿<a title="Ver si esta en csic.es" target="_buscar" href="http://www.csic.es/centros-de-investigacion1?p_p_id=centres_WAR_centresportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=2&p_p_col_count=3&_centres_WAR_centresportlet_action=search&typeId=1&text={{des}}" >buscar en CSIC</a>?{% endif %}{% endif %}:
     </p>
     <ul>
         <li><strong>Organismo</strong>: {{org.deOrganismo}}</li>
