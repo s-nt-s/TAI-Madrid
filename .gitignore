@@ -4,9 +4,9 @@ __pycache__
 nohup.out
 notas.txt
 fuentes/*
-
-!fuentes/administracion.gob.es/ids.txt
 !fuentes/*.py
 !fuentes/*.sh
 !fuentes/*.md
 !fuentes/wget.txt
+!fuentes/*/*.sh
+!fuentes/*/ids.txt
