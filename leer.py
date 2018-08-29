@@ -681,7 +681,7 @@ for d, p in direcciones_falta:
         latlon.add(ll)
         direcciones[d] = latlon
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, d[:30], ok), end="\r")
 
 for k, v in list(direcciones.items()):
     if len(v)==1:
@@ -689,10 +689,15 @@ for k, v in list(direcciones.items()):
     else:
         del direcciones[k]
 
+sin_latlon=set()
 for o in organismos:
     if not o.latlon and o.deDireccion:
-        o.latlon = direcciones.get(o.dire, None)
-        ok += 1
+        latlon = direcciones.get(o.dire, None)
+        if latlon:
+            o.latlon
+            ok += 1
+        else:
+            sin_latlon.add(o.dire)
     count += 1
     print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
 
@@ -710,9 +715,8 @@ for k, v in list(direcciones.items()):
     if len(v)>1:
         print ("\n".join(sorted(v)))
         print ("----")
+print("")
+print ("\n".join(sorted(sin_latlon)))
 '''
 print("")
-
-
-
 Organismo.save(organismos)
