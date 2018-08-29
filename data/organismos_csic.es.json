@@ -1,0 +1,1418 @@
+[
+    {
+        "codigos": [
+            202
+        ],
+        "deDireccion": "AVDA. DE VIGO S/N 15705 Santiago de Compostela (Coru\u00f1a (A))",
+        "deOrganismo": "INSTITUTO DE INVESTIGACIONES AGROBIOLOGICAS DE GALICIA (IIAG)",
+        "idOrganismo": 202,
+        "isCsic": true,
+        "latlon": "42.878794,-8.55114"
+    },
+    {
+        "codigos": [
+            203
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28. 3\u00aa MODULO C 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE FILOSOFIA (IFS)",
+        "idOrganismo": 203,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            205
+        ],
+        "deDireccion": "PALACIO DE SALCEDO. CARBALLEIRA, 8 (SALCEDO) 36143 Pontevedra (Pontevedra)",
+        "deOrganismo": "MISION BIOLOGICA DE GALICIA (MBG)",
+        "idOrganismo": 205,
+        "isCsic": true,
+        "latlon": "42.405995,-8.63991"
+    },
+    {
+        "codigos": [
+            206
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28. 3\u00aa MODULO F 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE ECONOMIA, GEOGRAFIA Y DEMOGRAFIA (IEGD)",
+        "idOrganismo": 206,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            208
+        ],
+        "deDireccion": "CTRA. LEON-VEGA DE INFANZONES (FINCA MARZANAS-GRULLEROS) 24346 Vega de Infanzones (Le\u00f3n)",
+        "deOrganismo": "INSTITUTO DE GANADERIA DE MONTA\u00d1A (IGM)",
+        "idOrganismo": 208,
+        "isCsic": true,
+        "latlon": "42.512491,-5.55537"
+    },
+    {
+        "codigos": [
+            211
+        ],
+        "deDireccion": "c/ EGIPCIACAS, 15 08001 Barcelona (Barcelona)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Catalu\u00f1a (DLGCA)",
+        "idOrganismo": 211,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            212
+        ],
+        "deDireccion": "PLAZA DE MURILLO, 2 28014 Madrid (Madrid)",
+        "deOrganismo": "REAL JARDIN BOTANICO (RJB)",
+        "idOrganismo": 212,
+        "isCsic": true,
+        "latlon": "40.420423,-3.681793"
+    },
+    {
+        "codigos": [
+            214
+        ],
+        "deDireccion": "AVD. DEL CONOCIMIENTO, S/N 18100 Armilla (Granada)",
+        "deOrganismo": "INSTITUTO DE PARASITOLOGIA Y BIOMEDICINA LOPEZ NEYRA (IPBLN)",
+        "idOrganismo": 214,
+        "isCsic": true,
+        "latlon": "37.159291,-3.599224"
+    },
+    {
+        "codigos": [
+            215
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO N\u00ba 26. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "ESTACION BIOLOGICA DE DO\u00d1ANA (EBD)",
+        "idOrganismo": 215,
+        "isCsic": true,
+        "latlon": "37.413869,-5.998278"
+    },
+    {
+        "codigos": [
+            216
+        ],
+        "deDireccion": "AVD. MONTA\u00d1ANA, S/N 50016 Zaragoza (Zaragoza)",
+        "deOrganismo": "INSTITUTO PIRENAICO DE ECOLOGIA (IPE)",
+        "idOrganismo": 216,
+        "isCsic": true,
+        "latlon": "42.576849,-0.542879"
+    },
+    {
+        "codigos": [
+            219
+        ],
+        "deDireccion": "CAMPUS RIO SAN PEDRO 11519 Puerto Real (C\u00e1diz)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS MARINAS DE ANDALUCIA (ICMAN)",
+        "idOrganismo": 219,
+        "isCsic": true,
+        "latlon": "36.538398,-6.201611"
+    },
+    {
+        "codigos": [
+            223
+        ],
+        "deDireccion": "C/ CORDEL DE MERINAS, 42-54 37008 Salamanca (Salamanca)",
+        "deOrganismo": "INSTITUTO DE RECURSOS NATURALES Y AGROBIOLOGIA DE SALAMANCA (IRNASA)",
+        "idOrganismo": 223,
+        "isCsic": true,
+        "latlon": "40.967132,-5.650148"
+    },
+    {
+        "codigos": [
+            224
+        ],
+        "deDireccion": "AVDA. REINA MERCEDES, 10 41012 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE RECURSOS NATURALES Y AGROBIOLOGIA SEVILLA (IRNAS)",
+        "idOrganismo": 224,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            226
+        ],
+        "deDireccion": "AVDA.GREGORIO DEL AMO NUM.8 28040 Madrid (Madrid)",
+        "deOrganismo": "CENTRO NACIONAL DE INVESTIGACIONES METALURGICAS (CENIM)",
+        "idOrganismo": 226,
+        "isCsic": true,
+        "latlon": "40.445706,-3.721619"
+    },
+    {
+        "codigos": [
+            227
+        ],
+        "deDireccion": "CTRA. DE SACRAMENTO S/N 04120 La Ca\u00f1ada de San Urbano (Almer\u00eda)",
+        "deOrganismo": "ESTACION EXPERIMENTAL DE ZONAS ARIDAS (EEZA)",
+        "idOrganismo": 227,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            333
+        ],
+        "deDireccion": "Avda. Maria Luisa, s/n. Pabell\u00f3n del Per\u00fa 41013 Sevilla (Sevilla)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Andalucia (DLGAN)",
+        "idOrganismo": 333,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            334
+        ],
+        "deDireccion": "BAILIA N\u00ba 1 46003 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "DELEGACION DEL CSIC EN LA COMUNIDAD VALENCIANA (DLGVA)",
+        "idOrganismo": 334,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            337
+        ],
+        "deDireccion": "VIA DI SANTA EUFEMIA, 13 00187 ROMA",
+        "deOrganismo": "ESCUELA ESPANOLA DE HISTORIA Y ARQUEOLOGIA (EEHAR)",
+        "idOrganismo": 337,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            338
+        ],
+        "deDireccion": "UNIVERSIDAD PABLO DE OLAVIDE EDIFICIO 46 CTRA. DE UTRERA KM 1 41013 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE LA GRASA (IG)",
+        "idOrganismo": 338,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            339
+        ],
+        "deDireccion": "AVDA. CATEDRATICO AGUSTIN ESCARDINO BENLLOCH, 7 46980 Paterna (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE AGROQUIMICA Y TECNOLOGIA DE ALIMENTOS (IATA)",
+        "idOrganismo": 339,
+        "isCsic": true,
+        "latlon": "39.514371,-0.419025"
+    },
+    {
+        "codigos": [
+            340
+        ],
+        "deDireccion": "PLZ. EMILIO ALFARO, 2-3 50003 Zaragoza (Zaragoza)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Arag\u00f3n (DLGAR)",
+        "idOrganismo": 340,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            346
+        ],
+        "deDireccion": "VIA DI SANT'EUFEMIA, 13 00187 ROMA (ITALIA)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Roma (DLGROM)",
+        "idOrganismo": 346,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            349
+        ],
+        "deDireccion": "C/ ALFONSO XII, 16 41002 Sevilla (Sevilla)",
+        "deOrganismo": "ESCUELA DE ESTUDIOS HISPANO-AMERICANOS (EEHA)",
+        "idOrganismo": 349,
+        "isCsic": true,
+        "latlon": "37.402824,-5.993299"
+    },
+    {
+        "codigos": [
+            350
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28 - 1\u00aa PLANTA 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE LENGUAS Y CULTURAS DEL MEDITERRANEO Y ORIENTE PROXIMO (ILC)",
+        "idOrganismo": 350,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            351
+        ],
+        "deDireccion": "C/ EGIPCIACAS, 15 08001 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUCION MILA Y FONTANALS (IMF)",
+        "idOrganismo": 351,
+        "isCsic": true,
+        "latlon": "41.380944,2.169077"
+    },
+    {
+        "codigos": [
+            352
+        ],
+        "deDireccion": "C/ PROFESOR ALBAREDA, 1 18008 Granada (Granada)",
+        "deOrganismo": "ESTACION EXPERIMENTAL DEL ZAIDIN (EEZ)",
+        "idOrganismo": 352,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            354
+        ],
+        "deDireccion": "CAMPUS UNIVERSITARIO DE ESPINARDO 30100 Murcia (Murcia)",
+        "deOrganismo": "CENTRO DE EDAFOLOGIA Y BIOLOGIA APLICADA DEL SEGURA (CEBAS)",
+        "idOrganismo": 354,
+        "isCsic": true,
+        "latlon": "38.022977,-1.171836"
+    },
+    {
+        "codigos": [
+            385
+        ],
+        "deDireccion": "CUESTA DEL CHAPIZ, 22 18010 Granada (Granada)",
+        "deOrganismo": "ESCUELA DE ESTUDIOS ARABES (EEA)",
+        "idOrganismo": 385,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            388
+        ],
+        "deDireccion": "RUA DE SAN ROQUE, 2 15704 Santiago de Compostela (Coru\u00f1a (A))",
+        "deOrganismo": "INSTITUTO DE ESTUDIOS GALLEGOS PADRE SARMIENTO (IEGPS)",
+        "idOrganismo": 388,
+        "isCsic": true,
+        "latlon": "42.892127,-8.531914"
+    },
+    {
+        "codigos": [
+            395
+        ],
+        "deDireccion": "ALAMEDA DEL OBISPO, S/N 14004 C\u00f3rdoba (C\u00f3rdoba)",
+        "deOrganismo": "INSTITUTO DE AGRICULTURA SOSTENIBLE (IAS)",
+        "idOrganismo": 395,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            396
+        ],
+        "deDireccion": "AVDA. MONTA\u00d1ANA, 1005 50059 Zaragoza (Zaragoza)",
+        "deOrganismo": "ESTACION EXPERIMENTAL AULA DEI (EEAD)",
+        "idOrganismo": 396,
+        "isCsic": true,
+        "latlon": "41.723972,-0.810236"
+    },
+    {
+        "codigos": [
+            398
+        ],
+        "deDireccion": "C/ JORGE GIRONA SALGADO, 18-26 08034 Barcelona (Barcelona)",
+        "deOrganismo": "CENTRO DE INVESTIGACION Y DESARROLLO PASCUAL VILA (CID)",
+        "idOrganismo": 398,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            399
+        ],
+        "deDireccion": "C/ ARTURO DUPERIER, 4 28029 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACIONES BIOMEDICAS ALBERTO SOLS (IIBM)",
+        "idOrganismo": 399,
+        "isCsic": true,
+        "latlon": "40.491936,-3.682308"
+    },
+    {
+        "codigos": [
+            400
+        ],
+        "deDireccion": "C/ JOSE GUTIERREZ ABASCAL, 2 28006 Madrid (Madrid)",
+        "deOrganismo": "MUSEO NACIONAL DE CIENCIAS NATURALES (MNCN)",
+        "idOrganismo": 400,
+        "isCsic": true,
+        "latlon": "40.450082,-3.680077"
+    },
+    {
+        "codigos": [
+            401
+        ],
+        "deDireccion": "C/ KELSEN,5. CAMPUS DE CANTOBLANCO 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CERAMICA Y VIDRIO (ICV)",
+        "idOrganismo": 401,
+        "isCsic": true,
+        "latlon": "40.552092,-3.680248"
+    },
+    {
+        "codigos": [
+            402
+        ],
+        "deDireccion": "C/ SERRANO GALVACHE, 4 28033 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DE LA CONSTRUCCION EDUARDO TORROJA (IETCC)",
+        "idOrganismo": 402,
+        "isCsic": true,
+        "latlon": "40.481883,-3.660765"
+    },
+    {
+        "codigos": [
+            403
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE MADRID, C/ NICOLAS CABRERA, 1, 28049 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE BIOLOGIA MOLECULAR SEVERO OCHOA (CBM)",
+        "idOrganismo": 403,
+        "isCsic": true,
+        "latlon": "40.550054,-3.690356"
+    },
+    {
+        "codigos": [
+            404
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE BIOQUIMICA VEGETAL Y FOTOSINTESIS (IBVF)",
+        "idOrganismo": 404,
+        "isCsic": true,
+        "latlon": "37.412437,-5.998707"
+    },
+    {
+        "codigos": [
+            405
+        ],
+        "deDireccion": "PASSEIG MIGDIA, S/N. PARQUE DE MONJUIC 08038 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO BOTANICO DE BARCELONA (IBB)",
+        "idOrganismo": 405,
+        "isCsic": true,
+        "latlon": "41.37011,2.169113"
+    },
+    {
+        "codigos": [
+            409
+        ],
+        "deDireccion": "C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE QUIMICA MEDICA (IQM)",
+        "idOrganismo": 409,
+        "isCsic": true,
+        "latlon": "40.452238,-3.674755"
+    },
+    {
+        "codigos": [
+            410
+        ],
+        "deDireccion": "C/ DARWIN, 3. CANTOBLANCO 28049 Madrid (Madrid)",
+        "deOrganismo": "CENTRO NACIONAL DE BIOTECNOLOGIA (CNB)",
+        "idOrganismo": 410,
+        "isCsic": true,
+        "latlon": "40.552874,-3.680763"
+    },
+    {
+        "codigos": [
+            411
+        ],
+        "deDireccion": "C/ LUIS SOLE I SABARIS, S/N 08028 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DE LA TIERRA JAUME ALMERA (ICTJA)",
+        "idOrganismo": 411,
+        "isCsic": true,
+        "latlon": "41.384827,2.119302"
+    },
+    {
+        "codigos": [
+            416
+        ],
+        "deDireccion": "C/ HORTA ALTA, 38 43520 Roquetes (Tarragona)",
+        "deOrganismo": "OBSERVATORIO DEL EBRO (OE)",
+        "idOrganismo": 416,
+        "isCsic": true,
+        "latlon": "40.823617,0.504684"
+    },
+    {
+        "codigos": [
+            420
+        ],
+        "deDireccion": "AVDA. DOCTOR ARCE, 37 28002 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO CAJAL (IC)",
+        "idOrganismo": 420,
+        "isCsic": true,
+        "latlon": "40.457071,-3.669949"
+    },
+    {
+        "codigos": [
+            422
+        ],
+        "deDireccion": "C/ FRANCISCO PINTADO FE, 26 33011 Oviedo (Asturias)",
+        "deOrganismo": "INSTITUTO NACIONAL DEL CARBON (INCAR)",
+        "idOrganismo": 422,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            429
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACION EN INTELIGENCIA ARTIFICIAL (IIIA)",
+        "idOrganismo": 429,
+        "isCsic": true,
+        "latlon": "41.501156,2.111265"
+    },
+    {
+        "codigos": [
+            433
+        ],
+        "deDireccion": "C/ CATEDRATICO JOSE BELTRAN MARTINEZ, 2 46980 Paterna (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE FISICA CORPUSCULAR (IFIC)",
+        "idOrganismo": 433,
+        "isCsic": true,
+        "latlon": "39.532115,-0.418596"
+    },
+    {
+        "codigos": [
+            434
+        ],
+        "deDireccion": "C/ MIQUEL MARQUES, N\u00ba 21 07190 Esporles (Balears (Illes)",
+        "deOrganismo": "INSTITUTO MEDITERRANEO DE ESTUDIOS AVANZADOS (IMEDEA)",
+        "idOrganismo": 434,
+        "isCsic": true,
+        "latlon": "39.666202,2.580961"
+    },
+    {
+        "codigos": [
+            436
+        ],
+        "deDireccion": "C/ SERRANO, 113BIS Y 123 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE FISICA FUNDAMENTAL (IFF)",
+        "idOrganismo": 436,
+        "isCsic": true,
+        "latlon": "40.450801,-3.675871"
+    },
+    {
+        "codigos": [
+            438
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "INSTITUTO DE ANALISIS ECONOMICO (IAE)",
+        "idOrganismo": 438,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            439
+        ],
+        "deDireccion": "C/ RAMIRO DE MAEZTU, 9 28040 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE INVESTIGACIONES BIOLOGICAS (CIB)",
+        "idOrganismo": 439,
+        "isCsic": true,
+        "latlon": "40.459813,-3.718185"
+    },
+    {
+        "codigos": [
+            441
+        ],
+        "deDireccion": "C/ SERRANO,115 bis Plta.0 28006 Madrid (Madrid)",
+        "deOrganismo": "DELEGACION DEL CSIC EN LA COMUNIDAD DE MADRID (DLGMA)",
+        "idOrganismo": 441,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            443
+        ],
+        "deDireccion": "C/ D'ACCES A LA CALA ST. FRANCESC, 14 17300 Blanes (Girona)",
+        "deOrganismo": "CENTRO DE ESTUDIOS AVANZADOS DE BLANES (CEAB)",
+        "idOrganismo": 443,
+        "isCsic": true,
+        "latlon": "41.683353,2.801149"
+    },
+    {
+        "codigos": [
+            444
+        ],
+        "deDireccion": "C/ SERRANO, 113BIS, 119, 121 Y 123 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE ESTRUCTURA DE LA MATERIA (IEM)",
+        "idOrganismo": 444,
+        "isCsic": true,
+        "latlon": "40.450801,-3.675871"
+    },
+    {
+        "codigos": [
+            446
+        ],
+        "deDireccion": "C/ SOR JUANA INES DE LA CRUZ,3 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE MADRID (ICMM)",
+        "idOrganismo": 446,
+        "isCsic": true,
+        "latlon": "40.552026,-3.680248"
+    },
+    {
+        "codigos": [
+            447
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "INSTITUTO DE MICROELECTRONICA DE BARCELONA (IMB-CNM)",
+        "idOrganismo": 447,
+        "isCsic": true,
+        "latlon": "41.504566,2.095871"
+    },
+    {
+        "codigos": [
+            448
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, N\u00aa 28. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE MICROELECTRONICA DE SEVILLA (IMSE,CNM)",
+        "idOrganismo": 448,
+        "isCsic": true,
+        "latlon": "37.429069,-6.241608"
+    },
+    {
+        "codigos": [
+            449
+        ],
+        "deDireccion": "AVENIDA DE LAS PALMERAS N\u00ba 4 18100 Armilla (Granada)",
+        "deOrganismo": "INSTITUTO ANDALUZ DE CIENCIAS DE LA TIERRA (IACT)",
+        "idOrganismo": 449,
+        "isCsic": true,
+        "latlon": "37.18945,-3.597507"
+    },
+    {
+        "codigos": [
+            450
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28, 3\u00aa MODULO D 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE POLITICAS Y BIENES PUBLICOS (IPP)",
+        "idOrganismo": 450,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            550
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28 - 2\u00aa PLANTA 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE HISTORIA (IH)",
+        "idOrganismo": 550,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            551
+        ],
+        "deDireccion": "C/ NICOLAS CABRERA, 1. CAMPUS DE CANTOBLANCO 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA MOLECULAR ELADIO VI\u00d1UELA (IBMEV)",
+        "idOrganismo": 551,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            552
+        ],
+        "deDireccion": "RUA DO FRANCO, 2 15701 Santiago de Compostela (Coru\u00f1a (A))",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Galicia (DLGGA)",
+        "idOrganismo": 552,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            553
+        ],
+        "deDireccion": "C/ SERRANO, 121 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE OPTICA DAZA DE VALDES (IO)",
+        "idOrganismo": 553,
+        "isCsic": true,
+        "latlon": "40.446555,-3.676214"
+    },
+    {
+        "codigos": [
+            554
+        ],
+        "deDireccion": "C/ TORRE DE LA SAL, S/N 12595 Cabanes (Castell\u00f3n / Castell\u00f3de la Plana)",
+        "deOrganismo": "INSTITUTO DE ACUICULTURA DE TORRE DE LA SAL (IATS)",
+        "idOrganismo": 554,
+        "isCsic": true,
+        "latlon": "40.129213,0.166254"
+    },
+    {
+        "codigos": [
+            555
+        ],
+        "deDireccion": "FACULTAD DE CIENCIAS. C/PEDRO CERBUNA, 12 50009 Zaragoza (Zaragoza)",
+        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE ARAGON (ICMA)",
+        "idOrganismo": 555,
+        "isCsic": true,
+        "latlon": "41.645851,-0.87882"
+    },
+    {
+        "codigos": [
+            561
+        ],
+        "deDireccion": "GLORIETA DE LA ASTRONOMIA S/N 18008 Granada (Granada)",
+        "deOrganismo": "INSTITUTO DE ASTROFISICA DE ANDALUCIA (IAA)",
+        "idOrganismo": 561,
+        "isCsic": true,
+        "latlon": "37.16189,-3.589879"
+    },
+    {
+        "codigos": [
+            563
+        ],
+        "deDireccion": "C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE QUIMICA ORGANICA GENERAL (IQOG)",
+        "idOrganismo": 563,
+        "isCsic": true,
+        "latlon": "40.452238,-3.680677"
+    },
+    {
+        "codigos": [
+            566
+        ],
+        "deDireccion": "C/ SERRANO, 119 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE QUIMICA FISICA ROCASOLANO (IQFR)",
+        "idOrganismo": 566,
+        "isCsic": true,
+        "latlon": "40.447078,-3.676214"
+    },
+    {
+        "codigos": [
+            570
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE SEVILLA (ICMS)",
+        "idOrganismo": 570,
+        "isCsic": true,
+        "latlon": "37.413596,-5.998535"
+    },
+    {
+        "codigos": [
+            571
+        ],
+        "deDireccion": "CAMPUS UPV. AVDA DE LOS NARANJOS S/N. EDIFICO 6C 46022 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE TECNOLOGIA QUIMICA (ITQ)",
+        "idOrganismo": 571,
+        "isCsic": true,
+        "latlon": "39.488344,-0.33165"
+    },
+    {
+        "codigos": [
+            573
+        ],
+        "deDireccion": "62, Rue du Tr\u00f4ne 1050 BRUSELAS (BELGICA)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Bruselas (DLGBRU)",
+        "idOrganismo": 573,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            574
+        ],
+        "deDireccion": "C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE QUIMICA ORGANICA LORA TAMAYO (CENQUIOR)",
+        "idOrganismo": 574,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            578
+        ],
+        "deDireccion": "C/ MARIE CURIE, 2 CAMPUS DE CANTOBLANCO 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CATALISIS Y PETROLEOQUIMICA (ICP)",
+        "idOrganismo": 578,
+        "isCsic": true,
+        "latlon": "40.542162,-3.689566"
+    },
+    {
+        "codigos": [
+            579
+        ],
+        "deDireccion": "C/ MIGUEL LUESMA CASTAN, 4 50015 Zaragoza (Zaragoza)",
+        "deOrganismo": "INSTITUTO DE CARBOQUIMICA (ICB)",
+        "idOrganismo": 579,
+        "isCsic": true,
+        "latlon": "41.690027,-0.879078"
+    },
+    {
+        "codigos": [
+            584
+        ],
+        "deDireccion": "C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIA Y TECNOLOGIA DE POLIMEROS (ICTP)",
+        "idOrganismo": 584,
+        "isCsic": true,
+        "latlon": "40.454458,-3.680935"
+    },
+    {
+        "codigos": [
+            1202
+        ],
+        "deDireccion": "AVD. ASTROF. F. SANCHEZ, 3 38205 No Consta (Santa Cruz de Tenerife)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Canarias (DLGCAN)",
+        "idOrganismo": 1202,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            1552
+        ],
+        "deDireccion": "Pz. CAMPO SANTO DE LOS MARTIRES, 7 14004 C\u00f3rdoba (C\u00f3rdoba)",
+        "deOrganismo": "INSTITUTO DE ESTUDIOS SOCIALES AVANZADOS (IESA)",
+        "idOrganismo": 1552,
+        "isCsic": true,
+        "latlon": "37.888673,-4.773302"
+    },
+    {
+        "codigos": [
+            1561
+        ],
+        "deDireccion": "C/ MARIA DE LUNA, 10 50018 Zaragoza (Zaragoza)",
+        "deOrganismo": "LABORATORIO DE INVESTIGACION EN FLUIDODINAMICA Y TECNOLOGIAS DE LA COMBUSTION (LIFTEC)",
+        "idOrganismo": 1561,
+        "isCsic": true,
+        "latlon": "41.690732,-0.877104"
+    },
+    {
+        "codigos": [
+            1718
+        ],
+        "deDireccion": "AVDA. D. SANTIAGO RAMON Y CAJAL S/N 03550 Sant Joan d'Alacant (Alicante / Alacant)",
+        "deOrganismo": "INSTITUTO DE NEUROCIENCIAS (IN)",
+        "idOrganismo": 1718,
+        "isCsic": true,
+        "latlon": "38.388899,-0.435108"
+    },
+    {
+        "codigos": [
+            1727
+        ],
+        "deDireccion": "C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)",
+        "deOrganismo": "INSTITUTO DE MICRO Y NANOTECNOLOGIA (IMN-CNM)",
+        "idOrganismo": 1727,
+        "isCsic": true,
+        "latlon": "40.591181,-3.707859"
+    },
+    {
+        "codigos": [
+            1787
+        ],
+        "deDireccion": "INGENIERO FAUSTO ELIO, S/N. UPV-CIUDAD POLITECNICA DE LA INNOVACION 46022 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA MOL. Y CEL. DE PLANTAS PRIMO YUFERA (IBMCP)",
+        "idOrganismo": 1787,
+        "isCsic": true,
+        "latlon": "39.488344,-0.33165"
+    },
+    {
+        "codigos": [
+            2053
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "CENTRO DE INVESTIGACIONES CIENTIFICAS ISLA DE LA CARTUJA (CICIC)",
+        "idOrganismo": 2053,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            2058
+        ],
+        "deDireccion": "EDIFICIO JUAN JORDA. AVDA DE LOS CASTROS S/N 39005 Santander (Cantabria)",
+        "deOrganismo": "INSTITUTO DE FISICA DE CANTABRIA (IFCA)",
+        "idOrganismo": 2058,
+        "isCsic": true,
+        "latlon": "43.47171,-3.80201"
+    },
+    {
+        "codigos": [
+            2090
+        ],
+        "deDireccion": "C/ ROSELLON, 161. 6 Y 7 PLANTA 08036 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACIONES BIOMEDICAS DE BARCELONA (IIBB)",
+        "idOrganismo": 2090,
+        "isCsic": true,
+        "latlon": "41.399153,2.163191"
+    },
+    {
+        "codigos": [
+            2101
+        ],
+        "deDireccion": "C/ LLORENS I ARTIGUES, 4-6, 2\u00ba - EDIFICIO U 08028 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE ROBOTICA E INFORMATICA INDUSTRIAL (IRII)",
+        "idOrganismo": 2101,
+        "isCsic": true,
+        "latlon": "41.391813,2.119417"
+    },
+    {
+        "codigos": [
+            2118
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, 49. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACIONES QUIMICAS (IIQ)",
+        "idOrganismo": 2118,
+        "isCsic": true,
+        "latlon": "37.413596,-5.998535"
+    },
+    {
+        "codigos": [
+            2152
+        ],
+        "deDireccion": "C/ SERRANO, 121 28006 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE FISICA MIGUEL A. CATALAN (CFMAC)",
+        "idOrganismo": 2152,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            2241
+        ],
+        "deDireccion": "RONDA DE TOLEDO, S/N 13005 Ciudad Real (Ciudad Real)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACION EN RECURSOS CINEGETICOS (IREC)",
+        "idOrganismo": 2241,
+        "isCsic": true,
+        "latlon": "38.994172,-3.924351"
+    },
+    {
+        "codigos": [
+            2282
+        ],
+        "deDireccion": "C/ JAIME ROIG, 11 46010 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE BIOMEDICINA DE VALENCIA (IBV)",
+        "idOrganismo": 2282,
+        "isCsic": true,
+        "latlon": "39.480957,-0.36455"
+    },
+    {
+        "codigos": [
+            2370
+        ],
+        "deDireccion": "CTRA. MONCADA - NAQUERA, KM. 4,5 46113 Moncada (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "CENTRO DE INVESTIGACIONES SOBRE DESERTIFICACION (CIDE)",
+        "idOrganismo": 2370,
+        "isCsic": true,
+        "latlon": "39.387652,-0.398866"
+    },
+    {
+        "codigos": [
+            2429
+        ],
+        "deDireccion": "C/ SANZ Y FORES, S/N 47003 Valladolid (Valladolid)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA Y GENETICA MOLECULAR (IBGM)",
+        "idOrganismo": 2429,
+        "isCsic": true,
+        "latlon": "41.664256,-4.708242"
+    },
+    {
+        "codigos": [
+            2486
+        ],
+        "deDireccion": "PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)",
+        "deOrganismo": "CENTRO MEDITERRANEO DE INVESTIGACIONES MARINAS Y AMBIENTALES (CMIMA)",
+        "idOrganismo": 2486,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            2487
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "CENTRO NACIONAL DE MICROELECTRONICA (CNM)",
+        "idOrganismo": 2487,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            2489
+        ],
+        "deDireccion": "CAMPUS MIGUEL DE UNAMUNO 37007 Salamanca (Salamanca)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA MOL. Y CEL. DEL CANCER DE SALAMANCA (IBMCC)",
+        "idOrganismo": 2489,
+        "isCsic": true,
+        "latlon": "40.963869,-5.676651"
+    },
+    {
+        "codigos": [
+            2600
+        ],
+        "deDireccion": "C/ BALDIRI REIXAC, 4 08028 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA MOLECULAR DE BARCELONA (IBMB)",
+        "idOrganismo": 2600,
+        "isCsic": true,
+        "latlon": "41.38091,2.118285"
+    },
+    {
+        "codigos": [
+            2826
+        ],
+        "deDireccion": "Plaza del Milenio 1, 7\u00aa planta 47014 Valladolid (Valladolid)",
+        "deOrganismo": "DELEGACION DEL CSIC EN CASTILLA Y LEON (DLGCL)",
+        "idOrganismo": 2826,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            2999
+        ],
+        "deDireccion": "P\u00ba MANUEL DE LARDIZABAL, 5 20018 Donostia-San Sebasti\u00e1n (Guip\u00fazcoa)",
+        "deOrganismo": "CENTRO DE FISICA DE MATERIALES (CFM)",
+        "idOrganismo": 2999,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            3000
+        ],
+        "deDireccion": "PARQUE CIENTIFICO DE LA UPV/EHU, BARRIO DE SARRIENA S/N 48940 Leioa (Vizcaya)",
+        "deOrganismo": "INSTITUTO BIOFISIKA (IBF)",
+        "idOrganismo": 3000,
+        "isCsic": true,
+        "latlon": "43.330216,-2.974602"
+    },
+    {
+        "codigos": [
+            3016
+        ],
+        "deDireccion": "PLAZA DE ESPA\u00d1A, 15 06800 M\u00e9rida (Badajoz)",
+        "deOrganismo": "INSTITUTO DE ARQUEOLOGIA-MERIDA (IAM)",
+        "idOrganismo": 3016,
+        "isCsic": true,
+        "latlon": "38.92603,-6.335936"
+    },
+    {
+        "codigos": [
+            3027
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28 - 1\u00aa PLANTA 28037 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE LENGUA, LITERATURA Y ANTROPOLOGIA (ILLA)",
+        "idOrganismo": 3027,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            3028
+        ],
+        "deDireccion": "C/ ALBASANZ, 26-28 PLANTA BAJA 28037 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE CIENCIAS HUMANAS Y SOCIALES (CCHS)",
+        "idOrganismo": 3028,
+        "isCsic": true,
+        "latlon": "40.436879,-3.629225"
+    },
+    {
+        "codigos": [
+            3055
+        ],
+        "deDireccion": "AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "CENTRO ANDALUZ DE BIOLOGIA MOLECULAR Y MEDICINA REGENERATIVA (CABIMER)",
+        "idOrganismo": 3055,
+        "isCsic": true,
+        "latlon": "37.413391,-5.998535"
+    },
+    {
+        "codigos": [
+            3155
+        ],
+        "deDireccion": "AVDA DE PAMPLONA, 123 MUTILVA 31192 Aranguren (Navarra)",
+        "deOrganismo": "INSTITUTO DE AGROBIOTECNOLOGIA (IDAB)",
+        "idOrganismo": 3155,
+        "isCsic": true,
+        "latlon": "42.806988,-1.597481"
+    },
+    {
+        "codigos": [
+            3156
+        ],
+        "deDireccion": "CTRA. DE AJALVIR, KM. 4 28850 Torrej\u00f3n de Ardoz (Madrid)",
+        "deOrganismo": "CENTRO DE ASTROBIOLOGIA (CAB)",
+        "idOrganismo": 3156,
+        "isCsic": true,
+        "latlon": "40.487061,-3.47791"
+    },
+    {
+        "codigos": [
+            3157
+        ],
+        "deDireccion": "C/ TOMAS ALBA EDISON, 7 ISLA DE CARTUJA 41092 Sevilla (Sevilla)",
+        "deOrganismo": "CENTRO NACIONAL DE ACELERADORES (CNA)",
+        "idOrganismo": 3157,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            3168
+        ],
+        "deDireccion": "CAMPUS UPV.CAMINO DE VERA S/N EDIFICIO 8E 46022 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE GESTION DE LA INNOVACION Y DEL CONOCIMIENTO (INGENIO)",
+        "idOrganismo": 3168,
+        "isCsic": true,
+        "latlon": "39.488675,-0.325384"
+    },
+    {
+        "codigos": [
+            3200
+        ],
+        "deDireccion": "CARRER DE CAN MAGRANS S/N, CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DEL ESPACIO (ICE)",
+        "idOrganismo": 3200,
+        "isCsic": true,
+        "latlon": "41.500559,2.108946"
+    },
+    {
+        "codigos": [
+            3247
+        ],
+        "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE BARCELONA (ICMAB)",
+        "idOrganismo": 3247,
+        "isCsic": true,
+        "latlon": "41.501491,2.110539"
+    },
+    {
+        "codigos": [
+            3248
+        ],
+        "deDireccion": "PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DEL MAR (ICM)",
+        "idOrganismo": 3248,
+        "isCsic": true,
+        "latlon": "41.393938,2.205935"
+    },
+    {
+        "codigos": [
+            3249
+        ],
+        "deDireccion": "C/ EDUARDO CABELLO, 6 36208 Vigo (Pontevedra)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACIONES MARINAS (IIM)",
+        "idOrganismo": 3249,
+        "isCsic": true,
+        "latlon": "42.235254,-8.742542"
+    },
+    {
+        "codigos": [
+            3250
+        ],
+        "deDireccion": "ZACARIAS GONZALEZ, 2 37007 Salamanca (Salamanca)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA FUNCIONAL Y GENOMICA (IBFG)",
+        "idOrganismo": 3250,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            3251
+        ],
+        "deDireccion": "AVDA. ASTROFISICO FRANCISCO SANCHEZ, 3 38205 San Crist\u00f3bal de La Laguna (Santa Cruz de Tenerife)",
+        "deOrganismo": "INSTITUTO DE PRODUCTOS NATURALES Y AGROBIOLOGIA (IPNA)",
+        "idOrganismo": 3251,
+        "isCsic": true,
+        "latlon": "28.492305,-16.311007"
+    },
+    {
+        "codigos": [
+            3252
+        ],
+        "deDireccion": "P\u00ba RIO LINARES S/N 33300 Villaviciosa (Asturias)",
+        "deOrganismo": "INSTITUTO DE PRODUCTOS LACTEOS DE ASTURIAS (IPLA)",
+        "idOrganismo": 3252,
+        "isCsic": true,
+        "latlon": "43.474692,-5.44099"
+    },
+    {
+        "codigos": [
+            3644
+        ],
+        "deDireccion": "PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)",
+        "deOrganismo": "UNIDAD DE TECNOLOGIA MARINA (UTM)",
+        "idOrganismo": 3644,
+        "isCsic": true,
+        "latlon": "41.393938,2.205935"
+    },
+    {
+        "codigos": [
+            3653
+        ],
+        "deDireccion": "C/ NICOLAS CABRERA, 13-15 CAMPUS CANTOBLANCO UAM 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE FISICA TEORICA (IFT)",
+        "idOrganismo": 3653,
+        "isCsic": true,
+        "latlon": "40.547168,-3.695762"
+    },
+    {
+        "codigos": [
+            3900
+        ],
+        "deDireccion": "AVDA. S. ANTONI M. CLARET, 167 08025 Barcelona (Barcelona)",
+        "deOrganismo": "CENTRO DE INVESTIGACION CARDIOVASCULAR (CIC)",
+        "idOrganismo": 3900,
+        "isCsic": true,
+        "latlon": "41.413763,2.174319"
+    },
+    {
+        "codigos": [
+            3932
+        ],
+        "deDireccion": "CTRA. DE UTRERA KM.1 41013 Sevilla (Sevilla)",
+        "deOrganismo": "CENTRO ANDALUZ DE BIOLOGIA DEL DESARROLLO (CABD)",
+        "idOrganismo": 3932,
+        "isCsic": true,
+        "latlon": "37.359004,-5.97771"
+    },
+    {
+        "codigos": [
+            4179
+        ],
+        "deDireccion": "CAMPUS DE LA UNIVERSIDAD AUTONOMA DE BARCELONA. C/ DE LA VALL MORONTA, EDIFICI CRAG. 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "CONSORCIO CSIC-IRTA-UAB-UB CENTRE DE RECERCA AGRIGEN\u00d2MICA (CRAG) (CRAG)",
+        "idOrganismo": 4179,
+        "isCsic": true,
+        "latlon": "41.405656,2.129889"
+    },
+    {
+        "codigos": [
+            4817
+        ],
+        "deDireccion": "C/ SERRANO, 115 BIS 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS AGRARIAS (ICA)",
+        "idOrganismo": 4817,
+        "isCsic": true,
+        "latlon": "40.448319,-3.683252"
+    },
+    {
+        "codigos": [
+            594586
+        ],
+        "deDireccion": "EDIFICIO CIN2 CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "CENTRO DE INVESTIGACION EN NANOCIENCIA Y NANOTECNOLOGIA (CIN2)",
+        "idOrganismo": 594586,
+        "isCsic": true,
+        "latlon": "41.501274,2.112181"
+    },
+    {
+        "codigos": [
+            594932
+        ],
+        "deDireccion": "C/ALBERT EINSTEIN, 22 . PARQUE CIENTIFICO Y TECNOLOGICO DE CANTABRIA 39011 Santander (Cantabria)",
+        "deOrganismo": "INSTITUTO DE BIOMEDICINA Y BIOTECNOLOGIA DE CANTABRIA (IBBTEC)",
+        "idOrganismo": 594932,
+        "isCsic": true,
+        "latlon": "43.450848,-3.873805"
+    },
+    {
+        "codigos": [
+            596000
+        ],
+        "deDireccion": "CAMPUS UNIVERSITAT ILLES BALEARS 07122 Palma de Mallorca (Balears (Illes)",
+        "deOrganismo": "INSTITUTO DE FISICA INTERDISCIPLINAR Y SISTEMAS COMPLEJOS (IFISC)",
+        "idOrganismo": 596000,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            596711
+        ],
+        "deDireccion": "AVDA. MANUEL SIUROT S/N CAMPUS DEL HOSPITAL UNIVERSITARIO VIRGEN DEL ROCIO 41013 Sevilla (Sevilla)",
+        "deOrganismo": "INSTITUTO DE BIOMEDICINA DE SEVILLA (IBIS)",
+        "idOrganismo": 596711,
+        "isCsic": true,
+        "latlon": "37.37425,-5.979309"
+    },
+    {
+        "codigos": [
+            597104
+        ],
+        "deDireccion": "C/ JOSE ANTONIO NOVAIS, 10 28040 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIA Y TECNOLOGIA DE ALIMENTOS Y NUTRICION (ICTAN)",
+        "idOrganismo": 597104,
+        "isCsic": true,
+        "latlon": "40.457071,-3.714666"
+    },
+    {
+        "codigos": [
+            597105
+        ],
+        "deDireccion": "C/ NICOLAS CABRERA, 9. CAMPUS DE CANTOBLANCO 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE INVESTIGACION EN CIENCIAS DE LA ALIMENTACION (CIAL)",
+        "idOrganismo": 597105,
+        "isCsic": true,
+        "latlon": "40.545403,-3.696449"
+    },
+    {
+        "codigos": [
+            597235
+        ],
+        "deDireccion": "APDO. POSTAL N\u00ba 1.042. 26080 LOGRO\u00d1O. FINCA LA GRAJERA. CTRA. DE BURGOS KM. 6 (LO-20, SALIDA 13) 26007 Logro\u00f1o (Rioja (La))",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DE LA VID Y DEL VINO (ICVV)",
+        "idOrganismo": 597235,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            597270
+        ],
+        "deDireccion": "C/ NICOLAS CABRERA, 13-15 CAMPUS CANTOBLANCO UAM 28049 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE CIENCIAS MATEMATICAS (ICMAT)",
+        "idOrganismo": 597270,
+        "isCsic": true,
+        "latlon": "40.549536,-3.686764"
+    },
+    {
+        "codigos": [
+            597678
+        ],
+        "deDireccion": "Alcal\u00e1 de Henares (Madrid)",
+        "deOrganismo": "INSTITUTO DE MEDICINA MOLECULAR PRINCIPE DE ASTURIAS (IMMPA)",
+        "idOrganismo": 597678,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            597768
+        ],
+        "deDireccion": "AVDA. DE LA VEGA 4-6. EL ENTREGO 33940 San Mart\u00edn del Rey Aurelio (Asturias)",
+        "deOrganismo": "CENTRO DE INVESTIGACION EN NANOMATERIALES Y NANOTECNOLOGIA (CINN)",
+        "idOrganismo": 597768,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            598830
+        ],
+        "deDireccion": "C/ JORGE GIRONA SALGADO, 18-26 08034 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE DIAGNOSTICO AMBIENTAL Y ESTUDIOS DEL AGUA (IDAEA)",
+        "idOrganismo": 598830,
+        "isCsic": true,
+        "latlon": "41.395483,2.124224"
+    },
+    {
+        "codigos": [
+            598831
+        ],
+        "deDireccion": "C/ JORGE GIRONA SALGADO, 18-26 08034 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE QUIMICA AVANZADA DE CATALU\u00d1A (IQAC)",
+        "idOrganismo": 598831,
+        "isCsic": true,
+        "latlon": "41.396707,2.124224"
+    },
+    {
+        "codigos": [
+            598832
+        ],
+        "deDireccion": "PASSEIG MARITIM DE LA BARCELONETA, 37 08003 Barcelona (Barcelona)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA EVOLUTIVA (IBE)",
+        "idOrganismo": 598832,
+        "isCsic": true,
+        "latlon": "41.393938,2.200012"
+    },
+    {
+        "codigos": [
+            605393
+        ],
+        "deDireccion": "CTRA. DE CAMPO REAL KM 0,200 LA POVEDA 28500 Arganda del Rey (Madrid)",
+        "deOrganismo": "CENTRO DE AUTOMATICA Y ROBOTICA (CAR)",
+        "idOrganismo": 605393,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            609041
+        ],
+        "deDireccion": "ALGARROBO-COSTA 29750 Algarrobo (M\u00e1laga)",
+        "deOrganismo": "INSTITUTO DE HORTOFRUTICULTURA SUBTROPICAL Y MEDITERRANEA LA MAYORA (IHSM)",
+        "idOrganismo": 609041,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            609307
+        ],
+        "deDireccion": "AVDA. DE VIGO S/N 15705 Santiago de Compostela (Coru\u00f1a (A))",
+        "deOrganismo": "INSTITUTO DE CIENCIAS DEL PATRIMONIO (INCIPIT)",
+        "idOrganismo": 609307,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            610356
+        ],
+        "deDireccion": "MIQUEL MARQUES, N\u00ba 21 07190 Esporles (Balears (Illes)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en las Islas Baleares (DLGIB)",
+        "idOrganismo": 610356,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            620855
+        ],
+        "deDireccion": "C/ SEVERO OCHOA 7, 4\u00aa PLANTA 28040 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE GEOCIENCIAS (IGEO)",
+        "idOrganismo": 620855,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            621564
+        ],
+        "deDireccion": "CAMINO DE VERA S/N EDIFICIO 8B ACCESO N, 1\u00aa PLANTA 46022 Valencia (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE INSTRUMENTACION PARA IMAGEN MOLECULAR (I3M)",
+        "idOrganismo": 621564,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            628234
+        ],
+        "deDireccion": "FACULTAD DE CIENCIAS. C/ PEDRO CERBUNA, 12. 50009 ZARAGOZA 50009 Zaragoza (Zaragoza)",
+        "deOrganismo": "INSTITUTO DE SINTESIS QUIMICA Y CATALISIS HOMOGENEA (ISQCH)",
+        "idOrganismo": 628234,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            628258
+        ],
+        "deDireccion": "FACULTAD DE CIENCIAS. C/ PEDRO CERBUNA, 12. 50009 ZARAGOZA Zaragoza (Zaragoza)",
+        "deOrganismo": "CENTRO DE QUIMICA Y MATERIALES DE ARAGON (CEQMA)",
+        "idOrganismo": 628258,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            635070
+        ],
+        "deDireccion": "C/ NICOLAS CABRERA 13-15 - CAMPUS CANTOBLANCO UAM 28049 Madrid (Madrid)",
+        "deOrganismo": "CENTRO DE FISICA TEORICA Y MATEMATICAS (CFTMAT)",
+        "idOrganismo": 635070,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            636631
+        ],
+        "deDireccion": "EDIFICIO C CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
+        "deOrganismo": "CONSORCIO CENTRO DE INVESTIGACION ECOLOGICA Y APLICACIONES FORESTALES (CREAF) (CREAF)",
+        "idOrganismo": 636631,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            638126
+        ],
+        "deDireccion": "FRANCISCO PINTADO FE, 26 33011 Oviedo (Asturias)",
+        "deOrganismo": "DELEGACION DEL CSIC EN EL PRINCIPADO DE ASTURIAS (DLGAS)",
+        "idOrganismo": 638126,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            638127
+        ],
+        "deDireccion": "(Murcia)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Murcia (DLGMU)",
+        "idOrganismo": 638127,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            639415
+        ],
+        "deDireccion": "EDIFICIO JUAN JORDA. UNIV. CANTABRIA 39005 Santander (Cantabria)",
+        "deOrganismo": "Delegaci\u00f3n del CSIC en Cantabria (DLGCANT)",
+        "idOrganismo": 639415,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            647328
+        ],
+        "deDireccion": "C/ SERRANO, 144 28006 Madrid (Madrid)",
+        "deOrganismo": "INSTITUTO DE TECNOLOGIAS FISICAS Y DE LA INFORMACION LEONARDO TORRES QUEVEDO (ITEFI)",
+        "idOrganismo": 647328,
+        "isCsic": true
+    },
+    {
+        "codigos": [
+            842554
+        ],
+        "deDireccion": "C/ CATEDRATICO JOSE BELTRAN, 2 46980 Paterna (Valencia / Val\u00e8ncia)",
+        "deOrganismo": "INSTITUTO DE BIOLOGIA INTEGRATIVA DE SISTEMAS (I2SYSBIO)",
+        "idOrganismo": 842554,
+        "isCsic": true
+    }
+]
