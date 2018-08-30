@@ -5,6 +5,7 @@ La idea es concretar todos los puestos TAI hasta el punto que se pueda hacer un 
 La primera fase es generar un listado, el cual se puede ver, desglosado por provincias, en: https://s-nt-s.github.io/TAI-Madrid/
 
 Y cuando se tengan las direcciones se generará el mapa.
+BETA del mapa: https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
 
 Para ver lo que se entiende por puesto TAI observar la función `isTAI` de `api/core.py` (a groso modo: son plazas C1 de nivel entre 15 y 18, que no sean de libre disposición y que contengan alguna palabra clave en su descripción).
 

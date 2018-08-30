@@ -78,6 +78,13 @@ class Organismo:
             if isinstance(c, str) and c.startswith("E0"):
                 self.idPadres.add(int(c[2:-2]))
 
+    @property
+    def nombre(self):
+        nombre = self.deOrganismo
+        if self.isCsic:
+            nombre = re_paren.sub("", nombre).strip()
+        return simplificar(nombre)
+
     def genera_nombres(self):
         nombre = self.deOrganismo
         if self.isCsic:
@@ -112,9 +119,13 @@ class Organismo:
     def dire(self):
         if self.deDireccion is None:
             return None
-        deDireccion = self.deDireccion.replace("Avda ", "Avenida ")
+        deDireccion = self.deDireccion
         deDireccion = deDireccion.replace("-", " ")
-        deDireccion = deDireccion.split(",")[0].lower()
+        #deDireccion = deDireccion.split(",")[0]
+        deDireccion = deDireccion.lower()
+        deDireccion = deDireccion.replace("avda ", "avenida ")
+        deDireccion = deDireccion.replace("avda. ", "avenida ")
+        deDireccion = deDireccion.replace("av. ", "avenida ")
         return deDireccion
         
     @property
