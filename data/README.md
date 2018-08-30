@@ -24,4 +24,7 @@ Usándose los ficheros de [fuentes](../fuentes/) se genera los siguientes datos:
 
 `puestos_ok.txt` con los puestos que se han considerado TAI
 
+`tai.kml` el mapa con el resultado final
+Ver https://www.google.com/maps/d/u/0/edit?hl=es&mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
+
 Y un `.txt` con las descripciones sin duplicados de cada tipo de dato

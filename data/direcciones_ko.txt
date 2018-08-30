@@ -1,16 +1,22 @@
+151, avenue de la radio niamey, niger (el)
+151, avenue de la radio niamey, nigeria
 1ª travesia eusebio bertoa s/n, 15145, a coruna, galicia, españa
 22, avenue marceau. 75008 parís, francia
 2375 pennsylvania ave. nw washington dc washington, estados unidos (los)
+245 east 47th street, 36th floor new york, estados unidos (los)
+27 mart, nº 7 1000 skopje, macedonia (la antigua republica yugoslava de)
 390 st. kilda rd. · melbourne vic 3004 melbourne, australia
 52, boulevard du regent. b 1000 bruselas, belgica
 53, avenue blanc. 1202 ginebra, suiza
 6420 richmond ave ste 475 houston, tx 77057, estados unidos (los)
+726 52 hannam dong seul, corea (la republica de)
 aduana de la farga de moles s/n, 25799, lleida, cataluna, españa
 aeropuerto de barajas s/n, 28042, madrid, comunidad madrid, españa
 aeropuerto de menorca s/n, 07702, illes balears, illes balears, españa
 aeropuerto ibiza s/n, 07800, illes balears, illes balears, españa
 aeropuerto tenerife sur s/n, 38611, santa cruz tenerife, canarias, españa
 afueras s/n, 22533, huesca, aragon, españa
+al saman towers, esc. izquierda, 8.ª pla abu dhabi, emiratos arabes unidos (los)
 alam mayor 1, 22222, almeria, andalucia, españa
 alameda santos, 787 11º andar sao paulo, brasil
 alcalde oscar bautista afonso s/n, 35450, las palmas, canarias, españa
@@ -239,6 +245,7 @@ avenida catalunya 78, 08730, barcelona, cataluna, españa
 avenida catedrático agustín escardino benlloch 7, 46980, valencia, comunitat valenciana, españa
 avenida cayetano feu 45, 21400, huelva, andalucia, españa
 avenida caño herrera 55, 11580, cadiz, andalucia, españa
+avenida cañoto esquina calle perú santa cruz de la sierra, bolivia estado plurinacional de
 avenida cehegin 111, 30180, murcia, region murcia, españa
 avenida cerezo de rio tiron 6, 09250, burgos, castilla leon, españa
 avenida cesar augusto 8 10, 50004, zaragoza, aragon, españa
@@ -602,6 +609,7 @@ avenida de valladolid 31, 47100, valladolid, castilla leon, españa
 avenida de vigo 165, 15403, a coruna, galicia, españa
 avenida de vilalba s/n, 27833, lugo, galicia, españa
 avenida de villena s/n, 02660, albacete, castilla la mancha, españa
+avenida de zaragoza 14, 22700, huesca, aragon, españa
 avenida de álvarez guerra 10, 13600, ciudad real, castilla la mancha, españa
 avenida del acueducto 31 3º, 40002, segovia, castilla leon, españa
 avenida del brillante 5 y 7, 14071, cordoba, andalucia, españa
@@ -969,6 +977,7 @@ avenida mercamurcia s/n, 30120, murcia, region murcia, españa
 avenida merida s/n, 10980, caceres, extremadura, españa
 avenida mistral 44, 08015, barcelona, cataluna, españa
 avenida mogan 1, 35130, las palmas, canarias, españa
+avenida mohedano, entre la 1.ª y 2.ª caracas, venezuela republica bolivariana de
 avenida moliní 6, 41012, sevilla, andalucia, españa
 avenida monares 4, 50280, zaragoza, aragon, españa
 avenida monestir 62, 46760, valencia, comunitat valenciana, españa
@@ -1302,6 +1311,7 @@ benicarlo s/n, 12003, castellon, comunitat valenciana, españa
 bilbao s/n, 03720, alicante, comunitat valenciana, españa
 bilbao sondika (antiguo) s/n, 48150, bizkaia, pais vasco, españa
 blque aeropuerto bilbao aeropuerto, 48150, bizkaia, pais vasco, españa
+blque aeropuerto de gran canaria.apartado de correos nº 88 s/n, 35230, las palmas, canarias, españa
 blque bocatauce s/n, 38400, santa cruz tenerife, canarias, españa
 blque complejo moncloa edificio inia 2 s/n, 28040, madrid, comunidad madrid, españa
 blque edificio v centenario, torre norte, 1ª planta, 52001, melilla, melilla, españa
@@ -1315,6 +1325,7 @@ bulev de el ejido 168, 04700, almeria, andalucia, españa
 bulevar ciudad de vicar s/n, 04738, almeria, andalucia, españa
 burgos s/n, 39220, cantabria, cantabria, españa
 c/ profesor albareda, 1 18008 granada (granada)
+c/makka al muka rama, 5 damasco, siria (la) republica arabe
 calle 1 de mayo 18, 21870, huelva, andalucia, españa
 calle 12 de octubre 1, 46860, valencia, comunitat valenciana, españa
 calle 18 de julio 35, 35430, las palmas, canarias, españa
@@ -1342,6 +1353,7 @@ calle abilio calderon 53, 34480, palencia, castilla leon, españa
 calle acacias 1, 37210, salamanca, castilla leon, españa
 calle acacias 2 3ª, 11007, cadiz, andalucia, españa
 calle acacias 2, 11007, cadiz, andalucia, españa
+calle acacias 3, 11071, cadiz, andalucia, españa
 calle academico maravall 17, 46800, valencia, comunitat valenciana, españa
 calle acceso al mercado s/n, 36880, pontevedra, galicia, españa
 calle acceso cuartel 3, 27870, lugo, galicia, españa
@@ -2824,6 +2836,7 @@ calle generalisimo 40, 50130, zaragoza, aragon, españa
 calle generalisimo 80, 23360, jaen, andalucia, españa
 calle gerardo diego s/n, 16004, cuenca, castilla la mancha, españa
 calle gerona s/n, 47013, valladolid, castilla leon, españa
+calle gerona s/n, 47071, valladolid, castilla leon, españa
 calle gesalaga kalea 4, 20740, gipuzkoa, pais vasco, españa
 calle gibraltar 2, 37008, salamanca, castilla leon, españa
 calle gibraltar español 25, 04007, almeria, andalucia, españa
@@ -2942,7 +2955,6 @@ calle hermanos martinez 1, 32840, ourense, galicia, españa
 calle hermanos parra 26, 03360, alicante, comunitat valenciana, españa
 calle hermanos pinzon 6, 41760, sevilla, andalucia, españa
 calle hermanos tora 19, 28970, madrid, comunidad madrid, españa
-calle hermosilla 66, 28001, madrid, comunidad madrid, españa
 calle hernan cortes 3, 50220, zaragoza, aragon, españa
 calle hernan cortes 32, 06330, badajoz, extremadura, españa
 calle hernan cortes 43, 04550, almeria, andalucia, españa
@@ -3690,7 +3702,6 @@ calle miguel villanueva 68, 26291, la rioja, la rioja, españa
 calle miguel zazo 2, 52004, melilla, melilla, españa
 calle miguel ángel 19, 28010, madrid, comunidad madrid, españa
 calle miguel ángel 5, 28010, madrid, comunidad madrid, españa
-calle miguel ángel 5, 28071, madrid, comunidad madrid, españa
 calle mikel zarate 4 6, 48150, bizkaia, pais vasco, españa
 calle mingarro b 2, 46430, valencia, comunitat valenciana, españa
 calle mingo priego 3, 23300, jaen, andalucia, españa
@@ -5089,6 +5100,7 @@ confederacion 5, 31410, navarra, comunidad foral navarra, españa
 corredera de san bartolomé 43, 23740, jaen, andalucia, españa
 cra de barcelona (n ii) 43, 08302, barcelona, cataluna, españa
 cra de villacastin 4, 40006, segovia, castilla leon, españa
+cra. 36, nº 2 74. plaza santo domingo cartagena de indias, colombia
 ctra a 382 s/n, 11630, cadiz, andalucia, españa
 ctra a 488 s/n, 21320, huelva, andalucia, españa
 ctra a 499 s/n, 21540, huelva, andalucia, españa
@@ -5291,6 +5303,7 @@ ctra general 59 61, 38683, santa cruz tenerife, canarias, españa
 ctra general 7, 38380, santa cruz tenerife, canarias, españa
 ctra general 77, 38820, santa cruz tenerife, canarias, españa
 ctra general centro 124, 35310, las palmas, canarias, españa
+ctra general juan grande s/n, 35107, las palmas, canarias, españa
 ctra general norte 95, 38350, santa cruz tenerife, canarias, españa
 ctra general s/n, 33156, asturias, principado asturias, españa
 ctra general s/n, 33570, asturias, principado asturias, españa
@@ -5313,6 +5326,7 @@ ctra jarandilla 4, 10300, caceres, extremadura, españa
 ctra jerica zucaina s/n, 12448, castellon, comunitat valenciana, españa
 ctra jose navarro pardo 2, 04560, almeria, andalucia, españa
 ctra juan antonio cavestany 1, 41020, sevilla, andalucia, españa
+ctra juan grande gc 500 km. 1, 35107, las palmas, canarias, españa
 ctra la aljorra 500, 30330, murcia, region murcia, españa
 ctra la estacion s/n, 06250, badajoz, extremadura, españa
 ctra la magdalena s/n, 34870, palencia, castilla leon, españa
@@ -5328,6 +5342,7 @@ ctra madrid coruña s/n, 40150, segovia, castilla leon, españa
 ctra madrid coruña s/n, 40410, segovia, castilla leon, españa
 ctra madrid irun 38, 09200, burgos, castilla leon, españa
 ctra madrid irun s/n, 09200, burgos, castilla leon, españa
+ctra madrid irún s/n, 09400, burgos, castilla leon, españa
 ctra mancha real cazorla 3, 23537, jaen, andalucia, españa
 ctra maranchon s/n, 42250, soria, castilla leon, españa
 ctra marsa s/n, 43730, tarragona, cataluna, españa
@@ -5447,13 +5462,16 @@ dacio darias s/n, 38900, santa cruz tenerife, canarias, españa
 doctor antonio cabrera s/n, 14400, cordoba, andalucia, españa
 doctor negrin s/n, 35110, las palmas, canarias, españa
 dr. lopez suarez s/n, 27400, lugo, galicia, españa
+edif. bancaracas, piso 7. pza castellana caracas, venezuela republica bolivariana de
 edificio c.i.a.t. c/ ramón arias. aparta panamá, panama
+edificio mercantil plaza, piso 11 san juan de puerto rico, estados unidos (los)
 ejercito español s/n, 23071, jaen, andalucia, españa
 el altet s/n, 03195, alicante, comunitat valenciana, españa
 el calvario s/n, 38800, santa cruz tenerife, canarias, españa
 el llano constitucion 1, 14200, cordoba, andalucia, españa
 el pilar s/n, 22550, huesca, aragon, españa
 el voluntariado 9, 50800, zaragoza, aragon, españa
+elizabetes iela, 11. 3.ª riga lv1010, letonia
 embajada de españa. 39 chesham place londres swix 8sb, reino unido (el)
 emilia pardo bazan 1, 28750, madrid, comunidad madrid, españa
 eras del tio cañamon 2 4, 16004, cuenca, castilla la mancha, españa
@@ -5468,6 +5486,7 @@ font dels frares s/n, 08500, barcelona, cataluna, españa
 francisco de longa 24, 09294, burgos, castilla leon, españa
 fray gabriel de magdalena 13, 45100, toledo, castilla la mancha, españa
 fuente somera s/n, 02480, albacete, castilla la mancha, españa
+furstatskaya 9 san petersburgo 191028, rusia (la) federacion de
 galileo, 114. colonia polanco méxico. d.f., mexico
 garcia morato s/n, 23790, jaen, andalucia, españa
 gaztañaga ausoa s/n, 48180, bizkaia, pais vasco, españa
@@ -5507,6 +5526,7 @@ orilla rio taja s/n, 33111, asturias, principado asturias, españa
 os chaos s/n, 27100, lugo, galicia, españa
 pablo rada 40, 31380, navarra, comunidad foral navarra, españa
 pago san jeronimo s/n, 11540, cadiz, andalucia, españa
+palais chehab, hadath antounie beyrouth 1107 2120, libano
 paraje de los triolas s/n, 30370, murcia, region murcia, españa
 partida coscolla s/n, 22430, huesca, aragon, españa
 paseo adarves 13, 19300, guadalajara, castilla la mancha, españa
@@ -6285,9 +6305,11 @@ ronda pintor garate 3, 44540, teruel, aragon, españa
 ronda s.francisco javier s/n, 31191, navarra, comunidad foral navarra, españa
 ronda suroesste s/n, 46440, valencia, comunitat valenciana, españa
 ronda universitat 23, 08007, barcelona, cataluna, españa
+rua de espanha, 1 praia, cabo verde
 sa rota de n pere cardona s/n, 07840, illes balears, illes balears, españa
 saenz de quejana s/n, 23280, jaen, andalucia, españa
 salobreña s/n, 18600, granada, andalucia, españa
+salto del negro s/n, 35017, las palmas, canarias, españa
 san vicente s/n, 03004, alicante, comunitat valenciana, españa
 santa barbara 5, 19250, guadalajara, castilla la mancha, españa
 santa maria de la blanca 39, 21590, huelva, andalucia, españa
@@ -6295,9 +6317,16 @@ santiago s/n, 30530, murcia, region murcia, españa
 sebastian arozena s/n, 38700, santa cruz tenerife, canarias, españa
 serrablo 131, 22609, huesca, aragon, españa
 sertorio 8, 45700, toledo, castilla la mancha, españa
+shara al maarad edificio 1 jartun, sudan (el)
+sherpur, main street, third lane /right kabul, afganistan
+shirpur, kabul, main st., third lane (ri afganistán, afganistan
+sin datos sin datos, guinea ecuatorial
+sin datos sin datos, marruecos
 sorieus 7, 25550, lleida, cataluna, españa
+stremianni per. 31/1 moscu, rusia (la) federacion de
 subida al radio faro 50 52, 36390, pontevedra, galicia, españa
 subida san miguel 2 3, 09340, burgos, castilla leon, españa
+surra, block 3, st. 14, bldg. 19 p.o.b.: 22207 safat 13083, kuwait
 tameiga casal 95, 36416, pontevedra, galicia, españa
 torneiro a relva s/n, 36410, pontevedra, galicia, españa
 trva corumbin 7, 24420, leon, castilla leon, españa

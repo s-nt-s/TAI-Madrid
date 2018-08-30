@@ -278,7 +278,8 @@ class MyEncoder(json.JSONEncoder):
 
     def default(self, obj):
         if isinstance(obj, set):
-            return super(MyEncoder, self).default(list(obj))
+            obj = list(sorted(v, key=lambda i: str(i)))
+            return super(MyEncoder, self).default(obj)
         if not isinstance(obj, Puesto) and not isinstance(obj, Organismo):
             return super(MyEncoder, self).default(obj)
         cp = obj.__dict__.copy()
@@ -291,7 +292,7 @@ class MyEncoder(json.JSONEncoder):
                 if len(v) == 0:
                     del cp[k]
                 else:
-                    cp[k] = list(v)
+                    cp[k] = list(sorted(v, key=lambda i: str(i)))
         return cp
 
 

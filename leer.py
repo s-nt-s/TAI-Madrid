@@ -501,22 +501,64 @@ if args.gob or args.todo:
 
 
 if args.fusion1 or args.todo:
+    print ("Fusionando organismo administracion.gob.es con dir3_E")
+    
     organismos_dir3_E = Organismo.load(name="organismos_dir3_E")
     organismos_gob_es = Organismo.load(name="organismos_gob.es")
+
+    organismos_dir3_E_dict = {o.idOrganismo:o for o in organismos_dir3_E}
+    organismos_gob_es_dict = {o.idOrganismo:o for o in organismos_gob_es}
+    organismos_dir3_E_dict2 = {o.rcp:o for o in organismos_dir3_E if o.rcp}
+    organismos_gob_es_dict2 = {o.rcp:o for o in organismos_gob_es if o.rcp}
+
+    codigos_dir3_E = set([o.idOrganismo for o in organismos_dir3_E])
+    codigos_gob_es = set([o.idOrganismo for o in organismos_gob_es])
+    codigos_comun = codigos_dir3_E.intersection(codigos_gob_es)
+
+    rcp_dir3_E = set([o.rcp for o in organismos_dir3_E if o.rcp and o.idOrganismo not in codigos_comun])
+    rcp_gob_es = set([o.rcp for o in organismos_gob_es if o.rcp and o.idOrganismo not in codigos_comun])
+    rcp_comun = rcp_dir3_E.intersection(rcp_gob_es)
+
+    count = 0
+    ok = 0
+    total = len(codigos_comun) + len(rcp_comun)
+
+    organismos = set()
+    for id in list(codigos_comun.union(rcp_comun)):
+        org_dir3_E = organismos_dir3_E_dict[id] if isinstance(id, str) else organismos_dir3_E_dict2[id]
+        org_gob_es = organismos_gob_es_dict[id] if isinstance(id, str) else organismos_gob_es_dict2[id]
+        codigos_comun.add(org_dir3_E.idOrganismo)
+        codigos_comun.add(org_gob_es.idOrganismo)
+
+        org_gob_es.idPadres = org_gob_es.idPadres.union(org_dir3_E.idPadres)
+        if org_gob_es.idRaiz is None:
+            org_gob_es.idRaiz = org_dir3_E.idRaiz
+        if org_gob_es.deDireccion is None:
+            org_gob_es.deDireccion = org_dir3_E.deDireccion
+            org_gob_es.postCode = org_dir3_E.postCode
+        elif org_dir3_E.postCode is not None and org_dir3_E.postCode in org_gob_es.deDireccion:
+            org_gob_es.postCode = org_dir3_E.postCode
+        organismos.add(org_gob_es)
+        ok += 1
+        count += 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, org_gob_es.idOrganismo, ok), end="\r")
+    print ("")
+
+    organismos_dir3_E = [o for o in organismos_dir3_E if o.idOrganismo not in codigos_comun]
+    organismos_gob_es = [o for o in organismos_gob_es if o.idOrganismo not in codigos_comun]
+    
     dict_organi_rpt = {o.idOrganismo: o for o in Organismo.load(name="organismos_rpt")}
     for o in organismos_dir3_E + organismos_gob_es:
         orga_rpt = dict_organi_rpt.get(o.rcp, None)
         if orga_rpt:
             o.nombres = o.nombres.union(orga_rpt.nombres)
 
-    cod_gob_es = set([o.idOrganismo for o in organismos_gob_es])
-
-    print ("Fusionando organismo administracion.gob.es con dir3_E")
     count = 0
     ok = 0
     total = len(organismos_gob_es)
 
-    fusionado = set()
+    descartar = set()
     candidatas={}
 
     # Si solo hay uno que se llama igual es que es el mismo
@@ -529,12 +571,7 @@ if args.fusion1 or args.todo:
         orgs_mismo_nombre = set()
         o_deDirecion = o.dire
         for n in organismos_dir3_E:
-            if n.idOrganismo == o.idOrganismo:
-                o.idPadres = o.idPadres.union(n.idPadres)
-                fusionado.add(n)
-                if n.postCode is not None and o.deDireccion is not None and n.postCode in o.deDireccion:
-                    o.postCode = n.postCode
-            elif n.idOrganismo not in cod_gob_es and o.nombres.intersection(n.nombres):
+            if o.nombres.intersection(n.nombres):
                 orgs_mismo_nombre.add(n)
                 if o.deDireccion is None and n.deDireccion is None:
                     orgs.add(n)
@@ -553,21 +590,66 @@ if args.fusion1 or args.todo:
             candidatas[n] = orgs
     for n, orgs in candidatas.items():
         if len(orgs)==1:
-            ok += 1
-            print("%3d%% completado: %-30s (%s)" %
-                  (count * 100 / total, o.idOrganismo, ok), end="\r")
             o = orgs.pop()
-            fusionado.add(n)
             o.postCode = n.postCode
             o.codigos.add(n.idOrganismo)
             o.idPadres = o.idPadres.union(n.idPadres)
-            if n.deDireccion is not None and o.deDireccion is None:
+            if o.deDireccion is None:
                 o.deDireccion = n.deDireccion
-
+            descartar.add(o)
+            descartar.add(n)
+            organismos.add(o)
+            ok += 1
+            print("%3d%% completado: %-30s (%s)" %
+                  (count * 100 / total, o.idOrganismo, ok), end="\r")
     print("")
+    for o in organismos_gob_es + organismos_dir3_E:
+        if o not in descartar:
+            organismos.add(o)
 
-    organismos = organismos_gob_es + [o for o in organismos_dir3_E if o not in fusionado]
-    organismos = clean_organismos(organismos)
+    count = 0
+    ok = 0
+    orgs_con_dire = []
+    orgs_sin_dire = []
+
+    for o in organismos:
+        o.genera_codigos()
+        if o.deDireccion:
+            orgs_con_dire.append(o)
+        else:
+            orgs_sin_dire.append(o)
+
+    total = len(orgs_sin_dire)
+    for o in orgs_sin_dire:
+        orgs_mismo_nombre = set()
+        orgs_mismo_padre = set()
+        dires = set()
+        for n in orgs_con_dire:
+            if n!=o and n.nombres.intersection(o.nombres):
+                orgs_mismo_nombre.add(n)
+                dires.add(n.deDireccion)
+                if o.idPadres.intersection(n.idPadres):
+                    orgs.add(n)
+        orgs = orgs_mismo_padre if len(orgs_mismo_padre)==1 else orgs_mismo_nombre
+        if len(orgs)==1:
+            n = orgs.pop()
+            o.deDireccion = n.deDireccion
+            if o.postCode is None or n.postCode is None:
+                postCode = o.postCode or n.postCode
+                o.postCode = postCode
+                n.postCode = postCode
+            if o.latlon is None or n.latlon is None:
+                latlon = o.latlon or n.latlon
+                o.latlon = latlon
+                n.latlon = latlon
+            ok += 1
+        elif len(dires)==1:
+            o.deDireccion = dires.pop()
+            ok += 1
+        count += 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print ("")
 
     Organismo.save(organismos, name="organismos_dir3_E_gob.es")
 
@@ -609,8 +691,14 @@ for rpt, org in arreglos.items():
                 fusionados.add(o)
 print("")
 organismos = [o for o in organismos if o not in fusionados]
-
-
+    
+rcp_ok = set()
+for o in organismos:
+    o.genera_codigos()
+    for c in o.codigos:
+        if isinstance(c, int):
+            rcp_ok.add(c)
+    
 excluir_rpt = set([o.rcp for o in organismos if o.rcp and o.latlon])
 codigos_tai = codigos_tai - excluir_rpt
 organismos_rpt = [o for o in organismos_rpt if o.idOrganismo in codigos_tai]
@@ -806,7 +894,7 @@ print ("\n".join(sorted(sin_latlon)))
 print("")
 
 
-organismos = clean_organismos(organismos)
+#organismos = clean_organismos(organismos)
 Organismo.save(organismos)
 
 with open("data/direcciones_ko.txt", "w") as f:
