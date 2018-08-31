@@ -21,3 +21,5 @@ Ver http://www.csic.es/centros-de-investigacion1
 Algunos BOEs de convocatorias anteriores
 
 También sería muy útil los datos `RCP` (Registro Central de Personal) pero no los encuentro.
+
+Adicionalmente se usará el excell https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc
