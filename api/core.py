@@ -20,6 +20,17 @@ def parse_key(k):
 def simplificar(s):
     return s.lower().replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
 
+def simplificar_dire(deDireccion):
+    if deDireccion is None:
+        return None
+    deDireccion = deDireccion.replace("-", " ")
+    #deDireccion = deDireccion.split(",")[0]
+    deDireccion = deDireccion.lower()
+    deDireccion = deDireccion.replace("avda ", "avenida ")
+    deDireccion = deDireccion.replace("avda. ", "avenida ")
+    deDireccion = deDireccion.replace("av. ", "avenida ")
+    return deDireccion
+
 class Organismo:
 
     def load(name="organismos"):
@@ -117,16 +128,7 @@ class Organismo:
 
     @property
     def dire(self):
-        if self.deDireccion is None:
-            return None
-        deDireccion = self.deDireccion
-        deDireccion = deDireccion.replace("-", " ")
-        #deDireccion = deDireccion.split(",")[0]
-        deDireccion = deDireccion.lower()
-        deDireccion = deDireccion.replace("avda ", "avenida ")
-        deDireccion = deDireccion.replace("avda. ", "avenida ")
-        deDireccion = deDireccion.replace("av. ", "avenida ")
-        return deDireccion
+        return simplificar_dire(self.deDireccion)
         
     @property
     def url(self):

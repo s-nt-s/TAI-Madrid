@@ -10,8 +10,9 @@ import sys
 from geopy.geocoders import Nominatim
 import bs4
 import xlrd
+import requests
 
-from api import Descripciones, Organismo, Puesto, soup_from_file, yaml_from_file
+from api import Descripciones, Organismo, Puesto, soup_from_file, yaml_from_file, simplificar_dire
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -855,11 +856,35 @@ for d1, d2, p in direcciones_falta:
 print ("")
 '''
 
+
+print ("Completando latlon con excel")
+url = "https://docs.google.com/spreadsheet/ccc?key=18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc&output=xls"
+r = requests.get(url)
+wb = xlrd.open_workbook(file_contents=r.content)
+sh = wb.sheet_by_index(1)
+total = sh.nrows
+count = 0
+ok = 0
+dire_xls=set()
+for rx in range(sh.nrows):
+    row = sh.row(rx)
+    dire, latlon = parse(row[10]), parse(row[12])
+    if dire and latlon:
+        dire = simplificar_dire(dire)
+        if dire not in direcciones:
+            direcciones[dire]=latlon
+            dire_xls.add(dire)
+            ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, (dire or "")[:30], ok), end="\r")
+print ("")
+
 print ("Seteando latlon")
 
 total = len(organismos)
 count = 0
 ok = 0
+ok2 = 0
 sin_latlon=set()
 for o in organismos:
     if not o.latlon and o.deDireccion:
@@ -867,10 +892,12 @@ for o in organismos:
         if latlon:
             o.latlon
             ok += 1
+            if o.dire in dire_xls:
+                ok2 += 1
         else:
             sin_latlon.add(o.dire)
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print("%3d%% completado: %-30s (%s / %s)" % (count * 100 / total, o.idOrganismo, ok, ok2), end="\r")
 
 '''
 direcciones={}
