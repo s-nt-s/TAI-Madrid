@@ -5,14 +5,17 @@ import yaml
 
 sp = re.compile(r"\s+")
 
+
 def yaml_from_file(f):
     with open(f) as y:
         return yaml.load(y)
+
 
 def soup_from_file(f):
     with open(f, 'rb') as html:
         soup = bs4.BeautifulSoup(html, "lxml")
         return soup
+
 
 def fix_html(html, *args, **kargs):
     html = bs4.BeautifulSoup(html, "html.parser")

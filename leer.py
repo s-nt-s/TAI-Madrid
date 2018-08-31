@@ -6,13 +6,14 @@ import re
 import xml.etree.ElementTree as ET
 from glob import glob
 from urllib.parse import unquote, urljoin
-import sys
-from geopy.geocoders import Nominatim
-import bs4
-import xlrd
-import requests
 
-from api import Descripciones, Organismo, Puesto, soup_from_file, yaml_from_file, simplificar_dire
+import bs4
+import requests
+import xlrd
+from geopy.geocoders import Nominatim
+
+from api import (Descripciones, Organismo, Puesto, simplificar_dire,
+                 soup_from_file, yaml_from_file)
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -46,7 +47,7 @@ re_puesto = re.compile(r"\b(\d{6,7})\b")
 re_map = re.compile(
     r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
 re_ll = re.compile(r"https://maps.google.es/maps\?.*&ll=([\d\.,\-]+).*")
-re_paren=re.compile(r"\(.*$")
+re_paren = re.compile(r"\(.*$")
 
 
 def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otros=None):
@@ -90,13 +91,14 @@ def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otro
 
     return organismos_X
 
+
 def clean_direccion(d):
     if not d:
         return d
     d = d.replace("Avda ", "Avenida ")
 
     return d
-    
+
 
 def parse(cell):
     if not cell:
@@ -214,13 +216,16 @@ if args.puestos or args.todo:
                 todos.append(p)
                 isCsic = p.idMinisterio == 47811
                 if p.idMinisterio and p.idMinisterio not in organismos:
-                    organismos[p.idMinisterio] = Organismo(p.idMinisterio, p.deMinisterio, isCsic=isCsic)
+                    organismos[p.idMinisterio] = Organismo(
+                        p.idMinisterio, p.deMinisterio, isCsic=isCsic)
                 if p.idCentroDirectivo and p.idCentroDirectivo not in organismos:
-                    idPadres = set({p.idMinisterio,})
-                    organismos[p.idCentroDirectivo] = Organismo(p.idCentroDirectivo, p.deCentroDirectivo, idPadres=idPadres, isCsic=isCsic)
+                    idPadres = set({p.idMinisterio, })
+                    organismos[p.idCentroDirectivo] = Organismo(
+                        p.idCentroDirectivo, p.deCentroDirectivo, idPadres=idPadres, isCsic=isCsic)
                 if p.idUnidad and p.idUnidad not in organismos:
-                    idPadres = set({p.idCentroDirectivo or p.idMinisterio,})
-                    organismos[p.idUnidad] = Organismo(p.idUnidad, p.deUnidad, idPadres=idPadres, isCsic=isCsic)
+                    idPadres = set({p.idCentroDirectivo or p.idMinisterio, })
+                    organismos[p.idUnidad] = Organismo(
+                        p.idUnidad, p.deUnidad, idPadres=idPadres, isCsic=isCsic)
 
     Organismo.save(list(organismos.values()), name="organismos_rpt")
 
@@ -359,10 +364,11 @@ if args.csic or args.todo:
         latlon = None
         deOrganismo = re_bk.sub(" ", soup.find("h2").get_text()).strip()
         for tr in soup.findAll("tr"):
-            tds = [re_bk.sub(" ", td.get_text()).strip() for td in tr.findAll("td")]
-            if len(tds)==2:
+            tds = [re_bk.sub(" ", td.get_text()).strip()
+                   for td in tr.findAll("td")]
+            if len(tds) == 2:
                 if tds[0] == "Dirección":
-                    deDireccion = tds[1].replace("(ver mapa)","").strip()
+                    deDireccion = tds[1].replace("(ver mapa)", "").strip()
         soup = soup_from_file("fuentes/csic.es/mp_%06d.html" % id)
         a = soup.find("a", attrs={"href": re_ll})
         if a:
@@ -374,7 +380,7 @@ if args.csic or args.todo:
               (count * 100 / total, id), end="\r")
     print("100%")
     Organismo.save(col, name="organismos_csic.es")
-    
+
 
 if args.dir3 or args.todo:
 
@@ -436,7 +442,8 @@ if args.dir3 or args.todo:
     print ("")
     Organismo.save(organismos, name="organismos_dir3")
 
-    organismos_dir3_E = clean_organismos(organismos, msg="Obteniendo EA y E0 en última versión", otros="EA")
+    organismos_dir3_E = clean_organismos(
+        organismos, msg="Obteniendo EA y E0 en última versión", otros="EA")
     Organismo.save(organismos_dir3_E, name="organismos_dir3_E")
 
 
@@ -478,7 +485,8 @@ def tratar_gob_es(total, visto, id, raiz, padre):
     img = soup.find("img", attrs={"src": re_map})
     if img:
         latlon = re_map.search(img.attrs["src"]).group(1)
-    org = Organismo(codigo, deOrganismo, deDireccion, latlon=latlon, idRaiz=raiz, idUnidOrganica=id)
+    org = Organismo(codigo, deOrganismo, deDireccion,
+                    latlon=latlon, idRaiz=raiz, idUnidOrganica=id)
     visto[id] = org
     for h in hijos:
         tratar_gob_es(total, visto, h, raiz, codigo)
@@ -495,29 +503,31 @@ if args.gob or args.todo:
     for h in ids:
         id = int(h.strip())
         tratar_gob_es(total, visto, id, None, None)
-    print("100%")# completado" + (" " * 10))
-    
+    print("100%")  # completado" + (" " * 10))
+
     organismos = clean_organismos(list(visto.values()))
     Organismo.save(organismos, name="organismos_gob.es")
 
 
 if args.fusion1 or args.todo:
     print ("Fusionando organismo administracion.gob.es con dir3_E")
-    
+
     organismos_dir3_E = Organismo.load(name="organismos_dir3_E")
     organismos_gob_es = Organismo.load(name="organismos_gob.es")
 
-    organismos_dir3_E_dict = {o.idOrganismo:o for o in organismos_dir3_E}
-    organismos_gob_es_dict = {o.idOrganismo:o for o in organismos_gob_es}
-    organismos_dir3_E_dict2 = {o.rcp:o for o in organismos_dir3_E if o.rcp}
-    organismos_gob_es_dict2 = {o.rcp:o for o in organismos_gob_es if o.rcp}
+    organismos_dir3_E_dict = {o.idOrganismo: o for o in organismos_dir3_E}
+    organismos_gob_es_dict = {o.idOrganismo: o for o in organismos_gob_es}
+    organismos_dir3_E_dict2 = {o.rcp: o for o in organismos_dir3_E if o.rcp}
+    organismos_gob_es_dict2 = {o.rcp: o for o in organismos_gob_es if o.rcp}
 
     codigos_dir3_E = set([o.idOrganismo for o in organismos_dir3_E])
     codigos_gob_es = set([o.idOrganismo for o in organismos_gob_es])
     codigos_comun = codigos_dir3_E.intersection(codigos_gob_es)
 
-    rcp_dir3_E = set([o.rcp for o in organismos_dir3_E if o.rcp and o.idOrganismo not in codigos_comun])
-    rcp_gob_es = set([o.rcp for o in organismos_gob_es if o.rcp and o.idOrganismo not in codigos_comun])
+    rcp_dir3_E = set(
+        [o.rcp for o in organismos_dir3_E if o.rcp and o.idOrganismo not in codigos_comun])
+    rcp_gob_es = set(
+        [o.rcp for o in organismos_gob_es if o.rcp and o.idOrganismo not in codigos_comun])
     rcp_comun = rcp_dir3_E.intersection(rcp_gob_es)
 
     count = 0
@@ -526,8 +536,10 @@ if args.fusion1 or args.todo:
 
     organismos = set()
     for id in list(codigos_comun.union(rcp_comun)):
-        org_dir3_E = organismos_dir3_E_dict[id] if isinstance(id, str) else organismos_dir3_E_dict2[id]
-        org_gob_es = organismos_gob_es_dict[id] if isinstance(id, str) else organismos_gob_es_dict2[id]
+        org_dir3_E = organismos_dir3_E_dict[id] if isinstance(
+            id, str) else organismos_dir3_E_dict2[id]
+        org_gob_es = organismos_gob_es_dict[id] if isinstance(
+            id, str) else organismos_gob_es_dict2[id]
         codigos_comun.add(org_dir3_E.idOrganismo)
         codigos_comun.add(org_gob_es.idOrganismo)
 
@@ -546,10 +558,13 @@ if args.fusion1 or args.todo:
               (count * 100 / total, org_gob_es.idOrganismo, ok), end="\r")
     print ("")
 
-    organismos_dir3_E = [o for o in organismos_dir3_E if o.idOrganismo not in codigos_comun]
-    organismos_gob_es = [o for o in organismos_gob_es if o.idOrganismo not in codigos_comun]
-    
-    dict_organi_rpt = {o.idOrganismo: o for o in Organismo.load(name="organismos_rpt")}
+    organismos_dir3_E = [
+        o for o in organismos_dir3_E if o.idOrganismo not in codigos_comun]
+    organismos_gob_es = [
+        o for o in organismos_gob_es if o.idOrganismo not in codigos_comun]
+
+    dict_organi_rpt = {
+        o.idOrganismo: o for o in Organismo.load(name="organismos_rpt")}
     for o in organismos_dir3_E + organismos_gob_es:
         orga_rpt = dict_organi_rpt.get(o.rcp, None)
         if orga_rpt:
@@ -560,10 +575,11 @@ if args.fusion1 or args.todo:
     total = len(organismos_gob_es)
 
     descartar = set()
-    candidatas={}
+    candidatas = {}
 
     # Si solo hay uno que se llama igual es que es el mismo
-    # si hay varios, pero solo uno de ellos esta en el mismo sitio es que es el mismo
+    # si hay varios, pero solo uno de ellos esta en el mismo sitio es que es
+    # el mismo
     for o in organismos_gob_es:
         count += 1
         print("%3d%% completado: %-30s (%s)" %
@@ -582,15 +598,15 @@ if args.fusion1 or args.todo:
                         deDireccion = deDireccion.split(",")[0]
                         if o_deDirecion.startswith(deDireccion):
                             orgs.add(n)
-        if len(orgs)==0 and len(orgs_mismo_nombre)==1:
+        if len(orgs) == 0 and len(orgs_mismo_nombre) == 1:
             orgs = orgs_mismo_nombre
-        if len(orgs)==1:
+        if len(orgs) == 1:
             n = orgs.pop()
             orgs = candidatas.get(n, set())
             orgs.add(o)
             candidatas[n] = orgs
     for n, orgs in candidatas.items():
-        if len(orgs)==1:
+        if len(orgs) == 1:
             o = orgs.pop()
             o.postCode = n.postCode
             o.codigos.add(n.idOrganismo)
@@ -626,13 +642,14 @@ if args.fusion1 or args.todo:
         orgs_mismo_padre = set()
         dires = set()
         for n in orgs_con_dire:
-            if n!=o and n.nombres.intersection(o.nombres):
+            if n != o and n.nombres.intersection(o.nombres):
                 orgs_mismo_nombre.add(n)
                 dires.add(n.deDireccion)
                 if o.idPadres.intersection(n.idPadres):
                     orgs.add(n)
-        orgs = orgs_mismo_padre if len(orgs_mismo_padre)==1 else orgs_mismo_nombre
-        if len(orgs)==1:
+        orgs = orgs_mismo_padre if len(
+            orgs_mismo_padre) == 1 else orgs_mismo_nombre
+        if len(orgs) == 1:
             n = orgs.pop()
             o.deDireccion = n.deDireccion
             if o.postCode is None or n.postCode is None:
@@ -644,7 +661,7 @@ if args.fusion1 or args.todo:
                 o.latlon = latlon
                 n.latlon = latlon
             ok += 1
-        elif len(dires)==1:
+        elif len(dires) == 1:
             o.deDireccion = dires.pop()
             ok += 1
         count += 1
@@ -662,7 +679,8 @@ for p in Puesto.load():
 
 organismos = Organismo.load(name="organismos_dir3_E_gob.es")
 
-organismos_rpt = [o for o in Organismo.load(name="organismos_rpt") if o.idOrganismo in codigos_tai]
+organismos_rpt = [o for o in Organismo.load(
+    name="organismos_rpt") if o.idOrganismo in codigos_tai]
 
 # Arreglos hechos a mano
 dict_organismos = {o.idOrganismo: o for o in organismos}
@@ -679,32 +697,33 @@ for rpt, org in arreglos.items():
     count += 1
     rpt_cod = rpt
     print("%3d%% completado: %-30s" %
-          (count * 100 / total, str(rpt)+" -> "+org), end="\r")
+          (count * 100 / total, str(rpt) + " -> " + org), end="\r")
     org = dict_organismos.get(org, None)
     rpt = dict_organi_rpt.get(rpt, None)
     if org and rpt:
         org.codigos.add(rpt.idOrganismo)
         org.idPadres = org.idPadres.union(rpt.idPadres)
         for o in organismos:
-            if o!=org and rpt_cod in o.codigos:
+            if o != org and rpt_cod in o.codigos:
                 org.codigos = org.codigos.union(o.codigos)
                 org.idPadres = org.idPadres.union(o.idPadres)
                 fusionados.add(o)
 print("")
 organismos = [o for o in organismos if o not in fusionados]
-    
+
 rcp_ok = set()
 for o in organismos:
     o.genera_codigos()
     for c in o.codigos:
         if isinstance(c, int):
             rcp_ok.add(c)
-    
+
 excluir_rpt = set([o.rcp for o in organismos if o.rcp and o.latlon])
 codigos_tai = codigos_tai - excluir_rpt
 organismos_rpt = [o for o in organismos_rpt if o.idOrganismo in codigos_tai]
 
-# Si con padre común solo hay un rpt con ese nombre es que es el mismo organismo
+# Si con padre común solo hay un rpt con ese nombre es que es el mismo
+# organismo
 
 print ("Fusionando organismos dir3_E/administracion.gob.es con rpt")
 total = len(organismos)
@@ -715,7 +734,8 @@ while repetir:
     repetir = False
     count = 0
     excluir_rpt_1 = set([o.rcp for o in organismos if o.rcp])
-    excluir_rpt_2 = set([o.rcp for o in organismos if o.rcp and o.idUnidOrganica])
+    excluir_rpt_2 = set(
+        [o.rcp for o in organismos if o.rcp and o.idUnidOrganica])
     candidatas = {}
     for o in organismos:
         count += 1
@@ -726,7 +746,7 @@ while repetir:
         for n in organismos_rpt:
             if o.nombres.intersection(n.nombres) and n.idPadres.intersection(o.idPadres):
                 orgs.add(n)
-        if len(orgs)==1:
+        if len(orgs) == 1:
             n = orgs.pop()
             if not n.latlon and n.idOrganismo in excluir_rpt_2:
                 continue
@@ -737,7 +757,7 @@ while repetir:
             candidatas[n] = orgs
 
     for n, orgs in candidatas.items():
-        if len(orgs)==1:
+        if len(orgs) == 1:
             ok += 1
             print("%3d%% completado: %-30s (%s)" %
                   (count * 100 / total, o.idOrganismo, ok), end="\r")
@@ -755,8 +775,9 @@ for o in organismos:
 
 print ("Fusionando organismos con csic.es")
 arreglos = yaml_from_file("data/arreglos_csic.yml")
-organismos_csic = {o.idOrganismo: o for o in Organismo.load(name="organismos_csic.es")}
-codigos_csic=set([o.idOrganismo for o in organismos_rpt if o.isCsic])
+organismos_csic = {o.idOrganismo: o for o in Organismo.load(
+    name="organismos_csic.es")}
+codigos_csic = set([o.idOrganismo for o in organismos_rpt if o.isCsic])
 total = len(organismos)
 ok = 0
 count = 0
@@ -770,7 +791,7 @@ for o in organismos:
             for n in organismos_csic.values():
                 if o.nombres.intersection(n.nombres):
                     orgs.add(n)
-            if len(orgs)==1:
+            if len(orgs) == 1:
                 org_csic = orgs.pop()
         if org_csic:
             o.idCsic = org_csic.idOrganismo
@@ -790,7 +811,7 @@ organismos_csic = Organismo.load(name="organismos_csic.es")
 total = len(organismos_gob_es) + len(organismos_csic)
 count = 0
 ok = 0
-direcciones={}
+direcciones = {}
 for o in organismos_gob_es + organismos_csic:
     if o.latlon:
         latlon = direcciones.get(o.dire, set())
@@ -798,11 +819,13 @@ for o in organismos_gob_es + organismos_csic:
         direcciones[o.dire] = latlon
         ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
 print ("Segunda pasada")
-direcciones_falta = set([(o.dire, o.postCode) for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
+direcciones_falta = set([(o.dire, o.postCode)
+                         for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
 total = len(direcciones_falta)
 count = 0
 ok = 0
@@ -813,18 +836,19 @@ for d, p in direcciones_falta:
         for dire in dires:
             if dire.startswith(d_aux):
                 lls.add(ll)
-    if len(lls)==1:
+    if len(lls) == 1:
         ll = lls.pop()
         latlon = direcciones.get(d, set())
         latlon.add(ll)
         direcciones[d] = latlon
         ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, d[:30], ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, d[:30], ok), end="\r")
 
 for k, v in list(direcciones.items()):
-    if len(v)==1:
-        direcciones[k]=v.pop()
+    if len(v) == 1:
+        direcciones[k] = v.pop()
     else:
         del direcciones[k]
 
@@ -865,18 +889,19 @@ sh = wb.sheet_by_index(1)
 total = sh.nrows
 count = 0
 ok = 0
-dire_xls=set()
+dire_xls = set()
 for rx in range(sh.nrows):
     row = sh.row(rx)
     dire, latlon = parse(row[10]), parse(row[12])
     if dire and latlon:
         dire = simplificar_dire(dire)
         if dire not in direcciones:
-            direcciones[dire]=latlon
+            direcciones[dire] = latlon
             dire_xls.add(dire)
             ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, (dire or "")[:30], ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, (dire or "")[:30], ok), end="\r")
 print ("")
 
 print ("Seteando latlon")
@@ -885,7 +910,7 @@ total = len(organismos)
 count = 0
 ok = 0
 ok2 = 0
-sin_latlon=set()
+sin_latlon = set()
 for o in organismos:
     if not o.latlon and o.deDireccion:
         latlon = direcciones.get(o.dire, None)
@@ -897,7 +922,8 @@ for o in organismos:
         else:
             sin_latlon.add(o.dire)
     count += 1
-    print("%3d%% completado: %-30s (%s / %s)" % (count * 100 / total, o.idOrganismo, ok, ok2), end="\r")
+    print("%3d%% completado: %-30s (%s / %s)" %
+          (count * 100 / total, o.idOrganismo, ok, ok2), end="\r")
 
 '''
 direcciones={}

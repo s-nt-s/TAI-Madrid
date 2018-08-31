@@ -9,16 +9,19 @@ re_informatica = re.compile(
 re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
-re_guion=re.compile(r"\s*-\s*")
-re_paren=re.compile(r"\(.*$")
+re_guion = re.compile(r"\s*-\s*")
+re_paren = re.compile(r"\(.*$")
+
 
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
         return int(k)
     return k
 
+
 def simplificar(s):
     return s.lower().replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u")
+
 
 def simplificar_dire(deDireccion):
     if deDireccion is None:
@@ -30,6 +33,7 @@ def simplificar_dire(deDireccion):
     deDireccion = deDireccion.replace("avda. ", "avenida ")
     deDireccion = deDireccion.replace("av. ", "avenida ")
     return deDireccion
+
 
 class Organismo:
 
@@ -76,7 +80,8 @@ class Organismo:
         self.isCsic = isCsic
         self.idCsic = idCsic
         if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
-            self.rcp, self.version = int(self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
+            self.rcp, self.version = int(
+                self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
         self.genera_codigos()
         self.genera_nombres()
 
@@ -115,7 +120,8 @@ class Organismo:
             nombre = nombre.replace("del.gob. ", "delegacion del gobierno ")
             self.nombres.add(nombre)
         if nombre.startswith("subdel.gob. "):
-            nombre = nombre.replace("subdel.gob. ", "subdelegacion del gobierno ")
+            nombre = nombre.replace(
+                "subdel.gob. ", "subdelegacion del gobierno ")
             self.nombres.add(nombre)
         if nombre.startswith("subdelegacion ") and nombre.endswith(" - s.gral."):
             nombre = nombre.replace(" - s.gral.", " - subdelegacion")
@@ -123,20 +129,21 @@ class Organismo:
         if nombre.startswith("subdelegacion ") and nombre.endswith(" s.gral."):
             nombre = nombre.replace(" s.gral.", " - subdelegacion")
             self.nombres.add(nombre)
-        if len(self.nombres)==1 and not nombre.endswith(" - subdelegacion"):
+        if len(self.nombres) == 1 and not nombre.endswith(" - subdelegacion"):
             self.nombres.add(re_guion.sub(" ", nombre))
 
     @property
     def dire(self):
         return simplificar_dire(self.deDireccion)
-        
+
     @property
     def url(self):
         if self.idUnidOrganica:
             return "https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/fichaUnidadOrganica.htm?idUnidOrganica=" + str(self.idUnidOrganica)
         if self.idCsic:
-            return "http://www.csic.es/centros-de-investigacion1/-/centro/"+str(self.idCsic)
+            return "http://www.csic.es/centros-de-investigacion1/-/centro/" + str(self.idCsic)
         return None
+
 
 class Descripciones:
 

@@ -17,7 +17,7 @@ descripciones = Descripciones.load()
 organismos = {}
 for o in Organismo.load():
     for c in o.codigos:
-        organismos[c]=o
+        organismos[c] = o
 
 nf = Info(todos, descripciones, organismos)
 j2.save("direcciones.html", info=nf, parse=fix_html)
