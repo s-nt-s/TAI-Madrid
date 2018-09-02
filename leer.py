@@ -805,7 +805,6 @@ for o in organismos:
 print ("")
 
 print ("Normalizando direcciones")
-print ("Primera pasada")
 organismos_gob_es = Organismo.load(name="organismos_gob.es")
 organismos_csic = Organismo.load(name="organismos_csic.es")
 total = len(organismos_gob_es) + len(organismos_csic)
@@ -819,11 +818,10 @@ for o in organismos_gob_es + organismos_csic:
         direcciones[o.dire] = latlon
         ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" %
+    print("[1/2] %3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
-print ("Segunda pasada")
 direcciones_falta = set([(o.dire, o.postCode)
                          for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
 total = len(direcciones_falta)
@@ -843,7 +841,7 @@ for d, p in direcciones_falta:
         direcciones[d] = latlon
         ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" %
+    print("[2/2] %3d%% completado: %-30s (%s)" %
           (count * 100 / total, d[:30], ok), end="\r")
 
 for k, v in list(direcciones.items()):
@@ -882,6 +880,7 @@ print ("")
 
 
 print ("Completando latlon con excel")
+xls_info={}
 url = "https://docs.google.com/spreadsheet/ccc?key=18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc&output=xls"
 r = requests.get(url)
 wb = xlrd.open_workbook(file_contents=r.content)
@@ -891,9 +890,16 @@ count = 0
 ok = 0
 dire_xls = set()
 for rx in range(sh.nrows):
-    row = sh.row(rx)
-    dire, latlon = parse(row[10]), parse(row[12])
+    row = [parse(c) for c in sh.row(rx)]
+    dire, latlon = row[10], row[12]
     if dire and latlon:
+        idMinisterio, idCentroDirectivo, idUnidad = row[2], row[6], row[8]
+        if idMinisterio:
+            xls_info[idMinisterio] = (dire, latlon)
+        if idCentroDirectivo:
+            xls_info[idCentroDirectivo] = (dire, latlon)
+        if idUnidad:
+            xls_info[idUnidad] = (dire, latlon)
         dire = simplificar_dire(dire)
         if dire not in direcciones:
             direcciones[dire] = latlon
@@ -910,6 +916,7 @@ total = len(organismos)
 count = 0
 ok = 0
 ok2 = 0
+ok3 = 0
 sin_latlon = set()
 for o in organismos:
     if not o.latlon and o.deDireccion:
@@ -920,10 +927,22 @@ for o in organismos:
             if o.dire in dire_xls:
                 ok2 += 1
         else:
+            rcp = o.codigos.intersection(xls_info.keys())
+            if rcp:
+                rcp = rcp.pop()
+                dire = xls_info.get(rcp)
+                _, dire1 = simplificar_dire(dire[0]).replace(",", "").split(" ", 1)
+                _, dire2 = simplificar_dire(o.deDireccion).replace(",", "").split(" ", 1)
+                comun = [c for c in set(dire1.split(" ")).intersection(dire2.split(" ")) if len(c)>3 and c!="madrid"]
+                if len(comun)>1:
+                    print (o.deDireccion)
+                    print (dire[0])
+                    print (comun)
+                    print ("")
             sin_latlon.add(o.dire)
     count += 1
-    print("%3d%% completado: %-30s (%s / %s)" %
-          (count * 100 / total, o.idOrganismo, ok, ok2), end="\r")
+    print("%3d%% completado: %-30s (%s / %s / %s)" %
+          (count * 100 / total, o.idOrganismo, ok, ok2, ok3), end="\r")
 
 '''
 direcciones={}

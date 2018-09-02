@@ -11,6 +11,10 @@ def yaml_from_file(f):
         return yaml.load(y)
 
 
+def yaml_to_file(f, data):
+    with open(f, 'w') as outfile:
+        yaml.dump(data, outfile, default_flow_style=False)
+
 def soup_from_file(f):
     with open(f, 'rb') as html:
         soup = bs4.BeautifulSoup(html, "lxml")
