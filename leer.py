@@ -810,7 +810,7 @@ organismos_csic = Organismo.load(name="organismos_csic.es")
 total = len(organismos_gob_es) + len(organismos_csic)
 count = 0
 ok = 0
-direcciones = {}
+direcciones = yaml_from_file("data/coordenadas.yml")
 for o in organismos_gob_es + organismos_csic:
     if o.latlon:
         latlon = direcciones.get(o.dire, set())
