@@ -810,7 +810,7 @@ organismos_csic = Organismo.load(name="organismos_csic.es")
 total = len(organismos_gob_es) + len(organismos_csic)
 count = 0
 ok = 0
-direcciones = yaml_from_file("data/coordenadas.yml")
+direcciones = {k: set((v,)) for k, v in yaml_from_file("data/coordenadas.yml").items()}
 for o in organismos_gob_es + organismos_csic:
     if o.latlon:
         latlon = direcciones.get(o.dire, set())
@@ -818,39 +818,15 @@ for o in organismos_gob_es + organismos_csic:
         direcciones[o.dire] = latlon
         ok += 1
     count += 1
-    print("[1/2] %3d%% completado: %-30s (%s)" %
+    print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
-
-direcciones_falta = set([(o.dire, o.postCode)
-                         for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
-total = len(direcciones_falta)
-count = 0
-ok = 0
-for d, p in direcciones_falta:
-    lls = set()
-    d_aux = d.split(",")[0]
-    for ll, dires in direcciones.items():
-        for dire in dires:
-            if dire.startswith(d_aux):
-                lls.add(ll)
-    if len(lls) == 1:
-        ll = lls.pop()
-        latlon = direcciones.get(d, set())
-        latlon.add(ll)
-        direcciones[d] = latlon
-        ok += 1
-    count += 1
-    print("[2/2] %3d%% completado: %-30s (%s)" %
-          (count * 100 / total, d[:30], ok), end="\r")
 
 for k, v in list(direcciones.items()):
     if len(v) == 1:
         direcciones[k] = v.pop()
     else:
         del direcciones[k]
-
-print ("")
 
 '''
 print ("Tercera pasada")
@@ -915,56 +891,16 @@ print ("Seteando latlon")
 total = len(organismos)
 count = 0
 ok = 0
-ok2 = 0
-ok3 = 0
 sin_latlon = set()
 for o in organismos:
     if not o.latlon and o.deDireccion:
         latlon = direcciones.get(o.dire, None)
         if latlon:
-            o.latlon
+            o.latlon = latlon
             ok += 1
-            if o.dire in dire_xls:
-                ok2 += 1
-        else:
-            rcp = o.codigos.intersection(xls_info.keys())
-            if rcp:
-                rcp = rcp.pop()
-                dire = xls_info.get(rcp)
-                _, dire1 = simplificar_dire(dire[0]).replace(",", "").split(" ", 1)
-                _, dire2 = simplificar_dire(o.deDireccion).replace(",", "").split(" ", 1)
-                comun = [c for c in set(dire1.split(" ")).intersection(dire2.split(" ")) if len(c)>3 and c!="madrid"]
-                if len(comun)>1:
-                    print (o.deDireccion)
-                    print (dire[0])
-                    print (comun)
-                    print ("")
-            sin_latlon.add(o.dire)
     count += 1
-    print("%3d%% completado: %-30s (%s / %s / %s)" %
-          (count * 100 / total, o.idOrganismo, ok, ok2, ok3), end="\r")
-
-'''
-direcciones={}
-for o in organismos:
-    if o.latlon:
-        dire = direcciones.get(o.latlon, set())
-        dire.add(o.deDireccion)
-        direcciones[o.latlon] = dire
-    count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
-
-
-print("")
-for k, v in list(direcciones.items()):
-    if len(v)>1:
-        print ("\n".join(sorted(v)))
-        print ("----")
-print("")
-print ("\n".join(sorted(sin_latlon)))
-'''
-print("")
-
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
 
 #organismos = clean_organismos(organismos)
 Organismo.save(organismos)

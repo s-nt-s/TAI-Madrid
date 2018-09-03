@@ -39,3 +39,4 @@ for d1, d2, p in direcciones_falta:
         yaml_to_file("data/coordenadas.yml", direcciones)
 
 print ("")
+yaml_to_file("data/coordenadas.yml", direcciones)
