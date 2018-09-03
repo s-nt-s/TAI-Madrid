@@ -10,7 +10,7 @@ from urllib.parse import unquote, urljoin
 import bs4
 import requests
 import xlrd
-from geopy.geocoders import Nominatim
+from math import sin, cos, sqrt, atan2, radians
 
 from api import (Descripciones, Organismo, Puesto, simplificar_dire,
                  soup_from_file, yaml_from_file)
@@ -828,33 +828,6 @@ for k, v in list(direcciones.items()):
     else:
         del direcciones[k]
 
-'''
-print ("Tercera pasada")
-nm = Nominatim(country_bias="ESP")
-direcciones_falta = set([(o.deDireccion, o.dire, o.postCode) for o in organismos if o.postCode and o.deDireccion and o.dire not in direcciones])
-total = len(direcciones_falta)
-count = 0
-ok = 0
-for d1, d2, p in direcciones_falta:
-    l = nm.geocode(d1)
-    if l is None and d1.count(" ")>1:
-        pl1, pl2, resto = d1.split(" ", 2)
-        if pl2.lower() not in ("de", "del"):
-            aux = pl1 +" de "+ pl2+" "+resto
-            l = nm.geocode(d1)
-            if l is None:
-                aux = pl1 +" de "+ pl2+" "+resto
-                l = nm.geocode(d1)
-    if l and p in l.address:
-        direcciones[d2] = str(l.latitude)+","+str(l.longitude)
-        ok += 1
-    count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, d1[:30], ok), end="\r")
-
-print ("")
-'''
-
-
 print ("Completando latlon con excel")
 xls_info={}
 url = "https://docs.google.com/spreadsheet/ccc?key=18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc&output=xls"
@@ -898,9 +871,12 @@ for o in organismos:
         if latlon:
             o.latlon = latlon
             ok += 1
+        else:
+            sin_latlon.add(o.dire)
     count += 1
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
+print ("")
 
 #organismos = clean_organismos(organismos)
 Organismo.save(organismos)
@@ -908,3 +884,42 @@ Organismo.save(organismos)
 with open("data/direcciones_ko.txt", "w") as f:
     for d in sorted(sin_latlon):
         f.write(d + "\n")
+
+def calcula_distancia(latlon1, latlon2):
+    R = 6373.0
+    
+    lat, lon = latlon1.split(",")
+    
+    lat1 = radians(float(lat))
+    lon1 = radians(float(lon))
+
+    lat, lon = latlon2.split(",")
+    
+    lat2 = radians(float(lat))
+    lon2 = radians(float(lon))
+
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+
+    a = sin(dlat / 2)**2 + cos(lat1) * cos(lat2) * sin(dlon / 2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1 - a))
+
+    distance = abs(R * c) * 1000
+    return int(distance)
+
+rcp_organi = {}
+for o in organismos:
+    if o.latlon:
+        for c in o.codigos:
+            if isinstance(c, int):
+                rcp_organi[c]=o
+
+with open("data/direcciones.csv", "w") as f:
+    f.write("\t".join(["Metros", "ID", "Dir3", "LATLON", "EXCEL", "LATLON"])+"\n")
+    for id, dirll in xls_info.items():
+        org = rcp_organi.get(id, None)
+        if org:
+            dire, ll = dirll
+            distancia = calcula_distancia(ll, org.latlon)
+            f.write("\t".join([str(distancia), str(id), org.deDireccion, org.latlon, dire, ll])+"\n")
+        

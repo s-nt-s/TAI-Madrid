@@ -58,7 +58,7 @@ class Organismo:
         return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
 
     def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, **kwargs):
-        self.remove = {'remove', 'nombres', 'rcp', 'version'}
+        self.remove = {'remove', 'nombres', 'rcp', 'version', 'puestos'}
         if isinstance(idPadres, list):
             idPadres = set(idPadres)
         if isinstance(codigos, list):
@@ -72,6 +72,7 @@ class Organismo:
         self.postCode = postCode
         self.idPadres = idPadres or set()
         self.codigos = codigos or set()
+        self.puestos = set()
         self.idRaiz = idRaiz
         self.latlon = latlon
         self.nombres = None
@@ -143,7 +144,6 @@ class Organismo:
         if self.idCsic:
             return "http://www.csic.es/centros-de-investigacion1/-/centro/" + str(self.idCsic)
         return None
-
 
 class Descripciones:
 
@@ -272,7 +272,7 @@ class Puesto:
             return False
         if "C1" not in self.grupo:
             return False
-        if self.nivel < 15 or self.nivel > 18:  # 18 es más realista que 22
+        if self.nivel < 15 or self.nivel > 22:
             return False
         if not re_informatica.search(self.dePuesto) or re_no_informatica.search(self.dePuesto):
             if puesto_ko is not None:

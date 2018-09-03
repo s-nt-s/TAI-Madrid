@@ -10,15 +10,21 @@ puestos = [p for p in Puesto.load() if p.idCentroDirectivo !=
 
 descripciones = Descripciones.load()
 organismos = Organismo.load()
+rcp_organi = {}
+for o in organismos:
+    if o.latlon:
+        for c in o.codigos:
+            if isinstance(c, int):
+                rcp_organi[c]=o
 
 kml = simplekml.Kml()
 kml.document.name = "TAI"
 
-style_unidad = simplekml.Style()
-style_unidad.iconstyle.color = simplekml.Color.blue
-style_unidad.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/blue.png'
+style_normal = simplekml.Style()
+style_normal.iconstyle.color = simplekml.Color.blue
+style_normal.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/blue.png'
 
-kml.document.style = style_unidad
+kml.document.style = style_normal
 
 style_con_vacantes = simplekml.Style()
 style_con_vacantes.iconstyle.color = simplekml.Color.green
@@ -32,6 +38,12 @@ style_sin_puestos.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/mico
 
 kml.document.style = style_sin_puestos
 
+style_nivel_alto = simplekml.Style()
+style_nivel_alto.iconstyle.color = simplekml.Color.blue
+style_nivel_alto.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/grey.png'
+
+kml.document.style = style_nivel_alto
+
 folderVerde = kml.newfolder(name="Con vacantes")
 folderVerde.description = "Lugares en los que hay puestos vacantes según los RPT"
 
@@ -41,36 +53,34 @@ folderAzul.description = "Lugares los que hay puestos TAI según los RPT pero ni
 folderRojo = kml.newfolder(name="Añadidos porque sí")
 folderRojo.description = "Lugares en los que no hay puestos TAI según RPT pero los añadimos por alguna otra consideración"
 
+folderGris = kml.newfolder(name="Solo puestos TAI de nivel alto")
+folderGris.description = "Lugares en los que hay puestos TAI (vacantes o no) según RPT pero solo de niveles por encima de lo usual (>18)"
 
-visto = set()
-
-unidades = set()
-centros = set()
-ministerios = set()
-vacantes = set()
 for p in puestos:
-    isVacante = p.estado == "V"
-    if p.idUnidad:
-        unidades.add(p.idUnidad)
-        if isVacante:
-            vacantes.add(p.idUnidad)
-    if p.idCentroDirectivo:
-        centros.add(p.idCentroDirectivo)
-        if isVacante:
-            vacantes.add(p.idCentroDirectivo)
-    if p.idMinisterio:
-        ministerios.add(p.idMinisterio)
-        if isVacante:
-            vacantes.add(p.idMinisterio)
-
-cod_tais = unidades.union(centros).union(ministerios)
+    org = rcp_organi.get(p.idUnidad, None) or rcp_organi.get(p.idCentroDirectivo, None)  or rcp_organi.get(p.idMinisterio, None)
+    if org:
+        org.puestos.add(p)
 
 latlon_org = {}
 for o in organismos:
-    if o.latlon and (o.codigos.intersection(cod_tais) or o.nombre == "area de informatica"):
+    if o.latlon and (o.puestos or o.nombre == "area de informatica"):
         col = latlon_org.get(o.latlon, set())
         col.add(o)
         latlon_org[o.latlon] = col
+
+
+def count_puestos(*args):
+    vacantes = 0
+    normales = 0
+    grannivel = 0
+    for p in args:
+        if p.nivel>18:
+            grannivel += 1
+        elif p.estado=="V":
+            vacantes += 1
+        else:
+            normales +=1
+    return normales, vacantes, grannivel
 
 print ("Se van a crear %s puntos" % len(latlon_org))
 
@@ -89,6 +99,7 @@ for latlon, orgs in latlon_org.items():
     direcciones = set([o.deDireccion for o in orgs])
     if len(direcciones) == 1:
         description += next(iter(orgs)).deDireccion + "\n\n"
+    org_puestos = set()
     for org in orgs:
         if count > 1:
             description += "%s - %s\n" % (org.idOrganismo, org.deOrganismo)
@@ -96,23 +107,28 @@ for latlon, orgs in latlon_org.items():
             description += "Dirección: %s\n" % (org.deDireccion,)
         if org.url:
             description += "URL: " + org.url
-        cods = cod_tais.intersection(org.codigos)
-        flagRojo = flagRojo and len(cods) == 0
-        cods = vacantes.intersection(org.codigos)
-        flagVerde = flagVerde or len(cods) > 0
-
+        for p in sorted(org.puestos, key=lambda p:p.idPuesto):
+            description = description + "\n> %s - %s - %s" % (p.idPuesto, p.nivel, p.dePuesto)
+        org_puestos = org_puestos.union(org.puestos)
         description = description + "\n\n"
+
     description = description.strip()
     description = description.replace("\n", "<br/>\n")
-    pnt = None
-    if flagVerde:
-        pnt = folderVerde.newpoint(name=name, coords=[latlon])
-        pnt.style = style_con_vacantes
-    elif flagRojo:
+
+    if len(org_puestos)==0:
         pnt = folderRojo.newpoint(name=name, coords=[latlon])
         pnt.style = style_sin_puestos
     else:
-        pnt = folderAzul.newpoint(name=name, coords=[latlon])
+        normales, vacantes, grannivel = count_puestos(*org_puestos)
+        if grannivel == len(org_puestos):
+            pnt = folderGris.newpoint(name=name, coords=[latlon])
+            pnt.style = style_nivel_alto
+        elif vacantes>0:
+            pnt = folderVerde.newpoint(name=name, coords=[latlon])
+            pnt.style = style_con_vacantes
+        else:
+            pnt = folderAzul.newpoint(name=name, coords=[latlon])
+
     pnt.description = description
 
 kml.save("data/tai.kml")
