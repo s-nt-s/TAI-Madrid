@@ -17,7 +17,7 @@ direcciones = yaml_from_file("data/coordenadas.yml") or {}
 nm = Nominatim(country_bias="ESP")
 
 def geocode(direccion):
-    time.sleep(2)
+    time.sleep(3)
     l = nm.geocode(direccion)
     if l:
         return l
@@ -39,6 +39,8 @@ ok = 0
 _ok = 0
 print ("Calculando coordenadas (%s)" % total)
 for d1, d2, p in direcciones_falta:
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, d1[:30], ok), end="\r")
     if d2 in direcciones:
         continue
     pl1, pl2, resto = d1.split(" ", 2)
@@ -56,8 +58,6 @@ for d1, d2, p in direcciones_falta:
     if l and p in l.address:
         direcciones[d2] = str(l.latitude)+","+str(l.longitude)
         ok += 1
-    count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, d1[:30], ok), end="\r")
     if ok % 10 == 0 and ok>_ok:
         yaml_to_file("data/coordenadas.yml", direcciones)
         _ok=ok

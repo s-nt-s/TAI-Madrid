@@ -192,12 +192,13 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 3603	28096	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Calle Princesa núms. 32, 34, 36 - 28008 Madrid	40.4284118,-3.7146369
 4	48577	Calle Alcalá 36 28014 Madrid (Madrid)	40.418288,-3.6972197	Calle Alcalá 36 28014 Madrid	40.4183138,-3.6972623
 40	48578	Calle Vitruvio 4 28006 Madrid (Madrid)	40.442391,-3.6891577	Calle Vitruvio 4 28006 Madrid	40.4424148,-3.6896346
+73	30625	Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España	40.4365456,-3.68121506295103	C/ María de Molina, 50	40.437163,-3.6809054
 3	1271	Paseo Castellana 272 28071 Madrid (Madrid)	40.4737694,-3.6866869	Pº Castellana, 272	40.4737706,-3.6867269
 9	30157	Calle Alcalá 34 28014 Madrid (Madrid)	40.4180686,-3.6973894	Calle Alcalá 34 28014 Madrid	40.418018,-3.6974771
 2	48592	Paseo de la Castellana 162 28071 Madrid (Madrid)	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
 2	48593	Paseo de la Castellana 162 28071 Madrid (Madrid)	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
 2	49627	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Calle Alcala 9 28071 Madrid (Madrid)	40.4176193,-3.7012871
-2	49628	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Calle Alcala 9 28071 Madrid (Madrid)	40.4176193,-3.7012871
+26	29263	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Paseo de la Castellana núm. 109 - 28071 Madrid	40.4556126,-3.6917607
 1144	48608	Calle Salamanca 4 28020 Madrid (Madrid)	40.4540055,-3.7013709	Paseo de la Castellana, 147 28046 Madrid	40.4601861,-3.6905666
 50	49633	Calle Alcala 5 28014 Madrid (Madrid)	40.4174615,-3.7018516	Calle Alcala 9 28071 Madrid (Madrid)	40.4176193,-3.7012871
 2116	49403	Paseo de la Castellana 63 28071 Madrid (Madrid)	40.4422526,-3.6921924	C/ Hermosilla, 66 - 28001 - MADRID	40.4259692,-3.6792495
@@ -207,6 +208,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 5	47610	Avenida Manoteras 54 28050 Madrid (Madrid)	40.4870289,-3.6607133	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 10	31487	Calle San Bernardo 45 28071 Madrid (Madrid)	40.4241396,-3.7076358	Calle San Bernardo 45 28071 Madrid	40.4240459,-3.7076727
 5	47613	Avenida Manoteras 54 28050 Madrid (Madrid)	40.4870289,-3.6607133	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
+4593	49749	Paseo del Prado 4 28014 Madrid (Madrid)	40.4172375,-3.6945016	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
 36	47616	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 36	47617	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 699	1451	Calle JORGE JUAN 6 28071 Madrid (Madrid)	40.4235511,-3.6793177	Calle JORGE JUAN 6 28071 Madrid	40.4238092,-3.687576
@@ -232,10 +234,8 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 28	47683	Avenida Reyes Católicos 4 28071 Madrid (Madrid)	40.4380323,-3.7203751	Avenida Reyes Católicos 4 28071 Madrid	40.4381163,-3.720695
 5	30285	Calle General Ibañez de Íbero 3 28071 Madrid (Madrid)	40.4458348,-3.7101218	C/ General Ibáñez de Ibero, 3. 28003 - Madrid	40.4458348,-3.7101883
 77	30286	Calle Del Alfar 2 28760 Tres Cantos (Madrid)	40.595773,-3.696822	C/ Alfar, 2. 28760 - Tres Cantos - Madrid	40.5950753,-3.6967504
-26	29263	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Paseo de la Castellana núm. 109 - 28071 Madrid	40.4556126,-3.6917607
 11	30288	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
 26	29266	Paseo Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Pº de la Castellana núm. 109 - 28071 Madrid	40.4556126,-3.6917607
-4593	49749	Paseo del Prado 4 28014 Madrid (Madrid)	40.4172375,-3.6945016	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
 3489	49257	Paseo de la Castellana 63 28071 Madrid (Madrid)	40.4422526,-3.6921924	C/ Pío Baroja, 6 - 28009 - MADRID	40.4139171,-3.674496
 3028	29274	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Donoso Cortés, 92 - 28015 Madrid	40.4367253,-3.7172622
 26	29276	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Paseo de la Castellana núm. 109 - 28071 Madrid	40.4556126,-3.6917607
@@ -248,7 +248,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 11	30312	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
 11	30313	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
 11	30314	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
-4	31401	Calle San Bernardo 21 28015 Madrid (Madrid)	40.4226482,-3.7077512	Calle San Bernardo 21 28015 Madrid	40.4226667,-3.7078041
 11	30317	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
 4	48750	Calle Torrelaguna 58 28071 Madrid (Madrid)	40.4457392,-3.6550107	Calle Torrelaguna 58 28071 Madrid	40.4457351,-3.655064
 14	49768	Calle María de Molina 50 28006 Madrid (Madrid)	40.4372153,-3.6807443	C/ María de Molina, 50	40.437163,-3.6809054
@@ -272,10 +271,9 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 4	31390	Calle San Bernardo 62 28071 Madrid (Madrid)	40.4259057,-3.7070242	Calle San Bernardo 62 28071 Madrid	40.4258924,-3.7070723
 34	30370	Calle Josefa Valcárcel 11 28027 Madrid (Madrid)	40.4487329,-3.6473632	C/ Josefa Valcárcel, 11	40.4489692,-3.6470955
 4	31398	Calle Ocaña 157 28071 Madrid (Madrid)	40.3871101,-3.754074	Calle Ocaña 157 28071 Madrid	40.3871144,-3.7541303
-1306	30559	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Paseo de la Castellana, 3	40.4263171,-3.6909063
+4	31401	Calle San Bernardo 21 28015 Madrid (Madrid)	40.4226482,-3.7077512	Calle San Bernardo 21 28015 Madrid	40.4226667,-3.7078041
 4	31404	Calle San Bernardo 21 28071 Madrid (Madrid)	40.4226482,-3.7077512	Calle San Bernardo 21 28015 Madrid	40.4226667,-3.7078041
 27876	49838	Carretera de la Sierra s/n 28048 Madrid (Madrid)	40.5727984,-3.7872306	Carretera de Ajalvir, Km 4 Torrejón	40.4873947,-3.4772241
-51	49194	Calle Campezo 1 28022 Madrid (Madrid)	40.4484024,-3.5818388	Calle Campezo 1 28022 Madrid	40.447938,-3.5818723
 10	31347	Calle San Bernardo 45 28071 Madrid (Madrid)	40.4241396,-3.7076358	Calle San Bernardo 45 28071 Madrid	40.4240459,-3.7076727
 11	49849	Paseo de la Castellana 162 28071 Madrid (Madrid)	40.4583429,-3.6893451	Pº. de la Castellana, 162	40.4583267,-3.6894833
 12	48464	Calle Amador de los Ríos 7 28071 Madrid (Madrid)	40.4274463,-3.691341	C/ Amador de los Ríos, 7 28010 - Madrid	40.4275233,-3.6914496
@@ -289,6 +287,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 12	31465	Calle Marqués de Duero 4 28071 Madrid (Madrid)	40.4202943,-3.6913723	Calle Marqués de Duero 4 28071 Madrid	40.4203442,-3.6915009
 6	49296	Paseo de la Castellana 63 28071 Madrid (Madrid)	40.4422526,-3.6921924	Paseo de la Castellana, 63 - 28046 - MADRID	40.4422092,-3.6922359
 9	49789	Plaza Sagrados Corazones 7 28071 Madrid (Madrid)	40.4513525,-3.6859588	Plaza de los Sagrados Corazones, nº. 7. 28036 Madrid	40.4513836,-3.6860582
+51	49194	Calle Campezo 1 28022 Madrid (Madrid)	40.4484024,-3.5818388	Calle Campezo 1 28022 Madrid	40.447938,-3.5818723
 27	1150	Paseo De la Castellana 75 28071 Madrid (Madrid)	40.447429,-3.6932527	Paseo de la Castellana, 75 - 28046 MADRID	40.4476311,-3.6934366
 550	49910	Calle Santa Engracia 7 28071 Madrid (Madrid)	40.4290185,-3.6963731	Paseo de la Castellana, 3	40.426372,-3.6908849
 4633	37161	Plaza De Santa Barbara 5, 28004, Madrid, Comunidad Madrid, España	40.4274106,-3.6956461	C/ Arturo Soria 126, EDIFICIO A	40.4505249,-3.6501065
@@ -309,6 +308,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 3	49957	Calle Alberto Bosch 16 28071 Madrid (Madrid)	40.4133587,-3.689281	C/ Alberto Bosch, 16	40.4133481,-3.6893233
 223	46886	Avenida Computense 40 28071 Madrid (Madrid)	40.4551872,-3.7266839	Centro de la Moncloa Complutense, 40 28040	40.4540526,-3.7288622
 14	49959	Calle María de Molina 50 28071 Madrid (Madrid)	40.4372153,-3.6807443	C/ María de Molina, 50	40.437163,-3.6809054
+2	49628	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Calle Alcala 9 28071 Madrid (Madrid)	40.4176193,-3.7012871
 163	31806	Avenida Monforte de Lemos 3 28071 Madrid (Madrid)	40.4751479,-3.6882748	Campus de Chamartín: C/ Sinesio Delgado, 4 (entrada por Avda. Monforte de Lemos, 5, 28029 Madrid	40.4754759,-3.6901553
 4723	49965	Calle Alcalá 34 28014 Madrid (Madrid)	40.4180686,-3.6973894	Calle Torrelaguna 58 28027 Madrid	40.4457351,-3.655064
 1	49967	Plaza Del Rey 1 28004 Madrid (Madrid)	40.4202074,-3.6964252	Plaza Del Rey 1 28004 Madrid	40.4202202,-3.6964334
@@ -320,6 +320,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 357	49975	Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)	40.448807,-3.7362517	Avenida Puerta de Hierro S/N 28071 Madrid	40.4457993,-3.7347723
 5	40762	Calle Santa María Magdalena 16 28016 Madrid (Madrid)	40.4627493,-3.6702392	C/ Santa Mª Magdalena, 16	40.462701,-3.6702459
 2	49983	Paseo de la Castellana 162 28071 Madrid (Madrid)	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
+6	50015	Paseo de la Castellana 162 28036 Madrid (Madrid)	40.4583429,-3.6893451	Pº Castellana, 162	40.4583152,-3.689406
 1144	48609	Calle Salamanca 4 28020 Madrid (Madrid)	40.4540055,-3.7013709	Paseo de la Castellana, 147 28046 Madrid	40.4601861,-3.6905666
 7	48968	Calle San Enrique 26 28020 Madrid (Madrid)	40.4558857,-3.6994077	Calle San Enrique, 26 28020 Madrid	40.4559129,-3.6994841
 24	40777	Calle Guzmán el Bueno 139 28003 Madrid (Madrid)	40.4454613,-3.7131352	Calle Guzmán el Bueno, 139 28003 Madrid	40.4454703,-3.7128423
@@ -332,7 +333,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 861	40794	Paseo Castellana 147 28020 Madrid (Madrid)	40.4603221,-3.6907088	C/ Infanta Mercedes, 37	40.455583,-3.6987623
 1109	1167	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	C/ Joaquín Costa, 6 28071-MADRID.	40.4458588,-3.688523
 13	47966	Calle Alcala 38 28071 Madrid (Madrid)	40.4183263,-3.6970518	C/ Alcalá, 38-40 28014 - Madrid	40.4183128,-3.6972047
-6	50015	Paseo de la Castellana 162 28036 Madrid (Madrid)	40.4583429,-3.6893451	Pº Castellana, 162	40.4583152,-3.689406
+1306	30559	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Paseo de la Castellana, 3	40.4263171,-3.6909063
 24	29796	Paseo De la Castellana 160 28046 Madrid (Madrid)	40.4577396,-3.6888392	Pº de la Castellana 160. 28046 Madrid	40.4579257,-3.6889917
 1306	30563	Calle Alcala 9 28071 Madrid (Madrid)	40.4176416,-3.7013019	Paseo de la Castellana, 3	40.4263171,-3.6909063
 4	27495	Paseo de la Infanta Isabel 1 28014 Madrid (Madrid)	40.4086372,-3.6906168	Paseo Infanta Isabel, 1 – 28014 Madrid	40.4086668,-3.6906518
@@ -356,6 +357,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 8	31648	Calle Montalbán 8 28014 Madrid (Madrid)	40.4178992,-3.690159	Calle Montalbán 8 28014 Madrid	40.4178786,-3.6902537
 8	31649	Calle Montalbán 8 28014 Madrid (Madrid)	40.4178992,-3.690159	Calle Montalbán 8 28014 Madrid	40.4178786,-3.6902537
 8	31650	Calle Montalbán 8 28014 Madrid (Madrid)	40.4178992,-3.690159	Calle Montalbán 8 28014 Madrid	40.4178786,-3.6902537
+73	30628	Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España	40.4365456,-3.68121506295103	C/ María de Molina, 50	40.437163,-3.6809054
 26	49061	Paseo De la Castellana 109 28071 Madrid (Madrid)	40.4555839,-3.691453	Pº de la Castellana, 109 - 28071 Madrid.	40.4556126,-3.6917607
 43	31654	Plaza Marina Española 9 28013 Madrid (Madrid)	40.4206389,-3.71244	Plaza Marina Española 9 28013 Madrid (Madrid)	40.4208423,-3.7120028
 3306	30636	Plaza de la Provincia 1, 28012, Madrid, Comunidad Madrid, España	40.41436725,-3.70597515276898	C/ María de Molina, 50	40.437163,-3.6809054
