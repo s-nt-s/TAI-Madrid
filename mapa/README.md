@@ -21,8 +21,8 @@ Básicamente se hace lo mismo que en el apartado anterior, pero usando como fuen
 Recorremos las dos colecciones de organismos que hemos obtenido anteriormente y identificamos como un mismo organismos aquellos que:
 
 1. tienen el mismo código (o mismo `rcp` si son `E0`)
-2. tienen similar nombre y solo hay dos organismos (uno en cada colección) que cumplen dicha condición
-3. tienen similar nombre y están en la misma dirección y solo hay dos organismos (uno en cada colección) que cumplen dicha condición. Si estan en distintas direcciones, nos quedamos con la que figure en administracion.gob.es ya que parece ser un dato más actualizado
+2. tienen similar nombre y solo hay dos organismos (uno en cada colección) que cumplen dicha condición. Si están en distintas direcciones, nos quedamos con la que figure en administracion.gob.es ya que parece ser un dato más actualizado
+3. tienen similar nombre y están en la misma dirección y solo hay dos organismos (uno en cada colección) que cumplen dicha condición.
 
 Al resultado de esta fusión se le hace una nueva pasada en la que:
 
