@@ -1250,6 +1250,7 @@ montaña blanca maspalomas s/n, 35100, las palmas, canarias, españa
 muelle juan carlos i p.i.f., 11207, cadiz, andalucia, españa
 muelle santa lucia(puerto cart s/n, 30203, murcia, region murcia, españa
 palais chehab, hadath antounie beyrouth 1107 2120, libano
+parque tecnológico de asturias s/n, 33428, asturias, principado asturias, españa
 paseo almenilla 4, 41310, sevilla, andalucia, españa
 paseo angel guimera 16, 25065, lleida, cataluna, españa
 paseo asuncion 1, 21300, huelva, andalucia, españa
@@ -1434,7 +1435,6 @@ plzla del ayuntamiento 1, 18517, granada, andalucia, españa
 polig industrial de heras nave 136, 39792, cantabria, cantabria, españa
 polig industrial el palomar s/n, 10120, caceres, extremadura, españa
 polig moure s/n, 32540, ourense, galicia, españa
-pque tecnológico de asturias s/n, 33428, asturias, principado asturias, españa
 puerto de la cruz s/n, 29690, malaga, andalucia, españa
 r domingos marreiros, 2031, sala 103 belem, brasil
 r. barata salgueiro 28, 1250 042 lisboa, portugal

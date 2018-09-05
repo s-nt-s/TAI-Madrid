@@ -107,12 +107,20 @@ for latlon, orgs in latlon_org.items():
         if len(direcciones) > 1:
             description += "Dirección: %s\n" % (org.deDireccion,)
         if org.url:
-            description += "URL: " + org.url
-        for p in sorted(org.puestos, key=lambda p: p.idPuesto):
-            description = description + \
-                "\n> %s - %s - %s" % (p.idPuesto, p.nivel, p.dePuesto)
+            description += org.url
+        dePuestos = sorted(set([p.abbr_puesto for p in org.puestos]))
+        for dePuesto in dePuestos:
+            puestos = [p for p in org.puestos if p.abbr_puesto==dePuesto]
+            if len(puestos)==1:
+                p = puestos[0]
+                description += "\n%s/%s - %s" % (p.idPuesto, p.nivel, p.abbr_puesto)
+            else:
+                description += "\n(%s) %s:" % (len(puestos), dePuesto)
+                for p in sorted(puestos, key=lambda p: p.idPuesto):
+                    description += " %s/%s," % (p.idPuesto, p.nivel)
+                description = description[:-1]+"\n"
         org_puestos = org_puestos.union(org.puestos)
-        description = description + "\n\n"
+        description += "\n\n"
 
     description = description.strip()
     description = description.replace("\n", "<br/>\n")

@@ -32,6 +32,8 @@ def simplificar_dire(deDireccion):
     deDireccion = deDireccion.replace("avda ", "avenida ")
     deDireccion = deDireccion.replace("avda. ", "avenida ")
     deDireccion = deDireccion.replace("av. ", "avenida ")
+    deDireccion = deDireccion.replace("pque ", "parque ")
+
     return deDireccion
 
 
@@ -282,6 +284,13 @@ class Puesto:
         if puesto_ok is not None:
             puesto_ok.add(self.dePuesto)
         return True
+
+    @property
+    def abbr_puesto(self):
+        dePuesto = self.dePuesto
+        dePuesto = dePuesto.replace("PROGRAMADOR / PROGRAMADORA ", "PROGRAMADOR/A ")
+        dePuesto = dePuesto.replace("JEFE / JEFA ", "JEFE/A ")
+        return dePuesto
 
 
 class MyEncoder(json.JSONEncoder):
