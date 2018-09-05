@@ -6,11 +6,11 @@ Para entender como se ha hecho lease lo siguiente:
 
 ## Leer Dir3
 
-1- Se obtienen los organismos de [Unidades.rdf](
+1. Se obtienen los organismos de [Unidades.rdf](
 http://dir3rdf.redsara.es/Unidades.rdf)
-2- Se les asocia las direcciones que vienen en dicho `rdf`
-4- Para los organismos que no tengan dirección se lee [Oficinas.rdf](http://dir3rdf.redsara.es/Oficinas.rdf) y si el organismo tiene todas sus oficinas en una misma dirección, se asume que esa es la dirección de dicho organismo
-5- Del resultado de lo anterior se selecciona unicamente los organismo con código `EA` o `E0`, y de estos últimos se toma solo su última versión intentando no perder información de una versión a otra (es decir, si en el organismo X v1 tenemos su dirección pero en el organismo X v2 no la tenemos, preservaremos ese dato de la v1 aunque todos los demás datos sean de la v2)
+2. Se les asocia las direcciones que vienen en dicho `rdf`
+3. Para los organismos que no tengan dirección se lee [Oficinas.rdf](http://dir3rdf.redsara.es/Oficinas.rdf) y si el organismo tiene todas sus oficinas en una misma dirección, se asume que esa es la dirección de dicho organismo
+4. Del resultado de lo anterior se selecciona unicamente los organismo con código `EA` o `E0`, y de estos últimos se toma solo su última versión intentando no perder información de una versión a otra (es decir, si en el organismo X v1 tenemos su dirección pero en el organismo X v2 no la tenemos, preservaremos ese dato de la v1 aunque todos los demás datos sean de la v2)
 
 ## Leer administracion.gob.es
 
@@ -20,14 +20,14 @@ Básicamente se hace lo mismo que en el apartado anterior, pero usando como fuen
 
 Recorremos las dos colecciones de organismos que hemos obtenido anteriormente y identificamos como un mismo organismos aquellos que:
 
-1- tienen el mismo código (o mismo `rcp` si son `E0`)
-2- tienen similar nombre y solo hay dos organismos (uno en cada colección) que cumplen dicha condición
-3- tienen similar nombre y están en la misma dirección y solo hay dos organismos (uno en cada colección) que cumplen dicha condición. Si estan en distintas direcciones, nos quedamos con la que figure en administracion.gob.es ya que parece ser un dato más actualizado
+1. tienen el mismo código (o mismo `rcp` si son `E0`)
+2. tienen similar nombre y solo hay dos organismos (uno en cada colección) que cumplen dicha condición
+3. tienen similar nombre y están en la misma dirección y solo hay dos organismos (uno en cada colección) que cumplen dicha condición. Si estan en distintas direcciones, nos quedamos con la que figure en administracion.gob.es ya que parece ser un dato más actualizado
 
 Al resultado de esta fusión se le hace una nueva pasada en la que:
 
-1- si solo dos organismos hermanos (es decir, que tienen un padre en común) tienen similar nombre, uno de ellos sin dirección y el otro con dirección, al primero se le copia la dirección del segundo.
-2- lo mismo para dos organismos con similar nombre, aunque no tengan padre en común, si solo hay dos en toda la colección que cumplan tal similitud.
+1. si solo dos organismos hermanos (es decir, que tienen un padre en común) tienen similar nombre, uno de ellos sin dirección y el otro con dirección, al primero se le copia la dirección del segundo.
+2. lo mismo para dos organismos con similar nombre, aunque no tengan padre en común, si solo hay dos en toda la colección que cumplan tal similitud.
 
 ## Fusionar con arreglos manuales
 
@@ -35,9 +35,9 @@ Aquí se fusionan organismos basándose en la tabla rellenada manualmente en `da
 
 ## Fusionar con RPT
 
-1- Si hay un organismo `E0` con `rcp` igual al codigo del `RPT`, ese es el organismo buscado.
-2- En caso contrarío, si solo hay un organismo con nombre similar, ese es el organismo buscado.
-3- En caso contrarío, si solo hay un organismo con nombre similar entre los organismos que comparten padre con ese `RPT`, ese es el organismo buscado.
+1. Si hay un organismo `E0` con `rcp` igual al codigo del `RPT`, ese es el organismo buscado.
+2. En caso contrarío, si solo hay un organismo con nombre similar, ese es el organismo buscado.
+3. En caso contrarío, si solo hay un organismo con nombre similar entre los organismos que comparten padre con ese `RPT`, ese es el organismo buscado.
 
 ## Fusionar con csic.es
 
