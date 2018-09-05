@@ -4,8 +4,11 @@
 30277   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
 48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
 49031   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
+
+# https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx&attachment=true
 48055   38.98604,-1.8538507     Avenida de España, 27, 02002 Albacete
 48070   38.98293,-3.92904       Avenida de Rey Santo 2, 13001 Ciudad Real
 48059   40.65722,-4.69527       Avenida de Portugal 4, 05001 Ávila
 48060   38.8750482,-6.9717057   Ronda del Pilar 8, 06004 Badajoz
 48064   42.3603855,-3.6805354   Calle Victoria 16, 09006 Burgos
+48072   40.072597,-2.1349929    Parque San Julián, 7, 16001 Cuenca

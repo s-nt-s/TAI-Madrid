@@ -11,7 +11,10 @@ def dict_from_txt(f, rever=False, parse_key=None):
     d = {}
     with open(f) as y:
         for l in y.readlines():
-            tup = sep.split(l.strip())
+            l = l.strip()
+            if len(l)==0 or l.startswith("#"):
+                continue
+            tup = sep.split(l)
             if rever:
                 tup = list(reversed(tup))
             k = tup[0]
