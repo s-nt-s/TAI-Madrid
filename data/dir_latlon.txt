@@ -539,6 +539,7 @@
 43.3222385,-3.0689074    avenida el casal s/n, 48500, bizkaia, pais vasco, españa
 42.3489521,-3.666509    avenida eladio perlado 53, 09007, burgos, castilla leon, españa
 41.05735139999999,-4.7165889    avenida emilio romero 16, 05200, avila, castilla leon, españa
+41.11376449999999,1.2405333    avenida ensenyament s/n, 43005, tarragona, cataluna, españa
 28.1222327,-15.4366913    avenida escaleritas 34, 35011, las palmas, canarias, españa
 40.17307,-6.720269999999999    avenida españa 1, 10850, caceres, extremadura, españa
 38.9858754,-1.85419    avenida españa 19, 02002, albacete, castilla la mancha, españa
@@ -661,9 +662,11 @@
 40.7127752,-3.9532552    avenida jose antonio 12, 28412, madrid, comunidad madrid, españa
 40.0357274,-2.7345984    avenida jose antonio 15, 16555, cuenca, castilla la mancha, españa
 37.3481888,-2.4321288    avenida jose antonio 25, 04880, almeria, andalucia, españa
+41.41994270000001,-0.5446911999999999    avenida jose antonio 57, 50770, zaragoza, aragon, españa
 37.89417299999999,-4.7652754    avenida jose del rio 53, 14007, cordoba, andalucia, españa
 41.64963909999999,-4.7367672    avenida jose luis arrese 1, 47014, valladolid, castilla leon, españa
 41.97823,-0.5368790999999999    avenida jose maria peleato 25, 22240, huesca, aragon, españa
+40.1706818,-5.8670405    avenida jose maria pizarro 6, 10613, caceres, extremadura, españa
 28.1351412,-15.4317943    avenida jose mesa y lopez 18, 35007, las palmas, canarias, españa
 41.7298442,-4.6459854    avenida jose zorrilla 9, 47260, valladolid, castilla leon, españa
 41.0707098,1.0525284    avenida josep vidal i barraquer 27, 43850, tarragona, cataluna, españa
@@ -990,6 +993,7 @@
 41.599509,-4.1221522    avenida valladolid soria s/n, 47300, valladolid, castilla leon, españa
 40.531106,-3.6544225    avenida valportillo 7, 28108, madrid, comunidad madrid, españa
 41.5443475,-4.7001765    avenida verbena 6, 47151, valladolid, castilla leon, españa
+39.4763102,-0.3578827    avenida vicente blasco ibáñez 48, 46010, valencia, comunitat valenciana, españa
 41.1166967,1.2405156    avenida vidal y barraquer 20, 43005, tarragona, cataluna, españa
 43.4499199,-7.8523926    avenida vilalba 4, 15320, a coruna, galicia, españa
 43.38342309999999,-6.072023199999999    avenida villabella 54, 33820, asturias, principado asturias, españa
@@ -1374,6 +1378,7 @@
 42.4592992,-2.4593378    calle barrera 22, 26005, la rioja, la rioja, españa
 39.71706160000001,-6.8818686    calle barriada san pedro 1, 10980, caceres, extremadura, españa
 36.5195939,-5.3217544    calle barrio alto 111, 29480, malaga, andalucia, españa
+42.784426,-1.631502    calle barrio de la morea s/n, 31191, navarra, comunidad foral navarra, españa
 41.6718039,-3.6874918    calle barrio nuevo 30, 09400, burgos, castilla leon, españa
 37.6100079,-4.738074999999999    calle barrios 17, 14540, cordoba, andalucia, españa
 41.9136328,3.167985    calle barris i buixo 23, 17200, girona, cataluna, españa
@@ -1751,6 +1756,7 @@
 39.8951488,-5.5430777    calle ctra de jarandilla 4, 10300, caceres, extremadura, españa
 38.6870278,-4.1119904    calle cuadro 44, 13500, ciudad real, castilla la mancha, españa
 38.51025,-7.283719999999999    calle cuartel 1, 06105, badajoz, extremadura, españa
+42.89589,-5.5302337    calle cuartel 1, 24836, leon, castilla leon, españa
 42.6688982,-8.6435589    calle cuartel 11, 36646, pontevedra, galicia, españa
 36.7797065,-2.2436319    calle cuartel 2, 04150, almeria, andalucia, españa
 39.2734545,-6.127035999999999    calle cuartel 2, 10180, caceres, extremadura, españa
@@ -2138,6 +2144,7 @@
 37.2908295,-6.674504199999999    calle francisco palacios "el pal" s/n, 21830, huelva, andalucia, españa
 43.3859602,-5.8278505    calle francisco pintado fe 26, 33011, asturias, principado asturias, españa
 39.446331,-6.5052881    calle francisco pizarro a 24, 10910, caceres, extremadura, españa
+41.2122782,1.5346089    calle francisco riera s/n, 43700, tarragona, cataluna, españa
 40.5660833,-3.2670993    calle francisco vives 16, 19200, guadalajara, castilla la mancha, españa
 40.45839,-3.71447    calle francos rodríguez 110, 28039, madrid, comunidad madrid, españa
 39.1103606,-6.688860099999999    calle fray alonso de manzanete 7, 06190, badajoz, extremadura, españa
@@ -2561,6 +2568,7 @@
 28.472374,-16.2473291    calle la marina 20 5º, 38001, santa cruz tenerife, canarias, españa
 28.472374,-16.2473291    calle la marina 20, 38001, santa cruz tenerife, canarias, españa
 28.95809629999999,-13.5497662    calle la marina 8, 35500, las palmas, canarias, españa
+28.7110814,-17.9570492    calle la molina 2, 38780, santa cruz tenerife, canarias, españa
 37.2993125,-3.1378453    calle la muralla 19, 18500, granada, andalucia, españa
 40.2397879,-4.908525    calle la nava 57, 05470, avila, castilla leon, españa
 41.7013909,2.8447171    calle la oliva 55, 17310, girona, cataluna, españa
@@ -2846,6 +2854,7 @@
 40.34082315,-3.82777036419011    calle mayor 99, 28922, madrid, comunidad madrid, españa
 40.67243225,-0.703236334332328    calle mayor alta 15, 44150, teruel, aragon, españa
 40.2299347,-3.3486575    calle mayor baja 114, 28540, madrid, comunidad madrid, españa
+39.1511421,-0.4333706000000001    calle mayor santamaria 47, 46600, valencia, comunitat valenciana, españa
 43.2247475,-2.0175242    calle mayorbis 31, 20140, gipuzkoa, pais vasco, españa
 42.4597912,-6.061988    calle mayuelo 49, 24700, leon, castilla leon, españa
 37.83133180000001,-3.1177555    calle medico basilio rguez 55, 23480, jaen, andalucia, españa
@@ -3289,6 +3298,7 @@
 41.61733,0.6300188999999999    calle rambla ferran 16, 25007, lleida, cataluna, españa
 41.9284964,2.2520793    calle rambla hospital 48, 08500, barcelona, cataluna, españa
 41.3529543,2.1064106    calle rambla marina 82, 08907, barcelona, cataluna, españa
+41.5844557,2.3246884    calle rambla mestre torrens 53, 08430, barcelona, cataluna, españa
 39.5644969,3.2167072    calle rambla rei jaume 8, 07500, illes balears, illes balears, españa
 43.5421724,-6.535436499999999    calle ramon asenjo 21, 33700, asturias, principado asturias, españa
 42.9285702,-8.1636857    calle ramon franco 38, 15810, a coruna, galicia, españa
@@ -3498,6 +3508,7 @@
 40.3570903,-3.7779952    calle san florentino 2 4, 28917, madrid, comunidad madrid, españa
 40.4663701,0.4691891    calle san francisco 100, 12500, castellon, comunitat valenciana, españa
 40.9462477,-4.1174748    calle san francisco 25, 40001, segovia, castilla leon, españa
+28.4259329,-14.0130391    calle san francisco callev marcos trujillo s/n, 35630, las palmas, canarias, españa
 39.4712715,-0.4126138    calle san francisco de asís 110, 46920, valencia, comunitat valenciana, españa
 43.3695671,-8.3910081    calle san francisco s/n, 15001, a coruna, galicia, españa
 41.941785,-7.4282996    calle san gregorio barrio san l s/n, 32600, ourense, galicia, españa
@@ -3908,6 +3919,7 @@
 42.09959000000001,-8.557089999999999    calle vigo 14, 36470, pontevedra, galicia, españa
 39.5230561,-0.4140528    calle vila blanca 25, 46110, valencia, comunitat valenciana, españa
 41.4235534,1.7819719    calle vilafranca s/n, 08770, barcelona, cataluna, españa
+43.4056575,-8.1693666    calle vilar 9, 15600, a coruna, galicia, españa
 43.1738493,-7.759131200000001    calle vilasuso 70, 27371, lugo, galicia, españa
 38.1942498,-1.3379191    calle villa de blanca 12, 30540, murcia, region murcia, españa
 28.4677842,-16.2493863    calle villalba hervas 4, 38002, santa cruz tenerife, canarias, españa
@@ -4015,6 +4027,7 @@
 37.4496391,-7.2996925    ctra a 499 s/n, 21540, huelva, andalucia, españa
 42.3380251,-1.9354323    ctra a estella s/n, 31570, navarra, comunidad foral navarra, españa
 38.90218429999999,1.4064316    ctra aeropuerto s/n, 07800, illes balears, illes balears, españa
+38.3669008,-5.0286488    ctra alamadén s/n, 14250, cordoba, andalucia, españa
 39.2849833,-1.471411    ctra albacete requeja 1, 02200, albacete, castilla la mancha, españa
 40.0260593,-4.4232128    ctra alcabon 8, 45530, toledo, castilla la mancha, españa
 39.5294458,-3.0774241    ctra alcazar 2, 45830, toledo, castilla la mancha, españa
@@ -4166,6 +4179,7 @@
 37.8185536,-3.4150063    ctra mancha real cazorla 3, 23537, jaen, andalucia, españa
 41.2127687,-2.2766661    ctra maranchon s/n, 42250, soria, castilla leon, españa
 41.1674125,0.8198774999999999    ctra marsa s/n, 43730, tarragona, cataluna, españa
+37.756581,-4.161013    ctra martos s/n, 23612, jaen, andalucia, españa
 40.7452372,-3.0279313    ctra masegoso s/n, 19190, guadalajara, castilla la mancha, españa
 41.12688,-4.35424    ctra miguelañez 43, 40430, segovia, castilla leon, españa
 42.7922424,-3.2672808    ctra miranda 83, 09210, burgos, castilla leon, españa
@@ -4286,6 +4300,7 @@
 43.1646238,-2.6199414    montorretas s/n, 48200, bizkaia, pais vasco, españa
 39.4624434,-0.3271173    muelle aduana s/n, 46024, valencia, comunitat valenciana, españa
 43.4811962,-8.2395771    muelle del espigon puerto de ferrol s/n, 15401, a coruna, galicia, españa
+36.133998,-5.439948999999999    muelle juan carlos i p.i.f., 11207, cadiz, andalucia, españa
 36.8330823,-2.4645105    muelle levante s/n, 04071, almeria, andalucia, españa
 40.3883359,-5.752301399999999    obispo zarraz y pueyo 37, 37700, salamanca, castilla leon, españa
 43.1695146,-6.174131000000001    orilla rio taja s/n, 33111, asturias, principado asturias, españa
@@ -4293,6 +4308,17 @@
 42.3412523,-1.6466586    pablo rada 40, 31380, navarra, comunidad foral navarra, españa
 36.7944677,-6.332310499999999    pago san jeronimo s/n, 11540, cadiz, andalucia, españa
 37.63442200000001,-0.7126239999999999    paraje de los triolas s/n, 30370, murcia, region murcia, españa
+39.4101782,-7.2457869    parque de españa 10, 10500, caceres, extremadura, españa
+41.3932065,2.1835331    parque de l'estacio del nord s/n, 08018, barcelona, cataluna, españa
+41.3932065,2.1835331    parque de l'estació del nord s/n, 08018, barcelona, cataluna, españa
+40.07300499999999,-2.135802    parque de san julián 12, 16001, cuenca, castilla la mancha, españa
+42.3419407,-7.8642005    parque de san lázaro 12, 32003, ourense, galicia, españa
+41.3932065,2.1835331    parque estació del nord s/n, 08018, barcelona, cataluna, españa
+41.3932065,2.1835331    parque estarció del nord s/n, 08018, barcelona, cataluna, españa
+38.7040324,-3.7792328    parque reina sofia 1, 13370, ciudad real, castilla la mancha, españa
+40.0728304,-2.1340255    parque san julián 12, 16001, cuenca, castilla la mancha, españa
+40.073715,-2.135369    parque san julián 19, 16001, cuenca, castilla la mancha, españa
+41.3097518,2.0866195    parque servicios aeronauticos s/n, 08820, barcelona, cataluna, españa
 42.1922764,0.3482063    partida coscolla s/n, 22430, huesca, aragon, españa
 40.8431027,-1.8872031    paseo adarves 13, 19300, guadalajara, castilla la mancha, españa
 39.4737507,-0.3649418    paseo alameda 17, 46010, valencia, comunitat valenciana, españa
@@ -4516,12 +4542,14 @@
 41.73036,1.82494    plaza d'espanya 1, 08242, barcelona, cataluna, españa
 41.9908984,-8.7452787    plaza da mina 11, 36740, pontevedra, galicia, españa
 36.5052612,-6.2761016    plaza de 0796 s/n, 11010, cadiz, andalucia, españa
+38.7254104,-4.1718542    plaza de argentina 9, 13580, ciudad real, castilla la mancha, españa
 37.1278771,-4.656797    plaza de atenas 8, 29532, malaga, andalucia, españa
 40.4197702,-3.7055168    plaza de callao 2, 28013, madrid, comunidad madrid, españa
 37.983425,-1.1269823    plaza de ceballos 13, 30003, murcia, region murcia, españa
 40.9620014,-5.6641944    plaza de colón s/n, 37001, salamanca, castilla leon, españa
 42.2388428,-8.7238132    plaza de compostela 3, 36201, pontevedra, galicia, españa
 36.6771604,-6.1275327    plaza de domeq 46, 11401, cadiz, andalucia, españa
+39.00546569999999,-5.532977    plaza de españa 1, 06740, badajoz, extremadura, españa
 40.8983747,-4.0070224    plaza de españa 10, 40100, segovia, castilla leon, españa
 41.6486783,-4.7257285    plaza de españa 13, 47001, valladolid, castilla leon, españa
 40.8983747,-4.0070224    plaza de españa 15, 40100, segovia, castilla leon, españa
@@ -4823,17 +4851,6 @@
 43.4169646,-5.8110627    polig silvota s/n, 33192, asturias, principado asturias, españa
 36.3431854,-5.8166423    polig zahori c/ albañiles de benalup parcela 38 10, 11190, cadiz, andalucia, españa
 41.3762045,2.1770625    portal de la pau 5, 08002, barcelona, cataluna, españa
-39.4101782,-7.2457869    pque de españa 10, 10500, caceres, extremadura, españa
-41.3932065,2.1835331    pque de l'estacio del nord s/n, 08018, barcelona, cataluna, españa
-41.3932065,2.1835331    pque de l'estació del nord s/n, 08018, barcelona, cataluna, españa
-40.07300499999999,-2.135802    pque de san julián 12, 16001, cuenca, castilla la mancha, españa
-42.3419407,-7.8642005    pque de san lázaro 12, 32003, ourense, galicia, españa
-41.3932065,2.1835331    pque estació del nord s/n, 08018, barcelona, cataluna, españa
-41.3932065,2.1835331    pque estarció del nord s/n, 08018, barcelona, cataluna, españa
-38.7040324,-3.7792328    pque reina sofia 1, 13370, ciudad real, castilla la mancha, españa
-40.0728304,-2.1340255    pque san julián 12, 16001, cuenca, castilla la mancha, españa
-40.073715,-2.135369    pque san julián 19, 16001, cuenca, castilla la mancha, españa
-41.3097518,2.0866195    pque servicios aeronauticos s/n, 08820, barcelona, cataluna, españa
 42.3435356,-3.700475199999999    praza alonso martínez s/n, 09003, burgos, castilla leon, españa
 42.1364007,-0.4086198    praza navarra 11, 22002, huesca, aragon, españa
 35.2900102,-2.9382222    psaje cargadero mineral local 4, 52004, melilla, melilla, españa
