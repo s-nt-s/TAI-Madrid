@@ -16,8 +16,6 @@ alameda santos, 787 11º andar sao paulo, brasil
 andrés bello no. 45 piso 22 int. 2 méxico, mexico
 andrés bello no. 45 piso 27 int. 1 méxico, mexico
 angel bruna s/n, 30203, murcia, region murcia, españa
-apartado de correos 30173 s/n, 06080, badajoz, extremadura, españa
-apdo. postal nº 1.042. 26080 logroño. finca la grajera. ctra. de burgos km. 6 (lo 20, salida 13) 26007 logroño (rioja (la))
 apoquindo 4001, oficina 201, las condes santiago, chile
 arene s/n, 48991, bizkaia, pais vasco, españa
 autopista gc 1 s/n, 35230, las palmas, canarias, españa
@@ -39,7 +37,6 @@ avenida alfonso x el sabio 6, 30071, murcia, region murcia, españa
 avenida alférez provisional 3, 15071, a coruna, galicia, españa
 avenida almoraima 6, 11540, cadiz, andalucia, españa
 avenida alvarez campa s/n, 08039, barcelona, cataluna, españa
-avenida americo vespucio, s/n. isla de la cartuja 41092 sevilla (sevilla)
 avenida ana de viya 5, 11071, cadiz, andalucia, españa
 avenida ancha s/n, 11011, cadiz, andalucia, españa
 avenida andalucia 1, 41200, sevilla, andalucia, españa
@@ -326,7 +323,6 @@ calle almirante garrocho 1, 21074, huelva, andalucia, españa
 calle alonso cano 97, 41566, sevilla, andalucia, españa
 calle alvaro de baza 14 16, 52005, melilla, melilla, españa
 calle ambrosio feijoo s/n, 15071, a coruna, galicia, españa
-calle américo vespucio 3, 41071, sevilla, andalucia, españa
 calle ancha 9, 18193, granada, andalucia, españa
 calle andalucia 12, 04738, almeria, andalucia, españa
 calle andalucia 2, 11639, cadiz, andalucia, españa
@@ -361,7 +357,6 @@ calle asturias 17, 33980, asturias, principado asturias, españa
 calle asturias 8, 03006, alicante, comunitat valenciana, españa
 calle atocha 106, 28071, madrid, comunidad madrid, españa
 calle b 12, 08071, barcelona, cataluna, españa
-calle bailén s/n, 28071, madrid, comunidad madrid, españa
 calle baiona 6, 36940, pontevedra, galicia, españa
 calle balbis 16, 15175, a coruna, galicia, españa
 calle balmes 11, 08291, barcelona, cataluna, españa
@@ -636,7 +631,6 @@ calle gran vía d. diego lope de haro 50, 48071, bizkaia, pais vasco, españa
 calle gran vía don diego lópez de haro 62, 48071, bizkaia, pais vasco, españa
 calle gran vía escultor salzillo 21, 30071, murcia, region murcia, españa
 calle gran vía ramón y cajal 40, 46071, valencia, comunitat valenciana, españa
-calle gregorio hernández 4, 15071, a coruna, galicia, españa
 calle grupo escolar 1, 18550, granada, andalucia, españa
 calle guadalquivir 16, 28820, madrid, comunidad madrid, españa
 calle guadalquivir s/n, 41920, sevilla, andalucia, españa
@@ -832,7 +826,6 @@ calle muelle de poniente s/n, 03071, alicante, comunitat valenciana, españa
 calle muelle de poniente s/n, 07015, illes balears, illes balears, españa
 calle muelle de portugal 2, 21710, huelva, andalucia, españa
 calle munguia 2, 35510, las palmas, canarias, españa
-calle muro 5, 47071, valladolid, castilla leon, españa
 calle muro francisco de la mata 3, 26071, la rioja, la rioja, españa
 calle médico vicente fraguela 13, 15071, a coruna, galicia, españa
 calle nicolas alcala 19, 14240, cordoba, andalucia, españa
@@ -992,7 +985,6 @@ calle san nicasio 3, 28990, madrid, comunidad madrid, españa
 calle san pedro mezonzo 17, 15071, a coruna, galicia, españa
 calle san roque 8, 16120, cuenca, castilla la mancha, españa
 calle san sebastian s/n, 46179, valencia, comunitat valenciana, españa
-calle san sebastián 77, 38071, santa cruz tenerife, canarias, españa
 calle san servando s/n, 45071, toledo, castilla la mancha, españa
 calle san urbano 1, 04610, almeria, andalucia, españa
 calle san vicente 17, 03509, alicante, comunitat valenciana, españa
@@ -1262,7 +1254,6 @@ paseo castellana 3, 28046, madrid, comunidad madrid, españa
 paseo central s/n, 08830, barcelona, cataluna, españa
 paseo de aguadores 2, 28871, madrid, comunidad madrid, españa
 paseo de chil 299, 35071, las palmas, canarias, españa
-paseo de la castellana 109, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 14, 28046, madrid, comunidad madrid, españa
 paseo de la castellana 160, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 162, 28036, madrid, comunidad madrid, españa
@@ -1333,7 +1324,6 @@ plaza de castilla y león s/n, 49014, zamora, castilla leon, españa
 plaza de españa 1, 06740, badajoz, extremadura, españa
 plaza de españa 19, 11071, cadiz, andalucia, españa
 plaza de españa 2, 06171, badajoz, extremadura, españa
-plaza de españa 2, 33071, asturias, principado asturias, españa
 plaza de españa 3, 33071, asturias, principado asturias, españa
 plaza de españa s/n, 36002, pontevedra, galicia, españa
 plaza de hernán cortés 3, 10007, caceres, extremadura, españa

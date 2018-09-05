@@ -8,8 +8,9 @@
         <li><strong>Organismo</strong>: {{org.deOrganismo}}</li>
         <li><strong>Dirección</strong>:
             {% if org.latlon %}<a target="_map" href="https://www.google.com/maps?q={{org.latlon}}">{% endif %}
-            {% if org.deDireccion %}{{org.deDireccion}}{%else%}No tiene dirección ¿Quizá esta en el organismo padre?{%endif%}
+            {% if org.deDireccion %}{{org.deDireccion}}{%else%}No tiene dirección, {% if org.deProvincia %}pero debería estar en {{org.deProvincia}}{%else%}¿Quizá esta en el organismo padre?{% endif %}{%endif%}
             {% if org.idUnidOrganica %}</a>{% endif %}
+            {% if not org.latlon and org.deDireccion %}(<a target="_map" href="http://maps.google.com/?q={{org.deDireccion}}">buscar en google maps</a>, {% if org.deProvincia %}debería estar en {{org.deProvincia}}{%endif%}){% endif %}
         </li>
     </ul>
 {% else %}

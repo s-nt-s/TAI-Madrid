@@ -37,12 +37,11 @@ nm = Nominatim(country_bias="ESP")
 
 
 def geocode(direccion, intento=0):
-    '''
-    time.sleep(3)
-    l = nm.geocode(direccion)
-    if l:
-        return l
-    '''
+    if intento==0:
+        #time.sleep(3)
+        l = nm.geocode(direccion)
+        if l:
+            return l
     r = requests.get(
         "http://maps.googleapis.com/maps/api/geocode/json?address=" + direccion, proxies=proxies)
     j = r.json()
@@ -58,8 +57,15 @@ def geocode(direccion, intento=0):
         return None
     return Bunch(latitude=l['lat'], longitude=l['lng'], address=r['formatted_address'])
 
+codigos_tai = set()
+for p in Puesto.load():
+    codigos_tai.add(p.idMinisterio)
+    codigos_tai.add(p.idCentroDirectivo)
+    codigos_tai.add(p.idUnidad)
+    
+
 direcciones_falta = set([(o.deDireccion, o.dire, o.postCode)
-                         for o in organismos if o.postCode and o.deDireccion and not o.latlon and o.dire not in direcciones])
+                         for o in organismos if o.postCode and o.deDireccion and not o.latlon and o.dire not in direcciones and o.codigos.intersection(codigos_tai)])
 total = len(direcciones_falta)
 count = 0
 ok = 0
@@ -68,7 +74,7 @@ last_ok = ""
 print ("Calculando coordenadas (%s)" % total)
 for d1, d2, p in direcciones_falta:
     count += 1
-    print("%3d%% completado: %-30s (%s) %-100s" %
+    print("%3d%% completado: %-50s (%s) %-50s" %
           (count * 100 / total, d1[:30], ok, last_ok + "   "), end="\r")
     if d2 in direcciones:
         continue

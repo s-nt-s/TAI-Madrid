@@ -12,3 +12,32 @@
 48060   38.8750482,-6.9717057   Ronda del Pilar 8, 06004 Badajoz
 48064   42.3603855,-3.6805354   Calle Victoria 16, 09006 Burgos
 48072   40.072597,-2.1349929    Parque San Julián, 7, 16001 Cuenca
+
+# http://www.aemet.es/es/conocenos/quienes_somos
+48171   37.4022625,-6.0090461   Calle Américo Vespucio, 3, 41092 Sevilla
+48175   41.6334718,-0.8822248   Paseo del Canal, 17, 50007 Zaragoza
+48169   28.0781738,-15.4527862  Calle Historiador Fernando de Armas, 12, 35017 Las Palmas de Gran Canaria, Las Palmas
+48170   43.4905815,-3.8009155   Calle Ricardo Lorenzo, S/N, 39012 Santander, Cantabria
+48174   41.6410042,-4.7537575   Calle Orión, 1, 47014 Valladolid
+48161   41.3911678,2.1985201    Calle Arquitecto Sert, 1 08071 Barcelona
+48159   38.885523,-7.0115439    Avenida de Elvas, 06006 Badajoz
+48162   43.3651522,-8.4236199   Calle Canceliña, 8 15071 A Coruña
+48160   39.553385,2.625049      Carrer Muelle de Poniente, s/n, 07015 Palma de Mallorca, Islas Baleares
+48165   40.441464,-3.6989845    Calle Ríos Rosas, 44-A, 28003 Madrid
+48166   38.0016589,-1.1728495   Avenida de la Libertad, 11, 30107 Guadalupe de Maciascoque
+48163   43.3064184,-1.9824207   Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
+48173   39.4806414,-0.3682802   Calle Botánico Cavanilles, 3 46071, Valencia
+
+# CSIC
+47811   40.4412398,-3.6884998   Calle de Serrano, 117, 28006 Madrid
+48678   42.444667,-2.514833     Finca La Grajera, Autovía del Camino de Santiago LO-20 Salida 13, 26007 Logroño, La Rioja
+
+# https://www.chcantabrico.es/oficinas
+48028   43.3608724,-5.8554928   Plaza de España, 2, 33007 Oviedo, Asturias
+48038   43.3608724,-5.8554928   Plaza de España, 2, 33007 Oviedo, Asturias
+48037   43.4163035,-5.797931    La Fresneda, s/n. 33429 La Fresneda
+
+# http://www.chduero.es/Inicio/PortaldelCiudadano/Oficinas/tabid/91/Default.aspx
+1337    41.6468976,-4.7251021   Calle Muro 5, 47004, Valladolid, Castilla Leon, España
+
+# http://www.chguadalquivir.es/ubicacion

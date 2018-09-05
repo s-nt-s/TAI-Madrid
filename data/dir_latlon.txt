@@ -1,3 +1,6 @@
+40.4281763,-3.689167    Paseo De la Castellana 14, 28046, Madrid, Comunidad Madrid, España
+40.4555839,-3.691453  Paseo De la Castellana 109, 28071, Madrid, Comunidad Madrid, España
+40.417955,-3.714312   Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
 43.2487382,-8.589744999999999    1ª travesia eusebio bertoa s/n, 15145, a coruna, galicia, españa
 42.431318,1.4670126    aduana de la farga de moles s/n, 25799, lleida, cataluna, españa
 40.4521586,-3.562635    aeropuerto de barajas s/n, 28042, madrid, comunidad madrid, españa
@@ -4293,6 +4296,17 @@
 42.3412523,-1.6466586    pablo rada 40, 31380, navarra, comunidad foral navarra, españa
 36.7944677,-6.332310499999999    pago san jeronimo s/n, 11540, cadiz, andalucia, españa
 37.63442200000001,-0.7126239999999999    paraje de los triolas s/n, 30370, murcia, region murcia, españa
+39.4101782,-7.2457869    parque de españa 10, 10500, caceres, extremadura, españa
+41.3932065,2.1835331    parque de l'estacio del nord s/n, 08018, barcelona, cataluna, españa
+41.3932065,2.1835331    parque de l'estació del nord s/n, 08018, barcelona, cataluna, españa
+40.07300499999999,-2.135802    parque de san julián 12, 16001, cuenca, castilla la mancha, españa
+42.3419407,-7.8642005    parque de san lázaro 12, 32003, ourense, galicia, españa
+41.3932065,2.1835331    parque estació del nord s/n, 08018, barcelona, cataluna, españa
+41.3932065,2.1835331    parque estarció del nord s/n, 08018, barcelona, cataluna, españa
+38.7040324,-3.7792328    parque reina sofia 1, 13370, ciudad real, castilla la mancha, españa
+40.0728304,-2.1340255    parque san julián 12, 16001, cuenca, castilla la mancha, españa
+40.073715,-2.135369    parque san julián 19, 16001, cuenca, castilla la mancha, españa
+41.3097518,2.0866195    parque servicios aeronauticos s/n, 08820, barcelona, cataluna, españa
 42.1922764,0.3482063    partida coscolla s/n, 22430, huesca, aragon, españa
 40.8431027,-1.8872031    paseo adarves 13, 19300, guadalajara, castilla la mancha, españa
 39.4737507,-0.3649418    paseo alameda 17, 46010, valencia, comunitat valenciana, españa
@@ -4823,17 +4837,6 @@
 43.4169646,-5.8110627    polig silvota s/n, 33192, asturias, principado asturias, españa
 36.3431854,-5.8166423    polig zahori c/ albañiles de benalup parcela 38 10, 11190, cadiz, andalucia, españa
 41.3762045,2.1770625    portal de la pau 5, 08002, barcelona, cataluna, españa
-39.4101782,-7.2457869    pque de españa 10, 10500, caceres, extremadura, españa
-41.3932065,2.1835331    pque de l'estacio del nord s/n, 08018, barcelona, cataluna, españa
-41.3932065,2.1835331    pque de l'estació del nord s/n, 08018, barcelona, cataluna, españa
-40.07300499999999,-2.135802    pque de san julián 12, 16001, cuenca, castilla la mancha, españa
-42.3419407,-7.8642005    pque de san lázaro 12, 32003, ourense, galicia, españa
-41.3932065,2.1835331    pque estació del nord s/n, 08018, barcelona, cataluna, españa
-41.3932065,2.1835331    pque estarció del nord s/n, 08018, barcelona, cataluna, españa
-38.7040324,-3.7792328    pque reina sofia 1, 13370, ciudad real, castilla la mancha, españa
-40.0728304,-2.1340255    pque san julián 12, 16001, cuenca, castilla la mancha, españa
-40.073715,-2.135369    pque san julián 19, 16001, cuenca, castilla la mancha, españa
-41.3097518,2.0866195    pque servicios aeronauticos s/n, 08820, barcelona, cataluna, españa
 42.3435356,-3.700475199999999    praza alonso martínez s/n, 09003, burgos, castilla leon, españa
 42.1364007,-0.4086198    praza navarra 11, 22002, huesca, aragon, españa
 35.2900102,-2.9382222    psaje cargadero mineral local 4, 52004, melilla, melilla, españa

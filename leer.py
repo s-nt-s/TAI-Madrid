@@ -174,7 +174,6 @@ def parse_dire(node):
                           pais) if i is not None]
     if len(sufijo) > 0:
         direccion = direccion + ", " + ", ".join(sufijo)
-
     return direccion.strip(), postCode
 
 if args.puestos or args.todo:
@@ -359,6 +358,7 @@ if args.csic or args.todo:
     col = []
     total = len(ids)
     count = 0
+    latlons = {}
     for h in ids:
         id = int(h.strip())
         soup = soup_from_file("fuentes/csic.es/id_%06d.html" % id)
@@ -366,6 +366,8 @@ if args.csic or args.todo:
         latlon = None
         deOrganismo = re_bk.sub(" ", soup.find("h2").get_text()).strip()
         for tr in soup.findAll("tr"):
+            for br in tr.findAll("br"):
+                br.replaceWith(" ")
             tds = [re_bk.sub(" ", td.get_text()).strip()
                    for td in tr.findAll("td")]
             if len(tds) == 2:
@@ -375,6 +377,9 @@ if args.csic or args.todo:
         a = soup.find("a", attrs={"href": re_ll})
         if a:
             latlon = re_ll.search(a.attrs["href"]).group(1)
+            latlons[deDireccion]=latlon
+        else:
+            latlon = latlons.get(deDireccion, None)
         o = Organismo(id, deOrganismo, deDireccion, latlon=latlon, isCsic=True)
         col.append(o)
         count = count + 1
@@ -1001,6 +1006,45 @@ for o in organismos:
     count += 1
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
+print ("")
+
+print ("Seteando provincias")
+puestos = Puesto.load("destinos_all")
+total = len(puestos)
+count = 0
+unidades_provincia = {}
+for p in puestos:
+    if p.idUnidad:
+        provincias = unidades_provincia.get(p.idUnidad, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idUnidad] = provincias
+    if p.idCentroDirectivo:
+        provincias = unidades_provincia.get(p.idCentroDirectivo, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idCentroDirectivo] = provincias
+    if p.idMinisterio:
+        provincias = unidades_provincia.get(p.idMinisterio, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idMinisterio] = provincias
+    count += 1
+    print("%3d%% completado: %s" % (count * 100 / total, p.idPuesto), end="\r")
+print ("")
+
+total = len(unidades_provincia)
+count = 0
+ok = 0
+for unidad, provincias in unidades_provincia.items():
+    if len(provincias)==1:
+        provincia = provincias.pop()
+        if provincia is not None:
+            org = rcp_organi.get(unidad, None)
+            if org:
+                org.calcular_provincia()
+                if org.idProvincia is None:
+                    org.idProvincia = provincia
+                    ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
 #organismos = clean_organismos(organismos)
