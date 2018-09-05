@@ -85,11 +85,11 @@ Se exporta `mapa/tai.kml` a Google Maps para que se pueda ver en https://www.goo
 
 Hay organismos que no tienen dirección (no hay problema si resulta que están ubicados en la misma dirección que su organismo padre, pero en caso contrario se estarían colocando destinos en lugares equivocados), u organismos que si tienen dirección pero no `latlon`.
 
-La solución es añadir o corregir `data/dir_latlon.txt`, por lo tanto seria de mucha ayuda los `pull request` que me mandéis par modificar este archivo.
+La solución es añadir o corregir `data/dir_latlon.txt` o `data/cod_dir_latlon.txt`, por lo tanto seria de mucha ayuda los `pull request` que me mandéis para modificar este archivo.
 
 ## Direcciones o coordenadas conflictivas o ausentes
 
-En `data/direcciones.csv` se ha generado un `csv` (con tabulador por separador) donde se puede ver los organismos (indicados por su código `rcp`) que aparezcan en `organismos.json` (y por ende en el mapa) y en el (excel)[https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc] con dirección y coordenadas, y la distancia en metros entre ambas direcciones.
+En `data/direcciones.csv` se ha generado un `csv` (con tabulador por separador) donde se puede ver los organismos (indicados por su código `rcp`) que aparezcan en `organismos.json` (y por ende en el mapa) y en el [excel](https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc) con dirección y coordenadas, y la distancia en metros entre ambas direcciones.
 
 En algunos casos son manifiestamente contradictorias. Habría que revisar cual es la buena.
 
