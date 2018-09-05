@@ -5,6 +5,62 @@
 48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
 49031   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
 
+# Fuente [1] http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
+# Fuente [2] https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
+48053    43.36203,-8.40677    C/ Federico Tapia,54-3º, 15005 CORUÑA (A)
+48054    42.86587,-2.69673    C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ
+48055    38.98727,-1.85409    Avda. de España, 27, 02002 ALBACETE
+48056    38.34661,-0.49468    C/ Enriqueta Ortega, 2, 03005 ALICANTE/ALACANT
+48057    36.83587,-2.44350    C/ Fuente Victoria, 2, 04007 ALMERIA
+48058    43.35822,-5.84951    C/ Pérez de la Sala, 9, 33007 OVIEDO
+48059    40.65735,-4.69529    Avda. de Portugal, 4, 05001 AVILA
+48060    38.87522,-6.97140    C/ Ronda del Pilar, 10, 06002 BADAJOZ
+48061    39.57412,2.649233    La Rambla, 18, 07003 PALMA DE MALLORCA
+48062    41.40308,2.163359    c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
+48063    41.39293,2.165603    C. d´ Aragó, 273-275, 08007 BARCELONA
+48064    42.34127,-3.69762    C/ Vitoria, 16, 09004 BURGOS
+48065    39.47089,-6.37815    Avda. de España, 14, 10001 CACERES
+48066    36.51632,-6.28492    Avda. Amilcar Barca, nº 5, 11008 CADIZ
+48067    43.46123,-3.80872    Avda. Calvo Sotelo, 8, 39002 SANTANDER
+48068    39.98536,-0.03286    Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
+48070    38.98296,-3.92888    Avda. Rey Santo, 2, 13001 CIUDAD REAL
+48071    37.88693,-4.78334    C/ Ronda de los Tejares, 23 y 25, 14008 CORDOBA
+48072    40.07262,-2.13495    Parque de San Julian, 7, 16001 CUENCA
+48073    41.97973,2.810871    Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
+48074    37.17843,-3.59897    Gran Vía de Colón, 23, 18001 GRANADA
+48075    40.63201,-3.16615    C/ Carmen, 2, 19001 GUADALAJARA
+48076    43.30867,-1.97077    Hermanos Otamendi, 13, 20014 DONOSTIA-SAN SEBASTIAN
+48077    37.25887,-6.95495    C/ Puerto, 50, 21001 HUELVA
+48078    42.14400,-0.41874    Avda. Pirineos, 17, 22004 HUESCA
+48079    37.78095,-3.80556    C/ Fuente de Buenora, 7, 23006 JAEN
+48080    42.46570,-2.44655    C/ Sagasta, 2, 26001 LOGROÑO
+48082    42.60365,-5.57762    C/ Cinco de Octubre, nº20, 24002 LEON
+48083    42.99874,-7.54876    Ronda Músico Xosé Castiñeira n 26 , 27002 LUGO
+48084    41.62084,0.627003    C/ Salmerón, 14-16, 25004 LLEIDA
+48085    40.43392,-3.68635    c/ Serrano, 102, 28006 MADRID
+48086    40.47001,-3.68535    C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID
+48087    36.71970,-4.43851    C/ Ingeniero de la Torre Acosta, 5, 29007 MALAGA
+48088    35.28966,-2.93641    Paseo Marítimo Alcalde Rafael Ginel Cañamaque, 5, planta 8, 52004 MELILLA
+48089    38.01618,-1.1778    C/ Ortega y Gasset, 7, 30009 MURCIA
+48090    42.81255,-1.64431    C/ Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA
+48091    42.34150,-7.86471    C/ Concejo, 1, 32003 OURENSE
+48092    42.00788,-4.51131    Avda. Comunidad Europea, 16, 34004 PALENCIA
+48093    42.23674,-8.71540    Avda. García Barbón, 36-1º, 36201 VIGO
+48094    40.96107,-5.65899    Paseo de Canalejas, 129, 37001 SALAMANCA
+48095    40.94048,-4.16062    C/ Pinar de Valsaín, 1, 40005 SEGOVIA
+48096    37.38976,-5.97526    C/ Pablo Picasso, nº 8, 41018 SEVILLA
+48097    41.76564,-2.47109    C/ San Benito, 17, 42001 SORIA
+48098    41.11620,1.250774    Rambla Nova, 84, 43003 TARRAGONA
+48099    28.46208,-16.2510    Av José Manuel Guimerá N-8 , 38003 SANTA CRUZ DE TENERIFE
+48100    40.33057,-1.08841    Tarazona de Aragón, 2-A, 44002 TERUEL
+48101    39.86038,-4.02180    Plaza San Agustín, 3, 45001 TOLEDO
+48102    39.46474,-0.37887    c/ Bailén, 46, 46007 VALENCIA
+48103    39.46852,-0.37708    Av.Marqués de Sotelo 8 y 10, 46002 VALENCIA
+48104    41.63727,-4.73243    C/ Boston, 6, 47007 VALLADOLID
+48105    43.26499,-2.94469    C/ Gran Vía, 89, 48011 BILBAO
+48106    41.51004,-5.73693    Avda. de Requejo, 23, 49012 ZAMORA
+48107    41.64550,-0.87615    Camino de las Torres, 22, 50008 ZARAGOZA
+
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx&attachment=true
 48055   38.98604,-1.8538507     Avenida de España, 27, 02002 Albacete
 48070   38.98293,-3.92904       Avenida de Rey Santo 2, 13001 Ciudad Real
