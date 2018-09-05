@@ -83,7 +83,7 @@ Se exporta `mapa/tai.kml` a Google Maps para que se pueda ver en https://www.goo
 
 ## Direcciones sin coordenadas
 
-Por otro lado hay organismos que no tienen dirección (no hay problema si resulta que están ubicados en la misma dirección que su organismo padre, pero en caso contrario se estarían colocando destinos en lugares equivocados), u organismos que si tienen dirección pero no `latlon`.
+Hay organismos que no tienen dirección (no hay problema si resulta que están ubicados en la misma dirección que su organismo padre, pero en caso contrario se estarían colocando destinos en lugares equivocados), u organismos que si tienen dirección pero no `latlon`.
 
 La solución es añadir o corregir `data/dir_latlon.txt`, por lo tanto seria de mucha ayuda los `pull request` que me mandéis par modificar este archivo.
 
