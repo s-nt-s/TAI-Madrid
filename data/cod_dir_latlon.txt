@@ -1,0 +1,6 @@
+30281   40.4124906,-3.72211     Paseo Bajo de la Virgen del Puerto, 3, 28005 Madrid
+30280   40.3929345,-3.7049173   Antonio López, 81, 28026 Madrid
+46799   40.5555043,-3.7094297   Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
+30277   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
+48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
+49031   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)

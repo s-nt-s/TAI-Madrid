@@ -1,3 +1,4 @@
+test.py
 *.pyc
 *.xml
 __pycache__

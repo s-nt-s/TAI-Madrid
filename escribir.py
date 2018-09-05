@@ -10,7 +10,7 @@ j2 = Jnj2("j2/", "docs/")
 
 # Excluir CENTROS PENITENCIARIOS, y volver a comprobar que es TAI
 # Excluir nivel 18 (puede que salta alguno pero serán tan pocos...)
-todos = [p for p in Puesto.load() if p.nivel<19 and p.idCentroDirectivo !=
+todos = [p for p in Puesto.load() if p.nivel < 19 and p.idCentroDirectivo !=
          1301 and p.idProvision not in ("L",) and p.isTAI()]
 descripciones = Descripciones.load()
 

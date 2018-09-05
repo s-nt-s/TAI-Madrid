@@ -5,15 +5,15 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from glob import glob
+from math import atan2, cos, radians, sin, sqrt
 from urllib.parse import unquote, urljoin
 
 import bs4
 import requests
 import xlrd
-from math import sin, cos, sqrt, atan2, radians
 
-from api import (Descripciones, Organismo, Puesto, simplificar_dire,
-                 soup_from_file, yaml_from_file)
+from api import (Descripciones, Organismo, Puesto, dict_from_txt,
+                 simplificar_dire, soup_from_file, yaml_from_file)
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -47,6 +47,8 @@ re_puesto = re.compile(r"\b(\d{6,7})\b")
 re_map = re.compile(
     r"http://maps.googleapis.com/maps/api/staticmap\?center=(.*?)&.*")
 re_ll = re.compile(r"https://maps.google.es/maps\?.*&ll=([\d\.,\-]+).*")
+re_ll2 = re.compile(
+    r"https://www.google.com/maps/search/\?api=1&query=([\d\.,\-]+)")
 re_paren = re.compile(r"\(.*$")
 
 
@@ -384,9 +386,7 @@ if args.csic or args.todo:
 
 if args.dir3 or args.todo:
 
-    print ("Leyendo Dir3")
-    tree = ET.parse('fuentes/Unidades.rdf')
-    root = tree.getroot()
+    print ("Leyendo Dir3 (unidades.rdf)")
 
     ns = {
         'escjr': 'http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#',
@@ -405,26 +405,29 @@ if args.dir3 or args.todo:
     t_dire = "http://datos.gob.es/recurso/sector-publico/Direccion/"
     t_orga = "http://datos.gob.es/recurso/sector-publico/org/Organismo/"
 
+    tree = ET.parse('fuentes/Unidades.rdf')
+    root = tree.getroot()
+
     count = 0
     total = len(root) * 2
 
     direcciones = {}
     for child in root:
         count = count + 1
+        codigo = None
         about = child.attrib[full_attrib("rdf:about")]
-        print("%3d%% completado" % (count * 100 / total,), end="\r")
         if about.startswith(t_dire):
             codigo = about[len(t_dire):].upper()
             direccion, postCode = parse_dire(child)
             direcciones[codigo] = (direccion, postCode)
-            print("%3d%% completado: %s" %
-                  (count * 100 / total, codigo), end="\r")
+        print("%3d%% completado: %s" %
+              (count * 100 / total, codigo or ""), end="\r")
 
     organismos = []
     for child in root:
         count = count + 1
         about = child.attrib[full_attrib("rdf:about")]
-        print("%3d%% completado" % (count * 100 / total,), end="\r")
+        orga = None
         if about.startswith(t_orga):
             orga = about[len(t_orga):].upper()
             direccion = find_rec(child, "org:siteAddress", "s:address",
@@ -436,10 +439,70 @@ if args.dir3 or args.todo:
             raiz = find_rec(child, "orges:tieneUORaiz", index=0)
             o = Organismo(orga, nombre, direccion, postCode, padre, raiz)
             organismos.append(o)
-            print("%3d%% completado: %s" %
-                  (count * 100 / total, orga), end="\r")
+        print("%3d%% completado: %s" %
+              (count * 100 / total, orga or ""), end="\r")
 
     print ("")
+
+    print ("Leyendo Dir3 (oficinas.rdf)")
+
+    tree = ET.parse('fuentes/Oficinas.rdf')
+    root = tree.getroot()
+
+    ok = 0
+    count = 0
+    total = len(root) * 2
+
+    direcciones = {}
+    for child in root:
+        count = count + 1
+        codigo = None
+        about = child.attrib[full_attrib("rdf:about")]
+        if about.startswith(t_dire):
+            codigo = about[len(t_dire):].upper()
+            direccion, postCode = parse_dire(child)
+            direcciones[codigo] = (direccion, postCode)
+        print("%3d%% completado: %s" %
+              (count * 100 / total, codigo or ""), end="\r")
+
+    orga_dire = {}
+    for child in root:
+        count = count + 1
+        ofic = None
+        about = child.attrib[full_attrib("rdf:about")]
+        if about.startswith(t_orga):
+            ofic = about[len(t_orga):].upper()
+            orga = find_rec(child, "org:unitOf", index=0)
+            direccion = find_rec(child, "org:siteAddress", "s:address",
+                                 "locn:address", "vcard:hasAddress", index=0)
+            direccion, postCode = direcciones.get(direccion, (None, None))
+            if direccion and orga:
+                dires = orga_dire.get(orga, set())
+                dires.add((direccion, postCode))
+                orga_dire[orga] = dires
+                ok = ok + 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, ofic or "", ok), end="\r")
+    print ("")
+
+    ok = 0
+    count = 0
+    total = len(organismos)
+
+    print ("Pasando direcciones de oficinas Dir3 a organismos Dir3")
+    for o in organismos:
+        if o.deDireccion is None:
+            dires = orga_dire.get(o.idOrganismo, None)
+            if dires and len(dires) == 1:
+                direccion, postCode = dires.pop()
+                o.deDireccion = direccion
+                o.postCode = postCode
+                ok = ok + 1
+        count = count + 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print ("")
+
     Organismo.save(organismos, name="organismos_dir3")
 
     organismos_dir3_E = clean_organismos(
@@ -505,7 +568,43 @@ if args.gob or args.todo:
         tratar_gob_es(total, visto, id, None, None)
     print("100%")  # completado" + (" " * 10))
 
-    organismos = clean_organismos(list(visto.values()))
+    organismos = list(visto.values())
+    total = len(organismos)
+    count = 0
+    ok = 0
+    print ("Sacando direcciones de oficinas")
+    for o in organismos:
+        if o.deDireccion is None:
+            fname = "fuentes/administracion.gob.es/of_%06d.html" % o.idUnidOrganica
+            if os.path.isfile(fname):
+                soup = soup_from_file(
+                    "fuentes/administracion.gob.es/of_%06d.html" % o.idUnidOrganica)
+                latlons = set()
+                direcis = set()
+                for a in soup.findAll("a", attrs={"href": re_ll2}):
+                    latlon = re_ll2.search(a.attrs["href"]).group(1)
+                    latlons.add(latlon)
+                for h4 in soup.findAll("h4", text="Dirección:"):
+                    ul = h4.find_parent("ul")
+                    h4.extract()
+                    a = ul.find("a")
+                    if a:
+                        a.extract()
+                    for br in ul.findAll("br"):
+                        br.replaceWith(" ")
+                    txt = ul.get_text()
+                    txt = re_bk.sub(" ", txt)
+                    txt = txt.strip()
+                    direcis.add(txt)
+                if len(latlons) == 1 and len(direcis) == 1:
+                    o.deDireccion = direcis.pop()
+                    o.latlon = latlons.pop()
+                    ok = ok + 1
+        count = count + 1
+        print("%3d%% completado: %6d (%s)" %
+              (count * 100 / total, id, ok), end="\r")
+    print ("")
+    organismos = clean_organismos(organismos)
     Organismo.save(organismos, name="organismos_gob.es")
 
 
@@ -804,13 +903,39 @@ for o in organismos:
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
+
+rcp_organi = {}
+for o in organismos:
+    o.genera_codigos()
+    for c in o.codigos:
+        if isinstance(c, int):
+            rcp_organi[c] = o
+
+print ("Asignando direcciones manuales")
+cod_dir_latlon = dict_from_txt("data/cod_dir_latlon.txt")
+total = len(cod_dir_latlon)
+count = 0
+ok = 0
+for k, v in cod_dir_latlon.items():
+    org = rcp_organi.get(k, None)
+    if org:
+        org.latlon, org.deDireccion = v
+        ok = ok + 1
+    count = count + 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, k, ok), end="\r")
+print ("")
+
 print ("Normalizando direcciones")
 organismos_gob_es = Organismo.load(name="organismos_gob.es")
 organismos_csic = Organismo.load(name="organismos_csic.es")
 total = len(organismos_gob_es) + len(organismos_csic)
 count = 0
 ok = 0
-direcciones = {k: set((v,)) for k, v in yaml_from_file("data/coordenadas.yml").items()}
+
+direcciones = dict_from_txt("data/dir_latlon.txt",
+                            rever=True, parse_key=simplificar_dire)
+direcciones = {k: set((v,)) for k, v in direcciones.items()}
 for o in organismos_gob_es + organismos_csic:
     if o.latlon:
         latlon = direcciones.get(o.dire, set())
@@ -829,7 +954,7 @@ for k, v in list(direcciones.items()):
         del direcciones[k]
 
 print ("Completando latlon con excel")
-xls_info={}
+xls_info = {}
 url = "https://docs.google.com/spreadsheet/ccc?key=18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc&output=xls"
 r = requests.get(url)
 wb = xlrd.open_workbook(file_contents=r.content)
@@ -885,16 +1010,17 @@ with open("data/direcciones_ko.txt", "w") as f:
     for d in sorted(sin_latlon):
         f.write(d + "\n")
 
+
 def calcula_distancia(latlon1, latlon2):
     R = 6373.0
-    
+
     lat, lon = latlon1.split(",")
-    
+
     lat1 = radians(float(lat))
     lon1 = radians(float(lon))
 
     lat, lon = latlon2.split(",")
-    
+
     lat2 = radians(float(lat))
     lon2 = radians(float(lon))
 
@@ -909,17 +1035,19 @@ def calcula_distancia(latlon1, latlon2):
 
 rcp_organi = {}
 for o in organismos:
+    o.genera_codigos()
     if o.latlon:
         for c in o.codigos:
             if isinstance(c, int):
-                rcp_organi[c]=o
+                rcp_organi[c] = o
 
 with open("data/direcciones.csv", "w") as f:
-    f.write("\t".join(["Metros", "ID", "Dir3", "LATLON", "EXCEL", "LATLON"])+"\n")
+    f.write("\t".join(["Metros", "ID", "Dir3",
+                       "LATLON", "EXCEL", "LATLON"]) + "\n")
     for id, dirll in xls_info.items():
         org = rcp_organi.get(id, None)
         if org:
             dire, ll = dirll
             distancia = calcula_distancia(ll, org.latlon)
-            f.write("\t".join([str(distancia), str(id), org.deDireccion, org.latlon, dire, ll])+"\n")
-        
+            f.write("\t".join([str(distancia), str(id),
+                               org.deDireccion, org.latlon, dire, ll]) + "\n")

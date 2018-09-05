@@ -4,6 +4,28 @@ import bs4
 import yaml
 
 sp = re.compile(r"\s+")
+sep = re.compile(r"  +")
+
+
+def dict_from_txt(f, rever=False, parse_key=None):
+    d = {}
+    with open(f) as y:
+        for l in y.readlines():
+            tup = sep.split(l.strip())
+            if rever:
+                tup = list(reversed(tup))
+            k = tup[0]
+            v = tup[1:]
+            if parse_key:
+                k = parse_key(k)
+            elif k.isdigit():
+                k = int(k)
+            if len(v) == 1:
+                v = v[0]
+            else:
+                v = tuple(v)
+            d[k] = v
+    return d
 
 
 def yaml_from_file(f):
@@ -14,6 +36,7 @@ def yaml_from_file(f):
 def yaml_to_file(f, data):
     with open(f, 'w') as outfile:
         yaml.dump(data, outfile, default_flow_style=False)
+
 
 def soup_from_file(f):
     with open(f, 'rb') as html:

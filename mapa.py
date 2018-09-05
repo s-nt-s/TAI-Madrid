@@ -15,7 +15,7 @@ for o in organismos:
     if o.latlon:
         for c in o.codigos:
             if isinstance(c, int):
-                rcp_organi[c]=o
+                rcp_organi[c] = o
 
 kml = simplekml.Kml()
 kml.document.name = "TAI"
@@ -57,7 +57,8 @@ folderGris = kml.newfolder(name="Solo puestos TAI de nivel alto")
 folderGris.description = "Lugares en los que hay puestos TAI (vacantes o no) según RPT pero solo de niveles por encima de lo usual (>18)"
 
 for p in puestos:
-    org = rcp_organi.get(p.idUnidad, None) or rcp_organi.get(p.idCentroDirectivo, None)  or rcp_organi.get(p.idMinisterio, None)
+    org = rcp_organi.get(p.idUnidad, None) or rcp_organi.get(
+        p.idCentroDirectivo, None) or rcp_organi.get(p.idMinisterio, None)
     if org:
         org.puestos.add(p)
 
@@ -74,12 +75,12 @@ def count_puestos(*args):
     normales = 0
     grannivel = 0
     for p in args:
-        if p.nivel>18:
+        if p.nivel > 18:
             grannivel += 1
-        elif p.estado=="V":
+        elif p.estado == "V":
             vacantes += 1
         else:
-            normales +=1
+            normales += 1
     return normales, vacantes, grannivel
 
 print ("Se van a crear %s puntos" % len(latlon_org))
@@ -107,15 +108,16 @@ for latlon, orgs in latlon_org.items():
             description += "Dirección: %s\n" % (org.deDireccion,)
         if org.url:
             description += "URL: " + org.url
-        for p in sorted(org.puestos, key=lambda p:p.idPuesto):
-            description = description + "\n> %s - %s - %s" % (p.idPuesto, p.nivel, p.dePuesto)
+        for p in sorted(org.puestos, key=lambda p: p.idPuesto):
+            description = description + \
+                "\n> %s - %s - %s" % (p.idPuesto, p.nivel, p.dePuesto)
         org_puestos = org_puestos.union(org.puestos)
         description = description + "\n\n"
 
     description = description.strip()
     description = description.replace("\n", "<br/>\n")
 
-    if len(org_puestos)==0:
+    if len(org_puestos) == 0:
         pnt = folderRojo.newpoint(name=name, coords=[latlon])
         pnt.style = style_sin_puestos
     else:
@@ -123,7 +125,7 @@ for latlon, orgs in latlon_org.items():
         if grannivel == len(org_puestos):
             pnt = folderGris.newpoint(name=name, coords=[latlon])
             pnt.style = style_nivel_alto
-        elif vacantes>0:
+        elif vacantes > 0:
             pnt = folderVerde.newpoint(name=name, coords=[latlon])
             pnt.style = style_con_vacantes
         else:
@@ -131,4 +133,4 @@ for latlon, orgs in latlon_org.items():
 
     pnt.description = description
 
-kml.save("data/tai.kml")
+kml.save("mapa/tai.kml")

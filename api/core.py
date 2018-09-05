@@ -145,6 +145,7 @@ class Organismo:
             return "http://www.csic.es/centros-de-investigacion1/-/centro/" + str(self.idCsic)
         return None
 
+
 class Descripciones:
 
     def load():

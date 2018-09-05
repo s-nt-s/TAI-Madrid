@@ -48,7 +48,7 @@ print ('http://www.ine.es/daco/daco42/codmun/cod_provincia.htm')
 print ('')
 print ('# Dir3')
 print ('http://dir3rdf.redsara.es/Unidades.rdf')
-print ('# http://dir3rdf.redsara.es/Oficinas.rdf')
+print ('http://dir3rdf.redsara.es/Oficinas.rdf')
 
 # get_pdf_boe('BOE-A-2017-7916', '2016 Libre Opositores')
 get_pdf_boe('BOE-A-2018-991',  '2016 Libre Nombramientos')
