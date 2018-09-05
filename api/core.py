@@ -59,8 +59,8 @@ class Organismo:
             col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
         return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
 
-    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, **kwargs):
-        self.remove = {'remove', 'nombres', 'rcp', 'version', 'puestos'}
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, idProvincia=None, **kwargs):
+        self.remove = {'remove', 'nombres', 'rcp', 'version', 'puestos', 'deProvincia'}
         if isinstance(idPadres, list):
             idPadres = set(idPadres)
         if isinstance(codigos, list):
@@ -82,11 +82,18 @@ class Organismo:
         self.version = None
         self.isCsic = isCsic
         self.idCsic = idCsic
+        self.idProvincia = idProvincia
+        self.deProvincia = None
         if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
             self.rcp, self.version = int(
                 self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
         self.genera_codigos()
         self.genera_nombres()
+        self.calcular_provincia()
+
+    def calcular_provincia(self):
+        if self.idProvincia is None and self.postCode is not None and self.postCode.isdigit() and len(self.postCode)==5:
+            self.idProvincia=int(self.postCode[0:2])
 
     def genera_codigos(self):
         self.codigos.add(self.idOrganismo)
@@ -324,7 +331,9 @@ class Info:
         self.provincia = puestos[0].provincia
         self.deProvincia = puestos[0].deProvincia or "¿?¿?"
         self.organismos = organismos
-
+        for o in self.organismos.values():
+            if o.idProvincia is not None:
+                o.deProvincia = self.descripciones.provincias.get(str(o.idProvincia), None)
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None

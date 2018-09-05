@@ -1,3 +1,6 @@
+40.4281763,-3.689167    Paseo De la Castellana 14, 28046, Madrid, Comunidad Madrid, España
+40.4555839,-3.691453  Paseo De la Castellana 109, 28071, Madrid, Comunidad Madrid, España
+40.417955,-3.714312   Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
 43.2487382,-8.589744999999999    1ª travesia eusebio bertoa s/n, 15145, a coruna, galicia, españa
 42.431318,1.4670126    aduana de la farga de moles s/n, 25799, lleida, cataluna, españa
 40.4521586,-3.562635    aeropuerto de barajas s/n, 28042, madrid, comunidad madrid, españa
@@ -876,6 +879,7 @@
 39.4717837,-6.3777322    avenida primo de rivera 1, 10001, caceres, extremadura, españa
 28.4667939,-16.2904865    avenida princesa iballa s/n, 38320, santa cruz tenerife, canarias, españa
 40.6024861,-4.3346829    avenida principal 21, 05230, avila, castilla leon, españa
+39.0717396,1.5111806    avenida principal s/n, 07810, illes balears, illes balears, españa
 43.5394695,-5.6928377    avenida principe de asturias 70, 33212, asturias, principado asturias, españa
 37.3895509,-6.2085971    avenida principe de españa 1, 41800, sevilla, andalucia, españa
 37.3895509,-6.2085971    avenida principe de españa s/n, 41800, sevilla, andalucia, españa
@@ -1708,6 +1712,7 @@
 36.8109361,-4.2145081    calle cornella 23, 29718, malaga, andalucia, españa
 43.3588467,-5.857841    calle coronel aranda 2, 33005, asturias, principado asturias, españa
 42.43335880000001,1.928729    calle coronel molera 11 13, 17520, girona, cataluna, españa
+36.87340409999999,-6.219037399999999    calle coronel moscardo 26, 11560, cadiz, andalucia, españa
 42.7914341,-7.8391742    calle coronel quiroga 1, 27560, lugo, galicia, españa
 39.75417030000001,-4.948335999999999    calle coronel santapau 110, 45660, toledo, castilla la mancha, españa
 38.528297,-6.448643    calle corredera 11, 06360, badajoz, extremadura, españa
@@ -1783,6 +1788,7 @@
 38.01384,-1.0350877    calle cura jimenez 22, 30580, murcia, region murcia, españa
 43.34430709999999,-8.205651999999999    calle curro s/n, 15630, a coruna, galicia, españa
 42.2406545,-8.7277378    calle cánovas del castillo 1, 36202, pontevedra, galicia, españa
+42.4339446,-8.6449337    calle cánovas del castillo 18, 36002, pontevedra, galicia, españa
 42.2399791,-8.7268648    calle cánovas del castillo 18, 36202, pontevedra, galicia, españa
 37.7681197,-1.5027601    calle cánovas del castillo 3, 30850, murcia, region murcia, españa
 37.8864616,-4.7831967    calle córdeba de veracruz 4, 14008, cordoba, andalucia, españa
@@ -2994,6 +3000,7 @@
 37.6163591,-0.8764824000000001    calle noria 1, 30360, murcia, region murcia, españa
 41.0040426,-5.6437646    calle norte s/n, 37184, salamanca, castilla leon, españa
 42.2571819,2.9680921    calle nou 80, 17600, girona, cataluna, españa
+41.6082031,2.5397963    calle nou bajos 5 7, 08358, barcelona, cataluna, españa
 39.22141010000001,-0.5171498    calle nou d` octubre 7, 46240, valencia, comunitat valenciana, españa
 41.3749609,2.1700292    calle nou de la rambla 36, 08001, barcelona, cataluna, españa
 42.5125969,-8.8114707    calle nova 19, 36630, pontevedra, galicia, españa
@@ -4444,6 +4451,7 @@
 39.0697199,-0.26599    paseo lepanto 1, 46760, valencia, comunitat valenciana, españa
 41.6051845,-0.8236197    paseo los platanos 34, 50720, zaragoza, aragon, españa
 36.4763312,-5.1640605    paseo maestro vert s/n, 29680, malaga, andalucia, españa
+36.7038675,-4.464527599999999    paseo maritimo s/n 59, 29006, malaga, andalucia, españa
 41.6524717,-0.8914867    paseo maría agustín 34, 50004, zaragoza, aragon, españa
 35.2886392,-2.9370488    paseo marítimo alcalde rafael ginel cañamaque 5, 52004, melilla, melilla, españa
 42.2630177,-8.7830211    paseo marítimo, 8, 36940, pontevedra, galicia, españa

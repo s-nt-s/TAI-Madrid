@@ -479,7 +479,8 @@
         "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
         "deOrganismo": "INSTITUTO DE ANALISIS ECONOMICO (IAE)",
         "idOrganismo": 438,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "41.501156,2.111265"
     },
     {
         "codigos": [
@@ -692,7 +693,8 @@
         "deDireccion": "C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)",
         "deOrganismo": "CENTRO DE QUIMICA ORGANICA LORA TAMAYO (CENQUIOR)",
         "idOrganismo": 574,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "40.452238,-3.680677"
     },
     {
         "codigos": [
@@ -790,7 +792,8 @@
         "deDireccion": "AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)",
         "deOrganismo": "CENTRO DE INVESTIGACIONES CIENTIFICAS ISLA DE LA CARTUJA (CICIC)",
         "idOrganismo": 2053,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "37.413596,-5.998535"
     },
     {
         "codigos": [
@@ -839,7 +842,8 @@
         "deDireccion": "C/ SERRANO, 121 28006 Madrid (Madrid)",
         "deOrganismo": "CENTRO DE FISICA MIGUEL A. CATALAN (CFMAC)",
         "idOrganismo": 2152,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "40.446555,-3.676214"
     },
     {
         "codigos": [
@@ -897,7 +901,8 @@
         "deDireccion": "CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vall\u00e8s (Barcelona)",
         "deOrganismo": "CENTRO NACIONAL DE MICROELECTRONICA (CNM)",
         "idOrganismo": 2487,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "41.504566,2.095871"
     },
     {
         "codigos": [
@@ -1305,7 +1310,8 @@
         "deDireccion": "AVDA. DE VIGO S/N 15705 Santiago de Compostela (Coru\u00f1a (A))",
         "deOrganismo": "INSTITUTO DE CIENCIAS DEL PATRIMONIO (INCIPIT)",
         "idOrganismo": 609307,
-        "isCsic": true
+        "isCsic": true,
+        "latlon": "42.878794,-8.55114"
     },
     {
         "codigos": [
