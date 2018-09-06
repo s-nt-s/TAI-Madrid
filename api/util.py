@@ -13,7 +13,7 @@ def get_direcciones_txt():
     bloque = 1
     deDireccion = None
     postCode = None
-    with open("data/direcciones.txt") as y:
+    with open("arreglos/direcciones.txt") as y:
         for l in y.readlines():
             l = l.strip()
             if len(l)==0 or l.startswith("#"):

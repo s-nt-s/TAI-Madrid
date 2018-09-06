@@ -1,41 +1,116 @@
 Nota: El proyecto se llamaba `TAI Madrid` porque al principio era solo de Madrid, pero ahora salen todos los puestos sin importar donde esta.
 
-La idea es concretar todos los puestos TAI hasta el punto que se pueda hacer un mapa geográfico con ellos.
+# Estructura del proyecto
 
-La primera fase es generar un listado, el cual se puede ver, desglosado por provincias, en: https://s-nt-s.github.io/TAI-Madrid/
+Las carpetas principales son:
 
-Y cuando se tengan las direcciones se generará el mapa.
-BETA del mapa: https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
+1. `fuentes` con los archivos que se usan como fuente de datos
+2. `arreglos` con ficheros rellenos a mano para que sean usados en `crear_datos.py` como ayuda a la hora de generar los `datos`
+3. `datos` con los datos que genera el script `crear_datos.py` a partir de las `fuentes`
+4. `debug` con los ficheros de depuración que genera el script `crear_datos.py` cuando crea los `datos`
+5. `docs` con los html que genera `crear_htmls.py` a partir de los `datos`
 
-Para ver lo que se entiende por puesto TAI observar la función `isTAI` de `api/core.py` (a groso modo: son plazas C1 de nivel entre 15 y 18, que no sean de libre disposición y que contengan alguna palabra clave en su descripción).
+La mayoría de estas carpetas incluyen un README.md con más información sobre su ámbito.
 
-Para entender que datos se han usado de fuente ver [fuentes/](fuentes/) y su README.md  
-Para entender en que se convierten estos datos ver [data/](data/) y su README.md
+# Cómo funciona
 
-# ¿Quieres ayudar?
+## Extracción de datos
 
-Hay varias tareas por hacer:
+A grosso modo, el objetivo es sacar un listado de destinos partiendo de los `RPT` y un listado de organismos partiendo de `dir3` y otras `fuentes`.
 
-## Revisar los puestos
+### Destinos
 
-La expresión regular `re_informatica` de `api/core.py` decide si un puesto es de informática o no.
-Al hacerlo, todos los puestos que descarta son guardados en `data/puestos_ko.txt` y los aceptados en `data/puestos_ok.txt`
+`crear_datos.py` lee todos los `RPT` y, entre otros, crea los ficheros `destinos_all.json` con todos los puestos y `destions_tai.json` con aquellos puestos que cremos que son `TAI`.
 
-Habría que revisar dichos txt para comprobar que no se esta excluyendo ningún puesto que pudiera ser TAI o se este añadiendo alguno que sobre.
+#### ¿Como se decide que un puesto es TAI?
 
-## Mejorar el filtro
+Esto se hace en base al grupo, nivel y nombre del puesto.
+Para verlo en código, observar la función `isTAI` de `api/core.py`.
 
-Como anteriormente se ha dicho, `isTAI` de `api/core.py` decide si un puesto tiene posibilidades de ser TAI. Convendría revisar esta función por si se puede afinar más.
+Para revisar el resultado se generar en `debug` los ficheros `puestos_ok.txt` y `puestos_ko.txt` con los nombres de puestos que han pasado el filtro y con los que no respectivamente. Es aquí donde hay que mirar si se esta omitiendo algún puesto interesante, o se esta incluyendo algún puesto que no debería.
 
-## Encontrar las localizaciones buenas
+## Organismos
 
-A parte de que los `RPT` a veces tienen información contradictoria sobre la localidad en la que esta el puesto, realmente lo que se quiere tener es la calle y numero del edificio donde se realizara el trabajo.
+La fuente principal es `Dir3` debido a lo siguiente:
 
-Usando `Dir3` (https://administracionelectronica.gob.es/ctt/dir3) y la alegre suposición de que los códigos `RPT` son códigos `RCP` (en base al punto 3.1.1 del [manual de atributos de dir3](https://administracionelectronica.gob.es/ctt/resources/Soluciones/238/Descargas/manual%20de%20atributos.pdf?idIniciativa=238&idElemento=12232)) he generado el siguiente listado de direcciones: https://s-nt-s.github.io/TAI-Madrid/direcciones.html
+* Los `RPT` utilizan como identificador número los `RCP` (Registro Central de Personal)
+* Los códigos `Dir3` que empiezan por `E0` se compienen de `E0 + código RCP + Número de versión`
 
-Las que encuentra parece que están bien, pero hay lagunas importantes. Por ejemplo, sabemos que el puesto `4772958` fue en la calle Aguacate gracias al [mapa de la promoción 2016](https://www.google.com/maps/d/viewer?mid=1nFluM8VkTMcFcdYipA7KpeR-7U4&ll=40.37956469758672%2C-3.7415436354164058&z=14) y por lo tanto la unidad `50132` debería estar en Aguacate, pero este dato no aparece en `Dir3`.
+Sin embargo en `Dir3` ya hay algunos organismos cutos códigos han sido migrados al tipo `EA`, el cual no cumple lo anterior.
+Por otro lado, el fichero de `Unidades.rdf` (que ofrece `Dir3`) parece estar menos actualizado que la información de `administracion.gob.es`.
+Y además los organismos del `CSIC` vienen mejor documentados en `www.csic.es`.
 
-Por ello sería muy útil tener directamente los datos de `RCP` (Registro Central de Personal) o estudiar mejor `Dir3` a ver que se nos escapa, ya que la dirección de Aguacate si que aparece aunque no sea vinculada a la unidad `50132`.
+De este modo nuestra primera salida sera `organismos_rpt.json`, `organismos_dir3_E.json`, `organismso_csic.json` y luego fusionaremos todos los organismos equivalentes en uno solo para evitar duplicidades hasta obtener `organinismos.json`.
+
+### Fusionando organismos
+
+Usaremos distintos vectores de ataque:
+
+1. La equivalencia de códigos `RCP` con códigos `E0`
+2. La similitud entre nombres de distintos organismos
+3. La similitud entre direcciones de distintos organismos
+4. Los ficheros de `arreglos`
+
+Muy resumidamente, dos organismos, de diferentes `.json`, se consideran que son iguales cuando obviamente:
+
+* Tienen el mismo ćodigo
+* Son códigos `E0` con mismo `RCP`
+
+Pero además consideraremos como organismos iguales aquellos que cumplan al menos una de las siguientes condiciones (y la cumplan solo por parejas, es decir, si la cumplen tres organismos no fusionaremos ya que seria demasiado ambiguo):
+
+* Tienen nombre similar
+* Tienen nombre similar y mismo padre
+* Tienen nombre similar, sus códigos postales son el mismo y sus direcciones son similares
+
+Por último se fusiona siguiendo las indicaciones de los ficheros de `arreglos`.
+
+Nota: En cada paso, solo nos quedaremos con los códigos `E0` en su última versión y se intenta no perder información, por lo tanto si un dato viene informado en una versión más antigua que la actual, se copiara de la versión antigua a la nueva.
+
+### Direcciones
+
+Tanto para facilitar el paso anterior (recordar que algunas de las fusiones tienen en consideración la dirección del organismos) como para pasos posteriores se usa ficheros de `arreglos` para homogeneizar o corregir direcciones.
+
+La lógica es la siguiente:
+
+* Se usa `direcciones.txt` para unificar direcciones y sus coordenadas
+* Se machacan direcciones de organismos en base a `cod_dir_latlon.txt`
+* Se crea un hash <dirección - coordenadas> con los datos de:
+  * `dir_latlon.txt`
+  * El excel https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc
+* Con dicho hash se corrigen o añaden coordenadas a las direcciones de los organismos
+* Se vuelve a usar el excel (en concreto las filas de unidades que tienen dirección diferente a su unidad padre) para poner dirección y coordenadas a los organismos que aún no tengan coordenadas
+
+NOTA: Algunos de estos pasos son redundantes y confusos. Próximamente se mejorara. Lo importante por ahora es que se agradecería especialmente las siguientes colaboraciones:
+
+* `pull requests` al fichero `direcciones.txt` para unificar y corregir direcciones (no solo una dirección viene escrita de muchas maneras, si no que no pocas veces algunas veces viene con el código postal mal y otras veces bien). Para ello ver el fichero `direcciones_duplicadas.txt` de `debug` donde se traza primero, las direcciones que aparecen asociadas a diferentes coordenadas, y luego las coordenadas que aparecen asociadas a distintas direcciones.
+* `pull requests` al fichero `cod_dir_latlon.txt` para los organismos que hay que se escapan de toda heurística y hay que poner sus localizaciones a mano.
+* Añadir datos al excel https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc
+* Revisar los conflictos entre el excel y la salida final de este script. Ver `direcciones.csv` en `debug`
+
+### Provincias de los organismos
+
+Para pasos posteriores sera útil saber la provincia de un organismo. Para aquellos que tienen código postal es trivial, ya que es sus dos primeros dígitos. Para todos los demás lo que se hace es recorrer todos sus destinos asociados (usando `destions.json`) y si todos estan en la misma provincia se asumen que esa es la provincia del organismos.
+
+# Salida
+
+## HTML
+
+Usando los datos generados:
+
+* `ranking.py` crea https://s-nt-s.github.io/TAI-Madrid/ranking.html
+* `crea_htmls.py` crea https://s-nt-s.github.io/TAI-Madrid/ y https://s-nt-s.github.io/TAI-Madrid/direcciones.html
+
+## Mapa
+
+Usando `organismos.json` y `destinos_tai.json` el script `crear_mapa.py` genera el fichero `tai.kml` que posteriormente se exporta a https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
+
+Las chinchetas se colocan de la siguiente manera:
+
+* A cada puesto se le asocia el primer organismo (en orden: unidad, centro directivo, ministerio) que tenga coordenadas, a no ser que antes de ese organismos haya otro sin coordenadas pero con una provincia distinta a la que tiene el que si posee coordenadas, en este caso el puesto ira asociado al de la provincia diferente.
+* Para cada provincia con organismos sin coordenadas se pone una chincheta en el centro de esa provincia con todos esos organismos y sus puestos asociados
+* Para cada coordenada en la que hay un organismos se pone una chincheta con todos esos organismos y sus puestos
+
+Adicionalmente se usa un sistema de carpetas y colores para dar más información (ver mapa).
 
 ---------
 

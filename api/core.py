@@ -39,7 +39,7 @@ def simplificar_dire(deDireccion):
 class Organismo:
 
     def load(name="organismos", arregla_direcciones=None):
-        with open("data/" + name + ".json", "r") as f:
+        with open("datos/" + name + ".json", "r") as f:
             col = json.load(f, object_hook=Organismo.dict_to_organismo)
             if arregla_direcciones:
                 for o in col:
@@ -50,7 +50,7 @@ class Organismo:
             return col
 
     def save(col, name="organismos"):
-        with open("data/" + name + ".json", "w") as f:
+        with open("datos/" + name + ".json", "w") as f:
             f.write(Organismo.to_json(col))
 
     def dict_to_organismo(obj):
@@ -163,17 +163,17 @@ class Organismo:
 class Descripciones:
 
     def load():
-        with open("data/descripciones.json", "r") as f:
+        with open("datos/descripciones.json", "r") as f:
             dt = json.load(f)
             return Descripciones(**dt)
 
     def save(self):
-        with open("data/descripciones.json", "w") as f:
+        with open("datos/descripciones.json", "w") as f:
             f.write(json.dumps(self.__dict__, indent=4, sort_keys=True))
 
         for k, v in self.__dict__.items():
             values = set(v.values())
-            with open("data/" + k.lower() + ".txt", "w") as f:
+            with open("debug/" + k.lower() + ".txt", "w") as f:
                 for p in sorted(values):
                     f.write(p + "\n")
 
@@ -188,7 +188,7 @@ class Puesto:
 
     def load(name="destinos_tai"):
         desc = Descripciones.load()
-        with open("data/" + name + ".json", "r") as f:
+        with open("datos/" + name + ".json", "r") as f:
             col = json.load(f, object_hook=Puesto.dict_to_puesto)
             for p in col:
                 for k in desc.__dict__.keys():
@@ -209,7 +209,7 @@ class Puesto:
 
     def save(col, name="destinos_tai"):
         col = sorted(col, key=lambda o: o.idPuesto)
-        with open("data/" + name + ".json", "w") as f:
+        with open("datos/" + name + ".json", "w") as f:
             f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
 
     def dict_to_puesto(obj):

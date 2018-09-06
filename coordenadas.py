@@ -24,13 +24,13 @@ def get_new_ip():
 
 
 def save_coordenadas(coordenadas):
-    with open("data/dir_latlon.txt", "w") as f:
+    with open("arreglos/dir_latlon.txt", "w") as f:
         for k, v in sorted(coordenadas.items()):
             f.write(v + "    " + k + "\n")
 
 organismos = Organismo.load()
 
-direcciones = dict_from_txt("data/dir_latlon.txt",
+direcciones = dict_from_txt("arreglos/dir_latlon.txt",
                             rever=True, parse_key=simplificar_dire)
 
 nm = Nominatim(country_bias="ESP")
