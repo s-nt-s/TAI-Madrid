@@ -85,6 +85,8 @@
 # CSIC
 47811   40.4412398,-3.6884998   Calle de Serrano, 117, 28006 Madrid
 48678   42.444667,-2.514833     Finca La Grajera, Autovía del Camino de Santiago LO-20 Salida 13, 26007 Logroño, La Rioja
+27659   37.1658829,-3.5908020   Calle Prof. Albareda, 1, 18160 Granada
+
 
 # https://www.chcantabrico.es/oficinas
 48028   43.3608724,-5.8554928   Plaza de España, 2, 33007 Oviedo, Asturias
