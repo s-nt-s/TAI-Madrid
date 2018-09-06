@@ -293,14 +293,12 @@ calle alarcos 21, 13071, ciudad real, castilla la mancha, españa
 calle albacete 1, 45490, toledo, castilla la mancha, españa
 calle albacete 5, 28006, madrid, comunidad madrid, españa
 calle albacete 5, 28071, madrid, comunidad madrid, españa
-calle alcala 9, 28071, madrid, comunidad madrid, españa
 calle alcalde manuel casas s/n, 15001, a coruna, galicia, españa
 calle alcalde peraza 1, 38450, santa cruz tenerife, canarias, españa
 calle alcalde ramón pardo arias s/n, 27430, lugo, galicia, españa
 calle alcalá 37, 28071, madrid, comunidad madrid, españa
 calle alcalá 47, 28071, madrid, comunidad madrid, españa
 calle alcalá 5, 28071, madrid, comunidad madrid, españa
-calle alcalá 9, 28071, madrid, comunidad madrid, españa
 calle alcantara de xuquer 7, 46260, valencia, comunitat valenciana, españa
 calle alfonso vii 1, 15670, a coruna, galicia, españa
 calle alfonso viii 2, 42071, soria, castilla leon, españa
@@ -682,7 +680,6 @@ calle josep maestro andreu 7, 17860, girona, cataluna, españa
 calle josep pla 14, 17001, girona, cataluna, españa
 calle josé abascal 39, 28071, madrid, comunidad madrid, españa
 calle josé luis arrese s/n, 47071, valladolid, castilla leon, españa
-calle josé marañón 12, 29071, madrid, comunidad madrid, españa
 calle jovellanos 9, 33900, asturias, principado asturias, españa
 calle juan bautista peñarroya 25, 12150, castellon, comunitat valenciana, españa
 calle juan carlos i 2, 28980, madrid, comunidad madrid, españa
@@ -792,7 +789,6 @@ calle mesones 26, 18071, granada, andalucia, españa
 calle mestre ferrer i guardia 21, 46240, valencia, comunitat valenciana, españa
 calle mestre villaro 2, 17530, girona, cataluna, españa
 calle mies de la iglesia s/n, 39554, cantabria, cantabria, españa
-calle miguel angel 25, 28071, madrid, comunidad madrid, españa
 calle miguel de los santos oliver s/n, 07181, illes balears, illes balears, españa
 calle miguel servet 3, 50410, zaragoza, aragon, españa
 calle miguel villanueva 2, 26071, la rioja, la rioja, españa
@@ -905,7 +901,6 @@ calle puerta de valencia 1, 28380, madrid, comunidad madrid, españa
 calle puerta del sol 65 67, 15500, a coruna, galicia, españa
 calle puerta real 27, 18014, granada, andalucia, españa
 calle puerto 4, 29011, malaga, andalucia, españa
-calle puerto pesquero s/n, 29640, malaga, andalucia, españa
 calle pz sancho garcia 1, 09560, burgos, castilla leon, españa
 calle pérez galdos 40, 26001, la rioja, la rioja, españa
 calle pérez galdós 16, 38700, santa cruz tenerife, canarias, españa
@@ -948,7 +943,6 @@ calle sagunto 7, 28023, madrid, comunidad madrid, españa
 calle salvador allende 1, 18013, granada, andalucia, españa
 calle san andrés 162, 15071, a coruna, galicia, españa
 calle san bernardo 21, 28071, madrid, comunidad madrid, españa
-calle san bernardo 45, 28071, madrid, comunidad madrid, españa
 calle san bernardo 62, 28071, madrid, comunidad madrid, españa
 calle san bernardo s/n, 24160, leon, castilla leon, españa
 calle san fernando del jarama 14, 28071, madrid, comunidad madrid, españa
@@ -981,7 +975,6 @@ calle sant jordi 2, 08508, barcelona, cataluna, españa
 calle santa barbara 17, 41907, sevilla, andalucia, españa
 calle santa clara 15, 49001, zamora, castilla leon, españa
 calle santa engracia 7, 28071, madrid, comunidad madrid, españa
-calle santa isabel 52, 28012, madrid, comunidad madrid, españa
 calle santa lucia 12, 29650, malaga, andalucia, españa
 calle santa marina 4, 27550, lugo, galicia, españa
 calle santa matilde 3, 39724, cantabria, cantabria, españa
@@ -1080,7 +1073,6 @@ cmno de sevilla 2, 41470, sevilla, andalucia, españa
 cmno de trujillanos s/n, 06190, badajoz, extremadura, españa
 cmno rubin 62, 33011, asturias, principado asturias, españa
 cmno vell del palau s/n, 08740, barcelona, cataluna, españa
-complejo de la moncloa s/n, 28071, madrid, comunidad madrid, españa
 cra. 36, nº 2 74. plaza santo domingo cartagena de indias, colombia
 ctra a villalba 22, 28260, madrid, comunidad madrid, españa
 ctra abenójar torrijos s/n, 13194, ciudad real, castilla la mancha, españa
@@ -1236,7 +1228,6 @@ paseo central s/n, 08830, barcelona, cataluna, españa
 paseo de aguadores 2, 28871, madrid, comunidad madrid, españa
 paseo de chil 299, 35071, las palmas, canarias, españa
 paseo de la castellana 160, 28071, madrid, comunidad madrid, españa
-paseo de la castellana 162, 28036, madrid, comunidad madrid, españa
 paseo de la castellana 162, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28020, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28046, madrid, comunidad madrid, españa
@@ -1244,15 +1235,12 @@ paseo de la castellana 61, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 63, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 67, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 75, 28043, madrid, comunidad madrid, españa
-paseo de la castellana 75, 28071, madrid, comunidad madrid, españa
 paseo de la estacion s/n, 23770, jaen, andalucia, españa
 paseo de la marina s/n, 51071, ceuta, ceuta, españa
 paseo de morella 1, 12004, castellon, comunitat valenciana, españa
 paseo de sancha 64, 29071, malaga, andalucia, españa
 paseo de santa fe 22, 21071, huelva, andalucia, españa
 paseo de urumea 17, 20014, gipuzkoa, pais vasco, españa
-paseo del prado 18 20, 28071, madrid, comunidad madrid, españa
-paseo del prado 28, 28071, madrid, comunidad madrid, españa
 paseo del prado 4, 28071, madrid, comunidad madrid, españa
 paseo del rey 1, 28004, madrid, comunidad madrid, españa
 paseo dels arbres 15, 08757, barcelona, cataluna, españa
@@ -1266,10 +1254,8 @@ paseo juan del cid lopez 1, 21240, huelva, andalucia, españa
 paseo juan xxiii 26, 28070, madrid, comunidad madrid, españa
 paseo juan xxiii 26, 28071, madrid, comunidad madrid, españa
 paseo maria agustin 113, 50007, zaragoza, aragon, españa
-paseo marítimo alcalde francisco vázquez 10, 15001, a coruna, galicia, españa
 paseo ordoñez valdes s/n, 21230, huelva, andalucia, españa
 paseo puche pardo s/n, 23400, jaen, andalucia, españa
-paseo recoletos 20 22, 28071, madrid, comunidad madrid, españa
 paseo reina cristina 3 5, 28070, madrid, comunidad madrid, españa
 paseo rey francisco 17, 01070, alava, pais vasco, españa
 paseo san francisco 17, 06071, badajoz, extremadura, españa

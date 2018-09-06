@@ -1,7 +1,75 @@
-40.4281763,-3.689167    Paseo De la Castellana 14, 28046, Madrid, Comunidad Madrid, España
-40.4555839,-3.691453  Paseo De la Castellana 109, 28071, Madrid, Comunidad Madrid, España
-40.417955,-3.714312   Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
+42.84431715,-2.6822032394785    1
+39.4745175,-6.3716761    10
+36.5298292,-6.2925679    11
+39.9860347,-0.0377354    12
+38.95975095,-3.88282833921596    13
+37.8849779,-4.7760131    14
+43.3712091,-8.3958768    15
+40.0681156,-2.1348241    16
+41.9793006,2.8199439    17
+37.183054,-3.6021928    18
+40.7399963,-2.50593002588473    19
 43.2487382,-8.589744999999999    1ª travesia eusebio bertoa s/n, 15145, a coruna, galicia, españa
+38.9890121,-1.8548699    2
+43.14450225,-2.20416438046431    20
+37.2575874,-6.9484945    21
+42.13606145,-0.0298026627191655    22
+37.7728858,-3.7883289    23
+42.5989995,-5.5682413    24
+41.6147605,0.6267842    25
+42.3285528,-2.4674917    26
+43.0396042,-7.45660716650957    27
+40.4167047,-3.7035825    28
+36.7213028,-4.4216366    29
+38.353738,-0.4901846    3
+37.9923795,-1.1305431    30
+42.61254875,-1.83078768299155    31
+42.1939629,-7.53712401397051    32
+43.27156285,-5.85394655941336    33
+42.0108856,-4.5328735    34
+42.4325481,-8.6448273    35
+42.36226445,-8.53350407214213    36
+40.9651572,-5.6640182    37
+28.469648,-16.2540884    38
+43.1595664,-4.0878382    39
+36.8414197,-2.4628135    4
+40.9502159,-4.1241494    40
+37.3886303,-5.9953171    41
+41.7633842,-2.4642041    42
+41.1172364,1.2546057    43
+40.3436719,-1.1081939    44
+39.8560679,-4.0239568    45
+39.33419675,-0.796958488074469    46
+41.6521328,-4.728562    47
+43.23839695,-2.85168646321466    48
+41.5056574,-5.7448039    49
+40.656478,-4.7002172    5
+41.84004695,-1.16950900924476    50
+35.89441355,-5.35566761909311    51
+35.2918698,-2.9409026    52
+38.8780585,-6.9702048    6
+39.4884333,2.88947150000001    7
+41.3828939,2.1774322    8
+42.343926,-3.696977    9
+40.4476311,-3.6934366   Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
+40.4141843,-3.7297731   Avda Portugal 81, 28011, Madrid, Comunidad Madrid, España
+40.418434, -3.714182   Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
+40.4369469,-3.6914732   Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
+40.4086668,-3.6906518   Paseo PASEO DE INFANTA ISABEL 1, 28014, Madrid, Comunidad Madrid, España
+40.4079379,-3.6945986   Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
+40.4235178,-3.6895604   Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
+40.4133967,-3.694118    Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
+43.3817338,-8.3999228   Paseo Marítimo Alcalde Francisco Vázquez 10, 15001, A Coruna, Galicia, España
+36.4167197,-5.1540507   Calle Puerto Pesquero s/n, 29640, Malaga, Andalucia, España
+40.4234912,-3.6893974   Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
+40.4079189,-3.6945566     Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
+40.447429,-3.6932527      Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
+40.4176416,-3.7013019     Calle Alcalá 9, 28071, Madrid, Comunidad Madrid, España
+40.4241396,-3.7076358     Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
+40.4176416,-3.7013019     Calle Alcala 9, 28071, Madrid, Comunidad Madrid, España
+40.4289647,-3.696776      Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España
+40.4583429,-3.6893451     Paseo De la Castellana 162, 28036, Madrid, Comunidad Madrid, España
+40.4369226,-3.6914243     Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
 42.431318,1.4670126    aduana de la farga de moles s/n, 25799, lleida, cataluna, españa
 40.4521586,-3.562635    aeropuerto de barajas s/n, 28042, madrid, comunidad madrid, españa
 38.8940384,1.4106189    aeropuerto ibiza s/n, 07800, illes balears, illes balears, españa
@@ -1360,6 +1428,7 @@
 43.3758508,-4.5441941    calle badalan s/n, 33590, asturias, principado asturias, españa
 38.54059120000001,-3.2816281    calle bailen 4, 13750, ciudad real, castilla la mancha, españa
 40.4189402,-3.7131073    calle bailén s/n, 28013, madrid, comunidad madrid, españa
+40.417955,-3.714312    calle bailén s/n, 28071, madrid, comunidad madrid, españa
 41.1450508,0.8199147    calle baix 11, 43730, tarragona, cataluna, españa
 39.8659541,-4.0215896    calle bajada castilla la mancha 5, 45003, toledo, castilla la mancha, españa
 41.94667,-2.46956    calle bajera 23, 42169, soria, castilla leon, españa
@@ -4364,6 +4433,8 @@
 41.6939931,2.4448674    paseo de l'avi campas 2, 08460, barcelona, cataluna, españa
 40.4454625,-3.6907904    paseo de la castellana 106, 28046, madrid, comunidad madrid, españa
 40.4555839,-3.691453    paseo de la castellana 109, 28046, madrid, comunidad madrid, españa
+40.4555839,-3.691453    paseo de la castellana 109, 28071, madrid, comunidad madrid, españa
+40.4281763,-3.689167    paseo de la castellana 14, 28046, madrid, comunidad madrid, españa
 40.4579287,-3.6888691    paseo de la castellana 160, 28046, madrid, comunidad madrid, españa
 40.4584552,-3.6896113    paseo de la castellana 162, 28046, madrid, comunidad madrid, españa
 40.4639201,-3.69017    paseo de la castellana 183, 28046, madrid, comunidad madrid, españa

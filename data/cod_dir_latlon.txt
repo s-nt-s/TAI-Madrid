@@ -4,28 +4,34 @@
 30277   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
 48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
 49031   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
+31662   40.4455511,-3.7344612   Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
+30625   40.4372153,-3.6807443   Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
+30628   40.4372153,-3.6807443   Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
+29598   40.4577396,-3.6888392   Paseo De la Castellana 160, 28046, Madrid, Comunidad Madrid, España
+49300   40.4577396,-3.6888392   Paseo De la Castellana 160, 28046, Madrid, Comunidad Madrid, España
+1211    40.4577396,-3.6888392   Paseo De la Castellana 160, 28046, Madrid, Comunidad Madrid, España
 
-# Fuente [1] http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
-# Fuente [2] https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
+# http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
+# https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
 48053    43.36203,-8.40677    C/ Federico Tapia,54-3º, 15005 CORUÑA (A)
 48054    42.86587,-2.69673    C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ
-48055    38.98727,-1.85409    Avda. de España, 27, 02002 ALBACETE
+48055    38.98727,-1.85409    Avenida de España, 27, 02002 Albacete
 48056    38.34661,-0.49468    C/ Enriqueta Ortega, 2, 03005 ALICANTE/ALACANT
 48057    36.83587,-2.44350    C/ Fuente Victoria, 2, 04007 ALMERIA
 48058    43.35822,-5.84951    C/ Pérez de la Sala, 9, 33007 OVIEDO
-48059    40.65735,-4.69529    Avda. de Portugal, 4, 05001 AVILA
-48060    38.87522,-6.97140    C/ Ronda del Pilar, 10, 06002 BADAJOZ
+48059    40.65735,-4.69529    Avenida de Portugal 4, 05001 Ávila
+48060    38.8750482,-6.9717057   Ronda del Pilar 8, 06004 Badajoz
 48061    39.57412,2.649233    La Rambla, 18, 07003 PALMA DE MALLORCA
 48062    41.40308,2.163359    c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
 48063    41.39293,2.165603    C. d´ Aragó, 273-275, 08007 BARCELONA
-48064    42.34127,-3.69762    C/ Vitoria, 16, 09004 BURGOS
+48064    42.34127,-3.69762    Calle Vitoria, 16, 09004 Burgos
 48065    39.47089,-6.37815    Avda. de España, 14, 10001 CACERES
 48066    36.51632,-6.28492    Avda. Amilcar Barca, nº 5, 11008 CADIZ
 48067    43.46123,-3.80872    Avda. Calvo Sotelo, 8, 39002 SANTANDER
 48068    39.98536,-0.03286    Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
-48070    38.98296,-3.92888    Avda. Rey Santo, 2, 13001 CIUDAD REAL
+48070    38.98296,-3.92888    Avenida de Rey Santo 2, 13001 Ciudad Real
 48071    37.88693,-4.78334    C/ Ronda de los Tejares, 23 y 25, 14008 CORDOBA
-48072    40.07262,-2.13495    Parque de San Julian, 7, 16001 CUENCA
+48072    40.07262,-2.13495    Parque San Julián, 7, 16001 Cuenca
 48073    41.97973,2.810871    Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
 48074    37.17843,-3.59897    Gran Vía de Colón, 23, 18001 GRANADA
 48075    40.63201,-3.16615    C/ Carmen, 2, 19001 GUADALAJARA
@@ -61,14 +67,6 @@
 48106    41.51004,-5.73693    Avda. de Requejo, 23, 49012 ZAMORA
 48107    41.64550,-0.87615    Camino de las Torres, 22, 50008 ZARAGOZA
 
-# https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx&attachment=true
-48055   38.98604,-1.8538507     Avenida de España, 27, 02002 Albacete
-48070   38.98293,-3.92904       Avenida de Rey Santo 2, 13001 Ciudad Real
-48059   40.65722,-4.69527       Avenida de Portugal 4, 05001 Ávila
-48060   38.8750482,-6.9717057   Ronda del Pilar 8, 06004 Badajoz
-48064   42.3603855,-3.6805354   Calle Victoria 16, 09006 Burgos
-48072   40.072597,-2.1349929    Parque San Julián, 7, 16001 Cuenca
-
 # http://www.aemet.es/es/conocenos/quienes_somos
 48171   37.4022625,-6.0090461   Calle Américo Vespucio, 3, 41092 Sevilla
 48175   41.6334718,-0.8822248   Paseo del Canal, 17, 50007 Zaragoza
@@ -97,3 +95,12 @@
 1337    41.6468976,-4.7251021   Calle Muro 5, 47004, Valladolid, Castilla Leon, España
 
 # http://www.chguadalquivir.es/ubicacion
+
+# https://www.chguadiana.es/el-organismo/oficinas
+1341    38.8669232,-6.9852905   Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+31530   38.8669232,-6.9852905   Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+31527   38.8669232,-6.9852905   Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+31529   38.8669232,-6.9852905   Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+
+# https://www.mecd.gob.es/servicios-al-ciudadano-mecd/catalogo/educacion/gestion-titulos/estudios-universitarios/titulos-extranjeros/homologacion-educacion-superior.html
+30187   40.4457351,-3.655064    Calle Torrelaguna 58, 28071 Madrid

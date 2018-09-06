@@ -10,7 +10,7 @@ from stem import Signal
 from stem.control import Controller
 
 from api import (Organismo, Puesto, dict_from_txt, simplificar_dire,
-                 yaml_from_file, yaml_to_file)
+                 yaml_from_file, yaml_to_file, Descripciones)
 
 proxies = {'http': 'socks5://127.0.0.1:9050',
            'https': 'socks5://127.0.0.1:9050'}
@@ -62,7 +62,28 @@ for p in Puesto.load():
     codigos_tai.add(p.idMinisterio)
     codigos_tai.add(p.idCentroDirectivo)
     codigos_tai.add(p.idUnidad)
-    
+
+provincias = Descripciones.load().provincias
+
+total = len(provincias)
+count = 0
+ok = 0
+_ok = 0
+last_ok = ""
+print ("Calculando coordenadas de provincias (%s)" % total)
+for cod, prov in provincias.items():
+    if cod not in direcciones:
+        l = geocode(prov+", España")
+        if l:
+            direcciones[cod] = str(l.latitude) + "," + str(l.longitude)
+            last_ok = prov
+            ok += 1
+    count += 1
+    print("%3d%% completado: %-50s (%s) %-50s" %
+          (count * 100 / total, prov, ok, last_ok + "   "), end="\r")
+
+print ("")
+save_coordenadas(direcciones)
 
 direcciones_falta = set([(o.deDireccion, o.dire, o.postCode)
                          for o in organismos if o.postCode and o.deDireccion and not o.latlon and o.dire not in direcciones and o.codigos.intersection(codigos_tai)])
@@ -71,7 +92,7 @@ count = 0
 ok = 0
 _ok = 0
 last_ok = ""
-print ("Calculando coordenadas (%s)" % total)
+print ("Calculando coordenadas de organismos (%s)" % total)
 for d1, d2, p in direcciones_falta:
     count += 1
     print("%3d%% completado: %-50s (%s) %-50s" %

@@ -12,7 +12,6 @@ re_no_informatica = re.compile(
 re_guion = re.compile(r"\s*-\s*")
 re_paren = re.compile(r"\(.*$")
 
-
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
         return int(k)
@@ -39,9 +38,15 @@ def simplificar_dire(deDireccion):
 
 class Organismo:
 
-    def load(name="organismos"):
+    def load(name="organismos", arregla_direcciones=None):
         with open("data/" + name + ".json", "r") as f:
             col = json.load(f, object_hook=Organismo.dict_to_organismo)
+            if arregla_direcciones:
+                for o in col:
+                    info = arregla_direcciones.get(o.deDireccion, None)
+                    if info is not None:
+                        o.latlon, o.deDireccion, o.postCode = info
+                    o.calcular_provincia()
             return col
 
     def save(col, name="organismos"):

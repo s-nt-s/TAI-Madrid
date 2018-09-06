@@ -3,7 +3,7 @@
 import simplekml
 import utm
 
-from api import Descripciones, Organismo, Puesto
+from api import Descripciones, Organismo, Puesto, dict_from_txt
 
 puestos = [p for p in Puesto.load() if p.idCentroDirectivo !=
            1301 and p.idProvision not in ("L",) and p.isTAI()]
@@ -12,10 +12,9 @@ descripciones = Descripciones.load()
 organismos = Organismo.load()
 rcp_organi = {}
 for o in organismos:
-    if o.latlon:
-        for c in o.codigos:
-            if isinstance(c, int):
-                rcp_organi[c] = o
+    for c in o.codigos:
+        if isinstance(c, int):
+            rcp_organi[c] = o
 
 kml = simplekml.Kml()
 kml.document.name = "TAI"
@@ -44,6 +43,12 @@ style_nivel_alto.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micon
 
 kml.document.style = style_nivel_alto
 
+style_sin_latlon = simplekml.Style()
+style_sin_latlon.iconstyle.color = simplekml.Color.black
+style_sin_latlon.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/question.png'
+
+kml.document.style = style_sin_latlon
+
 folderVerde = kml.newfolder(name="Con vacantes")
 folderVerde.description = "Lugares en los que hay puestos vacantes según los RPT"
 
@@ -56,11 +61,41 @@ folderRojo.description = "Lugares en los que no hay puestos TAI según RPT pero 
 folderGris = kml.newfolder(name="Solo puestos TAI de nivel alto")
 folderGris.description = "Lugares en los que hay puestos TAI (vacantes o no) según RPT pero solo de niveles por encima de lo usual (>18)"
 
+folderInte = kml.newfolder(name="Organismos sin dirección exacta")
+folderInte.description = "Solo sabemos la provincia o una dirección que no tiene coordenadas, así que lo centramos en la provincia en cuestión y punto"
+
 for p in puestos:
-    org = rcp_organi.get(p.idUnidad, None) or rcp_organi.get(
-        p.idCentroDirectivo, None) or rcp_organi.get(p.idMinisterio, None)
-    if org:
-        org.puestos.add(p)
+    unidad = rcp_organi.get(p.idUnidad, None)
+    minist = rcp_organi.get(p.idMinisterio, None)
+    centro = rcp_organi.get(p.idCentroDirectivo, None)
+    padreUnidad = centro or minist
+    if unidad:
+        if unidad.latlon:
+            unidad.puestos.add(p)
+            continue
+        if padreUnidad and unidad.idProvincia is not None and unidad.idProvincia!=padreUnidad.idProvincia:
+            unidad.puestos.add(p)
+            continue
+    if centro:
+        if centro.latlon:
+            centro.puestos.add(p)
+            continue
+        if centro.idProvincia is not None and centro.idProvincia!=minist.idProvincia:
+            centro.puestos.add(p)
+            continue
+    if minist:
+        if minist.latlon or minist.idProvincia:
+            minist.puestos.add(p)
+            continue
+
+cod_dir_latlon = dict_from_txt("data/dir_latlon.txt", rever=True)
+provin_org = {}
+for o in organismos:
+    if not o.latlon and o.idProvincia is not None and (o.puestos or o.nombre == "area de informatica"):
+        latlon = cod_dir_latlon.get(o.idProvincia)
+        col = provin_org.get(latlon, set())
+        col.add(o)
+        provin_org[latlon] = col
 
 latlon_org = {}
 for o in organismos:
@@ -68,7 +103,6 @@ for o in organismos:
         col = latlon_org.get(o.latlon, set())
         col.add(o)
         latlon_org[o.latlon] = col
-
 
 def count_puestos(*args):
     vacantes = 0
@@ -83,28 +117,25 @@ def count_puestos(*args):
             normales += 1
     return normales, vacantes, grannivel
 
-print ("Se van a crear %s puntos" % len(latlon_org))
-
-for latlon, orgs in latlon_org.items():
+def crear_descripcion(orgs):
     count = len(orgs)
     if count == 1:
         org = next(iter(orgs))
         name = "%s (%s)" % (org.deOrganismo, org.idOrganismo)
     else:
         name = str(count) + " organismos"
-    flagRojo = True
-    flagVerde = False
-    utm_split = latlon.split(",")
-    latlon = (float(utm_split[1]), float(utm_split[0]))
+
     description = ""
     direcciones = set([o.deDireccion for o in orgs])
     if len(direcciones) == 1:
-        description += next(iter(orgs)).deDireccion + "\n\n"
+        deDireccion = next(iter(orgs)).deDireccion
+        if deDireccion:
+            description += deDireccion + "\n\n"
     org_puestos = set()
     for org in orgs:
         if count > 1:
             description += "%s - %s\n" % (org.idOrganismo, org.deOrganismo)
-        if len(direcciones) > 1:
+        if len(direcciones) > 1 and org.deDireccion:
             description += "Dirección: %s\n" % (org.deDireccion,)
         if org.url:
             description += org.url
@@ -124,6 +155,25 @@ for latlon, orgs in latlon_org.items():
 
     description = description.strip()
     description = description.replace("\n", "<br/>\n")
+    return name, description, org_puestos
+
+
+print ("Se van a crear %s puntos inexactos" % len(provin_org))
+for latlon, orgs in provin_org.items():
+    name, descripcion, _ = crear_descripcion(orgs)
+    utm_split = latlon.split(",")
+    latlon = (float(utm_split[1]), float(utm_split[0]))
+
+    pnt = folderInte.newpoint(name=name, coords=[latlon])
+    pnt.style = style_sin_latlon
+
+    pnt.description = descripcion
+
+print ("Se van a crear %s puntos exactos" % len(latlon_org))
+for latlon, orgs in latlon_org.items():
+    name, descripcion, org_puestos = crear_descripcion(orgs)
+    utm_split = latlon.split(",")
+    latlon = (float(utm_split[1]), float(utm_split[0]))
 
     if len(org_puestos) == 0:
         pnt = folderRojo.newpoint(name=name, coords=[latlon])
@@ -139,6 +189,6 @@ for latlon, orgs in latlon_org.items():
         else:
             pnt = folderAzul.newpoint(name=name, coords=[latlon])
 
-    pnt.description = description
+    pnt.description = descripcion
 
 kml.save("mapa/tai.kml")
