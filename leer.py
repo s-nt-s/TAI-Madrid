@@ -1089,13 +1089,23 @@ print ("")
 #organismos = clean_organismos(organismos)
 Organismo.save(organismos)
 latlons = {}
+direcis = {}
 for o in organismos:
     if o.latlon:
         dires = latlons.get(o.latlon, set())
         dires.add(o.deDireccion)
         latlons[o.latlon] = dires
+        lls = direcis.get(o.dire, set())
+        lls.add(o.latlon)
+        direcis[o.dire] = lls
 
 with open("data/direcciones_duplicadas.txt", "w") as f:
+    for dire, lls in sorted(direcis.items()):
+        if len(lls)>1:
+            f.write(dire + "\n")
+            for ll in sorted(lls):
+                f.write(ll + "\n")
+            f.write("\n")
     for latlon, dires in sorted(latlons.items()):
         if len(dires)>1:
             f.write(latlon + "\n")

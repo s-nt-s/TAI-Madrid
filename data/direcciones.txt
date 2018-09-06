@@ -315,3 +315,17 @@ Calle Serrano Galvache 26 28071 Madrid (Madrid)
 Calle Serrano Galvache 26 28033 Madrid (Madrid)
 Calle Serrano Galvache 26 28071 Madrid (Madrid)
 Calle Serrano Galvache 26, 28033, Madrid, Comunidad Madrid, España
+
+38.8749042,-6.9725059
+Avenida de Europa 1, 06004 Badajoz, Extremadura
+Avenida De Europa 1 06071 Badajoz (Badajoz)
+Avenida Europa 1 06004 Badajoz (Badajoz)
+Avda Europa 1, 06004, Badajoz, Extremadura, España
+Avenida De Europa 1 06004 Badajoz (Badajoz)
+
+40.4464571,-3.7340666
+Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid
+Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
+Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
+Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
+Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)
