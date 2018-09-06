@@ -160,6 +160,7 @@ avenida francesc macia 58, 08206, barcelona, cataluna, españa
 avenida francisco de miranda caracas, venezuela republica bolivariana de
 avenida galicia 11, 36828, pontevedra, galicia, españa
 avenida garcia morato s/n, 41071, sevilla, andalucia, españa
+avenida garcía morato, terminal de carga. s/n, 29004 málaga, andalucía, españa
 avenida gavilanes 37, 41020, sevilla, andalucia, españa
 avenida general aaranda 37, 46166, valencia, comunitat valenciana, españa
 avenida general peron 38, 28002, madrid, comunidad madrid, españa
@@ -299,6 +300,7 @@ calle alcalde ramón pardo arias s/n, 27430, lugo, galicia, españa
 calle alcalá 37, 28071, madrid, comunidad madrid, españa
 calle alcalá 47, 28071, madrid, comunidad madrid, españa
 calle alcalá 5, 28071, madrid, comunidad madrid, españa
+calle alcalá 9, 28014 madrid
 calle alcantara de xuquer 7, 46260, valencia, comunitat valenciana, españa
 calle alfonso vii 1, 15670, a coruna, galicia, españa
 calle alfonso viii 2, 42071, soria, castilla leon, españa
@@ -783,6 +785,7 @@ calle mayorga s/n, 06510, badajoz, extremadura, españa
 calle medico don antonio porras 38, 41567, sevilla, andalucia, españa
 calle melgar s/n, 09120, burgos, castilla leon, españa
 calle mendez nuñez 15, 36950, pontevedra, galicia, españa
+calle mendez älvaro 84, 28053, madrid, comunidad madrid, españa
 calle mercado 11, 11178, cadiz, andalucia, españa
 calle mercado 7, 47300, valladolid, castilla leon, españa
 calle mesones 26, 18071, granada, andalucia, españa
@@ -1221,6 +1224,7 @@ paseo angel guimera 16, 25065, lleida, cataluna, españa
 paseo asuncion 1, 21300, huelva, andalucia, españa
 paseo barro soto s/n, 15330, a coruna, galicia, españa
 paseo blas de lezo 1, 29649, malaga, andalucia, españa
+paseo castellana 109, 28046 madrid
 paseo castellana 147, 28020, madrid, comunidad madrid, españa
 paseo castellana 162, 28071, madrid, comunidad madrid, españa
 paseo castellana 3, 28046, madrid, comunidad madrid, españa

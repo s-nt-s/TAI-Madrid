@@ -2,134 +2,22 @@
 Calle Escorial Esquina C/ Doctor Negrín s/n., 35110, Las Palmas, Canarias, España
 Doctor Negrin S/N, 35110, Las Palmas, Canarias, España
 
-27.9331848,-15.3877066
-Blque AEROPUERTO DE GRAN CANARIA.APARTADO DE CORREOS Nº 88 S/N, 35230, Las Palmas, Canarias, España
-Calle Aeropuerto de Gran Canaria S/N, 35230, Las Palmas, Canarias, España
-
 28.1126077,-15.4182899
 Plaza De los Derechos Humanos 2 35071 Palmas de Gran Canaria, Las (Palmas, Las)
 Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
 
-28.1131325,-15.4185751
-Plaza De los Derechos Humanos 1, 35003, Las Palmas, Canarias, España
-Plaza Derechos Humanos 1, 35003, Las Palmas, Canarias, España
-
-28.1131597,-15.42136
-Plaza De la Feria 24 35003 Palmas de Gran Canaria, Las (Palmas, Las)
-Plaza De la Feria 24, 35003, Las Palmas, Canarias, España
-Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
-
 28.1160374,-15.421178
 Calle Luis Doreste Silva 64, 35004, Las Palmas, Canarias, España
-Calle Luis Doreste Silva 68, 35004, Las Palmas, Canarias, España
 Calle Luís Doreste Silva 68, 35004, Las Palmas, Canarias, España
-
-28.1231481,-15.430464
-Calle Velazquez 10, 35005, Las Palmas, Canarias, España
-Calle Velázquez 10, 35005, Las Palmas, Canarias, España
 
 28.1386896,-15.4306001
 Calle Leon y Castillo 431, 35007, Las Palmas, Canarias, España
 Calle León y Castillo 320, 35007, Las Palmas, Canarias, España
 
-28.1499372,-15.4171058
-Explanada Tomás Quevedo S/N, 35008, Las Palmas, Canarias, España
-Tomás Quevedo S/N, 35008, Las Palmas, Canarias, España
-
-28.156302,-15.4191132
-Calle Sao Paulo - Poligono Industrial el Sebadal 17 35008 Palmas de Gran Canaria, Las (Palmas, Las)
-Calle Sau Paulo - Poligono Industrial el Sebadal 17 35008 Palmas de Gran Canaria, Las (Palmas, Las)
-Calle Sau Paulo Poligono Industrial el Sebadal 17, 35008, Las Palmas, Canarias, España
-
-28.4150827,-16.5562801
-Avda José de Campo LLarena 3, 38400, Santa Cruz Tenerife, Canarias, España
-Avda José del Campo Llarena 3, 38400, Santa Cruz Tenerife, Canarias, España
-
-28.4561107,-16.2861143
-Calle Conde Pallasar 3, 38010, Santa Cruz Tenerife, Canarias, España
-Calle Conde de Pallasar 3, 38010, Santa Cruz Tenerife, Canarias, España
-Conde de Pallasar 3, 38010, Santa Cruz Tenerife, Canarias, España
-
-28.4582085,-16.2619815
-Calle Tomé Cano 12, 38005, Santa Cruz Tenerife, Canarias, España
-Calle Tomé Cano, 12 38005 12, 38005, Santa Cruz Tenerife, Canarias, España
-
-28.4601467,-16.3470966
-Camino Escaño S/N 38290 Rosario, El (Santa Cruz de Tenerife)
-Camino Escaño S/N 38298 Rosario, El (Santa Cruz de Tenerife)
-
-28.4627613,-16.2689627
-Calle Ramon Perez de Ayala 6, 38007, Santa Cruz Tenerife, Canarias, España
-Calle Ramón Pérez de Ayala 6, 38007, Santa Cruz Tenerife, Canarias, España
-
-28.4695881,-16.2549494
-Calle Mendez Nuñez 9, 38003, Santa Cruz Tenerife, Canarias, España
-Calle Méndez Núñez 9 38003 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
-Calle Méndez Núñez 9, 38003, Santa Cruz Tenerife, Canarias, España
-
-28.472374,-16.2473291
-Calle La Marina 20 5º, 38001, Santa Cruz Tenerife, Canarias, España
-Calle La Marina 20, 38001, Santa Cruz Tenerife, Canarias, España
-Calle La Marina 20,2º 38071 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
-
-28.4754041,-16.3086483
-Calle Via Lactea S/N, 38205, Santa Cruz Tenerife, Canarias, España
-Calle Vía Láctea S/N, 38205, Santa Cruz Tenerife, Canarias, España
-Calle Vía Láctea s/n, 38205, Santa Cruz Tenerife, Canarias, España
-
-35.2828224,-2.939374
-Calle MARQUÉS DE MONTEMAR 3, 52006, Melilla, Melilla, España
-Calle Marqués de Montemar 3, 52006, Melilla, Melilla, España
-
-35.2890402,-2.9399934
-Calle Actor Tallavi 3, 52004, Melilla, Melilla, España
-Calle Actor Tallaví 3, 52004, Melilla, Melilla, España
-
-35.2901784,-2.936142
-Plaza Del Mar S/N 52004 Melilla (Melilla)
-Plaza Del Mar S/N 52071 Melilla (Melilla)
-
-35.2922775,-2.9380973
-Otros Muelle Ribera s/n 52071 Melilla (Melilla)
-Otros Prolongacion Rio Bidasoa S/N 52002 Melilla (Melilla)
-
-35.8868512,-5.3083337
-Calle Beatriz de Silva 4 50001 Ceuta (Ceuta)
-Calle Beatriz de Silva 4 51001 Ceuta (Ceuta)
-
-35.8884595,-5.327113799999999
-Avda De Otero S/N, 51002, Ceuta, Ceuta, España
-Avda Otero s/n, 51002, Ceuta, Ceuta, España
-
 35.8893874,-5.3213455
 Otros Los Rosales S/N 51002 Ceuta (Ceuta)
 Otros Los Rosales s/n 51002 Ceuta (Ceuta)
 Otros Muelle España s/n 51001 Ceuta (Ceuta)
-
-36.1254997,-5.4426177
-Avenida De la Hispanidad S/N 11207 Algeciras (Cádiz)
-Avenida De la Hispanidad S/N 11271 Algeciras (Cádiz)
-
-36.1727123,-5.337831
-Avda Menéndez Pelayo 2, 11300, Cadiz, Andalucia, España
-Avda Menéndez y Pelayo 2, 11300, Cadiz, Andalucia, España
-
-36.50707,-6.268969999999999
-Avda Ilustración 6, 11011, Cadiz, Andalucia, España
-Avda de la ilustración 6, 11011, Cadiz, Andalucia, España
-
-36.5232974,-6.2851051
-Calle Acacias 2 3ª, 11007, Cadiz, Andalucia, España
-Calle Acacias 2, 11007, Cadiz, Andalucia, España
-
-36.5251857,-6.2883475
-Calle Barcelona 1 11008 Cádiz (Cádiz)
-Calle Barcelona 1, 11008, Cadiz, Andalucia, España
-
-36.5256216,-6.2876023
-Plaza Constitución 1 11007 Cádiz (Cádiz)
-Plaza De la Constitucion 1 11007 Cádiz (Cádiz)
-Plaza De la Constitución 1 11007 Cádiz (Cádiz)
 
 36.5270612,-6.2885962
 Carretera Jerez - Rota KM. 5,4 11500 Puerto de Santa María, El (Cádiz)
@@ -141,26 +29,6 @@ Otros Muelle Alfonso XIII S/N 11006 Cádiz (Cádiz)
 Avda De la Constitución 4, 11500, Cadiz, Andalucia, España
 Avda De la Constitución 5, 11500, Cadiz, Andalucia, España
 
-36.6727582,-4.4831607
-Avda Garcia Morato, Terminal de Carga. S/N, 29004, Malaga, Andalucia, España
-Avda Garciamorato S/N, 29004, Malaga, Andalucia, España
-
-36.6980222,-6.1369178
-Plaza De las Marinas 1 11471 Jerez de la Frontera (Cádiz)
-Plaza Marinas 1 11471 Jerez de la Frontera (Cádiz)
-
-36.7174203,-4.4266783
-Avenida Andalucía 2 29007 Málaga (Málaga)
-Avenida De Andalucia 2 29071 Málaga (Málaga)
-
-36.7174694,-4.4266494
-Avda Andalucia 2, 29007, Malaga, Andalucia, España
-Avda Andalucía 2, 29007, Malaga, Andalucia, España
-
-36.7228884,-4.3979632
-Paseo De Sancha 64 29071 Málaga (Málaga)
-Paseo Sancha 64 23071 Málaga (Málaga)
-
 36.7349668,-3.964887
 Calle Circunvalacion 21, 29770, Malaga, Andalucia, España
 Calle Ermitabaja 2, 29770, Malaga, Andalucia, España
@@ -171,32 +39,7 @@ Otros Recinto Portuario S/N 18613 Motril (Granada)
 
 36.7520336,-5.1506809
 Avda De Malaga 12, 29400, Malaga, Andalucia, España
-Avda De Malaga 9, 29400, Malaga, Andalucia, España
-Avda De Málaga 9, 29400, Malaga, Andalucia, España
-
-36.7721771,-2.8199128
-Bulev De el Ejido 168, 04700, Almeria, Andalucia, España
-Bulevar De el Ejido 168 04700 Ejido, El (Almería)
-
-36.8330823,-2.4645105
-Muelle Levante S/N, 04071, Almeria, Andalucia, España
-Otros Muelle de Levante s/n 04071 Almería (Almería)
-
-36.834047,-2.4637136
-Otros Muelle de Levante S/N 04007 Almería (Almería)
-Otros Muelle de Levante s/n 04401 Almería (Almería)
-
-36.8353547,-2.46372278022426
-Calle Arapiles 19, 04001, Almeria, Andalucia, España
-Calle Arapiles 19, 4001, Almeria, Andalucia, España
-
-36.8355254,-2.4606999
-Calle Hermanos Machado 4 04071 Almería (Almería)
-Calle Hermanos Machado 4, 04004, Almeria, Andalucia, España
-
-36.8404374,-2.4477416
-Avda Mediterraneo 201, 04006, Almeria, Andalucia, España
-Avda Mediterráneo 201, 04006, Almeria, Andalucia, España
+Avda de Málaga 9, 29400 Malaga, Andalucía, España
 
 36.89247,-2.28168
 Carretera Cueva de los Ubeda, KM. 2,5 04071 Almería (Almería)
@@ -206,18 +49,6 @@ Carretera Cueva de los Úbeda Km 2,5 04131 Almería (Almería)
 Apartado de Correos 31, 21760, Huelva, Andalucia, España
 Blque Las Marismillas s/n, 21760, Huelva, Andalucia, España
 
-37.18313,-3.60295
-Avda de la Constitución 1, 18001, Granada, Andalucia, España
-Avenida De la Constitución 1 18071 Granada (Granada)
-
-37.1987219,-3.6111421
-Plaza Parque Norte - Urbanización Puerta del Sol s/n 18013 Granada (Granada)
-Plaza Parque Norte Urbanización Puerta del Sol s/n, 18013, Granada, Andalucia, España
-
-37.2224416,-5.3115465
-Carretera Moron - Puebla de Cazalla KM. 5,5 41530 Morón de la Frontera (Sevilla)
-Carretera Moron-Puebla Cazalla Km. 5,5 41530 Morón de la Frontera (Sevilla)
-
 37.2445865,-1.8622148
 Calle Mayor 64, 04620, Almeria, Andalucia, España
 Calle Mayor 7, 04620, Almeria, Andalucia, España
@@ -225,14 +56,6 @@ Calle Mayor 7, 04620, Almeria, Andalucia, España
 37.2580821,-6.9527109
 Calle José Leandro Muñoz "PEPE PIRFO" 1, 21001, Huelva, Andalucia, España
 Calle José Leandro Muñoz; esq. Av. de Méjico 21001 s/n, 21001, Huelva, Andalucia, España
-
-37.2596543,-6.9508557
-Paseo De Santa Fe 22 21003 Huelva (Huelva)
-Paseo De Santa Fé 22 21003 Huelva (Huelva)
-
-37.2878009,-5.4882679
-Plaza España S/N 41071 Sevilla (Sevilla)
-Plaza España s/n 41071 Sevilla (Sevilla)
 
 37.3552204,-5.9673967
 Plaza De España S/N 41013 Sevilla (Sevilla)
@@ -627,10 +450,6 @@ Calle Veintiocho de septiembre 26, 37700, Salamanca, Castilla Leon, España
 Calle Obispo Zarraz y Pueyo 37, 37700, Salamanca, Castilla Leon, España
 Obispo Zarraz y Pueyo 37, 37700, Salamanca, Castilla Leon, España
 
-40.3911245,-3.675269
-Calle Mendez Älvaro 84 28053 Madrid (Madrid)
-Calle Mendez Älvaro, 84 28053 Madrid (Madrid)
-
 40.3922835,-3.6779413
 Calle Titan 4 y 6 28045 Madrid (Madrid)
 Calle Titán 4 y 6 28045 Madrid (Madrid)
@@ -647,20 +466,6 @@ Calle Batalla del Salado 32, 28045, Madrid, Comunidad Madrid, España
 Avenida Gran Vía de San Francisco 4-6 28005 Madrid (Madrid)
 Via Gran Vía de San Francisco 4 y 6 28005 Madrid (Madrid)
 Via Gran Vía de San Francisco 4 y 6, 28005, Madrid, Comunidad Madrid, España
-
-40.4079189,-3.6945566
-Calle Santa Isabel 52 28012 Madrid (Madrid)
-Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
-
-40.4086372,-3.6906168
-Paseo Infanta Isabel 1, 28014, Madrid, Comunidad Madrid, España
-Paseo PASEO DE INFANTA ISABEL 1, 28014, Madrid, Comunidad Madrid, España
-Paseo de la Infanta Isabel 1 28014 Madrid (Madrid)
-
-40.4093703,-3.6872443
-Calle Alfonso XII 3 5, 28014, Madrid, Comunidad Madrid, España
-Calle Alfonso XII 3-5 28014 28014 Madrid (Madrid)
-Calle Alfonso XII 3-5 28014 Madrid (Madrid)
 
 40.4100669,-3.6947583
 Calle Atocha 106 28012 Madrid (Madrid)
@@ -696,12 +501,6 @@ Calle Huertas 26, 28014, Madrid, Comunidad Madrid, España
 40.4137583,-3.69200014957263
 Calle Ruiz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
 Calle Ruíz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
-
-40.4139056,-3.6743363
-Calle PIO BAROJA 6 28009 Madrid (Madrid)
-Calle PIO BAROJA 6, 28009, Madrid, Comunidad Madrid, España
-Calle Pio Baroja 6 28009 Madrid (Madrid)
-Calle Pío Baroja 6 28071 Madrid (Madrid)
 
 40.41436725,-3.70597515276898
 Plaza De la Provincia 1, 28012, Madrid, Comunidad Madrid, España
@@ -747,14 +546,6 @@ Calle Alcalá 7 y 9, 28014, Madrid, Comunidad Madrid, España
 Calle Alcala 5 28014 Madrid (Madrid)
 Calle Alcalá 5 28014 Madrid (Madrid)
 
-40.4176416,-3.7013019
-Calle Alcal 9 28071 Madrid (Madrid)
-Calle Alcala 9 28071 Madrid (Madrid)
-Calle Alcala 9, 28071, Madrid, Comunidad Madrid, España
-Calle Alcalá 9 28014 Madrid (Madrid)
-Calle Alcalá 9 28071 Madrid (Madrid)
-Calle Alcalá 9, 28071, Madrid, Comunidad Madrid, España
-
 40.4176735,-3.6969684
 Calle Los Madrazo 15 28071 Madrid (Madrid)
 Calle Los Madrazo 15-17 28014 Madrid (Madrid)
@@ -788,27 +579,9 @@ Calle Alcalá 38-40 28014 Madrid (Madrid)
 Calle Alcalá 37 28071 Madrid (Madrid)
 Calle Alcalá 37, 28014, Madrid, Comunidad Madrid, España
 
-40.4195431,-3.690349
-Calle Alcala 56 28014 Madrid (Madrid)
-Calle Alcalá 56 28014 Madrid (Madrid)
-
-40.41954310000001,-3.690349
-Calle Alcala 56, 28014, Madrid, Comunidad Madrid, España
-Calle Alcalá 56, 28014, Madrid, Comunidad Madrid, España
-
 40.4197543,-3.695671
 Calle Barquillo 5 28004 Madrid (Madrid)
 Calle Barquillo 5, 28004, Madrid, Comunidad Madrid, España
-
-40.4201625,-3.6956919
-Plaza Del Rey 1, 28004, Madrid, Comunidad Madrid, España
-Plaza Rey 1, 28004, Madrid, Comunidad Madrid, España
-Plaza del Rey 1, 28004, Madrid, Comunidad Madrid, España
-
-40.4202074,-3.6964252
-Plaza Del Rey 1 28004 Madrid (Madrid)
-Plaza Del Rey 1 28071 Madrid (Madrid)
-Plaza Plaza del Rey 1 28004 Madrid (Madrid)
 
 40.4202943,-3.6913723
 Calle Marqués de Duero 4 28001 Madrid (Madrid)
@@ -1101,13 +874,6 @@ Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
 Plaza Valparaíso 4 28016 Madrid (Madrid)
 Plaza Valparaíso 4, 28016, Madrid, Comunidad Madrid, España
 
-40.4555839,-3.691453
-Paseo Castellana 109 28071 Madrid (Madrid)
-Paseo Castellana 109, 28046, Madrid, Comunidad Madrid, España
-Paseo De la Castellana 109 28071 Madrid (Madrid)
-Paseo De la Castellana 109, 28071, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 109, 28046, Madrid, Comunidad Madrid, España
-
 40.4556126,-3.6917607
 Paseo de la Castellana núm. 109 - 208071
 Paseo de la Castellana, 109 - 28071 Madrid
@@ -1116,39 +882,9 @@ Paseo de la Castellana, 109 - 28071 Madrid
 Calle Jose Lazaro Galdeano 6, 28036, Madrid, Comunidad Madrid, España
 Calle José Lázaro Galdeano 6, 28036, Madrid, Comunidad Madrid, España
 
-40.4577345,-3.6888375
-Paseo De la Castellana 160 28046 Madrid (Madrid)
-Paseo De la Castellana 160 28071 Madrid (Madrid)
-
-40.4577396,-3.6888392
-Paseo De la Castellana 160 28046 Madrid (Madrid)
-Paseo De la Castellana 160 28071 Madrid (Madrid)
-Paseo De la Castellana 160, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellan 160 28071 Madrid (Madrid)
-Paseo de la Castellana 160 28046 Madrid (Madrid)
-Paseo de la Castellana 160 28071 Madrid (Madrid)
-
-40.4579287,-3.6888691
-Paseo Castellana 160, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 160, 28046, Madrid, Comunidad Madrid, España
-
 40.4580506,-3.696157
 Calle Huesca 31 28020 Madrid (Madrid)
 Calle Huesca 31, 28020, Madrid, Comunidad Madrid, España
-
-40.4583429,-3.6893451
-Paseo Castellana 162 28071 Madrid (Madrid)
-Paseo De la Castellana 162 28036 Madrid (Madrid)
-Paseo De la Castellana 162, 28036, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 162 28036 Madrid (Madrid)
-Paseo de la Castellana 162 28046 Madrid (Madrid)
-Paseo de la Castellana 162 28071 Madrid (Madrid)
-Paseo de la Castellana 162, 28036, Madrid, Comunidad Madrid, España
-Paseo de la castellana 162 28046 Madrid (Madrid)
-
-40.4584552,-3.6896113
-Paseo De la Castellana 162, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 162, 28046, Madrid, Comunidad Madrid, España
 
 40.4588809,-3.6916096
 Calle Sor Angela de la Cruz 3 28020 Madrid (Madrid)
@@ -1181,15 +917,6 @@ Avenida Pío XII 50 28016 Madrid (Madrid)
 40.4694722,-3.686168
 Avenida Agustin de Foxá S/N 28036 Madrid (Madrid)
 Calle Agustin de Foxá S/N 28036 Madrid (Madrid)
-
-40.4737374,-3.6719356
-Calle Serrano Galvache 26 28033 Madrid (Madrid)
-Calle Serrano Galvache 26 28071 Madrid (Madrid)
-
-40.473754,-3.6718262
-Calle Serrano Galvache 26 28033 Madrid (Madrid)
-Calle Serrano Galvache 26 28071 Madrid (Madrid)
-Calle Serrano Galvache 26, 28033, Madrid, Comunidad Madrid, España
 
 40.4737694,-3.6866869
 Paseo Castellana 272 28071 Madrid (Madrid)
