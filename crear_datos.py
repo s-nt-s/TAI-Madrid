@@ -773,7 +773,7 @@ if args.fusion or args.todo:
               (count * 100 / total, o.idOrganismo, ok), end="\r")
     print ("")
 
-    Organismo.save(organismos, name="organismos_dir3_E_gob.es")
+    Organismo.save(organismos, name="organismos_dir3_E_gob.es", arregla_direcciones=arregla_direcciones)
 
 codigos_tai = set()
 for p in Puesto.load():

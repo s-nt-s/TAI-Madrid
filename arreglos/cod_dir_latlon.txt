@@ -3,7 +3,8 @@
 46799   40.5555043,-3.7094297   Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
 30277   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
 48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
-49031   40.4131767,-3.6887904   Calle Alfonso XII S/N 28071 Madrid (Madrid)
+49031   40.4078464,-3.6861369   Calle de Alfonso XII 3, 28014 Madrid
+27646   40.4111064,-3.6911267   Plaza de Murillo, 2 28014 Madrid (Madrid) 
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
