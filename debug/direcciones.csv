@@ -131,7 +131,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 51	31753	Calle Campezo 1 28022 Madrid (Madrid)	40.4484024,-3.5818388	Calle Campezo 1 28022 Madrid	40.447938,-3.5818723
 3465	49397	Calle PIO Baroja 6, 28009 Madrid	40.4139056,-3.6743363	C/ Alberto Aguilera, 15 Duplicado - 28015 - MADRID	40.4298077,-3.7095272
 13	49398	Calle PIO Baroja 6, 28009 Madrid	40.4139056,-3.6743363	C/ Pío Baroja, 6 - 28009 - MADRID	40.4139171,-3.674496
-80	44279	Paseo de la Castellana 183 28071 Madrid (Madrid)	40.4639201,-3.69017	Paseo de la Castellana, 183 (entrada por Estébanez Calderón, 2) 28071 - Madrid.	40.4636462,-3.691055
+3	1271	Paseo Castellana 272 28071 Madrid (Madrid)	40.4737694,-3.6866869	Pº Castellana, 272	40.4737706,-3.6867269
 84	1272	Calle Panamá 1 28036 Madrid (Madrid)	40.4574799,-3.6892	C/ Panamá, 1	40.4567256,-3.6890582
 14	1274	Calle María de Molina 50 28071 Madrid (Madrid)	40.4372153,-3.6807443	C/ María de Molina, 50	40.437163,-3.6809054
 59	1275	Paseo De la Castellana 162, 28046 Madrid	40.4583429,-3.6893451	C/ Alberto Alcocer, 2	40.4586557,-3.6887744
@@ -224,7 +224,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 6	49581	Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)	40.4603502,-3.6926738	C/ Poeta Joan Maragall, 41 - 28020, Madrid	40.4603328,-3.6927446
 4091	48558	Plaza Del Rey 1, 28004 Madrid	40.4202074,-3.6964252	C/ Pintor El Greco nº 4. 28040 Madrid	40.441718,-3.7356224
 14	48559	Calle María de Molina 50 28071 Madrid (Madrid)	40.4372153,-3.6807443	C/ María de Molina, 50	40.437163,-3.6809054
-28	47683	Avenida Reyes Católicos 4 28071 Madrid (Madrid)	40.4380323,-3.7203751	Avenida Reyes Católicos 4 28071 Madrid	40.4381163,-3.720695
 17	49395	Paseo del Prado 18 y 20, 28014 Madrid	40.4133967,-3.694118	Paseo del Prado, 18-20	40.4132403,-3.6941106
 3575	43444	Calle Uruguay 16 28016 Madrid (Madrid)	40.4548941,-3.6724537	Calle Guzmán el Bueno, 139 28003 Madrid	40.4454703,-3.7128423
 0	48078	Avda. Pirineos, 17, 22004 HUESCA	42.14400,-0.41874	Avda. Pirineos, 17, 22004 HUESCA	42.14400,-0.41874
@@ -235,7 +234,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 40	48578	Calle Vitruvio 4 28006 Madrid (Madrid)	40.442391,-3.6891577	Calle Vitruvio 4 28006 Madrid	40.4424148,-3.6896346
 32	48060	Ronda del Pilar 8, 06004 Badajoz	38.8750482,-6.9717057	C/ Ronda del Pilar, 10, 06002 BADAJOZ	38.87522,-6.97140
 14	30625	Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España	40.4372153,-3.6807443	C/ María de Molina, 50	40.437163,-3.6809054
-3	1271	Paseo Castellana 272 28071 Madrid (Madrid)	40.4737694,-3.6866869	Pº Castellana, 272	40.4737706,-3.6867269
+80	44279	Paseo de la Castellana 183 28071 Madrid (Madrid)	40.4639201,-3.69017	Paseo de la Castellana, 183 (entrada por Estébanez Calderón, 2) 28071 - Madrid.	40.4636462,-3.691055
 9	30157	Calle Alcalá 34 28014 Madrid (Madrid)	40.4180686,-3.6973894	Calle Alcalá 34 28014 Madrid	40.418018,-3.6974771
 2	48592	Paseo De la Castellana 162, 28046 Madrid	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
 2	48593	Paseo De la Castellana 162, 28046 Madrid	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
@@ -282,6 +281,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 6	47680	Calle Lérida 32-34 28020 Madrid (Madrid)	40.4541381,-3.7006317	C/ Lérida, 32 - 34	40.4540888,-3.7006666
 28	47681	Avenida Reyes Católicos 4 28071 Madrid (Madrid)	40.4380323,-3.7203751	Avenida Reyes Católicos 4 28071 Madrid	40.4381163,-3.720695
 28	47682	Avenida Reyes Católicos 4 28071 Madrid (Madrid)	40.4380323,-3.7203751	Avenida Reyes Católicos 4 28071 Madrid	40.4381163,-3.720695
+28	47683	Avenida Reyes Católicos 4 28071 Madrid (Madrid)	40.4380323,-3.7203751	Avenida Reyes Católicos 4 28071 Madrid	40.4381163,-3.720695
 652	30277	Calle Alfonso XII S/N 28071 Madrid (Madrid)	40.4131767,-3.6887904	Alfonso XII, 3 y 5 - 28014 Madrid	40.4076343,-3.6862822
 26	49734	Paseo Castellana 109, 28046 Madrid	40.4555839,-3.691453	Paseo de la Castellana, núm. 109 - 28071 Madrid	40.4556126,-3.6917607
 8	30280	Antonio López, 81, 28026 Madrid	40.3929345,-3.7049173	Antonio López, 81 - 28026 Madrid	40.3930095,-3.7049289

@@ -448,3 +448,11 @@ Calle de Serrano, 117, 28006 Madrid
 Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
 Calle de Serrano, 117, 28006 Madrid
 Serrano, 117 28006 Madrid
+
+39.9886397,-0.0437388
+Paseo Ribalta 12, 12004 Castellón de la Plana, Castellón
+Paseo Ribalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
+Paseo Rivalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
+Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
+Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
+Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España

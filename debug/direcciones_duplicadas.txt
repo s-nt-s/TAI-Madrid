@@ -42,18 +42,9 @@ Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
 Avda Perez Galdos 19, 12002, Castellon, Comunitat Valenciana, España
 Avda Pérez Galdós 19, 12002, Castellon, Comunitat Valenciana, España
 
-39.9877453,-0.0450742
-Paseo Ribalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
-Paseo Rivalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
-
 39.9884077,-0.0340021
 Plaza Maria Agustina 6 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
 Plaza Maria Agustina 6, 12003, Castellon, Comunitat Valenciana, España
-
-39.98863970000001,-0.0437388
-Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
-Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
-Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 
 40.065844,-2.1320759
 Calle Eras del Tío Cañamón 2 4, 16004, Cuenca, Castilla La Mancha, España

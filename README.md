@@ -104,10 +104,7 @@ Para pasos posteriores sera útil saber la provincia de un organismo. Para aquel
 
 ## HTML
 
-Usando los datos generados:
-
-* `ranking.py` crea https://s-nt-s.github.io/TAI-Madrid/ranking.html
-* `crea_htmls.py` crea https://s-nt-s.github.io/TAI-Madrid/ y https://s-nt-s.github.io/TAI-Madrid/direcciones.html
+Usando el script `crea_htmls.py` se genera el portal ttps://s-nt-s.github.io/TAI-Madrid/
 
 ## Mapa
 
