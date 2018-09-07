@@ -228,7 +228,6 @@ Plaza España S/N, 41071 Sevilla
 Plaza España S/N 41071 Sevilla (Sevilla)
 Plaza España s/n 41071 Sevilla (Sevilla)
 
-
 40.3911245,-3.675269
 Calle Mendez Alvaro 84, 28053 Madrid
 Calle Mendez Älvaro 84 28053 Madrid (Madrid)
@@ -341,3 +340,94 @@ Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
 Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
 Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
 Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)
+
+37.3552204,-5.9673967
+Plaza De España S/N, 41013 Sevilla
+Plaza De España S/N 41013 Sevilla (Sevilla)
+Plaza Plaza de España ( PUERTA DE ARAGON TORRE NORTE ) S/N, 41013, Sevilla, Andalucia, España
+Plaza Plaza de España (Puerta de Aragón Torre Norte) s/n, 41013, Sevilla, Andalucia, España
+
+37.4297413,-5.9752939
+Calle Botánica S/N, 41015 Sevilla
+Calle Botánica S/N, 41015, Sevilla, Andalucia, España
+Calle Botánica s/n, 41015, Sevilla, Andalucia, España
+
+37.8787709,-4.7875488
+Plaza de la Constitución 1, 14004 Cordoba
+Plaza Constitución 1 14004 Córdoba (Córdoba)
+Plaza De la Constitucion 1 14004 Córdoba (Córdoba)
+Plaza De la Constitucion 1, 14004, Cordoba, Andalucia, España
+
+37.8859618,-4.7820943
+Avenida Gran Capitán 8, 14071 Córdoba
+Avenida Gran Capitan 8 14008 Córdoba (Córdoba)
+Avenida Gran Capitán 8 14071 Córdoba (Córdoba)
+
+37.9880051,-1.1325286
+Calle Gran Vía Escultor Salzillo 21, 30005 Murcia
+Calle Gran Vía Escultor Salzillo 21 30005 Murcia (Murcia)
+Calle Gran Vía Escultor Salzillo 21, 30005, Murcia, Region Murcia, España
+
+38.0291952,-1.1725177
+Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100 Murcia
+Calle Francisco Alfonso Hidalgo Martínez Km.388 N 301, 30100, Murcia, Region Murcia, España
+Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100, Murcia, Region Murcia, España
+
+38.344362,-0.4877118
+Plaza De la Montañeta 8, 03001 Alicante
+Plaza De la Montanyeta 8, 03001, Alicante, Comunitat Valenciana, España
+Plaza De la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
+Plaza De la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
+Plaza de la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
+Plaza de la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
+
+38.8747357,-6.9745688
+Avenida Huelva 4, 06005 Badajoz
+Avda Huelva 4, 06005, Badajoz, Extremadura, España
+Avenida De Huelva 4 06005 Badajoz (Badajoz)
+Avenida Huelva 4 06071 Badajoz (Badajoz)
+
+39.4611021,-6.3752422
+Avda de la Hispanidad 6, 10002 Caceres
+Avda De la Hispanidad 6, 10002, Caceres, Extremadura, España
+Avda de la Hispanidad 6, 10002, Caceres, Extremadura, España
+
+39.4699039,-0.3706761
+Calle Colón 60, 46004 Valencia
+Calle Colon 60 46004 València (València/Valencia)
+Calle Colon 60, 46004, Valencia, Comunitat Valenciana, España
+Calle Colón 60, 46004, Valencia, Comunitat Valenciana, España
+
+39.4818934,-0.3912487
+Calle Joaquín Ballester 39, 46009 Valencia
+Calle Joaquín Ballester 39 46009 València (València/Valencia)
+Calle Joaquín Ballester 39 46071 València (València/Valencia)
+
+39.5696162,2.647135
+Calle Constitución 4, 07001 Illes Balears
+Calle Constitució 4 07001 Palma (Illes Balears)
+Calle Constitució 4, 07001, Illes Balears, Illes Balears, España
+Calle Constitución 4, 07001, Illes Balears, Illes Balears, España
+
+40.4133967,-3.694118
+Paseo del Prado 18 y 20, 28014 Madrid
+Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
+Paseo Del Prado 18-20 28071 Madrid (Madrid)
+Paseo Prado 18 20, 28014, Madrid, Comunidad Madrid, España
+Paseo del Prado 18 28014 Madrid (Madrid)
+Paseo del Prado 18 y 20, 28014, Madrid, Comunidad Madrid, España
+
+40.4241396,-3.7076358
+Calle San Bernardo 45, 28015 Madrid
+Calle San Bernardo 45 28015 Madrid (Madrid)
+Calle San Bernardo 45 28071 Madrid (Madrid)
+Calle San Bernardo 45, 28015, Madrid, Comunidad Madrid, España
+Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
+Calle San Bernatdo 45 28015 Madrid (Madrid)
+
+41.6561376,-0.8790924
+Plaza Nuestra Señora del Pilar S/N, 50003 Zaragoza
+Plaza Nuestra Señora del Pilar s/n, 50003, Zaragoza, Aragon, España
+Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
+Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
+Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)

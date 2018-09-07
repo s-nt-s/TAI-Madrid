@@ -1087,11 +1087,12 @@ for unidad, provincias in unidades_provincia.items():
 print ("")
 
 #organismos = clean_organismos(organismos)
+tai_latlons = set([o.latlon for o in organismos if o.latlon and o.codigos.intersection(codigos_tai)])
 Organismo.save(organismos)
 latlons = {}
 direcis = {}
 for o in organismos:
-    if o.latlon:
+    if o.latlon and o.latlon in tai_latlons:
         dires = latlons.get(o.latlon, set())
         dires.add(o.deDireccion)
         latlons[o.latlon] = dires
