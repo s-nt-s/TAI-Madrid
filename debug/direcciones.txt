@@ -5983,6 +5983,7 @@ Calle Zurbaran 9, 41140, Sevilla, Andalucia, España
 Calle carlos Barral 2, 45600, Toledo, Castilla La Mancha, España
 Calle chantada 1, 27004, Lugo, Galicia, España
 Calle das Pontes (Vial A) 4, oficina 2.02, 36350, Pontevedra, Galicia, España
+Calle de Alfonso XII 3, 28014 Madrid
 Calle de Fortuny, 4, 28010 Madrid
 Calle de Serrano, 115, 28006 Madrid
 Calle de Serrano, 117, 28006 Madrid
@@ -6737,7 +6738,6 @@ Otros Ribera del Beiro S/N 18003 Granada (Granada)
 Otros Tabladiello S/N 33480 Llanera (Asturias)
 Otros Termino de Bonxe KM. 14 27150 Outeiro de Rei (Lugo)
 PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)
-PLAZA DE MURILLO, 2 28014 Madrid (Madrid)
 Pablo Rada 40, 31380, Navarra, Comunidad Foral Navarra, España
 Pago San Jeronimo S/N, 11540, Cadiz, Andalucia, España
 Pakistán
@@ -7638,6 +7638,7 @@ Plaza de España s/n 36002 Pontevedra (Pontevedra)
 Plaza de España, 2, 33007 Oviedo, Asturias
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
 Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
+Plaza de Murillo, 2 28014 Madrid (Madrid)
 Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
 Plaza de Velarde s/n 39001 Santander (Cantabria)
 Plaza de la Almadraba s/n 21410 Isla Cristina (Huelva)
