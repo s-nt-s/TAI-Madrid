@@ -166,6 +166,7 @@ avenida general aaranda 37, 46166, valencia, comunitat valenciana, españa
 avenida general peron 38, 28002, madrid, comunidad madrid, españa
 avenida general perón 38, 28071, madrid, comunidad madrid, españa
 avenida gongora s/n, 11311, cadiz, andalucia, españa
+avenida gran capitan 8, 14008, cordoba, andalucia, españa
 avenida gran vía 49, 26071, la rioja, la rioja, españa
 avenida guadalete 22, 14430, cordoba, andalucia, españa
 avenida jaime i 18, 03750, alicante, comunitat valenciana, españa

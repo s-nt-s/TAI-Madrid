@@ -191,4 +191,4 @@ for latlon, orgs in latlon_org.items():
 
     pnt.description = descripcion
 
-kml.save("mapa/tai.kml")
+kml.save("docs/mapa/tai.kml")

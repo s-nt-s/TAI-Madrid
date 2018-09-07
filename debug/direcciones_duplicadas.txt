@@ -26,69 +26,13 @@ serrano, 117 28006 madrid
 Plaza De los Derechos Humanos 2 35071 Palmas de Gran Canaria, Las (Palmas, Las)
 Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
 
-37.3552204,-5.9673967
-Plaza De España S/N 41013 Sevilla (Sevilla)
-Plaza Plaza de España ( PUERTA DE ARAGON TORRE NORTE ) S/N, 41013, Sevilla, Andalucia, España
-Plaza Plaza de España (Puerta de Aragón Torre Norte) s/n, 41013, Sevilla, Andalucia, España
-
-37.4297413,-5.9752939
-Calle Botánica S/N, 41015, Sevilla, Andalucia, España
-Calle Botánica s/n, 41015, Sevilla, Andalucia, España
-
-37.8787709,-4.7875488
-Plaza Constitución 1 14004 Córdoba (Córdoba)
-Plaza De la Constitucion 1 14004 Córdoba (Córdoba)
-Plaza De la Constitucion 1, 14004, Cordoba, Andalucia, España
-
-37.8859618,-4.7820943
-Avenida Gran Capitan 8 14008 Córdoba (Córdoba)
-Avenida Gran Capitán 8 14071 Córdoba (Córdoba)
-
-37.9880051,-1.1325286
-Calle Gran Vía Escultor Salzillo 21 30005 Murcia (Murcia)
-Calle Gran Vía Escultor Salzillo 21, 30005, Murcia, Region Murcia, España
-
-38.0291952,-1.1725177
-Calle Francisco Alfonso Hidalgo Martínez Km.388 N 301, 30100, Murcia, Region Murcia, España
-Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100, Murcia, Region Murcia, España
-
-38.344362,-0.4877118
-Plaza De la Montanyeta 8, 03001, Alicante, Comunitat Valenciana, España
-Plaza De la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
-Plaza De la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
-Plaza de la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
-Plaza de la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
-
-38.8747357,-6.9745688
-Avda Huelva 4, 06005, Badajoz, Extremadura, España
-Avenida De Huelva 4 06005 Badajoz (Badajoz)
-Avenida Huelva 4 06071 Badajoz (Badajoz)
-
 38.9269573,1.4144827
 Avda Bartolomé Roselló 21, 07800, Illes Balears, Illes Balears, España
 Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
 
-39.4611021,-6.3752422
-Avda De la Hispanidad 6, 10002, Caceres, Extremadura, España
-Avda de la Hispanidad 6, 10002, Caceres, Extremadura, España
-
-39.4699039,-0.3706761
-Calle Colon 60 46004 València (València/Valencia)
-Calle Colon 60, 46004, Valencia, Comunitat Valenciana, España
-Calle Colón 60, 46004, Valencia, Comunitat Valenciana, España
-
 39.4763102,-0.3578827
 Avda Blasco Ibañez 48, 46010, Valencia, Comunitat Valenciana, España
 Avda Vicente Blasco Ibáñez 48, 46010, Valencia, Comunitat Valenciana, España
-
-39.4818934,-0.3912487
-Calle Joaquín Ballester 39 46009 València (València/Valencia)
-Calle Joaquín Ballester 39 46071 València (València/Valencia)
-
-39.5696162,2.647135
-Calle Constitució 4 07001 Palma (Illes Balears)
-Calle Constitució 4, 07001, Illes Balears, Illes Balears, España
-Calle Constitución 4, 07001, Illes Balears, Illes Balears, España
 
 39.5902242,2.6510362
 Calle Gaspar Sabater 3, 07010, Illes Balears, Illes Balears, España
@@ -148,13 +92,6 @@ Calle Alberto Bosch 16 28014 Madrid (Madrid)
 Calle Alberto Bosch 16 28071 Madrid (Madrid)
 Calle Alberto Bosch 16, 28014, Madrid, Comunidad Madrid, España
 
-40.4133967,-3.694118
-Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
-Paseo Del Prado 18-20 28071 Madrid (Madrid)
-Paseo Prado 18 20, 28014, Madrid, Comunidad Madrid, España
-Paseo del Prado 18 28014 Madrid (Madrid)
-Paseo del Prado 18 y 20, 28014, Madrid, Comunidad Madrid, España
-
 40.4135762,-3.6992573
 Calle Huertas 26 28014 Madrid (Madrid)
 Calle Huertas 26, 28014, Madrid, Comunidad Madrid, España
@@ -199,13 +136,6 @@ Paseo Recoletos 20-22 28071 Madrid (Madrid)
 40.4240751,-3.7129502
 Calle Emilio Jiménez Millas, 1, 28008, Madrid, Comunidad Madrid, España
 Plaza Emilio Jimenez Millas 1, 28008, Madrid, Comunidad Madrid, España
-
-40.4241396,-3.7076358
-Calle San Bernardo 45 28015 Madrid (Madrid)
-Calle San Bernardo 45 28071 Madrid (Madrid)
-Calle San Bernardo 45, 28015, Madrid, Comunidad Madrid, España
-Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
-Calle San Bernatdo 45 28015 Madrid (Madrid)
 
 40.4243463,-3.686817
 Calle Claudio Coello 31 28001 Madrid (Madrid)
@@ -406,14 +336,6 @@ Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 Plaza Del Milenio 1, 47014, Valladolid, Castilla Leon, España
 Plaza Del Milenio s/n, 47014, Valladolid, Castilla Leon, España
 Plaza del Milenio 1, 47014, Valladolid, Castilla Leon, España
-
-41.6561376,-0.8790924
-Plaza Nuestra Señora del Pilar s/n, 50003, Zaragoza, Aragon, España
-Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
-
-41.656473,-0.8787635
-Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
-Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)
 
 41.7600539,-2.4731061
 Calle Santa Teresa de Jesus 9, 42003, Soria, Castilla Leon, España
