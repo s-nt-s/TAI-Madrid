@@ -164,6 +164,12 @@ Paseo de Sancha 64, 29016 Málaga
 Paseo De Sancha 64 29071 Málaga (Málaga)
 Paseo Sancha 64 23071 Málaga (Málaga)
 
+36.7249486,-3.5268037
+Recinto Portuario S/N, 18613 Motril, Granada
+Otros Recinto Portuario S/N 18613 Motril (Granada)
+Otros Muelle de Poniente S/N 18613 Motril (Granada)
+otros recinto portuario s/n 18613 motril (granada)
+
 36.7520336,-5.1506809
 Avda de Málaga 9, 29400 Malaga, Andalucía, España
 Avda de Málaga 9, 29400, Malaga, Andalucia, España
