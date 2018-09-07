@@ -437,3 +437,14 @@ Plaza Nuestra Señora del Pilar s/n, 50003, Zaragoza, Aragon, España
 Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
 Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
 Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)
+
+40.4369226,-3.6914243
+Calle Miguel Angel 25, 28071 Madrid
+Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
+Calle Miguel Ángel 25 28071 Madrid (Madrid)
+
+40.4412398,-3.6863111
+Calle de Serrano, 117, 28006 Madrid
+Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
+Calle de Serrano, 117, 28006 Madrid
+Serrano, 117 28006 Madrid

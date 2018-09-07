@@ -1,7 +1,3 @@
-calle miguel ángel 25 28071 madrid (madrid)
-40.4369226,-3.6914243
-40.4369469,-3.6914732
-
 campus universidad autonoma de barcelona (bellaterra) 08193 cerdanyola del vallès (barcelona)
 41.501156,2.111265
 41.501491,2.110539
@@ -165,10 +161,6 @@ Calle Santa Engracia 7, 28010, Madrid, Comunidad Madrid, España
 40.4367195,-3.7322106
 Calle Martín Fierro 5 28040 Madrid (Madrid)
 Calle Martín Fierro 5, 28040, Madrid, Comunidad Madrid, España
-
-40.4369226,-3.6914243
-Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
-Calle Miguel Ángel 25 28071 Madrid (Madrid)
 
 40.4372153,-3.6807443
 Calle María de Molina 50 28006 Madrid (Madrid)

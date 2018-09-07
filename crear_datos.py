@@ -1159,3 +1159,8 @@ with open("debug/direcciones.csv", "w") as f:
             distancia = calcula_distancia(ll, org.latlon)
             f.write("\t".join([str(distancia), str(id),
                                org.deDireccion, org.latlon, dire, ll]) + "\n")
+
+direcciones = sorted(set([o.deDireccion for o in organismos if o.deDireccion]))
+with open("debug/direcciones.txt", "w") as f:
+    for d in direcciones:
+        f.write(d+"\n")
