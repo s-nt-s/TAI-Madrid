@@ -5,10 +5,7 @@ La salida de este proyecto es:
 * Un mapa con los sitios donde hay TAIs:
   * Ver `tai.kml` en este repositorio (también disponible en https://s-nt-s.github.io/TAI-Madrid/mapa/tai.kml) y
   * Google Maps https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
-* Una web con información sobre posibles destinos:
-  * Puestos TAIs más probables, y por provincia: https://s-nt-s.github.io/TAI-Madrid/ (salen menos que en el mapa porque aquí filtramos por nivel y en el mapa no)
-  * Direcciones de los puestos que aparecen en el anterior listado: https://s-nt-s.github.io/TAI-Madrid/direcciones.html
-* Una web con información de los destinos preferidos en convocatorias anteriores: https://s-nt-s.github.io/TAI-Madrid/ranking.html
+* Una [web con información](https://s-nt-s.github.io/TAI-Madrid/) sobre posibles destinos, rankings y direcciones.
 
 # Estructura del proyecto
 
