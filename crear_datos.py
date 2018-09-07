@@ -30,7 +30,7 @@ parser.add_argument(
     '--csic', action='store_true', help='Solo genera la parte de Csic')
 parser.add_argument('--gob', action='store_true',
                     help='Solo genera la parte de administracion.gob.es')
-parser.add_argument('--fusion1', action='store_true',
+parser.add_argument('--fusion', action='store_true',
                     help='Fusionar organismo administracion.gob.es con dir3_E')
 
 args = parser.parse_args()
@@ -613,7 +613,7 @@ if args.gob or args.todo:
     Organismo.save(organismos, name="organismos_gob.es")
 
 
-if args.fusion1 or args.todo:
+if args.fusion or args.todo:
     print ("Fusionando organismo administracion.gob.es con dir3_E")
 
     organismos_dir3_E = Organismo.load(name="organismos_dir3_E", arregla_direcciones=arregla_direcciones)

@@ -6,13 +6,12 @@
 		<meta charset="utf-8"/>
 	</head>
 	<body>
-        <p>Código fuente en <a href="https://github.com/s-nt-s/TAI-Madrid">github.com/s-nt-s/TAI-Madrid</a>.<br/>
-        Se necesita ayuda para completar el listado, ver <a href="https://github.com/s-nt-s/TAI-Madrid/blob/master/README.md">README.md</a></p>
-        <p>Total de vacantes: {{total_vacantes}}</p>
+        {%include "banner.html" %}
+        <p>Por ahora lo que tenemos es:</p>
         <ul>
-		{% for txt, path, vacantes in paths %}
-            <li><span class="vacantes" title="Vacantes">{{vacantes}}</span> <a href="{{path}}">{{txt}}</a></li>
-		{%endfor%}
+            <li>Un mapa en <a href="/mapa/tai.kml">mapa</a> y en <a href="https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8">Google Maps</a></li>
+            <li>Un <a href="/direcciones.html">listado de direcciones</a>, por provincia, para revisarlas más fácilmente y con solo los puestos de menor nivel (por ser más probables de ser ofertados)</li>
+            <li>Un <a href="/ranking.html">ranking</a> de destinos basado en convocatorias pasadas</li>
         </ul>
 	</body>
 </html>
