@@ -824,7 +824,7 @@ for o in organismos:
 
 excluir_rpt = set([o.rcp for o in organismos if o.rcp and o.latlon])
 codigos_tai = codigos_tai - excluir_rpt
-organismos_rpt = [o for o in organismos_rpt if o.idOrganismo in codigos_tai]
+organismos_rpt = [o for o in organismos_rpt if o.isCsic or o.idOrganismo in codigos_tai]
 
 # Si con padre común solo hay un rpt con ese nombre es que es el mismo
 # organismo
@@ -927,8 +927,7 @@ for k, v in cod_dir_latlon.items():
         org.latlon, org.deDireccion = v
         ok = ok + 1
     count = count + 1
-    print("%3d%% completado: %-30s (%s)" %
-          (count * 100 / total, k, ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, k, ok), end="\r")
 print ("")
 
 print ("Normalizando direcciones")
@@ -1087,7 +1086,7 @@ for unidad, provincias in unidades_provincia.items():
 print ("")
 
 tai_latlons = set([o.latlon for o in organismos if o.latlon and o.codigos.intersection(codigos_tai)])
-Organismo.save(organismos)
+Organismo.save(organismos, arregla_direcciones=arregla_direcciones)
 latlons = {}
 direcis = {}
 for o in organismos:

@@ -244,7 +244,6 @@ avenida sevilla malaga, s/n, 41018, sevilla, andalucia, españa
 avenida sierra nevada 20, 18850, granada, andalucia, españa
 avenida simón nieto 10, 34071, palencia, castilla leon, españa
 avenida simón nieto s/n, 34071, palencia, castilla leon, españa
-avenida sinforiano madroñero 12, 06071, badajoz, extremadura, españa
 avenida suevos 14 16, 15350, a coruna, galicia, españa
 avenida taramundi s/n, 27720, lugo, galicia, españa
 avenida tierra llana 34, 27377, lugo, galicia, españa
@@ -811,7 +810,6 @@ calle mossen jacint verdaguer 16, 08221, barcelona, cataluna, españa
 calle muelle cañonero dato s/n, 51071, ceuta, ceuta, españa
 calle muelle de la ampliación (acceso ugaldebieta) 37, 48980, bizkaia, pais vasco, españa
 calle muelle de poniente s/n, 03071, alicante, comunitat valenciana, españa
-calle muelle de poniente s/n, 07015, illes balears, illes balears, españa
 calle muelle de portugal 2, 21710, huelva, andalucia, españa
 calle munguia 2, 35510, las palmas, canarias, españa
 calle muro francisco de la mata 3, 26071, la rioja, la rioja, españa
@@ -992,7 +990,6 @@ calle santo tomas s/n, 16840, cuenca, castilla la mancha, españa
 calle seras 10, 14815, cordoba, andalucia, españa
 calle serradero 26, 26071, la rioja, la rioja, españa
 calle serrano 102, 28071, madrid, comunidad madrid, españa
-calle serrano 117, 28071, madrid, comunidad madrid, españa
 calle serrano 140, 28071, madrid, comunidad madrid, españa
 calle serrano galvache 26, 28071, madrid, comunidad madrid, españa
 calle sevilla 14, 21520, huelva, andalucia, españa
@@ -1077,6 +1074,7 @@ cmno de sevilla 2, 41470, sevilla, andalucia, españa
 cmno de trujillanos s/n, 06190, badajoz, extremadura, españa
 cmno rubin 62, 33011, asturias, principado asturias, españa
 cmno vell del palau s/n, 08740, barcelona, cataluna, españa
+complejo de la moncloa, avenida puerta de hierro, s/n, 28071 madrid
 cra. 36, nº 2 74. plaza santo domingo cartagena de indias, colombia
 ctra a villalba 22, 28260, madrid, comunidad madrid, españa
 ctra abenójar torrijos s/n, 13194, ciudad real, castilla la mancha, españa
@@ -1232,7 +1230,7 @@ paseo castellana 3, 28046, madrid, comunidad madrid, españa
 paseo central s/n, 08830, barcelona, cataluna, españa
 paseo de aguadores 2, 28871, madrid, comunidad madrid, españa
 paseo de chil 299, 35071, las palmas, canarias, españa
-paseo de la castellana 160, 28071, madrid, comunidad madrid, españa
+paseo de la castellana 160, 28046 madrid
 paseo de la castellana 162, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28020, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28046, madrid, comunidad madrid, españa

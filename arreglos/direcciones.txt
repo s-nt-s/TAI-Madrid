@@ -310,6 +310,7 @@ Paseo de la Castellana 160 28046 Madrid (Madrid)
 Paseo de la Castellana 160 28071 Madrid (Madrid)
 Paseo Castellana 160, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 160, 28046, Madrid, Comunidad Madrid, España
+Paseo De la Castellana 160, 28071, Madrid, Comunidad Madrid, España
 
 40.4583429,-3.6893451
 Paseo De la Castellana 162, 28046 Madrid
@@ -346,6 +347,7 @@ Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
 Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
 Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
 Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)
+Complejo de la Moncloa S/N, 28071, Madrid, Comunidad Madrid, España
 
 37.3552204,-5.9673967
 Plaza De España S/N, 41013 Sevilla
@@ -446,8 +448,8 @@ Calle Miguel Ángel 25 28071 Madrid (Madrid)
 40.4412398,-3.6863111
 Calle de Serrano, 117, 28006 Madrid
 Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
-Calle de Serrano, 117, 28006 Madrid
 Serrano, 117 28006 Madrid
+Calle Serrano 117, 28071, Madrid, Comunidad Madrid, España
 
 39.9886397,-0.0437388
 Paseo Ribalta 12, 12004 Castellón de la Plana, Castellón
@@ -456,3 +458,39 @@ Paseo Rivalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/C
 Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
+
+37.1658829,-3.5908020
+Calle Profesor Albareda, 1, 18160 Granada
+Calle Prof. Albareda, 1, 18160 Granada
+C/ PROFESOR ALBAREDA, 1 18008 Granada (Granada)
+
+39.553385,2.625049
+Calle Muelle de Poniente S/N, 07015 Illes Balears
+Carrer Muelle de Poniente, s/n, 07015 Palma de Mallorca, Islas Baleares
+Calle Muelle de Poniente S/N, 07015, Illes Balears, Illes Balears, España
+
+40.4372153,-3.6807443
+Calle María de Molina 50, 28006 Madrid
+Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
+Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España
+Calle María de Molina 50 28006 Madrid (Madrid)
+Calle María de Molina 50 28071 Madrid (Madrid)
+
+38.8669232,-6.9852905
+Avenida Sinforiano Madroñero 12, 06011, Badajoz
+Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+Avda Sinforiano Madroñero 12, 06071, Badajoz, Extremadura, España
+
+37.4022625,-6.0090461
+Calle Américo Vespucio 3, 41092 Sevilla
+Calle Américo Vespucio, 3, 41092 Sevilla
+Calle Américo Vespucio 3, 41071, Sevilla, Andalucia, España
+
+41.6468976,-4.7251021
+Calle Muro 5, 47004 Valladolid
+Calle Muro 5, 47004, Valladolid, Castilla Leon, España
+Calle Muro 5, 47071, Valladolid, Castilla Leon, España
+
+43.3608724,-5.8554928
+Plaza de España, 2, 33007 Oviedo, Asturias
+Plaza De España 2, 33071, Asturias, Principado Asturias, España

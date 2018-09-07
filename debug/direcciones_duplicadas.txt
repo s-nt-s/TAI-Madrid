@@ -14,10 +14,6 @@ plaza san juan de la cruz s/n 28071 madrid (madrid)
 40.4408886,-3.6934286
 40.441279,-3.6938415
 
-serrano, 117 28006 madrid
-40.4412462,-3.6863671
-40.4412987,-3.6864479
-
 28.1126077,-15.4182899
 Plaza De los Derechos Humanos 2 35071 Palmas de Gran Canaria, Las (Palmas, Las)
 Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
@@ -153,11 +149,6 @@ Calle Santa Engracia 7, 28010, Madrid, Comunidad Madrid, España
 Calle Martín Fierro 5 28040 Madrid (Madrid)
 Calle Martín Fierro 5, 28040, Madrid, Comunidad Madrid, España
 
-40.4372153,-3.6807443
-Calle María de Molina 50 28006 Madrid (Madrid)
-Calle María de Molina 50 28071 Madrid (Madrid)
-Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
-
 40.4380323,-3.7203751
 Avenida Reyes Católicos 4 28040 Madrid (Madrid)
 Avenida Reyes Católicos 4 28071 Madrid (Madrid)
@@ -236,10 +227,6 @@ Calle Lérida 32-34 28020 Madrid (Madrid)
 40.454792,-3.6989494
 Calle Infanta Mercedes 31 28020 Madrid (Madrid)
 Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
-
-40.4556126,-3.6917607
-Paseo de la Castellana núm. 109 - 208071
-Paseo de la Castellana, 109 - 28071 Madrid
 
 40.4603502,-3.6926738
 Calle Capitán Haya 41 28046 Madrid (Madrid)

@@ -49,7 +49,13 @@ class Organismo:
                     o.calcular_provincia()
             return col
 
-    def save(col, name="organismos"):
+    def save(col, name="organismos", arregla_direcciones=None):
+        if arregla_direcciones:
+            for o in col:
+                info = arregla_direcciones.get(o.deDireccion, None)
+                if info is not None:
+                    o.latlon, o.deDireccion, o.postCode = info
+                o.calcular_provincia()
         with open("datos/" + name + ".json", "w") as f:
             f.write(Organismo.to_json(col))
 
