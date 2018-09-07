@@ -8,7 +8,7 @@ Ver http://transparencia.gob.es/transparencia/transparencia_Home/index/Publicida
 Los códigos de provincia del INE  
 Ver http://www.ine.es/daco/daco42/codmun/cod_provincia.htm
 
-El listado completo de unidades según `Dir3`  
+El listado completo de unidades y oficinas según `Dir3`  
 Ver https://administracionelectronica.gob.es/ctt/dir3 y
 http://datos.gob.es/es/catalogo/e04990101-directorio-comun-de-unidades-organicas-y-oficinas-dir3
 

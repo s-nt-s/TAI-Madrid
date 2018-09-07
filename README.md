@@ -3,7 +3,7 @@ Nota: El proyecto se llamaba `TAI Madrid` porque al principio era solo de Madrid
 La salida de este proyecto es:
 
 * Un mapa con los sitios donde hay TAIs:
-  * Ver `tai.kml` y
+  * Ver `tai.kml` en este repositorio (también disponible en https://s-nt-s.github.io/TAI-Madrid/mapa/tai.kml) y
   * Google Maps https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
 * Una web con información sobre posibles destinos:
   * Puestos TAIs más probables, y por provincia: https://s-nt-s.github.io/TAI-Madrid/ (salen menos que en el mapa porque aquí filtramos por nivel y en el mapa no)
@@ -52,6 +52,8 @@ Y además los organismos del `CSIC` vienen mejor documentados en `www.csic.es`.
 
 De este modo nuestra primera salida sera `organismos_rpt.json`, `organismos_dir3_E.json`, `organismso_csic.json` y luego fusionaremos todos los organismos equivalentes en uno solo para evitar duplicidades hasta obtener `organinismos.json`.
 
+Adicionalmente, para los organismos que no tienen dirección buscamos todas sus oficinas y si estas tienen dirección y siempre es la misma suponemos que el organismo esta en esa dirección.
+
 ### Fusionando organismos
 
 Usaremos distintos vectores de ataque:
@@ -78,7 +80,7 @@ Nota: En cada paso, solo nos quedaremos con los códigos `E0` en su última vers
 
 ### Direcciones
 
-Tanto para facilitar el paso anterior (recordar que algunas de las fusiones tienen en consideración la dirección del organismos) como para pasos posteriores se usa ficheros de `arreglos` para homogeneizar o corregir direcciones.
+Tanto para facilitar el paso anterior (recordar que algunas de las fusiones tienen en consideración la dirección del organismo) como para pasos posteriores se usa ficheros de `arreglos` para homogeneizar o corregir direcciones.
 
 La lógica es la siguiente:
 
@@ -99,7 +101,7 @@ NOTA: Algunos de estos pasos son redundantes y confusos. Próximamente se mejora
 
 ### Provincias de los organismos
 
-Para pasos posteriores sera útil saber la provincia de un organismo. Para aquellos que tienen código postal es trivial, ya que es sus dos primeros dígitos. Para todos los demás lo que se hace es recorrer todos sus destinos asociados (usando `destions.json`) y si todos estan en la misma provincia se asumen que esa es la provincia del organismos.
+Para pasos posteriores sera útil saber la provincia de un organismo. Para aquellos que tienen código postal es trivial, ya que es sus dos primeros dígitos. Para todos los demás lo que se hace es recorrer todos sus destinos asociados (usando `destions.json`) y si todos estan en la misma provincia se asumen que esa es la provincia del organismo.
 
 # Salida
 
@@ -121,6 +123,27 @@ Las chinchetas se colocan de la siguiente manera:
 * Para cada coordenada en la que hay un organismos se pone una chincheta con todos esos organismos y sus puestos
 
 Adicionalmente se usa un sistema de carpetas y colores para dar más información (ver mapa).
+
+# ¿Quieres ayudar?
+
+## Direcciones sin coordenadas
+
+Hay organismos que no tienen dirección (no hay problema si resulta que están ubicados en la misma dirección que su organismo padre, pero en caso contrario se estarían colocando destinos en lugares equivocados), u organismos que si tienen dirección pero no `latlon`.
+
+La solución es añadir o corregir `data/dir_latlon.txt` o `data/cod_dir_latlon.txt`, por lo tanto seria de mucha ayuda los `pull request` que me mandéis para modificar este archivo. O si os es más cómodo editar el [excel](https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc).
+
+## Direcciones o coordenadas conflictivas o ausentes
+
+En `data/direcciones.csv` se ha generado un `csv` (con tabulador por separador) donde se puede ver los organismos (indicados por su código `RCP`) que aparezcan en `organismos.json` (y por ende en el mapa) y en el [excel](https://docs.google.com/spreadsheets/d/18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc) con dirección y coordenadas, y la distancia en metros entre ambas direcciones.
+
+En algunos casos son manifiestamente contradictorias. Habría que revisar cual es la buena.
+
+La solución es añadir o corregir lineas en el fichero `data/cod_dir_latlon.txt`, por lo tanto seria de mucha ayuda los `pull request` que me mandéis par modificar este archivo. 
+
+## Hacer un mapa interactivo de verdad
+
+Lo dicho, hacer un mapa interactivo de verdad, con buscador, filtros, etc.
+Es decir, más `pull request`.
 
 ---------
 
