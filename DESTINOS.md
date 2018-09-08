@@ -109,7 +109,7 @@ es plan reventarles el buzón de correo)
 
 - Lanzamos el script sin esperar respuesta, que vete tu a saber cuanto tardan
 
-- Se empieza ya a rellenara a mano el excel
+- Se empieza ya a rellenara a mano el excel colaborativamente
 
 - Si responde se vuelve a lanzar y se actualiza el excel
 
