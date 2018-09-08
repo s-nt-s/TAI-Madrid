@@ -921,7 +921,6 @@ calle ramírez de arellano 29, 28071, madrid, comunidad madrid, españa
 calle ramón y cajal 1, 13001, avila, castilla leon, españa
 calle ramón y cajal s/n, 15071, a coruna, galicia, españa
 calle rector lucena 12 18, 37001, salamanca, castilla leon, españa
-calle restauradores 1, 18071, granada, andalucia, españa
 calle rey don jaime 18, 46016, valencia, comunitat valenciana, españa
 calle rey juan carlos i s/n, 11650, cadiz, andalucia, españa
 calle reyes católicos 5, 18517, granada, andalucia, españa

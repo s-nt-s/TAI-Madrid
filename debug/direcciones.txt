@@ -66,6 +66,7 @@ Av. Figueroa Alcorta 3102, 1º piso. Buenos Aires, Argentina
 Av. Mohedano, entre la 1.ª y 2.ª Caracas, Venezuela Republica Bolivariana de
 Av. Victor Andrés Belaúnde 147 Lima, Peru
 Av. das Naçoes Qtl.81, Lt. 44. 70429 900 Brasilia, Brasil
+Av. de Pulianas, 36, 18011 GRANADA
 Av.Marqués de Sotelo 8 y 10, 46002 VALENCIA
 Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
 Avda 18 de Julio 15, 10280, Caceres, Extremadura, España
@@ -5107,7 +5108,7 @@ Calle Republica Argentina 29, 15680, A Coruna, Galicia, España
 Calle Republica de Argentina 4, 07760, Illes Balears, Illes Balears, España
 Calle República Argentina 4, 07760, Illes Balears, Illes Balears, España
 Calle Respuela 2, 39100, Cantabria, Cantabria, España
-Calle Restauradores 1, 18071, Granada, Andalucia, España
+Calle Restauradores, 1, 18006 GRANADA
 Calle Restoñal 50, 15702, A Coruna, Galicia, España
 Calle Retama 8, 28045, Madrid, Comunidad Madrid, España
 Calle Reu 25, 21660, Huelva, Andalucia, España
@@ -7718,6 +7719,7 @@ Psaje De la Horca 1, 29240, Malaga, Andalucia, España
 Psaje Josep Carner 27, 08038, Barcelona, Cataluna, España
 Puerta la Villa 24, 14430, Cordoba, Andalucia, España
 Puerto de la Cruz S/N, 29690, Malaga, Andalucia, España
+Pza. San Juan de la Cruz, 26, 18009 GRANADA
 R DOMINGOS MARREIROS, 2031, SALA 103 Belem, Brasil
 R. Barata Salgueiro 28, 1250 042 Lisboa, Portugal
 Rambla Mendez Nuñez 1 03002 Alicante/Alacant (Alacant/Alicante)

@@ -7,7 +7,6 @@
 #
 # Este fichero se alimenta manualmente revisando:
 # debug/direcciones_duplicadas.txt
-#
 ###########
 
 27.9331848,-15.3877066

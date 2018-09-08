@@ -1,3 +1,14 @@
+###########
+# Sobreescribe las direcciones y coordenadas de una unidad
+# El formato es:
+#
+# ID unidad     Coordenadas     Dirección
+#
+# El separador entre campos es un grupo de dos o más espacios simples
+# (no tabulador)
+###########
+
+
 30281   40.4124906,-3.72211     Paseo Bajo de la Virgen del Puerto, 3, 28005 Madrid
 30280   40.3929345,-3.7049173   Antonio López, 81, 28026 Madrid
 46799   40.5555043,-3.7094297   Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
@@ -92,8 +103,8 @@
 
 # http://www.ejercito.mde.es/unidades/Sevilla/suigesur/Organizacion/index.html
 # http://www.diaper.ejercito.mde.es/apoyo/ofap/granada/
-28191	37.175075,-3.596593	Pza. San Juan de la Cruz, 26, 18009 GRANADA
-47226	37.193729,-3.604185	Av. de Pulianas, 36, 18011 GRANADA
+28191   37.175075,-3.596593     Pza. San Juan de la Cruz, 26, 18009 GRANADA
+47226   37.193729,-3.604185     Av. de Pulianas, 36, 18011 GRANADA
 
 # https://github.com/s-nt-s/TAI-Madrid/pull/13 (o columna direccion1 en pestaña direcciones del excel colaborativo del proyecto)
-36431	37.156500,-3.606610	c/ Restauradores, 1, 18006 GRANADA
+36431   37.156500,-3.606610     Calle Restauradores, 1, 18006 GRANADA
