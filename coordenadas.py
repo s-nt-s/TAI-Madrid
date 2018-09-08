@@ -10,7 +10,7 @@ from stem import Signal
 from stem.control import Controller
 
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
-                 simplificar_dire, yaml_from_file, yaml_to_file)
+                 simplificar_dire, yaml_from_file, yaml_to_file, get_cod_dir_latlon)
 
 proxies = {'http': 'socks5://127.0.0.1:9050',
            'https': 'socks5://127.0.0.1:9050'}
@@ -35,7 +35,6 @@ direcciones = dict_from_txt("arreglos/dir_latlon.txt",
 
 nm = Nominatim(country_bias="ESP")
 
-
 def geocode(direccion, intento=0):
     if intento == 0:
         # time.sleep(3)
@@ -56,6 +55,18 @@ def geocode(direccion, intento=0):
     if l is None:
         return None
     return Bunch(latitude=l['lat'], longitude=l['lng'], address=r['formatted_address'])
+
+cod_dir_latlon = [(k, v[1]) for k, v in get_cod_dir_latlon().items() if v[0] is None]
+if len(cod_dir_latlon)>0:
+    print ("Calculando coordenadas faltantes en cod_dir_latlon (%s)" % len(cod_dir_latlon))
+    for k, d in sorted(cod_dir_latlon):
+        l = geocode(d)
+        if l:
+            l = str(l.latitude) + "," + str(l.longitude)
+        else:
+            l = ""
+        print ("%s    %s    %s" % (k, l, d))
+    print ("")
 
 codigos_tai = set()
 for p in Puesto.load():
@@ -79,10 +90,10 @@ for cod, prov in provincias.items():
             last_ok = prov
             ok += 1
     count += 1
-    print("%3d%% completado: %-50s (%s) %-50s" %
+    print("%3d%% completado: %-25s (%s) %-25s" %
           (count * 100 / total, prov, ok, last_ok + "   "), end="\r")
-
 print ("")
+
 save_coordenadas(direcciones)
 
 direcciones_falta = set([(o.deDireccion, o.dire, o.postCode)
@@ -95,7 +106,7 @@ last_ok = ""
 print ("Calculando coordenadas de organismos (%s)" % total)
 for d1, d2, p in direcciones_falta:
     count += 1
-    print("%3d%% completado: %-50s (%s) %-50s" %
+    print("%3d%% completado: %-25s (%s) %-25s" %
           (count * 100 / total, d1[:30], ok, last_ok + "   "), end="\r")
     if d2 in direcciones:
         continue

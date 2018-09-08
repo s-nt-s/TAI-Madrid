@@ -51,25 +51,6 @@
 39.4884333,2.88947150000001    7
 41.3828939,2.1774322    8
 42.343926,-3.696977    9
-40.4476311,-3.6934366   Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
-40.4141843,-3.7297731   Avda Portugal 81, 28011, Madrid, Comunidad Madrid, España
-40.418434, -3.714182   Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
-40.4369469,-3.6914732   Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
-40.4086668,-3.6906518   Paseo PASEO DE INFANTA ISABEL 1, 28014, Madrid, Comunidad Madrid, España
-40.4079379,-3.6945986   Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
-40.4235178,-3.6895604   Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
-40.4133967,-3.694118    Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
-43.3817338,-8.3999228   Paseo Marítimo Alcalde Francisco Vázquez 10, 15001, A Coruna, Galicia, España
-36.4167197,-5.1540507   Calle Puerto Pesquero s/n, 29640, Malaga, Andalucia, España
-40.4234912,-3.6893974   Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
-40.4079189,-3.6945566     Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
-40.447429,-3.6932527      Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
-40.4176416,-3.7013019     Calle Alcalá 9, 28071, Madrid, Comunidad Madrid, España
-40.4241396,-3.7076358     Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
-40.4176416,-3.7013019     Calle Alcala 9, 28071, Madrid, Comunidad Madrid, España
-40.4289647,-3.696776      Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España
-40.4583429,-3.6893451     Paseo De la Castellana 162, 28036, Madrid, Comunidad Madrid, España
-40.4369226,-3.6914243     Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
 42.431318,1.4670126    aduana de la farga de moles s/n, 25799, lleida, cataluna, españa
 40.4521586,-3.562635    aeropuerto de barajas s/n, 28042, madrid, comunidad madrid, españa
 38.8940384,1.4106189    aeropuerto ibiza s/n, 07800, illes balears, illes balears, españa
@@ -1204,6 +1185,7 @@
 40.4173141,-3.7018497    calle alcala 5, 28014, madrid, comunidad madrid, españa
 40.41954310000001,-3.690349    calle alcala 56, 28014, madrid, comunidad madrid, españa
 40.41744,-3.7013596    calle alcala 7 9, 28014, madrid, comunidad madrid, españa
+40.4176416,-3.7013019    calle alcala 9, 28071, madrid, comunidad madrid, españa
 40.4115999,0.4282053    calle alcala de chivert 150, 12580, castellon, comunitat valenciana, españa
 37.0998006,-4.97715    calle alcalde antonio rueda 131, 41657, sevilla, andalucia, españa
 42.0511281,-8.6466903    calle alcalde casal aboy 19, 36700, pontevedra, galicia, españa
@@ -1226,6 +1208,7 @@
 40.4173141,-3.7018497    calle alcalá 5, 28014, madrid, comunidad madrid, españa
 40.41954310000001,-3.690349    calle alcalá 56, 28014, madrid, comunidad madrid, españa
 40.41744,-3.7013596    calle alcalá 7 y 9, 28014, madrid, comunidad madrid, españa
+40.4176416,-3.7013019    calle alcalá 9, 28071, madrid, comunidad madrid, españa
 43.4828954,-3.522761    calle alcarite 5, 39180, cantabria, cantabria, españa
 38.5215559,-6.8508064    calle alcarrache 2, 06160, badajoz, extremadura, españa
 36.8829517,-2.4437206    calle alcazaba de almeria 28, 04230, almeria, andalucia, españa
@@ -2563,6 +2546,7 @@
 37.2580821,-6.9527109    calle josé leandro muñoz; esq. avenida de méjico 21001 s/n, 21001, huelva, andalucia, españa
 41.6515339,-0.8885892    calle josé luís albareda 18, 50004, zaragoza, aragon, españa
 40.4575426,-3.686082    calle josé lázaro galdeano 6, 28036, madrid, comunidad madrid, españa
+40.4289647,-3.696776    calle josé marañón 12, 29071, madrid, comunidad madrid, españa
 43.363865,-5.8738795    calle josé maría martínez cachero 17 21, 33012, asturias, principado asturias, españa
 43.3047878,-1.9804958    calle josé maría salaberría s/n, 20010, gipuzkoa, pais vasco, españa
 38.91725,-6.339565    calle josé ramón mélida s/n, 06800, badajoz, extremadura, españa
@@ -2964,6 +2948,7 @@
 42.4314817,-8.645750099999999    calle michelena 28, 36002, pontevedra, galicia, españa
 41.9742915,2.8202735    calle migdia 50 54, 17002, girona, cataluna, españa
 40.4363424,-3.691471699999999    calle miguel angel 23, 28010, madrid, comunidad madrid, españa
+40.4369226,-3.6914243    calle miguel angel 25, 28071, madrid, comunidad madrid, españa
 39.5903944,2.6510579    calle miguel capllonch 12, 07010, illes balears, illes balears, españa
 37.4089352,-4.4935045    calle miguel cruz cuenca 15, 14900, cordoba, andalucia, españa
 37.4089854,-4.4934882    calle miguel cruz cuenca s/n, 14900, cordoba, andalucia, españa
@@ -3336,6 +3321,7 @@
 37.2588102,-6.955100499999999    calle puerto 50, 21001, huelva, andalucia, españa
 40.3015396,-3.9250666    calle puerto de navacerrada 2, 28939, madrid, comunidad madrid, españa
 43.273978,-5.5892992    calle puerto el pino 9, 33960, asturias, principado asturias, españa
+36.4167197,-5.1540507    calle puerto pesquero s/n, 29640, malaga, andalucia, españa
 41.5949144,2.4069152    calle pujada del castell s/n, 08319, barcelona, cataluna, españa
 38.0266178,-0.6547075    calle purificacion 8, 03188, alicante, comunitat valenciana, españa
 42.2481098,-8.7005923    calle purificacion saavedra 9, 36207, pontevedra, galicia, españa
@@ -3573,6 +3559,7 @@
 38.36811545,-2.31833853041199    calle san bartolome 7, 02480, albacete, castilla la mancha, españa
 42.1139575,-1.7879227    calle san benito cv fitero 2, 31591, navarra, comunidad foral navarra, españa
 40.4241396,-3.7076358    calle san bernardo 45, 28015, madrid, comunidad madrid, españa
+40.4241396,-3.7076358    calle san bernardo 45, 28071, madrid, comunidad madrid, españa
 42.5761906,-0.5501649    calle san bernardo s/n, 22700, huesca, aragon, españa
 40.2990854,-4.1112119    calle san blas 16, 28610, madrid, comunidad madrid, españa
 41.5204999,1.7478491    calle san bonifaci 55, 08784, barcelona, cataluna, españa
@@ -3706,6 +3693,7 @@
 41.9814795,2.8167169    calle santa eugenia 40, 17005, girona, cataluna, españa
 43.0327613,-7.794504099999999    calle santa isabel 15, 27220, lugo, galicia, españa
 40.4107086,-3.6982328    calle santa isabel 32, 28012, madrid, comunidad madrid, españa
+40.4079189,-3.6945566    calle santa isabel 52, 28012, madrid, comunidad madrid, españa
 42.2605506,2.9615245    calle santa llogaia 60 62, 17600, girona, cataluna, españa
 41.8368817,2.8093961    calle santa maria 11, 17455, girona, cataluna, españa
 38.0240041,-1.1213008    calle santa maria 2, 30110, murcia, region murcia, españa
@@ -4436,6 +4424,7 @@
 40.4555839,-3.691453    paseo de la castellana 109, 28071, madrid, comunidad madrid, españa
 40.4281763,-3.689167    paseo de la castellana 14, 28046, madrid, comunidad madrid, españa
 40.4579287,-3.6888691    paseo de la castellana 160, 28046, madrid, comunidad madrid, españa
+40.4583429,-3.6893451    paseo de la castellana 162, 28036, madrid, comunidad madrid, españa
 40.4584552,-3.6896113    paseo de la castellana 162, 28046, madrid, comunidad madrid, españa
 40.4639201,-3.69017    paseo de la castellana 183, 28046, madrid, comunidad madrid, españa
 40.46997349999999,-3.6886467    paseo de la castellana 209, 28046, madrid, comunidad madrid, españa
@@ -4443,6 +4432,7 @@
 40.4337426,-3.6876648    paseo de la castellana 44, 28046, madrid, comunidad madrid, españa
 40.4422526,-3.6921924    paseo de la castellana 63, 28046, madrid, comunidad madrid, españa
 40.4435818,-3.6935795    paseo de la castellana 67, 28046, madrid, comunidad madrid, españa
+40.447429,-3.6932527    paseo de la castellana 75, 28071, madrid, comunidad madrid, españa
 28.37558,-16.70799    paseo de la centinela 56, 38430, santa cruz tenerife, canarias, españa
 42.5511014,-3.319925    paseo de la epitafia 1, 09240, burgos, castilla leon, españa
 40.7115644,-3.9867141    paseo de la ermita 42, 28490, madrid, comunidad madrid, españa
@@ -4488,6 +4478,7 @@
 43.5469581,-6.532974599999999    paseo del muelle s/n, 33700, asturias, principado asturias, españa
 40.530029,-3.7808334    paseo del pardo 43, 28048, madrid, comunidad madrid, españa
 40.4185409,-3.6925902    paseo del prado 1, 28014, madrid, comunidad madrid, españa
+40.4133967,-3.694118    paseo del prado 18 20, 28071, madrid, comunidad madrid, españa
 40.4133967,-3.694118    paseo del prado 18 y 20, 28014, madrid, comunidad madrid, españa
 41.3302757,-1.7915797    paseo del prado 2, 50200, zaragoza, aragon, españa
 40.4119963,-3.693416099999999    paseo del prado 28, 28014, madrid, comunidad madrid, españa
@@ -4524,6 +4515,7 @@
 36.4763312,-5.1640605    paseo maestro vert s/n, 29680, malaga, andalucia, españa
 36.7038675,-4.464527599999999    paseo maritimo s/n 59, 29006, malaga, andalucia, españa
 41.6524717,-0.8914867    paseo maría agustín 34, 50004, zaragoza, aragon, españa
+43.3817338,-8.3999228    paseo marítimo alcalde francisco vázquez 10, 15001, a coruna, galicia, españa
 35.2886392,-2.9370488    paseo marítimo alcalde rafael ginel cañamaque 5, 52004, melilla, melilla, españa
 42.2630177,-8.7830211    paseo marítimo, 8, 36940, pontevedra, galicia, españa
 41.1611816,1.1022317    paseo mata 5, 43202, tarragona, cataluna, españa
@@ -4533,6 +4525,7 @@
 40.4086372,-3.6906168    paseo paseo de infanta isabel 1, 28014, madrid, comunidad madrid, españa
 40.4133967,-3.694118    paseo prado 18 20, 28014, madrid, comunidad madrid, españa
 42.2873918,-4.1389772    paseo puerta del monte 8, 09110, burgos, castilla leon, españa
+40.4234912,-3.6893974    paseo recoletos 20 22, 28071, madrid, comunidad madrid, españa
 40.42417315,-3.68548726497414    paseo recoletos 20, 28001, madrid, comunidad madrid, españa
 39.98863970000001,-0.0437388    paseo ribalta 12, 12004, castellon, comunitat valenciana, españa
 38.9839837,1.5339654    paseo s'alamera 12, 07840, illes balears, illes balears, españa

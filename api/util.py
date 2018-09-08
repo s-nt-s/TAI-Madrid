@@ -60,8 +60,8 @@ def get_cod_dir_latlon():
     cod_dir_latlon = dict_from_txt("arreglos/cod_dir_latlon.txt")
     for k in list(cod_dir_latlon.keys()):
         v = cod_dir_latlon[k]
-        if len(v)==1:
-            cod_dir_latlon[k] = (None, v[0])
+        if isinstance(v, str):
+            cod_dir_latlon[k] = (None, v)
     return cod_dir_latlon
 
 def yaml_from_file(f):

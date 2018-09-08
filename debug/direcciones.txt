@@ -67,6 +67,7 @@ Av. Mohedano, entre la 1.ª y 2.ª Caracas, Venezuela Republica Bolivariana de
 Av. Victor Andrés Belaúnde 147 Lima, Peru
 Av. das Naçoes Qtl.81, Lt. 44. 70429 900 Brasilia, Brasil
 Av. de Pulianas, 36, 18011 GRANADA
+Av. de las Fuerzas Armadas, s/n, 50300 Calatayud, Zaragoza
 Av.Marqués de Sotelo 8 y 10, 46002 VALENCIA
 Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
 Avda 18 de Julio 15, 10280, Caceres, Extremadura, España
@@ -1957,6 +1958,7 @@ Calle Antonio Diego Manteca 2, 39680, Cantabria, Cantabria, España
 Calle Antonio Epalza B C 1, 48450, Bizkaia, Pais Vasco, España
 Calle Antonio Fernandez 18, 10680, Caceres, Extremadura, España
 Calle Antonio Gaudí 4 14005 Córdoba (Córdoba)
+Calle Antonio López, 1, 39009 Santander, Cantabria
 Calle Antonio Machado 1, 02611, Albacete, Castilla La Mancha, España
 Calle Antonio Machado 10, 14850, Cordoba, Andalucia, España
 Calle Antonio Machado 13, 18680, Granada, Andalucia, España
@@ -3821,6 +3823,7 @@ Calle Juan de Herrera 5, 03203, Alicante, Comunitat Valenciana, España
 Calle Juan de Labrit 6, 31350, Navarra, Comunidad Foral Navarra, España
 Calle Juan de Mena 4 28014 Madrid (Madrid)
 Calle Juan de Mena 4, 28014, Madrid, Comunidad Madrid, España
+Calle Juan de Mena, 1, 28014 Madrid
 Calle Juan de Toledo 2, 28200, Madrid, Comunidad Madrid, España
 Calle Juan de Vera 10 28045 Madrid (Madrid)
 Calle Juan de la Vera 8 - 10 28045 Madrid (Madrid)
@@ -5986,6 +5989,7 @@ Calle chantada 1, 27004, Lugo, Galicia, España
 Calle das Pontes (Vial A) 4, oficina 2.02, 36350, Pontevedra, Galicia, España
 Calle de Alfonso XII 3, 28014 Madrid
 Calle de Fortuny, 4, 28010 Madrid
+Calle de San Francisco, 25, 40001 Segovia
 Calle de Serrano, 115, 28006 Madrid
 Calle de Serrano, 117, 28006 Madrid
 Calle de los Madrazo 38 28014 Madrid (Madrid)
@@ -6637,6 +6641,7 @@ Hong Kong
 Horts Dels Jurats 38, 07740, Illes Balears, Illes Balears, España
 Hungría
 Iberia S/N, 30880, Murcia, Region Murcia, España
+Ibáñez de Bilbao Kalea, 22, 48009 Bilbo, Bizkaia
 Illes Canaries 22, 07180, Illes Balears, Illes Balears, España
 India
 Indonesia
@@ -6762,6 +6767,7 @@ Paseo Alcalde Rafael Ginel s/n, 52001, Melilla, Melilla, España
 Paseo Alcañiz 10, 44570, Teruel, Aragon, España
 Paseo Alcobendas 10, 28109, Madrid, Comunidad Madrid, España
 Paseo Alfonso X el Sabio 6 30008 Murcia (Murcia)
+Paseo Alfonso XII, s/n, 30201 Cartagena, Murcia
 Paseo Almenilla 4, 41310, Sevilla, Andalucia, España
 Paseo Andreu Sin 51, 08016, Barcelona, Cataluna, España
 Paseo Angel Guimera 16, 25065, Lleida, Cataluna, España
@@ -7379,6 +7385,7 @@ Plaza España s/n, 36002, Pontevedra, Galicia, España
 Plaza España s/n, 41071, Sevilla, Andalucia, España
 Plaza España, 6 5, 02520, Albacete, Castilla La Mancha, España
 Plaza España, Torre Norte S/N, 41071, Sevilla, Andalucia, España
+Plaza España, s/n, 36920 Marín, Pontevedra
 Plaza Esperanto 1, 08860, Barcelona, Cataluna, España
 Plaza Estacion 11, 27880, Lugo, Galicia, España
 Plaza Estrella 3, 36201, Pontevedra, Galicia, España

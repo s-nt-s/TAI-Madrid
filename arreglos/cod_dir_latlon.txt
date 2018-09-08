@@ -6,6 +6,8 @@
 #
 # El separador entre campos es un grupo de dos o más espacios simples
 # (no tabulador)
+#
+# Se puede omitir las coordenadas, pero no es recomendable
 ###########
 
 
@@ -17,10 +19,18 @@
 49031   40.4078464,-3.6861369   Calle de Alfonso XII 3, 28014 Madrid
 27646   40.4111064,-3.6911267   Plaza de Murillo, 2 28014 Madrid (Madrid)
 
-# Wikipedia
+# Wikipedia/Google
 28743   37.600311,-0.988611     Calle Real, 26, 30201 Cartagena, Murcia
 28870   43.4797,-8.2371         Rúa Argüelles, 4, 15401 Ferrol, A Coruña
 28978   36.495833,-6.177222     Carretera de la Carraca, s/n - Población Militar de San Carlos
+49038   37.604675,-0.992708     Paseo Alfonso XII, s/n, 30201 Cartagena, Murcia
+28248   41.354167,-1.631389     Av. de las Fuerzas Armadas, s/n, 50300 Calatayud, Zaragoza
+28246   40.9459991,-4.117641    Calle de San Francisco, 25, 40001 Segovia
+28633   40.4173597,-3.6889892   Calle Juan de Mena, 1, 28014 Madrid
+28782   42.3942491,-8.7053760   Plaza España, s/n, 36920 Marín, Pontevedra
+28783   43.4569008,-3.8093256   Calle Antonio López, 1, 39009 Santander, Cantabria
+28784   43.2635661,-2.92945     Ibáñez de Bilbao Kalea, 22, 48009 Bilbo, Bizkaia
+
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
