@@ -18,6 +18,10 @@ plaza san juan de la cruz s/n 28071 madrid (madrid)
 Plaza De los Derechos Humanos 2 35071 Palmas de Gran Canaria, Las (Palmas, Las)
 Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
 
+38.8834145,-7.0052862
+Calle Almendralejo S/N, 06071, Badajoz, Extremadura, España
+Ronda Del Pilar 10, 06071, Badajoz, Extremadura, España
+
 38.9269573,1.4144827
 Avda Bartolomé Roselló 21, 07800, Illes Balears, Illes Balears, España
 Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
@@ -29,6 +33,10 @@ Avda Vicente Blasco Ibáñez 48, 46010, Valencia, Comunitat Valenciana, España
 39.5902242,2.6510362
 Calle Gaspar Sabater 3, 07010, Illes Balears, Illes Balears, España
 Calle Gaspar de Sabater 3, 07010, Illes Balears, Illes Balears, España
+
+39.5903944,2.6510579
+Calle Miguel Capllonch 12 07010 Palma (Illes Balears)
+Calle Miguel Capllonch 12, 07010, Illes Balears, Illes Balears, España
 
 39.8902872,4.2650347
 Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
@@ -335,6 +343,10 @@ Avda Simón Nieto 8, 34005, Palencia, Castilla Leon, España
 42.1364007,-0.4086198
 Plaza Navarra 11 22002 Huesca (Huesca)
 Praza Navarra 11, 22002, Huesca, Aragon, España
+
+42.1409393,-0.4154599
+Plaza Luis Buñuel 3, 22003, Huesca, Aragon, España
+Plaza Luís Buñuel 3, 22003, Huesca, Aragon, España
 
 42.3416127,-7.8646634
 Calle Parque de San Lázaro 1 32003 Ourense (Ourense)
