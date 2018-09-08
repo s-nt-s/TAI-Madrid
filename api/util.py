@@ -56,6 +56,13 @@ def dict_from_txt(f, rever=False, parse_key=None):
             d[k] = v
     return d
 
+def get_cod_dir_latlon():
+    cod_dir_latlon = dict_from_txt("arreglos/cod_dir_latlon.txt")
+    for k in list(cod_dir_latlon.keys()):
+        v = cod_dir_latlon[k]
+        if len(v)==1:
+            cod_dir_latlon[k] = (None, v[0])
+    return cod_dir_latlon
 
 def yaml_from_file(f):
     with open(f) as y:

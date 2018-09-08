@@ -493,3 +493,11 @@ Calle Muro 5, 47071, Valladolid, Castilla Leon, España
 43.3608724,-5.8554928
 Plaza de España, 2, 33007 Oviedo, Asturias
 Plaza De España 2, 33071, Asturias, Principado Asturias, España
+
+43.36032,-5.85379
+Plaza de España, 3, 33007 Oviedo, Asturias
+Plaza De España 3, 33071, Asturias, Principado Asturias, España
+
+43.2638984,-2.9383273
+Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
+Calle Gran Vía 50, 48011, Bizkaia, Pais Vasco, España

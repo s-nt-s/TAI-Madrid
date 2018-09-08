@@ -14,7 +14,7 @@ import xlrd
 
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
                  get_direcciones_txt, simplificar_dire, soup_from_file,
-                 yaml_from_file)
+                 yaml_from_file, get_cod_dir_latlon)
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -923,7 +923,7 @@ for o in organismos:
             rcp_organi[c] = o
 
 print ("Asignando direcciones manuales")
-cod_dir_latlon = dict_from_txt("arreglos/cod_dir_latlon.txt")
+cod_dir_latlon = get_cod_dir_latlon()
 total = len(cod_dir_latlon)
 count = 0
 ok = 0

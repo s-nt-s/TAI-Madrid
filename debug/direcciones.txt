@@ -3420,7 +3420,6 @@ Calle Gran Vía 23, 18071, Granada, Andalucia, España
 Calle Gran Vía 31 37001 Salamanca (Salamanca)
 Calle Gran Vía 31, 37001, Salamanca, Castilla Leon, España
 Calle Gran Vía 33 Pta Baja 37001 Salamanca (Salamanca)
-Calle Gran Vía 50, 48011, Bizkaia, Pais Vasco, España
 Calle Gran Vía 89, 48011, Bizkaia, Pais Vasco, España
 Calle Gran Vía Colón 14 18010 Granada (Granada)
 Calle Gran Vía D. Diego Lope de Haro 50, 48071, Bizkaia, Pais Vasco, España
@@ -5085,6 +5084,7 @@ Calle Real S/N, 42320, Soria, Castilla Leon, España
 Calle Real de San Sebastian 3, 28690, Madrid, Comunidad Madrid, España
 Calle Real de Villafranca 44, 41720, Sevilla, Andalucia, España
 Calle Real de la Feria S/N, 21840, Huelva, Andalucia, España
+Calle Real, 26, 30201 Cartagena, Murcia
 Calle Reconquista 3, 33320, Asturias, Principado Asturias, España
 Calle Rectivia S/N, 24740, Leon, Castilla Leon, España
 Calle Rector Lopez Argueta 23 18001 Granada (Granada)
@@ -6125,6 +6125,7 @@ Carretera Vegadeo-Pontevedra S/N 27560 Monterroso (Lugo)
 Carretera de Ajalvir Km. 4 28850 Torrejón de Ardoz (Madrid)
 Carretera de Porzuna 1 13071 Ciudad Real (Ciudad Real)
 Carretera de Taliarte s/n 35200 Telde (Palmas, Las)
+Carretera de la Carraca, s/n - Población Militar de San Carlos
 Carretera de la Ribera S/N 21007 Huelva (Huelva)
 Carretera de la Sierra s/n 28048 Madrid (Madrid)
 Carretera del Cobre Km. 4,5 11206 Algeciras (Cádiz)
@@ -6611,6 +6612,7 @@ Ghana
 Glorieta Blas Infante s/n 23006 Jaén (Jaén)
 Glorieta Zona Franca S/N 11011 Cádiz (Cádiz)
 Gran Vía de Colón, 23, 18001 GRANADA
+Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
 Gran Vía de Jaume I 47, 17071, Girona, Cataluna, España
 Grecia
 Grupo la Union S/N, 12600, Castellon, Comunitat Valenciana, España
@@ -7168,7 +7170,6 @@ Plaza De España 2, 06200, Badajoz, Extremadura, España
 Plaza De España 21, 41567, Sevilla, Andalucia, España
 Plaza De España 27, 02002, Albacete, Castilla La Mancha, España
 Plaza De España 3 33007 Oviedo (Asturias)
-Plaza De España 3, 33071, Asturias, Principado Asturias, España
 Plaza De España 4 33007 Oviedo (Asturias)
 Plaza De España 5, 21740, Huelva, Andalucia, España
 Plaza De España 6 33007 Oviedo (Asturias)
@@ -7637,6 +7638,7 @@ Plaza de Castilla-León 1 49015 Zamora (Zamora)
 Plaza de España 17 11006 Cádiz (Cádiz)
 Plaza de España s/n 36002 Pontevedra (Pontevedra)
 Plaza de España, 2, 33007 Oviedo, Asturias
+Plaza de España, 3, 33007 Oviedo, Asturias
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
 Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
 Plaza de Murillo, 2 28014 Madrid (Madrid)
@@ -7789,6 +7791,7 @@ Ronda del Pilar 8, 06004 Badajoz
 Rua de Espanha, 1 Praia, Cabo Verde
 Rumania
 Rusia, (la) Federación de
+Rúa Argüelles, 4, 15401 Ferrol, A Coruña
 Rúa Pintor Corredoira 1 27002 Lugo (Lugo)
 Rúa Rua do Porto 21 36780 Guarda, A (Pontevedra)
 Rúa Rúa do Porto 29-31 27880 Burela (Lugo)

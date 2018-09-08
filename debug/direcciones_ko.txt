@@ -613,7 +613,6 @@ calle gran via 25 27, 36204, pontevedra, galicia, españa
 calle gran via 50, 48011, bizkaia, pais vasco, españa
 calle gran via diego lopez de haro 50, 48011, bizkaia, pais vasco, españa
 calle gran vía 23, 18071, granada, andalucia, españa
-calle gran vía 50, 48011, bizkaia, pais vasco, españa
 calle gran vía 89, 48011, bizkaia, pais vasco, españa
 calle gran vía d. diego lope de haro 50, 48071, bizkaia, pais vasco, españa
 calle gran vía don diego lópez de haro 62, 48071, bizkaia, pais vasco, españa
@@ -1284,7 +1283,6 @@ plaza de belén maría s/n, 35007, las palmas, canarias, españa
 plaza de castilla y león s/n, 49014, zamora, castilla leon, españa
 plaza de españa 19, 11071, cadiz, andalucia, españa
 plaza de españa 2, 06171, badajoz, extremadura, españa
-plaza de españa 3, 33071, asturias, principado asturias, españa
 plaza de españa s/n, 36002, pontevedra, galicia, españa
 plaza de hernán cortés 3, 10007, caceres, extremadura, españa
 plaza de irun s/n, 20011, gipuzkoa, pais vasco, españa
