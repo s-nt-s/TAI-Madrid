@@ -7,6 +7,9 @@ La salida de este proyecto es:
   * Google Maps https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8
 * Una [web con información](https://s-nt-s.github.io/TAI-Madrid/) sobre posibles destinos, rankings y direcciones.
 
+Y próximamente: __Un mapa y listado con solo la oferta de destinos de la convocatoria 2017__.
+**Este tema - el de la convocatoria 2017 - se trata en detalle en DESTINOS.md**
+
 # Estructura del proyecto
 
 Las carpetas principales son:
