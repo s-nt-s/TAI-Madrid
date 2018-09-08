@@ -89,3 +89,11 @@
 
 # https://www.mecd.gob.es/servicios-al-ciudadano-mecd/catalogo/educacion/gestion-titulos/estudios-universitarios/titulos-extranjeros/homologacion-educacion-superior.html
 30187   40.4457351,-3.655064    Calle Torrelaguna 58, 28071 Madrid
+
+# http://www.ejercito.mde.es/unidades/Sevilla/suigesur/Organizacion/index.html
+# http://www.diaper.ejercito.mde.es/apoyo/ofap/granada/
+28191	37.175075,-3.596593	Pza. San Juan de la Cruz, 26, 18009 GRANADA
+47226	37.193729,-3.604185	Av. de Pulianas, 36, 18011 GRANADA
+
+# https://github.com/s-nt-s/TAI-Madrid/pull/13 (o columna direccion1 en pestaña direcciones del excel colaborativo del proyecto)
+36431	37.156500,-3.606610	c/ Restauradores, 1, 18006 GRANADA
