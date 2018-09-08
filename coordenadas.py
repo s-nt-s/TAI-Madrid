@@ -9,8 +9,8 @@ from geopy.geocoders import Nominatim
 from stem import Signal
 from stem.control import Controller
 
-from api import (Organismo, Puesto, dict_from_txt, simplificar_dire,
-                 yaml_from_file, yaml_to_file, Descripciones)
+from api import (Descripciones, Organismo, Puesto, dict_from_txt,
+                 simplificar_dire, yaml_from_file, yaml_to_file)
 
 proxies = {'http': 'socks5://127.0.0.1:9050',
            'https': 'socks5://127.0.0.1:9050'}
@@ -37,8 +37,8 @@ nm = Nominatim(country_bias="ESP")
 
 
 def geocode(direccion, intento=0):
-    if intento==0:
-        #time.sleep(3)
+    if intento == 0:
+        # time.sleep(3)
         l = nm.geocode(direccion)
         if l:
             return l
@@ -73,7 +73,7 @@ last_ok = ""
 print ("Calculando coordenadas de provincias (%s)" % total)
 for cod, prov in provincias.items():
     if cod not in direcciones:
-        l = geocode(prov+", España")
+        l = geocode(prov + ", España")
         if l:
             direcciones[cod] = str(l.latitude) + "," + str(l.longitude)
             last_ok = prov

@@ -12,8 +12,9 @@ import bs4
 import requests
 import xlrd
 
-from api import (Descripciones, Organismo, Puesto, dict_from_txt, get_direcciones_txt,
-                 simplificar_dire, soup_from_file, yaml_from_file)
+from api import (Descripciones, Organismo, Puesto, dict_from_txt,
+                 get_direcciones_txt, simplificar_dire, soup_from_file,
+                 yaml_from_file)
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -51,6 +52,7 @@ re_ll2 = re.compile(
 re_paren = re.compile(r"\(.*$")
 
 arregla_direcciones = get_direcciones_txt()
+
 
 def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otros=None):
     organismos_E = {}
@@ -377,7 +379,7 @@ if args.csic or args.todo:
         a = soup.find("a", attrs={"href": re_ll})
         if a:
             latlon = re_ll.search(a.attrs["href"]).group(1)
-            latlons[deDireccion]=latlon
+            latlons[deDireccion] = latlon
         else:
             latlon = latlons.get(deDireccion, None)
         o = Organismo(id, deOrganismo, deDireccion, latlon=latlon, isCsic=True)
@@ -616,8 +618,10 @@ if args.gob or args.todo:
 if args.fusion or args.todo:
     print ("Fusionando organismo administracion.gob.es con dir3_E")
 
-    organismos_dir3_E = Organismo.load(name="organismos_dir3_E", arregla_direcciones=arregla_direcciones)
-    organismos_gob_es = Organismo.load(name="organismos_gob.es", arregla_direcciones=arregla_direcciones)
+    organismos_dir3_E = Organismo.load(
+        name="organismos_dir3_E", arregla_direcciones=arregla_direcciones)
+    organismos_gob_es = Organismo.load(
+        name="organismos_gob.es", arregla_direcciones=arregla_direcciones)
 
     organismos_dir3_E_dict = {o.idOrganismo: o for o in organismos_dir3_E}
     organismos_gob_es_dict = {o.idOrganismo: o for o in organismos_gob_es}
@@ -773,7 +777,8 @@ if args.fusion or args.todo:
               (count * 100 / total, o.idOrganismo, ok), end="\r")
     print ("")
 
-    Organismo.save(organismos, name="organismos_dir3_E_gob.es", arregla_direcciones=arregla_direcciones)
+    Organismo.save(organismos, name="organismos_dir3_E_gob.es",
+                   arregla_direcciones=arregla_direcciones)
 
 codigos_tai = set()
 for p in Puesto.load():
@@ -824,7 +829,8 @@ for o in organismos:
 
 excluir_rpt = set([o.rcp for o in organismos if o.rcp and o.latlon])
 codigos_tai = codigos_tai - excluir_rpt
-organismos_rpt = [o for o in organismos_rpt if o.isCsic or o.idOrganismo in codigos_tai]
+organismos_rpt = [
+    o for o in organismos_rpt if o.isCsic or o.idOrganismo in codigos_tai]
 
 # Si con padre común solo hay un rpt con ese nombre es que es el mismo
 # organismo
@@ -927,7 +933,8 @@ for k, v in cod_dir_latlon.items():
         org.latlon, org.deDireccion = v
         ok = ok + 1
     count = count + 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, k, ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, k, ok), end="\r")
 print ("")
 
 print ("Normalizando direcciones")
@@ -977,7 +984,8 @@ for rx in range(sh.nrows):
         if idCentroDirectivo:
             xls_info[idCentroDirectivo] = (dire, latlon, idMinisterio)
         if idUnidad:
-            xls_info[idUnidad] = (dire, latlon, idCentroDirectivo or idMinisterio)
+            xls_info[idUnidad] = (
+                dire, latlon, idCentroDirectivo or idMinisterio)
         dire = simplificar_dire(dire)
         if dire not in direcciones:
             direcciones[dire] = latlon
@@ -988,8 +996,8 @@ for rx in range(sh.nrows):
           (count * 100 / total, (dire or "")[:30], ok), end="\r")
 print ("")
 
-count=0
-ok=0
+count = 0
+ok = 0
 total = len(xls_info)
 for k, v in xls_info.items():
     org = rcp_organi.get(k, None)
@@ -1072,7 +1080,7 @@ total = len(unidades_provincia)
 count = 0
 ok = 0
 for unidad, provincias in unidades_provincia.items():
-    if len(provincias)==1:
+    if len(provincias) == 1:
         provincia = provincias.pop()
         if provincia is not None:
             org = rcp_organi.get(unidad, None)
@@ -1082,15 +1090,17 @@ for unidad, provincias in unidades_provincia.items():
                     org.idProvincia = provincia
                     ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
-tai_latlons = set([o.latlon for o in organismos if o.latlon and o.codigos.intersection(codigos_tai)])
+tai_latlons = set(
+    [o.latlon for o in organismos if o.latlon and o.codigos.intersection(codigos_tai)])
 Organismo.save(organismos, arregla_direcciones=arregla_direcciones)
 latlons = {}
 direcis = {}
 for o in organismos:
-    #if o.latlon:
+    # if o.latlon:
     if o.latlon in tai_latlons:
         dires = latlons.get(o.latlon, set())
         dires.add(o.deDireccion)
@@ -1101,13 +1111,13 @@ for o in organismos:
 
 with open("debug/direcciones_duplicadas.txt", "w") as f:
     for dire, lls in sorted(direcis.items()):
-        if len(lls)>1:
+        if len(lls) > 1:
             f.write(dire + "\n")
             for ll in sorted(lls):
                 f.write(ll + "\n")
             f.write("\n")
     for latlon, dires in sorted(latlons.items()):
-        if len(dires)>1:
+        if len(dires) > 1:
             f.write(latlon + "\n")
             for d in sorted(dires):
                 f.write(d + "\n")
@@ -1162,4 +1172,4 @@ with open("debug/direcciones.csv", "w") as f:
 direcciones = sorted(set([o.deDireccion for o in organismos if o.deDireccion]))
 with open("debug/direcciones.txt", "w") as f:
     for d in direcciones:
-        f.write(d+"\n")
+        f.write(d + "\n")

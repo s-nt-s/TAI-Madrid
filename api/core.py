@@ -12,6 +12,7 @@ re_no_informatica = re.compile(
 re_guion = re.compile(r"\s*-\s*")
 re_paren = re.compile(r"\(.*$")
 
+
 def parse_key(k):
     if isinstance(k, str) and k.isdigit():
         return int(k)
@@ -71,7 +72,8 @@ class Organismo:
         return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
 
     def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, idProvincia=None, **kwargs):
-        self.remove = {'remove', 'nombres', 'rcp', 'version', 'puestos', 'deProvincia'}
+        self.remove = {'remove', 'nombres', 'rcp',
+                       'version', 'puestos', 'deProvincia'}
         if isinstance(idPadres, list):
             idPadres = set(idPadres)
         if isinstance(codigos, list):
@@ -103,8 +105,8 @@ class Organismo:
         self.calcular_provincia()
 
     def calcular_provincia(self):
-        if self.idProvincia is None and self.postCode is not None and self.postCode.isdigit() and len(self.postCode)==5:
-            self.idProvincia=int(self.postCode[0:2])
+        if self.idProvincia is None and self.postCode is not None and self.postCode.isdigit() and len(self.postCode) == 5:
+            self.idProvincia = int(self.postCode[0:2])
 
     def genera_codigos(self):
         self.codigos.add(self.idOrganismo)
@@ -306,7 +308,8 @@ class Puesto:
     @property
     def abbr_puesto(self):
         dePuesto = self.dePuesto
-        dePuesto = dePuesto.replace("PROGRAMADOR / PROGRAMADORA ", "PROGRAMADOR/A ")
+        dePuesto = dePuesto.replace(
+            "PROGRAMADOR / PROGRAMADORA ", "PROGRAMADOR/A ")
         dePuesto = dePuesto.replace("JEFE / JEFA ", "JEFE/A ")
         return dePuesto
 
@@ -344,7 +347,8 @@ class Info:
         self.organismos = organismos
         for o in self.organismos.values():
             if o.idProvincia is not None:
-                o.deProvincia = self.descripciones.provincias.get(str(o.idProvincia), None)
+                o.deProvincia = self.descripciones.provincias.get(
+                    str(o.idProvincia), None)
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None

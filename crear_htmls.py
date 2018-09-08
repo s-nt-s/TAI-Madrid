@@ -79,7 +79,6 @@ if args.todo or args.ranking:
                     dc[vl] = conv
                     ofertas[k] = dc
 
-
     def get_ranking(provincia, destinos, pieza, campo):
         destinos = [d for d in destinos if d.provincia == provincia]
         if pieza > 0:
@@ -100,7 +99,6 @@ if args.todo or args.ranking:
                  0 else list(reversed(i[1][1]))) for i in info.items()]
         info = sorted(info, key=lambda i: (-i[2], i[3]))
         return info
-
 
     pieza = 15
 

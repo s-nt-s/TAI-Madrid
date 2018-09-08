@@ -7,8 +7,9 @@ sp = re.compile(r"\s+")
 sep = re.compile(r"  +")
 re_postCode = re.compile(r"\b(\d{5})\b")
 
+
 def get_direcciones_txt():
-    d={}
+    d = {}
     latlon = None
     bloque = 1
     deDireccion = None
@@ -16,7 +17,7 @@ def get_direcciones_txt():
     with open("arreglos/direcciones.txt") as y:
         for l in y.readlines():
             l = l.strip()
-            if len(l)==0 or l.startswith("#"):
+            if len(l) == 0 or l.startswith("#"):
                 bloque = 1
                 continue
             if bloque == 1:
@@ -28,16 +29,16 @@ def get_direcciones_txt():
                 postCode = re_postCode.search(deDireccion).group(1)
                 bloque = 3
             if bloque == 3:
-                d[l]=(latlon, deDireccion, postCode)
+                d[l] = (latlon, deDireccion, postCode)
     return d
-    
+
 
 def dict_from_txt(f, rever=False, parse_key=None):
     d = {}
     with open(f) as y:
         for l in y.readlines():
             l = l.strip()
-            if len(l)==0 or l.startswith("#"):
+            if len(l) == 0 or l.startswith("#"):
                 continue
             tup = sep.split(l)
             if rever:

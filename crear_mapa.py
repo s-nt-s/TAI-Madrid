@@ -73,14 +73,14 @@ for p in puestos:
         if unidad.latlon:
             unidad.puestos.add(p)
             continue
-        if padreUnidad and unidad.idProvincia is not None and unidad.idProvincia!=padreUnidad.idProvincia:
+        if padreUnidad and unidad.idProvincia is not None and unidad.idProvincia != padreUnidad.idProvincia:
             unidad.puestos.add(p)
             continue
     if centro:
         if centro.latlon:
             centro.puestos.add(p)
             continue
-        if centro.idProvincia is not None and centro.idProvincia!=minist.idProvincia:
+        if centro.idProvincia is not None and centro.idProvincia != minist.idProvincia:
             centro.puestos.add(p)
             continue
     if minist:
@@ -104,6 +104,7 @@ for o in organismos:
         col.add(o)
         latlon_org[o.latlon] = col
 
+
 def count_puestos(*args):
     vacantes = 0
     normales = 0
@@ -116,6 +117,7 @@ def count_puestos(*args):
         else:
             normales += 1
     return normales, vacantes, grannivel
+
 
 def crear_descripcion(orgs):
     count = len(orgs)
@@ -141,15 +143,16 @@ def crear_descripcion(orgs):
             description += org.url
         dePuestos = sorted(set([p.abbr_puesto for p in org.puestos]))
         for dePuesto in dePuestos:
-            puestos = [p for p in org.puestos if p.abbr_puesto==dePuesto]
-            if len(puestos)==1:
+            puestos = [p for p in org.puestos if p.abbr_puesto == dePuesto]
+            if len(puestos) == 1:
                 p = puestos[0]
-                description += "\n%s/%s - %s" % (p.idPuesto, p.nivel, p.abbr_puesto)
+                description += "\n%s/%s - %s" % (p.idPuesto,
+                                                 p.nivel, p.abbr_puesto)
             else:
                 description += "\n(%s) %s:" % (len(puestos), dePuesto)
                 for p in sorted(puestos, key=lambda p: p.idPuesto):
                     description += " %s/%s," % (p.idPuesto, p.nivel)
-                description = description[:-1]+"\n"
+                description = description[:-1] + "\n"
         org_puestos = org_puestos.union(org.puestos)
         description += "\n\n"
 
