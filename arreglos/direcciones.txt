@@ -501,3 +501,35 @@ Plaza De España 3, 33071, Asturias, Principado Asturias, España
 43.2638984,-2.9383273
 Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
 Calle Gran Vía 50, 48011, Bizkaia, Pais Vasco, España
+
+43.3542002,-8.3985444
+Calle Gaiteira 54 56, 15009, A Coruna, Galicia
+Calle Gaiteira 54 56, 15007, A Coruna, Galicia, España
+
+43.2638984,-2.9383273
+Gran Vía de Don Diego López de Haro 50, 48009 Bilbao
+Calle Gran Via Diego Lopez de Haro 50, 48011, Bizkaia, Pais Vasco, España
+
+42.3471479,-3.6934661
+Avenida Reyes Católicos 22, 09005, Burgos
+Avda Avda. Reyes Católicos 22, 09071, Burgos, Castilla Leon, España
+
+43.463527,-3.782768
+Promontorio San Martín S/N, 39004 Santander, Cantabria
+Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
+
+37.384722,-5.992778
+Avenida de la Constitución 3, 41004 Sevilla
+Avda De la Constitución 3, 41071, Sevilla, Andalucia, España
+
+40.4801306,-3.3593311
+Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
+Paseo De Aguadores 2, 28871, Madrid, Comunidad Madrid, España
+
+40.418948,-3.6896078
+Calle de Valenzuela 5, 28014 Madrid
+Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
+
+38.9948367,-1.8554404
+Calle Francisco Fontecha 2, 02001 Albacete
+Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España

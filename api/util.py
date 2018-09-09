@@ -26,10 +26,9 @@ def get_direcciones_txt():
                 continue
             if bloque == 2:
                 deDireccion = l
-                postCode = re_postCode.search(deDireccion).group(1)
                 bloque = 3
             if bloque == 3:
-                d[l] = (latlon, deDireccion, postCode)
+                d[l] = (latlon, deDireccion)
     return d
 
 

@@ -5,19 +5,29 @@
 2375 Pennsylvania Ave. NW Washington DC Washington, Estados Unidos (los)
 245 East 47th Street, 36th floor New York, Estados Unidos (los)
 27 Mart, nº 7 1000 Skopje, Macedonia (la antigua Republica Yugoslava de)
+32001, Ourense 988219265
 390 St. Kilda Rd. · Melbourne VIC 3004 Melbourne, Australia
 52, Boulevard du Regent. B 1000 Bruselas, Belgica
 53, Avenue Blanc. 1202 Ginebra, Suiza
 6420 Richmond Ave Ste 475 Houston, TX 77057, Estados Unidos (los)
 726 52 Hannam dong Seul, Corea (la Republica de)
+AV/PEREZ GALDOS, 19, 12002 Castellón
 AVD. MONTAÑANA, S/N 50016 Zaragoza (Zaragoza)
 AVDA DE PAMPLONA, 123 MUTILVA 31192 Aranguren (Navarra)
 AVDA. AMERICO VESPUCIO Nº 26. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)
 AVDA. AMERICO VESPUCIO, S/N. ISLA DE LA CARTUJA 41092 Sevilla (Sevilla)
 AVDA. ASTROFISICO FRANCISCO SANCHEZ, 3 38205 San Cristóbal de La Laguna (Santa Cruz de Tenerife)
+AVDA. CABO DE GATA, 120, 04007 Almería
+AVDA. CARLOS I, 78-92-12, 37008 Salamanca
+AVDA. CONDE VALLELLANO, S/N, 14071 Córdoba
 AVDA. D. SANTIAGO RAMON Y CAJAL S/N 03550 Sant Joan d'Alacant (Alicante / Alacant)
+AVDA. DE ANDALUCIA, 23, 29006 Málaga
+AVDA. DE LA HISPANIDAD, 6, 10002 Cáceres
+AVDA. DE SANT NARCIS, 109, 17005 Girona
+AVDA. DEL EJERCITO,12 - 3A. PLANTA, 19071 Guadalajara
 AVDA. MONTAÑANA, 1005 50059 Zaragoza (Zaragoza)
 AVDA. REINA MERCEDES, 10 41012 Sevilla (Sevilla)
+AVDA. SIMON NIETO, 10, PLANTA 2, 34071 Palencia
 AVDA.GREGORIO DEL AMO NUM.8 28040 Madrid (Madrid)
 Acuartelamiento San Cristobal (Villaverde) Avda. Andalucía km 10 28021 Madrid
 Aduana de la Farga de Moles S/N, 25799, Lleida, Cataluna, España
@@ -184,7 +194,6 @@ Avda Aulio Cornelio Palma 50, 14700, Cordoba, Andalucia, España
 Avda Ausias March 56, 46026, Valencia, Comunitat Valenciana, España
 Avda Austria 35, 41009, Sevilla, Andalucia, España
 Avda Av.Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
-Avda Avda. Reyes Católicos 22, 09071, Burgos, Castilla Leon, España
 Avda Aviacion Española S/N, 27250, Lugo, Galicia, España
 Avda Ayuntamiento S/N, 18565, Granada, Andalucia, España
 Avda Bachiller 1, 21003, Huelva, Andalucia, España
@@ -290,7 +299,6 @@ Avda Conde San Isidro 98, 29640, Malaga, Andalucia, España
 Avda Conde San Isidro S/N, 29640, Malaga, Andalucia, España
 Avda Conde Torrefiel 39, 46870, Valencia, Comunitat Valenciana, España
 Avda Conde Vallellano S/N, 14004, Cordoba, Andalucia, España
-Avda Conde Vallellano S/N, 14071, Cordoba, Andalucia, España
 Avda Conde Vallellano S/N, 40520, Segovia, Castilla Leon, España
 Avda Conde Vallellano s/n, 14004, Cordoba, Andalucia, España
 Avda Conde de Altea 41, 03500, Alicante, Comunitat Valenciana, España
@@ -372,7 +380,6 @@ Avda De Almeria 2, 04140, Almeria, Andalucia, España
 Avda De America s/n, 29532, Malaga, Andalucia, España
 Avda De Andalucia 142, 21270, Huelva, Andalucia, España
 Avda De Andalucia 15, 41470, Sevilla, Andalucia, España
-Avda De Andalucia 23, 29006, Malaga, Andalucia, España
 Avda De Andalucia 23, 29200, Malaga, Andalucia, España
 Avda De Andalucia 24, 23460, Jaen, Andalucia, España
 Avda De Andalucia 5, 29520, Malaga, Andalucia, España
@@ -471,7 +478,6 @@ Avda De Madrid 70, 23071, Jaen, Andalucia, España
 Avda De Malaga 12, 29400, Malaga, Andalucia, España
 Avda De Malaga 22, 29313, Malaga, Andalucia, España
 Avda De Marin 29 31, 32001, Ourense, Galicia, España
-Avda De Marín 29, 32001, Ourense, Galicia, España
 Avda De Mejico S/N, 33600, Asturias, Principado Asturias, España
 Avda De Mequinenza S/N, 22520, Huesca, Aragon, España
 Avda De Merida 20, 06893, Badajoz, Extremadura, España
@@ -543,7 +549,6 @@ Avda De la Constitucion 68, 41370, Sevilla, Andalucia, España
 Avda De la Constitucion 8, 16670, Cuenca, Castilla La Mancha, España
 Avda De la Constitucion S/N, 42150, Soria, Castilla Leon, España
 Avda De la Constitución 2, 23071, Jaen, Andalucia, España
-Avda De la Constitución 3, 41071, Sevilla, Andalucia, España
 Avda De la Constitución 4, 11500, Cadiz, Andalucia, España
 Avda De la Constitución 5, 11500, Cadiz, Andalucia, España
 Avda De la Constitución 6 8, 26001, La Rioja, La Rioja, España
@@ -1052,7 +1057,6 @@ Avda Pau Casals 22, 17700, Girona, Cataluna, España
 Avda Peares 30, 27520, Lugo, Galicia, España
 Avda Pepe Lopez 16, 23260, Jaen, Andalucia, España
 Avda Pepe Lopez 17, 23470, Jaen, Andalucia, España
-Avda Perez Galdos 19, 12002, Castellon, Comunitat Valenciana, España
 Avda Peñafiel 28, 45910, Toledo, Castilla La Mancha, España
 Avda Pierre de Coubertain 13, 10005, Caceres, Extremadura, España
 Avda Pignatelli 5, 50650, Zaragoza, Aragon, España
@@ -1133,7 +1137,6 @@ Avda Recinto Portuario s/n., 18600, Granada, Andalucia, España
 Avda Redondela 3, 32400, Ourense, Galicia, España
 Avda Reina Sofia S/N, 41019, Sevilla, Andalucia, España
 Avda República Dominicana 10, 06011, Badajoz, Extremadura, España
-Avda República Dominicana 10, 06071, Badajoz, Extremadura, España
 Avda Requejo 12, 49020, Zamora, Castilla Leon, España
 Avda Requejo 25, 49071, Zamora, Castilla Leon, España
 Avda Rey D.Jaime 2, 12001, Castellon, Comunitat Valenciana, España
@@ -1177,7 +1180,6 @@ Avda San Onofre 65, 46930, Valencia, Comunitat Valenciana, España
 Avda San Pedro de Alcántara 1, 10001, Caceres, Extremadura, España
 Avda Sancho el Sabio 13, 31210, Navarra, Comunidad Foral Navarra, España
 Avda Sandoval 11 13, 30720, Murcia, Region Murcia, España
-Avda Sant Narcis 109, 17005, Girona, Cataluna, España
 Avda Sant Salvador 48, 43130, Tarragona, Cataluna, España
 Avda Santa Ana 58 60, 41720, Sevilla, Andalucia, España
 Avda Santa Clara 28, 41730, Sevilla, Andalucia, España
@@ -1297,6 +1299,7 @@ Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avda. Amilcar Barca, nº 5, 11008 CADIZ
 Avda. Calvo Sotelo, 8, 39002 SANTANDER
 Avda. Comunidad Europea, 16, 34004 PALENCIA
+Avda. De Tenor Fleta, 53-55, 50008 Zaragoza
 Avda. García Barbón, 36-1º, 36201 VIGO
 Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
 Avda. Pirineos, 17, 22004 HUESCA
@@ -1449,6 +1452,7 @@ Avenida Remonta 2 52005 Melilla (Melilla)
 Avenida República Argentina 23 41011 Sevilla (Sevilla)
 Avenida Requejo 14 49030 Zamora (Zamora)
 Avenida Residencia s/n 15405 Ferrol (Coruña, A)
+Avenida Reyes Católicos 22, 09005, Burgos
 Avenida Reyes Católicos 4 28040 Madrid (Madrid)
 Avenida Reyes Católicos 4 28071 Madrid (Madrid)
 Avenida Reyes Leoneses 14 24008 León (León)
@@ -1496,6 +1500,7 @@ Avenida de Rey Santo 2, 13001 Ciudad Real
 Avenida de Tarragona, s/n 17480 Roses (Girona)
 Avenida de la Ciudad de Barcelona 81 28007 Madrid (Madrid)
 Avenida de la Constitución 1, 18001 Granada, Andalucía, España
+Avenida de la Constitución 3, 41004 Sevilla
 Avenida de la Democracia 4 52004 Melilla (Melilla)
 Avenida de la Hispanidad 2 11207 Algeciras (Cádiz)
 Avenida de la Hispanidad S/N, 11207 Algeciras, Cádiz
@@ -1564,43 +1569,60 @@ Bulgaria
 Burgos S/N, 39220, Cantabria, Cantabria, España
 Bélgica
 C. d´ Aragó, 273-275, 08007 BARCELONA
+C/ ALEJANDRO BARREIRO NOYA, 1-3, 15006 A Coruña
 C/ ARTURO DUPERIER, 4 28029 Madrid (Madrid)
 C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID
 C/ Alfar, 2. 28760 - Tres Cantos - Madrid
 C/ BALDIRI REIXAC, 4 08028 Barcelona (Barcelona)
+C/ BOTÁNICA S/N POLIGONO EMPRESARIAL, NUEVA TORNEO, 41015 Sevilla
 C/ Boston, 6, 47007 VALLADOLID
+C/ CARRETERA DE VILLACASTIN, 4, 40006 Segovia
 C/ CATEDRATICO JOSE BELTRAN MARTINEZ, 2 46980 Paterna (Valencia / València)
+C/ CID, 31, 02002 Albacete
 C/ Carmen, 2, 19001 GUADALAJARA
 C/ Cinco de Octubre, nº20, 24002 LEON
 C/ Concejo, 1, 32003 OURENSE
 C/ Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA
 C/ Condesa de Venadito, 9 -28027- MADRID
+C/ CÁNOVAS DEL CASTILLO N.18, 36202 Vigo
 C/ D'ACCES A LA CALA ST. FRANCESC, 14 17300 Blanes (Girona)
 C/ DARWIN, 3. CANTOBLANCO 28049 Madrid (Madrid)
 C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ
 C/ EDUARDO CABELLO, 6 36208 Vigo (Pontevedra)
 C/ Enriqueta Ortega, 2, 03005 ALICANTE/ALACANT
+C/ FRAY TORIBIO DE MOTOLINIA 9-11, 49014 Zamora
 C/ Federico Tapia,54-3º, 15005 CORUÑA (A)
 C/ Fuente Victoria, 2, 04007 ALMERIA
 C/ Fuente de Buenora, 7, 23006 JAEN
+C/ GURUGÚ, 2 LOCAL 1, 52006 Melilla
 C/ Gran Vía, 89, 48011 BILBAO
 C/ Guzmán el Bueno, 139
 C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
 C/ Ingeniero de la Torre Acosta, 5, 29007 MALAGA
 C/ JAIME ROIG, 11 46010 Valencia (Valencia / València)
+C/ JESUS MARIA ORDOÑO 4, 8 y 10, 09004 Burgos
 C/ JOSE GUTIERREZ ABASCAL, 2 28006 Madrid (Madrid)
+C/ JOSE LEANDRO MUÑOZ;ESQ, AVDA DE MEJICO, 21001 Huelva
 C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)
+C/ JUAN II, 4 Bajo, 26006 La Rioja
 C/ Leonardo Prieto Castro, 8 Ciudad Universitaria 28071 Madrid
 C/ MIGUEL LUESMA CASTAN, 4 50015 Zaragoza (Zaragoza)
+C/ MIRLO 4, 18014 Granada
+C/ OQUENDO, 16, PLANTA 4, 20004 Gipuzkoa
 C/ Ortega y Gasset, 7, 30009 MURCIA
+C/ PINTOR JESUS APELLANIZ, 11, BAJO, 01008 Araba-Álava
 C/ Pablo Picasso, nº 8, 41018 SEVILLA
 C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
 C/ Pinar de Valsaín, 1, 40005 SEGOVIA
 C/ Puerto, 50, 21001 HUELVA
 C/ Pérez de la Sala, 9, 33007 OVIEDO
 C/ RAMIRO DE MAEZTU, 9 28040 Madrid (Madrid)
+C/ REINO UNIDO,3, 45005 Toledo
+C/ REPUBLICA DOMINICANA, 10, 06005 Badajoz
 C/ ROSELLON, 161. 6 Y 7 PLANTA 08036 Barcelona (Barcelona)
 C/ Ronda de los Tejares, 23 y 25, 14008 CORDOBA
+C/ SALUD TEJERO, 16-18 ENTREPLANTA, 51001 Ceuta
+C/ SAN JUAN BOSCO, 15, 03005 Alicante
 C/ SERRANO GALVACHE, 4 28033 Madrid (Madrid)
 C/ SERRANO, 115 BIS 28006 Madrid (Madrid)
 C/ SERRANO, 121 28006 Madrid (Madrid)
@@ -1609,7 +1631,16 @@ C/ Sagasta, 10 -28004 - MADRID
 C/ Sagasta, 2, 26001 LOGROÑO
 C/ Salmerón, 14-16, 25004 LLEIDA
 C/ San Benito, 17, 42001 SORIA
+C/ TOME CANO N.12, 38005 Tenerife
+C/ TRINIDAD, S/N. EDF. TORRES DEL TURIA, 46010 Valencia
+C/ VARGAS, 53-2, 39010 Cantabria
+C/ VELAZQUEZ, 10, 35005 Las Palmas de Gran Canaria
+C/ VICTOR DE LA SERNA,43, 28016 Madrid
+C/AGUSTIN DE CARRERAS, 2-BAJOS, 22004 Huesca
 C/ALBERT EINSTEIN, 22 . PARQUE CIENTIFICO Y TECNOLOGICO DE CANTABRIA 39011 Santander (Cantabria)
+C/Dr.Combelles, nº57, 25003 Lleida
+C/ECHEGARAY, 3, 13004 Ciudad Real
+C/JOSE Mª MARTINEZ CACHERO 17-21, 33013 Asturias
 C/Makka Al Muka Rama, 5 Damasco, Siria (la) Republica Arabe
 CALLE JOAN MARAGALL,10 ANDORRA LA VELLA, Andorra
 CAMPUS MIGUEL DE UNAMUNO 37007 Salamanca (Salamanca)
@@ -1692,7 +1723,6 @@ Calle Agustina de Aragón 14, 44002, Teruel, Aragon, España
 Calle Agustín Millares Carló 20, 35004, Las Palmas, Canarias, España
 Calle Agustín de Bethencourt 11 28003 Madrid (Madrid)
 Calle Agustín de Bethencourt 4, 28003, Madrid, Comunidad Madrid, España
-Calle Agustín de Carrera 2, 22004, Huesca, Aragon, España
 Calle Agustín de Carrera, 2 22004 Huesca 2, 22004, Huesca, Aragon, España
 Calle Aiguablava 55 59, 08033, Barcelona, Cataluna, España
 Calle Aixa S/N, 29679, Malaga, Andalucia, España
@@ -1792,7 +1822,6 @@ Calle Alcazar 49, 45270, Toledo, Castilla La Mancha, España
 Calle Alcodar 39, 46790, Valencia, Comunitat Valenciana, España
 Calle Alcudia 75, 08016, Barcelona, Cataluna, España
 Calle Aldu 1, 16630, Cuenca, Castilla La Mancha, España
-Calle Alejandro Barreiro Noya 1 3, 15006, A Coruna, Galicia, España
 Calle Alejandro Barreiros Noya 1 3, 15006, A Coruna, Galicia, España
 Calle Alejandro Dumas 11, 28005, Madrid, Comunidad Madrid, España
 Calle Alemania 6, 35240, Las Palmas, Canarias, España
@@ -2422,7 +2451,6 @@ Calle Castropepe 100, 49500, Zamora, Castilla Leon, España
 Calle Catalina Gibaja 3, 48530, Bizkaia, Pais Vasco, España
 Calle Catalunya 13, 08270, Barcelona, Cataluna, España
 Calle Catalunya 5, 17740, Girona, Cataluna, España
-Calle Cated.José M. Martínez Cachero 17a21, 33013, Asturias, Principado Asturias, España
 Calle Catedrático Antonio Silva 7 10071 Cáceres (Cáceres)
 Calle Catedrático José M. Martínez Cachero 17 21, 33013, Asturias, Principado Asturias, España
 Calle Cava 34, 40500, Segovia, Castilla Leon, España
@@ -2448,7 +2476,6 @@ Calle Cendeja 27, 48550, Bizkaia, Pais Vasco, España
 Calle Centro 4, 08820, Barcelona, Cataluna, España
 Calle Centro de Carga Aérea S/N, 08820, Barcelona, Cataluna, España
 Calle Cerca 2, 30564, Murcia, Region Murcia, España
-Calle Cerezuela 4, 29007, Malaga, Andalucia, España
 Calle Cerro Falon 9, 11380, Cadiz, Andalucia, España
 Calle Cerro de la Palera S/N, 19141, Guadalajara, Castilla La Mancha, España
 Calle Cervantes 1, 13110, Ciudad Real, Castilla La Mancha, España
@@ -2662,7 +2689,6 @@ Calle Coruña S/N, 15840, A Coruna, Galicia, España
 Calle Corvales 5, 18140, Granada, Andalucia, España
 Calle Coso Alto 14 22002 Huesca (Huesca)
 Calle Cosoalto 14, 22002, Huesca, Aragon, España
-Calle Costa Rica 30, 28016, Madrid, Comunidad Madrid, España
 Calle Costa Ses Voltes, 1 07701 Maó-Mahón (Illes Balears)
 Calle Costa da Moa S/N, 32160, Ourense, Galicia, España
 Calle Costa de Adeje, Las Terrazas S/N, 38660, Santa Cruz Tenerife, Canarias, España
@@ -2891,7 +2917,6 @@ Calle Doctor Garcia Sanchez 35, 21290, Huelva, Andalucia, España
 Calle Doctor Graiño 29, 33401, Asturias, Principado Asturias, España
 Calle Doctor Herminio Ojea 12, 32200, Ourense, Galicia, España
 Calle Doctor Hernandez Benitez 2, 35200, Las Palmas, Canarias, España
-Calle Doctor Jesus Galan 1, 05003, Avila, Castilla Leon, España
 Calle Doctor Jesús Galán 1, 05003, Avila, Castilla Leon, España
 Calle Doctor Jimenez 13, 23311, Jaen, Andalucia, España
 Calle Doctor Jimenez Rueda 1, 18800, Granada, Andalucia, España
@@ -2941,7 +2966,6 @@ Calle Dr. Jacinto Rodriguez Mejias 5, 35320, Las Palmas, Canarias, España
 Calle Dr. Molina López s/n, 14970, Cordoba, Andalucia, España
 Calle Dr. Prieto Carrasco 48, 10890, Caceres, Extremadura, España
 Calle Dr. Ripolles 1, 44600, Teruel, Aragon, España
-Calle Dr.Combelle 57, 25003, Lleida, Cataluna, España
 Calle Duelo 53, 28470, Madrid, Comunidad Madrid, España
 Calle Duque Ahumada 2, 47400, Valladolid, Castilla Leon, España
 Calle Duque San Pedro 2, 18327, Granada, Andalucia, España
@@ -2971,7 +2995,6 @@ Calle Ebanisteria 6, 03071, Alicante, Comunitat Valenciana, España
 Calle Echaide 6, 20005, Gipuzkoa, Pais Vasco, España
 Calle Echegaray 2, 45860, Toledo, Castilla La Mancha, España
 Calle Echegaray 3, 13004, Ciudad Real, Castilla La Mancha, España
-Calle Echegaray 3, 13071, Ciudad Real, Castilla La Mancha, España
 Calle Echegaray s/n, 51001, Ceuta, Ceuta, España
 Calle Ecuador 4, 36300, Pontevedra, Galicia, España
 Calle Edison 4 28006 Madrid (Madrid)
@@ -3084,7 +3107,6 @@ Calle Eras de San Pedro 12, 18640, Granada, Andalucia, España
 Calle Eras del Cerrillo s/n, 13071, Ciudad Real, Castilla La Mancha, España
 Calle Eras del Olivar 21, 04890, Almeria, Andalucia, España
 Calle Eras del Romero 3, 19133, Guadalajara, Castilla La Mancha, España
-Calle Eras del Tío Cañamón 2 4, 16004, Cuenca, Castilla La Mancha, España
 Calle Eras del Tío Cañamón 2 y4, 16004, Cuenca, Castilla La Mancha, España
 Calle Eria del Hospital 5 7, 33510, Asturias, Principado Asturias, España
 Calle Erica S/N, 28047, Madrid, Comunidad Madrid, España
@@ -3240,8 +3262,8 @@ Calle Francisco Aragón Álvarez 1, 41020, Sevilla, Andalucia, España
 Calle Francisco Chacon 28, 06630, Badajoz, Extremadura, España
 Calle Francisco Escamez S/N, 30562, Murcia, Region Murcia, España
 Calle Francisco Fontecha 2 02071 Albacete (Albacete)
+Calle Francisco Fontecha 2, 02001 Albacete
 Calle Francisco Fontecha 2, 02001, Albacete, Castilla La Mancha, España
-Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España
 Calle Francisco Gonzalez Rey 29, 32800, Ourense, Galicia, España
 Calle Francisco Palacios "EL PAL" S/N, 21830, Huelva, Andalucia, España
 Calle Francisco Pintado Fe 26, 33011, Asturias, Principado Asturias, España
@@ -3259,7 +3281,6 @@ Calle Fray Luis de Leon 21, 24005, Leon, Castilla Leon, España
 Calle Fray Luis de León 7 47071 Valladolid (Valladolid)
 Calle Fray Toribio de Motolinia 1, 49007, Zamora, Castilla Leon, España
 Calle Fray Toribio de Motolinia 9 11, 49007, Zamora, Castilla Leon, España
-Calle Fray Toribio de Motolinia 9 11, 49014, Zamora, Castilla Leon, España
 Calle Fray Toribio de Motolinia S/N, 49007, Zamora, Castilla Leon, España
 Calle Fresno 2, 35212, Las Palmas, Canarias, España
 Calle Fruela 3 28011 Madrid (Madrid)
@@ -3287,7 +3308,7 @@ Calle Gabriel de Morales 1, 52002, Melilla, Melilla, España
 Calle Gabriel y Galan 11, 10550, Caceres, Extremadura, España
 Calle Gabriel y Galan 5, 10700, Caceres, Extremadura, España
 Calle Gaitan 65, 14730, Cordoba, Andalucia, España
-Calle Gaiteira 54 56, 15007, A Coruna, Galicia, España
+Calle Gaiteira 54 56, 15009, A Coruna, Galicia
 Calle Gaiteira, 54,56, 15009, A Coruna, Galicia, España
 Calle Galdo 6, 30001, Murcia, Region Murcia, España
 Calle Galea 4, 51001, Ceuta, Ceuta, España
@@ -3407,12 +3428,10 @@ Calle Gran Via 25 29, 37001, Salamanca, Castilla Leon, España
 Calle Gran Via 31 37001 Salamanca (Salamanca)
 Calle Gran Via 31, 37001, Salamanca, Castilla Leon, España
 Calle Gran Via 46 36203 Vigo (Pontevedra)
-Calle Gran Via 50, 48011, Bizkaia, Pais Vasco, España
 Calle Gran Via 66 68, 37001, Salamanca, Castilla Leon, España
 Calle Gran Via 91, 15100, A Coruna, Galicia, España
 Calle Gran Via Colom 22, 07300, Illes Balears, Illes Balears, España
 Calle Gran Via Corts Catalanes 282, 08004, Barcelona, Cataluna, España
-Calle Gran Via Diego Lopez de Haro 50, 48011, Bizkaia, Pais Vasco, España
 Calle Gran Via Lluis Companys 121, 08330, Barcelona, Cataluna, España
 Calle Gran Via de Colón 50 18071 Granada (Granada)
 Calle Gran Via de Colón 50, 18071, Granada, Andalucia, España
@@ -3662,7 +3681,6 @@ Calle Jenaro de la Fuente 44 46, 36205, Pontevedra, Galicia, España
 Calle Jerónimo de Valencia s/n, 06006, Badajoz, Extremadura, España
 Calle Jesus 2, 34300, Palencia, Castilla Leon, España
 Calle Jesus 4, 50684, Zaragoza, Aragon, España
-Calle Jesus Maria Ordoño 4, 09004, Burgos, Castilla Leon, España
 Calle Jesus Nazareno 29, 41320, Sevilla, Andalucia, España
 Calle Jesus Nazareno 8, 11610, Cadiz, Andalucia, España
 Calle Jesus y Maria S/N, 14140, Cordoba, Andalucia, España
@@ -3760,7 +3778,6 @@ Calle José Abascal 6, 28003, Madrid, Comunidad Madrid, España
 Calle José Abascal, 39 28003 Madrid (Madrid)
 Calle José Arcadio Buendía 31 33 35, 10005, Caceres, Extremadura, España
 Calle José Echegaray 4 28232 Rozas de Madrid, Las (Madrid)
-Calle José Leandro Muñoz "PEPE PIRFO" 1, 21001, Huelva, Andalucia, España
 Calle José Leandro Muñoz; esq. Av. de Méjico 21001 s/n, 21001, Huelva, Andalucia, España
 Calle José Luis Arrese S/N, 47071, Valladolid, Castilla Leon, España
 Calle José Luis Pérez Pujadas 6 18006 Granada (Granada)
@@ -3770,7 +3787,6 @@ Calle José Marañón 12 28010 Madrid (Madrid)
 Calle José Marañón 12 28071 Madrid (Madrid)
 Calle José Marañón 12 29071 Madrid (Madrid)
 Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España
-Calle José María Martínez Cachero 17 21, 33012, Asturias, Principado Asturias, España
 Calle José María Salaberría S/N, 20010, Gipuzkoa, Pais Vasco, España
 Calle José Ramón Mélida S/N, 06800, Badajoz, Extremadura, España
 Calle José Salgado 41, 36650, Pontevedra, Galicia, España
@@ -4594,7 +4610,6 @@ Calle Ondeanos 2, 23670, Jaen, Andalucia, España
 Calle Onesimo Redondo 21, 23230, Jaen, Andalucia, España
 Calle Onofre Cervero 1 25004 Lleida (Lleida)
 Calle Onofre Cerveró 1 25004 Lleida (Lleida)
-Calle Oquendo 16 18, 20004, Gipuzkoa, Pais Vasco, España
 Calle Oquendo 20 20004 Donostia/San Sebastián (Gipuzkoa)
 Calle Oquendo 20, 20004, Gipuzkoa, Pais Vasco, España
 Calle Oratorio 12, 13640, Ciudad Real, Castilla La Mancha, España
@@ -4799,7 +4814,6 @@ Calle Pintor Claros 1, 46410, Valencia, Comunitat Valenciana, España
 Calle Pintor Emiliano Lozano 18 16400 Tarancón (Cuenca)
 Calle Pintor Fernando Vela s/n 11100 San Fernando (Cádiz)
 Calle Pintor Inocencio Medina Vera 5 30007 Murcia (Murcia)
-Calle Pintor Jesus Apellanz 11, 01008, Alava, Pais Vasco, España
 Calle Pintor Jesús Apellániz 11, 01008, Alava, Pais Vasco, España
 Calle Pintor Lorenzo Casanova 6, 03003, Alicante, Comunitat Valenciana, España
 Calle Pintor Maximino Peña 2 4, 42003, Soria, Castilla Leon, España
@@ -4920,7 +4934,6 @@ Calle Prolongacion de la Alameda 178, 29017, Malaga, Andalucia, España
 Calle Prolongación Avenida Ramón y Cajal 3, 38003, Santa Cruz Tenerife, Canarias, España
 Calle Prolongación Fernando el Santo s/n 13500 Puertollano (Ciudad Real)
 Calle Prolongación Ramón y Cajal 3 38003 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
-Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
 Calle Prosperitat 2, 07100, Illes Balears, Illes Balears, España
 Calle Provisional 1, 03227, Alicante, Comunitat Valenciana, España
 Calle Prudencio Gonzalez 13, 33424, Asturias, Principado Asturias, España
@@ -5047,7 +5060,6 @@ Calle Ramón y Cajal 4 39300 Torrelavega (Cantabria)
 Calle Ramón y Cajal 47-49 08980 Sant Feliu de Llobregat (Barcelona)
 Calle Ramón y Cajal 57 16071 Cuenca (Cuenca)
 Calle Ramón y Cajal S/N, 15071, A Coruna, Galicia, España
-Calle Rascón 2, 21001, Huelva, Andalucia, España
 Calle Rasos de Peguera 19, 08033, Barcelona, Cataluna, España
 Calle Rastro de San Juan 11, 13270, Ciudad Real, Castilla La Mancha, España
 Calle Raval Sant Pere 42, 43470, Tarragona, Cataluna, España
@@ -5253,7 +5265,6 @@ Calle Salluna 13, 07710, Illes Balears, Illes Balears, España
 Calle Salsipuedes 1, 10940, Caceres, Extremadura, España
 Calle Salto del Caballo 6, 45003, Toledo, Castilla La Mancha, España
 Calle Salud 1, 28710, Madrid, Comunidad Madrid, España
-Calle Salud Tejero 16 18, 51001, Ceuta, Ceuta, España
 Calle Salvador 1, 02652, Albacete, Castilla La Mancha, España
 Calle Salvador Allende 1, 18013, Granada, Andalucia, España
 Calle Salvador Dali (HIPERCOR) 15, 08940, Barcelona, Cataluna, España
@@ -5506,7 +5517,6 @@ Calle Santa Rafaela María 2 11071 Cádiz (Cádiz)
 Calle Santa Teresa 10, 33007, Asturias, Principado Asturias, España
 Calle Santa Teresa 12, 30071, Murcia, Region Murcia, España
 Calle Santa Teresa de Jesus 1, 39300, Cantabria, Cantabria, España
-Calle Santa Teresa de Jesus 9, 42003, Soria, Castilla Leon, España
 Calle Santa Teresa de Jesus S/N, 45150, Toledo, Castilla La Mancha, España
 Calle Santa Teresa de Jesús 9, 42003, Soria, Castilla Leon, España
 Calle Santa Victoria Blq 11, 08395, Barcelona, Cataluna, España
@@ -5757,8 +5767,6 @@ Calle Triana S/N, 06927, Badajoz, Extremadura, España
 Calle Trilla 15, 47009, Valladolid, Castilla Leon, España
 Calle Trilla 17 47009 Valladolid (Valladolid)
 Calle Trinidad 41, 12593, Castellon, Comunitat Valenciana, España
-Calle Trinidad C/V Sacramento S/N, 46010, Valencia, Comunitat Valenciana, España
-Calle Trinidad S/N, 46071, Valencia, Comunitat Valenciana, España
 Calle Trinidad s/n, 46010, Valencia, Comunitat Valenciana, España
 Calle Triperia 2, 50290, Zaragoza, Aragon, España
 Calle Trovero el Repuntin 1, 30006, Murcia, Region Murcia, España
@@ -5794,7 +5802,6 @@ Calle Valencia 34, 46200, Valencia, Comunitat Valenciana, España
 Calle Valencia 34, 46510, Valencia, Comunitat Valenciana, España
 Calle Valencia 67, 45800, Toledo, Castilla La Mancha, España
 Calle Valencia S/N, 19287, Guadalajara, Castilla La Mancha, España
-Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
 Calle Valenzuela 5 28071 Madrid (Madrid)
 Calle Valeriano Miranda 39, 33600, Asturias, Principado Asturias, España
 Calle Valeriano Muñoz 6, 10110, Caceres, Extremadura, España
@@ -5992,6 +5999,7 @@ Calle de Fortuny, 4, 28010 Madrid
 Calle de San Francisco, 25, 40001 Segovia
 Calle de Serrano, 115, 28006 Madrid
 Calle de Serrano, 117, 28006 Madrid
+Calle de Valenzuela 5, 28014 Madrid
 Calle de los Madrazo 38 28014 Madrid (Madrid)
 Calle del Cid 18 37007 Salamanca (Salamanca)
 Calle los Alpes 6 28922 Alcorcón (Madrid)
@@ -6340,7 +6348,6 @@ Ctra De Valle 7, 34240, Palencia, Castilla Leon, España
 Ctra De Velez Malaga 51, 18120, Granada, Andalucia, España
 Ctra De Vidreres S/N, 17310, Girona, Cataluna, España
 Ctra De Vigo 10, 36800, Pontevedra, Galicia, España
-Ctra De Villacastín 4, 40006, Segovia, Castilla Leon, España
 Ctra De Villada 18 20, 34310, Palencia, Castilla Leon, España
 Ctra De Villanueva 29, 06380, Badajoz, Extremadura, España
 Ctra De Yecla 2, 02651, Albacete, Castilla La Mancha, España
@@ -6558,12 +6565,14 @@ Custa Centella 37, 14810, Cordoba, Andalucia, España
 Custa Cuartel 1, 30440, Murcia, Region Murcia, España
 Custa De la Tapia S/N, 15679, A Coruna, Galicia, España
 Custa San Vicente S/N, 28071, Madrid, Comunidad Madrid, España
+DOCTOR JESUS GALAN,1, 05003 Ávila
 Dacio Darias S/N, 38900, Santa Cruz Tenerife, Canarias, España
 Dinamarca
 Doctor Antonio Cabrera S/N, 14400, Cordoba, Andalucia, España
 Doctor Negrin S/N, 35110, Las Palmas, Canarias, España
 Dr. Lopez Suarez S/N, 27400, Lugo, Galicia, España
 EDIFICIO JUAN JORDA. AVDA DE LOS CASTROS S/N 39005 Santander (Cantabria)
+ERAS DEL TIO CAÑAMON N 2 y 4, 16004 Cuenca
 Ecuador
 Edif. Bancaracas, piso 7. Pza Castellana Caracas, Venezuela Republica Bolivariana de
 Edificio AEROPPUERTO DE VALENCIA.BLOQUE TECNICO S/N 46940 València (València/Valencia)
@@ -6585,7 +6594,6 @@ El Voluntariado 9, 50800, Zaragoza, Aragon, España
 Elizabetes iela, 11. 3.ª Riga LV1010, Letonia
 Embajada de España. 39 Chesham Place Londres SWIX 8SB, Reino Unido (el)
 Emilia Pardo Bazan 1, 28750, Madrid, Comunidad Madrid, España
-Eras del Tio Cañamon 2 4, 16004, Cuenca, Castilla La Mancha, España
 Escuela Trafico de la Guardia S/N, 06800, Badajoz, Extremadura, España
 Eslovaquia
 Eslovenia
@@ -6608,6 +6616,9 @@ Francisco de Longa 24, 09294, Burgos, Castilla Leon, España
 Fray Gabriel de Magdalena 13, 45100, Toledo, Castilla La Mancha, España
 Fuente Somera S/N, 02480, Albacete, Castilla La Mancha, España
 Furstatskaya 9 San Petersburgo 191028, Rusia (la) Federacion de
+GRAN VIA DE SAN MARCOS,27 - 6ª, 24001 León
+GRAN VIA, 50, 48011 Bizkaia
+GREMI DE SABATERS,39, 07009 Baleares
 Gabón
 Galileo, 114. Colonia Polanco México. D.F., Mexico
 Garcia Morato S/N, 23790, Jaen, Andalucia, España
@@ -6616,6 +6627,7 @@ Ghana
 Glorieta Blas Infante s/n 23006 Jaén (Jaén)
 Glorieta Zona Franca S/N 11011 Cádiz (Cádiz)
 Gran Vía de Colón, 23, 18001 GRANADA
+Gran Vía de Don Diego López de Haro 50, 48009 Bilbao
 Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
 Gran Vía de Jaume I 47, 17071, Girona, Cataluna, España
 Grecia
@@ -6686,6 +6698,7 @@ Muelle Levante S/N, 04071, Almeria, Andalucia, España
 Muelle Santa Lucia(Puerto Cart S/N, 30203, Murcia, Region Murcia, España
 Muelle del Espigon Puerto de Ferrol S/N, 15401, A Coruna, Galicia, España
 México
+NICANOR VILLALTA 22, 44002 Teruel
 Namibia
 Nicaragua
 Nigeria
@@ -6745,7 +6758,14 @@ Otros Puerto s/n 17230 Palamós (Girona)
 Otros Ribera del Beiro S/N 18003 Granada (Granada)
 Otros Tabladiello S/N 33480 Llanera (Asturias)
 Otros Termino de Bonxe KM. 14 27150 Outeiro de Rei (Lugo)
+PARC DE L'ESTACIO DEL NORD S/N, 08018 Barcelona
 PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)
+PERE MARTELL, 45, 43005 Tarragona
+PLAZA DE GONGORA, 5 BAJO, 31006 Navarra
+PLAZA DE MADRID S/N, EDIFICIO CARRANZA, 11007 Cádiz
+PLAZA DEL MILENIO, 1, 47014 Valladolid
+PLAZA VINADEL, 10, BAJO, 30004 Murcia
+PZA. SAN FRANCISCO, 4, 23071 Jaén
 Pablo Rada 40, 31380, Navarra, Comunidad Foral Navarra, España
 Pago San Jeronimo S/N, 11540, Cadiz, Andalucia, España
 Pakistán
@@ -6810,7 +6830,6 @@ Paseo Colón 4, 51001, Ceuta, Ceuta, España
 Paseo Compositor Beethovena 5, 25230, Lleida, Cataluna, España
 Paseo Constitucion 80, 03650, Alicante, Comunitat Valenciana, España
 Paseo Constitución 2, 10350, Caceres, Extremadura, España
-Paseo De Aguadores 2, 28871, Madrid, Comunidad Madrid, España
 Paseo De Almería 41, 04001, Almeria, Andalucia, España
 Paseo De Almería 62 04001 Almería (Almería)
 Paseo De Cervantes S/N 36001 Pontevedra (Pontevedra)
@@ -7008,6 +7027,7 @@ Paseo Sitio de Calahonda 6, 29740, Malaga, Andalucia, España
 Paseo Torras i Bages 29, 08030, Barcelona, Cataluna, España
 Paseo Torres Villarroel 65, 37006, Salamanca, Castilla Leon, España
 Paseo Zorrilla 130, 47006, Valladolid, Castilla Leon, España
+Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
 Paseo de Almería 41 04071 Almería (Almería)
 Paseo de Canalejas, 129, 37001 SALAMANCA
 Paseo de El Pardo 43 28048 Madrid (Madrid)
@@ -7147,7 +7167,6 @@ Plaza Cuatro Caños 1, 19100, Guadalajara, Castilla La Mancha, España
 Plaza D'Espanya 1, 08242, Barcelona, Cataluna, España
 Plaza Da Constitucion S/N, 27360, Lugo, Galicia, España
 Plaza Da Mina 11, 36740, Pontevedra, Galicia, España
-Plaza De 0796 S/N, 11010, Cadiz, Andalucia, España
 Plaza De Andalucia 37, 29440, Malaga, Andalucia, España
 Plaza De Andalucia 5 41440 Lora del Río (Sevilla)
 Plaza De Argentina 9, 13580, Ciudad Real, Castilla La Mancha, España
@@ -7309,7 +7328,6 @@ Plaza Del Mar S/n 52004 Melilla (Melilla)
 Plaza Del Mar SN, 52004, Melilla, Melilla, España
 Plaza Del Mercado 24, 49003, Zamora, Castilla Leon, España
 Plaza Del Milenio 1 47015 Valladolid (Valladolid)
-Plaza Del Milenio 1, 47014, Valladolid, Castilla Leon, España
 Plaza Del Milenio s/n, 47014, Valladolid, Castilla Leon, España
 Plaza Del Ministro Indalecio Prieto 1, 41071, Sevilla, Andalucia, España
 Plaza Del Padre Lasa 7, 31500, Navarra, Comunidad Foral Navarra, España
@@ -7578,7 +7596,6 @@ Plaza San Fernando Mejon S/N, 28120, Madrid, Comunidad Madrid, España
 Plaza San Francisco 1, 30201, Murcia, Region Murcia, España
 Plaza San Francisco 15, 49800, Zamora, Castilla Leon, España
 Plaza San Francisco 2, 23004, Jaen, Andalucia, España
-Plaza San Francisco 4, 23071, Jaen, Andalucia, España
 Plaza San Francisco S/N, 23700, Jaen, Andalucia, España
 Plaza San Gil S/N S/N, 40300, Segovia, Castilla Leon, España
 Plaza San Isidro 2, 06220, Badajoz, Extremadura, España
@@ -7629,7 +7646,6 @@ Plaza Valparaíso 4, 28016, Madrid, Comunidad Madrid, España
 Plaza Vila 1, 08105, Barcelona, Cataluna, España
 Plaza Villa 1, 45216, Toledo, Castilla La Mancha, España
 Plaza Villa de Paris S/N, 28004, Madrid, Comunidad Madrid, España
-Plaza Vinadel 30, 30071, Murcia, Region Murcia, España
 Plaza Vinader 10, 30004, Murcia, Region Murcia, España
 Plaza Virgen del Pilar 1, 12520, Castellon, Comunitat Valenciana, España
 Plaza Vital Aza Álvarez-Buylla 1 33600 Mieres (Asturias)
@@ -7709,10 +7725,8 @@ Polígono Ugaldeguren III Pol. A, 7B. 48170 Zamudio (Bizkaia)
 Portal de la Pau 5, 08002, Barcelona, Cataluna, España
 Portugal
 Pque De España 10, 10500, Caceres, Extremadura, España
-Pque De L'Estacio del Nord S/N, 08018, Barcelona, Cataluna, España
 Pque De L'Estació del Nord S/N, 08018, Barcelona, Cataluna, España
 Pque De San Lázaro 12, 32003, Ourense, Galicia, España
-Pque Estació del Nord S/N, 08018, Barcelona, Cataluna, España
 Pque Estarció del Nord s/n, 08018, Barcelona, Cataluna, España
 Pque Reina Sofia 1, 13370, Ciudad Real, Castilla La Mancha, España
 Pque San Julián 12, 16001, Cuenca, Castilla La Mancha, España
@@ -7722,6 +7736,7 @@ Pque Tecnológico de Asturias S/N, 33428, Asturias, Principado Asturias, España
 Praza Alonso Martínez s/n, 09003, Burgos, Castilla Leon, España
 Praza Navarra 11, 22002, Huesca, Aragon, España
 Prolongación Rio Bidasoa S/N, 52002 Melilla
+Promontorio San Martín S/N, 39004 Santander, Cantabria
 Psaje Cargadero Mineral Local 4, 52004, Melilla, Melilla, España
 Psaje De la Botica 5, 21001, Huelva, Andalucia, España
 Psaje De la Horca 1, 29240, Malaga, Andalucia, España
@@ -7731,6 +7746,7 @@ Puerto de la Cruz S/N, 29690, Malaga, Andalucia, España
 Pza. San Juan de la Cruz, 26, 18009 GRANADA
 R DOMINGOS MARREIROS, 2031, SALA 103 Belem, Brasil
 R. Barata Salgueiro 28, 1250 042 Lisboa, Portugal
+RUA ALCALDE XOSE NOVO FREIRE, 5-7, 27002 Lugo
 Rambla Mendez Nuñez 1 03002 Alicante/Alacant (Alacant/Alicante)
 Rambla Nova 93 - 2ª planta 43003 Tarragona (Tarragona)
 Rambla Nova 93 43071 Tarragona (Tarragona)
@@ -7768,7 +7784,6 @@ Ronda De Toledo S/N, 13071, Ciudad Real, Castilla La Mancha, España
 Ronda De la Charca 41, 10190, Caceres, Extremadura, España
 Ronda De la Muralla 131 27071 Lugo (Lugo)
 Ronda De la Muralla 131, 27004, Lugo, Galicia, España
-Ronda De la Muralla 50, 27003, Lugo, Galicia, España
 Ronda De la Muralla 58, 27003, Lugo, Galicia, España
 Ronda Del Convento 16, 14660, Cordoba, Andalucia, España
 Ronda Del Este 35, 28650, Madrid, Comunidad Madrid, España
@@ -7804,6 +7819,7 @@ Rúa Rua do Porto 21 36780 Guarda, A (Pontevedra)
 Rúa Rúa do Porto 29-31 27880 Burela (Lugo)
 Rúa Vía de Enlace 26 36600 Vilagarcía de Arousa (Pontevedra)
 Rúa do Paseo 35 32003 Ourense (Ourense)
+SANTA TERESA DE JESUS, 9, 42003 Soria
 SHERPUR, MAIN STREET, THIRD LANE /RIGHT Kabul, Afganistan
 Sa Rota de N Pere Cardona S/N, 07840, Illes Balears, Illes Balears, España
 Saenz de Quejana S/N, 23280, Jaen, Andalucia, España

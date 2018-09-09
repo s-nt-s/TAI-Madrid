@@ -51,7 +51,6 @@ avenida antonio ruiz lopez s/n, 41930, sevilla, andalucia, españa
 avenida aragon 30, 46071, valencia, comunitat valenciana, españa
 avenida arias de velasco 25, 29600, malaga, andalucia, españa
 avenida austria 35, 41009, sevilla, andalucia, españa
-avenida avenida reyes católicos 22, 09071, burgos, castilla leon, españa
 avenida bachiller 1, 21003, huelva, andalucia, españa
 avenida base naval 1, 11012, cadiz, andalucia, españa
 avenida blas infante 2, 18157, granada, andalucia, españa
@@ -69,7 +68,6 @@ avenida cehegin 111, 30180, murcia, region murcia, españa
 avenida chinorros 13, 29010, malaga, andalucia, españa
 avenida conde de altea 41, 03500, alicante, comunitat valenciana, españa
 avenida conde de altea 41, 03700, alicante, comunitat valenciana, españa
-avenida conde vallellano s/n, 14071, cordoba, andalucia, españa
 avenida constitucion 104, 10130, caceres, extremadura, españa
 avenida constitucion 111, 46009, valencia, comunitat valenciana, españa
 avenida constitucion 4, 23750, jaen, andalucia, españa
@@ -104,7 +102,6 @@ avenida de la asuncion 20, 30520, murcia, region murcia, españa
 avenida de la concordia 30, 41360, sevilla, andalucia, españa
 avenida de la constitucion 31, 50313, zaragoza, aragon, españa
 avenida de la constitución 2, 23071, jaen, andalucia, españa
-avenida de la constitución 3, 41071, sevilla, andalucia, españa
 avenida de la diputacion s/n, 01300, alava, pais vasco, españa
 avenida de la estacion 1, 25500, lleida, cataluna, españa
 avenida de la guardia civil 18, 02434, albacete, castilla la mancha, españa
@@ -223,7 +220,6 @@ avenida ramón y cajal 1, 06005, badajoz, extremadura, españa
 avenida raza 32, 41002, sevilla, andalucia, españa
 avenida recinto portuario s/n., 18600, granada, andalucia, españa
 avenida reina sofia s/n, 41019, sevilla, andalucia, españa
-avenida república dominicana 10, 06071, badajoz, extremadura, españa
 avenida requejo 12, 49020, zamora, castilla leon, españa
 avenida requejo 25, 49071, zamora, castilla leon, españa
 avenida rodrigo de padrón 3, 15075, a coruna, galicia, españa
@@ -587,14 +583,11 @@ calle florez estrada 12, 33180, asturias, principado asturias, españa
 calle fontanella 39, 08204, barcelona, cataluna, españa
 calle francesc macia 9, 08755, barcelona, cataluna, españa
 calle francia s/n, 38509, santa cruz tenerife, canarias, españa
-calle francisco fontecha 2, 02071, albacete, castilla la mancha, españa
 calle francisco gonzalez rey 29, 32800, ourense, galicia, españa
 calle fray alonso asperilla 24, 10616, caceres, extremadura, españa
 calle fray junipero serra 1, 07360, illes balears, illes balears, españa
-calle fray toribio de motolinia 9 11, 49014, zamora, castilla leon, españa
 calle fuenlabrada 42, 28073, madrid, comunidad madrid, españa
 calle fuente diaz 122, 15822, a coruna, galicia, españa
-calle gaiteira 54 56, 15007, a coruna, galicia, españa
 calle galdo 6, 30001, murcia, region murcia, españa
 calle ganivet 1, 18420, granada, andalucia, españa
 calle garcia escamez 4, 35570, las palmas, canarias, españa
@@ -610,8 +603,6 @@ calle generalisimo 40, 50130, zaragoza, aragon, españa
 calle gerona s/n, 47071, valladolid, castilla leon, españa
 calle gonzalez marin 31, 29380, malaga, andalucia, españa
 calle gran via 25 27, 36204, pontevedra, galicia, españa
-calle gran via 50, 48011, bizkaia, pais vasco, españa
-calle gran via diego lopez de haro 50, 48011, bizkaia, pais vasco, españa
 calle gran vía 23, 18071, granada, andalucia, españa
 calle gran vía 89, 48011, bizkaia, pais vasco, españa
 calle gran vía d. diego lope de haro 50, 48071, bizkaia, pais vasco, españa
@@ -892,7 +883,6 @@ calle princesa 32,34,36, 28071, madrid, comunidad madrid, españa
 calle progreso 13, 18007, granada, andalucia, españa
 calle progreso 13, 36960, pontevedra, galicia, españa
 calle progreso 6, 32071, ourense, galicia, españa
-calle promontorio de san martín s/n, 39080, cantabria, cantabria, españa
 calle provisional 1, 03227, alicante, comunitat valenciana, españa
 calle puente genil 23, 14006, cordoba, andalucia, españa
 calle puerta de la villa 11, 14920, cordoba, andalucia, españa
@@ -1012,14 +1002,11 @@ calle topete 4, 11130, cadiz, andalucia, españa
 calle torrefranca 13, 14520, cordoba, andalucia, españa
 calle torrella 106, 17257, girona, cataluna, españa
 calle tortola 97, 18004, granada, andalucia, españa
-calle trinidad c/v sacramento s/n, 46010, valencia, comunitat valenciana, españa
-calle trinidad s/n, 46071, valencia, comunitat valenciana, españa
 calle ultramar 1 3, 47007, valladolid, castilla leon, españa
 calle universitat autonoma s/n, 08193, barcelona, cataluna, españa
 calle urbanizacion camposol poligono 1, 30879, murcia, region murcia, españa
 calle urbanizacion la palomera s/n, 38870, santa cruz tenerife, canarias, españa
 calle uruguay 13, 46071, valencia, comunitat valenciana, españa
-calle valenzuela 3, 28071, madrid, comunidad madrid, españa
 calle valle inclan 15, 28330, madrid, comunidad madrid, españa
 calle valles 1 3, 08190, barcelona, cataluna, españa
 calle vargas 53, 39071, cantabria, cantabria, españa
@@ -1222,7 +1209,6 @@ paseo castellana 147, 28020, madrid, comunidad madrid, españa
 paseo castellana 162, 28071, madrid, comunidad madrid, españa
 paseo castellana 3, 28046, madrid, comunidad madrid, españa
 paseo central s/n, 08830, barcelona, cataluna, españa
-paseo de aguadores 2, 28871, madrid, comunidad madrid, españa
 paseo de chil 299, 35071, las palmas, canarias, españa
 paseo de la castellana 162, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28020, madrid, comunidad madrid, españa
@@ -1367,7 +1353,6 @@ plaza pio xii 6, 20011, gipuzkoa, pais vasco, españa
 plaza pio xiii 6, 20011, gipuzkoa, pais vasco, españa
 plaza poeta pablo alcalde 1, 23760, jaen, andalucia, españa
 plaza san fernando mejon s/n, 28120, madrid, comunidad madrid, españa
-plaza san francisco 4, 23071, jaen, andalucia, españa
 plaza san gil s/n s/n, 40300, segovia, castilla leon, españa
 plaza san sebastian 35, 14290, cordoba, andalucia, españa
 plaza sanchez de cos 1, 39548, cantabria, cantabria, españa
@@ -1377,7 +1362,6 @@ plaza seis de agosto s/n, 33206, asturias, principado asturias, españa
 plaza sevilla 2, 11071, cadiz, andalucia, españa
 plaza tja 7, 07560, illes balears, illes balears, españa
 plaza vila 1, 08105, barcelona, cataluna, españa
-plaza vinadel 30, 30071, murcia, region murcia, españa
 plaza zocodover 6, 45071, toledo, castilla la mancha, españa
 plzla del ayuntamiento 1, 18517, granada, andalucia, españa
 polig industrial de heras nave 136, 39792, cantabria, cantabria, españa

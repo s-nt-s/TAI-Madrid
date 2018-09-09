@@ -42,18 +42,9 @@ Calle Miguel Capllonch 12, 07010, Illes Balears, Illes Balears, España
 Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
 Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
 
-39.986554,-0.0458626
-Avda Perez Galdos 19, 12002, Castellon, Comunitat Valenciana, España
-Avda Pérez Galdós 19, 12002, Castellon, Comunitat Valenciana, España
-
 39.9884077,-0.0340021
 Plaza Maria Agustina 6 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
 Plaza Maria Agustina 6, 12003, Castellon, Comunitat Valenciana, España
-
-40.065844,-2.1320759
-Calle Eras del Tío Cañamón 2 4, 16004, Cuenca, Castilla La Mancha, España
-Calle Eras del Tío Cañamón 2 y4, 16004, Cuenca, Castilla La Mancha, España
-Eras del Tio Cañamon 2 4, 16004, Cuenca, Castilla La Mancha, España
 
 40.0728304,-2.1340255
 Calle Parque San Julian 12 16001 Cuenca (Cuenca)
@@ -267,10 +258,6 @@ Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 Calle Mayor 17 19001 Guadalajara (Guadalajara)
 Calle Mayor 17 19071 Guadalajara (Guadalajara)
 
-40.6526692,-4.692437
-Calle Doctor Jesus Galan 1, 05003, Avila, Castilla Leon, España
-Calle Doctor Jesús Galán 1, 05003, Avila, Castilla Leon, España
-
 40.6566953,-4.6877919
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
 Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
@@ -301,31 +288,16 @@ Plaza Doctor Letamendi 13 23, 3ª PLANTA, 08007, Barcelona, Cataluna, España
 Plaza Doctor Letamendi 13-23 08007 Barcelona (Barcelona)
 
 41.3932065,2.1835331
-Pque De L'Estacio del Nord S/N, 08018, Barcelona, Cataluna, España
 Pque De L'Estació del Nord S/N, 08018, Barcelona, Cataluna, España
-Pque Estació del Nord S/N, 08018, Barcelona, Cataluna, España
 Pque Estarció del Nord s/n, 08018, Barcelona, Cataluna, España
 
 41.3955671,2.1650662
 Calle Mallorca 278 08037 Barcelona (Barcelona)
 Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 
-41.6491015,-4.7354312
-Plaza Del Milenio 1, 47014, Valladolid, Castilla Leon, España
-Plaza Del Milenio s/n, 47014, Valladolid, Castilla Leon, España
-Plaza del Milenio 1, 47014, Valladolid, Castilla Leon, España
-
-41.7600539,-2.4731061
-Calle Santa Teresa de Jesus 9, 42003, Soria, Castilla Leon, España
-Calle Santa Teresa de Jesús 9, 42003, Soria, Castilla Leon, España
-
 41.7636622,-2.4695844
 Calle Alfonso VIII 2 42003 Soria (Soria)
 Calle Alfonso VIII 2, 42003, Soria, Castilla Leon, España
-
-41.9701858,2.8117953
-Avda San Narciso 109, 17005, Girona, Cataluna, España
-Avda Sant Narcis 109, 17005, Girona, Cataluna, España
 
 41.9839131,2.819503
 Avda 20 de Junio 2, 17001, Girona, Cataluna, España
@@ -335,10 +307,6 @@ Avenida 20 de Junio 2 17001 Girona (Girona)
 42.0141939,-4.5323889
 Avenida Casado del Alisal 4 34001 Abarca de Campos (Palencia)
 Avenida Casado del Alisal 4 34001 Palencia (Palencia)
-
-42.0162254,-4.5391395
-Avda Simón Nieto 10, 34005, Palencia, Castilla Leon, España
-Avda Simón Nieto 8, 34005, Palencia, Castilla Leon, España
 
 42.1364007,-0.4086198
 Plaza Navarra 11 22002 Huesca (Huesca)
@@ -357,13 +325,8 @@ Parque San Lázaro 1 32003 Ourense (Ourense)
 Calle Vitoria 39 09004 Burgos (Burgos)
 Calle Vitoria 39 09071 Burgos (Burgos)
 
-42.344047,-3.6881756
-Calle Jesus Maria Ordoño 4, 09004, Burgos, Castilla Leon, España
-Calle Jesús María Ordoño 4,8 y 10, 09004, Burgos, Castilla Leon, España
-
 42.34948,-7.87038
 Avda De Marin 29 31, 32001, Ourense, Galicia, España
-Avda De Marín 29, 32001, Ourense, Galicia, España
 Avda de Marín 29, 32001, Ourense, Galicia, España
 
 42.42552,-8.64661
@@ -408,10 +371,6 @@ Calle Yanguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
 Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
 Plaza Moyua 3 48009 Bilbao (Bizkaia)
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
-
-43.3547135,-8.3923829
-Calle Alejandro Barreiro Noya 1 3, 15006, A Coruna, Galicia, España
-Calle Alejandro Barreiros Noya 1 3, 15006, A Coruna, Galicia, España
 
 43.3607591,-5.85233
 Plaza De España 6, 33007, Asturias, Principado Asturias, España

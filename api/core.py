@@ -9,6 +9,8 @@ re_informatica = re.compile(
 re_no_informatica = re.compile(
     r"(SUPERVISORA? DE SISTEMAS BASICOS)", re.IGNORECASE)
 
+re_postCode = re.compile(r"\b([0-5]\d{4})\b")
+
 re_guion = re.compile(r"\s*-\s*")
 re_paren = re.compile(r"\(.*$")
 
@@ -46,8 +48,8 @@ class Organismo:
                 for o in col:
                     info = arregla_direcciones.get(o.deDireccion, None)
                     if info is not None:
-                        o.latlon, o.deDireccion, o.postCode = info
-                    o.calcular_provincia()
+                        o.latlon = info[0]
+                        o.set_lugar(info[1])
             return col
 
     def save(col, name="organismos", arregla_direcciones=None):
@@ -55,8 +57,8 @@ class Organismo:
             for o in col:
                 info = arregla_direcciones.get(o.deDireccion, None)
                 if info is not None:
-                    o.latlon, o.deDireccion, o.postCode = info
-                o.calcular_provincia()
+                    o.latlon = info[0]
+                    o.set_lugar(info[1])
         with open("datos/" + name + ".json", "w") as f:
             f.write(Organismo.to_json(col))
 
@@ -83,8 +85,6 @@ class Organismo:
         self.idOrganismo = idOrganismo
         self.idUnidOrganica = idUnidOrganica
         self.deOrganismo = deOrganismo
-        self.deDireccion = deDireccion
-        self.postCode = postCode
         self.idPadres = idPadres or set()
         self.codigos = codigos or set()
         self.puestos = set()
@@ -95,18 +95,25 @@ class Organismo:
         self.version = None
         self.isCsic = isCsic
         self.idCsic = idCsic
-        self.idProvincia = idProvincia
         self.deProvincia = None
+        self.set_lugar(deDireccion, postCode, idProvincia)
         if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
             self.rcp, self.version = int(
                 self.idOrganismo[2:-2]), int(self.idOrganismo[-2:])
         self.genera_codigos()
         self.genera_nombres()
-        self.calcular_provincia()
 
-    def calcular_provincia(self):
-        if self.idProvincia is None and self.postCode is not None and self.postCode.isdigit() and len(self.postCode) == 5:
+    def set_lugar(self, direccion, codigo_postal=None, provincia=None):
+        self.deDireccion = direccion
+        self.postCode = codigo_postal
+        self.idProvincia = provincia
+        if self.postCode is None and self.deDireccion:
+            m = re_postCode.search(self.deDireccion)
+            if m:
+                self.postCode = m.group(1)
+        if self.idProvincia is None and self.postCode and self.postCode.isdigit():
             self.idProvincia = int(self.postCode[0:2])
+
 
     def genera_codigos(self):
         self.codigos.add(self.idOrganismo)

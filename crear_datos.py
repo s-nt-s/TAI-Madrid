@@ -53,6 +53,20 @@ re_paren = re.compile(r"\(.*$")
 
 arregla_direcciones = get_direcciones_txt()
 
+def get_sepe():
+    d = {}
+    with open("fuentes/sepe.txt") as y:
+        for l in y.readlines():
+            l = l.strip()
+            if len(l)>0:
+                values = []
+                values = l[1:].split('","')
+                if "," in values[-1]:
+                    values = values[:-1] + values[-1].split(",")
+                else:
+                    values = values[:-1] + [values[-1].replace('"', '')]
+                d[int(values[-1])] = tuple(values[:-1])
+    return d
 
 def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otros=None):
     organismos_E = {}
@@ -80,7 +94,7 @@ def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otro
         org = orgs.pop(0)
         for o in orgs:
             if org.deDireccion is None:
-                org.deDireccion = o.deDireccion
+                org.set_lugar(o.deDireccion, o.postCode)
                 org.latlon = o.latlon
             org.idPadres = org.idPadres.union(o.idPadres)
             org.codigos = org.codigos.union(o.codigos)
@@ -502,8 +516,7 @@ if args.dir3 or args.todo:
             dires = orga_dire.get(o.idOrganismo, None)
             if dires and len(dires) == 1:
                 direccion, postCode = dires.pop()
-                o.deDireccion = direccion
-                o.postCode = postCode
+                o.set_lugar(direccion, postCode)
                 ok = ok + 1
         count = count + 1
         print("%3d%% completado: %-30s (%s)" %
@@ -604,7 +617,8 @@ if args.gob or args.todo:
                     txt = txt.strip()
                     direcis.add(txt)
                 if len(latlons) == 1 and len(direcis) == 1:
-                    o.deDireccion = direcis.pop()
+                    deDireccion = direcis.pop()
+                    o.set_lugar(deDireccion)
                     o.latlon = latlons.pop()
                     ok = ok + 1
         count = count + 1
@@ -655,8 +669,7 @@ if args.fusion or args.todo:
         if org_gob_es.idRaiz is None:
             org_gob_es.idRaiz = org_dir3_E.idRaiz
         if org_gob_es.deDireccion is None:
-            org_gob_es.deDireccion = org_dir3_E.deDireccion
-            org_gob_es.postCode = org_dir3_E.postCode
+            org_gob_es.set_lugar(org_dir3_E.deDireccion, org_dir3_E.postCode)
         elif org_dir3_E.postCode is not None and org_dir3_E.postCode in org_gob_es.deDireccion:
             org_gob_es.postCode = org_dir3_E.postCode
         organismos.add(org_gob_es)
@@ -720,7 +733,7 @@ if args.fusion or args.todo:
             o.codigos.add(n.idOrganismo)
             o.idPadres = o.idPadres.union(n.idPadres)
             if o.deDireccion is None:
-                o.deDireccion = n.deDireccion
+                o.set_lugar(n.deDireccion, n.postCode)
             descartar.add(o)
             descartar.add(n)
             organismos.add(o)
@@ -759,24 +772,23 @@ if args.fusion or args.todo:
             orgs_mismo_padre) == 1 else orgs_mismo_nombre
         if len(orgs) == 1:
             n = orgs.pop()
-            o.deDireccion = n.deDireccion
-            if o.postCode is None or n.postCode is None:
-                postCode = o.postCode or n.postCode
-                o.postCode = postCode
-                n.postCode = postCode
+            deDireccion = n.deDireccion
+            postCode = o.postCode or n.postCode
+            o.set_lugar(deDireccion, postCode)
+            n.set_lugar(deDireccion, postCode)
             if o.latlon is None or n.latlon is None:
                 latlon = o.latlon or n.latlon
                 o.latlon = latlon
                 n.latlon = latlon
             ok += 1
         elif len(dires) == 1:
-            o.deDireccion = dires.pop()
+            deDireccion = dires.pop()
+            o.set_lugar(deDireccion)
             ok += 1
         count += 1
         print("%3d%% completado: %-30s (%s)" %
               (count * 100 / total, o.idOrganismo, ok), end="\r")
     print ("")
-
     Organismo.save(organismos, name="organismos_dir3_E_gob.es",
                    arregla_direcciones=arregla_direcciones)
 
@@ -906,7 +918,7 @@ for o in organismos:
         if org_csic:
             o.idCsic = org_csic.idOrganismo
             o.deOrganismo = org_csic.deOrganismo
-            o.deDireccion = org_csic.deDireccion
+            o.set_lugar(org_csic.deDireccion, org_csic.postCode)
             o.latlon = org_csic.latlon
             ok += 1
     count += 1
@@ -914,7 +926,24 @@ for o in organismos:
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
-
+sepe=get_sepe()
+total = len(organismos)
+ok = 0
+count = 0
+print ("Fusionando con sepe.es")
+for o in organismos:
+    if o.deOrganismo.startswith("Direccion Provincial del SEPE de ") and o.idProvincia:
+        s = sepe.get(o.idProvincia, None)
+        if s:
+            latlon, _, dire, codpostal, prov = s[:5]
+            o.set_lugar(dire+", "+codpostal+" "+prov, codpostal)
+            o.latlon = latlon
+            ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
+print("")
+    
 rcp_organi = {}
 for o in organismos:
     o.genera_codigos()
@@ -930,7 +959,9 @@ ok = 0
 for k, v in cod_dir_latlon.items():
     org = rcp_organi.get(k, None)
     if org:
-        org.latlon, org.deDireccion = v
+        latlon, deDireccion = v
+        org.latlon = latlon
+        org.set_lugar(deDireccion)
         ok = ok + 1
     count = count + 1
     print("%3d%% completado: %-30s (%s)" %
@@ -1010,7 +1041,7 @@ for k, v in xls_info.items():
             # no puedo saber si se le ha asignado porque es suya
             # o porque es del padre y él realmente no tiene
             if not org.latlon:
-                org.deDireccion = dire
+                org.set_lugar(dire)
                 org.latlon = latlon
                 ok += 1
     count += 1
@@ -1084,11 +1115,9 @@ for unidad, provincias in unidades_provincia.items():
         provincia = provincias.pop()
         if provincia is not None:
             org = rcp_organi.get(unidad, None)
-            if org:
-                org.calcular_provincia()
-                if org.idProvincia is None:
-                    org.idProvincia = provincia
-                    ok += 1
+            if org and org.idProvincia is None:
+                org.idProvincia = provincia
+                ok += 1
     count += 1
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
