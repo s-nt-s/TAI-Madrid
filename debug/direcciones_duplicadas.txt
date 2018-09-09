@@ -18,6 +18,10 @@ Ronda Del Pilar 10, 06071, Badajoz, Extremadura, España
 Avda Bartolomé Roselló 21, 07800, Illes Balears, Illes Balears, España
 Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
 
+39.4737507,-0.3649418
+Paseo Alameda 17, 46010, Valencia, Comunitat Valenciana, España
+Passeig de l'Albereda, 28, 46010 València
+
 39.4763102,-0.3578827
 Avda Blasco Ibañez 48, 46010, Valencia, Comunitat Valenciana, España
 Avda Vicente Blasco Ibáñez 48, 46010, Valencia, Comunitat Valenciana, España
@@ -166,6 +170,14 @@ Calle Mallorca 278 08037 Barcelona (Barcelona)
 Calle Mallorca 278, 08037, Barcelona
 Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 
+41.698647,-0.8684227000000001
+Carretera de Huesca, s/n, 50090 Zaragoza
+Ctra Huesca S/N, 50090, Zaragoza, Aragon, España
+
+41.7609514,-2.4650739
+Calle Antolin de soria s/n 42003 Soria (Soria)
+Calle Antolín de Soria S/N, 42003 SORIA
+
 41.7636622,-2.4695844
 Calle Alfonso VIII 2 42003 Soria (Soria)
 Calle Alfonso VIII 2, 42003, Soria, Castilla Leon, España
@@ -233,6 +245,10 @@ Calle Yanguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
 Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
 Plaza Moyua 3 48009 Bilbao (Bizkaia)
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
+
+43.3607591,-5.85233
+Plaza España 3, 33007, Asturias, Principado Asturias, España
+Plaza de España, 4, 33007 Oviedo, Asturias, Asturias
 
 43.3643266,-8.4055351
 Plaza Orense 11 15004 Coruña, A (Coruña, A)

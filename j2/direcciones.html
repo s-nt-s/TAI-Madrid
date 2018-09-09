@@ -8,16 +8,16 @@
 	</head>
 	<body>
         {%include "banner.html" %}
-		{% for id, des, org in info.next_ministerio %}
+		{% for id, des, org, padre in info.next_ministerio %}
             <h1 class="idde" id="{{id}}"><span>{{id}}</span> <span>{{ des }}</span></h1>
             {%include "dir3.html" %}
-            {% for id, des, org in info.next_centrodirectivo %}
+            {% for id, des, org, padre in info.next_centrodirectivo %}
                 <h2 class="idde" id="{{id}}">{% if id > -1 %}<span>{{id}}</span> {% endif %}<span>{{ des }}</span></h2>
                 {% if id > -1 %}
                 {%include "dir3.html" %}
                 {% endif %}
 
-                {% for id, des, org in info.next_unidad %}
+                {% for id, des, org, padre in info.next_unidad %}
                     <h3 class="idde" id="{{id}}"><span>{{id}}</span> <span>{{ des }}</span></h3>
                     {%include "dir3.html" %}
                 {%endfor%}

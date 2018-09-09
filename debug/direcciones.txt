@@ -68,6 +68,7 @@ Autopista Gc 1 s/n, 35230, Las Palmas, Canarias, España
 Autovía M 40 S/N, 28223, Madrid, Comunidad Madrid, España
 Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
 Av. Cañoto esquina Calle Perú Santa Cruz de la Sierra, Bolivia Estado Plurinacional de
+Av. Eduardo Dato, 21, 41018 Sevilla
 Av. España 2044 Asunción, Paraguay
 Av. Figueroa Alcorta 3102, 1º piso. Buenos Aires, Argentina
 Av. Mohedano, entre la 1.ª y 2.ª Caracas, Venezuela Republica Bolivariana de
@@ -1959,6 +1960,7 @@ Calle Anselmo Cifuentes 13, 33205, Asturias, Principado Asturias, España
 Calle Anselmo Clave 40 42, 08328, Barcelona, Cataluna, España
 Calle Antequera 14 1, 41980, Sevilla, Andalucia, España
 Calle Antolin de soria s/n 42003 Soria (Soria)
+Calle Antolín de Soria S/N, 42003 SORIA
 Calle Anton Garrido 2, 14970, Cordoba, Andalucia, España
 Calle Antonio Arias 2, 28009, Madrid, Comunidad Madrid, España
 Calle Antonio Beltran 6 04600 Huércal-Overa (Almería)
@@ -2388,6 +2390,7 @@ Calle Carrillo 19, 41900, Sevilla, Andalucia, España
 Calle Cartagena 11, 30170, Murcia, Region Murcia, España
 Calle Cartama 41 C, 29670, Malaga, Andalucia, España
 Calle Cartero German 2, 48980, Bizkaia, Pais Vasco, España
+Calle Carvajal, 835004 Las Palmas de Gran Canaria, Las Palmas
 Calle Casa da Pequena 17, 32102, Ourense, Galicia, España
 Calle Casampons 1, 08600, Barcelona, Cataluna, España
 Calle Casanueva S/N, 18291, Granada, Andalucia, España
@@ -3391,6 +3394,7 @@ Calle Goya 2 13500 Puertollano (Ciudad Real)
 Calle Gracia 63, 14410, Cordoba, Andalucia, España
 Calle Gracia 87, 45780, Toledo, Castilla La Mancha, España
 Calle Graham Bell 5 41010 Sevilla (Sevilla)
+Calle Gral. Chinchilla, 10, 31002 Pamplona, Navarra
 Calle Gral. Salcedo Molinuevo 13, 15009, A Coruna, Galicia, España
 Calle Gran 97, 07420, Illes Balears, Illes Balears, España
 Calle Gran Avenida 1, 41340, Sevilla, Andalucia, España
@@ -3957,6 +3961,7 @@ Calle Les Comes 36, 08700, Barcelona, Cataluna, España
 Calle Les Roses 27, 46980, Valencia, Comunitat Valenciana, España
 Calle León XIII S/N 07500 Manacor (Illes Balears)
 Calle León y Castillo 320, 35007, Las Palmas, Canarias, España
+Calle León y Castillo, 310, 35006 Las Palmas de Gran Canaria, Las Palmas
 Calle Libertad 12, 33450, Asturias, Principado Asturias, España
 Calle Libertad 18 37700 Béjar (Salamanca)
 Calle Libertad 20, 03390, Alicante, Comunitat Valenciana, España
@@ -5978,6 +5983,7 @@ Campa De las Royas S/N, 33560, Asturias, Principado Asturias, España
 Campa La Feria S/N, 49570, Zamora, Castilla Leon, España
 Campo Campus UAB, Bellaterra s/n 08193 Cerdanyola del Vallès (Barcelona)
 Campo de las Royas SN 33560 Ribadesella (Asturias)
+Camí Vell de Talarn, s/n, 25640 Tremp, Lleida
 Can Patiquet S/N, 08100, Barcelona, Cataluna, España
 Canadá
 Canova S/N, 07630, Illes Balears, Illes Balears, España
@@ -5986,7 +5992,9 @@ Carrer Gran Via Colom 22 07300 Inca (Illes Balears)
 Carrer Pare Agustí Altisent 1 43005 Tarragona (Tarragona)
 Carrer Tres Ponts 7 25700 Seu d'Urgell, La (Lleida)
 Carrer Vicente Serra Orvay 43 07800 Eivissa (Illes Balears)
+Carrer d'Antoni Planas i Franch, 9, 07001 Palma, Illes Balears
 Carrer de Bolívia 56 08018 Barcelona (Barcelona)
+Carrer de Dulcet, 2, 08034 Barcelona
 Carrer de l'Escola Industrial 9 08201 Sabadell (Barcelona)
 Carrer los Marmoles 5 35500 Arrecife (Palmas, Las)
 Carrera Ctra. de Ayora Km 2 02006 Albacete (Albacete)
@@ -6087,6 +6095,7 @@ Carretera Torreblanca-Mairena de Alcor KM. 3 41007 Utrera (Sevilla)
 Carretera Torreblanca-Mairena de Alcor KM. 3,5 41020 Sevilla (Sevilla)
 Carretera Vegadeo-Pontevedra S/N 27560 Monterroso (Lugo)
 Carretera de Ajalvir Km. 4 28850 Torrejón de Ardoz (Madrid)
+Carretera de Huesca, s/n, 50090 Zaragoza
 Carretera de Porzuna 1 13071 Ciudad Real (Ciudad Real)
 Carretera de Taliarte s/n 35200 Telde (Palmas, Las)
 Carretera de la Carraca, s/n - Población Militar de San Carlos
@@ -6977,6 +6986,7 @@ Paseo Zorrilla 130, 47006, Valladolid, Castilla Leon, España
 Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
 Paseo de Almería 41 04071 Almería (Almería)
 Paseo de Canalejas, 129, 37001 SALAMANCA
+Paseo de Carlos III, 3C, 11003 Cádiz
 Paseo de El Pardo 43 28048 Madrid (Madrid)
 Paseo de Juan XXIII 26, 28040 Madrid
 Paseo de San Roque 34 05071 Ávila (Ávila)
@@ -7012,6 +7022,7 @@ Paseo del Prado 4, 28014 Madrid
 Paseo del Prado 4, 28014, Madrid, Comunidad Madrid, España
 Paseo del Prado 6, 28014, Madrid, Comunidad Madrid, España
 Paseo del Rey 1, 28004, Madrid, Comunidad Madrid, España
+Passeig de l'Albereda, 28, 46010 València
 Países Bajos (los)
 Pedro Machuca 4 6, 18011, Granada, Andalucia, España
 Perú
@@ -7337,6 +7348,7 @@ Plaza España S/n, 36002, Pontevedra, Galicia, España
 Plaza España s/n, 10710, Caceres, Extremadura, España
 Plaza España s/n, 36002, Pontevedra, Galicia, España
 Plaza España s/n, 41071, Sevilla, Andalucia, España
+Plaza España, 1, 41013 Sevilla
 Plaza España, 6 5, 02520, Albacete, Castilla La Mancha, España
 Plaza España, Torre Norte S/N, 41071, Sevilla, Andalucia, España
 Plaza España, s/n, 36920 Marín, Pontevedra
@@ -7594,6 +7606,7 @@ Plaza de España 17 11006 Cádiz (Cádiz)
 Plaza de España s/n 36002 Pontevedra (Pontevedra)
 Plaza de España, 2, 33007 Oviedo, Asturias
 Plaza de España, 3, 33007 Oviedo, Asturias
+Plaza de España, 4, 33007 Oviedo, Asturias, Asturias
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
 Plaza de Madrid S/N, 11011 Cádiz
 Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
@@ -7668,6 +7681,7 @@ Pque Servicios Aeronauticos S/N, 08820, Barcelona, Cataluna, España
 Pque Tecnológico de Asturias S/N, 33428, Asturias, Principado Asturias, España
 Praza Alonso Martínez s/n, 09003, Burgos, Castilla Leon, España
 Praza Navarra 11, 22002, Huesca, Aragon, España
+Praza de Compostela, 29, 36201 Vigo, Pontevedra
 Prolongación Rio Bidasoa S/N, 52002 Melilla
 Promontorio San Martín S/N, 39004 Santander, Cantabria
 Psaje Cargadero Mineral Local 4, 52004, Melilla, Melilla, España
@@ -7806,6 +7820,7 @@ Turquía
 Túnez
 UNIVERSIDAD PABLO DE OLAVIDE EDIFICIO 46 CTRA. DE UTRERA KM 1 41013 Sevilla (Sevilla)
 Ucrania
+Urizar Kalea, 13, 48012 Bilbo, Bizkaia
 Uruguay
 Valle Inclan S/N, 36630, Pontevedra, Galicia, España
 Venta Balleria 2, 22210, Huesca, Aragon, España

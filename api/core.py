@@ -359,6 +359,9 @@ class Info:
         self.cur_ministerio = None
         self.cur_centrodirectivo = None
         self.cur_unidad = None
+        self.org_ministerio = None
+        self.org_centrodirectivo = None
+        self.org_unidad = None
 
     @property
     def puestos_by_ministerio(self):
@@ -373,8 +376,8 @@ class Info:
             k = int(k)
             if k in ministerios:
                 self.cur_ministerio = k
-                org = self.organismos.get(k, None)
-                yield (k, v, org)
+                self.org_ministerio = self.organismos.get(k, None)
+                yield (k, v, self.org_ministerio, None)
 
     @property
     def next_centrodirectivo(self):
@@ -384,11 +387,12 @@ class Info:
             k = int(k)
             if k in centrodirectivos:
                 self.cur_centrodirectivo = k
-                org = self.organismos.get(k, None)
-                yield (k, v, org)
+                self.org_centrodirectivo = self.organismos.get(k, None)
+                yield (k, v, self.org_centrodirectivo, self.org_ministerio)
         self.cur_centrodirectivo = None
+        self.org_centrodirectivo
         if next(self.next_unidad, None):
-            yield (-1, "Sin centro directivo", None)
+            yield (-1, "Sin centro directivo", None, self.org_ministerio)
 
     @property
     def next_unidad(self):
@@ -400,8 +404,8 @@ class Info:
                 if k == self.cur_centrodirectivo:
                     continue
                 self.cur_unidad = k
-                org = self.organismos.get(k, None)
-                yield (k, v, org)
+                self.org_unidad = self.organismos.get(k, None)
+                yield (k, v, self.org_unidad, self.org_centrodirectivo or self.org_ministerio)
 
     @property
     def estado_ministerio(self):
