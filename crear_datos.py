@@ -1004,6 +1004,7 @@ sh = wb.sheet_by_index(1)
 total = sh.nrows
 count = 0
 ok = 0
+ok2 = 0
 dire_xls = set()
 for rx in range(sh.nrows):
     row = [parse(c) for c in sh.row(rx)]
@@ -1017,15 +1018,18 @@ for rx in range(sh.nrows):
         if idUnidad:
             xls_info[idUnidad] = (dire, latlon, idCentroDirectivo or idMinisterio)
             if machacar == "SI":
-                pass
+                org = rcp_organi.get(idUnidad, None)
+                org.set_lugar(dire)
+                org.latlon=latlon
+                ok2 += 1
         dire = simplificar_dire(dire)
         if dire not in direcciones:
             direcciones[dire] = latlon
             dire_xls.add(dire)
             ok += 1
     count += 1
-    print("%3d%% completado: %-30s (%s)" %
-          (count * 100 / total, (dire or "")[:30], ok), end="\r")
+    print("%3d%% completado: %-30s (%s / %s)" %
+          (count * 100 / total, (dire or "")[:30], ok, ok2), end="\r")
 print ("")
 
 count = 0

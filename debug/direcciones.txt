@@ -1572,6 +1572,7 @@ C/ ALEJANDRO BARREIRO NOYA, 1-3, 15006 A Coruña
 C/ ARTURO DUPERIER, 4 28029 Madrid (Madrid)
 C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID
 C/ Alfar, 2. 28760 - Tres Cantos - Madrid
+C/ Arturo Soria 126, EDIFICIO A
 C/ BALDIRI REIXAC, 4 08028 Barcelona (Barcelona)
 C/ BOTÁNICA S/N POLIGONO EMPRESARIAL, NUEVA TORNEO, 41015 Sevilla
 C/ Boston, 6, 47007 VALLADOLID
@@ -1597,6 +1598,7 @@ C/ GURUGÚ, 2 LOCAL 1, 52006 Melilla
 C/ Gran Vía, 89, 48011 BILBAO
 C/ Guzmán el Bueno, 139
 C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
+C/ Infanta Mercedes, 37
 C/ Ingeniero de la Torre Acosta, 5, 29007 MALAGA
 C/ JAIME ROIG, 11 46010 Valencia (Valencia / València)
 C/ JESUS MARIA ORDOÑO 4, 8 y 10, 09004 Burgos
@@ -1611,8 +1613,10 @@ C/ OQUENDO, 16, PLANTA 4, 20004 Gipuzkoa
 C/ Ortega y Gasset, 7, 30009 MURCIA
 C/ PINTOR JESUS APELLANIZ, 11, BAJO, 01008 Araba-Álava
 C/ Pablo Picasso, nº 8, 41018 SEVILLA
+C/ Pechuán, 1. 28002 Madrid
 C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
 C/ Pinar de Valsaín, 1, 40005 SEGOVIA
+C/ Pintor El Greco nº 4. 28040 Madrid
 C/ Puerto, 50, 21001 HUELVA
 C/ Pérez de la Sala, 9, 33007 OVIEDO
 C/ RAMIRO DE MAEZTU, 9 28040 Madrid (Madrid)
@@ -1641,6 +1645,7 @@ C/Dr.Combelles, nº57, 25003 Lleida
 C/ECHEGARAY, 3, 13004 Ciudad Real
 C/JOSE Mª MARTINEZ CACHERO 17-21, 33013 Asturias
 C/Makka Al Muka Rama, 5 Damasco, Siria (la) Republica Arabe
+C/ Alejandro Dumas, 11 - 28005.
 CALLE JOAN MARAGALL,10 ANDORRA LA VELLA, Andorra
 CAMPUS MIGUEL DE UNAMUNO 37007 Salamanca (Salamanca)
 CAMPUS UNIVERSIDAD AUTONOMA DE BARCELONA (BELLATERRA) 08193 Cerdanyola del Vallès (Barcelona)
@@ -2034,7 +2039,6 @@ Calle Aranjuez 24, 45224, Toledo, Castilla La Mancha, España
 Calle Arapiles 19 04001 Almería (Almería)
 Calle Arapiles 19, 04001, Almeria, Andalucia, España
 Calle Arcipreste Esteban Diaz 24, 30510, Murcia, Region Murcia, España
-Calle Arcipreste de Hita 5 28015 Madrid (Madrid)
 Calle Arcos de la Frontera 107, 11330, Cadiz, Andalucia, España
 Calle Ardales 22, 29420, Malaga, Andalucia, España
 Calle Ardigales, 10 39700 Castro-Urdiales (Cantabria)
@@ -4908,6 +4912,7 @@ Calle Princesa 32,34,36, 28071, Madrid, Comunidad Madrid, España
 Calle Princesa 38, 28008, Madrid, Comunidad Madrid, España
 Calle Princesa 42 56, 28008, Madrid, Comunidad Madrid, España
 Calle Princesa Zaida 6, 16002, Cuenca, Castilla La Mancha, España
+Calle Princesa núms. 32, 34, 36 - 28008 Madrid
 Calle Principe 1, 30730, Murcia, Region Murcia, España
 Calle Principe Felipe 48, 45600, Toledo, Castilla La Mancha, España
 Calle Principe Felipe 56, 37770, Salamanca, Castilla Leon, España
@@ -6569,6 +6574,7 @@ Dacio Darias S/N, 38900, Santa Cruz Tenerife, Canarias, España
 Dinamarca
 Doctor Antonio Cabrera S/N, 14400, Cordoba, Andalucia, España
 Doctor Negrin S/N, 35110, Las Palmas, Canarias, España
+Donoso Cortés, 92 - 28015 Madrid
 Dr. Lopez Suarez S/N, 27400, Lugo, Galicia, España
 EDIFICIO JUAN JORDA. AVDA DE LOS CASTROS S/N 39005 Santander (Cantabria)
 ERAS DEL TIO CAÑAMON N 2 y 4, 16004 Cuenca
@@ -6583,6 +6589,7 @@ Edificio C.I.A.T. C/ Ramón Arias. Aparta Panamá, Panama
 Edificio Glorieta S/N 11011 Cádiz (Cádiz)
 Edificio Mercantil Plaza, piso 11 San Juan de Puerto Rico, Estados Unidos (los)
 Edificio Puerto S/N 18671 Motril (Granada)
+Edificio Torres Ágora. C/ Serrano Galvache, 26 28071 Madrid
 Egipto
 Ejercito Español S/N, 23071, Jaen, Andalucia, España
 El Calvario S/N, 38800, Santa Cruz Tenerife, Canarias, España
@@ -7055,6 +7062,7 @@ Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
 Paseo de la Castellana 75 28071 Madrid (Madrid)
 Paseo de la Castellana 75, 28043, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
+Paseo de la Castellana, 147 28046 Madrid
 Paseo de la Castellana, 75 - 28046 MADRID
 Paseo de la Chopera 4 28045 Madrid (Madrid)
 Paseo de la Farola 7 29071 Málaga (Málaga)
@@ -7225,7 +7233,6 @@ Plaza De Parejas Ala Norte Casa de los Caballeros S/N, 28300, Madrid, Comunidad 
 Plaza De San Aguntin 3, 45001, Toledo, Castilla La Mancha, España
 Plaza De San Anton 9, 41410, Sevilla, Andalucia, España
 Plaza De San Roque s/n 36071 Pontevedra (Pontevedra)
-Plaza De Santa Barbara 5, 28004, Madrid, Comunidad Madrid, España
 Plaza De Santo Domingo 18 15001 Coruña, A (Coruña, A)
 Plaza De Santo Domingo 2 06071 Badajoz (Badajoz)
 Plaza De Santo Domingo S/N, 06001, Badajoz, Extremadura, España
