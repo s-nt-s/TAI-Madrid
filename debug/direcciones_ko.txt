@@ -1232,6 +1232,7 @@ plaza alfonso torres 3, 04880, almeria, andalucia, españa
 plaza alta 5, 29108, malaga, andalucia, españa
 plaza america 8, 18500, granada, andalucia, españa
 plaza ayuntamiento 1, 46140, valencia, comunitat valenciana, españa
+plaza baixamar 1, 07701, illes balears, illes balears, españa
 plaza c. comercial parque miramar s/n, 29007, malaga, andalucia, españa
 plaza candelaria 1, 35620, las palmas, canarias, españa
 plaza cervantes 1, 13071, ciudad real, castilla la mancha, españa
@@ -1246,6 +1247,7 @@ plaza convento 4, 03510, alicante, comunitat valenciana, españa
 plaza coronel polanco s/n, 28071, madrid, comunidad madrid, españa
 plaza da constitucion s/n, 27360, lugo, galicia, españa
 plaza de andalucia 37, 29440, malaga, andalucia, españa
+plaza de baixamar 1, 07701, illes balears, illes balears, españa
 plaza de belén maría s/n, 35007, las palmas, canarias, españa
 plaza de castilla y león s/n, 49014, zamora, castilla leon, españa
 plaza de españa 19, 11071, cadiz, andalucia, españa

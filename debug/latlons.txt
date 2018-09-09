@@ -19,21 +19,14 @@ Calle Historiador Fernando de Armas, 12, 35017 Las Palmas de Gran Canaria, Las P
 28.0903921,-17.1097141
 Plaza De las Américas 2, 38800, Santa Cruz Tenerife, Canarias, España
 
-28.1126077,-15.4182899
-Plaza De los Derechos Humanos 2 35071 Palmas de Gran Canaria, Las (Palmas, Las)
-Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
-
 28.1129605,-15.4184312
-Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
+Plaza De los Derechos Humanos S/N, 35003 Palmas de Gran Canaria
 
 28.1131597,-15.42136
 Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
 
 28.4614573,-16.2507718
-Avda José Manuel Guimerá 8, 38003, Santa Cruz Tenerife, Canarias, España
-
-28.46208,-16.2510
-Av José Manuel Guimerá N-8 , 38003 SANTA CRUZ DE TENERIFE
+Avda José Manuel Guimerá 8, 38003 Santa Cruz Tenerife
 
 28.4633908,-16.2483067
 Avenida Marítima 6 38071 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
@@ -63,10 +56,7 @@ Paseo Marítimo Alcalde Rafael Ginel Cañamaque, 5, planta 8, 52004 MELILLA
 Plaza Del Mar S/N, 52004 Melilla
 
 35.2910493,-2.9374241
-Avenida de la Marina Española 3 52001 Melilla (Melilla)
-
-35.2913311,-2.9379935
-Avda de la Marina Española 3, 52001, Melilla, Melilla, España
+Avenida de la Marina Española 3 52001 Melilla
 
 35.2959698,-2.9388228
 Paseo Alcalde Rafael Ginel s/n, 52001, Melilla, Melilla, España
@@ -76,9 +66,6 @@ Calle General Serrano Orive 2 51001 Ceuta (Ceuta)
 
 35.8868512,-5.3083337
 Calle Beatriz de Silva 4, 51001 Ceuta
-
-35.8869179,-5.307412
-Calle Beatriz de Silva 4, 51001, Ceuta, Ceuta, España
 
 35.8872271,-5.3060865
 Calle Echegaray s/n, 51001, Ceuta, Ceuta, España
@@ -203,8 +190,8 @@ C/ Puerto, 50, 21001 HUELVA
 37.2596543,-6.9508557
 Paseo de Santa Fe 22, 21003 Huelva
 
-37.3552204,-5.9673967
-Plaza De España S/N, 41013 Sevilla
+37.2878009,-5.4882679
+Plaza España S/N, 41071 Sevilla
 
 37.3573106,-5.9865464
 AVDA. REINA MERCEDES, 10 41012 Sevilla (Sevilla)
@@ -443,10 +430,7 @@ Camino Nuevo de Picaña 27 46014 València (València/Valencia)
 Calle Encarnación 12 10200 Trujillo (Cáceres)
 
 39.4627842,-0.3795037
-Calle De Bailén 46, 46007, Valencia, Comunitat Valenciana, España
-
-39.46474,-0.37887
-c/ Bailén, 46, 46007 VALENCIA
+Calle De Bailén 46, 46007 Valencia
 
 39.46852,-0.37708
 Av.Marqués de Sotelo 8 y 10, 46002 VALENCIA
@@ -524,14 +508,6 @@ La Rambla, 18, 07003 PALMA DE MALLORCA
 39.5764083,2.6507868
 Calle Cecilio Metelo 9 07003 Palma (Illes Balears)
 
-39.5902242,2.6510362
-Calle Gaspar Sabater 3, 07010, Illes Balears, Illes Balears, España
-Calle Gaspar de Sabater 3, 07010, Illes Balears, Illes Balears, España
-
-39.5903944,2.6510579
-Calle Miguel Capllonch 12 07010 Palma (Illes Balears)
-Calle Miguel Capllonch 12, 07010, Illes Balears, Illes Balears, España
-
 39.602156,2.666685
 GREMI DE SABATERS,39, 07009 Baleares
 
@@ -541,17 +517,11 @@ Calle Colón 20 46160 Llíria (València/Valencia)
 39.8557143,-4.0293995
 Calle Samuel Leví s/n, 45002, Toledo, Castilla La Mancha, España
 
-39.858319,-4.025881
-Calle Alfonso X el Sabio 1 45002 Toledo (Toledo)
-
 39.8587555,-4.0255059
-Calle Alfonso X El Sabio 1, 45002, Toledo, Castilla La Mancha, España
+Calle Alfonso X el Sabio 1, 45002 Toledo
 
 39.8596655,-4.0210357
-Plaza Zocodover 6 45001 Toledo (Toledo)
-
-39.8598252,-4.0210555
-Plaza Zocodover 6, 45001, Toledo, Castilla La Mancha, España
+Plaza Zocodover 6, 45001 Toledo
 
 39.86038,-4.02180
 Plaza San Agustín, 3, 45001 TOLEDO
@@ -565,10 +535,6 @@ Avda General Villalba 3 bis, 45003, Toledo, Castilla La Mancha, España
 39.883469,-4.031572
 C/ REINO UNIDO,3, 45005 Toledo
 
-39.8902872,4.2650347
-Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
-Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
-
 39.9807342,-0.031691
 Calle Cronista Revest 11, 12005, Castellon, Comunitat Valenciana, España
 
@@ -579,8 +545,7 @@ Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
 AV/PEREZ GALDOS, 19, 12002 Castellón
 
 39.9884077,-0.0340021
-Plaza Maria Agustina 6 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
-Plaza Maria Agustina 6, 12003, Castellon, Comunitat Valenciana, España
+Plaza María Agustina 6, 12003, Castellon, Valencia
 
 39.9886397,-0.0437388
 Paseo Ribalta 12, 12004 Castellón de la Plana, Castellón
@@ -594,14 +559,12 @@ ERAS DEL TIO CAÑAMON N 2 y 4, 16004 Cuenca
 40.07262,-2.13495
 Parque San Julián, 7, 16001 Cuenca
 
-40.0728304,-2.1340255
-Calle Parque San Julian 12 16001 Cuenca (Cuenca)
-Parque De San Julián 12 16001 Cuenca (Cuenca)
-Pque San Julián 12, 16001, Cuenca, Castilla La Mancha, España
+40.07300499999999,-2.135802
+Calle Parque de San Julian 7, 16001, Cuenca, Castilla La Mancha, España
+Pque De San Julián 12, 16001, Cuenca, Castilla La Mancha, España
 
 40.0742351,-2.1362396
-Calle Juan Correcher 2 16001 Cuenca (Cuenca)
-Calle Juan Correcher 2, 16001, Cuenca, Castilla La Mancha, España
+Calle Juan Correcher 2, 16001 Cuenca
 
 40.2817346,-3.7980138
 Calle Luis Sauquillo 44 28944 Fuenlabrada (Madrid)
@@ -634,8 +597,7 @@ Tarazona de Aragón, 2-A, 44002 TERUEL
 Acuartelamiento San Cristobal (Villaverde) Avda. Andalucía km 10 28021 Madrid
 
 40.3403599,-1.1067499
-Plaza San Juan 4 44001 Teruel (Teruel)
-Plaza San Juan 4, 44001, Teruel, Aragon, España
+Plaza San Juan 4, 44001, Teruel
 
 40.3407537,-1.1065524
 Plaza San Juan 3 44001 Teruel (Teruel)
@@ -671,9 +633,7 @@ C/ Alejandro Dumas, 11 - 28005.
 Calle Atocha 3 28071 Madrid (Madrid)
 
 40.4077415,-3.7121846
-Avenida Gran Vía de San Francisco 4-6 28005 Madrid (Madrid)
-Via Gran Vía de San Francisco 4 y 6 28005 Madrid (Madrid)
-Via Gran Vía de San Francisco 4 y 6, 28005, Madrid, Comunidad Madrid, España
+Avenida Gran Vía de San Francisco 4-6, 28005 Madrid
 
 40.4078464,-3.6861369
 Calle de Alfonso XII 3, 28014 Madrid
@@ -681,16 +641,11 @@ Calle de Alfonso XII 3, 28014 Madrid
 40.4079189,-3.6945566
 Calle Santa Isabel 52, 28012 Madrid
 
-40.4079379,-3.6945986
-Calle Santa Isabel, 52 28012 Madrid
-
 40.4086372,-3.6906168
 Paseo Infanta Isabel 1, 28014 Madrid
 
 40.4100669,-3.6947583
-Calle Atocha 106 28012 Madrid (Madrid)
-Calle Atocha 106, 28012, Madrid, Comunidad Madrid, España
-Calle De Atocha 106 28012 Madrid (Madrid)
+Calle Atocha 106, 28012 Madrid
 
 40.4111064,-3.6911267
 Plaza de Murillo, 2 28014 Madrid (Madrid)
@@ -705,20 +660,13 @@ Paseo Bajo de la Virgen del Puerto, 3, 28005 Madrid
 Calle Alfonso XII S/N 28071 Madrid (Madrid)
 
 40.4133587,-3.689281
-Calle Alberto Bosch 16 28014 Madrid (Madrid)
-Calle Alberto Bosch 16 28071 Madrid (Madrid)
-Calle Alberto Bosch 16, 28014, Madrid, Comunidad Madrid, España
+Calle Alberto Bosch 16, 28014 Madrid
 
 40.4133967,-3.694118
 Paseo del Prado 18 y 20, 28014 Madrid
 
 40.4135762,-3.6992573
-Calle Huertas 26 28014 Madrid (Madrid)
-Calle Huertas 26, 28014, Madrid, Comunidad Madrid, España
-
-40.4137583,-3.69200014957263
-Calle Ruiz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
-Calle Ruíz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
+Calle Huertas 26, 28014 Madrid
 
 40.4139056,-3.6743363
 Calle PIO Baroja 6, 28009 Madrid
@@ -729,34 +677,23 @@ Avda Portugal 81, 28011, Madrid, Comunidad Madrid, España
 40.4141386,-3.6910885
 Calle Ruiz de Alarcón 23 28014 Madrid (Madrid)
 
-40.4141843,-3.7297731
-Avda. Portugal, 81 - 28071 - MADRID
-
-40.41436725,-3.70597515276898
-Plaza De la Provincia 1, 28012, Madrid, Comunidad Madrid, España
-Plaza de la Provincia 1, 28012, Madrid, Comunidad Madrid, España
-
 40.416929,-3.6947426
 Paseo del Prado 6, 28014, Madrid, Comunidad Madrid, España
 
 40.4172375,-3.6945016
-Paseo Del Prado 4 28014 Madrid (Madrid)
-Paseo de la Castellana 162, Planta 7 28046 Madrid (Madrid)
-Paseo del Prado 4 28014 Madrid (Madrid)
+Paseo del Prado 4, 28014 Madrid
 
 40.4173597,-3.6889892
 Calle Juan de Mena, 1, 28014 Madrid
 
 40.4174615,-3.7018516
-Calle Alcala 5 28014 Madrid (Madrid)
-Calle Alcalá 5 28014 Madrid (Madrid)
+Calle Alcala 5, 28014 Madrid
 
 40.4176416,-3.7013019
 Calle Alcalá 9, 28014 Madrid
 
 40.4178992,-3.690159
-Calle Montalbán 8 28014 Madrid (Madrid)
-Calle Montalbán 8, 28014, Madrid, Comunidad Madrid, España
+Calle Montalbán 8, 28014 Madrid
 
 40.4179406,-3.6908945
 Calle Montalbán 6 28014 Madrid (Madrid)
@@ -769,14 +706,10 @@ Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
 Calle Alcalá 47 28014 Madrid (Madrid)
 
 40.4197543,-3.695671
-Calle Barquillo 5 28004 Madrid (Madrid)
-Calle Barquillo 5, 28004, Madrid, Comunidad Madrid, España
+Calle Barquillo 5, 28004 Madrid
 
 40.4202074,-3.6964252
 Plaza Del Rey 1, 28004 Madrid
-
-40.4202202,-3.6964334
-Plaza Del Rey 1 28071 Madrid
 
 40.4206389,-3.71244
 Plaza Marina Española 9 28013 Madrid (Madrid)
@@ -788,8 +721,7 @@ Calle Silva 19, 28004, Madrid, Comunidad Madrid, España
 Palacio de Buenavista. Calle Prim, 6 28004 Madrid.
 
 40.4226482,-3.7077512
-Calle San Bernardo 21 28015 Madrid (Madrid)
-Calle San Bernardo 21 28071 Madrid (Madrid)
+Calle San Bernardo 21, 28015 Madrid
 
 40.4228731,-3.6927134
 Calle Tamayo y Baus 4 28004 Madrid (Madrid)
@@ -835,12 +767,8 @@ Calle Amador de los Ríos 8 28071 Madrid (Madrid)
 40.4281763,-3.689167
 Paseo De la Castellana 14, 28046, Madrid, Comunidad Madrid, España
 
-40.4284013,-3.7003985
-C/ Sagasta, 10 -28004 - MADRID
-
 40.4284486,-3.7002598
 Calle Sagasta 10 28004 Madrid (Madrid)
-Calle Sagasta 10, 28004, Madrid, Comunidad Madrid, España
 
 40.4285603,-3.6908869
 Calle de Fortuny, 4, 28010 Madrid
@@ -947,12 +875,8 @@ Paseo De la Castellana 67 28071 Madrid (Madrid)
 Paseo de la Castellana 67, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
 
-40.4447359,-3.6537331
-C/ Condesa de Venadito, 9 -28027- MADRID
-
 40.4447566,-3.6536728
-Calle Condesa de Venadito 9 28027 Madrid (Madrid)
-Calle Condesa de Venadito 9, 28027, Madrid, Comunidad Madrid, España
+Calle Condesa de Venadito 9, 28027 Madrid
 
 40.4449205,-3.6552326
 Calle Torrelaguna 73 28027 Madrid (Madrid)
@@ -962,26 +886,14 @@ Paseo Castellana 106 - 108 28046 Madrid (Madrid)
 Paseo Castellana 106-108 28020 Madrid (Madrid)
 Paseo De la Castellana 106 28046 Madrid (Madrid)
 
-40.44540790000001,-3.7126528
-Calle Guzman el Bueno 139, 28003, Madrid, Comunidad Madrid, España
-Calle Guzmán el Bueno 139, 28003, Madrid, Comunidad Madrid, España
-
 40.4454613,-3.7131352
-Calle Guzmán el Bueno 139 28003 Madrid (Madrid)
-
-40.4454748,-3.712651
-C/ Guzmán el Bueno, 139
+Calle Guzmán el Bueno 139, 28003 Madrid
 
 40.445706,-3.721619
 AVDA.GREGORIO DEL AMO NUM.8 28040 Madrid (Madrid)
 
-40.4457351,-3.655064
-Calle Torrelaguna 58, 28071 Madrid
-
 40.4457392,-3.6550107
-Calle Torrelaguna 58 28027 Madrid (Madrid)
-Calle Torrelaguna 58 28071 Madrid (Madrid)
-Calle Torrelaguna 58, 28027, Madrid, Comunidad Madrid, España
+Calle Torrelaguna 58, 28071 Madrid
 
 40.4457993,-3.7347723
 Avenida Puerta de Hierro S/N 28071 Madrid
@@ -999,16 +911,10 @@ C/ SERRANO, 121 28006 Madrid (Madrid)
 Paseo De la Castellana 112 28046 Madrid (Madrid)
 
 40.447429,-3.6932527
-Paseo De la Castellana 75 28071 Madrid (Madrid)
-Paseo de la Castellana 75 28071 Madrid (Madrid)
-Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
-
-40.4476311,-3.6934366
-Paseo de la Castellana, 75 - 28046 MADRID
+Paseo De la Castellana 75, 28071 Madrid
 
 40.4479744,-3.7135932
 Calle Pedro Justo Dorado Dellmans 11 28040 Madrid (Madrid)
-Calle Pedro Justo Dorado Dellmans 11, 28040, Madrid, Comunidad Madrid, España
 
 40.4481602,-3.716387
 Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
@@ -1018,9 +924,6 @@ Plaza Juan XXIII 26 28071 Madrid (Madrid)
 
 40.4481687,-3.6973538
 Calle Hernani 59 28020 Madrid (Madrid)
-
-40.4482093,-3.7137738
-C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
 
 40.448319,-3.683252
 C/ SERRANO, 115 BIS 28006 Madrid (Madrid)
@@ -1041,10 +944,6 @@ Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
 
 40.4522076,-3.7237276
 Calle Leonardo Prieto Castro 8 28071 Madrid (Madrid)
-Calle Leonardo Prieto Castro 8, 28040, Madrid, Comunidad Madrid, España
-
-40.4524581,-3.7235924
-C/ Leonardo Prieto Castro, 8 Ciudad Universitaria 28071 Madrid
 
 40.4535735,-3.6864384
 Calle Padre Damian 4 28071 Madrid (Madrid)
@@ -1072,9 +971,6 @@ Avenida Computense 40 28071 Madrid (Madrid)
 40.4555445,-3.6986356
 Calle Infanta Mercedes 37 28020 Madrid (Madrid)
 
-40.455583,-3.6987623
-C/ Infanta Mercedes, 37
-
 40.4555839,-3.691453
 Paseo Castellana 109, 28046 Madrid
 
@@ -1086,9 +982,6 @@ Calle San Enrique 17 28020 Madrid (Madrid)
 
 40.4567244,-3.6889892
 Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España
-
-40.4574799,-3.6892
-Calle Panamá 1 28036 Madrid (Madrid)
 
 40.457925,-3.672011
 C/ VICTOR DE LA SERNA,43, 28016 Madrid
@@ -1157,14 +1050,8 @@ Calle Navarro y Ledesma 4 28807 Alcalá de Henares (Madrid)
 40.48666765,-3.66082579839677
 Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España
 
-40.4870289,-3.6607133
-Avenida Manoteras 54 28050 Madrid (Madrid)
-
 40.48746999999999,-3.6853
 Avda Llano Castellano 17, 28034, Madrid, Comunidad Madrid, España
-
-40.48747,-3.6853
-Avenida Llano Castellano 17 28034 Madrid (Madrid)
 
 40.491936,-3.682308
 C/ ARTURO DUPERIER, 4 28029 Madrid (Madrid)
@@ -1187,13 +1074,8 @@ Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
 40.591181,-3.707859
 C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
 
-40.5950753,-3.6967504
-C/ Alfar, 2. 28760 - Tres Cantos - Madrid
-
 40.595773,-3.696822
 Calle Alfar 2 28760 Tres Cantos (Madrid)
-Calle Alfar 2, 28760, Madrid, Comunidad Madrid, España
-Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 
 40.6299543,-3.1663486
 Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara)
@@ -1241,13 +1123,6 @@ Plaza Adolfo Suárez 1 40001 Segovia (Segovia)
 Plaza Adolfo Suárez 1, 40001, Segovia, Castilla Leon, España
 Plaza de Aldolfo Suarez 1 40001 Segovia (Segovia)
 
-40.9496286,-5.6647538
-Avda Carlos I 78 92, 37008, Salamanca, Castilla Leon, España
-Avda Carlos I 78, 37008, Salamanca, Castilla Leon, España
-
-40.94964714,-5.664868355
-AVDA. CARLOS I, 78-92-12, 37008 Salamanca
-
 40.9500211,-4.1218532
 Calle Colón 4 40001 Segovia (Segovia)
 
@@ -1269,13 +1144,6 @@ Calle Rector Lucena 12 37071 Salamanca (Salamanca)
 
 40.9748908,-5.6622604
 Paseo Doctor Torres Villarroel 72 - 74 37005 Salamanca (Salamanca)
-
-41.1126752428571,1.24295809285714
-Calle Pere Martell 45 47, 43005, Tarragona, Cataluna, España
-Calle Pere Martell 45, 43005, Tarragona, Cataluna, España
-
-41.11403694,1.24327898
-PERE MARTELL, 45, 43005 Tarragona
 
 41.11620,1.250774
 Rambla Nova, 84, 43003 TARRAGONA
@@ -1320,11 +1188,7 @@ Calle Bergara 12 08071 Barcelona (Barcelona)
 Calle Puerta del Angel 31 39, 08002, Barcelona, Cataluna, España
 
 41.3888595,2.1601033
-Plaza Doctor Letamendi 13 23, 3ª PLANTA, 08007, Barcelona, Cataluna, España
-Plaza Doctor Letamendi 13-23 08007 Barcelona (Barcelona)
-
-41.3894757,2.1610581
-Plaza Doctor Letamendi 13 23, 08007, Barcelona, Cataluna, España
+Plaza Doctor Letamendi 13 23, 08007 Barcelona
 
 41.3911678,2.1985201
 Calle Arquitecto Sert, 1 08071 Barcelona
@@ -1334,13 +1198,9 @@ C. d´ Aragó, 273-275, 08007 BARCELONA
 
 41.3932065,2.1835331
 Pque De L'Estació del Nord S/N, 08018, Barcelona, Cataluna, España
-Pque Estarció del Nord s/n, 08018, Barcelona, Cataluna, España
 
 41.393938,2.205935
 PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)
-
-41.39411525,2.184369564
-PARC DE L'ESTACIO DEL NORD S/N, 08018 Barcelona
 
 41.3955671,2.1650662
 Calle Mallorca 278 08037 Barcelona (Barcelona)
@@ -1608,13 +1468,6 @@ Calle Vitoria 39 09071 Burgos (Burgos)
 42.34409744,-3.688230515
 C/ JESUS MARIA ORDOÑO 4, 8 y 10, 09004 Burgos
 
-42.34948,-7.87038
-Avda De Marin 29 31, 32001, Ourense, Galicia, España
-Avda de Marín 29, 32001, Ourense, Galicia, España
-
-42.349616356893954,-7.870502471923828
-32001, Ourense 988219265
-
 42.3942491,-8.7053760
 Plaza España, s/n, 36920 Marín, Pontevedra
 
@@ -1656,14 +1509,6 @@ AVD. MONTAÑANA, S/N 50016 Zaragoza (Zaragoza)
 42.59728,-8.76775
 Paseo De Elpidio Villaverde 3, 36600, Pontevedra, Galicia, España
 Paseo Elpido Villaverde 3 36600 Vilagarcía de Arousa (Pontevedra)
-
-42.5996139,-5.5767185
-Avda Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
-Calle Gran Via de San Marcos 27, 24001, Leon, Castilla Leon, España
-Calle Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
-
-42.599828,-5.576887
-GRAN VIA DE SAN MARCOS,27 - 6ª, 24001 León
 
 42.599861,-5.5766018
 Calle De la Gran Vía de San Marcos 18 24002 León (León)
@@ -1757,11 +1602,8 @@ C/ Gran Vía, 89, 48011 BILBAO
 43.3025346,-1.9796228
 Calle Podabines 3, 20010, Gipuzkoa, Pais Vasco, España
 
-43.3064184,-1.9824207
-Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
-
 43.3064184,-1.980232
-Plaza Pio XII 6 20011 Donostia/San Sebastián (Gipuzkoa)
+Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
 
 43.30867,-1.97077
 Hermanos Otamendi, 13, 20014 DONOSTIA-SAN SEBASTIAN
@@ -1792,11 +1634,6 @@ Calle Santa Teresa 10, 33007, Asturias, Principado Asturias, España
 
 43.3604469,-5.8521701
 Plaza De España 6 33007 Oviedo (Asturias)
-
-43.3607591,-5.85233
-Plaza De España 6, 33007, Asturias, Principado Asturias, España
-Plaza España 3, 33007, Asturias, Principado Asturias, España
-Plaza España 6, 33007, Asturias, Principado Asturias, España
 
 43.3608724,-5.8554928
 Plaza de España, 2, 33007 Oviedo, Asturias
@@ -1838,15 +1675,6 @@ C/ALBERT EINSTEIN, 22 . PARQUE CIENTIFICO Y TECNOLOGICO DE CANTABRIA 39011 Santa
 
 43.4569008,-3.8093256
 Calle Antonio López, 1, 39009 Santander, Cantabria
-
-43.4597687,-3.8204665
-Calle Vargas 53 2, 39010, Cantabria, Cantabria, España
-Calle Vargas 53 39071 Santander (Cantabria)
-Calle Vargas 53 3º, 39010, Cantabria, Cantabria, España
-Calle Vargas 53, 39010, Cantabria, Cantabria, España
-
-43.459848,-3.820649
-C/ VARGAS, 53-2, 39010 Cantabria
 
 43.46123,-3.80872
 Avda. Calvo Sotelo, 8, 39002 SANTANDER

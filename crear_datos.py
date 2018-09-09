@@ -60,7 +60,7 @@ def get_sepe():
             l = l.strip()
             if len(l)>0:
                 values = []
-                values = l[1:].split('","')
+                values = l[1:].replace('", "', '","').split('","')
                 if "," in values[-1]:
                     values = values[:-1] + values[-1].split(",")
                 else:
@@ -1128,9 +1128,10 @@ for unidad, provincias in unidades_provincia.items():
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
+Organismo.save(organismos, arregla_direcciones=arregla_direcciones)
+
 tai_latlons = set(
     [o.latlon for o in organismos if o.latlon and o.codigos.intersection(codigos_tai)])
-Organismo.save(organismos, arregla_direcciones=arregla_direcciones)
 latlons = {}
 direcis = {}
 for o in organismos:
@@ -1207,3 +1208,11 @@ direcciones = sorted(set([o.deDireccion for o in organismos if o.deDireccion]))
 with open("debug/direcciones.txt", "w") as f:
     for d in direcciones:
         f.write(d + "\n")
+
+latlons = sorted(tai_latlons, key=lambda i: [float(l) for l in i.split(",")])
+with open("debug/latlons.txt", "w") as f:
+    for l in latlons:
+        f.write(l + "\n")
+        for d in sorted(set([o.deDireccion for o in organismos if o.latlon==l])):
+            f.write(d + "\n")
+        f.write("\n")

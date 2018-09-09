@@ -13,6 +13,14 @@
 Calle Aeropuerto de Gran Canaria S/N, 35230, Las Palmas, Canarias, España
 Blque AEROPUERTO DE GRAN CANARIA.APARTADO DE CORREOS Nº 88 S/N, 35230, Las Palmas, Canarias, España
 
+28.1043684,-15.4191231
+Avenida Primero de Mayo, 19, 35002 Las Palmas de Gran Canaria
+Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
+
+28.1129605,-15.4184312
+Plaza De los Derechos Humanos S/N, 35003 Palmas de Gran Canaria
+Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
+
 28.1131325,-15.4185751
 Plaza de los Derechos Humanos 1, 35003, Las Palmas, Canarias, España
 Plaza De los Derechos Humanos 1, 35003, Las Palmas, Canarias, España
@@ -59,9 +67,20 @@ Calle Tomé Cano, 12 38005 12, 38005, Santa Cruz Tenerife, Canarias, España
 Camino Escaño S/N 38290 Rosario, El (Santa Cruz de Tenerife)
 Camino Escaño S/N 38298 Rosario, El (Santa Cruz de Tenerife)
 
+28.4614573,-16.2507718
+Avda José Manuel Guimerá 8, 38003 Santa Cruz Tenerife
+Avda José Manuel Guimerá 8, 38003, Santa Cruz Tenerife, Canarias, España
+Av José Manuel Guimerá N-8 , 38003 SANTA CRUZ DE TENERIFE
+
 28.4627613,-16.2689627
 Calle Ramón Pérez de Ayala 6, 38007, Santa Cruz Tenerife, Canarias, España
 Calle Ramon Perez de Ayala 6, 38007, Santa Cruz Tenerife, Canarias, España
+
+28.4657757,-16.2468828
+Avda Maritima 2, 38003, Santa Cruz Tenerife, Canarias, España
+Avda Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
+Avenida Marítima 2, 38002 Santa Cruz de Tenerife, Canarias
+Avenida Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
 
 28.4695881,-16.2549494
 Calle Méndez Núñez 9, 38003, Santa Cruz Tenerife, Canarias, España
@@ -82,6 +101,10 @@ Calle Vía Láctea s/n, 38205, Santa Cruz Tenerife, Canarias, España
 Calle Marqués de Montemar 3, 52006, Melilla, Melilla, España
 Calle MARQUÉS DE MONTEMAR 3, 52006, Melilla, Melilla, España
 
+35.2852454,-2.9418362
+Calle Álvaro de Bazán 14-16, 52005 Melilla
+Calle Alvaro de Baza 14 16, 52005, Melilla, Melilla, España
+
 35.2890402,-2.9399934
 Calle Actor Tallaví 3, 52004, Melilla, Melilla, España
 Calle Actor Tallavi 3, 52004, Melilla, Melilla, España
@@ -90,6 +113,11 @@ Calle Actor Tallavi 3, 52004, Melilla, Melilla, España
 Plaza Del Mar S/N, 52004 Melilla
 Plaza Del Mar S/N 52004 Melilla (Melilla)
 Plaza Del Mar S/N 52071 Melilla (Melilla)
+
+35.2910493,-2.9374241
+Avenida de la Marina Española 3 52001 Melilla
+Avenida de la Marina Española 3 52001 Melilla (Melilla)
+Avda de la Marina Española 3, 52001, Melilla, Melilla, España
 
 35.2922775,-2.9380973
 Prolongación Rio Bidasoa S/N, 52002 Melilla
@@ -101,8 +129,13 @@ Otros Prolongacion Rio Bidasoa S/N 52002 Melilla (Melilla)
 Calle Beatriz de Silva 4, 51001 Ceuta
 Calle Beatriz de Silva 4 51001 Ceuta (Ceuta)
 Calle Beatriz de Silva 4 50001 Ceuta (Ceuta)
+Calle Beatriz de Silva 4, 51001 Ceuta
+Calle Beatriz de Silva 4, 51001, Ceuta, Ceuta, España
 
-35.8884595,-5.327113799999999
+35.8883338,-5.3272239
+Avenida Otero S/N, 51003 Ceuta
+Avenida Otero S/N, 51001, Ceuta, Ceuta, España
+Avda Otero S/N, 51001, Ceuta, Ceuta, España
 Avda de Otero S/N, 51002 Ceuta, España
 Avda de Otero S/N, 51002, Ceuta, España
 Avda De Otero S/N, 51002, Ceuta, Ceuta, España
@@ -119,6 +152,10 @@ Avenida Menéndez Pelayo 2, 11300 Cadiz, Andalucía, España
 Avenida Menéndez Pelayo 2, 11300, Cadiz, Andalucia, España
 Avda Menéndez Pelayo 2, 11300, Cadiz, Andalucia, España
 Avda Menéndez y Pelayo 2, 11300, Cadiz, Andalucia, España
+
+36.5015262,-6.2733028
+Plaza de Madrid S/N, 11011 Cádiz
+Plaza De Madrid S/N, 11007, Cadiz, Andalucia, España
 
 36.50707,-6.268969999999999
 Avda de la ilustración 6, 11011 Cadiz, Andalucia, España
@@ -157,6 +194,10 @@ Avenida Andalucía 2 29007 Málaga (Málaga)
 Avenida De Andalucia 2 29071 Málaga (Málaga)
 Avda Andalucia 2, 29007, Malaga, Andalucia, España
 Avda Andalucía 2, 29007, Malaga, Andalucia, España
+
+36.7185641,-4.4336171
+Calle Huescar 4, 29007, Malaga, Andalucia, España
+Calle Huescar 4, 29071, Malaga, Andalucia, España
 
 36.7228884,-4.3979632
 Paseo de Sancha 64, 29016 Málaga
@@ -200,6 +241,11 @@ Avda Mediterráneo 201, 04006 Almeria, Andalucia, España
 Avda Mediterraneo 201, 04006, Almeria, Andalucia, España
 Avda Mediterráneo 201, 04006, Almeria, Andalucia, España
 
+37.1658829,-3.5908020
+Calle Profesor Albareda, 1, 18160 Granada
+Calle Prof. Albareda, 1, 18160 Granada
+C/ PROFESOR ALBAREDA, 1 18008 Granada (Granada)
+
 37.18313,-3.60295
 Avenida de la Constitución 1, 18001 Granada, Andalucía, España
 Avda de la Constitución 1, 18001 Granada, Andalucía, España
@@ -232,16 +278,217 @@ Paseo Santa Fe 22, 21003, Huelva, Andalucia, España
 Plaza España S/N, 41071 Sevilla
 Plaza España S/N 41071 Sevilla (Sevilla)
 Plaza España s/n 41071 Sevilla (Sevilla)
+Plaza De España S/N, 41013 Sevilla
+Plaza De España S/N 41013 Sevilla (Sevilla)
+Plaza Plaza de España ( PUERTA DE ARAGON TORRE NORTE ) S/N, 41013, Sevilla, Andalucia, España
+Plaza Plaza de España (Puerta de Aragón Torre Norte) s/n, 41013, Sevilla, Andalucia, España
+
+37.3794911,-5.9884983
+Avenida de Portugal S/N, 41004 Sevilla
+Avda De Portugal S/N, 41071, Sevilla, Andalucia, España
+
+37.384722,-5.992778
+Avenida de la Constitución 3, 41004 Sevilla
+Avda De la Constitución 3, 41071, Sevilla, Andalucia, España
+
+37.4021733,-5.9858281
+Calle Sánchez Perrier 2, 41009 Sevilla
+Calle Sánchez Perrier 2, 41071, Sevilla, Andalucia, España
+
+37.4022625,-6.0090461
+Calle Américo Vespucio 3, 41092 Sevilla
+Calle Américo Vespucio, 3, 41092 Sevilla
+Calle Américo Vespucio 3, 41071, Sevilla, Andalucia, España
+
+37.4297413,-5.9752939
+Calle Botánica S/N, 41015 Sevilla
+Calle Botánica S/N, 41015, Sevilla, Andalucia, España
+Calle Botánica s/n, 41015, Sevilla, Andalucia, España
+
+37.8787709,-4.7875488
+Plaza de la Constitución 1, 14004 Cordoba
+Plaza Constitución 1 14004 Córdoba (Córdoba)
+Plaza De la Constitucion 1 14004 Córdoba (Córdoba)
+Plaza De la Constitucion 1, 14004, Cordoba, Andalucia, España
+
+37.8859618,-4.7820943
+Avenida Gran Capitán 8, 14071 Córdoba
+Avenida Gran Capitan 8 14008 Córdoba (Córdoba)
+Avenida Gran Capitán 8 14071 Córdoba (Córdoba)
+
+37.9870177,-1.1362975
+Calle Santa Teresa 12, 30005, Murcia
+Calle Santa Teresa 12, 30071, Murcia, Region Murcia, España
+
+37.9880051,-1.1325286
+Calle Gran Vía Escultor Salzillo 21, 30005 Murcia
+Calle Gran Vía Escultor Salzillo 21 30005 Murcia (Murcia)
+Calle Gran Vía Escultor Salzillo 21, 30005, Murcia, Region Murcia, España
+
+38.0218652,-1.099604
+Avenida Alfonso X el Sabio 15, 30160, Murcia
+Avenida Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
+Avda Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
+
+38.0230739,-1.0987193
+Avda Alfonso X el Sabio 6, 30160, Murcia
+Avda Alfonso X el Sabio 6, 30008, Murcia, Region Murcia, España
+
+38.0291952,-1.1725177
+Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100 Murcia
+Calle Francisco Alfonso Hidalgo Martínez Km.388 N 301, 30100, Murcia, Region Murcia, España
+Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100, Murcia, Region Murcia, España
+
+38.344362,-0.4877118
+Plaza De la Montañeta 8, 03001 Alicante
+Plaza De la Montanyeta 8, 03001, Alicante, Comunitat Valenciana, España
+Plaza De la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
+Plaza De la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
+Plaza de la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
+Plaza de la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
+
+38.8669232,-6.9852905
+Avenida Sinforiano Madroñero 12, 06011, Badajoz
+Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
+Avda Sinforiano Madroñero 12, 06071, Badajoz, Extremadura, España
+
+38.8747357,-6.9745688
+Avenida Huelva 4, 06005 Badajoz
+Avda Huelva 4, 06005, Badajoz, Extremadura, España
+Avenida De Huelva 4 06005 Badajoz (Badajoz)
+Avenida Huelva 4 06071 Badajoz (Badajoz)
+
+38.8749042,-6.9725059
+Avenida de Europa 1, 06004 Badajoz, Extremadura
+Avenida De Europa 1 06071 Badajoz (Badajoz)
+Avenida Europa 1 06004 Badajoz (Badajoz)
+Avda Europa 1, 06004, Badajoz, Extremadura, España
+Avenida De Europa 1 06004 Badajoz (Badajoz)
+
+38.9828956,-3.9291718
+Avenida Del Rey Santo 2, 13001, Ciudad Real, Castilla La Mancha
+Avenida Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
+Avda Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
+
+38.9948367,-1.8554404
+Calle Francisco Fontecha 2, 02001 Albacete
+Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España
+
+39.4611021,-6.3752422
+Avda de la Hispanidad 6, 10002 Caceres
+Avda De la Hispanidad 6, 10002, Caceres, Extremadura, España
+Avda de la Hispanidad 6, 10002, Caceres, Extremadura, España
+
+39.4627842,-0.3795037
+Calle De Bailén 46, 46007 Valencia
+Calle De Bailén 46, 46007, Valencia, Comunitat Valenciana, España
+c/ Bailén, 46, 46007 VALENCIA
+
+39.4699039,-0.3706761
+Calle Colón 60, 46004 Valencia
+Calle Colon 60 46004 València (València/Valencia)
+Calle Colon 60, 46004, Valencia, Comunitat Valenciana, España
+Calle Colón 60, 46004, Valencia, Comunitat Valenciana, España
+
+39.4818934,-0.3912487
+Calle Joaquín Ballester 39, 46009 Valencia
+Calle Joaquín Ballester 39 46009 València (València/Valencia)
+Calle Joaquín Ballester 39 46071 València (València/Valencia)
+
+39.553385,2.625049
+Calle Muelle de Poniente S/N, 07015 Illes Balears
+Carrer Muelle de Poniente, s/n, 07015 Palma de Mallorca, Islas Baleares
+Calle Muelle de Poniente S/N, 07015, Illes Balears, Illes Balears, España
+
+39.5661745,2.6659349
+Calle Ciutat de Querétaro S/N, 07007 Illes Balears
+Calle Ciutat de Querétaro S/N, 07007, Illes Balears, Illes Balears, España
+
+39.5696162,2.647135
+Calle Constitución 4, 07001 Illes Balears
+Calle Constitució 4 07001 Palma (Illes Balears)
+Calle Constitució 4, 07001, Illes Balears, Illes Balears, España
+Calle Constitución 4, 07001, Illes Balears, Illes Balears, España
+
+39.5902242,2.6510362
+Calle Gaspar Sabater 3, 07010 Illes Balears
+Calle Gaspar Sabater 3, 07010, Illes Balears, Illes Balears, España
+Calle Gaspar de Sabater 3, 07010, Illes Balears, Illes Balears, España
+
+39.5903944,2.6510579
+Calle Miguel Capllonch 12, 07010 Palma
+Calle Miguel Capllonch 12 07010 Palma (Illes Balears)
+Calle Miguel Capllonch 12, 07010, Illes Balears, Illes Balears, España
+
+39.8587555,-4.0255059
+Calle Alfonso X el Sabio 1, 45002 Toledo
+Calle Alfonso X el Sabio 1 45002 Toledo (Toledo)
+Calle Alfonso X El Sabio 1, 45002, Toledo, Castilla La Mancha, España
+
+39.8596655,-4.0210357
+Plaza Zocodover 6, 45001 Toledo
+Plaza Zocodover 6 45001 Toledo (Toledo)
+Plaza Zocodover 6, 45001, Toledo, Castilla La Mancha, España
+
+39.8902872,4.2650347
+Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
+Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
+Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
+
+39.9884077,-0.0340021
+Plaza María Agustina 6, 12003, Castellon, Valencia
+Plaza Maria Agustina 6 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
+Plaza Maria Agustina 6, 12003, Castellon, Comunitat Valenciana, España
+
+39.9886397,-0.0437388
+Paseo Ribalta 12, 12004 Castellón de la Plana, Castellón
+Paseo Ribalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
+Paseo Rivalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
+Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
+Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
+Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
+
+40.0728304,-2.1340255
+Calle Parque San Julian 12, 16001 Cuenca
+Calle Parque San Julian 12 16001 Cuenca (Cuenca)
+Parque De San Julián 12 16001 Cuenca (Cuenca)
+Pque San Julián 12, 16001, Cuenca, Castilla La Mancha, España
+
+40.0742351,-2.1362396
+Calle Juan Correcher 2, 16001 Cuenca
+Calle Juan Correcher 2 16001 Cuenca (Cuenca)
+Calle Juan Correcher 2, 16001, Cuenca, Castilla La Mancha, España
+
+40.3403599,-1.1067499
+Plaza San Juan 4, 44001, Teruel
+Plaza San Juan 4 44001 Teruel (Teruel)
+Plaza San Juan 4, 44001, Teruel, Aragon, España
+
+40.3407537,-1.1065524
+Plaza San Juan 3 44001 Teruel (Teruel)
+Plaza San Juan 3, 44001, Teruel, Aragon, España 
+
+40.34312095,-3.02990427285917
+Calle Mayor 17, 19001 Guadalajara, Castilla La Mancha
+Calle Mayor 17, 19071, Guadalajara, Castilla La Mancha, España
 
 40.3911245,-3.675269
 Calle Mendez Alvaro 84, 28053 Madrid
 Calle Mendez Älvaro 84 28053 Madrid (Madrid)
 Calle Mendez Älvaro, 84 28053 Madrid (Madrid)
 
+40.4077415,-3.7121846
+Avenida Gran Vía de San Francisco 4-6, 28005 Madrid
+Avenida Gran Vía de San Francisco 4-6 28005 Madrid (Madrid)
+Via Gran Vía de San Francisco 4 y 6 28005 Madrid (Madrid)
+Via Gran Vía de San Francisco 4 y 6, 28005, Madrid, Comunidad Madrid, España
+
 40.4079189,-3.6945566
 Calle Santa Isabel 52, 28012 Madrid
 Calle Santa Isabel 52 28012 Madrid (Madrid)
 Calle Santa Isabel 52, 28012, Madrid, Comunidad Madrid, España
+Calle Santa Isabel, 52 28012 Madrid
+Calle Santa Isabel 52, 28012 Madrid
 
 40.4086372,-3.6906168
 Paseo Infanta Isabel 1, 28014 Madrid
@@ -255,12 +502,61 @@ Calle Alfonso XII 3 5, 28014, Madrid, Comunidad Madrid, España
 Calle Alfonso XII 3-5 28014 28014 Madrid (Madrid)
 Calle Alfonso XII 3-5 28014 Madrid (Madrid)
 
+40.4100669,-3.6947583
+Calle Atocha 106, 28012 Madrid
+Calle Atocha 106 28012 Madrid (Madrid)
+Calle Atocha 106, 28012, Madrid, Comunidad Madrid, España
+Calle De Atocha 106 28012 Madrid (Madrid)
+
+40.4133587,-3.689281
+Calle Alberto Bosch 16, 28014 Madrid
+Calle Alberto Bosch 16 28014 Madrid (Madrid)
+Calle Alberto Bosch 16 28071 Madrid (Madrid)
+Calle Alberto Bosch 16, 28014, Madrid, Comunidad Madrid, España
+
+40.4133967,-3.694118
+Paseo del Prado 18 y 20, 28014 Madrid
+Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
+Paseo Del Prado 18-20 28071 Madrid (Madrid)
+Paseo Prado 18 20, 28014, Madrid, Comunidad Madrid, España
+Paseo del Prado 18 28014 Madrid (Madrid)
+Paseo del Prado 18 y 20, 28014, Madrid, Comunidad Madrid, España
+
+40.4135762,-3.6992573
+Calle Huertas 26, 28014 Madrid
+Calle Huertas 26 28014 Madrid (Madrid)
+Calle Huertas 26, 28014, Madrid, Comunidad Madrid, España
+
+40.4137583,-3.69200014957263
+Calle Ruiz de Alarcón 23, 28014 Madrid
+Calle Ruiz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
+Calle Ruíz de Alarcón 23, 28014, Madrid, Comunidad Madrid, España
+
 40.4139056,-3.6743363
 Calle PIO Baroja 6, 28009 Madrid
 Calle PIO BAROJA 6 28009 Madrid (Madrid)
 Calle PIO BAROJA 6, 28009, Madrid, Comunidad Madrid, España
 Calle Pio Baroja 6 28009 Madrid (Madrid)
 Calle Pío Baroja 6 28071 Madrid (Madrid)
+
+40.4140594,-3.7295857
+Avda Portugal 81, 28011, Madrid, Comunidad Madrid, España
+Avda. Portugal, 81 - 28071 - MADRID
+
+40.41436725,-3.70597515276898
+Plaza de la Provincia 1, 28012 Madrid
+Plaza De la Provincia 1, 28012, Madrid, Comunidad Madrid, España
+Plaza de la Provincia 1, 28012, Madrid, Comunidad Madrid, España
+
+40.4172375,-3.6945016
+Paseo del Prado 4, 28014 Madrid
+Paseo Del Prado 4 28014 Madrid (Madrid)
+Paseo del Prado 4 28014 Madrid (Madrid)
+
+40.4174615,-3.7018516
+Calle Alcala 5, 28014 Madrid
+Calle Alcala 5 28014 Madrid (Madrid)
+Calle Alcalá 5 28014 Madrid (Madrid)
 
 40.4176416,-3.7013019
 Calle Alcalá 9, 28014 Madrid
@@ -271,12 +567,26 @@ Calle Alcalá 9 28014 Madrid (Madrid)
 Calle Alcalá 9 28071 Madrid (Madrid)
 Calle Alcalá 9, 28071, Madrid, Comunidad Madrid, España
 
+40.4178992,-3.690159
+Calle Montalbán 8, 28014 Madrid
+Calle Montalbán 8 28014 Madrid (Madrid)
+Calle Montalbán 8, 28014, Madrid, Comunidad Madrid, España
+
+40.418948,-3.6896078
+Calle de Valenzuela 5, 28014 Madrid
+Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
+
 40.4195431,-3.690349
 Calle Alcalá 56, 28014 Madrid
 Calle Alcala 56 28014 Madrid (Madrid)
 Calle Alcalá 56 28014 Madrid (Madrid)
 Calle Alcala 56, 28014, Madrid, Comunidad Madrid, España
 Calle Alcalá 56, 28014, Madrid, Comunidad Madrid, España
+
+40.4197543,-3.695671
+Calle Barquillo 5, 28004 Madrid
+Calle Barquillo 5 28004 Madrid (Madrid)
+Calle Barquillo 5, 28004, Madrid, Comunidad Madrid, España
 
 40.4202074,-3.6964252
 Plaza Del Rey 1, 28004 Madrid
@@ -286,6 +596,107 @@ Plaza del Rey 1, 28004, Madrid, Comunidad Madrid, España
 Plaza Del Rey 1 28004 Madrid (Madrid)
 Plaza Del Rey 1 28071 Madrid (Madrid)
 Plaza Plaza del Rey 1 28004 Madrid (Madrid)
+Plaza Del Rey 1, 28004 Madrid
+Plaza Del Rey 1 28071 Madrid
+
+40.4226482,-3.7077512
+Calle San Bernardo 21, 28015 Madrid
+Calle San Bernardo 21 28015 Madrid (Madrid)
+Calle San Bernardo 21 28071 Madrid (Madrid)
+
+40.4241396,-3.7076358
+Calle San Bernardo 45, 28015 Madrid
+Calle San Bernardo 45 28015 Madrid (Madrid)
+Calle San Bernardo 45 28071 Madrid (Madrid)
+Calle San Bernardo 45, 28015, Madrid, Comunidad Madrid, España
+Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
+Calle San Bernatdo 45 28015 Madrid (Madrid)
+
+40.4284486,-3.7002598
+Calle Sagasta 10 28004 Madrid (Madrid)
+Calle Sagasta 10, 28004, Madrid, Comunidad Madrid, España
+C/ Sagasta, 10 -28004 - MADRID
+
+40.4338348,-3.6862658
+Calle Serrano 102, 28006, Madrid, Comunidad Madrid, España
+Calle Serrano 102, 28071, Madrid, Comunidad Madrid, España
+
+40.4369226,-3.6914243
+Calle Miguel Angel 25, 28071 Madrid
+Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
+Calle Miguel Ángel 25 28071 Madrid (Madrid)
+
+40.4372153,-3.6807443
+Calle María de Molina 50, 28006 Madrid
+Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
+Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España
+Calle María de Molina 50 28006 Madrid (Madrid)
+Calle María de Molina 50 28071 Madrid (Madrid)
+
+40.4412398,-3.6863111
+Calle de Serrano, 117, 28006 Madrid
+Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
+Serrano, 117 28006 Madrid
+Calle Serrano 117, 28071, Madrid, Comunidad Madrid, España
+
+40.4447566,-3.6536728
+Calle Condesa de Venadito 9, 28027 Madrid
+Calle Condesa de Venadito 9 28027 Madrid (Madrid)
+Calle Condesa de Venadito 9, 28027, Madrid, Comunidad Madrid, España
+C/ Condesa de Venadito, 9 -28027- MADRID
+
+40.4454613,-3.7131352
+Calle Guzmán el Bueno 139, 28003 Madrid
+Calle Guzman el Bueno 139, 28003, Madrid, Comunidad Madrid, España
+Calle Guzmán el Bueno 139, 28003, Madrid, Comunidad Madrid, España
+Calle Guzmán el Bueno 139 28003 Madrid (Madrid)
+C/ Guzmán el Bueno, 139
+
+40.4457392,-3.6550107
+Calle Torrelaguna 58, 28071 Madrid
+Calle Torrelaguna 58 28027 Madrid (Madrid)
+Calle Torrelaguna 58 28071 Madrid (Madrid)
+Calle Torrelaguna 58, 28027, Madrid, Comunidad Madrid, España
+
+40.4464571,-3.7340666
+Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid
+Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
+Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
+Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
+Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)
+Complejo de la Moncloa S/N, 28071, Madrid, Comunidad Madrid, España
+
+40.447429,-3.6932527
+Paseo De la Castellana 75, 28071 Madrid
+Paseo De la Castellana 75 28071 Madrid (Madrid)
+Paseo de la Castellana 75 28071 Madrid (Madrid)
+Paseo de la Castellana 75, 28071, Madrid, Comunidad Madrid, España
+Paseo de la Castellana, 75 - 28046 MADRID
+
+40.4479744,-3.7135932
+Calle Pedro Justo Dorado Dellmans 11 28040 Madrid (Madrid)
+Calle Pedro Justo Dorado Dellmans 11, 28040, Madrid, Comunidad Madrid, España
+C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
+
+40.4481602,-3.716387
+Paseo de Juan XXIII 26, 28040 Madrid
+Paseo Juan XXIII 26, 28070, Madrid, Comunidad Madrid, España
+
+40.4519221,-3.6928323
+Avenida del General Perón 38, 28020 Madrid
+Avenida General Peron 38, 28002, Madrid, Comunidad Madrid, España
+Avenida General Perón 38, 28071, Madrid, Comunidad Madrid, España
+Avda General Perón 38, 28071, Madrid, Comunidad Madrid, España
+Avda General Peron 38, 28002, Madrid, Comunidad Madrid, España
+
+40.4522076,-3.7237276
+Calle Leonardo Prieto Castro 8 28071 Madrid (Madrid)
+Calle Leonardo Prieto Castro 8, 28040, Madrid, Comunidad Madrid, España
+C/ Leonardo Prieto Castro, 8 Ciudad Universitaria 28071 Madrid
+
+40.4555445,-3.6986356
+Calle Infanta Mercedes 37 28020 Madrid (Madrid)
+C/ Infanta Mercedes, 37
 
 40.4555839,-3.691453
 Paseo Castellana 109, 28046 Madrid
@@ -296,6 +707,10 @@ Paseo De la Castellana 109, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 109, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana núm. 109 - 208071
 Paseo de la Castellana, 109 - 28071 Madrid
+
+40.4567244,-3.6889892
+Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España
+Calle Panamá 1 28036 Madrid (Madrid)
 
 40.4579287,-3.6888691
 Paseo De la Castellana 160, 28046 Madrid
@@ -324,6 +739,7 @@ Paseo de la castellana 162 28046 Madrid (Madrid)
 Paseo De la Castellana 162, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, 28071, Madrid, Comunidad Madrid, España
+Paseo de la Castellana 162, Planta 7 28046 Madrid (Madrid)
 
 40.473754,-3.6718262
 Calle Serrano Galvache 26, 28033 Madrid
@@ -333,104 +749,59 @@ Calle Serrano Galvache 26 28033 Madrid (Madrid)
 Calle Serrano Galvache 26 28071 Madrid (Madrid)
 Calle Serrano Galvache 26, 28033, Madrid, Comunidad Madrid, España
 
-38.8749042,-6.9725059
-Avenida de Europa 1, 06004 Badajoz, Extremadura
-Avenida De Europa 1 06071 Badajoz (Badajoz)
-Avenida Europa 1 06004 Badajoz (Badajoz)
-Avda Europa 1, 06004, Badajoz, Extremadura, España
-Avenida De Europa 1 06004 Badajoz (Badajoz)
+40.4801306,-3.3593311
+Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
+Paseo De Aguadores 2, 28871, Madrid, Comunidad Madrid, España
 
-40.4464571,-3.7340666
-Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid
-Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
-Complejo de la Moncloa, Av Puerta de Hierro, S/N, 28071 Madrid
-Avenida Puerta de Hierro S/N 28071 Madrid (Madrid)
-Avenida Puerta de Hierro s/n 28071 Madrid (Madrid)
-Complejo de la Moncloa S/N, 28071, Madrid, Comunidad Madrid, España
+40.48666765,-3.66082579839677
+Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España
+Avenida Manoteras 54 28050 Madrid (Madrid)
 
-37.3552204,-5.9673967
-Plaza De España S/N, 41013 Sevilla
-Plaza De España S/N 41013 Sevilla (Sevilla)
-Plaza Plaza de España ( PUERTA DE ARAGON TORRE NORTE ) S/N, 41013, Sevilla, Andalucia, España
-Plaza Plaza de España (Puerta de Aragón Torre Norte) s/n, 41013, Sevilla, Andalucia, España
+40.48746999999999,-3.6853
+Avda Llano Castellano 17, 28034, Madrid, Comunidad Madrid, España
+Avenida Llano Castellano 17 28034 Madrid (Madrid)
 
-37.4297413,-5.9752939
-Calle Botánica S/N, 41015 Sevilla
-Calle Botánica S/N, 41015, Sevilla, Andalucia, España
-Calle Botánica s/n, 41015, Sevilla, Andalucia, España
+40.595773,-3.696822
+Calle Alfar 2 28760 Tres Cantos (Madrid)
+Calle Alfar 2, 28760, Madrid, Comunidad Madrid, España
+Calle Del Alfar 2 28760 Tres Cantos (Madrid)
+C/ Alfar, 2. 28760 - Tres Cantos - Madrid
+Calle Del Alfar 2, 28760, Madrid, Comunidad Madrid, España
 
-37.8787709,-4.7875488
-Plaza de la Constitución 1, 14004 Cordoba
-Plaza Constitución 1 14004 Córdoba (Córdoba)
-Plaza De la Constitucion 1 14004 Córdoba (Córdoba)
-Plaza De la Constitucion 1, 14004, Cordoba, Andalucia, España
+40.9496286,-5.6647538
+Avda Carlos I 78, 37008 Salamanca
+Avda Carlos I 78 92, 37008, Salamanca, Castilla Leon, España
+Avda Carlos I 78, 37008, Salamanca, Castilla Leon, España
+AVDA. CARLOS I, 78-92-12, 37008 Salamanca
 
-37.8859618,-4.7820943
-Avenida Gran Capitán 8, 14071 Córdoba
-Avenida Gran Capitan 8 14008 Córdoba (Córdoba)
-Avenida Gran Capitán 8 14071 Córdoba (Córdoba)
+41.1126752428571,1.24295809285714
+Calle Pere Martell 45, 43005, Tarragona, Cataluna, España
+Calle Pere Martell 45 47, 43005, Tarragona, Cataluna, España
+PERE MARTELL, 45, 43005 Tarragona
 
-37.9880051,-1.1325286
-Calle Gran Vía Escultor Salzillo 21, 30005 Murcia
-Calle Gran Vía Escultor Salzillo 21 30005 Murcia (Murcia)
-Calle Gran Vía Escultor Salzillo 21, 30005, Murcia, Region Murcia, España
+41.1185307,1.2461739
+Rambla Nova 93, 43003, Tarragona, Cataluna, España
+Rbla Nova 93, 43071, Tarragona, Cataluna, España
 
-38.0291952,-1.1725177
-Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100 Murcia
-Calle Francisco Alfonso Hidalgo Martínez Km.388 N 301, 30100, Murcia, Region Murcia, España
-Calle Francisco Alfonso Hidalgo Martínez Km.388, N 301, 30100, Murcia, Region Murcia, España
+41.3888595,2.1601033
+Plaza Doctor Letamendi 13 23, 08007 Barcelona
+Plaza Doctor Letamendi 13 23, 3ª PLANTA, 08007, Barcelona, Cataluna, España
+Plaza Doctor Letamendi 13-23 08007 Barcelona (Barcelona)
+Plaza Doctor Letamendi 13 23, 08007, Barcelona, Cataluna, España
 
-38.344362,-0.4877118
-Plaza De la Montañeta 8, 03001 Alicante
-Plaza De la Montanyeta 8, 03001, Alicante, Comunitat Valenciana, España
-Plaza De la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
-Plaza De la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
-Plaza de la Montañeta 8 03001 Alicante/Alacant (Alacant/Alicante)
-Plaza de la Montañeta 8, 03001, Alicante, Comunitat Valenciana, España
+41.3932065,2.1835331
+Pque De L'Estació del Nord S/N, 08018, Barcelona, Cataluna, España
+Pque Estarció del Nord s/n, 08018, Barcelona, Cataluna, España
+PARC DE L'ESTACIO DEL NORD S/N, 08018 Barcelona
 
-38.8747357,-6.9745688
-Avenida Huelva 4, 06005 Badajoz
-Avda Huelva 4, 06005, Badajoz, Extremadura, España
-Avenida De Huelva 4 06005 Badajoz (Badajoz)
-Avenida Huelva 4 06071 Badajoz (Badajoz)
+41.3955671,2.1650662
+Calle Mallorca 278, 08037, Barcelona
+Calle Mallorca 278, 08071, Barcelona, Cataluna, España
 
-39.4611021,-6.3752422
-Avda de la Hispanidad 6, 10002 Caceres
-Avda De la Hispanidad 6, 10002, Caceres, Extremadura, España
-Avda de la Hispanidad 6, 10002, Caceres, Extremadura, España
-
-39.4699039,-0.3706761
-Calle Colón 60, 46004 Valencia
-Calle Colon 60 46004 València (València/Valencia)
-Calle Colon 60, 46004, Valencia, Comunitat Valenciana, España
-Calle Colón 60, 46004, Valencia, Comunitat Valenciana, España
-
-39.4818934,-0.3912487
-Calle Joaquín Ballester 39, 46009 Valencia
-Calle Joaquín Ballester 39 46009 València (València/Valencia)
-Calle Joaquín Ballester 39 46071 València (València/Valencia)
-
-39.5696162,2.647135
-Calle Constitución 4, 07001 Illes Balears
-Calle Constitució 4 07001 Palma (Illes Balears)
-Calle Constitució 4, 07001, Illes Balears, Illes Balears, España
-Calle Constitución 4, 07001, Illes Balears, Illes Balears, España
-
-40.4133967,-3.694118
-Paseo del Prado 18 y 20, 28014 Madrid
-Paseo Del Prado 18 20, 28071, Madrid, Comunidad Madrid, España
-Paseo Del Prado 18-20 28071 Madrid (Madrid)
-Paseo Prado 18 20, 28014, Madrid, Comunidad Madrid, España
-Paseo del Prado 18 28014 Madrid (Madrid)
-Paseo del Prado 18 y 20, 28014, Madrid, Comunidad Madrid, España
-
-40.4241396,-3.7076358
-Calle San Bernardo 45, 28015 Madrid
-Calle San Bernardo 45 28015 Madrid (Madrid)
-Calle San Bernardo 45 28071 Madrid (Madrid)
-Calle San Bernardo 45, 28015, Madrid, Comunidad Madrid, España
-Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
-Calle San Bernatdo 45 28015 Madrid (Madrid)
+41.6468976,-4.7251021
+Calle Muro 5, 47004 Valladolid
+Calle Muro 5, 47004, Valladolid, Castilla Leon, España
+Calle Muro 5, 47071, Valladolid, Castilla Leon, España
 
 41.6561376,-0.8790924
 Plaza Nuestra Señora del Pilar S/N, 50003 Zaragoza
@@ -439,195 +810,67 @@ Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
 Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
 Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)
 
-40.4369226,-3.6914243
-Calle Miguel Angel 25, 28071 Madrid
-Calle Miguel Angel 25, 28071, Madrid, Comunidad Madrid, España
-Calle Miguel Ángel 25 28071 Madrid (Madrid)
-
-40.4412398,-3.6863111
-Calle de Serrano, 117, 28006 Madrid
-Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
-Serrano, 117 28006 Madrid
-Calle Serrano 117, 28071, Madrid, Comunidad Madrid, España
-
-39.9886397,-0.0437388
-Paseo Ribalta 12, 12004 Castellón de la Plana, Castellón
-Paseo Ribalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
-Paseo Rivalta 12 12004 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
-Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
-Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
-Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
-
-37.1658829,-3.5908020
-Calle Profesor Albareda, 1, 18160 Granada
-Calle Prof. Albareda, 1, 18160 Granada
-C/ PROFESOR ALBAREDA, 1 18008 Granada (Granada)
-
-39.553385,2.625049
-Calle Muelle de Poniente S/N, 07015 Illes Balears
-Carrer Muelle de Poniente, s/n, 07015 Palma de Mallorca, Islas Baleares
-Calle Muelle de Poniente S/N, 07015, Illes Balears, Illes Balears, España
-
-40.4372153,-3.6807443
-Calle María de Molina 50, 28006 Madrid
-Calle María de Molina 50, 28006, Madrid, Comunidad Madrid, España
-Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España
-Calle María de Molina 50 28006 Madrid (Madrid)
-Calle María de Molina 50 28071 Madrid (Madrid)
-
-38.8669232,-6.9852905
-Avenida Sinforiano Madroñero 12, 06011, Badajoz
-Avenida Sinforiano Madroñero 12, 06011, Badajoz, Extremadura, España
-Avda Sinforiano Madroñero 12, 06071, Badajoz, Extremadura, España
-
-37.4022625,-6.0090461
-Calle Américo Vespucio 3, 41092 Sevilla
-Calle Américo Vespucio, 3, 41092 Sevilla
-Calle Américo Vespucio 3, 41071, Sevilla, Andalucia, España
-
-41.6468976,-4.7251021
-Calle Muro 5, 47004 Valladolid
-Calle Muro 5, 47004, Valladolid, Castilla Leon, España
-Calle Muro 5, 47071, Valladolid, Castilla Leon, España
-
-43.3608724,-5.8554928
-Plaza de España, 2, 33007 Oviedo, Asturias
-Plaza De España 2, 33071, Asturias, Principado Asturias, España
-
-43.36032,-5.85379
-Plaza de España, 3, 33007 Oviedo, Asturias
-Plaza De España 3, 33071, Asturias, Principado Asturias, España
-
-43.2638984,-2.9383273
-Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
-Calle Gran Vía 50, 48011, Bizkaia, Pais Vasco, España
-
-43.3542002,-8.3985444
-Calle Gaiteira 54 56, 15009, A Coruna, Galicia
-Calle Gaiteira 54 56, 15007, A Coruna, Galicia, España
-
-43.2638984,-2.9383273
-Gran Vía de Don Diego López de Haro 50, 48009 Bilbao
-Calle Gran Via Diego Lopez de Haro 50, 48011, Bizkaia, Pais Vasco, España
+42.3413131,-3.6974564
+Calle Vitoria 16, 09004, Burgos, Castilla Leon
+Calle Vitoria 16, 09071, Burgos, Castilla Leon, España
 
 42.3471479,-3.6934661
 Avenida Reyes Católicos 22, 09005, Burgos
 Avda Avda. Reyes Católicos 22, 09071, Burgos, Castilla Leon, España
 
-43.463527,-3.782768
-Promontorio San Martín S/N, 39004 Santander, Cantabria
-Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
-
-37.384722,-5.992778
-Avenida de la Constitución 3, 41004 Sevilla
-Avda De la Constitución 3, 41071, Sevilla, Andalucia, España
-
-40.4801306,-3.3593311
-Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
-Paseo De Aguadores 2, 28871, Madrid, Comunidad Madrid, España
-
-40.418948,-3.6896078
-Calle de Valenzuela 5, 28014 Madrid
-Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
-
-38.9948367,-1.8554404
-Calle Francisco Fontecha 2, 02001 Albacete
-Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España
-
-36.5015262,-6.2733028
-Plaza de Madrid S/N, 11011 Cádiz
-Plaza De Madrid S/N, 11007, Cadiz, Andalucia, España
-
-35.8883338,-5.3272239
-Avenida Otero S/N, 51003 Ceuta
-Avenida Otero S/N, 51001, Ceuta, Ceuta, España
-Avda Otero S/N, 51001, Ceuta, Ceuta, España
-
-40.4519221,-3.6928323
-Avenida del General Perón 38, 28020 Madrid
-Avenida General Peron 38, 28002, Madrid, Comunidad Madrid, España
-Avenida General Perón 38, 28071, Madrid, Comunidad Madrid, España
-Avda General Perón 38, 28071, Madrid, Comunidad Madrid, España
-Avda General Peron 38, 28002, Madrid, Comunidad Madrid, España
-
-37.4021733,-5.9858281
-Calle Sánchez Perrier 2, 41009 Sevilla
-Calle Sánchez Perrier 2, 41071, Sevilla, Andalucia, España
-
-40.34312095,-3.02990427285917
-Calle Mayor 17, 19001 Guadalajara, Castilla La Mancha
-Calle Mayor 17, 19071, Guadalajara, Castilla La Mancha, España
-
-38.9828956,-3.9291718
-Avenida Del Rey Santo 2, 13001, Ciudad Real, Castilla La Mancha
-Avenida Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
-Avda Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
-
-41.1185307,1.2461739
-Rambla Nova 93, 43003, Tarragona, Cataluna, España
-Rbla Nova 93, 43071, Tarragona, Cataluna, España
-
-42.8131361,-1.6394897
-Plaza de las Merindades S/N, Pamplona, Navarra
-Plaza Merindades s/n, 31071, Navarra, Comunidad Foral Navarra, España
-
-35.2852454,-2.9418362
-Calle Álvaro de Bazán 14-16, 52005 Melilla
-Calle Alvaro de Baza 14 16, 52005, Melilla, Melilla, España
-
-39.5661745,2.6659349
-Calle Ciutat de Querétaro S/N, 07007 Illes Balears
-Calle Ciutat de Querétaro S/N, 07007, Illes Balears, Illes Balears, España
-
-36.7185641,-4.4336171
-Calle Huescar 4, 29007, Malaga, Andalucia, España
-Calle Huescar 4, 29071, Malaga, Andalucia, España
+42.34948,-7.87038
+Avda De Marin 29 31, 32001, Ourense, Galicia, España
+Avda de Marín 29, 32001, Ourense, Galicia, España
+AVENIDA DE MARIN 29-31 BAJO, 32001 Ourense
 
 42.4591022,-2.4636162
 Calle Juan II 4, 26007 Logroño, La Rioja
 Calle Juan II 4, 26006, La Rioja, La Rioja, España
 
-42.3413131,-3.6974564
-Calle Vitoria 16, 09004, Burgos, Castilla Leon
-Calle Vitoria 16, 09071, Burgos, Castilla Leon, España
+42.5996139,-5.5767185
+Avda Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
+Calle Gran Via de San Marcos 27, 24001, Leon, Castilla Leon, España
+Calle Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
+GRAN VIA DE SAN MARCOS,27 - 6ª, 24001 León
 
-28.4707726,-16.2472169
-Avenida Marítima 2, 38002 Santa Cruz de Tenerife, Canarias
-Avenida Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
+42.8131361,-1.6394897
+Plaza de las Merindades S/N, Pamplona, Navarra
+Plaza Merindades s/n, 31071, Navarra, Comunidad Foral Navarra, España
 
-37.9870177,-1.1362975
-Calle Santa Teresa 12, 30005, Murcia
-Calle Santa Teresa 12, 30071, Murcia, Region Murcia, España
+43.2638984,-2.9383273
+Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
+Calle Gran Vía 50, 48011, Bizkaia, Pais Vasco, España
+Gran Vía de Don Diego López de Haro 50, 48009 Bilbao
+Calle Gran Via Diego Lopez de Haro 50, 48011, Bizkaia, Pais Vasco, España
 
-40.4338348,-3.6862658
-Calle Serrano 102, 28006, Madrid, Comunidad Madrid, España
-Calle Serrano 102, 28071, Madrid, Comunidad Madrid, España
+43.3064184,-1.980232
+Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
+Plaza Pio XII 6 20011 Donostia/San Sebastián (Gipuzkoa)
 
-40.4481602,-3.716387
-Paseo de Juan XXIII 26, 28040 Madrid
-Paseo Juan XXIII 26, 28070, Madrid, Comunidad Madrid, España
+43.3542002,-8.3985444
+Calle Gaiteira 54 56, 15009, A Coruna, Galicia
+Calle Gaiteira 54 56, 15007, A Coruna, Galicia, España
 
-41.3955671,2.1650662
-Calle Mallorca 278, 08037, Barcelona
-Calle Mallorca 278, 08071, Barcelona, Cataluna, España
+43.36032,-5.85379
+Plaza de España, 3, 33007 Oviedo, Asturias
+Plaza De España 3, 33071, Asturias, Principado Asturias, España
 
-38.0218652,-1.099604
-Avenida Alfonso X el Sabio 15, 30160, Murcia
-Avenida Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
-Avda Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
+43.3604469,-5.8521701
+Plaza De España 6 33007 Oviedo (Asturias)
+Plaza De España 6, 33007, Asturias, Principado Asturias, España
+Plaza España 6, 33007, Asturias, Principado Asturias, España
 
-38.0230739,-1.0987193
-Avda Alfonso X el Sabio 6, 30160, Murcia
-Avda Alfonso X el Sabio 6, 30008, Murcia, Region Murcia, España
+43.3608724,-5.8554928
+Plaza de España, 2, 33007 Oviedo, Asturias
+Plaza De España 2, 33071, Asturias, Principado Asturias, España
 
-28.4657757,-16.2468828
-Avda Maritima 2, 38003, Santa Cruz Tenerife, Canarias, España
-Avda Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
+43.4597687,-3.8204665
+Calle Vargas 53 2, 39010, Cantabria, Cantabria, España
+Calle Vargas 53 39071 Santander (Cantabria)
+Calle Vargas 53 3º, 39010, Cantabria, Cantabria, España
+Calle Vargas 53, 39010, Cantabria, Cantabria, España
+C/ VARGAS, 53-2, 39010 Cantabria
 
-28.1043684,-15.4191231
-Avenida Primero de Mayo, 19, 35002 Las Palmas de Gran Canaria
-Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
-
-37.3794911,-5.9884983
-Avenida de Portugal S/N, 41004 Sevilla
-Avda De Portugal S/N, 41071, Sevilla, Andalucia, España
+43.463527,-3.782768
+Promontorio San Martín S/N, 39004 Santander, Cantabria
+Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
