@@ -125,7 +125,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 77	1260	Calle Del Alfar 2 28760 Tres Cantos (Madrid)	40.595773,-3.696822	C/ Alfar, 2. 28760 - Tres Cantos - Madrid	40.5950753,-3.6967504
 230	49362	Calle Alcalá 34 28014 Madrid (Madrid)	40.4180686,-3.6973894	Plaza Del Rey 6 28004 Madrid (Madrid)	40.4199586,-3.6962756
 34	46320	Calle Josefa Valcárcel 44 28027 Madrid (Madrid)	40.4479842,-3.6400618	C/ Josefa Valcarcel, 28 y 44 28071 - Madrid	40.4482923,-3.6400921
-17	49393	Paseo del Prado 18 y 20, 28014 Madrid	40.4133967,-3.694118	Paseo del Prado, 18-20	40.4132403,-3.6941106
 2	1266	Calle Alcalá 9, 28014 Madrid	40.4176416,-3.7013019	Calle Alcala 9 28071 Madrid (Madrid)	40.4176193,-3.7012871
 16	27891	Calle Huesca 31 28020 Madrid (Madrid)	40.4580506,-3.696157	C/ Huesca, 31. 28020 - MADRID	40.4580766,-3.696344
 51	31753	Calle Campezo 1 28022 Madrid (Madrid)	40.4484024,-3.5818388	Calle Campezo 1 28022 Madrid	40.447938,-3.5818723
@@ -217,8 +216,10 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 13	31138	Calle ALCALA 38-40 28014 Madrid (Madrid)	40.4183263,-3.6970518	C/ Alcalá, 38-40 28014 - Madrid	40.4183128,-3.6972047
 1	30115	Plaza Del Rey 1, 28004 Madrid	40.4202074,-3.6964252	Plaza Del Rey 1 28004 Madrid	40.4202202,-3.6964334
 2603	49572	Calle Alcalá 47 28014 Madrid (Madrid)	40.4192219,-3.6959774	Calle Edison 4 28006 Madrid (Madrid)	40.4394769,-3.6805778
+17	49393	Paseo del Prado 18 y 20, 28014 Madrid	40.4133967,-3.694118	Paseo del Prado, 18-20	40.4132403,-3.6941106
 412	49576	Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)	40.4603502,-3.6926738	Pº de la Castellana 160. 28046 Madrid	40.4579257,-3.6889917
 54	1450	Calle Bailén S/N 28071 Madrid (Madrid)	40.417955,-3.714312	Calle Bailén S/N 28071 Madrid (Madrid)	40.418434, -3.714182
+166	48199	Calle Plaza de Jacinto Benavente 3 28071 Madrid (Madrid)	40.4146872,-3.704507	Calle Plaza de Jacinto Benavente 3 28071 Madrid	40.4144673,-3.7025633
 0	29100	Avda John Lennon, s/n Getafe	40.3049058,-3.7088565	Avda John Lennon, s/n Getafe	40.3049058,-3.7088565
 6	49581	Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)	40.4603502,-3.6926738	C/ Poeta Joan Maragall, 41 - 28020, Madrid	40.4603328,-3.6927446
 4091	48558	Plaza Del Rey 1, 28004 Madrid	40.4202074,-3.6964252	C/ Pintor El Greco nº 4. 28040 Madrid	40.441718,-3.7356224
@@ -272,7 +273,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 30	49075	Calle Pedro Justo Dorado Dellmans 11 28040 Madrid (Madrid)	40.4479744,-3.7135932	C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid	40.4482093,-3.7137738
 11	30302	Paseo De la Castellana 67 28071 Madrid (Madrid)	40.4435818,-3.6935795	Paseo de la Castellana 67, 28071 Madrid	40.4435346,-3.6936947
 7	30858	Calle Guzmán el Bueno 139, 28003, Madrid, Comunidad Madrid, España	40.44540790000001,-3.7126528	C/ Guzmán el Bueno, 139	40.4454748,-3.712651
-166	48199	Calle Plaza de Jacinto Benavente 3 28071 Madrid (Madrid)	40.4146872,-3.704507	Calle Plaza de Jacinto Benavente 3 28071 Madrid	40.4144673,-3.7025633
 17	31839	Paseo del Prado 18 y 20, 28014 Madrid	40.4133967,-3.694118	Paseo del Prado, 18-20	40.4132403,-3.6941106
 6	47676	Calle Lérida 32-34 28020 Madrid (Madrid)	40.4541381,-3.7006317	C/ Lérida, 32 - 34	40.4540888,-3.7006666
 6	47677	Calle Lérida 32-34 28020 Madrid (Madrid)	40.4541381,-3.7006317	C/ Lérida, 32 - 34	40.4540888,-3.7006666
@@ -450,7 +450,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 43	31654	Plaza Marina Española 9 28013 Madrid (Madrid)	40.4206389,-3.71244	Plaza Marina Española 9 28013 Madrid (Madrid)	40.4208423,-3.7120028
 3306	30636	Plaza de la Provincia 1, 28012, Madrid, Comunidad Madrid, España	40.41436725,-3.70597515276898	C/ María de Molina, 50	40.437163,-3.6809054
 94	31662	Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid	40.4464571,-3.7340666	Avenida Puerta de Hierro S/N 28071 Madrid	40.4457993,-3.7347723
-2537	30643	Paseo del Prado 6, 28014, Madrid, Comunidad Madrid, España	40.416929,-3.6947426	C/ María de Molina, 50	40.437163,-3.6809054
+2537	30643	Paseo del Prado 6, 28014, Madrid, Comunidad Madrid, España	40.416929,-3.6947426	Paseo del Prado, 6 28014 Madrid	40.437163,-3.6809054
 2794	47204	Calle Núñez de Balboa 116 28006 Madrid (Madrid)	40.4371966,-3.6816738	Calle Guzmán el Bueno, 139 28003 Madrid	40.4454703,-3.7128423
 4709	27071	Calle Claudio Coello 31 28071 Madrid (Madrid)	40.4243463,-3.686817	Avenida Puerta de Hierro S/N 28071 Madrid	40.4457993,-3.7347723
 0	48054	C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ	42.86587,-2.69673	C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ	42.86587,-2.69673

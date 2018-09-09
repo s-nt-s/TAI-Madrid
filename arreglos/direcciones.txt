@@ -533,3 +533,101 @@ Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
 38.9948367,-1.8554404
 Calle Francisco Fontecha 2, 02001 Albacete
 Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España
+
+36.5015262,-6.2733028
+Plaza de Madrid S/N, 11011 Cádiz
+Plaza De Madrid S/N, 11007, Cadiz, Andalucia, España
+
+35.8883338,-5.3272239
+Avenida Otero S/N, 51003 Ceuta
+Avenida Otero S/N, 51001, Ceuta, Ceuta, España
+Avda Otero S/N, 51001, Ceuta, Ceuta, España
+
+40.4519221,-3.6928323
+Avenida del General Perón 38, 28020 Madrid
+Avenida General Peron 38, 28002, Madrid, Comunidad Madrid, España
+Avenida General Perón 38, 28071, Madrid, Comunidad Madrid, España
+Avda General Perón 38, 28071, Madrid, Comunidad Madrid, España
+Avda General Peron 38, 28002, Madrid, Comunidad Madrid, España
+
+37.4021733,-5.9858281
+Calle Sánchez Perrier 2, 41009 Sevilla
+Calle Sánchez Perrier 2, 41071, Sevilla, Andalucia, España
+
+40.34312095,-3.02990427285917
+Calle Mayor 17, 19001 Guadalajara, Castilla La Mancha
+Calle Mayor 17, 19071, Guadalajara, Castilla La Mancha, España
+
+38.9828956,-3.9291718
+Avenida Del Rey Santo 2, 13001, Ciudad Real, Castilla La Mancha
+Avenida Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
+Avda Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
+
+41.1185307,1.2461739
+Rambla Nova 93, 43003, Tarragona, Cataluna, España
+Rbla Nova 93, 43071, Tarragona, Cataluna, España
+
+42.8131361,-1.6394897
+Plaza de las Merindades S/N, Pamplona, Navarra
+Plaza Merindades s/n, 31071, Navarra, Comunidad Foral Navarra, España
+
+35.2852454,-2.9418362
+Calle Álvaro de Bazán 14-16, 52005 Melilla
+Calle Alvaro de Baza 14 16, 52005, Melilla, Melilla, España
+
+39.5661745,2.6659349
+Calle Ciutat de Querétaro S/N, 07007 Illes Balears
+Calle Ciutat de Querétaro S/N, 07007, Illes Balears, Illes Balears, España
+
+36.7185641,-4.4336171
+Calle Huescar 4, 29007, Malaga, Andalucia, España
+Calle Huescar 4, 29071, Malaga, Andalucia, España
+
+42.4591022,-2.4636162
+Calle Juan II 4, 26007 Logroño, La Rioja
+Calle Juan II 4, 26006, La Rioja, La Rioja, España
+
+42.3413131,-3.6974564
+Calle Vitoria 16, 09004, Burgos, Castilla Leon
+Calle Vitoria 16, 09071, Burgos, Castilla Leon, España
+
+28.4707726,-16.2472169
+Avenida Marítima 2, 38002 Santa Cruz de Tenerife, Canarias
+Avenida Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
+
+37.9870177,-1.1362975
+Calle Santa Teresa 12, 30005, Murcia
+Calle Santa Teresa 12, 30071, Murcia, Region Murcia, España
+
+40.4338348,-3.6862658
+Calle Serrano 102, 28006, Madrid, Comunidad Madrid, España
+Calle Serrano 102, 28071, Madrid, Comunidad Madrid, España
+
+40.4481602,-3.716387
+Paseo de Juan XXIII 26, 28040 Madrid
+Paseo Juan XXIII 26, 28070, Madrid, Comunidad Madrid, España
+
+41.3955671,2.1650662
+Calle Mallorca 278, 08037, Barcelona
+Calle Mallorca 278, 08071, Barcelona, Cataluna, España
+
+38.0218652,-1.099604
+Avenida Alfonso X el Sabio 15, 30160, Murcia
+Avenida Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
+Avda Alfonso X el Sabio 15, 30008, Murcia, Region Murcia, España
+
+38.0230739,-1.0987193
+Avda Alfonso X el Sabio 6, 30160, Murcia
+Avda Alfonso X el Sabio 6, 30008, Murcia, Region Murcia, España
+
+28.4657757,-16.2468828
+Avda Maritima 2, 38003, Santa Cruz Tenerife, Canarias, España
+Avda Maritima 2, 38700, Santa Cruz Tenerife, Canarias, España
+
+28.1043684,-15.4191231
+Avenida Primero de Mayo, 19, 35002 Las Palmas de Gran Canaria
+Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
+
+37.3794911,-5.9884983
+Avenida de Portugal S/N, 41004 Sevilla
+Avda De Portugal S/N, 41071, Sevilla, Andalucia, España

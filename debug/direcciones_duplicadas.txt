@@ -209,10 +209,12 @@ Calle Pedro Justo Dorado Dellmans 11, 28040, Madrid, Comunidad Madrid, España
 40.4481602,-3.716387
 Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
 Paseo Juan XXIII 26, 28040, Madrid, Comunidad Madrid, España
+Paseo de Juan XXIII 26, 28040 Madrid
 Plaza Juan XXIII 26 28071 Madrid (Madrid)
 
 40.4519221,-3.6928323
 Avda General Perón 38, 28020, Madrid, Comunidad Madrid, España
+Avenida del General Perón 38, 28020 Madrid
 Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
 
 40.4522076,-3.7237276
@@ -254,10 +256,6 @@ Calle Alfar 2 28760 Tres Cantos (Madrid)
 Calle Alfar 2, 28760, Madrid, Comunidad Madrid, España
 Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 
-40.63313,-3.1661
-Calle Mayor 17 19001 Guadalajara (Guadalajara)
-Calle Mayor 17 19071 Guadalajara (Guadalajara)
-
 40.6566953,-4.6877919
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
 Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
@@ -293,6 +291,7 @@ Pque Estarció del Nord s/n, 08018, Barcelona, Cataluna, España
 
 41.3955671,2.1650662
 Calle Mallorca 278 08037 Barcelona (Barcelona)
+Calle Mallorca 278, 08037, Barcelona
 Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 
 41.7636622,-2.4695844

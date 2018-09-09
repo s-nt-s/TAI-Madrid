@@ -20,7 +20,6 @@ apoquindo 4001, oficina 201, las condes santiago, chile
 arene s/n, 48991, bizkaia, pais vasco, españa
 autopista gc 1 s/n, 35230, las palmas, canarias, españa
 autovía m 40 s/n, 28223, madrid, comunidad madrid, españa
-avenida 1 de mayo 19, 35071, las palmas, canarias, españa
 avenida 1º de mayo 92, 35600, las palmas, canarias, españa
 avenida 1º de mayo s/n, 28529, madrid, comunidad madrid, españa
 avenida a. diputacion 65, 46610, valencia, comunitat valenciana, españa
@@ -31,8 +30,6 @@ avenida alcoy 3, 03698, alicante, comunitat valenciana, españa
 avenida alfarp 9, 46195, valencia, comunitat valenciana, españa
 avenida alferez provisional 3, 15006, a coruna, galicia, españa
 avenida alferez provisional 3, 15008, a coruna, galicia, españa
-avenida alfonso x el sabio 15, 30008, murcia, region murcia, españa
-avenida alfonso x el sabio 6, 30008, murcia, region murcia, españa
 avenida alfonso x el sabio 6, 30071, murcia, region murcia, españa
 avenida alférez provisional 3, 15071, a coruna, galicia, españa
 avenida almoraima 6, 11540, cadiz, andalucia, españa
@@ -124,7 +121,6 @@ avenida de merida 20, 06893, badajoz, extremadura, españa
 avenida de navarra 6, 20400, gipuzkoa, pais vasco, españa
 avenida de ordesa s/n, 22373, huesca, aragon, españa
 avenida de portugal 25, 36780, pontevedra, galicia, españa
-avenida de portugal s/n, 41071, sevilla, andalucia, españa
 avenida de portugal s/n, 45071, toledo, castilla la mancha, españa
 avenida de salamanca 20, 47071, valladolid, castilla leon, españa
 avenida de soria 15, 42100, soria, castilla leon, españa
@@ -133,7 +129,6 @@ avenida del deporte s/n, 39012, cantabria, cantabria, españa
 avenida del ejercito 12, 19071, guadalajara, castilla la mancha, españa
 avenida del ejército 12, 19071, guadalajara, castilla la mancha, españa
 avenida del guadalquivir 18, 23560, jaen, andalucia, españa
-avenida del rey santo 2, 13071, ciudad real, castilla la mancha, españa
 avenida doctor fleming 1, 14940, cordoba, andalucia, españa
 avenida don manuel duarte 14, 41710, sevilla, andalucia, españa
 avenida efeso 122, 41005, sevilla, andalucia, españa
@@ -159,8 +154,6 @@ avenida galicia 11, 36828, pontevedra, galicia, españa
 avenida garcia morato s/n, 41071, sevilla, andalucia, españa
 avenida gavilanes 37, 41020, sevilla, andalucia, españa
 avenida general aaranda 37, 46166, valencia, comunitat valenciana, españa
-avenida general peron 38, 28002, madrid, comunidad madrid, españa
-avenida general perón 38, 28071, madrid, comunidad madrid, españa
 avenida gongora s/n, 11311, cadiz, andalucia, españa
 avenida gran capitan 8, 14008, cordoba, andalucia, españa
 avenida gran vía 49, 26071, la rioja, la rioja, españa
@@ -186,7 +179,6 @@ avenida magisterio s/n, 10310, caceres, extremadura, españa
 avenida maria jimenez s/n, 11405, cadiz, andalucia, españa
 avenida marina 23, 15001, a coruna, galicia, españa
 avenida marina 9, 36600, pontevedra, galicia, españa
-avenida maritima 2, 38700, santa cruz tenerife, canarias, españa
 avenida marques de figueroa s/n, 15560, a coruna, galicia, españa
 avenida marqués de sotelo 8, 46071, valencia, comunitat valenciana, españa
 avenida martín alonso pinzón 3, 21071, huelva, andalucia, españa
@@ -200,7 +192,6 @@ avenida nueva 37, 41440, sevilla, andalucia, españa
 avenida olivar 2, 06129, badajoz, extremadura, españa
 avenida omeyas 15, 14460, cordoba, andalucia, españa
 avenida ordoñez valdes 43, 21400, huelva, andalucia, españa
-avenida otero s/n, 51001, ceuta, ceuta, españa
 avenida ourense 72, 36940, pontevedra, galicia, españa
 avenida pablo picasso 8, 11370, cadiz, andalucia, españa
 avenida pais valenciano 23, 03580, alicante, comunitat valenciana, españa
@@ -310,7 +301,6 @@ calle almanzora 28, 04100, almeria, andalucia, españa
 calle almeria 4, 23290, jaen, andalucia, españa
 calle almirante garrocho 1, 21074, huelva, andalucia, españa
 calle alonso cano 97, 41566, sevilla, andalucia, españa
-calle alvaro de baza 14 16, 52005, melilla, melilla, españa
 calle ambrosio feijoo s/n, 15071, a coruna, galicia, españa
 calle ancha 9, 18193, granada, andalucia, españa
 calle andalucia 12, 04738, almeria, andalucia, españa
@@ -630,7 +620,6 @@ calle huelva s/n, 11693, cadiz, andalucia, españa
 calle huerta nueva 54, 29480, malaga, andalucia, españa
 calle huerta viña don juan 43, 41318, sevilla, andalucia, españa
 calle huertas 19, 02120, albacete, castilla la mancha, españa
-calle huescar 4, 29071, malaga, andalucia, españa
 calle ibañez martin s/n, 44400, teruel, aragon, españa
 calle ibiza 7, 07810, illes balears, illes balears, españa
 calle ildefonso rodriguez 1, 40071, segovia, castilla leon, españa
@@ -673,7 +662,6 @@ calle josé luis arrese s/n, 47071, valladolid, castilla leon, españa
 calle jovellanos 9, 33900, asturias, principado asturias, españa
 calle juan bautista peñarroya 25, 12150, castellon, comunitat valenciana, españa
 calle juan carlos i 2, 28980, madrid, comunidad madrid, españa
-calle juan ii 4, 26006, la rioja, la rioja, españa
 calle juan ortuño 46, 20510, murcia, region murcia, españa
 calle juan perez arcas 3, 18195, granada, andalucia, españa
 calle juan perez arriete s/n, 11204, cadiz, andalucia, españa
@@ -741,7 +729,6 @@ calle major 28, 17840, girona, cataluna, españa
 calle major bajos 39, 08859, barcelona, cataluna, españa
 calle malaga del fresno s/n, 19210, guadalajara, castilla la mancha, españa
 calle mallorca 16 18, 27003, lugo, galicia, españa
-calle mallorca 278, 08071, barcelona, cataluna, españa
 calle manuel molina ortiz s/n, 12460, castellon, comunitat valenciana, españa
 calle manuel osuna 71, 41940, sevilla, andalucia, españa
 calle maria aurelia capmany 6, 43005, tarragona, cataluna, españa
@@ -757,7 +744,6 @@ calle martires concepcionistas 4, 28071, madrid, comunidad madrid, españa
 calle mayor 1, 12530, castellon, comunitat valenciana, españa
 calle mayor 10 bajo, 26525, la rioja, la rioja, españa
 calle mayor 102, 46230, valencia, comunitat valenciana, españa
-calle mayor 17, 19071, guadalajara, castilla la mancha, españa
 calle mayor 19, 02248, albacete, castilla la mancha, españa
 calle mayor 2, 50130, zaragoza, aragon, españa
 calle mayor 23, 25510, lleida, cataluna, españa
@@ -966,7 +952,6 @@ calle santa engracia 7, 28071, madrid, comunidad madrid, españa
 calle santa lucia 12, 29650, malaga, andalucia, españa
 calle santa marina 4, 27550, lugo, galicia, españa
 calle santa matilde 3, 39724, cantabria, cantabria, españa
-calle santa teresa 12, 30071, murcia, region murcia, españa
 calle santiago de compostela 96, 28071, madrid, comunidad madrid, españa
 calle santo 23, 23485, jaen, andalucia, españa
 calle santo cristo 7, 41770, sevilla, andalucia, españa
@@ -975,7 +960,6 @@ calle santo reino 5 y 7, 23071, jaen, andalucia, españa
 calle santo tomas s/n, 16840, cuenca, castilla la mancha, españa
 calle seras 10, 14815, cordoba, andalucia, españa
 calle serradero 26, 26071, la rioja, la rioja, españa
-calle serrano 102, 28071, madrid, comunidad madrid, españa
 calle serrano 140, 28071, madrid, comunidad madrid, españa
 calle serrano galvache 26, 28071, madrid, comunidad madrid, españa
 calle sevilla 14, 21520, huelva, andalucia, españa
@@ -986,7 +970,6 @@ calle soler y march 50, 08240, barcelona, cataluna, españa
 calle sor angela de la cruz 9, 28071, madrid, comunidad madrid, españa
 calle sor ángela de la cruz 9, 28071, madrid, comunidad madrid, españa
 calle soria 3 5, 41011, sevilla, andalucia, españa
-calle sánchez perrier 2, 41071, sevilla, andalucia, españa
 calle tamayo 6, 09238, burgos, castilla leon, españa
 calle tanausu 21, 38760, santa cruz tenerife, canarias, españa
 calle tarquina 18, 18858, granada, andalucia, españa
@@ -1032,7 +1015,6 @@ calle virgen de los niños 21, 46630, valencia, comunitat valenciana, españa
 calle virgen del amparo s/n, 41927, sevilla, andalucia, españa
 calle virgen la cabeza 191, 18817, granada, andalucia, españa
 calle viriato 7, 42110, soria, castilla leon, españa
-calle vitoria 16, 09071, burgos, castilla leon, españa
 calle vitoria 34, 09071, burgos, castilla leon, españa
 calle vitoria 39, 09071, burgos, castilla leon, españa
 calle vitruvio 1, 28071, madrid, comunidad madrid, españa
@@ -1233,7 +1215,6 @@ paseo fernández iparraguirre 8, 19071, guadalajara, castilla la mancha, españa
 paseo iglesia 7, 23610, jaen, andalucia, españa
 paseo infanta isabel 1, 28071, madrid, comunidad madrid, españa
 paseo juan del cid lopez 1, 21240, huelva, andalucia, españa
-paseo juan xxiii 26, 28070, madrid, comunidad madrid, españa
 paseo juan xxiii 26, 28071, madrid, comunidad madrid, españa
 paseo maria agustin 113, 50007, zaragoza, aragon, españa
 paseo ordoñez valdes s/n, 21230, huelva, andalucia, españa
@@ -1293,7 +1274,6 @@ plaza de las marinas 1, 11403, cadiz, andalucia, españa
 plaza de las regiones 1, 28018, madrid, comunidad madrid, españa
 plaza de los martires de la alpujarra 1, 18480, granada, andalucia, españa
 plaza de los sagrados corazones 7, 28071, madrid, comunidad madrid, españa
-plaza de madrid s/n, 11007, cadiz, andalucia, españa
 plaza de ourense 1, 36071, pontevedra, galicia, españa
 plaza de toros 9, 45593, toledo, castilla la mancha, españa
 plaza de vizcaya o bizcaia 5, 48500, bizkaia, pais vasco, españa
@@ -1340,7 +1320,6 @@ plaza mariano ayala 6, 21830, huelva, andalucia, españa
 plaza mayor 2, 12460, castellon, comunitat valenciana, españa
 plaza mayor 2, 24450, leon, castilla leon, españa
 plaza mayor s/n, 32130, ourense, galicia, españa
-plaza merindades s/n, 31071, navarra, comunidad foral navarra, españa
 plaza ministro indalecio prieto 1, 41071, sevilla, andalucia, españa
 plaza misericordia 1, 21230, huelva, andalucia, españa
 plaza montelirio 1, 41700, sevilla, andalucia, españa
@@ -1372,7 +1351,6 @@ r domingos marreiros, 2031, sala 103 belem, brasil
 r. barata salgueiro 28, 1250 042 lisboa, portugal
 rbla de ferran 2, 25071, lleida, cataluna, españa
 rbla de santa cruz 169, 38071, santa cruz tenerife, canarias, españa
-rbla nova 93, 43071, tarragona, cataluna, españa
 reconquista 559, 8 buenos aires, argentina
 ronda cruz roja s/n, 41005, sevilla, andalucia, españa
 ronda de toledo 27, 13003, ciudad real, castilla la mancha, españa

@@ -1007,7 +1007,7 @@ ok = 0
 dire_xls = set()
 for rx in range(sh.nrows):
     row = [parse(c) for c in sh.row(rx)]
-    dire, latlon = row[10], row[12]
+    dire, latlon, machacar = row[10], row[12], row[17]
     if dire and latlon:
         idMinisterio, idCentroDirectivo, idUnidad = row[2], row[6], row[8]
         if idMinisterio:
@@ -1015,8 +1015,9 @@ for rx in range(sh.nrows):
         if idCentroDirectivo:
             xls_info[idCentroDirectivo] = (dire, latlon, idMinisterio)
         if idUnidad:
-            xls_info[idUnidad] = (
-                dire, latlon, idCentroDirectivo or idMinisterio)
+            xls_info[idUnidad] = (dire, latlon, idCentroDirectivo or idMinisterio)
+            if machacar == "SI":
+                pass
         dire = simplificar_dire(dire)
         if dire not in direcciones:
             direcciones[dire] = latlon
