@@ -137,3 +137,6 @@
 45806    37.3016366,-6.2962642    Plaza España, 1, 41013 Sevilla
 45826    42.239529,-8.7235683    Praza de Compostela, 29, 36201 Vigo, Pontevedra
 48046    39.5670133,2.654739    Carrer d'Antoni Planas i Franch, 9, 07001 Palma, Illes Balears
+
+# http://www.inta.es/opencms/export/sites/default/INTA/es/donde-estamos/
+49837   40.279047,-3.568074   Carretera M-301 km 10.5, 28330 San Martín de la Vega (MADRID)
