@@ -466,7 +466,7 @@ Plaza San Juan 4, 44001, Teruel, Aragon, España
 
 40.3407537,-1.1065524
 Plaza San Juan 3 44001 Teruel (Teruel)
-Plaza San Juan 3, 44001, Teruel, Aragon, España 
+Plaza San Juan 3, 44001, Teruel, Aragon, España
 
 40.34312095,-3.02990427285917
 Calle Mayor 17, 19001 Guadalajara, Castilla La Mancha
@@ -767,6 +767,10 @@ Calle Alfar 2, 28760, Madrid, Comunidad Madrid, España
 Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 C/ Alfar, 2. 28760 - Tres Cantos - Madrid
 Calle Del Alfar 2, 28760, Madrid, Comunidad Madrid, España
+
+40.9339728,-4.1142284
+Calle Carretera de Villacastin 4, 40006, Segovia, Castilla Leon, España
+C/ CARRETERA DE VILLACASTIN, 4, 40006 Segovia
 
 40.9496286,-5.6647538
 Avda Carlos I 78, 37008 Salamanca

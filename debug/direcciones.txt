@@ -1566,7 +1566,6 @@ C/ Arturo Soria 126, EDIFICIO A
 C/ BALDIRI REIXAC, 4 08028 Barcelona (Barcelona)
 C/ BOTÁNICA S/N POLIGONO EMPRESARIAL, NUEVA TORNEO, 41015 Sevilla
 C/ Boston, 6, 47007 VALLADOLID
-C/ CARRETERA DE VILLACASTIN, 4, 40006 Segovia
 C/ CATEDRATICO JOSE BELTRAN MARTINEZ, 2 46980 Paterna (Valencia / València)
 C/ CID, 31, 02002 Albacete
 C/ Carmen, 2, 19001 GUADALAJARA
@@ -6060,7 +6059,7 @@ Carretera Local P-120 "LA MORALEJA" S/N 34210 Dueñas (Palencia)
 Carretera Local P-120 s/n 34210 Dueñas (Palencia)
 Carretera M-241 Km. 5,750 28595 Estremera (Madrid)
 Carretera M-241 km. 5,750 28595 Estremera (Madrid)
-Carretera M-301 Km. 10,5 28330 San Martín de la Vega (Madrid)
+Carretera M-301 Km 10.5, 28330 San Martín de la Vega, Madrid
 Carretera M-609 Km 3.5 28791 Soto del Real (Madrid)
 Carretera Madrid-Alicante S/N 03113 Alicante/Alacant (Alacant/Alicante)
 Carretera Majadahonda-Pozuelo Km 2 28220 Majadahonda (Madrid)
