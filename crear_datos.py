@@ -327,7 +327,7 @@ if args.puestos or args.todo:
                         idde[key][clave] = value
                         clave = None
                         value = None
-
+    print("")
     idde = Descripciones(**idde)
     idde.save()
     Puesto.save(todos, name="destinos_all")
@@ -336,6 +336,44 @@ if args.puestos or args.todo:
     puestos_ko = set()
 
     puestos = [p for p in todos if p.isTAI(puestos_ok, puestos_ko)]
+    print ("Comprobando vacantes")
+    vacantes = [p for p in puestos if p.estado=="V"]
+    id_vacantes = [str(p.idPuesto) for p in vacantes]
+    re_puesto_vacante = re.compile(r"\b(" + "|".join(id_vacantes) + r")\b")
+    nombramientos = list(sorted(glob("fuentes/nb_*.txt")))
+    visto_en={}
+    count = 0
+    ok = 0
+    total = len(nombramientos)
+    for nb in nombramientos:
+        boe = nb.split("_")[-1][:-4]
+        with open(nb, "r") as txt:
+            for m in re_puesto_vacante.findall(txt.read()):
+                m = int(m)
+                if m not in visto_en:
+                    visto_en[int(m)]=boe
+                    ok = ok + 1
+                    print("%3d%% completado: %s (%s)" %
+                          (count * 100 / total, boe, ok), end="\r")
+        count = count + 1
+        print("%3d%% completado: %s (%s)" %
+              (count * 100 / total, boe, ok), end="\r")
+    print ("")
+    total = len(vacantes)
+    count = 0
+    ok = 0
+    with open("debug/falsas_vacantes.txt", "w") as f:
+        for p in vacantes:
+            boe = visto_en.get(p.idPuesto, None)
+            if boe:
+                f.write("%s    %s\n" % (boe, p.idPuesto))
+                p.estado = boe
+                ok = ok +1
+            count = count + 1
+            print("%3d%% completado: %s (%s)" %
+                  (count * 100 / total, p.idPuesto, ok), end="\r")
+    print ("")
+    
     Puesto.save(puestos)
 
     with open("debug/puestos_ok.txt", "w") as f:
@@ -362,7 +400,6 @@ if args.puestos or args.todo:
                 destinos.append(p)
             Puesto.save(destinos, name=("%s_%s" % (year, tipo)))
 
-    print ("")
 
 if args.csic or args.todo:
     print ("Leyendo csic.es")

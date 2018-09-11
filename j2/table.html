@@ -11,7 +11,7 @@
         <!--p>
             <input type="checkbox" id="vacantes" value="V" onclick="vacantes(this)"/> <label for="vacantes">Ver solo vacantes</label>
         </p-->
-		{% for id, des, _ in info.next_ministerio %}
+		{% for id, des, _, _ in info.next_ministerio %}
 			<table class="{{info.estado_ministerio}}">
 				<caption class="idde"><span>{{id}}</span><span>{{ des }}</span></caption>
 				<thead>
@@ -35,7 +35,9 @@
 				{% for p in info.puestos_by_ministerio %}
 				<tr class="{{p.estado}}">
                     <td class="{{p.estado}}">
-                        {% if p.estado == "V" %} <abbr title="Vacante">V</abbr> {% endif %}
+                        {% if p.estado == "V" %}<abbr title="Vacante">V</abbr>{% elif p.estado != "NV" %}
+                        <a href="https://www.boe.es/buscar/doc.php?id={{p.estado}}" target="_boe"><abbr title="En el RPT aparece como vacante, pero en {{p.estado}} ya se asigno el puesto">B</abbr></a>
+                        {% endif %}
                     </td>
 					<td>{{p.idPuesto}}</td>
 					<td class="idde"><span>{{p.idCentroDirectivo}}</span><span>{{ p.deCentroDirectivo }}</span></td>

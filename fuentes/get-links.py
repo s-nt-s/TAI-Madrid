@@ -47,13 +47,6 @@ def get_pdf_boe(boe, descripcion=None):
     url = soup.select("li.puntoPDF a")[0].attrs["href"]
     print(url)
 
-def get_nombramientos():
-    desde = "31/03/2018".replace("/", "%2F")
-    hasta = datetime.today().strftime("%Y/%m/%d").replace("/", "%2F")
-    url = "https://www.boe.es/buscar/personal.php?campo%5B0%5D=TIT&dato%5B0%5D=&operador%5B0%5D=and&campo%5B1%5D=ID_RNG&dato%5B1%5D=&operador%5B1%5D=and&campo%5B2%5D=ID_DEM&dato%5B2%5D=&operador%5B2%5D=and&campo%5B3%5D=DOC&dato%5B3%5D=Nombramientos%2C+situaciones+e+incidencias&operador%5B3%5D=and&campo%5B4%5D=NBO&dato%5B4%5D=&operador%5B4%5D=and&campo%5B5%5D=DOC&dato%5B5%5D=&operador%5B6%5D=and&campo%5B6%5D=FPU&dato%5B6%5D%5B0%5D=" + desde + "&dato%5B6%5D%5B1%5D=" + hasta + "&operador%5B7%5D=and&campo%5B7%5D=FAP&dato%5B7%5D%5B0%5D=&dato%5B7%5D%5B1%5D=&page_hits=2000&sort_field%5B0%5D=FPU&sort_order%5B0%5D=desc&sort_field%5B1%5D=ref&sort_order%5B1%5D=asc&accion=Buscar"
-    soup = get(url)
-    
-
 soup = get(root)
 
 print ('# Códigos de provincia')
