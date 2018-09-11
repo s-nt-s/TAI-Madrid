@@ -341,11 +341,12 @@ if args.puestos or args.todo:
     id_vacantes = [str(p.idPuesto) for p in vacantes]
     re_puesto_vacante = re.compile(r"\b(" + "|".join(id_vacantes) + r")\b")
     nombramientos = list(sorted(glob("fuentes/nb_*.txt")))
+    concursos = list(sorted(glob("fuentes/oc_*.txt")))
     visto_en={}
     count = 0
     ok = 0
-    total = len(nombramientos)
-    for nb in nombramientos:
+    total = len(nombramientos) + len(concursos)
+    for nb in nombramientos + concursos:
         boe = nb.split("_")[-1][:-4]
         with open(nb, "r") as txt:
             for m in re_puesto_vacante.findall(txt.read()):

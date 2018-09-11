@@ -10,6 +10,7 @@ from datetime import datetime, timedelta
 import os
 import subprocess
 
+re_sp = re.compile(r"\s+")
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
@@ -67,25 +68,41 @@ while url:
     else:
         a = sig[0].find_parent("a")
         url = a.attrs["href"]
-i = 0
+
+nombramientos = 0
+concursos = 0
 for url in url_boes:
     _, boe = url.split("=")
+    name_file = None
+
     soup = get(url)
-    if "Nombramientos, situaciones e incidencias" in soup.get_text():
-        div = soup.select("div#DOdocText")[0]
-        txt = None
-        i = i +1
-        name_file = "nb_%03d_%s.txt" % (i, boe)
-        if div.find("img"):
-            url = soup.select("li.puntoPDF a")[0].attrs["href"]
-            p1 = subprocess.Popen(["curl", "-s", url], stdout=subprocess.PIPE)
-            p2 = subprocess.Popen(["pdftotext", "-layout", "-", "-"], stdin=p1.stdout, stdout=subprocess.PIPE)
-            p1.stdout.close()
-            txt, err = p2.communicate()
-            with open(name_file, "wb") as f:
-                f.write(txt)
-        else:
-            txt = div.get_text()
-            with open(name_file, "w") as f:
-                f.write(txt)
-        print (name_file+" "+url)
+    div = soup.select("div.metadatosDoc")[0]
+
+    txt = re_sp.sub(" ", div.get_text())
+    
+    if "A. Nombramientos, situaciones e incidencias" in txt:
+        nombramientos = nombramientos +1
+        name_file = "nb_%03d_%s.txt" % (nombramientos, boe)
+    elif "B. Oposiciones y concursos" in txt:
+        concursos = concursos +1
+        name_file = "oc_%03d_%s.txt" % (concursos, boe)
+    else:
+        continue
+
+    div = soup.select("div#DOdocText")[0]
+    if div.find("img"):
+        url = soup.select("li.puntoPDF a")[0].attrs["href"]
+        p1 = subprocess.Popen(["curl", "-s", url], stdout=subprocess.PIPE)
+        p2 = subprocess.Popen(["pdftotext", "-layout", "-", "-"], stdin=p1.stdout, stdout=subprocess.PIPE)
+        p1.stdout.close()
+        txt, err = p2.communicate()
+        with open(name_file, "wb") as f:
+            f.write(txt)
+    else:
+        txt = div.get_text()
+        with open(name_file, "w") as f:
+            f.write(txt)
+    print (name_file+" "+url)
+
+print ("%s nombramientos encontrados" % nombramientos)
+print ("%s concursos encontrados" % concursos)

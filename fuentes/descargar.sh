@@ -16,6 +16,6 @@ grep -v '^#' wget.txt | wget -i- --continue --no-clobber
 find . -iname "*.pdf" -exec pdftotext "{}" "{}-nolayout.txt" \;
 find . -iname "*.pdf" -exec pdftotext -layout "{}" "{}-layout.txt" \;
 
-./get-nombramientos.py
+./get-novacantes.py
 ./administracion.gob.es/descargar.sh
 ./csic.es/descargar.sh
