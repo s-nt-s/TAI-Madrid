@@ -21,6 +21,7 @@ Avda 1 de Mayo 19, 35071, Las Palmas, Canarias, España
 Plaza De los Derechos Humanos S/N, 35003 Palmas de Gran Canaria
 Plaza De los Derechos Humanos s/n 35003 Palmas de Gran Canaria, Las (Palmas, Las)
 
+# < 30m
 28.1131325,-15.4185751
 Plaza de los Derechos Humanos 1, 35003, Las Palmas, Canarias, España
 Plaza De los Derechos Humanos 1, 35003, Las Palmas, Canarias, España
@@ -34,6 +35,10 @@ Plaza De la Feria 24, 35003, Las Palmas, Canarias, España
 28.1160374,-15.421178
 Calle Luís Doreste Silva 68, 35004, Las Palmas, Canarias, España
 Calle Luis Doreste Silva 68, 35004, Las Palmas, Canarias, España
+
+28.1182189,-15.4279158
+Calle Perez Del Toro, 89, Las Palmas
+c/ Pérez del Toro, 89, 35004 LAS PALMAS DE GRAN CANARIA
 
 28.1231481,-15.430464
 Calle Velázquez 10, 35005, Las Palmas, Canarias, España
@@ -416,6 +421,7 @@ Calle Gaspar Sabater 3, 07010 Illes Balears
 Calle Gaspar Sabater 3, 07010, Illes Balears, Illes Balears, España
 Calle Gaspar de Sabater 3, 07010, Illes Balears, Illes Balears, España
 
+# < 30m
 39.5903944,2.6510579
 Calle Miguel Capllonch 12, 07010 Palma
 Calle Miguel Capllonch 12 07010 Palma (Illes Balears)
@@ -646,11 +652,30 @@ Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
 Serrano, 117 28006 Madrid
 Calle Serrano 117, 28071, Madrid, Comunidad Madrid, España
 
+40.4423267,-3.6996497
+Calle Rios Rosas 23, 28003 Madrid
+Calle Rios Rosas 23 28003 Madrid (Madrid)
+Calle Rios Rosas 23, 28003, Madrid, Comunidad Madrid, España
+Calle Ríos Rosas 23, 28003, Madrid, Comunidad Madrid, España
+
+40.4435818,-3.6935795
+Paseo Castellana 67, 28046 Madrid
+Paseo Castellana 67, 28046, Madrid, Comunidad Madrid, España
+Paseo De la Castellana 67 28071 Madrid (Madrid)
+Paseo de la Castellana 67, 28046, Madrid, Comunidad Madrid, España
+Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
+
 40.4447566,-3.6536728
 Calle Condesa de Venadito 9, 28027 Madrid
 Calle Condesa de Venadito 9 28027 Madrid (Madrid)
 Calle Condesa de Venadito 9, 28027, Madrid, Comunidad Madrid, España
 C/ Condesa de Venadito, 9 -28027- MADRID
+
+40.4453677,-3.6906392
+Paseo Castellana 106-108, 28020 Madrid
+Paseo Castellana 106 - 108 28046 Madrid (Madrid)
+Paseo Castellana 106-108 28020 Madrid (Madrid)
+Paseo De la Castellana 106 28046 Madrid (Madrid)
 
 40.4454613,-3.7131352
 Calle Guzmán el Bueno 139, 28003 Madrid
@@ -688,6 +713,11 @@ C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
 40.4481602,-3.716387
 Paseo de Juan XXIII 26, 28040 Madrid
 Paseo Juan XXIII 26, 28070, Madrid, Comunidad Madrid, España
+Paseo de Juan XXIII 26, 28040 Madrid
+Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
+Paseo Juan XXIII 26, 28040, Madrid, Comunidad Madrid, España
+Paseo de Juan XXIII 26, 28040 Madrid
+Plaza Juan XXIII 26 28071 Madrid (Madrid)
 
 40.4510326,-3.4720207
 Ctra De Loeches 58, 28148, Madrid, Comunidad Madrid, España
@@ -698,11 +728,24 @@ Avenida General Peron 38, 28002, Madrid, Comunidad Madrid, España
 Avenida General Perón 38, 28071, Madrid, Comunidad Madrid, España
 Avda General Perón 38, 28071, Madrid, Comunidad Madrid, España
 Avda General Peron 38, 28002, Madrid, Comunidad Madrid, España
+Avenida del General Perón 38, 28020 Madrid
+Avda General Perón 38, 28020, Madrid, Comunidad Madrid, España
+Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
 
 40.4522076,-3.7237276
 Calle Leonardo Prieto Castro 8 28071 Madrid (Madrid)
 Calle Leonardo Prieto Castro 8, 28040, Madrid, Comunidad Madrid, España
 C/ Leonardo Prieto Castro, 8 Ciudad Universitaria 28071 Madrid
+
+40.4541381,-3.7006317
+Calle Lérida 32-34, 28020 Madrid
+Calle Lérida 32 34, 28020, Madrid, Comunidad Madrid, España
+Calle Lérida 32-34 28020 Madrid (Madrid)
+
+40.454792,-3.6989494
+Calle Infanta Mercedes 31, 28020 Madrid
+Calle Infanta Mercedes 31 28020 Madrid (Madrid)
+Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
 
 40.4555445,-3.6986356
 Calle Infanta Mercedes 37 28020 Madrid (Madrid)
@@ -751,6 +794,13 @@ Paseo de la Castellana 162, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, Planta 7 28046 Madrid (Madrid)
 
+40.4603502,-3.6926738
+Calle Capitán Haya 41, 28046 Madrid
+Calle Capitán Haya 41 28046 Madrid (Madrid)
+Calle Capitán Haya 41, 28020, Madrid, Comunidad Madrid, España
+Calle Poeta Joan Maragall 41 28020 Madrid (Madrid)
+Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)
+
 40.473754,-3.6718262
 Calle Serrano Galvache 26, 28033 Madrid
 Calle Serrano Galvache 26 28033 Madrid (Madrid)
@@ -777,6 +827,13 @@ Calle Alfar 2, 28760, Madrid, Comunidad Madrid, España
 Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 C/ Alfar, 2. 28760 - Tres Cantos - Madrid
 Calle Del Alfar 2, 28760, Madrid, Comunidad Madrid, España
+
+40.6291869,-3.1799277
+Avenida del Ejército, 2, 19004 Guadalajara
+Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avenida del Ejército, 2, 19004 Guadalajara
 
 40.65722,-4.69527
 Avenida de Portugal 4, 05001 Ávila

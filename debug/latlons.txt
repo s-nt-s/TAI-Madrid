@@ -82,6 +82,10 @@ Calle Beatriz de Silva 4, 51001 Ceuta
 35.8872271,-5.3060865
 Calle Echegaray s/n, 51001, Ceuta, Ceuta, España
 
+35.8892193,-5.3036387
+Calle Real 20, 51001, Ceuta, Ceuta, España
+c/ Real, 20, 51001 CEUTA
+
 35.88999,-5.303592
 C/ SALUD TEJERO, 16-18 ENTREPLANTA, 51001 Ceuta
 
@@ -548,6 +552,9 @@ La Rambla, 18, 07003 PALMA DE MALLORCA
 39.5764083,2.6507868
 Calle Cecilio Metelo 9 07003 Palma (Illes Balears)
 
+39.5770186,2.6491093
+Carrer de Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
+
 39.602156,2.666685
 GREMI DE SABATERS,39, 07009 Baleares
 
@@ -920,15 +927,7 @@ Calle Ríos Rosas, 44-A, 28003 Madrid
 C/ Pintor El Greco nº 4. 28040 Madrid
 
 40.4423267,-3.6996497
-Calle Rios Rosas 23 28003 Madrid (Madrid)
-Calle Rios Rosas 23, 28003, Madrid, Comunidad Madrid, España
-Calle Ríos Rosas 23, 28003, Madrid, Comunidad Madrid, España
-
-40.4435818,-3.6935795
-Paseo Castellana 67, 28046, Madrid, Comunidad Madrid, España
-Paseo De la Castellana 67 28071 Madrid (Madrid)
-Paseo de la Castellana 67, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
+Calle Rios Rosas 23, 28003 Madrid
 
 40.4447566,-3.6536728
 Calle Condesa de Venadito 9, 28027 Madrid
@@ -937,9 +936,7 @@ Calle Condesa de Venadito 9, 28027 Madrid
 Calle Torrelaguna 73 28027 Madrid (Madrid)
 
 40.4453677,-3.6906392
-Paseo Castellana 106 - 108 28046 Madrid (Madrid)
-Paseo Castellana 106-108 28020 Madrid (Madrid)
-Paseo De la Castellana 106 28046 Madrid (Madrid)
+Paseo Castellana 106-108, 28020 Madrid
 
 40.4454613,-3.7131352
 Calle Guzmán el Bueno 139, 28003 Madrid
@@ -972,10 +969,7 @@ Paseo De la Castellana 75, 28071 Madrid
 Calle Pedro Justo Dorado Dellmans 11 28040 Madrid (Madrid)
 
 40.4481602,-3.716387
-Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
-Paseo Juan XXIII 26, 28040, Madrid, Comunidad Madrid, España
 Paseo de Juan XXIII 26, 28040 Madrid
-Plaza Juan XXIII 26 28071 Madrid (Madrid)
 
 40.4481687,-3.6973538
 Calle Hernani 59 28020 Madrid (Madrid)
@@ -992,11 +986,6 @@ C/ JOSE GUTIERREZ ABASCAL, 2 28006 Madrid (Madrid)
 40.4505249,-3.6501065
 C/ Arturo Soria 126, EDIFICIO A
 
-40.4519221,-3.6928323
-Avda General Perón 38, 28020, Madrid, Comunidad Madrid, España
-Avenida del General Perón 38, 28020 Madrid
-Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
-
 40.4522076,-3.7237276
 Calle Leonardo Prieto Castro 8 28071 Madrid (Madrid)
 
@@ -1007,15 +996,13 @@ Calle Padre Damian 4 28071 Madrid (Madrid)
 Calle Salamanca 4 28020 Madrid (Madrid)
 
 40.4541381,-3.7006317
-Calle Lérida 32 34, 28020, Madrid, Comunidad Madrid, España
-Calle Lérida 32-34 28020 Madrid (Madrid)
+Calle Lérida 32-34, 28020 Madrid
 
 40.454458,-3.680935
 C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)
 
 40.454792,-3.6989494
-Calle Infanta Mercedes 31 28020 Madrid (Madrid)
-Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
+Calle Infanta Mercedes 31, 28020 Madrid
 
 40.4548941,-3.6724537
 Calle Uruguay 16 28016 Madrid (Madrid)
@@ -1057,10 +1044,7 @@ C/ RAMIRO DE MAEZTU, 9 28040 Madrid (Madrid)
 Paseo de la Castellana, 147 28046 Madrid
 
 40.4603502,-3.6926738
-Calle Capitán Haya 41 28046 Madrid (Madrid)
-Calle Capitán Haya 41, 28020, Madrid, Comunidad Madrid, España
-Calle Poeta Joan Maragall 41 28020 Madrid (Madrid)
-Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)
+Calle Capitán Haya 41, 28046 Madrid
 
 40.4627493,-3.6702392
 Calle Santa María Magdalena 16 28016 Madrid (Madrid)
@@ -1133,9 +1117,6 @@ C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
 Calle Alfar 2 28760 Tres Cantos (Madrid)
 
 40.6291869,-3.1799277
-Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
-Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
-Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avenida del Ejército, 2, 19004 Guadalajara
 
 40.6299543,-3.1663486

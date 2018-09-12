@@ -38,6 +38,10 @@
 36440   42.843313,-2.6728038    c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
 36460   40.3402129,-1.1073706   c/ Joaquín Arnau, 22, 44001 TERUEL
 36453   40.65722,-4.69527       Av. Portugal, 4, 05001 Ávila
+36416   39.5770186,2.6491093    Carrer de Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
+36436    28.1182189,-15.4279158    c/ Pérez del Toro, 89, 35004 LAS PALMAS DE GRAN CANARIA
+36462    35.8892193,-5.3036387    c/ Real, 20, 51001 CEUTA
+
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE

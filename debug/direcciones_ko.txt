@@ -1184,6 +1184,7 @@ paseo angel guimera 16, 25065, lleida, cataluna, españa
 paseo asuncion 1, 21300, huelva, andalucia, españa
 paseo barro soto s/n, 15330, a coruna, galicia, españa
 paseo blas de lezo 1, 29649, malaga, andalucia, españa
+paseo castellana 106 108, 28020, madrid, comunidad madrid, españa
 paseo castellana 147, 28020, madrid, comunidad madrid, españa
 paseo castellana 162, 28071, madrid, comunidad madrid, españa
 paseo castellana 3, 28046, madrid, comunidad madrid, españa

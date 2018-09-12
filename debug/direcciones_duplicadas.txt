@@ -10,6 +10,10 @@ plaza san juan de la cruz s/n 28071 madrid (madrid)
 40.4408886,-3.6934286
 40.441279,-3.6938415
 
+35.8892193,-5.3036387
+Calle Real 20, 51001, Ceuta, Ceuta, España
+c/ Real, 20, 51001 CEUTA
+
 38.8834145,-7.0052862
 Calle Almendralejo S/N, 06071, Badajoz, Extremadura, España
 Ronda Del Pilar 10, 06071, Badajoz, Extremadura, España
@@ -91,47 +95,6 @@ Calle de Serrano, 117, 28006 Madrid
 Paseo CASTELLANA 63 28071 Madrid (Madrid)
 Paseo de la Castellana 63 28071 Madrid (Madrid)
 
-40.4423267,-3.6996497
-Calle Rios Rosas 23 28003 Madrid (Madrid)
-Calle Rios Rosas 23, 28003, Madrid, Comunidad Madrid, España
-Calle Ríos Rosas 23, 28003, Madrid, Comunidad Madrid, España
-
-40.4435818,-3.6935795
-Paseo Castellana 67, 28046, Madrid, Comunidad Madrid, España
-Paseo De la Castellana 67 28071 Madrid (Madrid)
-Paseo de la Castellana 67, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
-
-40.4453677,-3.6906392
-Paseo Castellana 106 - 108 28046 Madrid (Madrid)
-Paseo Castellana 106-108 28020 Madrid (Madrid)
-Paseo De la Castellana 106 28046 Madrid (Madrid)
-
-40.4481602,-3.716387
-Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
-Paseo Juan XXIII 26, 28040, Madrid, Comunidad Madrid, España
-Paseo de Juan XXIII 26, 28040 Madrid
-Plaza Juan XXIII 26 28071 Madrid (Madrid)
-
-40.4519221,-3.6928323
-Avda General Perón 38, 28020, Madrid, Comunidad Madrid, España
-Avenida del General Perón 38, 28020 Madrid
-Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
-
-40.4541381,-3.7006317
-Calle Lérida 32 34, 28020, Madrid, Comunidad Madrid, España
-Calle Lérida 32-34 28020 Madrid (Madrid)
-
-40.454792,-3.6989494
-Calle Infanta Mercedes 31 28020 Madrid (Madrid)
-Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
-
-40.4603502,-3.6926738
-Calle Capitán Haya 41 28046 Madrid (Madrid)
-Calle Capitán Haya 41, 28020, Madrid, Comunidad Madrid, España
-Calle Poeta Joan Maragall 41 28020 Madrid (Madrid)
-Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)
-
 40.4639201,-3.69017
 Paseo De la Castellana 183, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 183 28071 Madrid (Madrid)
@@ -147,12 +110,6 @@ Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
 40.4765303,-3.7446241
 Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
 Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
-
-40.6291869,-3.1799277
-Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
-Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
-Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
-Avenida del Ejército, 2, 19004 Guadalajara
 
 40.6566953,-4.6877919
 Calle Hornos Caleros 1 05001 Ávila (Ávila)

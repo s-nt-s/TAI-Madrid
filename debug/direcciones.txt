@@ -634,11 +634,9 @@ Avda Del Carmen 2, 39510, Cantabria, Cantabria, España
 Avda Del Cid 22, 46018, Valencia, Comunitat Valenciana, España
 Avda Del Deporte 4, 39012, Cantabria, Cantabria, España
 Avda Del Deporte S/N, 39012, Cantabria, Cantabria, España
-Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
 Avda Del Ejercito 12, 19071, Guadalajara, Castilla La Mancha, España
 Avda Del Ejercito 12, BAJO, 19004, Guadalajara, Castilla La Mancha, España
 Avda Del Ejército 12, 19001, Guadalajara, Castilla La Mancha, España
-Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avda Del Ejército 12, 19071, Guadalajara, Castilla La Mancha, España
 Avda Del Generalisimo 2, 24270, Leon, Castilla Leon, España
 Avda Del Gran Capitan 7, 14008, Cordoba, Andalucia, España
@@ -776,7 +774,6 @@ Avda Gatassa 15, 08303, Barcelona, Cataluna, España
 Avda Gavilanes 37, 41020, Sevilla, Andalucia, España
 Avda General Aaranda 37, 46166, Valencia, Comunitat Valenciana, España
 Avda General Borrero 21, 16660, Cuenca, Castilla La Mancha, España
-Avda General Perón 38, 28020, Madrid, Comunidad Madrid, España
 Avda General Perón 40, 28020, Madrid, Comunidad Madrid, España
 Avda General Portomeñe 31, 27570, Lugo, Galicia, España
 Avda General Villalba 3 bis, 45003, Toledo, Castilla La Mancha, España
@@ -1282,7 +1279,6 @@ Avda de la Rioja 37, 26570, La Rioja, La Rioja, España
 Avda de la ilustración 6, 11011 Cadiz, Andalucia, España
 Avda de los Indianos 10, 38071, Santa Cruz Tenerife, Canarias, España
 Avda de los Reyes Católicos 4, 28040, Madrid, Comunidad Madrid, España
-Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avda. Amilcar Barca, nº 5, 11008 CADIZ
 Avda. Calvo Sotelo, 8, 39002 SANTANDER
 Avda. Comunidad Europea, 16, 34004 PALENCIA
@@ -2330,8 +2326,7 @@ Calle Capitan Sanchez Alcantara S/N, 13710, Ciudad Real, Castilla La Mancha, Esp
 Calle Capitans de Mar 91, 08330, Barcelona, Cataluna, España
 Calle Capitán Cortés 13, 39400, Cantabria, Cantabria, España
 Calle Capitán Gadea 6-8 46340 Requena (València/Valencia)
-Calle Capitán Haya 41 28046 Madrid (Madrid)
-Calle Capitán Haya 41, 28020, Madrid, Comunidad Madrid, España
+Calle Capitán Haya 41, 28046 Madrid
 Calle Capitán Haya 41, 28046, Madrid, Comunidad Madrid, España
 Calle Capitán Haya 51, 28020, Madrid, Comunidad Madrid, España
 Calle Capitán Haya 53, 28020, Madrid, Comunidad Madrid, España
@@ -3337,7 +3332,6 @@ Calle General Mayandía 32, 50004, Zaragoza, Aragon, España
 Calle General Mola 4, 31340, Navarra, Comunidad Foral Navarra, España
 Calle General Moragues 54, 43203, Tarragona, Cataluna, España
 Calle General Pardiñas 90 bis, 28006, Madrid, Comunidad Madrid, España
-Calle General Perón 38, 28020, Madrid, Comunidad Madrid, España
 Calle General Prim 1, 46500, Valencia, Comunitat Valenciana, España
 Calle General Primo de Rivera S/N, 49124, Zamora, Castilla Leon, España
 Calle General Ricardos 212, 28025, Madrid, Comunidad Madrid, España
@@ -3585,8 +3579,7 @@ Calle Industria 30, 08202, Barcelona, Cataluna, España
 Calle Industria 68, 39610, Cantabria, Cantabria, España
 Calle Industria Baixos 2, 25500, Lleida, Cataluna, España
 Calle Ines de la Carrera 3, 16400, Cuenca, Castilla La Mancha, España
-Calle Infanta Mercedes 31 28020 Madrid (Madrid)
-Calle Infanta Mercedes 31, 28020, Madrid, Comunidad Madrid, España
+Calle Infanta Mercedes 31, 28020 Madrid
 Calle Infanta Mercedes 31- 3ª planta 28020 Madrid (Madrid)
 Calle Infanta Mercedes 37 28020 Madrid (Madrid)
 Calle Infantas 7, 28701, Madrid, Comunidad Madrid, España
@@ -4066,8 +4059,7 @@ Calle Luís Ortega Bru 2, 41700, Sevilla, Andalucia, España
 Calle Luís Taboada 3, 36201, Pontevedra, Galicia, España
 Calle Lábaro S/N 39071 Santander (Cantabria)
 Calle Lérida 2, 35130, Las Palmas, Canarias, España
-Calle Lérida 32 34, 28020, Madrid, Comunidad Madrid, España
-Calle Lérida 32-34 28020 Madrid (Madrid)
+Calle Lérida 32-34, 28020 Madrid
 Calle López Flores 1-2 47400 Medina del Campo (Valladolid)
 Calle López Gisbert 29, 30800, Murcia, Region Murcia, España
 Calle López Mora 50, 36211, Pontevedra, Galicia, España
@@ -4824,8 +4816,6 @@ Calle Podabines 3, 20010, Gipuzkoa, Pais Vasco, España
 Calle Poeta Angel Marina 20, 10140, Caceres, Extremadura, España
 Calle Poeta Añion S/N, 15840, A Coruna, Galicia, España
 Calle Poeta Bodría 7, 46010, Valencia, Comunitat Valenciana, España
-Calle Poeta Joan Maragall 41 28020 Madrid (Madrid)
-Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)
 Calle Poeta Manuel Alcantara 36, 29720, Malaga, Andalucia, España
 Calle Poeta Miguel Hdez 24, 03690, Alicante, Comunitat Valenciana, España
 Calle Poeta Miguel Hernández 2, 03690, Alicante, Comunitat Valenciana, España
@@ -5134,8 +5124,7 @@ Calle Rio Sella 5, 12005, Castellon, Comunitat Valenciana, España
 Calle Rio de Oro 3, 33209, Asturias, Principado Asturias, España
 Calle Rioja 1 22002 Huesca (Huesca)
 Calle Riola 9 46600 València (València/Valencia)
-Calle Rios Rosas 23 28003 Madrid (Madrid)
-Calle Rios Rosas 23, 28003, Madrid, Comunidad Madrid, España
+Calle Rios Rosas 23, 28003 Madrid
 Calle Rios Rosas 44, 28003, Madrid, Comunidad Madrid, España
 Calle Riscos del Tintor S/N, 21600, Huelva, Andalucia, España
 Calle Riu Besos 2, 25001, Lleida, Cataluna, España
@@ -5201,7 +5190,6 @@ Calle Río Oza S/N, 24400, Leon, Castilla Leon, España
 Calle Río San Martín 2, 33402, Asturias, Principado Asturias, España
 Calle Río San Martín 2, 33404, Asturias, Principado Asturias, España
 Calle Río Sella 5, 12005, Castellon, Comunitat Valenciana, España
-Calle Ríos Rosas 23, 28003, Madrid, Comunidad Madrid, España
 Calle Ríos Rosas, 44-A, 28003 Madrid
 Calle S. Juan Bosco 1, 22003, Huesca, Aragon, España
 Calle SERRANO 113 28006 Madrid (Madrid)
@@ -5999,6 +5987,7 @@ Carrer Vicente Serra Orvay 43 07800 Eivissa (Illes Balears)
 Carrer d'Antoni Planas i Franch, 9, 07001 Palma, Illes Balears
 Carrer de Bolívia 56 08018 Barcelona (Barcelona)
 Carrer de Dulcet, 2, 08034 Barcelona
+Carrer de Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
 Carrer de l'Escola Industrial 9 08201 Sabadell (Barcelona)
 Carrer los Marmoles 5 35500 Arrecife (Palmas, Las)
 Carrera Ctra. de Ayora Km 2 02006 Albacete (Albacete)
@@ -6770,8 +6759,8 @@ Paseo Berbegal 26, 50180, Zaragoza, Aragon, España
 Paseo Blas de Lezo 1, 29649, Malaga, Andalucia, España
 Paseo Boliches 24, 11630, Cadiz, Andalucia, España
 Paseo CASTELLANA 63 28071 Madrid (Madrid)
-Paseo Castellana 106 - 108 28046 Madrid (Madrid)
-Paseo Castellana 106-108 28020 Madrid (Madrid)
+Paseo Castellana 106 108, 28020, Madrid, Comunidad Madrid, España
+Paseo Castellana 106-108, 28020 Madrid
 Paseo Castellana 109, 28046 Madrid
 Paseo Castellana 147 28020 Madrid (Madrid)
 Paseo Castellana 147, 28020, Madrid, Comunidad Madrid, España
@@ -6780,7 +6769,7 @@ Paseo Castellana 272 28071 Madrid (Madrid)
 Paseo Castellana 3 28046 Madrid (Madrid)
 Paseo Castellana 3, 28046, Madrid, Comunidad Madrid, España
 Paseo Castellana 3, 28071, Madrid, Comunidad Madrid, España
-Paseo Castellana 67, 28046, Madrid, Comunidad Madrid, España
+Paseo Castellana 67, 28046 Madrid
 Paseo Castellana 86, 28046, Madrid, Comunidad Madrid, España
 Paseo Castellana 91 28046 Madrid (Madrid)
 Paseo Castellana 99 28046 Madrid (Madrid)
@@ -6827,7 +6816,6 @@ Paseo De Santa Fe 22, 21071, Huelva, Andalucia, España
 Paseo De Urumea 17, 20014, Gipuzkoa, Pais Vasco, España
 Paseo De Zorrilla 2, 47006, Valladolid, Castilla Leon, España
 Paseo De la Alameda 28 46071 València (València/Valencia)
-Paseo De la Castellana 106 28046 Madrid (Madrid)
 Paseo De la Castellana 106, 28046, Madrid, Comunidad Madrid, España
 Paseo De la Castellana 112 28046 Madrid (Madrid)
 Paseo De la Castellana 14, 28046, Madrid, Comunidad Madrid, España
@@ -6842,7 +6830,6 @@ Paseo De la Castellana 44 28046 Madrid (Madrid)
 Paseo De la Castellana 44, 28046, Madrid, Comunidad Madrid, España
 Paseo De la Castellana 61 28046 Madrid (Madrid)
 Paseo De la Castellana 61, 28071, Madrid, Comunidad Madrid, España
-Paseo De la Castellana 67 28071 Madrid (Madrid)
 Paseo De la Castellana 75, 28071 Madrid
 Paseo De la Centinela 56, 38430, Santa Cruz Tenerife, Canarias, España
 Paseo De la Constitución 81 50600 Ejea de los Caballeros (Zaragoza)
@@ -6924,14 +6911,12 @@ Paseo Independencia 33, 50001, Zaragoza, Aragon, España
 Paseo Infanta Isabel 1, 28014 Madrid
 Paseo Infanta Isabel 1, 28071, Madrid, Comunidad Madrid, España
 Paseo Inmaculada 5, 31200, Navarra, Comunidad Foral Navarra, España
-Paseo JUAN XXIII 26, 28040, Madrid, Comunidad Madrid, España
 Paseo Jardín Botánico S/N, 11540, Cadiz, Andalucia, España
 Paseo Jesus Cancio 12, 39520, Cantabria, Cantabria, España
 Paseo Joan Moreira 3, 43500, Tarragona, Cataluna, España
 Paseo José María Ruíz Dana s/n, 40109, Segovia, Castilla Leon, España
 Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
 Paseo Juan Carlos I S/N, 07800, Illes Balears, Illes Balears, España
-Paseo Juan XXIII 26, 28040, Madrid, Comunidad Madrid, España
 Paseo Juan XXIII 26, 28071, Madrid, Comunidad Madrid, España
 Paseo Juan del Cid Lopez 1, 21240, Huelva, Andalucia, España
 Paseo Lepanto 1, 46760, Valencia, Comunitat Valenciana, España
@@ -7016,9 +7001,7 @@ Paseo de la Castellana 63 28003 Madrid (Madrid)
 Paseo de la Castellana 63 28071 Madrid (Madrid)
 Paseo de la Castellana 63, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 63, 28071, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 67, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 67, 28071, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 67, 38 PTA 28046 Madrid (Madrid)
 Paseo de la Castellana 75, 28043, Madrid, Comunidad Madrid, España
 Paseo de la Castellana, 147 28046 Madrid
 Paseo de la Chopera 4 28045 Madrid (Madrid)
@@ -7417,7 +7400,6 @@ Plaza John Lennon S/N, 24400, Leon, Castilla Leon, España
 Plaza Juan Carlos I 1, 11500, Cadiz, Andalucia, España
 Plaza Juan Cerda 1, 07470, Illes Balears, Illes Balears, España
 Plaza Juan Pablo II 7, 26320, La Rioja, La Rioja, España
-Plaza Juan XXIII 26 28071 Madrid (Madrid)
 Plaza Juan XXIII 26, 28071, Madrid, Comunidad Madrid, España
 Plaza Juan de Austria 6 47006 Valladolid (Valladolid)
 Plaza Juan de Lima 5, 11201, Cadiz, Andalucia, España
@@ -7855,6 +7837,7 @@ Yemen
 Zimbabue
 c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
 c/ Joaquín Arnau, 22, 44001 TERUEL
+c/ Real, 20, 51001 CEUTA
 c/ Serrano, 102, 28006 MADRID
 el Altet s/n, 03195, Alicante, Comunitat Valenciana, España
 puerto de Santurtzi Muelle A1 s/n, 48980, Bizkaia, Pais Vasco, España
