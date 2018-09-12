@@ -28,6 +28,9 @@ Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
 28.116183,-15.423654
 Calle Carvajal, 835004 Las Palmas de Gran Canaria, Las Palmas
 
+28.1182189,-15.4279158
+Calle Perez Del Toro, 89, Las Palmas
+
 28.13528045,-15.4285066511069
 Calle León y Castillo, 310, 35006 Las Palmas de Gran Canaria, Las Palmas
 
@@ -42,6 +45,9 @@ Calle Prolongación Ramón y Cajal 3 38003 Santa Cruz de Tenerife (Santa Cruz de
 
 28.4659329,-16.2481917
 Calle General Gutiérrez 4, 38003, Santa Cruz Tenerife, Canarias, España
+
+28.4677804,-16.2564933
+Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
 
 28.472374,-16.2473291
 Calle La Marina 20, 38001, Santa Cruz Tenerife, Canarias, España
@@ -217,6 +223,9 @@ Calle Graham Bell 5 41010 Sevilla (Sevilla)
 37.3773714,-5.9858134
 Plaza De España S/N, 41013, Sevilla, Andalucia, España
 
+37.3776037,-5.9855197
+Plaza Ejército Español, 1, 41004 Sevilla
+
 37.3777503,-6.0013954
 Avenida República Argentina 23 41011 Sevilla (Sevilla)
 
@@ -285,6 +294,12 @@ Calle Antonio Gaudí 4 14005 Córdoba (Córdoba)
 
 37.9428434,-1.1597792
 Calle Alfonso X el Sabio 6 30008 Murcia (Murcia)
+
+37.959441,-1.227443
+Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia
+
+37.9824407,-1.124728
+Calle General Sanmartín S/N, 30003 Murcia
 
 37.98266,-1.13115
 Plaza Fontes 1, 30001, Murcia, Region Murcia, España
@@ -404,6 +419,9 @@ Ronda de la Mata 8 13071 Ciudad Real (Ciudad Real)
 
 38.9846376,-3.9270301
 Calle Ruiz Morote 4 13001 Ciudad Real (Ciudad Real)
+
+38.9857572,-1.8488527
+Calle Francisco Javier de Moyá 25, 02002 Albacete
 
 38.98727,-1.85409
 Avenida de España, 27, 02002 Albacete
@@ -538,6 +556,9 @@ Calle Samuel Leví s/n, 45002, Toledo, Castilla La Mancha, España
 
 39.8587555,-4.0255059
 Calle Alfonso X el Sabio 1, 45002 Toledo
+
+39.8590229,-4.0202523
+Calle de la Paz, s/n, 45001 Toledo
 
 39.8596655,-4.0210357
 Plaza Zocodover 6, 45001 Toledo
@@ -819,6 +840,9 @@ Calle Trafalgar 29 28010 Madrid (Madrid)
 40.43392,-3.68635
 c/ Serrano, 102, 28006 MADRID
 
+40.4344111,-3.7207949
+Paseo de Moret 3, 28008 Madrid
+
 40.4352015,-3.6264268
 Julián Camarillo, 30, 28037 Madrid
 
@@ -1096,6 +1120,12 @@ C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
 40.595773,-3.696822
 Calle Alfar 2 28760 Tres Cantos (Madrid)
 
+40.6291869,-3.1799277
+Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avenida del Ejército, 2, 19004 Guadalajara
+
 40.6299543,-3.1663486
 Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara)
 
@@ -1130,6 +1160,9 @@ Calle Ulldecona 31 43500 Tortosa (Tarragona)
 40.94048,-4.16062
 C/ Pinar de Valsaín, 1, 40005 SEGOVIA
 
+40.9451016,-5.4980242
+Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
+
 40.9459991,-4.117641
 Calle de San Francisco, 25, 40001 Segovia
 
@@ -1140,6 +1173,9 @@ Plaza de Aldolfo Suarez 1 40001 Segovia (Segovia)
 
 40.9500211,-4.1218532
 Calle Colón 4 40001 Segovia (Segovia)
+
+40.9521066,-4.1308434
+Plaza la Reina Victoria Eugenia, s/n, 40003 Segovia
 
 40.9596156,-5.6673648
 Calle Gibraltar 2, 37008, Salamanca, Castilla Leon, España
@@ -1306,6 +1342,10 @@ C/ Salmerón, 14-16, 25004 LLEIDA
 41.6334718,-0.8822248
 Paseo del Canal, 17, 50007 Zaragoza
 
+41.6343889,-0.883425718889643
+Paseo Del Canal 1, 50007, Zaragoza, Aragon, España
+Paseo del Canal 1, 50007 Zaragoza
+
 41.63727,-4.73243
 C/ Boston, 6, 47007 VALLADOLID
 
@@ -1359,6 +1399,9 @@ Calle Perdiguera 5 50014 Zaragoza (Zaragoza)
 
 41.6688675,-3.6896425
 Calle Burgo de Osma 7-9 09400 Aranda de Duero (Burgos)
+
+41.6733145,-0.8806945
+Carretera de Huesca, km 508, 50820 Zaragoza
 
 41.683353,2.801149
 C/ D'ACCES A LA CALA ST. FRANCESC, 14 17300 Blanes (Girona)
@@ -1500,6 +1543,9 @@ Calle Vitoria 39 09071 Burgos (Burgos)
 42.34409744,-3.688230515
 C/ JESUS MARIA ORDOÑO 4, 8 y 10, 09004 Burgos
 
+42.3488645,-3.6774901
+Glorieta de Logroño 2, 09006 Burgos
+
 42.3942491,-8.7053760
 Plaza España, s/n, 36920 Marín, Pontevedra
 
@@ -1601,6 +1647,9 @@ C/ PINTOR JESUS APELLANIZ, 11, BAJO, 01008 Araba-Álava
 
 42.86587,-2.69673
 C/ Duque de Wellington, 31, 01010 VITORIA-GASTEIZ
+
+42.9549199,-9.1888157
+Plaza de la Constitución 5, 15001 A Coruña
 
 42.99874,-7.54876
 Ronda Músico Xosé Castiñeira n 26 , 27002 LUGO

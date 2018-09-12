@@ -18,6 +18,20 @@
 48850   40.4352015,-3.6264268   Julián Camarillo, 30, 28037 Madrid
 49031   40.4078464,-3.6861369   Calle de Alfonso XII 3, 28014 Madrid
 27646   40.4111064,-3.6911267   Plaza de Murillo, 2 28014 Madrid (Madrid)
+28192   40.6291869,-3.1799277    Avenida del Ejército, 2, 19004 Guadalajara
+28395   41.6733145,-0.8806945    Carretera de Huesca, km 508, 50820 Zaragoza
+28406   42.3488645,-3.6774901    Glorieta de Logroño 2, 09006 Burgos
+44312   38.9857572,-1.8488527    Calle Francisco Javier de Moyá 25, 02002 Albacete
+46883   41.6343889,-0.883425718889643    Paseo del Canal 1, 50007 Zaragoza
+47145   42.9549199,-9.1888157    Plaza de la Constitución 5, 15001 A Coruña
+49082   40.4344111,-3.7207949    Paseo de Moret 3, 28008 Madrid
+28207   40.9521066,-4.1308434    Plaza la Reina Victoria Eugenia, s/n, 40003 Segovia
+28298   39.8590229,-4.0202523     Calle de la Paz, s/n, 45001 Toledo
+46851   37.3776037,-5.9855197     Plaza Ejército Español, 1, 41004 Sevilla
+28468   28.4677804,-16.2564933     Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
+29090   40.9451016,-5.4980242     Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
+29364   37.9824407,-1.124728     Calle General Sanmartín S/N, 30003 Murcia
+
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
@@ -74,6 +88,7 @@
 48105    43.26499,-2.94469    C/ Gran Vía, 89, 48011 BILBAO
 48106    41.51004,-5.73693    Avda. de Requejo, 23, 49012 ZAMORA
 48107    41.64550,-0.87615    Camino de las Torres, 22, 50008 ZARAGOZA
+48081    28.1182189,-15.4279158     Calle Perez Del Toro, 89, Las Palmas
 
 # http://www.aemet.es/es/conocenos/quienes_somos
 48175   41.6334718,-0.8822248   Paseo del Canal, 17, 50007 Zaragoza
@@ -142,4 +157,4 @@
 49837   40.279047,-3.568074   Carretera M-301 Km 10.5, 28330 San Martín de la Vega, Madrid
 
 # http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Escuela-Militar-de-Paracaidismo-Mendez-Parada/
-29163   37.959441, -1.227443     Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia
+29163   37.959441,-1.227443     Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia

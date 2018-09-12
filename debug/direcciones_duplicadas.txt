@@ -148,6 +148,12 @@ Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
 Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
 Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
 
+40.6291869,-3.1799277
+Avda Del Ejercito 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
+Avenida del Ejército, 2, 19004 Guadalajara
+
 40.6566953,-4.6877919
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
 Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
@@ -165,6 +171,10 @@ Calle Gran Vía 31 37001 Salamanca (Salamanca)
 Calle Mallorca 278 08037 Barcelona (Barcelona)
 Calle Mallorca 278, 08037, Barcelona
 Calle Mallorca 278, 08037, Barcelona, Cataluna, España
+
+41.6343889,-0.883425718889643
+Paseo Del Canal 1, 50007, Zaragoza, Aragon, España
+Paseo del Canal 1, 50007 Zaragoza
 
 41.698647,-0.8684227000000001
 Carretera de Huesca, s/n, 50090 Zaragoza

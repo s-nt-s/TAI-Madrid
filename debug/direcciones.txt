@@ -1481,6 +1481,7 @@ Avenida de Granada 57 23003 Jaén (Jaén)
 Avenida de Gregorio del Amo 6 28040 Madrid (Madrid)
 Avenida de Italia 14 21071 Huelva (Huelva)
 Avenida de La Marina Española 4 52001 Melilla (Melilla)
+Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia
 Avenida de Madrid 7 18071 Granada (Granada)
 Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
 Avenida de Portugal 4, 05001 Ávila
@@ -1495,6 +1496,7 @@ Avenida de la Hispanidad 2 11207 Algeciras (Cádiz)
 Avenida de la Hispanidad S/N, 11207 Algeciras, Cádiz
 Avenida de la Libertad, 11, 30107 Guadalupe de Maciascoque
 Avenida de la Marina Española 3 52001 Melilla
+Avenida del Ejército, 2, 19004 Guadalajara
 Avenida del General Perón 38, 28020 Madrid
 Avenida del Mar 19 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
 Avenida del Partenón 10 28042 Madrid (Madrid)
@@ -3240,6 +3242,7 @@ Calle Francisco Fontecha 2 02071 Albacete (Albacete)
 Calle Francisco Fontecha 2, 02001 Albacete
 Calle Francisco Fontecha 2, 02001, Albacete, Castilla La Mancha, España
 Calle Francisco Gonzalez Rey 29, 32800, Ourense, Galicia, España
+Calle Francisco Javier de Moyá 25, 02002 Albacete
 Calle Francisco Palacios "EL PAL" S/N, 21830, Huelva, Andalucia, España
 Calle Francisco Pintado Fe 26, 33011, Asturias, Principado Asturias, España
 Calle Francisco Pizarro A 24, 10910, Caceres, Extremadura, España
@@ -3341,6 +3344,7 @@ Calle General Primo de Rivera S/N, 49124, Zamora, Castilla Leon, España
 Calle General Ricardos 212, 28025, Madrid, Comunidad Madrid, España
 Calle General Riego 5, 33870, Asturias, Principado Asturias, España
 Calle General Sanjurjo 10, 39800, Cantabria, Cantabria, España
+Calle General Sanmartín S/N, 30003 Murcia
 Calle General Serrano Orive 2 51001 Ceuta (Ceuta)
 Calle General Serrano Orive 2, 51001, Ceuta, Ceuta, España
 Calle General Varela 21, 28020, Madrid, Comunidad Madrid, España
@@ -4744,6 +4748,7 @@ Calle Perdiguera 5 50014 Zaragoza (Zaragoza)
 Calle Pere Martell 38 40, 43005, Tarragona, Cataluna, España
 Calle Pere Martell 45, 43005, Tarragona, Cataluna, España
 Calle Pere el Ceremonios 4, 12560, Castellon, Comunitat Valenciana, España
+Calle Perez Del Toro, 89, Las Palmas
 Calle Perez Galdos 16, 38700, Santa Cruz Tenerife, Canarias, España
 Calle Perez Valero 5, 38650, Santa Cruz Tenerife, Canarias, España
 Calle Periodista del Campo Aguilar S/N 02002 Albacete (Albacete)
@@ -5955,6 +5960,7 @@ Calle de San Francisco, 25, 40001 Segovia
 Calle de Serrano, 115, 28006 Madrid
 Calle de Serrano, 117, 28006 Madrid
 Calle de Valenzuela 5, 28014 Madrid
+Calle de la Paz, s/n, 45001 Toledo
 Calle de los Madrazo 38 28014 Madrid (Madrid)
 Calle del Cid 18 37007 Salamanca (Salamanca)
 Calle los Alpes 6 28922 Alcorcón (Madrid)
@@ -6094,7 +6100,9 @@ Carretera Torreblanca-Mairena de Alcor KM. 3 41007 Utrera (Sevilla)
 Carretera Torreblanca-Mairena de Alcor KM. 3,5 41020 Sevilla (Sevilla)
 Carretera Vegadeo-Pontevedra S/N 27560 Monterroso (Lugo)
 Carretera de Ajalvir Km. 4 28850 Torrejón de Ardoz (Madrid)
+Carretera de Huesca, km 508, 50820 Zaragoza
 Carretera de Huesca, s/n, 50090 Zaragoza
+Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
 Carretera de Porzuna 1 13071 Ciudad Real (Ciudad Real)
 Carretera de Taliarte s/n 35200 Telde (Palmas, Las)
 Carretera de la Carraca, s/n - Población Militar de San Carlos
@@ -6587,6 +6595,7 @@ Gaztañaga Ausoa S/N, 48180, Bizkaia, Pais Vasco, España
 Ghana
 Glorieta Blas Infante s/n 23006 Jaén (Jaén)
 Glorieta Zona Franca S/N 11011 Cádiz (Cádiz)
+Glorieta de Logroño 2, 09006 Burgos
 Gran Vía de Colón, 23, 18001 GRANADA
 Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
 Gran Vía de Jaume I 47, 17071, Girona, Cataluna, España
@@ -6988,6 +6997,7 @@ Paseo de Canalejas, 129, 37001 SALAMANCA
 Paseo de Carlos III, 3C, 11003 Cádiz
 Paseo de El Pardo 43 28048 Madrid (Madrid)
 Paseo de Juan XXIII 26, 28040 Madrid
+Paseo de Moret 3, 28008 Madrid
 Paseo de San Roque 34 05071 Ávila (Ávila)
 Paseo de Sancha 64, 29016 Málaga
 Paseo de Santa Fe 22, 21003 Huelva
@@ -7015,6 +7025,7 @@ Paseo de la Chopera 4 28045 Madrid (Madrid)
 Paseo de la Farola 7 29071 Málaga (Málaga)
 Paseo de la Habana 180, 28036, Madrid, Comunidad Madrid, España
 Paseo de san Roque 3 05003 Ávila (Ávila)
+Paseo del Canal 1, 50007 Zaragoza
 Paseo del Canal, 17, 50007 Zaragoza
 Paseo del Prado 18 y 20, 28014 Madrid
 Paseo del Prado 4, 28014 Madrid
@@ -7308,6 +7319,7 @@ Plaza Duque de Ahumada 1, 34470, Palencia, Castilla Leon, España
 Plaza DÓrleans S/N, 43071, Tarragona, Cataluna, España
 Plaza Eduardo Merediz 2, 33930, Asturias, Principado Asturias, España
 Plaza Ejidillo 1, 40400, Segovia, Castilla Leon, España
+Plaza Ejército Español, 1, 41004 Sevilla
 Plaza El Ferial 12, 31620, Navarra, Comunidad Foral Navarra, España
 Plaza El Santo 7, 14240, Cordoba, Andalucia, España
 Plaza Emilio Jimenez Millas 1, 28008, Madrid, Comunidad Madrid, España
@@ -7612,11 +7624,13 @@ Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
 Plaza de Murillo, 2 28014 Madrid (Madrid)
 Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
 Plaza de Velarde s/n 39001 Santander (Cantabria)
+Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
 Plaza de la Almadraba s/n 21410 Isla Cristina (Huelva)
 Plaza de la Constitución 1, 11007 Cádiz
 Plaza de la Constitución 1, 11008, Cadiz, Andalucia, España
 Plaza de la Constitución 1, 14004 Cordoba
 Plaza de la Constitución 1, 37001, Salamanca, Castilla Leon, España
+Plaza de la Constitución 5, 15001 A Coruña
 Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
 Plaza de la Iglesia 6 26200 Haro (Rioja, La)
 Plaza de la Inmaculada 6, 24001, Leon, Castilla Leon, España
@@ -7643,6 +7657,7 @@ Plaza del Mercado 24 49003 Zamora (Zamora)
 Plaza del Milenio 1, 47014, Valladolid, Castilla Leon, España
 Plaza del Pilar s/n 50071 Zaragoza (Zaragoza)
 Plaza del Rey s/n 1º, 28004, Madrid, Comunidad Madrid, España
+Plaza la Reina Victoria Eugenia, s/n, 40003 Segovia
 Plazuela De la Sal 1 34001 Palencia (Palencia)
 Plazuela De la Sal, 1 34001 Palencia (Palencia)
 Plaça Cervantes 17 25002 Lleida (Lleida)

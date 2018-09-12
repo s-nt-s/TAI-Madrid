@@ -387,6 +387,7 @@ if args.puestos or args.todo:
         for p in sorted(puestos_ko):
             f.write(p + "\n")
 
+    print ("Filtrando convocatorias")
     dic_puestos = {str(p.idPuesto): p for p in todos}
     for year, tipo, nombramientos in convocatorias:
         count = count + 1
@@ -402,6 +403,7 @@ if args.puestos or args.todo:
                 p.ranking = i
                 destinos.append(p)
             Puesto.save(destinos, name=("%s_%s" % (year, tipo)))
+    print ("")
 
 
 if args.csic or args.todo:
