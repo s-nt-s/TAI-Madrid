@@ -140,3 +140,6 @@
 
 # http://www.inta.es/opencms/export/sites/default/INTA/es/donde-estamos/
 49837   40.279047,-3.568074   Carretera M-301 Km 10.5, 28330 San Martín de la Vega, Madrid
+
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Escuela-Militar-de-Paracaidismo-Mendez-Parada/
+29163   37.959441, -1.227443     Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia
