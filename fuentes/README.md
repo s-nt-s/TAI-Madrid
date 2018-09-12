@@ -21,3 +21,5 @@ Ver http://www.csic.es/centros-de-investigacion1
 Algunos BOEs de convocatorias anteriores
 
 También sería muy útil los datos `RCP` (Registro Central de Personal) pero no los encuentro.
+
+`2017_L.csv` contiene la lista de destinos ofertados para la OPE 2016. La primera fila contiene los nombres de cada campo. Se ha generado a mano, copypasteando salvajemente las tablas del PDF (https://www.boe.es/boe/dias/2017/12/01/pdfs/BOE-A-2017-14022.pdf). Es una prueba, será sustituido por la nueva lista de destinos en cuanto se publique y tengamos tiempo de picarla otra vez.
