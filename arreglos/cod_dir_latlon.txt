@@ -31,7 +31,13 @@
 28468   28.4677804,-16.2564933     Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
 29090   40.9451016,-5.4980242     Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
 29364   37.9824407,-1.124728     Calle General Sanmartín S/N, 30003 Murcia
-
+28435   43.4080225,-5.7372225   Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
+36428   39.9853083,-0.0320344   Av. del Mar, 6, 12003 Castelló de la Plana, Castelló
+36430   41.9814987183,2.816688776     Santa Eugènia, 40 4, 17005, Girona
+36454   40.0726737976074,-2.13507199287415    Parque San Julián, 7, 16001, Cuenca
+36440   42.843313,-2.6728038    c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
+36460   40.3402129,-1.1073706   c/ Joaquín Arnau, 22, 44001 TERUEL
+36453   40.65722,-4.69527       Av. Portugal, 4, 05001 Ávila
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE

@@ -1251,10 +1251,15 @@ with open("debug/direcciones.txt", "w") as f:
     for d in direcciones:
         f.write(d + "\n")
 
+metros = 30
+last_latlon = None
 latlons = sorted(tai_latlons, key=lambda i: [float(l) for l in i.split(",")])
 with open("debug/latlons.txt", "w") as f:
     for l in latlons:
+        if last_latlon and calcula_distancia(l, last_latlon)<metros:
+            f.write("<%sm\n" % metros)
         f.write(l + "\n")
         for d in sorted(set([o.deDireccion for o in organismos if o.latlon==l])):
             f.write(d + "\n")
         f.write("\n")
+        last_latlon = l

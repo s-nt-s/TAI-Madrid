@@ -450,6 +450,11 @@ Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 
+40.0726737976074,-2.13507199287415
+Parque San Julián 7, 16001 Cuenca
+Parque San Julián, 7, 16001 Cuenca
+Parque San Julián, 7, 16001, Cuenca
+
 40.0728304,-2.1340255
 Calle Parque San Julian 12, 16001 Cuenca
 Calle Parque San Julian 12 16001 Cuenca (Cuenca)
@@ -684,6 +689,9 @@ C/ Pedro Justo Dorado Dellmans, 11 28040 Madrid
 Paseo de Juan XXIII 26, 28040 Madrid
 Paseo Juan XXIII 26, 28070, Madrid, Comunidad Madrid, España
 
+40.4510326,-3.4720207
+Ctra De Loeches 58, 28148, Madrid, Comunidad Madrid, España
+
 40.4519221,-3.6928323
 Avenida del General Perón 38, 28020 Madrid
 Avenida General Peron 38, 28002, Madrid, Comunidad Madrid, España
@@ -770,6 +778,10 @@ Calle Del Alfar 2 28760 Tres Cantos (Madrid)
 C/ Alfar, 2. 28760 - Tres Cantos - Madrid
 Calle Del Alfar 2, 28760, Madrid, Comunidad Madrid, España
 
+40.65722,-4.69527
+Avenida de Portugal 4, 05001 Ávila
+Av. Portugal, 4, 05001 Ávila
+
 40.9339728,-4.1142284
 Calle Carretera de Villacastin 4, 40006, Segovia, Castilla Leon, España
 C/ CARRETERA DE VILLACASTIN, 4, 40006 Segovia
@@ -803,6 +815,16 @@ PARC DE L'ESTACIO DEL NORD S/N, 08018 Barcelona
 41.3955671,2.1650662
 Calle Mallorca 278, 08037, Barcelona
 Calle Mallorca 278, 08071, Barcelona, Cataluna, España
+
+41.40315280000001,2.1635022
+Calle Sant Antoni Maria Claret 5 11, 08037 Barcelona
+Calle Sant Antoni Maria Claret 5 11, 08037, Barcelona, Cataluna, España
+c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
+
+41.51005670000001,-5.7371167
+Avda De Requejo 23, 49012 Zamora
+Avda De Requejo 23, 49012, Zamora, Castilla Leon, España
+Avda. de Requejo, 23, 49012 ZAMORA
 
 41.6468976,-4.7251021
 Calle Muro 5, 47004 Valladolid
@@ -880,4 +902,9 @@ C/ VARGAS, 53-2, 39010 Cantabria
 43.463527,-3.782768
 Promontorio San Martín S/N, 39004 Santander, Cantabria
 Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
+
+43.4848772,-8.214634
+Calle Telleiras S/N, 15404, A Coruna, Galicia, España
+Rúa Telleiras 15404 Ferrol, A Coruña
+Calle Telleiras S/N, 15406, A Coruna, Galicia, España
 

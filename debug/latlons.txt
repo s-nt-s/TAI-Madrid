@@ -584,6 +584,9 @@ Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
 39.9807342,-0.031691
 Calle Cronista Revest 11, 12005, Castellon, Comunitat Valenciana, España
 
+39.9853083,-0.0320344
+Av. del Mar, 6, 12003 Castelló de la Plana, Castelló
+
 39.98536,-0.03286
 Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
 
@@ -602,8 +605,8 @@ Plaza San Nicolás 6 10600 Plasencia (Cáceres)
 40.066043,-2.131935
 ERAS DEL TIO CAÑAMON N 2 y 4, 16004 Cuenca
 
-40.07262,-2.13495
-Parque San Julián, 7, 16001 Cuenca
+40.0726737976074,-2.13507199287415
+Parque San Julián 7, 16001 Cuenca
 
 40.07300499999999,-2.135802
 Calle Parque de San Julian 7, 16001, Cuenca, Castilla La Mancha, España
@@ -641,6 +644,9 @@ Tarazona de Aragón, 2-A, 44002 TERUEL
 
 40.3379078,-3.691317
 Acuartelamiento San Cristobal (Villaverde) Avda. Andalucía km 10 28021 Madrid
+
+40.3402129,-1.1073706
+c/ Joaquín Arnau, 22, 44001 TERUEL
 
 40.3403599,-1.1067499
 Plaza San Juan 4, 44001, Teruel
@@ -1154,7 +1160,7 @@ Calle Intendente Aizpuru 4 05001 Ávila (Ávila)
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
 Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
 
-40.65735,-4.69529
+40.65722,-4.69527
 Avenida de Portugal 4, 05001 Ávila
 
 40.6658429,-3.7738645
@@ -1273,11 +1279,8 @@ Via Augusta 197-199 08021 Barcelona (Barcelona)
 41.399153,2.163191
 C/ ROSELLON, 161. 6 Y 7 PLANTA 08036 Barcelona (Barcelona)
 
-41.40308,2.163359
-c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
-
 41.40315280000001,2.1635022
-Calle Sant Antoni Maria Claret 5 11, 08037, Barcelona, Cataluna, España
+Calle Sant Antoni Maria Claret 5 11, 08037 Barcelona
 
 41.4268449,2.1581614
 Calle Ciències 15-17 08032 Barcelona (Barcelona)
@@ -1306,11 +1309,8 @@ Plaza Constitución 1 49001 Zamora (Zamora)
 41.5061177,-5.7432608
 Plaza De Castilla y León S/N 49071 Zamora (Zamora)
 
-41.51004,-5.73693
-Avda. de Requejo, 23, 49012 ZAMORA
-
 41.51005670000001,-5.7371167
-Avda De Requejo 23, 49012, Zamora, Castilla Leon, España
+Avda De Requejo 23, 49012 Zamora
 
 41.510469,-5.743888
 C/ FRAY TORIBIO DE MOTOLINIA 9-11, 49014 Zamora
@@ -1451,6 +1451,9 @@ Calle Oviedo 30-32 17005 Girona (Girona)
 41.97973,2.810871
 Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
 
+41.9814987183,2.816688776
+Santa Eugènia, 40 4, 17005, Girona
+
 41.9839131,2.819503
 Avda 20 de Junio 2, 17001, Girona, Cataluna, España
 Avda Jaume I 17, 17001, Girona, Cataluna, España
@@ -1531,6 +1534,7 @@ Calle Vitoria, 16, 09004 Burgos
 42.34150,-7.86471
 C/ Concejo, 1, 32003 OURENSE
 
+<30m
 42.3416127,-7.8646634
 Calle Parque de San Lázaro 1 32003 Ourense (Ourense)
 Calle Parque de San Lázaro 1, 32003, Ourense, Galicia, España
@@ -1598,6 +1602,7 @@ Paseo Elpido Villaverde 3 36600 Vilagarcía de Arousa (Pontevedra)
 Calle De la Gran Vía de San Marcos 18 24002 León (León)
 Calle Gran Vía de San Marcos 18 24002 León (León)
 
+<30m
 42.5998636,-5.5762375
 Plaza De la Inmaculada 6 24001 León (León)
 
@@ -1641,6 +1646,9 @@ Calle Gral. Chinchilla, 10, 31002 Pamplona, Navarra
 
 42.8400304,-2.6812916
 Paseo Fray Francisco 17 01071 Vitoria-Gasteiz (Araba/Álava)
+
+42.843313,-2.6728038
+c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
 
 42.8465832,-2.670779
 Calle Olaguíbel 1 01071 Vitoria-Gasteiz (Araba/Álava)
@@ -1763,6 +1771,9 @@ Paseo Marítimo Alcalde Francisco Vázquez 10, 15001, A Coruna, Galicia, España
 
 43.3829793,-4.1097704
 Avda M. Sanz de Sautuola S/N, 39330, Cantabria, Cantabria, España
+
+43.4080225,-5.7372225
+Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
 
 43.4163035,-5.797931
 La Fresneda, s/n. 33429 La Fresneda

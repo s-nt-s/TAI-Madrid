@@ -76,6 +76,7 @@ Av. Victor Andrés Belaúnde 147 Lima, Peru
 Av. das Naçoes Qtl.81, Lt. 44. 70429 900 Brasilia, Brasil
 Av. de Pulianas, 36, 18011 GRANADA
 Av. de las Fuerzas Armadas, s/n, 50300 Calatayud, Zaragoza
+Av. del Mar, 6, 12003 Castelló de la Plana, Castelló
 Av.Marqués de Sotelo 8 y 10, 46002 VALENCIA
 Avda 18 de Julio 15, 10280, Caceres, Extremadura, España
 Avda 1º de Mayo 12 1º IZD, 35002, Las Palmas, Canarias, España
@@ -499,7 +500,7 @@ Avda De Portugal S/N, 45071, Toledo, Castilla La Mancha, España
 Avda De Praga 17, 01003, Alava, Pais Vasco, España
 Avda De Ramon y Cajal 54, 46470, Valencia, Comunitat Valenciana, España
 Avda De Requejo 12, 49030, Zamora, Castilla Leon, España
-Avda De Requejo 23, 49012, Zamora, Castilla Leon, España
+Avda De Requejo 23, 49012 Zamora
 Avda De Salamanca 20, 47071, Valladolid, Castilla Leon, España
 Avda De Salamanca 33, 10892, Caceres, Extremadura, España
 Avda De Salobreña 10, 18600, Granada, Andalucia, España
@@ -1290,7 +1291,6 @@ Avda. García Barbón, 36-1º, 36201 VIGO
 Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
 Avda. Pirineos, 17, 22004 HUESCA
 Avda. de España, 14, 10001 CACERES
-Avda. de Requejo, 23, 49012 ZAMORA
 Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
 Avenida 1º de Mayo 92 35600 Puerto del Rosario (Palmas, Las)
 Avenida 20 de Junio 2 17001 Girona (Girona)
@@ -5419,7 +5419,7 @@ Calle Sant Albert 7, 08197, Barcelona, Cataluna, España
 Calle Sant Antoni (C/V PASSEIG D'ESCOLES) 13, 43570, Tarragona, Cataluna, España
 Calle Sant Antoni 18, 08394, Barcelona, Cataluna, España
 Calle Sant Antoni 30, 08370, Barcelona, Cataluna, España
-Calle Sant Antoni Maria Claret 5 11, 08037, Barcelona, Cataluna, España
+Calle Sant Antoni Maria Claret 5 11, 08037 Barcelona
 Calle Sant Carles 28 25002 Lleida (Lleida)
 Calle Sant Hilari 3, 17430, Girona, Cataluna, España
 Calle Sant Iscle 23 25, 08290, Barcelona, Cataluna, España
@@ -5648,7 +5648,7 @@ Calle Teixugueiras 17, 36212, Pontevedra, Galicia, España
 Calle Tejares 23, 02130, Albacete, Castilla La Mancha, España
 Calle Tejera 2, 28770, Madrid, Comunidad Madrid, España
 Calle Tejeros 21, 45800, Toledo, Castilla La Mancha, España
-Calle Telleiras S/N, 15406, A Coruna, Galicia, España
+Calle Telleiras S/N, 15404, A Coruna, Galicia, España
 Calle Tenerias 49, 45880, Toledo, Castilla La Mancha, España
 Calle Teniente Olmo 2, 11001, Ceuta, Ceuta, España
 Calle Teniente Ortiz de Zarate 3, 28370, Madrid, Comunidad Madrid, España
@@ -6085,6 +6085,7 @@ Carretera Nacional V 27.7 28600 Navalcarnero (Madrid)
 Carretera Nancional 340 KM. 225 46220 Picassent (València/Valencia)
 Carretera Nnal 630 KM. 314 37799 Topas (Salamanca)
 Carretera Nombrevilla S/N 50360 Daroca (Zaragoza)
+Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
 Carretera Olivenza S/N 06011 Badajoz (Badajoz)
 Carretera Pinto-San Martín de la Vega KM. 5 28340 Valdemoro (Madrid)
 Carretera Pinto-San Martín de la Vega Km 5 28340 Valdemoro (Madrid)
@@ -6740,7 +6741,7 @@ Palais Chehab, Hadath Antounie Beyrouth 1107 2120, Libano
 Panamá
 Paraguay
 Paraje de los Triolas S/N, 30370, Murcia, Region Murcia, España
-Parque San Julián, 7, 16001 Cuenca
+Parque San Julián 7, 16001 Cuenca
 Parque San Lázaro 1 32003 Ourense (Ourense)
 Parque San Lázaro 2 32003 Ourense (Ourense)
 Parque San Miguel 11 - 12 26007 Logroño (Rioja, La)
@@ -7786,6 +7787,7 @@ Salobreña S/N, 18600, Granada, Andalucia, España
 Salto del Negro S/N, 35017, Las Palmas, Canarias, España
 San Vicente S/N, 03004, Alicante, Comunitat Valenciana, España
 Santa Barbara 5, 19250, Guadalajara, Castilla La Mancha, España
+Santa Eugènia, 40 4, 17005, Girona
 Santa Maria de la Blanca 39, 21590, Huelva, Andalucia, España
 Santa Sede[Estado de la Ciudad del Vaticano] (la)
 Santiago S/N, 30530, Murcia, Region Murcia, España
@@ -7851,7 +7853,8 @@ Villafranca de los Caballeros S/N, 28980, Madrid, Comunidad Madrid, España
 Viñas da Veiga 55, 27740, Lugo, Galicia, España
 Yemen
 Zimbabue
-c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
+c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
+c/ Joaquín Arnau, 22, 44001 TERUEL
 c/ Serrano, 102, 28006 MADRID
 el Altet s/n, 03195, Alicante, Comunitat Valenciana, España
 puerto de Santurtzi Muelle A1 s/n, 48980, Bizkaia, Pais Vasco, España

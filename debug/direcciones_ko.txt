@@ -973,7 +973,6 @@ calle tamayo 6, 09238, burgos, castilla leon, españa
 calle tanausu 21, 38760, santa cruz tenerife, canarias, españa
 calle tarquina 18, 18858, granada, andalucia, españa
 calle tejares 23, 02130, albacete, castilla la mancha, españa
-calle telleiras s/n, 15406, a coruna, galicia, españa
 calle teniente olmo 2, 11001, ceuta, ceuta, españa
 calle tetuan 5, 18100, granada, andalucia, españa
 calle tigaday 23, 38911, santa cruz tenerife, canarias, españa
@@ -1081,7 +1080,6 @@ ctra de la estacion 1, 49130, zamora, castilla leon, españa
 ctra de la estacion s/n, 29380, malaga, andalucia, españa
 ctra de larios s/n, 29620, malaga, andalucia, españa
 ctra de las infantas s/n, 23630, jaen, andalucia, españa
-ctra de loeches 58, 28148, madrid, comunidad madrid, españa
 ctra de lozoya s/n, 40161, segovia, castilla leon, españa
 ctra de madrid s/n, 37071, salamanca, castilla leon, españa
 ctra de malaga 3, 18740, granada, andalucia, españa
