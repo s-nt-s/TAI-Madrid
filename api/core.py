@@ -103,6 +103,15 @@ class Organismo:
         self.genera_codigos()
         self.genera_nombres()
 
+    def get_rcp(self):
+        if self.rcp is not None:
+            return self.rcp
+        self.genera_codigos()
+        for c in self.codigos:
+            if isinstance(c, int):
+                return c
+        return None
+
     def set_lugar(self, direccion, codigo_postal=None, provincia=None):
         self.deDireccion = direccion
         self.postCode = codigo_postal

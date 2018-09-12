@@ -243,6 +243,7 @@ if args.puestos or args.todo:
                     idPadres = set({p.idCentroDirectivo or p.idMinisterio, })
                     organismos[p.idUnidad] = Organismo(
                         p.idUnidad, p.deUnidad, idPadres=idPadres, isCsic=isCsic)
+    print("100%% completado")
 
     Organismo.save(list(organismos.values()), name="organismos_rpt")
 
@@ -327,7 +328,8 @@ if args.puestos or args.todo:
                         idde[key][clave] = value
                         clave = None
                         value = None
-    print("")
+    print("100%% completado")
+    
     idde = Descripciones(**idde)
     idde.save()
     Puesto.save(todos, name="destinos_all")
@@ -357,7 +359,7 @@ if args.puestos or args.todo:
                     print("%3d%% completado: %s (%s)" %
                           (count * 100 / total, boe, ok), end="\r")
         count = count + 1
-        print("%3d%% completado: %s (%s)" %
+        print("%3d%% completado: %s (%s)   " %
               (count * 100 / total, boe, ok), end="\r")
     print ("")
     total = len(vacantes)
@@ -371,7 +373,7 @@ if args.puestos or args.todo:
                 p.estado = boe
                 ok = ok +1
             count = count + 1
-            print("%3d%% completado: %s (%s)" %
+            print("%3d%% completado: %s (%s)   " %
                   (count * 100 / total, p.idPuesto, ok), end="\r")
     print ("")
     

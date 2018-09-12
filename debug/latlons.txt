@@ -1127,10 +1127,6 @@ Calle Padre Claret 15 28770 Colmenar Viejo (Madrid)
 40.8134473,0.5159582
 Calle Ulldecona 31 43500 Tortosa (Tarragona)
 
-40.9339728,-4.1142284
-Calle Carretera de Villacastin 4, 40006, Segovia, Castilla Leon, España
-Cra de Villacastin 4, 40006, Segovia, Castilla Leon, España
-
 40.94048,-4.16062
 C/ Pinar de Valsaín, 1, 40005 SEGOVIA
 

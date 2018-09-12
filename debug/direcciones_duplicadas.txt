@@ -152,10 +152,6 @@ Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
 Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
 
-40.9339728,-4.1142284
-Calle Carretera de Villacastin 4, 40006, Segovia, Castilla Leon, España
-Cra de Villacastin 4, 40006, Segovia, Castilla Leon, España
-
 40.94926,-4.1196267
 Plaza Adolfo Suárez 1 40001 Segovia (Segovia)
 Plaza Adolfo Suárez 1, 40001, Segovia, Castilla Leon, España

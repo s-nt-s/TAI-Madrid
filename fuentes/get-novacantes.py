@@ -69,6 +69,13 @@ while url:
         a = sig[0].find_parent("a")
         url = a.attrs["href"]
 
+def isDone(boe):
+    s = "_"+boe+".txt"
+    for f in glob("*.txt"):
+        if f.endswith(s):
+            return True
+    return False
+
 nombramientos = 0
 concursos = 0
 for url in url_boes:
@@ -88,6 +95,11 @@ for url in url_boes:
         name_file = "oc_%03d_%s.txt" % (concursos, boe)
     else:
         continue
+    '''
+    if isDone(boe):
+        continue
+    '''
+
 
     div = soup.select("div#DOdocText")[0]
     if div.find("img"):
