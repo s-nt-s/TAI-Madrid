@@ -315,6 +315,7 @@ Plaza De la Constitucion 1, 14004, Cordoba, Andalucia, España
 Avenida Gran Capitán 8, 14071 Córdoba
 Avenida Gran Capitan 8 14008 Córdoba (Córdoba)
 Avenida Gran Capitán 8 14071 Córdoba (Córdoba)
+Avda Gran Capitan 8, 14008, Cordoba, Andalucia, España
 
 37.9870177,-1.1362975
 Calle Santa Teresa 12, 30005, Murcia
@@ -434,6 +435,7 @@ Plaza Zocodover 6, 45001, Toledo, Castilla La Mancha, España
 Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
 Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
 Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
+Plaza Baixamar 1, 07701, Illes Balears, Illes Balears, España
 
 39.9884077,-0.0340021
 Plaza María Agustina 6, 12003, Castellon, Valencia
@@ -878,3 +880,4 @@ C/ VARGAS, 53-2, 39010 Cantabria
 43.463527,-3.782768
 Promontorio San Martín S/N, 39004 Santander, Cantabria
 Calle Promontorio de San Martín s/n, 39080, Cantabria, Cantabria, España
+

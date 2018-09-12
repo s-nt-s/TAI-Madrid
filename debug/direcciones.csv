@@ -148,7 +148,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 399	1302	Calle Josefa Valcárcel 28 28027 Madrid (Madrid)	40.4491629,-3.6446758	C/ Josefa Valcarcel, 28 y 44 28071 - Madrid	40.4482923,-3.6400921
 1054	1307	Calle San Bernardo 45, 28015 Madrid	40.4241396,-3.7076358	Calle Bolsa 8 28071 Madrid	40.4149294,-3.7046678
 1685	1309	Calle San Bernardo 45, 28015 Madrid	40.4241396,-3.7076358	Calle Ayala 5 28001 Madrid	40.4279467,-3.6883634
-45	1427	Calle Ginzo de Limia 58 28029 Madrid (Madrid)	40.4809399,-3.70435	Avda. de la Ilustración, s/n c/v a c/Ginzo de Limia, 58 28029 Madrid	40.4813205,-3.70416
 4	1312	Calle San Bernardo 62 28071 Madrid (Madrid)	40.4259057,-3.7070242	Calle San Bernardo 62 28071 Madrid	40.4258924,-3.7070723
 166	1313	Calle Plaza de Jacinto Benavente 3 28071 Madrid (Madrid)	40.4146872,-3.704507	Calle Plaza de Jacinto Benavente 3 28071 Madrid	40.4144673,-3.7025633
 4	1314	Calle San Bernardo 21, 28015 Madrid	40.4226482,-3.7077512	Calle San Bernardo 21 28015 Madrid	40.4226667,-3.7078041
@@ -256,6 +255,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 2538	49654	Calle Barquillo 5, 28004 Madrid	40.4197543,-3.695671	Calle Edison 4 28006 Madrid (Madrid)	40.4394769,-3.6805778
 36	47610	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 10	31487	Calle San Bernardo 45, 28015 Madrid	40.4241396,-3.7076358	Calle San Bernardo 45 28071 Madrid	40.4240459,-3.7076727
+36	47613	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 36	47616	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 36	47617	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 3722	48642	Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España	40.4289647,-3.696776	Avenida Puerta de Hierro S/N 28071 Madrid	40.4457993,-3.7347723
@@ -420,6 +420,7 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 10	29796	Paseo De la Castellana 160, 28046 Madrid	40.4579287,-3.6888691	Pº de la Castellana 160. 28046 Madrid	40.4579257,-3.6889917
 1306	30563	Calle Alcalá 9, 28014 Madrid	40.4176416,-3.7013019	Paseo de la Castellana, 3	40.4263171,-3.6909063
 4	27495	Paseo Infanta Isabel 1, 28014 Madrid	40.4086372,-3.6906168	Paseo Infanta Isabel, 1 – 28014 Madrid	40.4086668,-3.6906518
+45	1427	Calle Ginzo de Limia 58 28029 Madrid (Madrid)	40.4809399,-3.70435	Avda. de la Ilustración, s/n c/v a c/Ginzo de Limia, 58 28029 Madrid	40.4813205,-3.70416
 0	48107	Camino de las Torres, 22, 50008 ZARAGOZA	41.64550,-0.87615	Camino de las Torres, 22, 50008 ZARAGOZA	41.64550,-0.87615
 5	40821	Calle Santa María Magdalena 16 28016 Madrid (Madrid)	40.4627493,-3.6702392	C/ Santa Mª Magdalena, 16	40.462701,-3.6702459
 2	47990	Paseo De la Castellana 162, 28046 Madrid	40.4583429,-3.6893451	Pº. de la Castellana, 162 28046-Madrid	40.4583462,-3.6893745
@@ -502,7 +503,6 @@ Metros	ID	Dir3	LATLON	EXCEL	LATLON
 1291	27627	C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)	40.454458,-3.680935	C/ JUAN DE LA CIERVA, 3 28006 Madrid	40.4432316,-3.6848096
 80	29677	Paseo de la Castellana 183 28071 Madrid (Madrid)	40.4639201,-3.69017	Paseo de la Castellana, 183 (entrada por Estébanez Calderón, 2) 28071 - Madrid.	40.4636462,-3.691055
 3	49134	Calle Alberto Bosch 16, 28014 Madrid	40.4133587,-3.689281	C/ Alberto Bosch, 16	40.4133481,-3.6893233
-36	47613	Avda Manoteras 54, 28050, Madrid, Comunidad Madrid, España	40.48666765,-3.66082579839677	Avenida Manoteras 54 28050 Madrid	40.4869878,-3.6607495
 6	49136	Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)	40.4765303,-3.7446241	Av del Cardenal Herrera Oria, 378, 28035 Madrid	40.4765183,-3.744701
 132	27634	AVDA.GREGORIO DEL AMO NUM.8 28040 Madrid (Madrid)	40.445706,-3.721619	AVDA.GREGORIO DEL AMO NUM.8 28040 Madrid	40.4468949,-3.7217101
 1419	27636	C/ SERRANO GALVACHE, 4 28033 Madrid (Madrid)	40.481883,-3.660765	C/ SERRANO GALVACHE, 4 28033 Madrid	40.4723044,-3.6718555

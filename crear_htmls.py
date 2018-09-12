@@ -22,8 +22,9 @@ j2 = Jnj2("j2/", "docs/")
 
 # Excluir CENTROS PENITENCIARIOS, y volver a comprobar que es TAI
 # Excluir nivel 18 (puede que salta alguno pero serán tan pocos...)
-todos = [p for p in Puesto.load() if p.nivel < 19 and p.idCentroDirectivo !=
+todos_tai = [p for p in Puesto.load() if p.idCentroDirectivo !=
          1301 and p.idProvision not in ("L",) and p.isTAI()]
+todos_19 = [p for p in todos_tai if p.nivel < 19]
 descripciones = Descripciones.load()
 
 organismos = {}
@@ -32,15 +33,15 @@ for o in Organismo.load():
         organismos[c] = o
 
 if args.todo or args.direcciones:
-    nf = Info(todos, descripciones, organismos)
+    nf = Info(todos_tai, descripciones, organismos)
     j2.save("direcciones.html", info=nf, parse=fix_html)
 
 if args.todo or args.destinos:
     paths = []
-    for pais in set([p.pais for p in todos]):
-        for provincia in set([p.provincia for p in todos if p.pais == pais]):
+    for pais in set([p.pais for p in todos_19]):
+        for provincia in set([p.provincia for p in todos_19 if p.pais == pais]):
 
-            puestos = [p for p in todos if p.pais ==
+            puestos = [p for p in todos_19 if p.pais ==
                        pais and p.provincia == provincia]
 
             path = "%03d/%02d/index.html" % (pais or "XXX", provincia or "XXX")
@@ -51,7 +52,7 @@ if args.todo or args.destinos:
             paths.append((nf.deProvincia, path, len(
                 [p for p in puestos if p.estado == "V"])))
 
-    total_vacantes = len([p for p in todos if p.estado == "V"])
+    total_vacantes = len([p for p in todos_19 if p.estado == "V"])
 
     paths = sorted(paths)
     j2.save("destinos.html", paths=paths, total_vacantes=total_vacantes)

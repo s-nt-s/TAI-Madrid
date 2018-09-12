@@ -155,7 +155,6 @@ avenida garcia morato s/n, 41071, sevilla, andalucia, españa
 avenida gavilanes 37, 41020, sevilla, andalucia, españa
 avenida general aaranda 37, 46166, valencia, comunitat valenciana, españa
 avenida gongora s/n, 11311, cadiz, andalucia, españa
-avenida gran capitan 8, 14008, cordoba, andalucia, españa
 avenida gran vía 49, 26071, la rioja, la rioja, españa
 avenida guadalete 22, 14430, cordoba, andalucia, españa
 avenida jaime i 18, 03750, alicante, comunitat valenciana, españa
@@ -1232,7 +1231,6 @@ plaza alfonso torres 3, 04880, almeria, andalucia, españa
 plaza alta 5, 29108, malaga, andalucia, españa
 plaza america 8, 18500, granada, andalucia, españa
 plaza ayuntamiento 1, 46140, valencia, comunitat valenciana, españa
-plaza baixamar 1, 07701, illes balears, illes balears, españa
 plaza c. comercial parque miramar s/n, 29007, malaga, andalucia, españa
 plaza candelaria 1, 35620, las palmas, canarias, españa
 plaza cervantes 1, 13071, ciudad real, castilla la mancha, españa

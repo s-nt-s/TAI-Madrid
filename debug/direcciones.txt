@@ -791,7 +791,6 @@ Avda Gonzalez Robles 19, 18400, Granada, Andalucia, España
 Avda Goya 2, 50430, Zaragoza, Aragon, España
 Avda Gral.Adelaido Corrochano S/N, 10330, Caceres, Extremadura, España
 Avda Gran Capitan 7, 14008, Cordoba, Andalucia, España
-Avda Gran Capitan 8, 14008, Cordoba, Andalucia, España
 Avda Gran Capitán 41 1º, 14008, Cordoba, Andalucia, España
 Avda Gran Capitán 7, 14008, Cordoba, Andalucia, España
 Avda Gran Capitán 8, 14008, Cordoba, Andalucia, España
@@ -7076,7 +7075,6 @@ Plaza Ayuntamiento 1, 39410, Cantabria, Cantabria, España
 Plaza Ayuntamiento 1, 46140, Valencia, Comunitat Valenciana, España
 Plaza Ayuntamiento 2, 30870, Murcia, Region Murcia, España
 Plaza Ayuntamiento 24, 46002, Valencia, Comunitat Valenciana, España
-Plaza Baixamar 1, 07701, Illes Balears, Illes Balears, España
 Plaza Benemerita 1, 34300, Palencia, Castilla Leon, España
 Plaza Borne 9, 07760, Illes Balears, Illes Balears, España
 Plaza Bretaña S/N, 27002, Lugo, Galicia, España

@@ -286,6 +286,9 @@ AVDA. CONDE VALLELLANO, S/N, 14071 Córdoba
 37.8787709,-4.7875488
 Plaza de la Constitución 1, 14004 Cordoba
 
+37.8859618,-4.7820943
+Avenida Gran Capitán 8, 14071 Córdoba
+
 37.88693,-4.78334
 C/ Ronda de los Tejares, 23 y 25, 14008 CORDOBA
 
@@ -574,6 +577,9 @@ Avda General Villalba 3 bis, 45003, Toledo, Castilla La Mancha, España
 
 39.883469,-4.031572
 C/ REINO UNIDO,3, 45005 Toledo
+
+39.8902872,4.2650347
+Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
 
 39.9807342,-0.031691
 Calle Cronista Revest 11, 12005, Castellon, Comunitat Valenciana, España
