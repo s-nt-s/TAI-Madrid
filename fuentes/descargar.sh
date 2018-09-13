@@ -11,6 +11,8 @@ curl -s "http://www.sepe.es/direccionesytelefonosWeb/jsp/JSP_index.jsp" | grep -
 
 python3 get-links.py > wget.txt
 
+wget --continue --no-clobber -O ss.xls $(lynx -listonly -nonumbers -dump "http://www.seg-social.es/wps/portal/wss/internet/OficinaSeguridadSocial" | grep ".xls")
+
 grep -v '^#' wget.txt | wget -i- --continue --no-clobber
 
 find . -iname "*.pdf" -exec pdftotext "{}" "{}-nolayout.txt" \;

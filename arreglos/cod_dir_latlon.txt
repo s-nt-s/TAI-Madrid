@@ -32,16 +32,6 @@
 29090   40.9451016,-5.4980242     Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
 29364   37.9824407,-1.124728     Calle General Sanmartín S/N, 30003 Murcia
 28435   43.4080225,-5.7372225   Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
-36428   39.9853083,-0.0320344   Av. del Mar, 6, 12003 Castelló de la Plana, Castelló
-36430   41.9814987183,2.816688776     Santa Eugènia, 40 4, 17005, Girona
-36454   40.0726737976074,-2.13507199287415    Parque San Julián, 7, 16001, Cuenca
-36440   42.843313,-2.6728038    c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
-36460   40.3402129,-1.1073706   c/ Joaquín Arnau, 22, 44001 TERUEL
-36453   40.65722,-4.69527       Av. Portugal, 4, 05001 Ávila
-36416   39.5770186,2.6491093    Carrer de Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
-36436    28.1182189,-15.4279158    c/ Pérez del Toro, 89, 35004 LAS PALMAS DE GRAN CANARIA
-36462    35.8892193,-5.3036387    c/ Real, 20, 51001 CEUTA
-
 
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
@@ -134,9 +124,6 @@
 28191   37.175075,-3.596593     Pza. San Juan de la Cruz, 26, 18009 GRANADA
 47226   37.193729,-3.604185     Av. de Pulianas, 36, 18011 GRANADA
 
-# https://github.com/s-nt-s/TAI-Madrid/pull/13 (o columna direccion1 en pestaña direcciones del excel colaborativo del proyecto)
-36431   37.156500,-3.606610     Calle Restauradores, 1, 18006 GRANADA
-
 # Wikipedia/Google
 28743   37.600311,-0.988611     Calle Real, 26, 30201 Cartagena, Murcia
 28870   43.4797,-8.2371         Rúa Argüelles, 4, 15401 Ferrol, A Coruña
@@ -171,26 +158,28 @@
 29163   37.959441,-1.227443     Avenida de Lorca, s/n, Base Aérea de Alcantarilla, 30820 Alcantarilla, Murcia
 
 # https://github.com/s-nt-s/TAI-Madrid/issues/23
-# Pendiente de confirmar
-# 46890   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
-# 46893   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
-# 46892   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
-# 48863   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
-## 28197   Carretera de Torrelodones a Colmenar Viejo, km 10,7 Hoyo de Manzanares, Madrid
-36441    38.9855502,-1.8538156    Avenida de España 31, Albacete
+46890   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
+46893   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
+46892   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
+48863   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
 28959   36.52296,-6.28436   Plaza de San Severiano 3, 11007 Cadiz
 30463    36.5911131,-6.2266604    Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
 28276    40.6802742,-3.7833587    Ctra. de Miraflores (km 34) 28770 Colmenar Viejo Madrid
 31803    40.4750488,-3.6877061    C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
+48836   41.7035721,-4.6634777   Base Militar El Empecinado Carretera de Cabezon, s/n, 47155 Santovenia de Pisuerga (Valladolid)
+28197   40.62867429,-3.88286022     Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (Madrid)
+# 31793 40.4753922,-3.6900447 Avda. Monforte de Lemos, 5, 28029 Madrid (Madrid)
+# 31793 40,459551,-3,864592 Carretera de Majadahonda a Pozuelo, km 2,2, 28220 Majadahonda (Madrid)
+
 
 # http://www.defensa.gob.es/defensa_yo/delegaciones/
 29386   35.8896012,-5.3073929   Paseo de la Marina Española, 12, 51001 Ceuta
 
-http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-49---RCC-Palma/
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-49---RCC-Palma/
 49150   39.564130,2.748437     Carretera de Manacor, s/n, 07071 Islas Baleares
 # http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-23/
 29157   38.882019,-6.814568     Carretera Madrid-Lisboa, (A-5) s/n, 06071 Talavera la Real, Badajoz
 # http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-37/
 29092   41.712993,-4.847872     Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
-http://www.ejercitodelaire.mde.es/EA/archivohistorico/index.html
+# http://www.ejercitodelaire.mde.es/EA/archivohistorico/index.html
 29145   40.3530299,-3.87517     Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid

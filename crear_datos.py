@@ -53,6 +53,23 @@ re_paren = re.compile(r"\(.*$")
 
 arregla_direcciones = get_direcciones_txt()
 
+
+def parse(cell, parse_number=True):
+    if not cell:
+        return None
+    v = cell.value
+    if isinstance(v, float):
+        return int(v) if v.is_integer() else v
+    if isinstance(v, str):
+        v = v.strip()
+        v = re_space.sub(" ", v)
+        v = v.replace("PROGRAMDOR", "PROGRAMADOR")
+        if parse_number and re_number.match(v):
+            v = float(v.replace(",", "."))
+            return int(v) if v.is_integer() else v
+        return v if len(v) else None
+    return v
+
 def get_sepe():
     d = {}
     with open("fuentes/sepe.txt") as y:
@@ -66,6 +83,19 @@ def get_sepe():
                 else:
                     values = values[:-1] + [values[-1].replace('"', '')]
                 d[int(values[-1])] = tuple(values[:-1])
+    return d
+
+def get_inss():
+    d={}
+    wb = xlrd.open_workbook("fuentes/ss.xls", logfile=open(os.devnull, 'w'))
+    sh = wb.sheet_by_index(0)
+    for rx in range(sh.nrows):
+        row = [parse(c, parse_number=False) for c in sh.row(rx)]
+        if len(row)>19 and row[3] == "INSTITUTO NACIONAL DE LA SEGURIDAD SOCIAL" and row[4]=="Direcciones Provinciales":
+            cp = row[7]
+            direccion = "%s, %s %s, %s" % (row[8], cp, row[2], row[1])
+            latlon = "%s,%s" % (row[19], row[18])
+            d[int(cp[0:2])] = (latlon, direccion, cp)
     return d
 
 def clean_organismos(organismos, msg="Eliminando versiones antiguas de E0", otros=None):
@@ -116,24 +146,6 @@ def clean_direccion(d):
     d = d.replace("Avda ", "Avenida ")
 
     return d
-
-
-def parse(cell):
-    if not cell:
-        return None
-    v = cell.value
-    if isinstance(v, float):
-        return int(v) if v.is_integer() else v
-    if isinstance(v, str):
-        v = v.strip()
-        v = re_space.sub(" ", v)
-        v = v.replace("PROGRAMDOR", "PROGRAMADOR")
-        if re_number.match(v):
-            v = float(v.replace(",", "."))
-            return int(v) if v.is_integer() else v
-        return v if len(v) else None
-    return v
-
 
 def full_attrib(attrib):
     prefix, name = attrib.split(":")
@@ -193,7 +205,7 @@ def parse_dire(node):
     return direccion.strip(), postCode
 
 if args.puestos or args.todo:
-    xlss = list(sorted(glob("fuentes/*.xls")))
+    xlss = list(sorted(glob("fuentes/RPT*.xls")))
     pdfs = list(sorted(glob("fuentes/*.pdf-nolayout.txt")))
 
     convocatorias = (
@@ -968,6 +980,52 @@ for o in organismos:
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
 
+
+rcp_organi = {}
+for o in organismos:
+    o.genera_codigos()
+    for c in o.codigos:
+        if isinstance(c, int):
+            rcp_organi[c] = o
+
+print ("Seteando provincias")
+puestos = Puesto.load("destinos_all")
+total = len(puestos)
+count = 0
+unidades_provincia = {}
+for p in puestos:
+    if p.idUnidad:
+        provincias = unidades_provincia.get(p.idUnidad, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idUnidad] = provincias
+    if p.idCentroDirectivo:
+        provincias = unidades_provincia.get(p.idCentroDirectivo, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idCentroDirectivo] = provincias
+    if p.idMinisterio:
+        provincias = unidades_provincia.get(p.idMinisterio, set())
+        provincias.add(p.provincia)
+        unidades_provincia[p.idMinisterio] = provincias
+    count += 1
+    print("%3d%% completado: %s" % (count * 100 / total, p.idPuesto), end="\r")
+print ("")
+
+total = len(unidades_provincia)
+count = 0
+ok = 0
+for unidad, provincias in unidades_provincia.items():
+    if len(provincias) == 1:
+        provincia = provincias.pop()
+        if provincia is not None:
+            org = rcp_organi.get(unidad, None)
+            if org and org.idProvincia is None:
+                org.idProvincia = provincia
+                ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
+print ("")
+
 sepe=get_sepe()
 total = len(organismos)
 ok = 0
@@ -985,13 +1043,25 @@ for o in organismos:
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print("")
-    
-rcp_organi = {}
+
+inss=get_inss()
+total = len(organismos)
+ok = 0
+count = 0
+print ("Fusionando con INSS")
 for o in organismos:
-    o.genera_codigos()
-    for c in o.codigos:
-        if isinstance(c, int):
-            rcp_organi[c] = o
+    if o.deOrganismo.startswith("Direccion Provincial del Inss de ") and not o.idProvincia:
+        print(o.deOrganismo)
+    if o.deOrganismo.startswith("Direccion Provincial del Inss de ") and o.idProvincia:
+        s = inss.get(o.idProvincia, None)
+        if s:
+            latlon, dire, codpostal = s[:5]
+            o.set_lugar(dire, codpostal)
+            o.latlon = latlon
+            ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" % (count * 100 / total, o.idOrganismo, ok), end="\r")
+print("")
 
 print ("Asignando direcciones manuales")
 cod_dir_latlon = get_cod_dir_latlon()
@@ -1109,62 +1179,6 @@ for o in organismos:
             ok += 1
         else:
             sin_latlon.add(o.dire)
-    count += 1
-    print("%3d%% completado: %-30s (%s)" %
-          (count * 100 / total, o.idOrganismo, ok), end="\r")
-print ("")
-'''
-count=0
-ok=0
-total = len(xls_info)
-for k, v in xls_info.items():
-    org = rcp_organi.get(k, None)
-    if org and org.deDireccion and not org.latlon:
-        dire, latlon, _ = v
-        print ("")
-        print (k)
-        print (dire)
-        print (latlon+"   "+org.deDireccion)
-        if False:
-            org.deDireccion = dire
-            org.latlon = latlon
-            ok += 1
-    count += 1
-    #print("%3d%% completado: %-30s (%s)" % (count * 100 / total, k, ok), end="\r")
-'''
-print ("Seteando provincias")
-puestos = Puesto.load("destinos_all")
-total = len(puestos)
-count = 0
-unidades_provincia = {}
-for p in puestos:
-    if p.idUnidad:
-        provincias = unidades_provincia.get(p.idUnidad, set())
-        provincias.add(p.provincia)
-        unidades_provincia[p.idUnidad] = provincias
-    if p.idCentroDirectivo:
-        provincias = unidades_provincia.get(p.idCentroDirectivo, set())
-        provincias.add(p.provincia)
-        unidades_provincia[p.idCentroDirectivo] = provincias
-    if p.idMinisterio:
-        provincias = unidades_provincia.get(p.idMinisterio, set())
-        provincias.add(p.provincia)
-        unidades_provincia[p.idMinisterio] = provincias
-    count += 1
-    print("%3d%% completado: %s" % (count * 100 / total, p.idPuesto), end="\r")
-print ("")
-
-total = len(unidades_provincia)
-count = 0
-ok = 0
-for unidad, provincias in unidades_provincia.items():
-    if len(provincias) == 1:
-        provincia = provincias.pop()
-        if provincia is not None:
-            org = rcp_organi.get(unidad, None)
-            if org and org.idProvincia is None:
-                org.idProvincia = provincia
-                ok += 1
     count += 1
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")

@@ -396,6 +396,18 @@ Calle Colon 60 46004 València (València/Valencia)
 Calle Colon 60, 46004, Valencia, Comunitat Valenciana, España
 Calle Colón 60, 46004, Valencia, Comunitat Valenciana, España
 
+39.4708926059455,-6.37815319711376666
+Avda. de España, 14, 10001 CACERES
+Avda. de España, 14, 10001 CACERES, CÁCERES
+
+39.4737507,-0.3649418
+Paseo Alameda 17, 46010, Valencia, Comunitat Valenciana, España
+Passeig de l'Albereda, 28, 46010 València
+
+39.4763102,-0.3578827
+Avda Blasco Ibañez 48, 46010, Valencia, Comunitat Valenciana, España
+Avda Vicente Blasco Ibáñez 48, 46010, Valencia, Comunitat Valenciana, España
+
 39.4818934,-0.3912487
 Calle Joaquín Ballester 39, 46009 Valencia
 Calle Joaquín Ballester 39 46009 València (València/Valencia)
@@ -443,6 +455,10 @@ Plaza Baixamar 1 07701 Maó-Mahón (Illes Balears)
 Plaza De Baixamar 1 07701 Maó-Mahón (Illes Balears)
 Plaza Baixamar 1, 07701, Illes Balears, Illes Balears, España
 
+39.9853644067796,-0.03286419753015555
+Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
+Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA, CASTELLÓN
+
 39.9884077,-0.0340021
 Plaza María Agustina 6, 12003, Castellon, Valencia
 Plaza Maria Agustina 6 12003 Castellón de la Plana/Castelló de la Plana (Castelló/Castellón)
@@ -456,7 +472,10 @@ Paseo Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12 14, 12004, Castellon, Comunitat Valenciana, España
 Psaje Ribalta 12, 12004, Castellon, Comunitat Valenciana, España
 
-40.0726737976074,-2.13507199287415
+40.07264808548416666,-2.13494766152248333
+Parque San Julián 7, 16001 Cuenca
+Parque de San Julián, 7, 16001 CUENCA, CUENCA
+Calle Parque de San Julian 7, 16001, Cuenca, Castilla La Mancha, España
 Parque San Julián 7, 16001 Cuenca
 Parque San Julián, 7, 16001 Cuenca
 Parque San Julián, 7, 16001, Cuenca
@@ -466,6 +485,10 @@ Calle Parque San Julian 12, 16001 Cuenca
 Calle Parque San Julian 12 16001 Cuenca (Cuenca)
 Parque De San Julián 12 16001 Cuenca (Cuenca)
 Pque San Julián 12, 16001, Cuenca, Castilla La Mancha, España
+
+40.07300499999999,-2.135802
+Calle Parque de San Julian 7, 16001, Cuenca, Castilla La Mancha, España
+Pque De San Julián 12, 16001, Cuenca, Castilla La Mancha, España
 
 40.0742351,-2.1362396
 Calle Juan Correcher 2, 16001 Cuenca
@@ -484,6 +507,10 @@ Plaza San Juan 3, 44001, Teruel, Aragon, España
 40.34312095,-3.02990427285917
 Calle Mayor 17, 19001 Guadalajara, Castilla La Mancha
 Calle Mayor 17, 19071, Guadalajara, Castilla La Mancha, España
+
+40.3530462,-3.8752884
+Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
+Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
 
 40.3911245,-3.675269
 Calle Mendez Alvaro 84, 28053 Madrid
@@ -585,6 +612,10 @@ Calle Montalbán 8, 28014 Madrid
 Calle Montalbán 8 28014 Madrid (Madrid)
 Calle Montalbán 8, 28014, Madrid, Comunidad Madrid, España
 
+40.417955,-3.714312
+Calle Bailén S/N 28071 Madrid (Madrid)
+Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
+
 40.418948,-3.6896078
 Calle de Valenzuela 5, 28014 Madrid
 Calle Valenzuela 3, 28071, Madrid, Comunidad Madrid, España
@@ -617,6 +648,14 @@ Calle San Bernardo 21, 28015 Madrid
 Calle San Bernardo 21 28015 Madrid (Madrid)
 Calle San Bernardo 21 28071 Madrid (Madrid)
 
+40.4234912,-3.6893974
+Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
+Paseo Recoletos 20-22 28071 Madrid (Madrid)
+
+40.4240751,-3.7129502
+Plaza Emilio Jimenez Millas 1, 28008, Madrid, Comunidad Madrid, España
+Calle Emilio Jiménez Millas, 1, 28008, Madrid, Comunidad Madrid, España
+
 40.4241396,-3.7076358
 Calle San Bernardo 45, 28015 Madrid
 Calle San Bernardo 45 28015 Madrid (Madrid)
@@ -625,14 +664,39 @@ Calle San Bernardo 45, 28015, Madrid, Comunidad Madrid, España
 Calle San Bernardo 45, 28071, Madrid, Comunidad Madrid, España
 Calle San Bernatdo 45 28015 Madrid (Madrid)
 
+40.4243463,-3.686817
+Calle Claudio Coello 31 28001 Madrid (Madrid)
+Calle Claudio Coello 31 28071 Madrid (Madrid)
+
+40.4263524,-3.690811099999999
+Paseo Castellana 3, 28071, Madrid, Comunidad Madrid, España
+Paseo De la Castellana 3, 28071, Madrid, Comunidad Madrid, España
+Paseo de la Castellana 3, 28071, Madrid, Comunidad Madrid, España
+
 40.4284486,-3.7002598
 Calle Sagasta 10 28004 Madrid (Madrid)
 Calle Sagasta 10, 28004, Madrid, Comunidad Madrid, España
 C/ Sagasta, 10 -28004 - MADRID
 
+40.4289647,-3.696776
+Calle José Marañón 12 28010 Madrid (Madrid)
+Calle José Marañón 12 28071 Madrid (Madrid)
+Calle José Marañón 12 29071 Madrid (Madrid)
+Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España
+
+40.4290185,-3.6963731
+Calle Santa Engracia 7 28010 Madrid (Madrid)
+Calle Calle Santa Engracia 7 28071 Madrid (Madrid)
+Calle Santa Engracia 7 28071 Madrid (Madrid)
+Calle Santa Engracia 7, 28010, Madrid, Comunidad Madrid, España
+
 40.4338348,-3.6862658
 Calle Serrano 102, 28006, Madrid, Comunidad Madrid, España
 Calle Serrano 102, 28071, Madrid, Comunidad Madrid, España
+
+40.4367195,-3.7322106
+Calle Martín Fierro 5 28040 Madrid (Madrid)
+Calle Martín Fierro 5, 28040, Madrid, Comunidad Madrid, España
 
 40.4369226,-3.6914243
 Calle Miguel Angel 25, 28071 Madrid
@@ -646,11 +710,33 @@ Calle María de Molina 50, 28071, Madrid, Comunidad Madrid, España
 Calle María de Molina 50 28006 Madrid (Madrid)
 Calle María de Molina 50 28071 Madrid (Madrid)
 
+40.4380323,-3.7203751
+Avenida Reyes Católicos 4 28040 Madrid (Madrid)
+Avenida Reyes Católicos 4 28071 Madrid (Madrid)
+
+40.4384503,-3.7036891
+Calle José Abascal 2 28003 Madrid (Madrid)
+Calle José Abascal 2 28071 Madrid (Madrid)
+
+40.4386369,-3.7070536
+Calle Cea Bermúdez 5 28003 Madrid (Madrid)
+Calle Cea Bermúdez 5, 28003, Madrid, Comunidad Madrid, España
+
+40.4403311,-3.6709015
+Calle Corazón de María 8 28002 Madrid (Madrid)
+Calle Corazón de María 8, 28002, Madrid, Comunidad Madrid, España
+
 40.4412398,-3.6863111
 Calle de Serrano, 117, 28006 Madrid
 Calle Serrano 117, 28006, Madrid, Comunidad Madrid, España
 Serrano, 117 28006 Madrid
 Calle Serrano 117, 28071, Madrid, Comunidad Madrid, España
+Calle de Serrano, 117, 28006 Madrid
+Calle SERRANO 117 28006 Madrid (Madrid)
+
+40.441416,-3.6919265
+Paseo de la Castellana 63 28071 Madrid (Madrid)
+Paseo CASTELLANA 63 28071 Madrid (Madrid)
 
 40.4423267,-3.6996497
 Calle Rios Rosas 23, 28003 Madrid
@@ -801,6 +887,10 @@ Calle Capitán Haya 41, 28020, Madrid, Comunidad Madrid, España
 Calle Poeta Joan Maragall 41 28020 Madrid (Madrid)
 Calle Poeta Joan Maragall 41 28071 Madrid (Madrid)
 
+40.4639201,-3.69017
+Paseo De la Castellana 183, 28046, Madrid, Comunidad Madrid, España
+Paseo de la Castellana 183 28071 Madrid (Madrid)
+
 40.473754,-3.6718262
 Calle Serrano Galvache 26, 28033 Madrid
 Calle Serrano Galvache 26 28033 Madrid (Madrid)
@@ -808,6 +898,20 @@ Calle Serrano Galvache 26 28071 Madrid (Madrid)
 Calle Serrano Galvache 26 28033 Madrid (Madrid)
 Calle Serrano Galvache 26 28071 Madrid (Madrid)
 Calle Serrano Galvache 26, 28033, Madrid, Comunidad Madrid, España
+
+40.4737694,-3.6866869
+Paseo Castellana 272 28071 Madrid (Madrid)
+Paseo de la Castellana 272 28071 Madrid (Madrid)
+
+40.4751479,-3.6882748
+Avenida Monforte de Lemos 3, 28029 Madrid
+Avenida Monforte de Lemos 3, 28071 Madrid
+Avenida Monforte de Lemos 3 28071 Madrid (Madrid)
+Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
+
+40.4765303,-3.7446241
+Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
+Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
 
 40.4801306,-3.3593311
 Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
@@ -835,7 +939,13 @@ Avda Del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avda del Ejército 12, 19004, Guadalajara, Castilla La Mancha, España
 Avenida del Ejército, 2, 19004 Guadalajara
 
-40.65722,-4.69527
+40.6566953,-4.6877919
+Calle Hornos Caleros 1 05001 Ávila (Ávila)
+Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
+
+40.65735704924583333,-4.69529353582356666
+Avenida de Portugal 4, 05001 Ávila
+Avda. Portugal, 4, 05001 AVILA, ÁVILA
 Avenida de Portugal 4, 05001 Ávila
 Av. Portugal, 4, 05001 Ávila
 
@@ -843,11 +953,20 @@ Av. Portugal, 4, 05001 Ávila
 Calle Carretera de Villacastin 4, 40006, Segovia, Castilla Leon, España
 C/ CARRETERA DE VILLACASTIN, 4, 40006 Segovia
 
+40.94926,-4.1196267
+Plaza Adolfo Suárez 1 40001 Segovia (Segovia)
+Plaza Adolfo Suárez 1, 40001, Segovia, Castilla Leon, España
+Plaza de Aldolfo Suarez 1 40001 Segovia (Segovia)
+
 40.9496286,-5.6647538
 Avda Carlos I 78, 37008 Salamanca
 Avda Carlos I 78 92, 37008, Salamanca, Castilla Leon, España
 Avda Carlos I 78, 37008, Salamanca, Castilla Leon, España
 AVDA. CARLOS I, 78-92-12, 37008 Salamanca
+
+40.9663348,-5.6597035
+Calle Gran Via 31 37001 Salamanca (Salamanca)
+Calle Gran Vía 31 37001 Salamanca (Salamanca)
 
 41.1126752428571,1.24295809285714
 Calle Pere Martell 45, 43005, Tarragona, Cataluna, España
@@ -872,6 +991,9 @@ PARC DE L'ESTACIO DEL NORD S/N, 08018 Barcelona
 41.3955671,2.1650662
 Calle Mallorca 278, 08037, Barcelona
 Calle Mallorca 278, 08071, Barcelona, Cataluna, España
+Calle Mallorca 278 08037 Barcelona (Barcelona)
+Calle Mallorca 278, 08037, Barcelona
+Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 
 41.40315280000001,2.1635022
 Calle Sant Antoni Maria Claret 5 11, 08037 Barcelona
@@ -882,6 +1004,14 @@ c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA
 Avda De Requejo 23, 49012 Zamora
 Avda De Requejo 23, 49012, Zamora, Castilla Leon, España
 Avda. de Requejo, 23, 49012 ZAMORA
+
+41.6343889,-0.883425718889643
+Paseo Del Canal 1, 50007, Zaragoza, Aragon, España
+Paseo del Canal 1, 50007 Zaragoza
+
+41.6372799,-4.73243
+C/ Boston, 6, 47007 VALLADOLID
+C/ Boston, 4 y 6, 47007 VALLADOLID, VALLADOLID
 
 41.6468976,-4.7251021
 Calle Muro 5, 47004 Valladolid
@@ -895,9 +1025,51 @@ Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
 Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
 Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)
 
+41.698647,-0.8684227000000001
+Carretera de Huesca, s/n, 50090 Zaragoza
+Ctra Huesca S/N, 50090, Zaragoza, Aragon, España
+
+41.7609514,-2.4650739
+Calle Antolín de Soria S/N, 42003 SORIA
+Calle Antolin de soria s/n 42003 Soria (Soria)
+
+41.7636622,-2.4695844
+Calle Alfonso VIII 2 42003 Soria (Soria)
+Calle Alfonso VIII 2, 42003, Soria, Castilla Leon, España
+
+41.9839131,2.819503
+Avenida 20 de Junio 2, 17001 Girona
+Avda 20 de Junio 2, 17001, Girona, Cataluna, España
+Avenida 20 de Junio 2 17001 Girona (Girona)
+
+42.0078898305084,-4.51127160493758
+Avda. Comunidad Europea, 16, 34004 PALENCIA
+Avda. Comunidad Europea, 16, 34004 PALENCIA, PALENCIA
+
+42.0141939,-4.5323889
+Avenida Casado del Alisal 4 34001 Abarca de Campos (Palencia)
+Avenida Casado del Alisal 4 34001 Palencia (Palencia)
+
+42.1364007,-0.4086198
+Plaza Navarra 11 22002 Huesca (Huesca)
+Praza Navarra 11, 22002, Huesca, Aragon, España
+
+42.1409393,-0.4154599
+Plaza Luis Buñuel 3, 22003, Huesca, Aragon, España
+Plaza Luís Buñuel 3, 22003, Huesca, Aragon, España
+
 42.3413131,-3.6974564
 Calle Vitoria 16, 09004, Burgos, Castilla Leon
 Calle Vitoria 16, 09071, Burgos, Castilla Leon, España
+
+42.3416127,-7.8646634
+Calle Parque de San Lázaro 1 32003 Ourense (Ourense)
+Calle Parque de San Lázaro 1, 32003, Ourense, Galicia, España
+Parque San Lázaro 1 32003 Ourense (Ourense)
+
+42.343957,-3.6891862
+Calle Vitoria 39 09004 Burgos (Burgos)
+Calle Vitoria 39 09071 Burgos (Burgos)
 
 42.3471479,-3.6934661
 Avenida Reyes Católicos 22, 09005, Burgos
@@ -912,15 +1084,46 @@ AVENIDA DE MARIN 29-31 BAJO, 32001 Ourense
 Calle Juan II 4, 26007 Logroño, La Rioja
 Calle Juan II 4, 26006, La Rioja, La Rioja, España
 
+42.4645034,-2.4477555
+Calle Victor Pradera 4 26001 Logroño (Rioja, La)
+Calle Víctor Pradera 4 26001 Logroño (Rioja, La)
+Calle Víctor Pradera 4, 26001, La Rioja, La Rioja, España
+
+42.4654344,-2.4461536
+Calle Muro Francisco de la Mata 3 26001 Logroño (Rioja, La)
+Calle Muro Francisco de la Mata 3, 26001, La Rioja, La Rioja, España
+
+42.59728,-8.76775
+Paseo De Elpidio Villaverde 3, 36600, Pontevedra, Galicia, España
+Paseo Elpido Villaverde 3 36600 Vilagarcía de Arousa (Pontevedra)
+
 42.5996139,-5.5767185
 Avda Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
 Calle Gran Via de San Marcos 27, 24001, Leon, Castilla Leon, España
 Calle Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
 GRAN VIA DE SAN MARCOS,27 - 6ª, 24001 León
 
+# < 30m
+42.599861,-5.5766018
+Calle De la Gran Vía de San Marcos 18 24002 León (León)
+Calle Gran Vía de San Marcos 18 24002 León (León)
+
+42.8109673,-1.6444606
+Calle Yanguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
+Calle Yaguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
+
+42.812552577356,-1.64431863673276
+Avda. Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA, NAVARRA
+C/ Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA
+
 42.8131361,-1.6394897
 Plaza de las Merindades S/N, Pamplona, Navarra
 Plaza Merindades s/n, 31071, Navarra, Comunidad Foral Navarra, España
+
+43.2625765,-2.9354636
+Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
+Plaza Moyua 3 48009 Bilbao (Bizkaia)
+Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
 
 43.2638984,-2.9383273
 Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya
@@ -945,9 +1148,21 @@ Plaza De España 6 33007 Oviedo (Asturias)
 Plaza De España 6, 33007, Asturias, Principado Asturias, España
 Plaza España 6, 33007, Asturias, Principado Asturias, España
 
+43.3607591,-5.85233
+Plaza España 3, 33007, Asturias, Principado Asturias, España
+Plaza de España, 4, 33007 Oviedo, Asturias, Asturias
+
 43.3608724,-5.8554928
 Plaza de España, 2, 33007 Oviedo, Asturias
 Plaza De España 2, 33071, Asturias, Principado Asturias, España
+
+43.3643266,-8.4055351
+Plaza Orense 11 15004 Coruña, A (Coruña, A)
+Plaza Orense 11, 15004, A Coruna, Galicia, España
+
+43.3693969,-8.40612
+Calle Comandante Fontanes 10 15003 Coruña, A (Coruña, A)
+Calle Comandante Fontanes 10, 15003, A Coruna, Galicia, España
 
 43.4597687,-3.8204665
 Calle Vargas 53 2, 39010, Cantabria, Cantabria, España
@@ -955,6 +1170,15 @@ Calle Vargas 53 39071 Santander (Cantabria)
 Calle Vargas 53 3º, 39010, Cantabria, Cantabria, España
 Calle Vargas 53, 39010, Cantabria, Cantabria, España
 C/ VARGAS, 53-2, 39010 Cantabria
+
+43.4617137,-3.8064936
+Avda Calvo Sotelo 25, 39002, Cantabria, Cantabria, España
+Calle Calvo Sotelo 25 39002 Santander (Cantabria)
+Calle Calvo Sotelo 25, 39002, Cantabria, Cantabria, España
+
+43.4617649,-3.8058364
+Calle Calvo Sotelo 27 39002 Santander (Cantabria)
+Calle Calvo Sotelo 27, 39002, Cantabria, Cantabria, España
 
 43.463527,-3.782768
 Promontorio San Martín S/N, 39004 Santander, Cantabria

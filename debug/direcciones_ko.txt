@@ -593,8 +593,8 @@ calle gerona s/n, 47071, valladolid, castilla leon, españa
 calle gonzalez marin 31, 29380, malaga, andalucia, españa
 calle gran via 25 27, 36204, pontevedra, galicia, españa
 calle gran vía 23, 18071, granada, andalucia, españa
-calle gran vía 89, 48011, bizkaia, pais vasco, españa
 calle gran vía d. diego lope de haro 50, 48071, bizkaia, pais vasco, españa
+calle gran vía de san marcos 18, 24002, leon, castilla leon, españa
 calle gran vía don diego lópez de haro 62, 48071, bizkaia, pais vasco, españa
 calle gran vía escultor salzillo 21, 30071, murcia, region murcia, españa
 calle gran vía ramón y cajal 40, 46071, valencia, comunitat valenciana, españa
@@ -1191,6 +1191,7 @@ paseo castellana 3, 28046, madrid, comunidad madrid, españa
 paseo central s/n, 08830, barcelona, cataluna, españa
 paseo de chil 299, 35071, las palmas, canarias, españa
 paseo de la castellana 162, 28071, madrid, comunidad madrid, españa
+paseo de la castellana 272, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28020, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28046, madrid, comunidad madrid, españa
 paseo de la castellana 61, 28071, madrid, comunidad madrid, españa
@@ -1208,6 +1209,7 @@ paseo del rey 1, 28004, madrid, comunidad madrid, españa
 paseo dels arbres 15, 08757, barcelona, cataluna, españa
 paseo doctor fernandez iparraguirre 8, 19007, guadalajara, castilla la mancha, españa
 paseo doctor fernandez iparraguirre 8, 19071, guadalajara, castilla la mancha, españa
+paseo elpido villaverde 3, 36600, pontevedra, galicia, españa
 paseo federico soto 11, 03071, alicante, comunitat valenciana, españa
 paseo fernández iparraguirre 8, 19071, guadalajara, castilla la mancha, españa
 paseo iglesia 7, 23610, jaen, andalucia, españa
@@ -1322,6 +1324,7 @@ plaza mayor s/n, 32130, ourense, galicia, españa
 plaza ministro indalecio prieto 1, 41071, sevilla, andalucia, españa
 plaza misericordia 1, 21230, huelva, andalucia, españa
 plaza montelirio 1, 41700, sevilla, andalucia, españa
+plaza moyua 3, 48009, bizkaia, pais vasco, españa
 plaza n iv km. 17, 11300, cadiz, andalucia, españa
 plaza padre felix 1, 11510, cadiz, andalucia, españa
 plaza parroco jose jimenez 1, 04500, almeria, andalucia, españa

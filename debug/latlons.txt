@@ -28,6 +28,9 @@ Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
 28.116183,-15.423654
 Calle Carvajal, 835004 Las Palmas de Gran Canaria, Las Palmas
 
+28.11791197272083333,-15.4282460089241
+c/ Pérez del Toro, 89, 35004 LAS PALMAS DE GRAN CANARIA, LAS PALMAS
+
 28.1182189,-15.4279158
 Calle Perez Del Toro, 89, Las Palmas
 
@@ -73,6 +76,9 @@ Avenida de la Marina Española 3 52001 Melilla
 35.2959698,-2.9388228
 Paseo Alcalde Rafael Ginel s/n, 52001, Melilla, Melilla, España
 
+35.886277375907,-5.30663888202568333
+c/ Alcalde Manuel Olivencia Amor, s/n, 51001 CEUTA, CEUTA
+
 35.8864626,-5.3079356
 Calle General Serrano Orive 2 51001 Ceuta (Ceuta)
 
@@ -81,10 +87,6 @@ Calle Beatriz de Silva 4, 51001 Ceuta
 
 35.8872271,-5.3060865
 Calle Echegaray s/n, 51001, Ceuta, Ceuta, España
-
-35.8892193,-5.3036387
-Calle Real 20, 51001, Ceuta, Ceuta, España
-c/ Real, 20, 51001 CEUTA
 
 35.8896012,-5.3073929
 Paseo de la Marina Española, 12, 51001 Ceuta
@@ -167,8 +169,8 @@ Calle Marruecos 1 04009 Almería (Almería)
 37.0205115,-4.5617429
 Calle Laguna 3 29200 Antequera (Málaga)
 
-37.156500,-3.606610
-Calle Restauradores, 1, 18006 GRANADA
+37.15650880425166666,-3.60661548149246666
+c/ Restauradores, 1, 18006 GRANADA, GRANADA
 
 37.1603318,-3.6080286
 Calle José Luis Pérez Pujadas 6 18006 Granada (Granada)
@@ -359,8 +361,8 @@ Calle Ebanisteria 6 03071 Alicante/Alacant (Alacant/Alicante)
 38.3403096,-0.4941486
 Avda Oscar Esplá 15, 03007, Alicante, Comunitat Valenciana, España
 
-38.34122415,-0.492487811303904
-Calle Churruca 26, 03003, Alicante, Comunitat Valenciana, España
+38.341203412624,-0.49251318068927166
+c/ Churruca, 26, 03003 ALICANTE/ALACANT, ALICANTE
 
 38.3450256,-0.4883242
 Plaza Montañeta 6 03001 Alicante/Alacant (Alacant/Alicante)
@@ -407,15 +409,14 @@ C/ REPUBLICA DOMINICANA, 10, 06005 Badajoz
 38.8750482,-6.9717057
 Ronda del Pilar 8, 06004 Badajoz
 
+38.8752216654255,-6.97140677093703333
+Ronda del Pilar, 10, 06002 BADAJOZ, BADAJOZ
+
 38.8767548,-6.9726974
 Paseo De San Francisco 17 06001 Badajoz (Badajoz)
 
 38.882019,-6.814568
 Carretera Madrid-Lisboa, (A-5) s/n, 06071 Talavera la Real, Badajoz
-
-38.8834145,-7.0052862
-Calle Almendralejo S/N, 06071, Badajoz, Extremadura, España
-Ronda Del Pilar 10, 06071, Badajoz, Extremadura, España
 
 38.885523,-7.0115439
 Avenida de Elvas, 06006 Badajoz
@@ -442,11 +443,11 @@ Ronda de la Mata 8 13071 Ciudad Real (Ciudad Real)
 38.9846376,-3.9270301
 Calle Ruiz Morote 4 13001 Ciudad Real (Ciudad Real)
 
-38.9855502,-1.8538156
-Avenida de España 31, Albacete
-
 38.9857572,-1.8488527
 Calle Francisco Javier de Moyá 25, 02002 Albacete
+
+38.98605958487766666,-1.85378710988046666
+Avda. de España, 27, 02002 ALBACETE, ALBACETE
 
 38.98727,-1.85409
 Avenida de España, 27, 02002 Albacete
@@ -499,10 +500,7 @@ Calle Colón 60, 46004 Valencia
 39.4703337,-0.3427864
 Calle Músico Ginés 16 46022 València (València/Valencia)
 
-39.4705117,-6.378737399999999
-Avda San Pedro de Alcántara 1, 10001, Caceres, Extremadura, España
-
-39.47089,-6.37815
+39.4708926059455,-6.37815319711376666
 Avda. de España, 14, 10001 CACERES
 
 39.4711714,-6.3870619
@@ -525,14 +523,9 @@ Avda Hernán Cortés 3, 10001, Caceres, Extremadura, España
 
 39.4737507,-0.3649418
 Paseo Alameda 17, 46010, Valencia, Comunitat Valenciana, España
-Passeig de l'Albereda, 28, 46010 València
 
 39.473965,-0.3799675
 Plaza Ciudad de Brujas 6 46001 València (València/Valencia)
-
-39.4763102,-0.3578827
-Avda Blasco Ibañez 48, 46010, Valencia, Comunitat Valenciana, España
-Avda Vicente Blasco Ibáñez 48, 46010, Valencia, Comunitat Valenciana, España
 
 39.48002992,-0.372827053
 C/ TRINIDAD, S/N. EDF. TORRES DEL TURIA, 46010 Valencia
@@ -573,8 +566,8 @@ La Rambla, 18, 07003 PALMA DE MALLORCA
 39.5764083,2.6507868
 Calle Cecilio Metelo 9 07003 Palma (Illes Balears)
 
-39.5770186,2.6491093
-Carrer de Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
+39.576938013771,2.649403702687316666
+c/ Pere Dezcallar i Net, 3, 07003 PALMA DE MALLORCA, ILLES BALEARS
 
 39.602156,2.666685
 GREMI DE SABATERS,39, 07009 Baleares
@@ -597,8 +590,8 @@ Plaza Zocodover 6, 45001 Toledo
 39.86038,-4.02180
 Plaza San Agustín, 3, 45001 TOLEDO
 
-39.8609556,-4.0219001
-Callejón del Moro 4, 45001, Toledo, Castilla La Mancha, España
+39.86116949152535,-4.02190123456721266
+c/ Venancio González, 5, 45001 TOLEDO, TOLEDO
 
 39.8688619,-4.0236783
 Avda General Villalba 3 bis, 45003, Toledo, Castilla La Mancha, España
@@ -612,10 +605,7 @@ Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
 39.9807342,-0.031691
 Calle Cronista Revest 11, 12005, Castellon, Comunitat Valenciana, España
 
-39.9853083,-0.0320344
-Av. del Mar, 6, 12003 Castelló de la Plana, Castelló
-
-39.98536,-0.03286
+39.9853644067796,-0.03286419753015555
 Avda. del Mar, 6, 12003 CASTELLON DE LA PLANA/CASTELLO DE LA PLA
 
 39.986666,-0.04633
@@ -633,12 +623,8 @@ Plaza San Nicolás 6 10600 Plasencia (Cáceres)
 40.066043,-2.131935
 ERAS DEL TIO CAÑAMON N 2 y 4, 16004 Cuenca
 
-40.0726737976074,-2.13507199287415
+40.07264808548416666,-2.13494766152248333
 Parque San Julián 7, 16001 Cuenca
-
-40.07300499999999,-2.135802
-Calle Parque de San Julian 7, 16001, Cuenca, Castilla La Mancha, España
-Pque De San Julián 12, 16001, Cuenca, Castilla La Mancha, España
 
 40.0742351,-2.1362396
 Calle Juan Correcher 2, 16001 Cuenca
@@ -670,11 +656,11 @@ NICANOR VILLALTA 22, 44002 Teruel
 40.33057,-1.08841
 Tarazona de Aragón, 2-A, 44002 TERUEL
 
+40.33159322033892166,-1.0916049382709085
+c/ Tarazona de Aragón, 2-A, 44002 TERUEL, TERUEL
+
 40.3379078,-3.691317
 Acuartelamiento San Cristobal (Villaverde) Avda. Andalucía km 10 28021 Madrid
-
-40.3402129,-1.1073706
-c/ Joaquín Arnau, 22, 44001 TERUEL
 
 40.3403599,-1.1067499
 Plaza San Juan 4, 44001, Teruel
@@ -685,10 +671,6 @@ Plaza San Juan 3 44001 Teruel (Teruel)
 40.3484235,-3.8060812
 Calle Parque Ordesa 3 28924 Alcorcón (Madrid)
 
-40.3530299,-3.87517
-Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
-
-<30m
 40.3530462,-3.8752884
 Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
 
@@ -784,7 +766,6 @@ Calle Montalbán 6 28014 Madrid (Madrid)
 
 40.417955,-3.714312
 Calle Bailén S/N 28071 Madrid (Madrid)
-Calle Bailén S/N, 28071, Madrid, Comunidad Madrid, España
 
 40.4192219,-3.6959774
 Calle Alcalá 47 28014 Madrid (Madrid)
@@ -812,21 +793,15 @@ Calle Tamayo y Baus 4 28004 Madrid (Madrid)
 
 40.4234912,-3.6893974
 Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
-Paseo Recoletos 20-22 28071 Madrid (Madrid)
 
 40.4237313,-3.6791034
 Calle JORGE JUAN 59 28001 Madrid (Madrid)
-
-40.4240751,-3.7129502
-Calle Emilio Jiménez Millas, 1, 28008, Madrid, Comunidad Madrid, España
-Plaza Emilio Jimenez Millas 1, 28008, Madrid, Comunidad Madrid, España
 
 40.4241396,-3.7076358
 Calle San Bernardo 45, 28015 Madrid
 
 40.4243463,-3.686817
 Calle Claudio Coello 31 28001 Madrid (Madrid)
-Calle Claudio Coello 31 28071 Madrid (Madrid)
 
 40.4259384,-3.6995541
 Calle Benificiencia 8 28004 Madrid (Madrid)
@@ -836,11 +811,6 @@ Calle Hermosilla 66 28001 Madrid (Madrid)
 
 40.4263065,-3.6932359
 Calle Génova 20 y 24 28004 Madrid (Madrid)
-
-40.4263524,-3.690811099999999
-Paseo Castellana 3, 28071, Madrid, Comunidad Madrid, España
-Paseo De la Castellana 3, 28071, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 3, 28071, Madrid, Comunidad Madrid, España
 
 40.4265434,-3.6916235
 Plaza De la Provincia 1 28071 Madrid (Madrid)
@@ -859,15 +829,9 @@ Calle de Fortuny, 4, 28010 Madrid
 
 40.4289647,-3.696776
 Calle José Marañón 12 28010 Madrid (Madrid)
-Calle José Marañón 12 28071 Madrid (Madrid)
-Calle José Marañón 12 29071 Madrid (Madrid)
-Calle José Marañón 12, 29071, Madrid, Comunidad Madrid, España
 
 40.4290185,-3.6963731
-Calle Calle Santa Engracia 7 28071 Madrid (Madrid)
 Calle Santa Engracia 7 28010 Madrid (Madrid)
-Calle Santa Engracia 7 28071 Madrid (Madrid)
-Calle Santa Engracia 7, 28010, Madrid, Comunidad Madrid, España
 
 40.4297327,-3.7094414
 Calle Alberto Aguilera 15 duplicado 28015 Madrid (Madrid)
@@ -892,7 +856,6 @@ Julián Camarillo, 30, 28037 Madrid
 
 40.4367195,-3.7322106
 Calle Martín Fierro 5 28040 Madrid (Madrid)
-Calle Martín Fierro 5, 28040, Madrid, Comunidad Madrid, España
 
 40.4369226,-3.6914243
 Calle Miguel Angel 25, 28071 Madrid
@@ -905,25 +868,21 @@ Calle María de Molina 50, 28006 Madrid
 
 40.4380323,-3.7203751
 Avenida Reyes Católicos 4 28040 Madrid (Madrid)
-Avenida Reyes Católicos 4 28071 Madrid (Madrid)
 
 40.4384376,-3.7032098
 Calle José Abascal 4 28003 Madrid (Madrid)
 
 40.4384503,-3.7036891
 Calle José Abascal 2 28003 Madrid (Madrid)
-Calle José Abascal 2 28071 Madrid (Madrid)
 
 40.4386369,-3.7070536
 Calle Cea Bermúdez 5 28003 Madrid (Madrid)
-Calle Cea Bermúdez 5, 28003, Madrid, Comunidad Madrid, España
 
 40.44012545,-3.72883789598223
 Avda Juan de Herrera 2, 28040, Madrid, Comunidad Madrid, España
 
 40.4403311,-3.6709015
 Calle Corazón de María 8 28002 Madrid (Madrid)
-Calle Corazón de María 8, 28002, Madrid, Comunidad Madrid, España
 
 40.4408334,-3.687214
 Calle de Serrano, 115, 28006 Madrid
@@ -932,7 +891,6 @@ Calle de Serrano, 115, 28006 Madrid
 Plaza San Juan de la Cruz s/n 28071 Madrid (Madrid)
 
 40.4412398,-3.6863111
-Calle SERRANO 117 28006 Madrid (Madrid)
 Calle de Serrano, 117, 28006 Madrid
 
 40.441279,-3.6938415
@@ -942,7 +900,6 @@ Plaza San Juan de la Cruz s/n 28071 Madrid (Madrid)
 Calle Velazquez 144 28071 Madrid (Madrid)
 
 40.441416,-3.6919265
-Paseo CASTELLANA 63 28071 Madrid (Madrid)
 Paseo de la Castellana 63 28071 Madrid (Madrid)
 
 40.441464,-3.6989845
@@ -1079,7 +1036,6 @@ Carretera De la Coruña S/N 28040 Madrid (Madrid)
 
 40.4639201,-3.69017
 Paseo De la Castellana 183, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 183 28071 Madrid (Madrid)
 
 40.4663701,0.4691891
 Calle San Francisco 100, 12500, Castellon, Comunitat Valenciana, España
@@ -1089,18 +1045,15 @@ C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID
 
 40.4737694,-3.6866869
 Paseo Castellana 272 28071 Madrid (Madrid)
-Paseo de la Castellana 272 28071 Madrid (Madrid)
 
 40.4750488,-3.6877061
 C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
 
 40.4751479,-3.6882748
-Avenida Monforte de Lemos 3 28071 Madrid (Madrid)
-Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
+Avenida Monforte de Lemos 3, 28029 Madrid
 
 40.4765303,-3.7446241
 Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
-Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
 
 40.481883,-3.660765
 C/ SERRANO GALVACHE, 4 28033 Madrid (Madrid)
@@ -1144,6 +1097,9 @@ C/ ISAAC NEWTON, 8 28760 Tres Cantos (Madrid)
 40.595773,-3.696822
 Calle Alfar 2 28760 Tres Cantos (Madrid)
 
+40.62867429,-3.88286022
+Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (Madrid)
+
 40.6291869,-3.1799277
 Avenida del Ejército, 2, 19004 Guadalajara
 
@@ -1167,9 +1123,8 @@ Calle Intendente Aizpuru 4 05001 Ávila (Ávila)
 
 40.6566953,-4.6877919
 Calle Hornos Caleros 1 05001 Ávila (Ávila)
-Calle Hornos Caleros 1, 05001, Avila, Castilla Leon, España
 
-40.65722,-4.69527
+40.65735704924583333,-4.69529353582356666
 Avenida de Portugal 4, 05001 Ávila
 
 40.6658429,-3.7738645
@@ -1192,8 +1147,6 @@ Calle de San Francisco, 25, 40001 Segovia
 
 40.94926,-4.1196267
 Plaza Adolfo Suárez 1 40001 Segovia (Segovia)
-Plaza Adolfo Suárez 1, 40001, Segovia, Castilla Leon, España
-Plaza de Aldolfo Suarez 1 40001 Segovia (Segovia)
 
 40.9500211,-4.1218532
 Calle Colón 4 40001 Segovia (Segovia)
@@ -1212,7 +1165,6 @@ CAMPUS MIGUEL DE UNAMUNO 37007 Salamanca (Salamanca)
 
 40.9663348,-5.6597035
 Calle Gran Via 31 37001 Salamanca (Salamanca)
-Calle Gran Vía 31 37001 Salamanca (Salamanca)
 
 40.9670165,-5.6632166
 Calle Rector Lucena 12 37071 Salamanca (Salamanca)
@@ -1281,9 +1233,7 @@ Pque De L'Estació del Nord S/N, 08018, Barcelona, Cataluna, España
 PASSEIG MARITIM, 37-49 08003 Barcelona (Barcelona)
 
 41.3955671,2.1650662
-Calle Mallorca 278 08037 Barcelona (Barcelona)
 Calle Mallorca 278, 08037, Barcelona
-Calle Mallorca 278, 08037, Barcelona, Cataluna, España
 
 41.3977019,2.1395674
 Via Augusta 197-199 08021 Barcelona (Barcelona)
@@ -1342,8 +1292,8 @@ Calle Miravete 8, 47130, Valladolid, Castilla Leon, España
 41.6007407,2.2883396
 Calle Alvarez de Castro 15-17 08402 Granollers (Barcelona)
 
-41.6097368,0.6257056999999999
-Calle Jordi Cortada 2, 25001, Lleida, Cataluna, España
+41.6105873,0.626356
+c/ Jordi Cortada, 2, 25001 LLEIDA, LLEIDA
 
 41.613186,0.616294
 C/Dr.Combelles, nº57, 25003 Lleida
@@ -1362,13 +1312,9 @@ Paseo del Canal, 17, 50007 Zaragoza
 
 41.6343889,-0.883425718889643
 Paseo Del Canal 1, 50007, Zaragoza, Aragon, España
-Paseo del Canal 1, 50007 Zaragoza
 
-41.63727,-4.73243
+41.6372799,-4.73243
 C/ Boston, 6, 47007 VALLADOLID
-
-41.6384376,-4.7331289
-Calle Bostón 4 y 6, 47007, Valladolid, Castilla Leon, España
 
 41.639316,-0.880298
 Avda. De Tenor Fleta, 53-55, 50008 Zaragoza
@@ -1385,8 +1331,8 @@ Camino de las Torres, 22, 50008 ZARAGOZA
 41.6456224,-4.7432875
 Avenida Salamanca 20 47015 Valladolid (Valladolid)
 
-41.6480275,-0.8874877999999999
-Calle Doctor Cerrada 6, 50005, Zaragoza, Aragon, España
+41.64789135147433333,-0.88746877760676333
+c/ Doctor Cerrada, 6, 50005 ZARAGOZA, ZARAGOZA
 
 41.6482254,-4.736133
 Calle Francesco Scrimieri 1, 47014, Valladolid, Castilla Leon, España
@@ -1429,7 +1375,9 @@ C/ MIGUEL LUESMA CASTAN, 4 50015 Zaragoza (Zaragoza)
 
 41.698647,-0.8684227000000001
 Carretera de Huesca, s/n, 50090 Zaragoza
-Ctra Huesca S/N, 50090, Zaragoza, Aragon, España
+
+41.7035721,-4.6634777
+Base Militar El Empecinado Carretera de Cabezon, s/n, 47155 Santovenia de Pisuerga (Valladolid)
 
 41.712993,-4.847872
 Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
@@ -1441,7 +1389,6 @@ AVDA. MONTAÑANA, 1005 50059 Zaragoza (Zaragoza)
 SANTA TERESA DE JESUS, 9, 42003 Soria
 
 41.7609514,-2.4650739
-Calle Antolin de soria s/n 42003 Soria (Soria)
 Calle Antolín de Soria S/N, 42003 SORIA
 
 41.7629342,-2.4669826
@@ -1449,7 +1396,6 @@ Calle Caballeros 19 42071 Soria (Soria)
 
 41.7636622,-2.4695844
 Calle Alfonso VIII 2 42003 Soria (Soria)
-Calle Alfonso VIII 2, 42003, Soria, Castilla Leon, España
 
 41.76564,-2.47109
 C/ San Benito, 17, 42001 SORIA
@@ -1466,24 +1412,20 @@ Calle Oviedo 30-32 17005 Girona (Girona)
 41.97973,2.810871
 Avda. Josep Tarrad. i Joan, 3, 17006 GIRONA
 
-41.9814987183,2.816688776
-Santa Eugènia, 40 4, 17005, Girona
+41.98158179759483333,2.816914774288416666
+c/ Santa Eugènia, 40, 17005 GIRONA, GIRONA
 
 41.9839131,2.819503
-Avda 20 de Junio 2, 17001, Girona, Cataluna, España
 Avda Jaume I 17, 17001, Girona, Cataluna, España
-Avenida 20 de Junio 2 17001 Girona (Girona)
+Avenida 20 de Junio 2, 17001 Girona
 
 41.9846285,2.8209345
 Avenida Jaume I 17 17001 Girona (Girona)
 
-42.0018464,-4.5063627
-Avda Comunidad Europea 16, 34004, Palencia, Castilla Leon, España
-
 42.0039547,-5.6738167
 Avenida Luis Morán 4 49600 Benavente (Zamora)
 
-42.00788,-4.51131
+42.0078898305084,-4.51127160493758
 Avda. Comunidad Europea, 16, 34004 PALENCIA
 
 42.0105894,-4.5321141
@@ -1491,7 +1433,6 @@ Plzla De la Sal 1, 34001, Palencia, Castilla Leon, España
 
 42.0141939,-4.5323889
 Avenida Casado del Alisal 4 34001 Abarca de Campos (Palencia)
-Avenida Casado del Alisal 4 34001 Palencia (Palencia)
 
 42.01601415,-4.537611008
 AVDA. SIMON NIETO, 10, PLANTA 2, 34071 Palencia
@@ -1504,14 +1445,9 @@ Plaza Tarascón 2-4 08600 Berga (Barcelona)
 
 42.1364007,-0.4086198
 Plaza Navarra 11 22002 Huesca (Huesca)
-Praza Navarra 11, 22002, Huesca, Aragon, España
 
 42.1394253,-0.414764
 Plaza Cervantes 1 22003 Huesca (Huesca)
-
-42.1409393,-0.4154599
-Plaza Luis Buñuel 3, 22003, Huesca, Aragon, España
-Plaza Luís Buñuel 3, 22003, Huesca, Aragon, España
 
 42.14367797,-0.415999889
 C/AGUSTIN DE CARRERAS, 2-BAJOS, 22004 Huesca
@@ -1552,8 +1488,6 @@ C/ Concejo, 1, 32003 OURENSE
 <30m
 42.3416127,-7.8646634
 Calle Parque de San Lázaro 1 32003 Ourense (Ourense)
-Calle Parque de San Lázaro 1, 32003, Ourense, Galicia, España
-Parque San Lázaro 1 32003 Ourense (Ourense)
 
 42.3416973,-3.6955183
 Calle Vitoria 34 09071 Burgos (Burgos)
@@ -1563,7 +1497,6 @@ Calle Salvador Dalí 13 - 15 32002 Ourense (Ourense)
 
 42.343957,-3.6891862
 Calle Vitoria 39 09004 Burgos (Burgos)
-Calle Vitoria 39 09071 Burgos (Burgos)
 
 42.34409744,-3.688230515
 C/ JESUS MARIA ORDOÑO 4, 8 y 10, 09004 Burgos
@@ -1593,12 +1526,9 @@ Parque San Miguel 11 - 12 26007 Logroño (Rioja, La)
 
 42.4645034,-2.4477555
 Calle Victor Pradera 4 26001 Logroño (Rioja, La)
-Calle Víctor Pradera 4 26001 Logroño (Rioja, La)
-Calle Víctor Pradera 4, 26001, La Rioja, La Rioja, España
 
 42.4654344,-2.4461536
 Calle Muro Francisco de la Mata 3 26001 Logroño (Rioja, La)
-Calle Muro Francisco de la Mata 3, 26001, La Rioja, La Rioja, España
 
 42.46570,-2.44655
 C/ Sagasta, 2, 26001 LOGROÑO
@@ -1611,18 +1541,16 @@ AVD. MONTAÑANA, S/N 50016 Zaragoza (Zaragoza)
 
 42.59728,-8.76775
 Paseo De Elpidio Villaverde 3, 36600, Pontevedra, Galicia, España
-Paseo Elpido Villaverde 3 36600 Vilagarcía de Arousa (Pontevedra)
+
+42.59954990478433333,-5.57280900938936666
+Avda. Padre Isla, 16 - c/v a c/ Lope de Vega, 24002 LEON, LEÓN
 
 42.599861,-5.5766018
 Calle De la Gran Vía de San Marcos 18 24002 León (León)
-Calle Gran Vía de San Marcos 18 24002 León (León)
 
 <30m
 42.5998636,-5.5762375
 Plaza De la Inmaculada 6 24001 León (León)
-
-42.6016737,-5.5749483
-Avda Padre Isla 16, 24002, Leon, Castilla Leon, España
 
 42.60365,-5.57762
 C/ Cinco de Octubre, nº20, 24002 LEON
@@ -1639,19 +1567,14 @@ Avenida Benito Vigo 51 36680 Estrada, A (Pontevedra)
 42.79782538,-1.639130116
 PLAZA DE GONGORA, 5 BAJO, 31006 Navarra
 
-42.798163,-1.6396744
-Plaza Gongora 5, 31006, Navarra, Comunidad Foral Navarra, España
-Plaza Góngora 5, 31006, Navarra, Comunidad Foral Navarra, España
-
 42.806988,-1.597481
 AVDA DE PAMPLONA, 123 MUTILVA 31192 Aranguren (Navarra)
 
 42.8109673,-1.6444606
-Calle Yaguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
 Calle Yanguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
 
-42.81255,-1.64431
-C/ Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA
+42.812552577356,-1.64431863673276
+Avda. Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA, NAVARRA
 
 42.812982,-1.6396816
 Plaza Merindades s/n 31071 Pamplona/Iruña (Navarra)
@@ -1662,8 +1585,8 @@ Calle Gral. Chinchilla, 10, 31002 Pamplona, Navarra
 42.8400304,-2.6812916
 Paseo Fray Francisco 17 01071 Vitoria-Gasteiz (Araba/Álava)
 
-42.843313,-2.6728038
-c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ÁLAVA
+42.84322676885116666,-2.67256631832676666
+c/ Eduardo Dato, 36, 01005 VITORIA-GASTEIZ, ARABA/ÁLAVA
 
 42.8465832,-2.670779
 Calle Olaguíbel 1 01071 Vitoria-Gasteiz (Araba/Álava)
@@ -1697,8 +1620,6 @@ Urizar Kalea, 13, 48012 Bilbo, Bizkaia
 
 43.2625765,-2.9354636
 Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
-Plaza Moyua 3 48009 Bilbao (Bizkaia)
-Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
 
 43.2634303,-2.9356481
 Plaza Federico Moyua 5 48071 Bilbao (Bizkaia)
@@ -1715,14 +1636,14 @@ GRAN VIA, 50, 48011 Bizkaia
 43.26499,-2.94469
 C/ Gran Vía, 89, 48011 BILBAO
 
-43.3025346,-1.9796228
-Calle Podabines 3, 20010, Gipuzkoa, Pais Vasco, España
-
 43.3064184,-1.980232
 Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
 
 43.30867,-1.97077
 Hermanos Otamendi, 13, 20014 DONOSTIA-SAN SEBASTIAN
+
+43.3087121,-1.9703154
+c/ Hermanos Otamendi, 13 4º, 20014 DONOSTIA-SAN SEBASTIAN, GIPUZKOA
 
 43.3234893,-1.9683927
 Calle Jose María Soroa 27, 20013, Gipuzkoa, Pais Vasco, España
@@ -1730,8 +1651,8 @@ Calle Jose María Soroa 27, 20013, Gipuzkoa, Pais Vasco, España
 43.3248213,-8.3303869
 Calle De Manuel María 5 15705 Coruña, A (Coruña, A)
 
-43.3426925,-8.40181043796387
-Ronda Camilo José Cela 16, 15009, A Coruna, Galicia, España
+43.34266949152536666,-8.40314814814746566
+Ronda Camilo José Cela, 16, 15009 CORUÑA (A), A CORUÑA
 
 43.3495994,-4.0473251
 Calle Ramón y Cajal 4 39300 Torrelavega (Cantabria)
@@ -1745,15 +1666,14 @@ C/ ALEJANDRO BARREIRO NOYA, 1-3, 15006 A Coruña
 43.35822,-5.84951
 C/ Pérez de la Sala, 9, 33007 OVIEDO
 
-43.3597161,-5.851915
-Calle Santa Teresa 10, 33007, Asturias, Principado Asturias, España
+43.3596001,-5.8517499
+c/ Santa Teresa de Jesús, 8-10, 33007 OVIEDO, ASTURIAS
 
 43.3604469,-5.8521701
 Plaza De España 6 33007 Oviedo (Asturias)
 
 43.3607591,-5.85233
 Plaza España 3, 33007, Asturias, Principado Asturias, España
-Plaza de España, 4, 33007 Oviedo, Asturias, Asturias
 
 43.3608724,-5.8554928
 Plaza de España, 2, 33007 Oviedo, Asturias
@@ -1766,7 +1686,6 @@ Calle 19 de Julio 1 33071 Oviedo (Asturias)
 
 43.3643266,-8.4055351
 Plaza Orense 11 15004 Coruña, A (Coruña, A)
-Plaza Orense 11, 15004, A Coruna, Galicia, España
 
 43.3651522,-8.4236199
 Calle Canceliña, 8 15071 A Coruña
@@ -1776,7 +1695,6 @@ Calle General Elorza 17 33001 Oviedo (Asturias)
 
 43.3693969,-8.40612
 Calle Comandante Fontanes 10 15003 Coruña, A (Coruña, A)
-Calle Comandante Fontanes 10, 15003, A Coruna, Galicia, España
 
 43.375789,-8.401339
 Calle Adelaida Muro 12 15002 Coruña, A (Coruña, A)
@@ -1804,12 +1722,9 @@ Avda. Calvo Sotelo, 8, 39002 SANTANDER
 
 43.4617137,-3.8064936
 Avda Calvo Sotelo 25, 39002, Cantabria, Cantabria, España
-Calle Calvo Sotelo 25 39002 Santander (Cantabria)
-Calle Calvo Sotelo 25, 39002, Cantabria, Cantabria, España
 
 43.4617649,-3.8058364
 Calle Calvo Sotelo 27 39002 Santander (Cantabria)
-Calle Calvo Sotelo 27, 39002, Cantabria, Cantabria, España
 
 43.47171,-3.80201
 EDIFICIO JUAN JORDA. AVDA DE LOS CASTROS S/N 39005 Santander (Cantabria)
