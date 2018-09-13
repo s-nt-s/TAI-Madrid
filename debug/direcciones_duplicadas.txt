@@ -2,10 +2,6 @@ campus universidad autonoma de barcelona (bellaterra) 08193 cerdanyola del vall√
 41.501156,2.111265
 41.501491,2.110539
 
-carretera de la coru√±a s/n 28040 madrid (madrid)
-40.4583374,-3.7480376
-40.4637992,-3.7862919
-
 plaza san juan de la cruz s/n 28071 madrid (madrid)
 40.4408886,-3.6934286
 40.441279,-3.6938415

@@ -63,8 +63,10 @@ Atanagildo 7, 03300, Alicante, Comunitat Valenciana, España
 Atarjea S/N, 11393, Cadiz, Andalucia, España
 Australia
 Austria
+Autopista A6 Madrid - La Coruña, Salida 8 (Hipódromo)
 Autopista Gc 1 S/N, 35230, Las Palmas, Canarias, España
 Autopista Gc 1 s/n, 35230, Las Palmas, Canarias, España
+Autovía A-II, km 36 Finca la Canaleja Apdo. Correos 1045, 28800 Alcalá de Henares (Madrid)
 Autovía M 40 S/N, 28223, Madrid, Comunidad Madrid, España
 Autovía de Colmenar Viejo, km. 18,2 - 28760 El Goloso (Madrid)
 Av. Cañoto esquina Calle Perú Santa Cruz de la Sierra, Bolivia Estado Plurinacional de
@@ -2431,7 +2433,6 @@ Calle Cea Bermúdez 35-37 28071 Madrid (Madrid)
 Calle Cea Bermúdez 5 28003 Madrid (Madrid)
 Calle Cebadilla S/N, 21550, Huelva, Andalucia, España
 Calle Cecilio Metelo 9 07003 Palma (Illes Balears)
-Calle Cecilio Metelo 9, 07003, Illes Balears, Illes Balears, España
 Calle Cedaceros 11 28014 Acebeda, La (Madrid)
 Calle Cedaceros 11 28014 Madrid (Madrid)
 Calle Cedaceros 11, 28014, Madrid, Comunidad Madrid, España
@@ -3402,7 +3403,6 @@ Calle Gran Vía Escultor Salzillo 21, 30005 Murcia
 Calle Gran Vía Escultor Salzillo 21, 30071, Murcia, Region Murcia, España
 Calle Gran Vía Ramón y Cajal 40, 46071, Valencia, Comunitat Valenciana, España
 Calle Gran Vía de Colón 21 18071 Granada (Granada)
-Calle Gran Vía de San Marcos 18, 24002, Leon, Castilla Leon, España
 Calle Gran Vía de San Marcos 33 24001 León (León)
 Calle Gran Vía de San Marcos 37 9º, 24001, Leon, Castilla Leon, España
 Calle Gran de Gracia 118, 08012, Barcelona, Cataluna, España
@@ -4524,7 +4524,6 @@ Calle Olaguibel 11, 01004, Alava, Pais Vasco, España
 Calle Olaguibel 7 01004 Vitoria-Gasteiz (Araba/Álava)
 Calle Olaguibel 7, 01001, Alava, Pais Vasco, España
 Calle Olaguíbel 1 01071 Vitoria-Gasteiz (Araba/Álava)
-Calle Olaguíbel 1, 01071, Alava, Pais Vasco, España
 Calle Olaguíbel 11, 01004, Alava, Pais Vasco, España
 Calle Olavarrieta 25, 33207, Asturias, Principado Asturias, España
 Calle Olavarrieta S/N, 33700, Asturias, Principado Asturias, España
@@ -5648,7 +5647,6 @@ Calle Torrelaguna 56 28027 Madrid (Madrid)
 Calle Torrelaguna 56, 28027, Madrid, Comunidad Madrid, España
 Calle Torrelaguna 58, 28071 Madrid
 Calle Torrelaguna 73 28027 Madrid (Madrid)
-Calle Torrelaguna 73, 28027, Madrid, Comunidad Madrid, España
 Calle Torrella 106, 17257, Girona, Cataluna, España
 Calle Torremiro 12, 12511, Castellon, Comunitat Valenciana, España
 Calle Torreondo 20, 48960, Bizkaia, Pais Vasco, España
@@ -5853,7 +5851,6 @@ Calle Vitoria 34 09071 Burgos (Burgos)
 Calle Vitoria 34, 09071, Burgos, Castilla Leon, España
 Calle Vitoria 39 09004 Burgos (Burgos)
 Calle Vitoria 39, 09007, Burgos, Castilla Leon, España
-Calle Vitoria 39, 09071, Burgos, Castilla Leon, España
 Calle Vitoria 63 09006 Burgos (Burgos)
 Calle Vitoria 63 09007 Burgos (Burgos)
 Calle Vitoria, 16, 09004 Burgos
@@ -6720,7 +6717,6 @@ Paseo Castellana 106 108, 28020, Madrid, Comunidad Madrid, España
 Paseo Castellana 106-108, 28020 Madrid
 Paseo Castellana 109, 28046 Madrid
 Paseo Castellana 147 28020 Madrid (Madrid)
-Paseo Castellana 147, 28020, Madrid, Comunidad Madrid, España
 Paseo Castellana 162, 28071, Madrid, Comunidad Madrid, España
 Paseo Castellana 272 28071 Madrid (Madrid)
 Paseo Castellana 3 28046 Madrid (Madrid)
@@ -6841,7 +6837,6 @@ Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara)
 Paseo Doctor Fernandez Iparraguirre 8, 19007, Guadalajara, Castilla La Mancha, España
 Paseo Doctor Fernandez Iparraguirre 8, 19071, Guadalajara, Castilla La Mancha, España
 Paseo Doctor Torres Villarroel 72 - 74 37005 Salamanca (Salamanca)
-Paseo Elpido Villaverde 3, 36600, Pontevedra, Galicia, España
 Paseo Espolon 6, 42001, Soria, Castilla Leon, España
 Paseo Estacio 19, 43800, Tarragona, Cataluna, España
 Paseo Estrellas Local 1, 03581, Alicante, Comunitat Valenciana, España
@@ -6953,7 +6948,6 @@ Paseo de la Castellana 5 28032 Madrid (Madrid)
 Paseo de la Castellana 63 28003 Madrid (Madrid)
 Paseo de la Castellana 63 28071 Madrid (Madrid)
 Paseo de la Castellana 63, 28046, Madrid, Comunidad Madrid, España
-Paseo de la Castellana 63, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 67, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 75, 28043, Madrid, Comunidad Madrid, España
 Paseo de la Castellana, 147 28046 Madrid
@@ -7172,7 +7166,6 @@ Plaza De la Pau 1, 25007, Lleida, Cataluna, España
 Plaza De la Paz 1, 16123, Cuenca, Castilla La Mancha, España
 Plaza De la Provincia 1 28012 Madrid (Madrid)
 Plaza De la Provincia 1 28071 Madrid (Madrid)
-Plaza De la Provincia 1, 28071, Madrid, Comunidad Madrid, España
 Plaza De la Remonta 12, 28039, Madrid, Comunidad Madrid, España
 Plaza De la Ronda 6, 47610, Valladolid, Castilla Leon, España
 Plaza De la Salve 10, 48007, Bizkaia, Pais Vasco, España
@@ -7417,7 +7410,6 @@ Plaza Montañeta 6 03001 Alicante/Alacant (Alacant/Alicante)
 Plaza Montelirio 1, 41700, Sevilla, Andalucia, España
 Plaza Mossen Joan Llopis Pi 1, 08870, Barcelona, Cataluna, España
 Plaza Movimiento Ciudadano 1, 28041, Madrid, Comunidad Madrid, España
-Plaza Moyua 3, 48009, Bizkaia, Pais Vasco, España
 Plaza Muntanyeta 6, 03001, Alicante, Comunitat Valenciana, España
 Plaza Muñoz Grandes 4, 16640, Cuenca, Castilla La Mancha, España
 Plaza N Iv Km. 17, 11300, Cadiz, Andalucia, España

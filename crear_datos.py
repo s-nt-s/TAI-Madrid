@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import argparse
+import sys
 import os
 import re
 import xml.etree.ElementTree as ET
@@ -863,6 +864,14 @@ dict_organi_rpt = {o.idOrganismo: o for o in organismos_rpt}
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
 
 
+
+rcp_organi = {}
+for o in organismos:
+    o.genera_codigos()
+    for c in o.codigos:
+        if isinstance(c, int):
+            rcp_organi[c] = o
+
 print ("Añadiendo arreglos manuales")
 count = 0
 total = len(arreglos)
@@ -871,11 +880,21 @@ fusionados = set()
 for rpt, org in arreglos.items():
     count += 1
     rpt_cod = rpt
-    print("%3d%% completado: %-30s" %
-          (count * 100 / total, str(rpt) + " -> " + org), end="\r")
     org = dict_organismos.get(org, None)
     rpt = dict_organi_rpt.get(rpt, None)
+    rcp_org = rcp_organi.get(rpt_cod, None)
     if org and rpt:
+        '''
+        if rcp_org:
+            if org.deDireccion and rcp_org.deDireccion and org.deDireccion!=rcp_org.deDireccion:
+                print (org.latlon or rcp_org.latlon)
+                print (org.deDireccion)
+                print (rcp_org.deDireccion)
+                print("")
+        if rpt.idOrganismo in org.codigos:
+            print ("%s: %s" % (rpt_cod, org.idOrganismo))
+        '''
+        
         org.codigos.add(rpt.idOrganismo)
         org.idPadres = org.idPadres.union(rpt.idPadres)
         for o in organismos:
@@ -883,7 +902,9 @@ for rpt, org in arreglos.items():
                 org.codigos = org.codigos.union(o.codigos)
                 org.idPadres = org.idPadres.union(o.idPadres)
                 fusionados.add(o)
+    print("%3d%% completado: %-30s" % (count * 100 / total, str(rpt_cod) + " -> " + org.idOrganismo), end="\r")
 print("")
+#sys.exit()
 organismos = [o for o in organismos if o not in fusionados]
 
 rcp_ok = set()

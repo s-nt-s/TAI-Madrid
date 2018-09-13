@@ -33,6 +33,12 @@
 29364   37.9824407,-1.124728     Calle General Sanmartín S/N, 30003 Murcia
 28435   43.4080225,-5.7372225   Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
 
+# http://wwwsp.inia.es/Inia/Paginas/DondeEsta.aspx
+# http://wwwsp.inia.es/Investigacion/centros/crf/Paginas/CRF.aspx
+1149    40.457479,-3.751016    Autopista A6 Madrid - La Coruña, Salida 8 (Hipódromo)
+27738   40.457479,-3.751016    Autopista A6 Madrid - La Coruña, Salida 8 (Hipódromo)
+27745   40.5149352,-3.311583   Autovía A-II, km 36 Finca la Canaleja Apdo. Correos 1045, 28800 Alcalá de Henares (Madrid)
+
 # http://www.seg-social.es/wps/wcm/connect/wss/c6439f57-7f78-45cb-a634-d68ea96c9f93/RISPAgosto2018.xls?MOD=AJPERES&CVID=
 # https://contrataciondelestado.es/wps/wcm/connect/7cb14bc3-c388-4d81-bfa8-0a3166839583/DOC201803021231347103-18_PPT-Anexo%2BI%2B-%2BSedes.xlsx?MOD=AJPERES&attachment=true&CACHE=NONE&CONTENTCACHE=NONE
 48053    43.36203,-8.40677    C/ Federico Tapia,54-3º, 15005 CORUÑA (A)

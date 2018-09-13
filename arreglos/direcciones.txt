@@ -380,6 +380,10 @@ Avda Del Rey Santo 2, 13071, Ciudad Real, Castilla La Mancha, España
 Calle Francisco Fontecha 2, 02001 Albacete
 Calle Francisco Fontecha 2, 02071, Albacete, Castilla La Mancha, España
 
+39.4556133,-0.4046032
+Camino Nuevo de Picaña 27 46014 València (València/Valencia)
+Cmno Nuevo de Picaña 27, 46014, Valencia, Comunitat Valenciana, España
+
 39.4611021,-6.3752422
 Avda de la Hispanidad 6, 10002 Caceres
 Avda De la Hispanidad 6, 10002, Caceres, Extremadura, España
@@ -427,6 +431,10 @@ Calle Constitución 4, 07001 Illes Balears
 Calle Constitució 4 07001 Palma (Illes Balears)
 Calle Constitució 4, 07001, Illes Balears, Illes Balears, España
 Calle Constitución 4, 07001, Illes Balears, Illes Balears, España
+
+39.5764083,2.6507868
+Calle Cecilio Metelo 9 07003 Palma (Illes Balears)
+Calle Cecilio Metelo 9, 07003, Illes Balears, Illes Balears, España
 
 39.5902242,2.6510362
 Calle Gaspar Sabater 3, 07010 Illes Balears
@@ -547,6 +555,12 @@ Calle Atocha 106, 28012 Madrid
 Calle Atocha 106 28012 Madrid (Madrid)
 Calle Atocha 106, 28012, Madrid, Comunidad Madrid, España
 Calle De Atocha 106 28012 Madrid (Madrid)
+Calle Atocha 106, 28012 Madrid
+Calle De Atocha 106, 28012, Madrid, Comunidad Madrid, España
+
+40.4117689,-3.668548
+Calle Astros 5-7 28007 Madrid (Madrid)
+Calle Astros 5 7, 28071, Madrid, Comunidad Madrid, España
 
 40.4133587,-3.689281
 Calle Alberto Bosch 16, 28014 Madrid
@@ -673,6 +687,10 @@ Paseo Castellana 3, 28071, Madrid, Comunidad Madrid, España
 Paseo De la Castellana 3, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 3, 28071, Madrid, Comunidad Madrid, España
 
+40.4265434,-3.6916235
+Plaza De la Provincia 1 28071 Madrid (Madrid)
+Plaza De la Provincia 1, 28071, Madrid, Comunidad Madrid, España
+
 40.4284486,-3.7002598
 Calle Sagasta 10 28004 Madrid (Madrid)
 Calle Sagasta 10, 28004, Madrid, Comunidad Madrid, España
@@ -713,6 +731,8 @@ Calle María de Molina 50 28071 Madrid (Madrid)
 40.4380323,-3.7203751
 Avenida Reyes Católicos 4 28040 Madrid (Madrid)
 Avenida Reyes Católicos 4 28071 Madrid (Madrid)
+Avenida Reyes Católicos 4 28040 Madrid (Madrid)
+Avda Reyes Católicos 4, 28071, Madrid, Comunidad Madrid, España
 
 40.4384503,-3.7036891
 Calle José Abascal 2 28003 Madrid (Madrid)
@@ -737,6 +757,10 @@ Calle SERRANO 117 28006 Madrid (Madrid)
 40.441416,-3.6919265
 Paseo de la Castellana 63 28071 Madrid (Madrid)
 Paseo CASTELLANA 63 28071 Madrid (Madrid)
+Paseo de la Castellana 63 28071 Madrid (Madrid)
+Paseo de la Castellana 63, 28071, Madrid, Comunidad Madrid, España
+Paseo de la Castellana 63 28071 Madrid (Madrid)
+Paseo de la Castellana 63, 28071, Madrid, Comunidad Madrid, España
 
 40.4423267,-3.6996497
 Calle Rios Rosas 23, 28003 Madrid
@@ -756,6 +780,10 @@ Calle Condesa de Venadito 9, 28027 Madrid
 Calle Condesa de Venadito 9 28027 Madrid (Madrid)
 Calle Condesa de Venadito 9, 28027, Madrid, Comunidad Madrid, España
 C/ Condesa de Venadito, 9 -28027- MADRID
+
+40.4449205,-3.6552326
+Calle Torrelaguna 73 28027 Madrid (Madrid)
+Calle Torrelaguna 73, 28027, Madrid, Comunidad Madrid, España
 
 40.4453677,-3.6906392
 Paseo Castellana 106-108, 28020 Madrid
@@ -880,6 +908,10 @@ Paseo de la Castellana 162, 28046, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, 28071, Madrid, Comunidad Madrid, España
 Paseo de la Castellana 162, Planta 7 28046 Madrid (Madrid)
 
+40.4603221,-3.6907088
+Paseo Castellana 147 28020 Madrid (Madrid)
+Paseo Castellana 147, 28020, Madrid, Comunidad Madrid, España
+
 40.4603502,-3.6926738
 Calle Capitán Haya 41, 28046 Madrid
 Calle Capitán Haya 41 28046 Madrid (Madrid)
@@ -912,6 +944,8 @@ Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
 40.4765303,-3.7446241
 Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
 Avenida Cardenal Herrera Oria 378 28071 Madrid (Madrid)
+Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
+Avda Cardenal Herrera Oria 378, 28071, Madrid, Comunidad Madrid, España
 
 40.4801306,-3.3593311
 Paseo de Aguadores 2, 28804 Alcalá de Henares, Madrid
@@ -1070,6 +1104,8 @@ Parque San Lázaro 1 32003 Ourense (Ourense)
 42.343957,-3.6891862
 Calle Vitoria 39 09004 Burgos (Burgos)
 Calle Vitoria 39 09071 Burgos (Burgos)
+Calle Vitoria 39 09004 Burgos (Burgos)
+Calle Vitoria 39, 09071, Burgos, Castilla Leon, España
 
 42.3471479,-3.6934661
 Avenida Reyes Católicos 22, 09005, Burgos
@@ -1096,6 +1132,8 @@ Calle Muro Francisco de la Mata 3, 26001, La Rioja, La Rioja, España
 42.59728,-8.76775
 Paseo De Elpidio Villaverde 3, 36600, Pontevedra, Galicia, España
 Paseo Elpido Villaverde 3 36600 Vilagarcía de Arousa (Pontevedra)
+Paseo De Elpidio Villaverde 3, 36600, Pontevedra, Galicia, España
+Paseo Elpido Villaverde 3, 36600, Pontevedra, Galicia, España
 
 42.5996139,-5.5767185
 Avda Gran Vía de San Marcos 27, 24001, Leon, Castilla Leon, España
@@ -1107,6 +1145,8 @@ GRAN VIA DE SAN MARCOS,27 - 6ª, 24001 León
 42.599861,-5.5766018
 Calle De la Gran Vía de San Marcos 18 24002 León (León)
 Calle Gran Vía de San Marcos 18 24002 León (León)
+Calle De la Gran Vía de San Marcos 18 24002 León (León)
+Calle Gran Vía de San Marcos 18, 24002, Leon, Castilla Leon, España
 
 42.8109673,-1.6444606
 Calle Yanguas y Miranda 31 31003 Pamplona/Iruña (Navarra)
@@ -1120,10 +1160,20 @@ C/ Conde Oliveto, 7, 31003 PAMPLONA/IRUÑA
 Plaza de las Merindades S/N, Pamplona, Navarra
 Plaza Merindades s/n, 31071, Navarra, Comunidad Foral Navarra, España
 
+42.8465832,-2.670779
+Calle Olaguíbel 1 01071 Vitoria-Gasteiz (Araba/Álava)
+Calle Olaguíbel 1, 01071, Alava, Pais Vasco, España
+
+43.0108047,-7.5581854
+Calle Armanyá 1 27001 Lugo (Lugo)
+Plaza Armanyá 1, 27001, Lugo, Galicia, España
+
 43.2625765,-2.9354636
 Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
 Plaza Moyua 3 48009 Bilbao (Bizkaia)
 Plaza de Federico Moyúa 3 48009 Bilbao (Bizkaia)
+Plaza Federico Moyua 3 48009 Bilbao (Bizkaia)
+Plaza Moyua 3, 48009, Bizkaia, Pais Vasco, España
 
 43.2638984,-2.9383273
 Gran Vía de Don Diego López de Haro, 50, 48009 Bilbao, Vizcaya

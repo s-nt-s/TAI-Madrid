@@ -1007,14 +1007,14 @@ Calle San Enrique 17 28020 Madrid (Madrid)
 40.4567244,-3.6889892
 Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España
 
+40.457479,-3.751016
+Autopista A6 Madrid - La Coruña, Salida 8 (Hipódromo)
+
 40.457925,-3.672011
 C/ VICTOR DE LA SERNA,43, 28016 Madrid
 
 40.4579287,-3.6888691
 Paseo De la Castellana 160, 28046 Madrid
-
-40.4583374,-3.7480376
-Carretera De la Coruña S/N 28040 Madrid (Madrid)
 
 40.4583429,-3.6893451
 Paseo De la Castellana 162, 28046 Madrid
@@ -1030,9 +1030,6 @@ Calle Capitán Haya 41, 28046 Madrid
 
 40.4627493,-3.6702392
 Calle Santa María Magdalena 16 28016 Madrid (Madrid)
-
-40.4637992,-3.7862919
-Carretera De la Coruña S/N 28040 Madrid (Madrid)
 
 40.4639201,-3.69017
 Paseo De la Castellana 183, 28046, Madrid, Comunidad Madrid, España
@@ -1075,6 +1072,9 @@ Avda Llano Castellano 17, 28034, Madrid, Comunidad Madrid, España
 
 40.491936,-3.682308
 C/ ARTURO DUPERIER, 4 28029 Madrid (Madrid)
+
+40.5149352,-3.311583
+Autovía A-II, km 36 Finca la Canaleja Apdo. Correos 1045, 28800 Alcalá de Henares (Madrid)
 
 40.5270226,-3.6588274
 Calle La Granja 8, 28108, Madrid, Comunidad Madrid, España

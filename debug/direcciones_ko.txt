@@ -594,7 +594,6 @@ calle gonzalez marin 31, 29380, malaga, andalucia, españa
 calle gran via 25 27, 36204, pontevedra, galicia, españa
 calle gran vía 23, 18071, granada, andalucia, españa
 calle gran vía d. diego lope de haro 50, 48071, bizkaia, pais vasco, españa
-calle gran vía de san marcos 18, 24002, leon, castilla leon, españa
 calle gran vía don diego lópez de haro 62, 48071, bizkaia, pais vasco, españa
 calle gran vía escultor salzillo 21, 30071, murcia, region murcia, españa
 calle gran vía ramón y cajal 40, 46071, valencia, comunitat valenciana, españa
@@ -806,7 +805,6 @@ calle obispo pavon 19, 10182, caceres, extremadura, españa
 calle obispo rosales 5, 14540, cordoba, andalucia, españa
 calle oia 2, 36780, pontevedra, galicia, españa
 calle olaguibel 1, 01071, alava, pais vasco, españa
-calle olaguíbel 1, 01071, alava, pais vasco, españa
 calle olavarrieta 25, 33207, asturias, principado asturias, españa
 calle olivares 3, 41620, sevilla, andalucia, españa
 calle olivenza 14, 06330, badajoz, extremadura, españa
@@ -1014,7 +1012,6 @@ calle virgen del amparo s/n, 41927, sevilla, andalucia, españa
 calle virgen la cabeza 191, 18817, granada, andalucia, españa
 calle viriato 7, 42110, soria, castilla leon, españa
 calle vitoria 34, 09071, burgos, castilla leon, españa
-calle vitoria 39, 09071, burgos, castilla leon, españa
 calle vitruvio 1, 28071, madrid, comunidad madrid, españa
 calle vía de dublín 7, 28070, madrid, comunidad madrid, españa
 calle zapadores 46 y 48, 46006, valencia, comunitat valenciana, españa
@@ -1185,7 +1182,6 @@ paseo asuncion 1, 21300, huelva, andalucia, españa
 paseo barro soto s/n, 15330, a coruna, galicia, españa
 paseo blas de lezo 1, 29649, malaga, andalucia, españa
 paseo castellana 106 108, 28020, madrid, comunidad madrid, españa
-paseo castellana 147, 28020, madrid, comunidad madrid, españa
 paseo castellana 162, 28071, madrid, comunidad madrid, españa
 paseo castellana 3, 28046, madrid, comunidad madrid, españa
 paseo central s/n, 08830, barcelona, cataluna, españa
@@ -1195,7 +1191,6 @@ paseo de la castellana 272, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28020, madrid, comunidad madrid, españa
 paseo de la castellana 3, 28046, madrid, comunidad madrid, españa
 paseo de la castellana 61, 28071, madrid, comunidad madrid, españa
-paseo de la castellana 63, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 67, 28071, madrid, comunidad madrid, españa
 paseo de la castellana 75, 28043, madrid, comunidad madrid, españa
 paseo de la estacion s/n, 23770, jaen, andalucia, españa
@@ -1209,7 +1204,6 @@ paseo del rey 1, 28004, madrid, comunidad madrid, españa
 paseo dels arbres 15, 08757, barcelona, cataluna, españa
 paseo doctor fernandez iparraguirre 8, 19007, guadalajara, castilla la mancha, españa
 paseo doctor fernandez iparraguirre 8, 19071, guadalajara, castilla la mancha, españa
-paseo elpido villaverde 3, 36600, pontevedra, galicia, españa
 paseo federico soto 11, 03071, alicante, comunitat valenciana, españa
 paseo fernández iparraguirre 8, 19071, guadalajara, castilla la mancha, españa
 paseo iglesia 7, 23610, jaen, andalucia, españa
@@ -1266,7 +1260,6 @@ plaza de la estacion 12, 23650, jaen, andalucia, españa
 plaza de la fon 6, 12140, castellon, comunitat valenciana, españa
 plaza de la guardia civil 1, 28320, madrid, comunidad madrid, españa
 plaza de la marina española s/n, 11471, cadiz, andalucia, españa
-plaza de la provincia 1, 28071, madrid, comunidad madrid, españa
 plaza de la vila 27, 08760, barcelona, cataluna, españa
 plaza de la vila s/n, 08650, barcelona, cataluna, españa
 plaza de la villa 6, 25100, lleida, cataluna, españa
@@ -1324,7 +1317,6 @@ plaza mayor s/n, 32130, ourense, galicia, españa
 plaza ministro indalecio prieto 1, 41071, sevilla, andalucia, españa
 plaza misericordia 1, 21230, huelva, andalucia, españa
 plaza montelirio 1, 41700, sevilla, andalucia, españa
-plaza moyua 3, 48009, bizkaia, pais vasco, españa
 plaza n iv km. 17, 11300, cadiz, andalucia, españa
 plaza padre felix 1, 11510, cadiz, andalucia, españa
 plaza parroco jose jimenez 1, 04500, almeria, andalucia, españa
