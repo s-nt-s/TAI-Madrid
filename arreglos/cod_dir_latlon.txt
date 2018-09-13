@@ -130,6 +130,7 @@
 
 # http://www.ejercito.mde.es/unidades/Sevilla/suigesur/Organizacion/index.html
 # http://www.diaper.ejercito.mde.es/apoyo/ofap/granada/
+46859   38.017050,-4.782166     Carretera N-432a, km 253, 14320 Obejo, CORDOBA
 28191   37.175075,-3.596593     Pza. San Juan de la Cruz, 26, 18009 GRANADA
 47226   37.193729,-3.604185     Av. de Pulianas, 36, 18011 GRANADA
 
