@@ -332,6 +332,9 @@ Calle Obispo Cobos 6 23400 Úbeda (Jaén)
 38.01618,-1.1778
 C/ Ortega y Gasset, 7, 30009 MURCIA
 
+38.017050,-4.782166
+Carretera N-432a, km 253, 14320 Obejo, CORDOBA
+
 38.022977,-1.171836
 CAMPUS UNIVERSITARIO DE ESPINARDO 30100 Murcia (Murcia)
 
