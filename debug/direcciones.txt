@@ -5997,6 +5997,7 @@ Carrera De Maó a Sant Lluís S/N 07703 Maó-Mahón (Illes Balears)
 Carretera A-23 S/N 50800 Zuera (Zaragoza)
 Carretera Adanero - Gijón KM. 94 47071 Valladolid (Valladolid)
 Carretera Adanero-Gijón Km. 94 47620 Villanubla (Valladolid)
+Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
 Carretera Alcala-Meco Km. 2 28805 Alcalá de Henares (Madrid)
 Carretera Alcala-Meco Km. 4,5 28805 Alcalá de Henares (Madrid)
 Carretera Alcalá-Meco KM. 4,5 28005 Alcalá de Henares (Madrid)
@@ -6058,6 +6059,7 @@ Carretera M-241 km. 5,750 28595 Estremera (Madrid)
 Carretera M-301 Km 10.5, 28330 San Martín de la Vega, Madrid
 Carretera M-609 Km 3.5 28791 Soto del Real (Madrid)
 Carretera Madrid-Alicante S/N 03113 Alicante/Alacant (Alacant/Alicante)
+Carretera Madrid-Lisboa, (A-5) s/n, 06071 Talavera la Real, Badajoz
 Carretera Majadahonda-Pozuelo Km 2 28220 Majadahonda (Madrid)
 Carretera Mao-Sant Lluis KM. 3 07703 Maó-Mahón (Illes Balears)
 Carretera Mazarron KM. 3 30120 Murcia (Murcia)
@@ -6095,6 +6097,7 @@ Carretera de Ajalvir Km. 4 28850 Torrejón de Ardoz (Madrid)
 Carretera de Huesca, km 508, 50820 Zaragoza
 Carretera de Huesca, s/n, 50090 Zaragoza
 Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
+Carretera de Manacor, s/n, 07071 Islas Baleares
 Carretera de Porzuna 1 13071 Ciudad Real (Ciudad Real)
 Carretera de Taliarte s/n 35200 Telde (Palmas, Las)
 Carretera de la Carraca, s/n - Población Militar de San Carlos

@@ -185,3 +185,12 @@
 
 # http://www.defensa.gob.es/defensa_yo/delegaciones/
 29386   35.8896012,-5.3073929   Paseo de la Marina Española, 12, 51001 Ceuta
+
+http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-49---RCC-Palma/
+49150   39.564130,2.748437     Carretera de Manacor, s/n, 07071 Islas Baleares
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-23/
+29157   38.882019,-6.814568     Carretera Madrid-Lisboa, (A-5) s/n, 06071 Talavera la Real, Badajoz
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Ala-37/
+29092   41.712993,-4.847872     Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
+http://www.ejercitodelaire.mde.es/EA/archivohistorico/index.html
+29145   40.3530299,-3.87517     Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid

@@ -1,3 +1,7 @@
+avenida de madrid, 1, 28670 villaviciosa de odón, madrid
+40.3530299,-3.87517
+40.3530462,-3.8752884
+
 campus universidad autonoma de barcelona (bellaterra) 08193 cerdanyola del vallès (barcelona)
 41.501156,2.111265
 41.501491,2.110539

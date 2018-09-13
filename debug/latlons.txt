@@ -410,6 +410,9 @@ Ronda del Pilar 8, 06004 Badajoz
 38.8767548,-6.9726974
 Paseo De San Francisco 17 06001 Badajoz (Badajoz)
 
+38.882019,-6.814568
+Carretera Madrid-Lisboa, (A-5) s/n, 06071 Talavera la Real, Badajoz
+
 38.8834145,-7.0052862
 Calle Almendralejo S/N, 06071, Badajoz, Extremadura, España
 Ronda Del Pilar 10, 06071, Badajoz, Extremadura, España
@@ -555,6 +558,9 @@ C/ CATEDRATICO JOSE BELTRAN MARTINEZ, 2 46980 Paterna (Valencia / València)
 39.5421521,-0.3813444
 Calle Passeig Reial Sèquia 1 46113 Moncada (València/Valencia)
 
+39.564130,2.748437
+Carretera de Manacor, s/n, 07071 Islas Baleares
+
 39.5670133,2.654739
 Carrer d'Antoni Planas i Franch, 9, 07001 Palma, Illes Balears
 
@@ -679,6 +685,10 @@ Plaza San Juan 3 44001 Teruel (Teruel)
 40.3484235,-3.8060812
 Calle Parque Ordesa 3 28924 Alcorcón (Madrid)
 
+40.3530299,-3.87517
+Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
+
+<30m
 40.3530462,-3.8752884
 Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
 
@@ -1420,6 +1430,9 @@ C/ MIGUEL LUESMA CASTAN, 4 50015 Zaragoza (Zaragoza)
 41.698647,-0.8684227000000001
 Carretera de Huesca, s/n, 50090 Zaragoza
 Ctra Huesca S/N, 50090, Zaragoza, Aragon, España
+
+41.712993,-4.847872
+Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
 
 41.723972,-0.810236
 AVDA. MONTAÑANA, 1005 50059 Zaragoza (Zaragoza)
