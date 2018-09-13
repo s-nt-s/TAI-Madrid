@@ -176,8 +176,12 @@
 # 46893   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
 # 46892   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
 # 48863   40.4551872,-3.7266839     Avenida Computense 40 28071 Madrid (Madrid)
-# 28276    40.6802742,-3.7833587    Ctra. de Miraflores (km 34) 28770 Colmenar Viejo Madrid
-# 30463    36.5911131,-6.2266604    Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
-# 31803    40.4750488,-3.6877061    C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
-# 36441    38.9855502,-1.8538156    Avenida de España 31, Albacete
 ## 28197   Carretera de Torrelodones a Colmenar Viejo, km 10,7 Hoyo de Manzanares, Madrid
+36441    38.9855502,-1.8538156    Avenida de España 31, Albacete
+28959   36.52296,-6.28436   Plaza de San Severiano 3, 11007 Cadiz
+30463    36.5911131,-6.2266604    Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
+28276    40.6802742,-3.7833587    Ctra. de Miraflores (km 34) 28770 Colmenar Viejo Madrid
+31803    40.4750488,-3.6877061    C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
+
+# http://www.defensa.gob.es/defensa_yo/delegaciones/
+29386   35.8896012,-5.3073929   Paseo de la Marina Española, 12, 51001 Ceuta

@@ -1469,6 +1469,7 @@ Avenida de Bueu 12 36940 Cangas (Pontevedra)
 Avenida de Castilla 12 19002 Guadalajara (Guadalajara)
 Avenida de Elvas, 06006 Badajoz
 Avenida de España 30 51002 Ceuta (Ceuta)
+Avenida de España 31, Albacete
 Avenida de España, 27, 02002 Albacete
 Avenida de Europa 1 06004 Badajoz (Badajoz)
 Avenida de Europa 1, 06004 Badajoz, Extremadura
@@ -1591,6 +1592,7 @@ C/ JUAN DE LA CIERVA, 3 28006 Madrid (Madrid)
 C/ JUAN II, 4 Bajo, 26006 La Rioja
 C/ MIGUEL LUESMA CASTAN, 4 50015 Zaragoza (Zaragoza)
 C/ MIRLO 4, 18014 Granada
+C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
 C/ OQUENDO, 16, PLANTA 4, 20004 Gipuzkoa
 C/ Ortega y Gasset, 7, 30009 MURCIA
 C/ PINTOR JESUS APELLANIZ, 11, BAJO, 01008 Araba-Álava
@@ -6515,6 +6517,7 @@ Ctra Zaragoza Soria S/N, 50540, Zaragoza, Aragon, España
 Ctra Zarramala 1, 19240, Guadalajara, Castilla La Mancha, España
 Ctra Zorroza Castrajana 16, 48013, Bizkaia, Pais Vasco, España
 Ctra de la Sierra s/n, 28048, Madrid, Comunidad Madrid, España
+Ctra. de Miraflores (km 34) 28770 Colmenar Viejo Madrid
 Cuartel Guardia Civil 11, 10510, Caceres, Extremadura, España
 Cuartel S/N, 11570, Cadiz, Andalucia, España
 Cuba
@@ -6652,6 +6655,7 @@ Montaña Blanca Maspalomas S/N, 35100, Las Palmas, Canarias, España
 Montorretas S/N, 48200, Bizkaia, Pais Vasco, España
 Mozambique
 Muelle Aduana s/n, 46024, Valencia, Comunitat Valenciana, España
+Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
 Muelle Juan Carlos I P.I.F., 11207, Cadiz, Andalucia, España
 Muelle Levante S/N, 04071, Almeria, Andalucia, España
 Muelle Santa Lucia(Puerto Cart S/N, 30203, Murcia, Region Murcia, España
@@ -7008,6 +7012,7 @@ Paseo de la Castellana, 147 28046 Madrid
 Paseo de la Chopera 4 28045 Madrid (Madrid)
 Paseo de la Farola 7 29071 Málaga (Málaga)
 Paseo de la Habana 180, 28036, Madrid, Comunidad Madrid, España
+Paseo de la Marina Española, 12, 51001 Ceuta
 Paseo de san Roque 3 05003 Ávila (Ávila)
 Paseo del Canal 1, 50007 Zaragoza
 Paseo del Canal, 17, 50007 Zaragoza
@@ -7605,6 +7610,7 @@ Plaza de Madrid S/N, 11011 Cádiz
 Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
 Plaza de Murillo, 2 28014 Madrid (Madrid)
 Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
+Plaza de San Severiano 3, 11007 Cadiz
 Plaza de Velarde s/n 39001 Santander (Cantabria)
 Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
 Plaza de la Almadraba s/n 21410 Isla Cristina (Huelva)

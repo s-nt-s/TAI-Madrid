@@ -86,6 +86,9 @@ Calle Echegaray s/n, 51001, Ceuta, Ceuta, España
 Calle Real 20, 51001, Ceuta, Ceuta, España
 c/ Real, 20, 51001 CEUTA
 
+35.8896012,-5.3073929
+Paseo de la Marina Española, 12, 51001 Ceuta
+
 35.88999,-5.303592
 C/ SALUD TEJERO, 16-18 ENTREPLANTA, 51001 Ceuta
 
@@ -107,6 +110,9 @@ Carretera de la Carraca, s/n - Población Militar de San Carlos
 36.51632,-6.28492
 Avda. Amilcar Barca, nº 5, 11008 CADIZ
 
+36.52296,-6.28436
+Plaza de San Severiano 3, 11007 Cadiz
+
 36.5251857,-6.2883475
 Calle Barcelona 1, 11008 Cadiz, Andalucia, España
 
@@ -118,6 +124,9 @@ Calle Rafael de la Viesca 3, 11004, Cadiz, Andalucia, España
 
 36.53676000000001,-6.301629999999999
 Paseo de Carlos III, 3C, 11003 Cádiz
+
+36.5911131,-6.2266604
+Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
 
 36.6980222,-6.1369178
 Plaza de las Marinas 1, 11471 Jerez de la Frontera, Cádiz
@@ -429,6 +438,9 @@ Ronda de la Mata 8 13071 Ciudad Real (Ciudad Real)
 
 38.9846376,-3.9270301
 Calle Ruiz Morote 4 13001 Ciudad Real (Ciudad Real)
+
+38.9855502,-1.8538156
+Avenida de España 31, Albacete
 
 38.9857572,-1.8488527
 Calle Francisco Javier de Moyá 25, 02002 Albacete
@@ -1069,6 +1081,9 @@ C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID
 Paseo Castellana 272 28071 Madrid (Madrid)
 Paseo de la Castellana 272 28071 Madrid (Madrid)
 
+40.4750488,-3.6877061
+C/ Monforte de Lemos 1, Pabellón 8. 28029 Madrid, España
+
 40.4751479,-3.6882748
 Avenida Monforte de Lemos 3 28071 Madrid (Madrid)
 Calle Monforte de Lemos 3 5, 28029, Madrid, Comunidad Madrid, España
@@ -1149,6 +1164,9 @@ Avenida de Portugal 4, 05001 Ávila
 
 40.6658429,-3.7738645
 Calle Padre Claret 15 28770 Colmenar Viejo (Madrid)
+
+40.6802742,-3.7833587
+Ctra. de Miraflores (km 34) 28770 Colmenar Viejo Madrid
 
 40.8134473,0.5159582
 Calle Ulldecona 31 43500 Tortosa (Tarragona)
