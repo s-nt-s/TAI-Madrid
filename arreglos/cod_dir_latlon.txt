@@ -174,8 +174,12 @@
 48836   41.7035721,-4.6634777   Base Militar El Empecinado Carretera de Cabezon, s/n, 47155 Santovenia de Pisuerga (Valladolid)
 28197   40.62867429,-3.88286022     Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (Madrid)
 # 31793 40.4753922,-3.6900447 Avda. Monforte de Lemos, 5, 28029 Madrid (Madrid)
-# 31793 40,459551,-3,864592 Carretera de Majadahonda a Pozuelo, km 2,2, 28220 Majadahonda (Madrid)
-
+# 31793 40,459551,-3,864592     Carretera de Majadahonda a Pozuelo, km 2,2, 28220 Majadahonda (Madrid)
+28213   41.5928836,-4.7601888   Carretera de Rueda, km 0,5, 47153 Valladolid (Valladolid)
+49754   41.6477913,-0.8851905   Plaza de Aragón, 9, 50004 Zaragoza (Zaragoza)
+28398   41.6695088,-1.0200418   Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
+28289   39.4738481,-0.3694289   Plaza de Tetuán, 22, 46003 Valencia (Valencia)
+44223   39.6194816,-0.4725756    Base Militar Jaime I Ctra. Portacoeli, s/n, 46117 Bétera (Valencia)
 
 # http://www.defensa.gob.es/defensa_yo/delegaciones/
 29386   35.8896012,-5.3073929   Paseo de la Marina Española, 12, 51001 Ceuta

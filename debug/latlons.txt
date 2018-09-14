@@ -533,6 +533,9 @@ Avda Hernán Cortés 3, 10001, Caceres, Extremadura, España
 39.4737507,-0.3649418
 Paseo Alameda 17, 46010, Valencia, Comunitat Valenciana, España
 
+39.4738481,-0.3694289
+Plaza de Tetuán, 22, 46003 Valencia (Valencia)
+
 39.473965,-0.3799675
 Plaza Ciudad de Brujas 6 46001 València (València/Valencia)
 
@@ -1304,6 +1307,9 @@ Paseo Mossên Jacint Verdaguer 84 08700 Igualada (Barcelona)
 41.5911766,-4.8293253
 Calle Miravete 8, 47130, Valladolid, Castilla Leon, España
 
+41.5928836,-4.7601888
+Carretera de Rueda, km 0,5, 47153 Valladolid (Valladolid)
+
 41.6007407,2.2883396
 Calle Alvarez de Castro 15-17 08402 Granollers (Barcelona)
 
@@ -1346,6 +1352,9 @@ Camino de las Torres, 22, 50008 ZARAGOZA
 41.6456224,-4.7432875
 Avenida Salamanca 20 47015 Valladolid (Valladolid)
 
+41.6477913,-0.8851905
+Plaza de Aragón, 9, 50004 Zaragoza (Zaragoza)
+
 41.64789135147433333,-0.88746877760676333
 c/ Doctor Cerrada, 6, 50005 ZARAGOZA, ZARAGOZA
 
@@ -1378,6 +1387,9 @@ Calle Perdiguera 5 50014 Zaragoza (Zaragoza)
 
 41.6688675,-3.6896425
 Calle Burgo de Osma 7-9 09400 Aranda de Duero (Burgos)
+
+41.6695088,-1.0200418
+Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
 
 41.6733145,-0.8806945
 Carretera de Huesca, km 508, 50820 Zaragoza

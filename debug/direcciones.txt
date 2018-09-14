@@ -1530,7 +1530,9 @@ Barro San Juan S/N, 45630, Toledo, Castilla La Mancha, España
 Barro Saramagal S/N, 32720, Ourense, Galicia, España
 Barro Sorribero Alto 68, 39470, Cantabria, Cantabria, España
 Barro Veracruz 2, 49300, Zamora, Castilla Leon, España
+Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
 Base Militar El Empecinado Carretera de Cabezon, s/n, 47155 Santovenia de Pisuerga (Valladolid)
+Base Militar Jaime I Ctra. Portacoeli, s/n, 46117 Bétera (Valencia)
 Base Álvarez de Sotomayor S/N, 04240, Almeria, Andalucia, España
 Bd du Régent, 52 1000 Bruselas, Belgica
 Bda. de la Paz S/N, 23110, Jaen, Andalucia, España
@@ -6048,6 +6050,7 @@ Carretera de Huesca, s/n, 50090 Zaragoza
 Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
 Carretera de Manacor, s/n, 07071 Islas Baleares
 Carretera de Porzuna 1 13071 Ciudad Real (Ciudad Real)
+Carretera de Rueda, km 0,5, 47153 Valladolid (Valladolid)
 Carretera de Taliarte s/n 35200 Telde (Palmas, Las)
 Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (Madrid)
 Carretera de la Carraca, s/n - Población Militar de San Carlos
@@ -7534,6 +7537,7 @@ Plaza Vázquez de Molina 4, 23400, Jaen, Andalucia, España
 Plaza Zocodover 1, 45001, Toledo, Castilla La Mancha, España
 Plaza Zocodover 6, 45001 Toledo
 Plaza Zocodover 6, 45071, Toledo, Castilla La Mancha, España
+Plaza de Aragón, 9, 50004 Zaragoza (Zaragoza)
 Plaza de Baixamar 1 ,07701 Maó-Mahón, Illes Balears
 Plaza de Carabanchel 5 28025 Madrid (Madrid)
 Plaza de Castilla y León s/n, 49014, Zamora, Castilla Leon, España
@@ -7547,6 +7551,7 @@ Plaza de Madrid s/n, 11010, Cadiz, Andalucia, España
 Plaza de Murillo, 2 28014 Madrid (Madrid)
 Plaza de Pío XII nº 6, 20071 Donostia, San Sebastián
 Plaza de San Severiano 3, 11007 Cadiz
+Plaza de Tetuán, 22, 46003 Valencia (Valencia)
 Plaza de Velarde s/n 39001 Santander (Cantabria)
 Plaza de Weyler S/N, 38003 Santa Cruz de Tenerife
 Plaza de la Almadraba s/n 21410 Isla Cristina (Huelva)
