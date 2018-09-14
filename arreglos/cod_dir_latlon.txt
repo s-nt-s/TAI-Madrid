@@ -203,3 +203,5 @@
 29165   38.9546018, -1.8777616      Carretera de las Peñas de San Pedro, km 3.8, 02071 Albacete
 # http://www.armada.mde.es/ArmadaPortal/page/Portal/ArmadaEspannola/conocenosorganizacion/prefLang-es/03Flota--03Flota-Fuerza-Accion-Maritima--01MandoNavalCanarias--01cnlaspalmas-es
 29042   28.113848,-15.4207909   Plaza de la Feria, 4335003 Las Palmas de Gran Canaria, Las Palmas
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Agrupacion-de-la-Base-Aerea-de-Zaragoza/
+29093   41.669525,-1.020042    Carretera del Aeropuerto, s/n, 50071 Zaragoza, Aragón

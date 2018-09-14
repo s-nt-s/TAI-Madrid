@@ -1389,7 +1389,7 @@ Calle Perdiguera 5 50014 Zaragoza (Zaragoza)
 Calle Burgo de Osma 7-9 09400 Aranda de Duero (Burgos)
 
 41.6695088,-1.0200418
-Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
+Carretera del Aeropuerto, s/n, 50071 Zaragoza, Aragón
 
 41.6733145,-0.8806945
 Carretera de Huesca, km 508, 50820 Zaragoza

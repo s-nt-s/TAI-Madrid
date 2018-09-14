@@ -1059,6 +1059,10 @@ Plaza Nuestra Señora del Pilar sn, 50003, Zaragoza, Aragon, España
 Plaza Nuestra Señora del Pilar s/n 50003 Zaragoza (Zaragoza)
 Plaza Nuestra Señora del Pilar sn 50003 Zaragoza (Zaragoza)
 
+41.6695088,-1.0200418
+Carretera del Aeropuerto, s/n, 50071 Zaragoza, Aragón
+Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
+
 41.698647,-0.8684227000000001
 Carretera de Huesca, s/n, 50090 Zaragoza
 Ctra Huesca S/N, 50090, Zaragoza, Aragon, España

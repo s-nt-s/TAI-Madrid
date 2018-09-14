@@ -1530,7 +1530,6 @@ Barro San Juan S/N, 45630, Toledo, Castilla La Mancha, España
 Barro Saramagal S/N, 32720, Ourense, Galicia, España
 Barro Sorribero Alto 68, 39470, Cantabria, Cantabria, España
 Barro Veracruz 2, 49300, Zamora, Castilla Leon, España
-Base Aérea de Zaragoza Carretera del Aeropuerto, s/n, 50071 Zaragoza (Zaragoza)
 Base Militar El Empecinado Carretera de Cabezon, s/n, 47155 Santovenia de Pisuerga (Valladolid)
 Base Militar Jaime I Ctra. Portacoeli, s/n, 46117 Bétera (Valencia)
 Base Álvarez de Sotomayor S/N, 04240, Almeria, Andalucia, España
@@ -6057,6 +6056,7 @@ Carretera de la Carraca, s/n - Población Militar de San Carlos
 Carretera de la Ribera S/N 21007 Huelva (Huelva)
 Carretera de la Sierra s/n 28048 Madrid (Madrid)
 Carretera de las Peñas de San Pedro, km 3.8, 02071 Albacete
+Carretera del Aeropuerto, s/n, 50071 Zaragoza, Aragón
 Carretera del Cobre Km. 4,5 11206 Algeciras (Cádiz)
 Carretera del cobre 4.5 11206 Algeciras (Cádiz)
 Carretera el Galeón 32 38700 Santa Cruz de la Palma (Santa Cruz de Tenerife)
