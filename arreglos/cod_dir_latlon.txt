@@ -19,7 +19,6 @@
 49031   40.4078464,-3.6861369   Calle de Alfonso XII 3, 28014 Madrid
 27646   40.4111064,-3.6911267   Plaza de Murillo, 2 28014 Madrid (Madrid)
 28192   40.6291869,-3.1799277    Avenida del Ejército, 2, 19004 Guadalajara
-28395   41.6733145,-0.8806945    Carretera de Huesca, km 508, 50820 Zaragoza
 28406   42.3488645,-3.6774901    Glorieta de Logroño 2, 09006 Burgos
 44312   38.9857572,-1.8488527    Calle Francisco Javier de Moyá 25, 02002 Albacete
 46883   41.6343889,-0.883425718889643    Paseo del Canal 1, 50007 Zaragoza
@@ -189,3 +188,14 @@
 29092   41.712993,-4.847872     Carretera Adanero-Gijón N-601 Km. 206, 47620 Villanubla, Valladolid
 # http://www.ejercitodelaire.mde.es/EA/archivohistorico/index.html
 29145   40.3530299,-3.87517     Avenida de Madrid, 1, 28670 Villaviciosa de Odón, Madrid
+# http://www.ejercito.mde.es/unidades/Zaragoza/aalog41/Localizacion/index.html
+28395   41.6733145,-0.8806945    Carretera de Huesca, km 508, 50820 Zaragoza
+28390   41.3395607,2.0400897    C/ Pau Claris 34, 08830 Sant Boi de Llobregat, Barcelona
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Maestranza-Aerea-de-Sevilla-MAESE/
+29180   37.366902, -6.0063146   Avenida García Morato, s/n, 41011 Tablada, Sevilla
+# https://www.informa.es/directorio-empresas/Empresa_PARQUE-CENTRO-MANTENIMIENTO-MATERIAL-INGENIEROS-MDE.html
+28221   40.637702,-3.191691     Carretera cabanillas, s/n, 19004 Guadalajara
+# http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Maestranza-Aerea-de-Albacete-MAESAL/
+29165   38.9546018, -1.8777616      Carretera de las Peñas de San Pedro, km 3.8, 02071 Albacete
+# http://www.armada.mde.es/ArmadaPortal/page/Portal/ArmadaEspannola/conocenosorganizacion/prefLang-es/03Flota--03Flota-Fuerza-Accion-Maritima--01MandoNavalCanarias--01cnlaspalmas-es
+29042   28.113848,-15.4207909   Plaza de la Feria, 4335003 Las Palmas de Gran Canaria, Las Palmas

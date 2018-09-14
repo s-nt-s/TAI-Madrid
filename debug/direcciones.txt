@@ -1377,6 +1377,7 @@ Avenida Francia 57 22700 Jaca (Huesca)
 Avenida Francisco Javier 9 41018 Sevilla (Sevilla)
 Avenida Francisco la Roche 49 38001 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
 Avenida Garcia Morato S/N 41011 Sevilla (Sevilla)
+Avenida García Morato, s/n, 41011 Tablada, Sevilla
 Avenida Gasteiz 13-15 01071 Vitoria-Gasteiz (Araba/Álava)
 Avenida General Perón 38 28020 Madrid (Madrid)
 Avenida General Perón 38 28071 Madrid (Madrid)
@@ -1597,6 +1598,7 @@ C/ OQUENDO, 16, PLANTA 4, 20004 Gipuzkoa
 C/ Ortega y Gasset, 7, 30009 MURCIA
 C/ PINTOR JESUS APELLANIZ, 11, BAJO, 01008 Araba-Álava
 C/ Pablo Picasso, nº 8, 41018 SEVILLA
+C/ Pau Claris 34, 08830 Sant Boi de Llobregat, Barcelona
 C/ Pechuán, 1. 28002 Madrid
 C/ Pinar de Valsaín, 1, 40005 SEGOVIA
 C/ Pintor El Greco nº 4. 28040 Madrid
@@ -6039,6 +6041,7 @@ Carretera Torreblanca-Mairena Alcor Paraje de la Trinidad KM.3,5 41007 Sevilla (
 Carretera Torreblanca-Mairena de Alcor KM. 3 41007 Utrera (Sevilla)
 Carretera Torreblanca-Mairena de Alcor KM. 3,5 41020 Sevilla (Sevilla)
 Carretera Vegadeo-Pontevedra S/N 27560 Monterroso (Lugo)
+Carretera cabanillas, s/n, 19004 Guadalajara
 Carretera de Ajalvir Km. 4 28850 Torrejón de Ardoz (Madrid)
 Carretera de Huesca, km 508, 50820 Zaragoza
 Carretera de Huesca, s/n, 50090 Zaragoza
@@ -6050,6 +6053,7 @@ Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (M
 Carretera de la Carraca, s/n - Población Militar de San Carlos
 Carretera de la Ribera S/N 21007 Huelva (Huelva)
 Carretera de la Sierra s/n 28048 Madrid (Madrid)
+Carretera de las Peñas de San Pedro, km 3.8, 02071 Albacete
 Carretera del Cobre Km. 4,5 11206 Algeciras (Cádiz)
 Carretera del cobre 4.5 11206 Algeciras (Cádiz)
 Carretera el Galeón 32 38700 Santa Cruz de la Palma (Santa Cruz de Tenerife)
@@ -7553,6 +7557,7 @@ Plaza de la Constitución 1, 37001, Salamanca, Castilla Leon, España
 Plaza de la Constitución 5, 15001 A Coruña
 Plaza de la Constitución, s/n, 11008 CADIZ, CÁDIZ
 Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
+Plaza de la Feria, 4335003 Las Palmas de Gran Canaria, Las Palmas
 Plaza de la Iglesia 6 26200 Haro (Rioja, La)
 Plaza de la Inmaculada 6, 24001, Leon, Castilla Leon, España
 Plaza de la Montañeta 5 03071 Alicante/Alacant (Alacant/Alicante)

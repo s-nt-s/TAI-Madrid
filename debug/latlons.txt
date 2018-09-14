@@ -25,6 +25,9 @@ Plaza De los Derechos Humanos S/N, 35003 Palmas de Gran Canaria
 28.1131597,-15.42136
 Plaza de la Feria 24, 35003, Las Palmas, Canarias, España
 
+28.113848,-15.4207909
+Plaza de la Feria, 4335003 Las Palmas de Gran Canaria, Las Palmas
+
 28.116183,-15.423654
 Calle Carvajal, 835004 Las Palmas de Gran Canaria, Las Palmas
 
@@ -232,6 +235,9 @@ AVDA. REINA MERCEDES, 10 41012 Sevilla (Sevilla)
 37.3599972,-5.9383839
 UNIVERSIDAD PABLO DE OLAVIDE EDIFICIO 46 CTRA. DE UTRERA KM 1 41013 Sevilla (Sevilla)
 
+37.366902, -6.0063146
+Avenida García Morato, s/n, 41011 Tablada, Sevilla
+
 37.3751137,-6.0094534
 Calle Graham Bell 5 41010 Sevilla (Sevilla)
 
@@ -430,6 +436,9 @@ Plaza De Sta María 5 06800 Mérida (Badajoz)
 38.9269573,1.4144827
 Avda Bartolomé Roselló 21, 07800, Illes Balears, Illes Balears, España
 Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
+
+38.9546018, -1.8777616
+Carretera de las Peñas de San Pedro, km 3.8, 02071 Albacete
 
 38.9683728,-0.1787664
 Avenida Alacant 33 46701 Gandia (València/Valencia)
@@ -1112,6 +1121,9 @@ C/ Carmen, 2, 19001 GUADALAJARA
 40.63374,-3.174355
 AVDA. DEL EJERCITO,12 - 3A. PLANTA, 19071 Guadalajara
 
+40.637702,-3.191691
+Carretera cabanillas, s/n, 19004 Guadalajara
+
 40.65277364,-4.693243504
 DOCTOR JESUS GALAN,1, 05003 Ávila
 
@@ -1186,6 +1198,9 @@ Calle Cristòfol Raventós 12 08800 Vilanova i la Geltrú (Barcelona)
 
 41.3011311,2.0683224
 Calle Centro de Carga Aérea S/N, 08820, Barcelona, Cataluna, España
+
+41.3395607,2.0400897
+C/ Pau Claris 34, 08830 Sant Boi de Llobregat, Barcelona
 
 41.3540372,-1.6383515
 Calle Arquitecto Medarde 7 50300 Calatayud (Zaragoza)
