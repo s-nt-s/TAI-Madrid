@@ -131,6 +131,7 @@
 
 # Wikipedia/Google
 28743   37.600311,-0.988611     Calle Real, 26, 30201 Cartagena, Murcia
+28725   37.600311,-0.988611     Calle Real, 26, 30201 Cartagena, Murcia
 28870   43.4797,-8.2371         Rúa Argüelles, 4, 15401 Ferrol, A Coruña
 28978   36.495833,-6.177222     Carretera de la Carraca, s/n - Población Militar de San Carlos
 49038   37.604675,-0.992708     Paseo Alfonso XII, s/n, 30201 Cartagena, Murcia

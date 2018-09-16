@@ -324,9 +324,16 @@ class Puesto:
     @property
     def abbr_puesto(self):
         dePuesto = self.dePuesto
-        dePuesto = dePuesto.replace(
-            "PROGRAMADOR / PROGRAMADORA ", "PROGRAMADOR/A ")
-        dePuesto = dePuesto.replace("JEFE / JEFA ", "JEFE/A ")
+        for s1, s2 in (
+            ("PROGRAMADOR / PROGRAMADORA", "PROGRAMADOR/A"),
+            ("JEFE / JEFA", "JEFE/A"),
+            ("ADMINISTRADOR / ADMINISTRADORA", "ADMINISTRADOR/A"),
+            ("COORDINADOR / COORDINADORA", "COORDINADOR/A"),
+            ("MONITOR / MONITORA", "MONITOR/A"),
+            ("SECRETARIO / SECRETARIA", "SECRETARIO/A"),
+            ("TECNICO / TECNICA", "TECNICO/A")
+        ):
+            dePuesto = dePuesto.replace(s1+" ", s2+" ")
         return dePuesto
 
 
