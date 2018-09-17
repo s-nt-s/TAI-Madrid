@@ -331,7 +331,8 @@ class Puesto:
             ("COORDINADOR / COORDINADORA", "COORDINADOR/A"),
             ("MONITOR / MONITORA", "MONITOR/A"),
             ("SECRETARIO / SECRETARIA", "SECRETARIO/A"),
-            ("TECNICO / TECNICA", "TECNICO/A")
+            ("TECNICO / TECNICA", "TECNICO/A"),
+            ("OPERADOR / OPERADORA", "OPERADOR/A"),
         ):
             dePuesto = dePuesto.replace(s1+" ", s2+" ")
         return dePuesto

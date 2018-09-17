@@ -140,13 +140,13 @@ def crear_descripcion(orgs):
         if len(direcciones) > 1 and org.deDireccion:
             description += "Dirección: %s\n" % (org.deDireccion,)
         if org.url:
-            description += org.url
+            description += org.url + "\n"
         dePuestos = sorted(set([p.abbr_puesto for p in org.puestos]))
         for dePuesto in dePuestos:
             puestos = [p for p in org.puestos if p.abbr_puesto == dePuesto]
             if len(puestos) == 1:
                 p = puestos[0]
-                description += "\n%s/%s - %s" % (p.idPuesto,
+                description += "\n%s/%s - %s\n" % (p.idPuesto,
                                                  p.nivel, p.abbr_puesto)
             else:
                 description += "\n(%s) %s:" % (len(puestos), dePuesto)
