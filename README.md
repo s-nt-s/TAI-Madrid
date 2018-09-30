@@ -156,7 +156,7 @@ Esto se resume en que:
 Esto queda representado en los listados de destinos con filas que estan tachadas, ver por ejemplo [el de Madrid](https://s-nt-s.github.io/TAI-Madrid/724/28/index.html)
 * En vez de fusionar los organismos con `dir3`, los fusiono con `organismos.json` de la v1, lo cual en la practica significa que evitamos perder los organismos que han desaparecido de `administracion.gob.es`. Esto puede provocar que haya organismos por duplicado en el [listado de direcciones](file:///home/santos/wks/TAI/docs/direcciones.html), pero hara que no se pierdan chinchetas en [el mapa](https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8).
 
-Por todo ello es muy importante reviséis los datos y aportéis en los <issues>.
+Por todo ello es muy importante reviséis los datos y aportéis en los [issues](issues).
 
 ---------
 
