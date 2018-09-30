@@ -295,7 +295,6 @@ calle alfonso xii 3, 28014, madrid, comunidad madrid, españa
 calle alférez provisional 3, 15006, a coruna, galicia, españa
 calle alicante 3 5, 03100, alicante, comunitat valenciana, españa
 calle allue salvador 32, 50830, zaragoza, aragon, españa
-calle almagro 33, 28071, madrid, comunidad madrid, españa
 calle almanzora 28, 04100, almeria, andalucia, españa
 calle almeria 4, 23290, jaen, andalucia, españa
 calle almirante garrocho 1, 21074, huelva, andalucia, españa

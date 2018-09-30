@@ -34,6 +34,8 @@ parser.add_argument('--gob', action='store_true',
                     help='Solo genera la parte de administracion.gob.es')
 parser.add_argument('--fusion', action='store_true',
                     help='Fusionar organismo administracion.gob.es con dir3_E')
+parser.add_argument('--fusion-con-v1', action='store_true',
+                    help='Fusionar organismo administracion.gob.es con organismos.json de v1 en vez de con dir3_E')
 
 args = parser.parse_args()
 
@@ -54,6 +56,8 @@ re_paren = re.compile(r"\(.*$")
 
 arregla_direcciones = get_direcciones_txt()
 
+puestos_v1 = Puesto.load(name="datos/v1.0/destinos_all.json", descripciones="datos/v1.0/descripciones.json")
+organis_v1 = Organismo.load(name="datos/v1.0/organismos.json")
 
 def parse(cell, parse_number=True):
     if not cell:
@@ -260,6 +264,23 @@ if args.puestos or args.todo:
 
     Organismo.save(list(organismos.values()), name="organismos_rpt")
 
+    print("Añadimos los puestos de la v1")
+    ids_puestos = set([p.idPuesto for p in todos])
+    total = len(puestos_v1)
+    count = 0
+    ok = 0
+    for p in puestos_v1:
+        if p.idPuesto not in ids_puestos:
+            p.desaparecido = True
+            p.estado = "D"
+            todos.append(p)
+            ok = ok + 1
+        count = count + 1
+        print("%3d%% completado: %-30s (%s)" %
+              (count * 100 / total, p.idPuesto, ok), end="\r")
+    print("")
+
+    
     for p in todos:
         data = p.__dict__
         keys = [k for k in data.keys() if k.startswith("id")
@@ -273,7 +294,7 @@ if args.puestos or args.todo:
                 p.remove.add(k2)
                 k = data[k1]
                 v = data[k2]
-                idde[sufi][k] = v
+                idde[sufi][str(k)] = str(v)
 
     for pdf in pdfs:
         count = count + 1
@@ -341,7 +362,7 @@ if args.puestos or args.todo:
                         idde[key][clave] = value
                         clave = None
                         value = None
-    print("100%% completado")
+    print("100% completado")
     
     idde = Descripciones(**idde)
     idde.save()
@@ -402,6 +423,7 @@ if args.puestos or args.todo:
 
     print ("Filtrando convocatorias")
     dic_puestos = {str(p.idPuesto): p for p in todos}
+    dic_puestos_v1 = {str(p.idPuesto): p for p in puestos_v1}
     for year, tipo, nombramientos in convocatorias:
         count = count + 1
         print("%3d%% completado: %-30s" %
@@ -412,7 +434,7 @@ if args.puestos or args.todo:
             i = 0
             for m in re_puesto.findall(txt):
                 i = i + 1
-                p = dic_puestos[m]
+                p = dic_puestos.get(m, None) or dic_puestos_v1[m]
                 p.ranking = i
                 destinos.append(p)
             Puesto.save(destinos, name=("%s_%s" % (year, tipo)))
@@ -460,7 +482,7 @@ if args.csic or args.todo:
     Organismo.save(col, name="organismos_csic.es")
 
 
-if args.dir3 or args.todo:
+if not args.fusion_con_v1 and (args.dir3 or args.todo):
 
     print ("Leyendo Dir3 (unidades.rdf)")
 
@@ -593,7 +615,10 @@ def tratar_gob_es(total, visto, id, raiz, padre):
         return
     print("%3d%% completado: %6d" %
           (len(visto.keys()) * 100 / total, id), end="\r")
-    soup = soup_from_file("fuentes/administracion.gob.es/id_%06d.html" % id)
+    fn = "fuentes/administracion.gob.es/id_%06d.html" % id
+    if not os.path.isfile(fn):
+        return
+    soup = soup_from_file(fn)
     for n in soup.select(".hideAccessible"):
         n.extract()
     codigo = None
@@ -684,13 +709,18 @@ if args.gob or args.todo:
     Organismo.save(organismos, name="organismos_gob.es")
 
 
-if args.fusion or args.todo:
-    print ("Fusionando organismo administracion.gob.es con dir3_E")
+if args.fusion_con_v1 or args.fusion or args.todo:
+    print ("Fusionando organismo administracion.gob.es con ", end="")
 
-    organismos_dir3_E = Organismo.load(
-        name="organismos_dir3_E", arregla_direcciones=arregla_direcciones)
-    organismos_gob_es = Organismo.load(
-        name="organismos_gob.es", arregla_direcciones=arregla_direcciones)
+    organismos_dir3_E = None
+    if args.fusion_con_v1:
+        print("v1")
+        organismos_dir3_E = organis_v1
+    else:
+        print("dir3_E")
+        organismos_dir3_E = Organismo.load(name="organismos_dir3_E", arregla_direcciones=arregla_direcciones)
+
+    organismos_gob_es = Organismo.load(name="organismos_gob.es", arregla_direcciones=arregla_direcciones)
 
     organismos_dir3_E_dict = {o.idOrganismo: o for o in organismos_dir3_E}
     organismos_gob_es_dict = {o.idOrganismo: o for o in organismos_gob_es}
@@ -713,10 +743,8 @@ if args.fusion or args.todo:
 
     organismos = set()
     for id in list(codigos_comun.union(rcp_comun)):
-        org_dir3_E = organismos_dir3_E_dict[id] if isinstance(
-            id, str) else organismos_dir3_E_dict2[id]
-        org_gob_es = organismos_gob_es_dict[id] if isinstance(
-            id, str) else organismos_gob_es_dict2[id]
+        org_dir3_E = organismos_dir3_E_dict[id] if isinstance(id, str) else organismos_dir3_E_dict2[id]
+        org_gob_es = organismos_gob_es_dict[id] if isinstance(id, str) else organismos_gob_es_dict2[id]
         codigos_comun.add(org_dir3_E.idOrganismo)
         codigos_comun.add(org_gob_es.idOrganismo)
 
@@ -727,6 +755,8 @@ if args.fusion or args.todo:
             org_gob_es.set_lugar(org_dir3_E.deDireccion, org_dir3_E.postCode)
         elif org_dir3_E.postCode is not None and org_dir3_E.postCode in org_gob_es.deDireccion:
             org_gob_es.postCode = org_dir3_E.postCode
+
+        org_gob_es.codigos = org_gob_es.codigos.union(org_dir3_E.codigos)
         organismos.add(org_gob_es)
         ok += 1
         count += 1
@@ -785,7 +815,7 @@ if args.fusion or args.todo:
         if len(orgs) == 1:
             o = orgs.pop()
             o.postCode = n.postCode
-            o.codigos.add(n.idOrganismo)
+            o.codigos = o.codigos.union(n.codigos)
             o.idPadres = o.idPadres.union(n.idPadres)
             if o.deDireccion is None:
                 o.set_lugar(n.deDireccion, n.postCode)
@@ -863,8 +893,6 @@ dict_organismos = {o.idOrganismo: o for o in organismos}
 dict_organi_rpt = {o.idOrganismo: o for o in organismos_rpt}
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
 
-
-
 rcp_organi = {}
 for o in organismos:
     o.genera_codigos()
@@ -902,7 +930,7 @@ for rpt, org in arreglos.items():
                 org.codigos = org.codigos.union(o.codigos)
                 org.idPadres = org.idPadres.union(o.idPadres)
                 fusionados.add(o)
-    print("%3d%% completado: %-30s" % (count * 100 / total, str(rpt_cod) + " -> " + org.idOrganismo), end="\r")
+        print("%3d%% completado: %-30s" % (count * 100 / total, str(rpt_cod) + " -> " + org.idOrganismo), end="\r")
 print("")
 #sys.exit()
 organismos = [o for o in organismos if o not in fusionados]
@@ -1015,6 +1043,8 @@ total = len(puestos)
 count = 0
 unidades_provincia = {}
 for p in puestos:
+    if p.desaparecido:
+        continue
     if p.idUnidad:
         provincias = unidades_provincia.get(p.idUnidad, set())
         provincias.add(p.provincia)
@@ -1029,7 +1059,7 @@ for p in puestos:
         unidades_provincia[p.idMinisterio] = provincias
     count += 1
     print("%3d%% completado: %s" % (count * 100 / total, p.idPuesto), end="\r")
-print ("")
+print ("100%")
 
 total = len(unidades_provincia)
 count = 0
@@ -1128,6 +1158,19 @@ for k, v in list(direcciones.items()):
     else:
         del direcciones[k]
 
+print ("Reutilizando direcciones de la v1")
+total = len(organis_v1)
+count = 0
+ok = 0
+for o in organis_v1:
+    if o.latlon and o.dire not in direcciones:
+        direcciones[o.dire] = o.latlon
+        ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
+print("")
+
 print ("Completando latlon con excel")
 xls_info = {}
 url = "https://docs.google.com/spreadsheet/ccc?key=18GC2-xHj-n2CAz84DkWVy-9c8VpMKhibQanfAjeI4Wc&output=xls"
@@ -1152,9 +1195,10 @@ for rx in range(sh.nrows):
             xls_info[idUnidad] = (dire, latlon, idCentroDirectivo or idMinisterio)
             if machacar == "SI":
                 org = rcp_organi.get(idUnidad, None)
-                org.set_lugar(dire)
-                org.latlon=latlon
-                ok2 += 1
+                if org:
+                    org.set_lugar(dire)
+                    org.latlon=latlon
+                    ok2 += 1
         dire = simplificar_dire(dire)
         if dire not in direcciones:
             direcciones[dire] = latlon
@@ -1204,6 +1248,25 @@ for o in organismos:
     print("%3d%% completado: %-30s (%s)" %
           (count * 100 / total, o.idOrganismo, ok), end="\r")
 print ("")
+
+'''
+print ("Añadiendo organismos de la v1 que no están en la versión actual")
+codigos_orgs = set([c for c in o.codigos for o in organismos])
+total = len(organis_v1)
+count = 0
+ok = 0
+for o in organis_v1:
+    if not o.codigos.intersection(codigos_orgs):
+        o.desaparecido = True
+        organismos.append(o)
+        ok += 1
+    count += 1
+    print("%3d%% completado: %-30s (%s)" %
+          (count * 100 / total, o.idOrganismo, ok), end="\r")
+print("")
+'''
+
+clean_organismos(organismos)
 
 Organismo.save(organismos, arregla_direcciones=arregla_direcciones)
 

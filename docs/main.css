@@ -79,6 +79,9 @@ tr.V td.V {
     color: white;
 	font-weight: bold;
 }
+tr.desaparecido {
+    text-decoration:line-through;
+}
 abbr {
     cursor: help;
     text-decoration: none;

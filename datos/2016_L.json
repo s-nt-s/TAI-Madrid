@@ -1,7 +1,7 @@
 [
     {
         "af": "F06",
-        "complemento": 5260.92,
+        "complemento": 5346.46,
         "estado": "NV",
         "grupo": "A2C1",
         "idAdscripcionAdministrativa": "AE",
@@ -19,13 +19,13 @@
         "ranking": 38
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idProvision": "C",
         "idPuesto": 964816,
         "idResidencia": "724-08-001",
@@ -38,7 +38,7 @@
         "ranking": 145
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idCentroDirectivo": 1160,
@@ -54,7 +54,7 @@
         "ranking": 83
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idCentroDirectivo": 1160,
@@ -70,13 +70,13 @@
         "ranking": 103
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1274,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idProvision": "C",
         "idPuesto": 2816588,
         "idResidencia": "724-28-001",
@@ -89,13 +89,13 @@
         "ranking": 78
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idProvision": "C",
         "idPuesto": 3135652,
         "idResidencia": "724-02-001",
@@ -108,13 +108,13 @@
         "ranking": 6
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1274,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idProvision": "C",
         "idPuesto": 3175002,
         "idResidencia": "724-28-001",
@@ -127,13 +127,13 @@
         "ranking": 88
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idProvision": "C",
         "idPuesto": 3461784,
         "idResidencia": "724-11-001",
@@ -147,7 +147,7 @@
     },
     {
         "af": "F06",
-        "complemento": 5260.92,
+        "complemento": 5346.46,
         "estado": "NV",
         "grupo": "C1C2",
         "idAdscripcionAdministrativa": "AE",
@@ -166,7 +166,7 @@
         "ranking": 5
     },
     {
-        "complemento": 5260.92,
+        "complemento": 5346.46,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -184,7 +184,7 @@
         "ranking": 10
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -204,13 +204,13 @@
         "ranking": 76
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AM",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1239,
-        "idMinisterio": 49214,
+        "idMinisterio": 50248,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4403127,
@@ -224,7 +224,7 @@
         "ranking": 20
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idCentroDirectivo": 1160,
@@ -240,7 +240,7 @@
         "ranking": 105
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -259,7 +259,7 @@
         "ranking": 94
     },
     {
-        "complemento": 5632.06,
+        "complemento": 5723.69,
         "estado": "NV",
         "grupo": "A2C1",
         "idAdscripcionAdministrativa": "AE",
@@ -277,13 +277,13 @@
         "ranking": 4
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49293,
-        "idMinisterio": 49214,
+        "idCentroDirectivo": 50342,
+        "idMinisterio": 50241,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4657872,
@@ -297,13 +297,13 @@
         "ranking": 46
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4689234,
@@ -317,7 +317,7 @@
         "ranking": 1
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -337,7 +337,7 @@
         "ranking": 74
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -357,7 +357,7 @@
         "ranking": 59
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -377,7 +377,7 @@
         "ranking": 35
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -397,7 +397,7 @@
         "ranking": 31
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -417,19 +417,19 @@
         "ranking": 67
     },
     {
-        "complemento": 3940.72,
-        "estado": "NV",
+        "complemento": 4004.91,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47109,
+        "idCentroDirectivo": 40762,
         "idMinisterio": 44,
         "idObservaciones": "D.H",
         "idProvision": "C",
         "idPuesto": 4745814,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 47128,
+        "idUnidad": 40821,
         "localidad": 1,
         "nivel": 16,
         "pais": 724,
@@ -437,7 +437,7 @@
         "ranking": 37
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -457,27 +457,27 @@
         "ranking": 64
     },
     {
-        "complemento": 4245.08,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 40769,
+        "idCentroDirectivo": 40778,
         "idMinisterio": 44,
         "idObservaciones": "D.H",
         "idProvision": "C",
         "idPuesto": 4746299,
-        "idResidencia": "724-07-001",
+        "idResidencia": "724-30-160",
         "idTipoPuesto": "N",
-        "idUnidad": 42070,
-        "localidad": 1,
+        "idUnidad": 43634,
+        "localidad": 160,
         "nivel": 16,
         "pais": 724,
-        "provincia": 7,
+        "provincia": 30,
         "ranking": 150
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -497,7 +497,7 @@
         "ranking": 12
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -517,27 +517,27 @@
         "ranking": 149
     },
     {
-        "complemento": 3940.72,
-        "estado": "NV",
+        "complemento": 4004.91,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 40778,
+        "idCentroDirectivo": 40762,
         "idMinisterio": 44,
         "idObservaciones": "D.H",
         "idProvision": "C",
         "idPuesto": 4749775,
-        "idResidencia": "724-30-001",
+        "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 43645,
+        "idUnidad": 40821,
         "localidad": 1,
         "nivel": 16,
         "pais": 724,
-        "provincia": 30,
+        "provincia": 28,
         "ranking": 73
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -557,7 +557,7 @@
         "ranking": 41
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -577,7 +577,7 @@
         "ranking": 39
     },
     {
-        "complemento": 4245.08,
+        "complemento": 4314.1,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -597,7 +597,7 @@
         "ranking": 56
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4498.76,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -611,33 +611,33 @@
         "idTipoPuesto": "N",
         "idUnidad": 42459,
         "localidad": 1,
-        "nivel": 16,
+        "nivel": 18,
         "pais": 724,
         "provincia": 24,
         "ranking": 32
     },
     {
-        "complemento": 4245.08,
-        "estado": "NV",
+        "complemento": 4004.91,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 40769,
+        "idCentroDirectivo": 40762,
         "idMinisterio": 44,
         "idObservaciones": "D.H",
         "idProvision": "C",
         "idPuesto": 4751517,
-        "idResidencia": "724-07-001",
+        "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 42070,
+        "idUnidad": 40821,
         "localidad": 1,
         "nivel": 16,
         "pais": 724,
-        "provincia": 7,
+        "provincia": 28,
         "ranking": 146
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -657,7 +657,7 @@
         "ranking": 148
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -677,7 +677,7 @@
         "ranking": 18
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -697,7 +697,7 @@
         "ranking": 17
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -717,27 +717,27 @@
         "ranking": 133
     },
     {
-        "complemento": 3940.72,
-        "estado": "NV",
+        "complemento": 4004.91,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 40778,
+        "idCentroDirectivo": 40762,
         "idMinisterio": 44,
         "idObservaciones": "D.H",
         "idProvision": "C",
         "idPuesto": 4770399,
-        "idResidencia": "724-30-160",
+        "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 43634,
-        "localidad": 160,
+        "idUnidad": 40821,
+        "localidad": 1,
         "nivel": 16,
         "pais": 724,
-        "provincia": 30,
+        "provincia": 28,
         "ranking": 55
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -757,7 +757,7 @@
         "ranking": 68
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -777,7 +777,7 @@
         "ranking": 57
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -797,7 +797,7 @@
         "ranking": 58
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -817,7 +817,7 @@
         "ranking": 60
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -837,7 +837,7 @@
         "ranking": 40
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -857,7 +857,7 @@
         "ranking": 26
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -877,7 +877,7 @@
         "ranking": 45
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -897,7 +897,7 @@
         "ranking": 13
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -917,7 +917,7 @@
         "ranking": 15
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -937,7 +937,7 @@
         "ranking": 16
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -957,7 +957,7 @@
         "ranking": 66
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -977,13 +977,13 @@
         "ranking": 62
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4793191,
@@ -997,13 +997,13 @@
         "ranking": 100
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4793279,
@@ -1017,7 +1017,7 @@
         "ranking": 114
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1037,12 +1037,12 @@
         "ranking": 14
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
+        "idCentroDirectivo": 50393,
         "idMinisterio": 39,
         "idObservaciones": "OCG",
         "idProvision": "C",
@@ -1057,13 +1057,13 @@
         "ranking": 80
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4877619,
@@ -1077,13 +1077,13 @@
         "ranking": 116
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4877620,
@@ -1097,13 +1097,13 @@
         "ranking": 117
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878465,
@@ -1117,13 +1117,13 @@
         "ranking": 2
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878481,
@@ -1137,13 +1137,13 @@
         "ranking": 49
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878483,
@@ -1157,13 +1157,13 @@
         "ranking": 53
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878486,
@@ -1177,13 +1177,13 @@
         "ranking": 3
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878488,
@@ -1197,13 +1197,13 @@
         "ranking": 7
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49293,
-        "idMinisterio": 49214,
+        "idCentroDirectivo": 50342,
+        "idMinisterio": 50241,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878493,
@@ -1217,13 +1217,13 @@
         "ranking": 79
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1239,
-        "idMinisterio": 49214,
+        "idMinisterio": 50248,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878501,
@@ -1237,13 +1237,13 @@
         "ranking": 44
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878519,
@@ -1257,13 +1257,13 @@
         "ranking": 8
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878522,
@@ -1277,13 +1277,13 @@
         "ranking": 11
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4878540,
@@ -1297,13 +1297,13 @@
         "ranking": 52
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1067,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4893441,
@@ -1317,13 +1317,13 @@
         "ranking": 147
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4979591,
@@ -1337,13 +1337,13 @@
         "ranking": 85
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4984830,
@@ -1357,13 +1357,13 @@
         "ranking": 119
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4984831,
@@ -1377,7 +1377,7 @@
         "ranking": 121
     },
     {
-        "complemento": 3940.72,
+        "complemento": 4004.91,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1397,13 +1397,13 @@
         "ranking": 25
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1075,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 4998976,
@@ -1417,7 +1417,7 @@
         "ranking": 47
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1437,13 +1437,13 @@
         "ranking": 71
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5014500,
@@ -1457,19 +1457,19 @@
         "ranking": 65
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49995,
-        "idMinisterio": 36,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5020258,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 49104,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -1477,13 +1477,13 @@
         "ranking": 90
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5031102,
@@ -1497,13 +1497,13 @@
         "ranking": 75
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5048724,
@@ -1517,33 +1517,33 @@
         "ranking": 129
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 1082,
-        "idMinisterio": 49904,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5049056,
-        "idResidencia": "724-52-001",
+        "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 27056,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
-        "provincia": 52,
+        "provincia": 28,
         "ranking": 61
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5068331,
@@ -1557,13 +1557,13 @@
         "ranking": 131
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5068334,
@@ -1577,19 +1577,19 @@
         "ranking": 132
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 1266,
-        "idMinisterio": 49901,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5068335,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 47601,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -1597,13 +1597,13 @@
         "ranking": 48
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5068506,
@@ -1617,7 +1617,7 @@
         "ranking": 86
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1637,7 +1637,7 @@
         "ranking": 96
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1657,13 +1657,13 @@
         "ranking": 101
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1266,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5112169,
@@ -1677,13 +1677,13 @@
         "ranking": 98
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5112173,
@@ -1697,13 +1697,13 @@
         "ranking": 84
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1274,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5112175,
@@ -1717,13 +1717,13 @@
         "ranking": 120
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5112180,
@@ -1737,13 +1737,13 @@
         "ranking": 134
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5112542,
@@ -1757,13 +1757,13 @@
         "ranking": 91
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5116651,
@@ -1777,13 +1777,13 @@
         "ranking": 108
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 46098,
-        "idMinisterio": 45858,
+        "idMinisterio": 50239,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5116652,
@@ -1797,19 +1797,19 @@
         "ranking": 110
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 1307,
-        "idMinisterio": 39,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5126214,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 46136,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -1817,19 +1817,19 @@
         "ranking": 50
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
-        "idMinisterio": 39,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5126215,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 31398,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -1837,7 +1837,7 @@
         "ranking": 82
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -1857,12 +1857,12 @@
         "ranking": 77
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
+        "idCentroDirectivo": 50393,
         "idMinisterio": 39,
         "idObservaciones": "OCG",
         "idProvision": "C",
@@ -1877,13 +1877,13 @@
         "ranking": 93
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1357,
-        "idMinisterio": 49904,
+        "idMinisterio": 50245,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5126220,
@@ -1897,12 +1897,12 @@
         "ranking": 42
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
+        "idCentroDirectivo": 50393,
         "idMinisterio": 39,
         "idObservaciones": "OCG",
         "idProvision": "C",
@@ -1917,12 +1917,12 @@
         "ranking": 113
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
+        "idCentroDirectivo": 50393,
         "idMinisterio": 39,
         "idObservaciones": "OCG",
         "idProvision": "C",
@@ -1937,14 +1937,13 @@
         "ranking": 122
     },
     {
-        "complemento": 4253.2,
-        "estado": "NV",
-        "grupo": "C1",
+        "complemento": 4322.36,
+        "estado": "V",
+        "grupo": "C1C2",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
-        "idObservaciones": "OCG",
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idProvision": "C",
         "idPuesto": 5126229,
         "idResidencia": "724-28-001",
@@ -1957,13 +1956,13 @@
         "ranking": 19
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5180533,
@@ -1977,19 +1976,19 @@
         "ranking": 21
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49293,
-        "idMinisterio": 49214,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5180536,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 48578,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -1997,13 +1996,13 @@
         "ranking": 92
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1383,
-        "idMinisterio": 49905,
+        "idMinisterio": 50251,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5197504,
@@ -2017,7 +2016,7 @@
         "ranking": 70
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2036,13 +2035,13 @@
         "ranking": 30
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5205995,
@@ -2056,13 +2055,13 @@
         "ranking": 22
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5205997,
@@ -2076,13 +2075,13 @@
         "ranking": 24
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206007,
@@ -2096,13 +2095,13 @@
         "ranking": 135
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206009,
@@ -2116,7 +2115,7 @@
         "ranking": 136
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2136,13 +2135,13 @@
         "ranking": 23
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206011,
@@ -2156,13 +2155,13 @@
         "ranking": 137
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49293,
-        "idMinisterio": 49214,
+        "idCentroDirectivo": 50342,
+        "idMinisterio": 50241,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206013,
@@ -2176,13 +2175,13 @@
         "ranking": 97
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206014,
@@ -2196,7 +2195,7 @@
         "ranking": 139
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2216,13 +2215,13 @@
         "ranking": 34
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206018,
@@ -2236,13 +2235,13 @@
         "ranking": 140
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206019,
@@ -2256,13 +2255,13 @@
         "ranking": 141
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206020,
@@ -2276,13 +2275,13 @@
         "ranking": 111
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206022,
@@ -2296,19 +2295,19 @@
         "ranking": 142
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206023,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 30711,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -2316,7 +2315,7 @@
         "ranking": 118
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2335,7 +2334,7 @@
         "ranking": 28
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2354,7 +2353,7 @@
         "ranking": 51
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2374,13 +2373,13 @@
         "ranking": 89
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49293,
-        "idMinisterio": 49214,
+        "idCentroDirectivo": 50342,
+        "idMinisterio": 50241,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206053,
@@ -2394,13 +2393,13 @@
         "ranking": 109
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1274,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206058,
@@ -2414,7 +2413,7 @@
         "ranking": 128
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2433,13 +2432,13 @@
         "ranking": 63
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1068,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206061,
@@ -2453,12 +2452,12 @@
         "ranking": 115
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 47994,
+        "idCentroDirectivo": 50393,
         "idMinisterio": 39,
         "idObservaciones": "OCG",
         "idProvision": "C",
@@ -2473,13 +2472,13 @@
         "ranking": 126
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206089,
@@ -2493,13 +2492,13 @@
         "ranking": 27
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1078,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206091,
@@ -2513,13 +2512,13 @@
         "ranking": 95
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5206092,
@@ -2533,13 +2532,13 @@
         "ranking": 123
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5236882,
@@ -2553,13 +2552,13 @@
         "ranking": 87
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5236976,
@@ -2573,13 +2572,13 @@
         "ranking": 99
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49296,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50344,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5236978,
@@ -2593,13 +2592,13 @@
         "ranking": 33
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1079,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5236979,
@@ -2613,13 +2612,13 @@
         "ranking": 107
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5237011,
@@ -2633,13 +2632,13 @@
         "ranking": 124
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5237030,
@@ -2653,13 +2652,13 @@
         "ranking": 125
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1271,
-        "idMinisterio": 49901,
+        "idMinisterio": 50240,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5237031,
@@ -2673,13 +2672,13 @@
         "ranking": 127
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1428,
-        "idMinisterio": 49215,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5238272,
@@ -2693,7 +2692,7 @@
         "ranking": 102
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2713,7 +2712,7 @@
         "ranking": 81
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2733,7 +2732,7 @@
         "ranking": 104
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2752,13 +2751,13 @@
         "ranking": 43
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 49959,
-        "idMinisterio": 49901,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5241539,
@@ -2772,13 +2771,13 @@
         "ranking": 144
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49296,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50344,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5241540,
@@ -2792,7 +2791,7 @@
         "ranking": 54
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2812,13 +2811,13 @@
         "ranking": 106
     },
     {
-        "complemento": 4253.2,
+        "complemento": 4322.36,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49260,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50303,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5278500,
@@ -2832,19 +2831,19 @@
         "ranking": 29
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49296,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 1051,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5278501,
         "idResidencia": "724-28-001",
         "idTipoPuesto": "N",
-        "idUnidad": 37211,
+        "idUnidad": 48802,
         "localidad": 1,
         "nivel": 15,
         "pais": 724,
@@ -2852,8 +2851,8 @@
         "ranking": 69
     },
     {
-        "complemento": 3444.56,
-        "estado": "NV",
+        "complemento": 3500.7,
+        "estado": "V",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
@@ -2872,13 +2871,13 @@
         "ranking": 112
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
-        "idCentroDirectivo": 49296,
-        "idMinisterio": 49215,
+        "idCentroDirectivo": 50344,
+        "idMinisterio": 50242,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5278516,
@@ -2892,7 +2891,7 @@
         "ranking": 72
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2910,7 +2909,7 @@
         "ranking": 130
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
@@ -2928,13 +2927,13 @@
         "ranking": 36
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1072,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OEP",
         "idProvision": "C",
         "idPuesto": 5280333,
@@ -2948,13 +2947,13 @@
         "ranking": 138
     },
     {
-        "complemento": 3444.56,
+        "complemento": 3500.7,
         "estado": "NV",
         "grupo": "C1",
         "idAdscripcionAdministrativa": "AE",
         "idAdscripcionCuerpo": "EX11",
         "idCentroDirectivo": 1072,
-        "idMinisterio": 49904,
+        "idMinisterio": 50246,
         "idObservaciones": "OCG",
         "idProvision": "C",
         "idPuesto": 5403045,

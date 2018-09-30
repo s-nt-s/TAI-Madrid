@@ -44,7 +44,7 @@ def get(url):
 
 excluir = ("administración local", "universidades", "comunidad autónoma", "comunitat", "comunidad foral", "comunidad de")
 tomorrow = datetime.today() + timedelta(days=1)
-desde = "31/03/2018".replace("/", "%2F")
+desde = "24/09/2018".replace("/", "%2F")
 hasta = tomorrow.strftime("%d/%m/%Y").replace("/", "%2F")
 rango = "1370" # Resolucion
 query = "&dato%5B1%5D=" + rango + "&dato%5B6%5D%5B0%5D=" + desde + "&dato%5B6%5D%5B1%5D=" + hasta

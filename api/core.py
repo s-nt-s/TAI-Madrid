@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 import re
+import os
 
 from .util import yaml_from_file
 
@@ -42,7 +43,8 @@ def simplificar_dire(deDireccion):
 class Organismo:
 
     def load(name="organismos", arregla_direcciones=None):
-        with open("datos/" + name + ".json", "r") as f:
+        fn = name if os.path.isfile(name) else "datos/" + name + ".json"
+        with open(fn, "r") as f:
             col = json.load(f, object_hook=Organismo.dict_to_organismo)
             if arregla_direcciones:
                 for o in col:
@@ -53,13 +55,14 @@ class Organismo:
             return col
 
     def save(col, name="organismos", arregla_direcciones=None):
+        fn = name if os.path.isfile(name) else"datos/" + name + ".json"
         if arregla_direcciones:
             for o in col:
                 info = arregla_direcciones.get(o.deDireccion, None)
                 if info is not None:
                     o.latlon = info[0]
                     o.set_lugar(info[1])
-        with open("datos/" + name + ".json", "w") as f:
+        with open(fn, "w") as f:
             f.write(Organismo.to_json(col))
 
     def dict_to_organismo(obj):
@@ -73,7 +76,7 @@ class Organismo:
             col = sorted(col, key=lambda o: (o.rcp or 999999, o.idOrganismo))
         return json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder)
 
-    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, idProvincia=None, **kwargs):
+    def __init__(self, idOrganismo, deOrganismo=None, deDireccion=None, postCode=None, idPadres=None, idRaiz=None, idUnidOrganica=None, latlon=None, codigos=None, isCsic=None, idCsic=None, idProvincia=None, desaparecido=None, **kwargs):
         self.remove = {'remove', 'nombres', 'rcp',
                        'version', 'puestos', 'deProvincia'}
         if isinstance(idPadres, list):
@@ -96,6 +99,7 @@ class Organismo:
         self.isCsic = isCsic
         self.idCsic = idCsic
         self.deProvincia = None
+        self.desaparecido = desaparecido
         self.set_lugar(deDireccion, postCode, idProvincia)
         if isinstance(self.idOrganismo, str) and self.idOrganismo.startswith("E0"):
             self.rcp, self.version = int(
@@ -186,13 +190,15 @@ class Organismo:
 
 class Descripciones:
 
-    def load():
-        with open("datos/descripciones.json", "r") as f:
+    def load(name="descripciones"):
+        fn = name if os.path.isfile(name) else"datos/" + name + ".json"
+        with open(fn, "r") as f:
             dt = json.load(f)
             return Descripciones(**dt)
 
-    def save(self):
-        with open("datos/descripciones.json", "w") as f:
+    def save(self, name="descripciones"):
+        fn = name if os.path.isfile(name) else"datos/" + name + ".json"
+        with open(fn, "w") as f:
             f.write(json.dumps(self.__dict__, indent=4, sort_keys=True))
 
         for k, v in self.__dict__.items():
@@ -210,9 +216,10 @@ class Descripciones:
 
 class Puesto:
 
-    def load(name="destinos_tai"):
-        desc = Descripciones.load()
-        with open("datos/" + name + ".json", "r") as f:
+    def load(name="destinos_tai", descripciones="descripciones"):
+        fn = name if os.path.isfile(name) else"datos/" + name + ".json"
+        desc = Descripciones.load(name=descripciones)
+        with open(fn, "r") as f:
             col = json.load(f, object_hook=Puesto.dict_to_puesto)
             for p in col:
                 for k in desc.__dict__.keys():
@@ -232,8 +239,9 @@ class Puesto:
             return col
 
     def save(col, name="destinos_tai"):
+        fn = name if os.path.isfile(name) else"datos/" + name + ".json"
         col = sorted(col, key=lambda o: o.idPuesto)
-        with open("datos/" + name + ".json", "w") as f:
+        with open(fn, "w") as f:
             f.write(json.dumps(col, indent=4, sort_keys=True, cls=MyEncoder))
 
     def dict_to_puesto(obj):
@@ -278,13 +286,15 @@ class Puesto:
             self.idObservaciones, \
             self.af, \
             self.estado \
-            = args
+            = args[0:25]
+
         if self.idResidencia and isinstance(self.idResidencia, str):
             self.pais, self.provincia, self.localidad = [
                 int(i) for i in self.idResidencia.split("-")]
         if self.dePuesto is None:
             self.dePuesto = dePuestoCorta
         self.ranking = None
+        self.desaparecido = None
 
     def calcular_provincia(self, provincias):
         if self.deCentroDirectivo and "CEUTA Y MELILLA" in self.deCentroDirectivo:

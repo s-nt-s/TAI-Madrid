@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 
 if [ ! -f ids.txt ]; then
-    for i in $(seq 1 640); do
+    for i in $(seq 1 626); do
         URL="https://administracion.gob.es/pagFront/espanaAdmon/directorioOrganigramas/quienEsQuien/quienEsQuien.htm?CIdNivelAdmon=1&numPaginaActual=$i";
         printf -v OUT "pag_%03d.html" $i
         wget --no-clobber --continue -O $OUT "$URL"
@@ -28,3 +28,5 @@ done < "ids.txt"
 echo ""
 
 sed -e '/^\s*$/d' -e 's/\s\s*/ /g' -i *.html
+
+#wc -l *.html | grep " 0 " | sed 's/.* //' | xargs rm

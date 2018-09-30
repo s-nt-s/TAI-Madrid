@@ -76,7 +76,12 @@ get_pdf_boe('BOE-A-2018-9564')
 '''
 
 visto = set()
-for i in soup.select("section#block_content_ministerios a"):
+suprimidos = soup.find("a", attrs={"href": re.compile(r".*MinisteriosSuprimidos.html")})
+if suprimidos is None:
+    suprimidos=[]
+else:
+    suprimidos=[suprimidos]
+for i in suprimidos + soup.select("section#block_content_ministerios a"):
     page = get(i.attrs["href"])
     for li in page.select("article#cont_gen li"):
         print ('')

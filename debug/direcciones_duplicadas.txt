@@ -1,14 +1,76 @@
-campus universidad autonoma de barcelona (bellaterra) 08193 cerdanyola del vallès (barcelona)
-41.501156,2.111265
-41.501491,2.110539
+plaza marina española 9 28013 madrid (madrid)
+40.4206389,-3.71244
+40.4206424,-3.7123579
 
-plaza san juan de la cruz s/n 28071 madrid (madrid)
-40.4408886,-3.6934286
-40.441279,-3.6938415
+via de san francisco 4 6 28005 madrid (madrid)
+40.4077415,-3.7121846
+40.4112075,-3.7122344
 
-38.9269573,1.4144827
-Avda Bartolomé Roselló 21, 07800, Illes Balears, Illes Balears, España
-Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España
+40.4077415,-3.7121846
+Avenida Gran Vía de San Francisco 4-6, 28005 Madrid
+Via De San Francisco 4-6 28005 Madrid (Madrid)
+
+40.4086372,-3.6906168
+Paseo Infanta Isabel 1 28014 Madrid (Madrid)
+Paseo Infanta Isabel 1, 28014 Madrid
+Paseo Infnta Isabel 1 28071 Madrid (Madrid)
+
+40.4133967,-3.694118
+Paseo del Prado 18 - 20 28071 Madrid (Madrid)
+Paseo del Prado 18 y 20, 28014 Madrid
+Paseo del Prado 18-20 28071 Madrid (Madrid)
+
+40.4195431,-3.690349
+Calle Alcalá 56 28014
+Calle Alcalá 56, 28014 Madrid
+
+40.4206424,-3.7123579
+Plaza Marina Española 9 28013 Madrid (Madrid)
+Plaza Marina Española 9, 28013, Madrid, Comunidad Madrid, España
+
+40.4224562,-3.7077989
+Calle San Bernardo 19 28012 Madrid (Madrid)
+Calle San Bernardo 19 28071 Madrid (Madrid)
+
+40.4259384,-3.6995541
+Calle Beneficencia 8 28004 Madrid (Madrid)
+Calle Benificiencia 8 28004 Madrid (Madrid)
+
+40.4325031,-3.6917344
+Calle Almagro 33 2ª 28071 Madrid (Madrid)
+Calle Almagro 33 5ª planta 28071 Madrid (Madrid)
+
+40.4384376,-3.7032098
+Calle José Abascal 4 28003
+Calle José Abascal 4 28003 Madrid (Madrid)
+Calle José Abascal 4 28071 Madrid (Madrid)
+
+40.4386369,-3.7070536
+Calle Cea Bermúdez 5 28003
+Calle Cea Bermúdez 5 28003 Madrid (Madrid)
+
+40.4484526,-3.5813783
+Calle Campezo 1 28022 Madrid (Madrid)
+Calle Campezo 1, 28022, Madrid, Comunidad Madrid, España
+
+40.4519221,-3.6928323
+Avenida General Perón 38 28020 Madrid (Madrid)
+Avenida General Perón 38 28071
+Avenida del General Perón 38, 28020 Madrid
+
+40.454792,-3.6989494
+Calle Infanta Mercedes 31 28020
+Calle Infanta Mercedes 31, 28020 Madrid
+
+40.4583429,-3.6893451
+Calle Castellana 162 28071 Madrid (Madrid)
+Paseo De la Castellana 162 28036
+Paseo De la Castellana 162, 28046 Madrid
+Paseo de la Castellana 162 28071
+
+40.4603502,-3.6926738
+Calle Capitán Haya 41, 28046 Madrid
+Calle del Poeta Joan Maragall 41 28020 Madrid (Madrid)
 
 41.9839131,2.819503
 Avda Jaume I 17, 17001, Girona, Cataluna, España

@@ -31,6 +31,9 @@
 29090   40.9451016,-5.4980242     Carretera de Madrid, Km 14, 37893 Villagonzalo de Tormes, Salamanca
 29364   37.9824407,-1.124728     Calle General Sanmartín S/N, 30003 Murcia
 28435   43.4080225,-5.7372225   Carretera Noreña - Pruvia, s/n, 33071 Siero, Asturias
+50363   40.4583429,-3.6893451   Paseo De la Castellana 162, 28046 Madrid
+50251   40.4583429,-3.6893451   Paseo De la Castellana 162, 28046 Madrid
+50243   40.4579287,-3.6888691   Paseo De la Castellana 160, 28046 Madrid
 
 # http://wwwsp.inia.es/Inia/Paginas/DondeEsta.aspx
 # http://wwwsp.inia.es/Investigacion/centros/crf/Paginas/CRF.aspx

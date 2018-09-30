@@ -142,6 +142,22 @@ La solución es añadir o corregir lineas en el fichero `data/cod_dir_latlon.txt
 Lo dicho, hacer un mapa interactivo de verdad, con buscador, filtros, etc.
 Es decir, más `pull request`.
 
+# Modificación para la v2
+
+En septiembre salieron los nuevos `RPT` y se modifico el directorio de organismos
+de `administracion.gob.es` con el resultado de que se perdió mucha información.
+
+Por ello se decidió mantener en `datos/v1.0` los datos generados en la v1 y usarlos
+como una fuente más para la v2.
+
+Esto se resume en que:
+
+* A los puestos de los `RPT` actuales se les añaden los que estaban en los `RPT` de abril y han desaparecido sin saber por qué.  
+Esto queda representado en los listados de destinos con filas que estan tachadas, ver por ejemplo [el de Madrid](https://s-nt-s.github.io/TAI-Madrid/724/28/index.html)
+* En vez de fusionar los organismos con `dir3`, los fusiono con `organismos.json` de la v1, lo cual en la practica significa que evitamos perder los organismos que han desaparecido de `administracion.gob.es`. Esto puede provocar que haya organismos por duplicado en el [listado de direcciones](file:///home/santos/wks/TAI/docs/direcciones.html), pero hara que no se pierdan chinchetas en [el mapa](https://www.google.com/maps/d/viewer?mid=1pv8aiDcgFZWtE7_0H8LVUupTo5z8_fM8).
+
+Por todo ello es muy importante reviséis los datos y aportéis en los <issues>.
+
 ---------
 
 P.D: Este código se ha hecho deprisa y corriendo, ya lo pondré bonito para las siguientes opos.
