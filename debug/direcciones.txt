@@ -5157,6 +5157,7 @@ Calle Roure Gros A 41, 08182, Barcelona, Cataluna, España
 Calle Rufino Blanco 1 19003 Guadalajara (Guadalajara)
 Calle Ruiz Morote 4 13001 Ciudad Real (Ciudad Real)
 Calle Ruiz Morote 4, 13071, Ciudad Real, Castilla La Mancha, España
+Calle Ruiz Morote, 4, 13001 Ciudad Real
 Calle Ruiz Zorrilla 42, 11203, Cadiz, Andalucia, España
 Calle Ruiz de Alarcón 1 28071 Madrid (Madrid)
 Calle Ruiz de Alarcón 13 28014 Madrid (Madrid)

@@ -224,7 +224,9 @@ if args.puestos or args.todo:
     print("%3d%% completado: cod_provincia.htm" %
           (count * 100 / total,), end="\r")
 
-    idde = {}
+
+    idde = Descripciones.load(name="datos/v1.0/descripciones.json")
+    idde = idde.__dict__
     idde["provincias"] = {}
 
     soup = soup_from_file("fuentes/cod_provincia.htm")
@@ -289,12 +291,14 @@ if args.puestos or args.todo:
             sufi = k1[2:]
             k2 = "de" + sufi
             if k2 in data:
-                if sufi not in idde:
-                    idde[sufi] = {}
+                key = sufi[0].lower() + sufi[1:]
+                if key not in idde:
+                    idde[key] = {}
                 p.remove.add(k2)
                 k = data[k1]
                 v = data[k2]
-                idde[sufi][str(k)] = str(v)
+                if v:
+                    idde[key][str(k)] = str(v)
 
     for pdf in pdfs:
         count = count + 1

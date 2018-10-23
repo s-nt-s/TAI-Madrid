@@ -49,7 +49,7 @@
 					<!--td>{{ p.pais }}</td-->
 					<!--td>{{ p.deProvincia }}</td-->
 					<td title="{{p.idResidencia}}">{{ p.deLocalidad }}</td>
-					<td>{{ p.deObservaciones }}</td>
+					<td>{{ p.deObservaciones or p.idObservaciones }}</td>
 					<td></td>
 				</tr>
 				{%endfor%}

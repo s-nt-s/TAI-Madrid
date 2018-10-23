@@ -209,7 +209,7 @@ class Descripciones:
 
     def __init__(self, **kwargs):
         for k in kwargs.keys():
-            dt = {_k: _v for _k, _v in kwargs[k].items()}
+            dt = {_k: _v for _k, _v in kwargs[k].items() if _v is not "None"}
             k = k[0].lower() + k[1:]
             setattr(self, k, dt)
 
