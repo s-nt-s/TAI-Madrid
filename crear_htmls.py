@@ -70,6 +70,7 @@ if args.todo or args.ranking:
     ofertas = {}
     for year, tipo, nombramientos, destinos in convocatorias:
         destinos.extend(Puesto.load(name=("%s_%s" % (year, tipo))))
+        destinos.sort(key=lambda p: p.ranking)
         for p in destinos:
             for k in claves:
                 dc = ofertas.get(k, {})
