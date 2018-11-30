@@ -27,7 +27,7 @@
                         <tr>
                             <td class="nb">{{id}}</td>
                             <td>{{desc}}</td>
-                            <td class="nb">{{ rank|join(", ") }}</td>
+                            <td class="nb">{{ rank|sort|join(", ") }}</td>
                             <td class="nb">{{ minus(ofertas[key][id], year)|sort|join(", ") }}</td>
                         </tr>
                     {%endfor%}
