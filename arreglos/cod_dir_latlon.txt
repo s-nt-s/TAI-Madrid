@@ -209,3 +209,11 @@
 29042   28.113848,-15.4207909   Plaza de la Feria, 4335003 Las Palmas de Gran Canaria, Las Palmas
 # http://www.ejercitodelaire.mde.es/EA/ejercitodelaire/es/organizacion/unidades/detalle-unidad/Agrupacion-de-la-Base-Aerea-de-Zaragoza/
 29093   41.669525,-1.020042    Carretera del Aeropuerto, s/n, 50071 Zaragoza, Aragón
+
+# http://portal.uned.es/pls/portal/docs/PAGE/UNED_MAIN/LAUNIVERSIDAD/VICERRECTORADOS/GERENCIA/OFICINAS%20DE%20ASISTENCIA%20EN%20MATERIA%20DE%20REGISTRO/OFICINAS%20DE%20REGISTRO%20AAPP%20(26).XLSX
+49793   40.4513525,-3.6881475   Plaza de los Sagrados Corazones, 7, 28002 Madrid
+# https://www.astic.es/noticias/jefe-de-area-de-desarrollo-en-la-gerencia-de-informatica-de-la-dgt
+50089   40.4481103,-3.6421779    Calle Josefa Valcárcel 44, Madrid
+
+# http://www.defensa.gob.es/ministerio/organigrama/sedef/cestic/
+49060   40.4743984,-3.6706029   Arturo Soria 289, 28033 Madrid

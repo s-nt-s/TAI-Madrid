@@ -477,8 +477,9 @@ Calle Ruiz de Alarcón 23 28014 Madrid (Madrid)
 40.4148475,-3.7051239
 Calle Atocha 3 28071 Madrid (Madrid)
 
-40.4172375,-3.6945016
-Paseo del Prado 4, 28014 Madrid
+40.416939,-3.6946425
+Paseo Del Prado 6 28071 Madrid (Madrid)
+Paseo del Prado 6 28014 Madrid (Madrid)
 
 40.4173597,-3.6889892
 Calle Juan de Mena, 1, 28014 Madrid
@@ -505,13 +506,11 @@ Calle Alcalá 47 28014 Madrid (Madrid)
 Calle Alcalá 56 28014
 Calle Alcalá 56, 28014 Madrid
 
-40.4195739,-3.6925089
-Calle Alcala 9 28071
-
 40.4197543,-3.695671
 Calle Barquillo 5, 28004 Madrid
 
 40.4202074,-3.6964252
+Plaza Del Rey 1 28004
 Plaza Del Rey 1, 28004 Madrid
 
 40.4206389,-3.71244
@@ -535,6 +534,10 @@ Calle San Bernardo 21, 28015 Madrid
 
 40.4228731,-3.6927134
 Calle Tamayo y Baus 4 28004 Madrid (Madrid)
+
+40.422936,-3.684494
+Plaza España 17 28071 Madrid (Madrid)
+Plaza de España 17 28071 Madrid (Madrid)
 
 40.4234912,-3.6893974
 Paseo Recoletos 20 22, 28071, Madrid, Comunidad Madrid, España
@@ -573,6 +576,9 @@ Calle Santa Engracia 7 28010 Madrid (Madrid)
 40.4297327,-3.7094414
 Calle Alberto Aguilera 15 duplicado 28015 Madrid (Madrid)
 
+40.4300273,-3.6733563
+Calle Ortega y Gasset 71 28006 Madrid (Madrid)
+
 40.4325031,-3.6917344
 Calle Almagro 33 2ª 28071 Madrid (Madrid)
 Calle Almagro 33 5ª planta 28071 Madrid (Madrid)
@@ -595,6 +601,9 @@ Calle Martín Fierro 5 28040 Madrid (Madrid)
 40.4369226,-3.6914243
 Calle Miguel Angel 25, 28071 Madrid
 
+40.437163,-3.6809054
+C/ María de Molina, 50
+
 40.4371966,-3.6816738
 Calle Núñez de Balboa 116 28006 Madrid (Madrid)
 
@@ -613,12 +622,18 @@ Calle José Abascal 4 28071 Madrid (Madrid)
 Calle José Abascal 2 28003 Madrid (Madrid)
 
 40.4386369,-3.7070536
-Calle Cea Bermúdez 5 28003
 Calle Cea Bermúdez 5 28003 Madrid (Madrid)
 
 40.4403311,-3.6709015
 Calle Corazón de María 8 28002 Madrid (Madrid)
 
+40.4412742,-3.6937457
+Plaza San Juan de la Cruz S/N 28071 Madrid (Madrid)
+Plaza San Juan de la Cruz S/N, 28003, Madrid, Comunidad Madrid, España
+Plaza San Juan de la Cruz s/n 28071 Madrid (Madrid)
+Plaza San Juan de la Cruz s/n, 28003, Madrid, Comunidad Madrid, España
+
+<30m
 40.441279,-3.6938415
 Plaza San Juan de la Cruz s/n 28071 Madrid (Madrid)
 
@@ -664,6 +679,9 @@ Paseo De la Castellana 75, 28071 Madrid
 40.4479744,-3.7135932
 Calle Pedro Justo Dorado Dellmans 11 28040 Madrid (Madrid)
 
+40.4481103,-3.6421779
+Calle Josefa Valcárcel 44, Madrid
+
 40.4481602,-3.716387
 Paseo de Juan XXIII 26, 28040 Madrid
 
@@ -673,6 +691,9 @@ Calle Hernani 59 28020 Madrid (Madrid)
 40.4484526,-3.5813783
 Calle Campezo 1 28022 Madrid (Madrid)
 Calle Campezo 1, 28022, Madrid, Comunidad Madrid, España
+
+40.4513525,-3.6881475
+Plaza de los Sagrados Corazones, 7, 28002 Madrid
 
 40.4519221,-3.6928323
 Avenida General Perón 38 28020 Madrid (Madrid)
@@ -704,9 +725,6 @@ Avenida Computense 40 28071 Madrid (Madrid)
 40.4555445,-3.6986356
 Calle Infanta Mercedes 37 28020 Madrid (Madrid)
 
-40.4555839,-3.691453
-Paseo Castellana 109, 28046 Madrid
-
 40.4558857,-3.6994077
 Calle San Enrique 26 28020 Madrid (Madrid)
 
@@ -720,12 +738,14 @@ Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España
 Autopista A6 Madrid - La Coruña, Salida 8 (Hipódromo)
 
 40.4579287,-3.6888691
+Paseo Castellana 160 28046 Madrid (Madrid)
 Paseo De la Castellana 160, 28046 Madrid
 
 40.4583429,-3.6893451
 Calle Castellana 162 28071 Madrid (Madrid)
 Paseo De la Castellana 162 28036
 Paseo De la Castellana 162, 28046 Madrid
+Paseo PASEO DE LA CASTELLANA 162 28046 Madrid (Madrid)
 Paseo de la Castellana 162 28071
 
 40.4601861,-3.6905666
@@ -744,11 +764,18 @@ Paseo De la Castellana 183, 28046, Madrid, Comunidad Madrid, España
 40.4737694,-3.6866869
 Paseo Castellana 272 28071 Madrid (Madrid)
 
+40.4743984,-3.6706029
+Arturo Soria 289, 28033 Madrid
+
 40.4751479,-3.6882748
 Avenida Monforte de Lemos 3, 28029 Madrid
 
 40.4765303,-3.7446241
 Avda Cardenal Herrera Oria 378, 28035, Madrid, Comunidad Madrid, España
+
+40.4807704,-3.7040207
+Calle Ginzo de Limia 58 28029 Madrid (Madrid)
+Calle Ginzo de Limia 58, 28029, Madrid, Comunidad Madrid, España
 
 40.4832186,-3.7104118
 Calle Fermín Caballero 66 28034 Madrid (Madrid)
