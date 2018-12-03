@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TAI 2017</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8"/>
+        <style>
+table a {
+	text-decoration: none;
+}
+h1 a {
+	color: unset;
+}
+td {
+	vertical-align: top;
+}
+        </style>
+	</head>
+	<body>
+        {%include "banner.html" %}
+        <h1>Fuentes</h1>
+        <p>Partimos de la <a href="http://www.hacienda.gob.es/AreasTematicas/FuncionPublica/Convocatorias%20de%20Cuerpos%20Generales%20y%20Personal%20laboral/Funcionarios%20de%20carrera/TAIS/OEP%202017/ANEXO%20I.pdf">oferta de destinos</a>, la información recopilada en <a href="index.html">anteriores fases</a>, la información de las visitas y de los grupos de Telegram.</p>
+
+        <p>Lo primero, es pasar el <a href="http://www.hacienda.gob.es/AreasTematicas/FuncionPublica/Convocatorias%20de%20Cuerpos%20Generales%20y%20Personal%20laboral/Funcionarios%20de%20carrera/TAIS/OEP%202017/ANEXO%20I.pdf">pdf</a> a algo legible, así que en vez de tomar de base el <a href="http://www.hacienda.gob.es/AreasTematicas/FuncionPublica/Convocatorias%20de%20Cuerpos%20Generales%20y%20Personal%20laboral/Funcionarios%20de%20carrera/TAIS/OEP%202017/ANEXO%20I.pdf">pdf</a> se usara este <a href="https://raw.githubusercontent.com/s-nt-s/TAI-Madrid/master/fuentes/2017_L.xls">excel</a> hecho más o menos a mano, más o menos automáticamente. Por lo tanto seria muy importante que el mayor número de personas posibles compare el <a href="http://www.hacienda.gob.es/AreasTematicas/FuncionPublica/Convocatorias%20de%20Cuerpos%20Generales%20y%20Personal%20laboral/Funcionarios%20de%20carrera/TAIS/OEP%202017/ANEXO%20I.pdf">pdf</a> con el <a href="https://raw.githubusercontent.com/s-nt-s/TAI-Madrid/master/fuentes/2017_L.xls">excel</a> y si encuentra algún error lo notifique en el <a href="https://github.com/s-nt-s/TAI-Madrid/issues/29">issue correspondiente</a>.</p>
+
+        <hr/>
+        <hr/>
+        
+        {% for i in organismos.get_hijos() %}
+            <h1><span>{{i.codigo}}</span> {% if i.organismo.idOrganismo %}- <span>
+            {% if i.organismo.url %}<a target="_ficha" href="{{i.organismo.url}}">{% endif %}{{i.organismo.idOrganismo}}{% if i.organismo.url %}</a>{% endif %}
+        </span> {% endif %}- <span>{{ i.nombre }}</span></h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Centro</th><th>Unidad</th><th>Puestos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for j in i.get_hijos() %}
+                    <tr>
+                        <td rowspan="{{j.hijos|length}}">
+                                <span>{{j.codigo}}</span> {% if j.organismo.idOrganismo %}- <span>
+            {% if j.organismo.url %}<a target="_ficha" href="{{j.organismo.url}}">{% endif %}{{j.organismo.idOrganismo}}{% if j.organismo.url %}</a>{% endif %}
+        </span>{% endif %}<br/><span>{{ j.nombre }}</span><br/>
+                    {% if j.organismo.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.organismo.latlon}}">{{j.organismo.deDireccion}}</a>{% endif %}
+                        </td>
+                        {% for x in j.get_hijos() %}
+                        {% if loop.index > 1 %}
+                            </tr><tr>
+                        {% endif %}
+                        <td>
+                                <span>{{x.codigo}}</span> {% if x.organismo.idOrganismo %}- <span>
+            {% if x.organismo.url %}<a target="_ficha" href="{{x.organismo.url}}">{% endif %}{{x.organismo.idOrganismo}}{% if x.organismo.url %}</a>{% endif %}
+        </span>{%endif%}<br/><span>{{ x.nombre }}</span><br/>
+                    {% if x.organismo.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.organismo.latlon}}">{{x.organismo.deDireccion}}</a>{% endif %}
+                        </td>
+                        
+                        <td>{% for p in x.puestos %}{{p}}<br/>{%endfor%}
+
+                        </td>
+                        
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+            {#
+            {% with org=i.organismo, des=i.descripcion, puestos=i.puestos %}
+            {%include "org.html" %}
+            {% endwith %}
+            
+            {% for j in i.get_hijos() %}
+                <h2><span>{{ j.descripcion }}</span></h2>
+
+            {% with org=j.organismo, des=j.descripcion, puestos=j.puestos %}
+            {%include "org.html" %}
+            {% endwith %}
+            
+                {% for x in j.get_hijos() %}
+                    <h3><span>{{ x.descripcion }}</span></h3>
+
+            {% with org=x.organismo, des=x.descripcion, puestos=x.puestos %}
+            {%include "org.html" %}
+            {% endwith %}
+            
+                {%endfor%}
+                
+            {%endfor%}
+            #}
+		{%endfor%}
+
+	</body>
+</html>

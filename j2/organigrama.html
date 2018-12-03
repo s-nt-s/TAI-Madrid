@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Organigrama RPT</title>
+		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8"/>
+         <style>
+            li.colapse > ul {
+                display: none;
+            }
+            span.col {
+                cursor: pointer;
+                font-family: monoespace;
+            }
+        </style>
+        <script src="main.js" defer type="text/javascript"></script>
+	</head>
+	<body>
+        {%include "banner.html" %}
+        <p>Esto es un organigrama creado teniendo solo en cuenta los datos de los RPT. Sirve para ser comparado con los datos de Dir3 y administracion.gob.es</p>
+        <p>Pulsa en el [+] para ver los hijos ocultos.</p>
+
+        {% for o in organismos %}
+            <h1>{{o.codigo}}</h1>
+            <ul class="orgarigrama">
+                {% for i in o.get_hijos() %}
+                    <li>
+                        <span>{{i.codigo}}</span> - <span>{{i.descripcion}}</span>
+                        <ul>
+                        {% for j in i.get_hijos() %}
+                            <li class="colapse">
+                                {% if j.hijos %}<span class="col">[+]</span> {% endif %}<span>{{j.codigo}}</span> - <span>{{j.descripcion}}</span>
+                                {% if j.hijos %}
+                                <ul>
+                                {% for x in j.get_hijos() %}
+                                    <li>
+                                        <span>{{x.codigo}}</span> - <span>{{x.descripcion}}</span>
+                                    </li>
+                                {% endfor %}
+                                </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+	</body>
+</html>
