@@ -217,3 +217,15 @@
 
 # http://www.defensa.gob.es/ministerio/organigrama/sedef/cestic/
 49060   40.4743984,-3.6706029   Arturo Soria 289, 28033 Madrid
+
+####
+50454   40.4202074,-3.6964252     Plaza Del Rey 1, 28004 Madrid
+
+### Mail
+49633   40.4117245,-3.6989553   Costanilla de los Desamparados, 1428014 Madrid
+
+### Puestos
+4741685     40.3486333,-3.8080528   Calle Parque Ordesa, 328924 Alcorcón, Madrid
+4741292     40.4603221,-3.6907088   Paseo Castellana 147, 28020 Madrid
+5465061     40.4514824,-3.4740868   Calle Alcuñeza, 28850 Torrejón de Ardoz, Madrid
+

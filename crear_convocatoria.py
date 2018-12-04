@@ -3,6 +3,7 @@
 
 
 import xlrd
+import xlwt
 import os
 import re
 import sys
@@ -11,6 +12,9 @@ from glob import glob
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
                  get_direcciones_txt, simplificar_dire, soup_from_file,
                  yaml_from_file, get_cod_dir_latlon, Jnj2)
+
+import simplekml
+import utm
 
 re_space = re.compile(r"  +")
 
@@ -488,11 +492,14 @@ for o in Organismo.load():
     for c in o.codigos:
         organismos[c]=o
 
+cod_dir_latlon = get_cod_dir_latlon()
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
 
 class Org:
 
     def __init__(self, codigo, descripcion):
+        ll = cod_dir_latlon.get(codigo, None)
+        self.clave = codigo
         self.codigo = codigo
         self.descripcion=descripcion
         self.hijos=set()
@@ -503,6 +510,16 @@ class Org:
             codigo = arreglos.get(codigo, None)
             if codigo:
                 self.organismo = organismos.get(codigo, None)
+
+        if self.organismo:
+            self.latlon = self.organismo.latlon
+            self.deDireccion = self.organismo.deDireccion
+
+        if ll:
+            self.latlon, self.deDireccion = ll
+
+        if isinstance(self.codigo, str):
+            self.codigo="¿?"
 
     def get_hijos(self):
         return sorted(self.hijos, key=lambda o: (o.descripcion, o.codigo))
@@ -532,16 +549,24 @@ def get_org(i, d):
     return o
 
 descripciones = Descripciones.load()
-
+'''
+wb_out = xlwt.Workbook()
+ws_out = wb_out.add_sheet('Oferta normalizada')
+row = ws_out.row(0)
+for i, v in enumerate(["PUESTO\nNÚMERO", "ID MINISTERIO", "MINISTERIO", "ID CENTRO", "CENTRO", "ID UNIDAD", "UNIDAD"]):
+    row.write(i, v)
+'''
 
 org_convocatoria=Org(None, None)
 puestos = []
+unidades = []
 wb = xlrd.open_workbook("fuentes/2017_L.xls", logfile=open(os.devnull, 'w'))
 sh = wb.sheet_by_index(0)
 for rx in range(1, sh.nrows):
     r = [parse(c) for c in sh.row(rx)]
     if len(r)==10:
         p = Puesto()
+        p.ranking=r[0]
         p.idPuesto=r[-3]
         p.dePuesto = get_puesto(r[-4])
         p.nivel=r[-2]
@@ -559,28 +584,89 @@ for rx in range(1, sh.nrows):
             if p.idUnidad:
                 p.deUnidad = p.deCentroDirectivo
 
+        if p.idPuesto in (5465059, 5465060):
+            p.turno="NOCHE"
+        if p.idPuesto in (5465061,):
+            p.turno="TARDE"
+            
+
         puestos.append(p)
         
         oM = get_org(p.idMinisterio, p.deMinisterio)
         oM.rpt = descripciones.ministerio.get(str(p.idMinisterio), None)
         oC = get_org(p.idCentroDirectivo, p.deCentroDirectivo)
         oC.rpt = descripciones.centroDirectivo.get(str(p.idCentroDirectivo), None)
-        if p.deUnidad:
-            oU = get_org(p.idUnidad, p.deUnidad)
-            oU.rpt = descripciones.unidad.get(str(p.idUnidad), None)
+        oU = get_org(p.idUnidad, p.deUnidad)
+        oU.rpt = descripciones.unidad.get(str(p.idUnidad), None)
+
+        ll = cod_dir_latlon.get(p.idPuesto, None)
+        if ll:
+            p.latlon, p.deDireccion = ll
+            p.direccionSingular = True
         else:
-            if oC.rpt is None:
-                oC.rpt = descripciones.unidad.get(str(p.idCentroDirectivo), None)
-            oU = None
+            p.latlon = oU.latlon or oC.latlon
+            p.deDireccion = oU.deDireccion or oC.deDireccion
 
         org_convocatoria.hijos.add(oM)
         oM.hijos.add(oC)
-        if oU:
-            oC.hijos.add(oU)
-            oU.puestos.append(p.idPuesto)
-        else:
-            oC.puestos.append(p.idPuesto)
+        oC.hijos.add(oU)
+        oU.puestos.append(p)
+        unidades.append(oU)
 
+        '''
+        row = ws_out.row(p.ranking)
+        for i, v in enumerate([p.ranking, p.idMinisterio, p.deMinisterio, p.idCentroDirectivo, p.deCentroDirectivo, p.idUnidad, p.deUnidad]):
+            row.write(i, v)
+        '''
+
+'''
+for u in unidades:
+    if len(u.puestos)==1:
+        p = u.puestos[0]
+        if p.latlon:
+            u.latlon = p.latlon
+            u.deDireccion = p.deDireccion
+'''
+            
+
+#wb_out.save("datos/2017_L_normalizado.xls")
 
 j2 = Jnj2("j2/", "docs/")
 j2.save("convocatoria.html", organismos=org_convocatoria)
+
+
+def get_txt(idOrg):
+    org = dict_organ.get(idOrg)
+    descripcion = str(org.codigo) + " - "
+    if org.organismo:
+        descripcion += org.organismo.idOrganismo + " - "
+    descripcion += org.nombre
+    return descripcion
+
+kml = simplekml.Kml()
+kml.document.name = "TAI 2017"
+
+style_normal = simplekml.Style()
+style_normal.iconstyle.color = simplekml.Color.blue
+style_normal.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/blue.png'
+
+coordenadas = set([p.latlon for p in puestos])
+
+for c in coordenadas:
+    pts = [p for p in puestos if p.latlon == c]
+    name = "[%s] %s " % (len(pts), pts[0].deDireccion)
+    utm_split = c.split(",")
+    latlon = (float(utm_split[1]), float(utm_split[0]))
+    pnt = kml.newpoint(name=name, coords=[latlon])
+    descripcion = ""
+    for m in sorted(set([p.idMinisterio for p in pts])):
+        descripcion += "\n\n# " + get_txt(m)
+        for c in sorted(set([p.idCentroDirectivo for p in pts if p.idMinisterio==m])):
+            descripcion += "\n## " + get_txt(c)
+            for u in sorted(set([p.idUnidad for p in pts if p.idMinisterio==m and p.idCentroDirectivo==c])):
+                descripcion += "\n### " + get_txt(u)
+                for p in [p for p in pts if p.idMinisterio==m and p.idCentroDirectivo==c and p.idUnidad==u]:
+                    descripcion += "\n- %s (%s/%s) %s € %s" % (p.ranking, p.idPuesto, p.nivel, int(p.complemento), p.turno or "")
+    pnt.description = descripcion.strip()
+    
+kml.save("docs/mapa/2017.kml")

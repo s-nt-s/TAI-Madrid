@@ -3,18 +3,8 @@
 	<head>
 		<title>TAI 2017</title>
 		<link href="main.css" rel="stylesheet" type="text/css"/>
+		<link href="main_convocatoria.css" rel="stylesheet" type="text/css"/>
 		<meta charset="utf-8"/>
-        <style>
-table a {
-	text-decoration: none;
-}
-h1 a {
-	color: unset;
-}
-td {
-	vertical-align: top;
-}
-        </style>
 	</head>
 	<body>
         {%include "banner.html" %}
@@ -27,37 +17,39 @@ td {
         <hr/>
         
         {% for i in organismos.get_hijos() %}
-            <h1><span>{{i.codigo}}</span> {% if i.organismo.idOrganismo %}- <span>
+            <h1><span>{{i.codigo}}</span> - <span>{% if i.organismo.idOrganismo %}
             {% if i.organismo.url %}<a target="_ficha" href="{{i.organismo.url}}">{% endif %}{{i.organismo.idOrganismo}}{% if i.organismo.url %}</a>{% endif %}
-        </span> {% endif %}- <span>{{ i.nombre }}</span></h1>
+        {%else%}¿?{% endif %}</span> - <span>{{ i.nombre }}</span></h1>
 
             <table>
                 <thead>
                     <tr>
-                        <th>Centro</th><th>Unidad</th><th>Puestos</th>
+                        <th class="c">Centro</th><th class="u">Unidad</th><th>Puestos</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for j in i.get_hijos() %}
                     <tr>
                         <td rowspan="{{j.hijos|length}}">
-                                <span>{{j.codigo}}</span> {% if j.organismo.idOrganismo %}- <span>
+                                <span>{{j.codigo}}</span> - <span>{% if j.organismo.idOrganismo %}
             {% if j.organismo.url %}<a target="_ficha" href="{{j.organismo.url}}">{% endif %}{{j.organismo.idOrganismo}}{% if j.organismo.url %}</a>{% endif %}
-        </span>{% endif %}<br/><span>{{ j.nombre }}</span><br/>
-                    {% if j.organismo.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.organismo.latlon}}">{{j.organismo.deDireccion}}</a>{% endif %}
+        {%else%}¿?{% endif %}</span><br/><span>{{ j.nombre }}</span><br/>
+                    {% if j.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.latlon}}">{{j.deDireccion}}</a>{% endif %}
                         </td>
                         {% for x in j.get_hijos() %}
                         {% if loop.index > 1 %}
                             </tr><tr>
                         {% endif %}
                         <td>
-                                <span>{{x.codigo}}</span> {% if x.organismo.idOrganismo %}- <span>
+                                <span>{{x.codigo}}</span> - <span>{% if x.organismo.idOrganismo %}
             {% if x.organismo.url %}<a target="_ficha" href="{{x.organismo.url}}">{% endif %}{{x.organismo.idOrganismo}}{% if x.organismo.url %}</a>{% endif %}
-        </span>{%endif%}<br/><span>{{ x.nombre }}</span><br/>
-                    {% if x.organismo.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.organismo.latlon}}">{{x.organismo.deDireccion}}</a>{% endif %}
+        {%else%}¿?{%endif%}</span><br/><span>{{ x.nombre }}</span><br/>
+                    {% if x.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{x.latlon}}">{{x.deDireccion}}</a>{% endif %}
                         </td>
                         
-                        <td>{% for p in x.puestos %}{{p}}<br/>{%endfor%}
+                        <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}/<span class="n{{p.nivel}}">{{p.nivel}}</span>) <span class="c{{p.complemento|int}}">{{p.complemento|int}} €</span> <strong>{{p.turno}}</strong>
+                        {% if p.direccionSingular %}<a target="_map" href="https://www.google.com/maps?q={{p.latlon}}">{{p.deDireccion}}</a>{% endif %}
+                        <br/>{%endfor%}
 
                         </td>
                         

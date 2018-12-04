@@ -1,0 +1,24 @@
+
+table a {
+	text-decoration: none;
+}
+h1 a {
+	color: unset;
+}
+td {
+	vertical-align: top;
+}
+th.c, th.u {
+	width: 20em;
+}
+span.ord {
+	display: inline-block;
+	width: 2em;
+	text-align: right;
+}
+span.n15, span.c3500 {
+	opacity: 0.5;
+}
+span.c5346, span.c5564 {
+	font-weight: bold;
+}

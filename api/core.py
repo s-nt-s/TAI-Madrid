@@ -259,6 +259,13 @@ class Puesto:
 
     def __init__(self, *args):
         self.remove = set(("remove",))
+        self.ranking = None
+        self.desaparecido = None
+        self.latlon = None
+        self.direccion = None
+        self.horario = None
+        self.direccionSingular = False
+        self.turno = None
         if len(args) == 0:
             return
         self.idMinisterio, \
@@ -293,8 +300,6 @@ class Puesto:
                 int(i) for i in self.idResidencia.split("-")]
         if self.dePuesto is None:
             self.dePuesto = dePuestoCorta
-        self.ranking = None
-        self.desaparecido = None
 
     def calcular_provincia(self, provincias):
         if self.deCentroDirectivo and "CEUTA Y MELILLA" in self.deCentroDirectivo:

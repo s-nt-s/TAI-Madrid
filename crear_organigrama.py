@@ -54,7 +54,7 @@ def get_org(i, d):
         dict_organ[i]=o
     return o
 
-for x in glob("fuentes/RPT-*-PF.xls"):
+for x in glob("fuentes/RPT-*-PF*.xls"):
     org = Org(os.path.basename(x), "")
     wb = xlrd.open_workbook(x, logfile=open(os.devnull, 'w'))
     sh = wb.sheet_by_index(0)
