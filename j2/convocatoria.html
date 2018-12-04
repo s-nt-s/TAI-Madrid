@@ -47,7 +47,7 @@
                     {% if x.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{x.latlon}}">{{x.deDireccion}}</a>{% endif %}
                         </td>
                         
-                        <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}/<span class="n{{p.nivel}}">{{p.nivel}}</span>) <span class="c{{p.complemento|int}}">{{p.complemento|int}} €</span> <strong>{{p.turno}}</strong>
+                        <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}<!--/<span class="n{{p.nivel}}">{{p.nivel}}</span-->) <span class="c{{p.sueldo|int}}">{{p.sueldo|int}} €</span>{% if p.turno %} <strong>{{p.turno}}</strong>{% endif %}
                         {% if p.direccionSingular %}<a target="_map" href="https://www.google.com/maps?q={{p.latlon}}">{{p.deDireccion}}</a>{% endif %}
                         <br/>{%endfor%}
 
