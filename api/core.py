@@ -307,7 +307,9 @@ class Puesto:
         if self.nivel == 16:
             c = 15307.68
         if self.idCentroDirectivo == 50303:
-            c += (53.60 + 211.62) * 12
+            # revisar
+            # c += (53.60 + 211.62) * 12
+            pass
         return self.complemento + c
         
     def calcular_provincia(self, provincias):
