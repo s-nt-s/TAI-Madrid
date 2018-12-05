@@ -301,6 +301,13 @@ class Puesto:
         if self.dePuesto is None:
             self.dePuesto = dePuestoCorta
 
+    @property
+    def sueldo(self):
+        c = 14981.76
+        if self.nivel == 16:
+            c = 15307.68
+        return self.complemento + c
+        
     def calcular_provincia(self, provincias):
         if self.deCentroDirectivo and "CEUTA Y MELILLA" in self.deCentroDirectivo:
             return "Ceuta y Melilla"

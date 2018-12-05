@@ -9,6 +9,11 @@ def minus(a, b):
         a.remove(b)
     return a
 
+def money(value, rounded=10, dotted=True):
+    value = int(value / rounded)*rounded
+    if dotted:
+        value = "{:,.0f}".format(value).replace(",", ".")
+    return value
 
 class Jnj2():
 
@@ -16,6 +21,7 @@ class Jnj2():
         self.j2_env = Environment(
             loader=FileSystemLoader(origen), trim_blocks=True)
         self.j2_env.globals['minus'] = minus
+        self.j2_env.filters['money'] = money
         self.destino = destino
         self.pre = pre
         self.post = post
