@@ -309,6 +309,7 @@ class Puesto:
         if self.idCentroDirectivo == 50303:
             # revisar
             # c += (53.60 + 211.62) * 12
+            # https://github.com/s-nt-s/TAI-Madrid/issues/30
             pass
         return self.complemento + c
         
