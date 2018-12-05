@@ -224,6 +224,12 @@
 ### Mail
 49633   40.4117245,-3.6989553   Costanilla de los Desamparados, 1428014 Madrid
 
+### Reuniones
+26666   40.4290185,-3.6985618   Calle de Santa Engracia 7, 28010 Madrid
+50495   40.4290185,-3.6985618   Calle de Santa Engracia 7, 28010 Madrid
+49758   40.43041,-3.7017587     Calle de Manuel Cortina 2, 28010
+49959   40.43041,-3.7017587     Calle de Manuel Cortina 2, 28010
+
 ### Puestos
 4741685     40.3486333,-3.8080528   Calle Parque Ordesa, 328924 Alcorcón, Madrid
 4741292     40.4603221,-3.6907088   Paseo Castellana 147, 28020 Madrid
