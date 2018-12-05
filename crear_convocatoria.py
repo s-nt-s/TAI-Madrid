@@ -11,7 +11,7 @@ from glob import glob
 
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
                  get_direcciones_txt, simplificar_dire, soup_from_file,
-                 yaml_from_file, get_cod_dir_latlon, Jnj2)
+                 yaml_from_file, get_cod_dir_latlon, Jnj2, money)
 
 import simplekml
 import utm
@@ -494,11 +494,13 @@ for o in Organismo.load():
 
 cod_dir_latlon = get_cod_dir_latlon()
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
+notas = dict_from_txt("arreglos/notas.txt")
 
 class Org:
 
     def __init__(self, codigo, descripcion):
         ll = cod_dir_latlon.get(codigo, None)
+        self.nota = notas.get(codigo, None)
         self.clave = codigo
         self.codigo = codigo
         self.descripcion=descripcion
@@ -607,6 +609,8 @@ for rx in range(1, sh.nrows):
             p.latlon = oU.latlon or oC.latlon
             p.deDireccion = oU.deDireccion or oC.deDireccion
 
+        p.nota = notas.get(p.idPuesto, None)
+
         org_convocatoria.hijos.add(oM)
         oM.hijos.add(oC)
         oC.hijos.add(oU)
@@ -637,10 +641,15 @@ j2.save("convocatoria.html", organismos=org_convocatoria)
 
 def get_txt(idOrg):
     org = dict_organ.get(idOrg)
-    descripcion = str(org.codigo) + " - "
+    descripcion = ""
+    '''
+    descripcion += str(org.codigo) + " - "
     if org.organismo:
         descripcion += org.organismo.idOrganismo + " - "
+    '''
     descripcion += org.nombre
+    if org.nota:
+        descripcion += "\n("+org.nota+")"
     return descripcion
 
 kml = simplekml.Kml()
@@ -666,7 +675,9 @@ for c in coordenadas:
             for u in sorted(set([p.idUnidad for p in pts if p.idMinisterio==m and p.idCentroDirectivo==c])):
                 descripcion += "\n### " + get_txt(u)
                 for p in [p for p in pts if p.idMinisterio==m and p.idCentroDirectivo==c and p.idUnidad==u]:
-                    descripcion += "\n- %s (%s/%s) %s € %s" % (p.ranking, p.idPuesto, p.nivel, int(p.complemento), p.turno or "")
+                    descripcion += "\n> %s (%s) %s € %s" % (p.ranking, p.idPuesto, money(p.sueldo), p.turno or "")
+                    if p.nota:
+                        descripcion += " ("+p.nota+")"
     pnt.description = descripcion.strip()
     
 kml.save("docs/mapa/2017.kml")
