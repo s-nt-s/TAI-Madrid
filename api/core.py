@@ -258,14 +258,14 @@ class Puesto:
         return p
 
     def __init__(self, *args):
-        self.remove = set(("remove",))
+        self.remove = set("remove direccionSingular turno nota".split())
         self.ranking = None
         self.desaparecido = None
         self.latlon = None
         self.direccion = None
-        self.horario = None
         self.direccionSingular = False
         self.turno = None
+        self.nota = None
         if len(args) == 0:
             return
         self.idMinisterio, \

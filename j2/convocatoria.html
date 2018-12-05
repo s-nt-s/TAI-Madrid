@@ -20,6 +20,7 @@
             <li>La cantidad monetaria corresponde al salario total minimo (es decir, <a href="http://www.sepg.pap.hacienda.gob.es/sitios/sepg/es-ES/CostesPersonal/EstadisticasInformes/Documents/A%C3%91O%202018/01%20Funcionarios%20Ficha%20Retributiva%202018%20%20(1-1-2018).pdf">salario base + complemento destino</a> + <a href="http://www.hacienda.gob.es/AreasTematicas/FuncionPublica/Convocatorias%20de%20Cuerpos%20Generales%20y%20Personal%20laboral/Funcionarios%20de%20carrera/TAIS/OEP%202017/ANEXO%20I.pdf">complemento especifico</a>). Si conoces algún concepto más que se debería sumar para algún organismo, por favor, <a href="https://github.com/s-nt-s/TAI-Madrid/issues/30">notificarlo en este issue.</a></li>
             <li>Para hacer más fácil la comparación de salarios estos vienen redondeados (euro arriba, euro abajo te va a dar igual), y en gris aquellas cantidades que para afrontar con optimismo requieren del opositor un especial desapego a los bienes materiales y un no menos excepcional aprecio por la vida asceta.</li>
             <li>Cuando un puesto no esta en el mismo lugar que su unidad, se le pone la dirección correcta al lado. Esta información puede estar desactualizada con respecto <a href="https://docs.google.com/spreadsheets/d/1OW2tyeRYyufqpacr3z3l6Z_5UX8XqyTJvQA7I9-zLCs/edit#gid=1523533610">al excel</a>, pero si ira manteniendo en la medida de lo posible.</li>
+            <li>Con estos datos se genera <a href="https://drive.google.com/open?id=1ZYCOyNf4JQn--imU0-CRTmoEA4o2bwcn&usp=sharing">este mapa</a>, pero ojo, se usan las direcciones principales, hay que leerse las notas (aquí en rojo) para saber si puede haber sorpresas.</li>
         </ul>
 
         <hr/>
@@ -42,8 +43,12 @@
                         <td rowspan="{{j.hijos|length}}">
                                 <span>{{j.codigo}}</span> - <span>{% if j.organismo.idOrganismo %}
             {% if j.organismo.url %}<a target="_ficha" href="{{j.organismo.url}}">{% endif %}{{j.organismo.idOrganismo}}{% if j.organismo.url %}</a>{% endif %}
-        {%else%}¿?{% endif %}</span><br/><span>{{ j.nombre }}</span><br/>
-                    {% if j.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.latlon}}">{{j.deDireccion}}</a>{% endif %}
+        {%else%}¿?{% endif %}</span><br/><span>{{ j.nombre }}</span>
+                        <!---->
+                        <br/>
+                        {% if j.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{j.latlon}}">{{j.deDireccion}}</a>{% endif %}
+                        <!---->
+                            {% if j.nota %}<br/><span class="nota">{{j.nota}}</span>{% endif %}
                         </td>
                         {% for x in j.get_hijos() %}
                         {% if loop.index > 1 %}
@@ -53,11 +58,16 @@
                                 <span>{{x.codigo}}</span> - <span>{% if x.organismo.idOrganismo %}
             {% if x.organismo.url %}<a target="_ficha" href="{{x.organismo.url}}">{% endif %}{{x.organismo.idOrganismo}}{% if x.organismo.url %}</a>{% endif %}
         {%else%}¿?{%endif%}</span><br/><span>{{ x.nombre }}</span><br/>
-                    {% if x.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{x.latlon}}">{{x.deDireccion}}</a>{% endif %}
+                    {% if x.deDireccion %}<a target="_map" href="https://www.google.com/maps?q={{x.latlon}}">{{x.deDireccion}}</a>
+                    {% else %}
+                    <a target="_map" href="https://www.google.com/maps?q={{j.latlon}}">{{j.deDireccion}}</a>
+                    {% endif %}
+                            {% if x.nota %}<br/><span class="nota">{{x.nota}}</span>{% endif %}
                         </td>
                         
                         <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}<!--/<span class="n{{p.nivel}}">{{p.nivel}}</span-->) <span class="c{{p.sueldo|money(100, False)}}">{{p.sueldo|money}} €</span>{% if p.turno %} <strong>{{p.turno}}</strong>{% endif %}
                         {% if p.direccionSingular %}<a target="_map" href="https://www.google.com/maps?q={{p.latlon}}">{{p.deDireccion}}</a>{% endif %}
+                        {% if p.nota %} <span class="nota">{{p.nota}}</span>{% endif %}
                         <br/>{%endfor%}
 
                         </td>

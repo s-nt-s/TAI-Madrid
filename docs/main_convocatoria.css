@@ -19,6 +19,9 @@ span.ord {
 span.n15, span.c18400 {
 	opacity: 0.5;
 }
-span.c5346, span.c5564 {
+span.c20800, span.c20300, span.c20600 {
 	font-weight: bold;
+}
+span.nota {
+	color: red;
 }
