@@ -63,7 +63,7 @@
                     <a target="_map" href="https://www.google.com/maps?q={{j.latlon}}">{{j.deDireccion}}</a>
                     {% endif %}
                             {% if x.nota %}<br/><span class="nota">{{x.nota}}</span>{% endif %}
-                            <br/>{{x.puestos|length}} puestos.
+                            {% if x.puestos|length > 1 %}<br/>{{x.puestos|length}} puestos.{% endif %}
                         </td>
                         
                         <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}<!--/<span class="n{{p.nivel}}">{{p.nivel}}</span-->) <span class="c{{p.sueldo|money(100, False)}}">{{p.sueldo|money}} €</span>{% if p.turno %} <strong>{{p.turno}}</strong>{% endif %}
