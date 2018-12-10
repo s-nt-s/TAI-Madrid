@@ -73,7 +73,7 @@
                         
                         <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}<!--/<span class="n{{p.nivel}}">{{p.nivel}}</span-->) <span class="c{{p.sueldo|money(100, False)}}">{{p.sueldo|money}} €</span>{% if p.turno %} <strong>{{p.turno}}</strong>{% endif %}
                         {% if p.direccionSingular %}<a target="_map" href="https://www.google.com/maps?q={{p.latlon}}">{{p.deDireccion}}</a>{% endif %}
-                        {% if p.nota %} <span class="nota">{{p.nota}}</span>{% endif %}
+                        {% if p.nota %} <span class="nota">{{p.nota}}</span>{% endif %} {% if p.deObservaciones %}<span>{{ p.deObservaciones }}</span>{% endif %}
                         <br/>{%endfor%}
 
                         </td>

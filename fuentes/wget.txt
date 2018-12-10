@@ -30,16 +30,10 @@ http://transparencia.gob.es/transparencia/dam/jcr:173168f2-8b97-4255-9793-2b7686
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
-http://transparencia.gob.es/transparencia/dam/jcr:38252541-8fb6-4cb9-bb74-7dd28aac2bdf/RPT-MEIC-PF_suprimido.xls
-http://transparencia.gob.es/transparencia/dam/jcr:ee1c7e0e-9fc1-41c8-9116-3ef9df8a30ec/RPT-MEIC-PF_suprimido.pdf
-
-# Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 http://transparencia.gob.es/transparencia/dam/jcr:a061f606-cd31-4f10-a9c4-6f2bc77c8a23/RPT-MESS-PF_suprimido.xls
 http://transparencia.gob.es/transparencia/dam/jcr:5c6ef529-4e78-480a-94c8-83f08cff05b8/RPT-MESS-PF_suprimido.pdf
-
-# Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 http://transparencia.gob.es/transparencia/dam/jcr:f1bc7440-7468-469b-86ff-776758085f60/RPT-METU-PF_suprimido.xls
@@ -56,18 +50,14 @@ http://transparencia.gob.es/transparencia/dam/jcr:ac2d5370-6277-40b2-b076-88e77c
 http://transparencia.gob.es/transparencia/dam/jcr:83cccd09-a1aa-4782-9673-fac3c1f5d8a1/RPT-MPRA-PF_suprimido.pdf
 
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
-http://transparencia.gob.es/transparencia/dam/jcr:12b66c46-588f-4a3f-a3fe-cb9826bb8efa/RPT-MPRE-PF_sup.xls
+http://transparencia.gob.es/transparencia/dam/jcr:12b66c46-588f-4a3f-a3fe-cb9826bb8efa/RPT-MPRE-PF_suprimido.xls
 http://transparencia.gob.es/transparencia/dam/jcr:24d5cd89-f271-4e34-bcd2-6e1786e47a21/RPT-MPRE-PF_suprimido.pdf
-
-# Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
-http://transparencia.gob.es/transparencia/dam/jcr:2bdaef40-5379-40a6-9ce0-d2502ba477c0/RPT-MSSI-PF_suprimido.xls
-http://transparencia.gob.es/transparencia/dam/jcr:fbe74caa-d06c-4c2f-968c-085665cc1340/RPT-MSSI-PF_suprimido.pdf
 
 # Relaciones de Puestos de Trabajo en los Ministerios Suprimidos
 
 # Presidencia del Gobierno
-http://transparencia.gob.es/transparencia/dam/jcr:7ed43ae3-234e-4381-acac-9b44431924c3/RPT-MPRI-PF.xls
-http://transparencia.gob.es/transparencia/dam/jcr:9e319f7a-c7ff-4be9-a766-0066a48351f9/RPT-MPRI-PF.pdf
+http://transparencia.gob.es/transparencia/dam/jcr:5438d1da-7081-40a3-a84a-c91ffd0e948f/RPT-PRESIDENCIA-PF.xlsx
+http://transparencia.gob.es/transparencia/dam/jcr:1aa8f763-6ead-41fb-890a-60b0b3457bab/RPT-PRESIDENCIA-PF.pdf
 
 # Presidencia del Gobierno
 
@@ -102,7 +92,7 @@ http://transparencia.gob.es/transparencia/dam/jcr:2a8381f1-7855-4c0b-a811-1893c6
 # Ciencia, Innovación y Universidades
 
 # Ciencia, Innovación y Universidades
-http://transparencia.gob.es/transparencia/dam/jcr:0921b3dc-789b-4a0f-81c0-f9f3923c3ac8/RPT-CSIC-PF.xls
+http://transparencia.gob.es/transparencia/transparencia/PublicidadActiva/OrganizacionYEmpleo/05.RPT/201809_Septiembre/MECE/CSIC/RPT-CSIC-PF.xls
 http://transparencia.gob.es/transparencia/dam/jcr:ddaed80d-a781-4bd7-ac27-1ec855118369/RPT-CSIC-PF.pdf
 
 # Ciencia, Innovación y Universidades
@@ -160,7 +150,7 @@ http://transparencia.gob.es/transparencia/dam/jcr:fe4091cb-2220-4df9-90fa-0e6797
 # Fomento
 
 # Fomento
-http://transparencia.gob.es/transparencia/dam/jcr:643d7596-c939-4971-84b3-b3814f347c00/RPT-AESF-PF.xls
+http://transparencia.gob.es/transparencia/transparencia/PublicidadActiva/OrganizacionYEmpleo/05.RPT/201809_Septiembre/MFOM/AESF/RPT-AESF-PF.xls
 http://transparencia.gob.es/transparencia/dam/jcr:943318a8-c156-457d-bd3d-8c0a68756958/RPT-AESF-PF.pdf
 
 # Fomento
@@ -216,8 +206,8 @@ http://transparencia.gob.es/transparencia/dam/jcr:04303db0-9ee2-4d16-a6a9-df46b4
 http://transparencia.gob.es/transparencia/dam/jcr:ac454d99-493a-4929-897f-e3be0955b7ae/RPT-CTBG-PF.pdf
 
 # Presidencia, Relaciones con las Cortes e Igualdad
-# http://transparencia.gob.es/transparencia/dam/jcr:7ed43ae3-234e-4381-acac-9b44431924c3/RPT-MPRI-PF.xls
-# http://transparencia.gob.es/transparencia/dam/jcr:9e319f7a-c7ff-4be9-a766-0066a48351f9/RPT-MPRI-PF.pdf
+http://transparencia.gob.es/transparencia/dam/jcr:7ed43ae3-234e-4381-acac-9b44431924c3/RPT-MPCI-PF.xls
+http://transparencia.gob.es/transparencia/dam/jcr:9e319f7a-c7ff-4be9-a766-0066a48351f9/RPT-MPCI-PF.pdf
 
 # Presidencia, Relaciones con las Cortes e Igualdad
 
@@ -228,7 +218,7 @@ http://transparencia.gob.es/transparencia/dam/jcr:ba12dd08-7bfd-4cdb-a68b-808d2c
 # Presidencia, Relaciones con las Cortes e Igualdad
 
 # Presidencia, Relaciones con las Cortes e Igualdad
-http://transparencia.gob.es/transparencia/dam/jcr:a4c0c117-1738-4d2f-ae11-fb9d1c4073bf/RPT-CAPN-PF.xls
+http://transparencia.gob.es/transparencia/transparencia/PublicidadActiva/OrganizacionYEmpleo/05.RPT/201809_Septiembre/MPRI/CAPN/RPT-CAPN-PF.xls
 http://transparencia.gob.es/transparencia/dam/jcr:9991b14d-7cbc-4d5b-bb4c-4fb4afaacccf/RPT-CAPN-PF.pdf
 
 # Sanidad, Consumo y Bienestar Social
@@ -272,3 +262,7 @@ http://transparencia.gob.es/transparencia/dam/jcr:c33c2b73-de53-40ab-b221-f246d0
 http://transparencia.gob.es/transparencia/dam/jcr:0a9d2b84-49b8-4bf4-a7ab-b4bdcd6f087e/RPT-CSN-PF.pdf
 
 # Consejo de Seguridad Nuclear
+
+# Histórico
+
+# Histórico

@@ -513,6 +513,8 @@ for o in Organismo.load():
 cod_dir_latlon = get_cod_dir_latlon()
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
 notas = dict_from_txt("arreglos/notas.txt")
+
+todos_puestos = {p.idPuesto : p for p in Puesto.load(name="destinos_tai")}
 vacantes_tai = [p for p in Puesto.load() if p.isTAI() and p.estado=="V"]
 
 class Org:
@@ -604,7 +606,7 @@ sh = wb.sheet_by_index(0)
 for rx in range(1, sh.nrows):
     r = [parse(c) for c in sh.row(rx)]
     if len(r)==10:
-        p = Puesto()
+        p = todos_puestos.get(r[-3], Puesto())
         p.ranking=r[0]
         p.idPuesto=r[-3]
         p.dePuesto = get_puesto(r[-4])
@@ -622,6 +624,16 @@ for rx in range(1, sh.nrows):
             p.idUnidad=get_unidad(p.idMinisterio, p.idCentroDirectivo, p.deCentroDirectivo)
             if p.idUnidad:
                 p.deUnidad = p.deCentroDirectivo
+
+        if p.deObservaciones in ("PUESTOS CON DEST. EN SS.CC O AMB. TERRIT. DELG. HAC. ESP. O", "OFERTA DE EMPLEO PUBLICO PARA CUERPOS GENERALES", "P.TRABAJO RESERVADO PARA OCUPACION PERSONAL DE NUEVO INGRESO"):
+            p.idObservaciones = None
+            p.deObservaciones = None
+        if p.idObservaciones == "H.T, OCG":
+            p.idObservaciones = None
+            p.deObservaciones = None
+            p.turno="TARDE"
+        if p.deObservaciones is None:
+            p.deObservaciones = p.idObservaciones
 
         if p.idPuesto in (5465059, 5465060):
             p.turno="NOCHE"

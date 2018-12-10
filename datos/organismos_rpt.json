@@ -312,7 +312,7 @@
         "deOrganismo": "ADMINISTRACION DEL ESTADO EN EL EXTERIOR - REPRESENTACIONES PERMANENTES EN OO.II.",
         "idOrganismo": 1107,
         "idPadres": [
-            45858
+            50239
         ],
         "isCsic": false
     },
@@ -323,7 +323,7 @@
         "deOrganismo": "ADMINISTRACION DEL ESTADO EN EL EXTERIOR - MISIONES DIPLOMATICAS",
         "idOrganismo": 1108,
         "idPadres": [
-            45858
+            50239
         ],
         "isCsic": false
     },
@@ -334,7 +334,7 @@
         "deOrganismo": "ADMINISTRACION DEL ESTADO EN EL EXTERIOR - CONSULADOS",
         "idOrganismo": 1109,
         "idPadres": [
-            45858
+            50239
         ],
         "isCsic": false
     },
@@ -752,7 +752,7 @@
         "deOrganismo": "COMISIONADO PARA EL MERCADO DE TABACOS",
         "idOrganismo": 1209,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -1159,7 +1159,7 @@
         "deOrganismo": "DELEGACIONES DE ECONOMIA Y HACIENDA",
         "idOrganismo": 1278,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -1170,7 +1170,7 @@
         "deOrganismo": "ADMON. DEL ESTADO EN EL EXTERIOR-CONSEJERIAS DE FINANZAS",
         "idOrganismo": 1280,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -1181,7 +1181,7 @@
         "deOrganismo": "PARQUE MOVIL DEL ESTADO",
         "idOrganismo": 1282,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -1192,7 +1192,7 @@
         "deOrganismo": "INSTITUTO DE ESTUDIOS FISCALES",
         "idOrganismo": 1283,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -1583,28 +1583,6 @@
     },
     {
         "codigos": [
-            1364
-        ],
-        "deOrganismo": "S.GRAL. DE LA PRESIDENCIA DEL GOBIERNO A.P.",
-        "idOrganismo": 1364,
-        "idPadres": [
-            31683
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            1376
-        ],
-        "deOrganismo": "ADMINISTRACION DEL ESTADO EN EL EXTERIOR - OFICINAS DE COMUNICACION A.P.",
-        "idOrganismo": 1376,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             1383
         ],
         "deOrganismo": "INSTITUTO DE SALUD CARLOS III (ISCIII)",
@@ -1836,45 +1814,12 @@
     },
     {
         "codigos": [
-            1450
-        ],
-        "deOrganismo": "CONSEJO DE ADMINISTRACION DEL PATRIMONIO NACIONAL",
-        "idOrganismo": 1450,
-        "idPadres": [
-            48
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             1451
         ],
         "deOrganismo": "AGENCIA ESPA\u00d1OLA DE PROTECCION DE DATOS",
         "idOrganismo": 1451,
         "idPadres": [
             48
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            1462
-        ],
-        "deOrganismo": "DIRECTOR ADJUNTO DEL GABINETE DE LA PRESIDENCIA DEL GOBIERNO A.P.",
-        "idOrganismo": 1462,
-        "idPadres": [
-            31683
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            1464
-        ],
-        "deOrganismo": "DEPARTAMENTO DE ASUNTOS INTERNACIONALES Y DE SEGURIDAD GLOBAL A.P.",
-        "idOrganismo": 1464,
-        "idPadres": [
-            50372
         ],
         "isCsic": false
     },
@@ -8942,1183 +8887,6 @@
     },
     {
         "codigos": [
-            27596
-        ],
-        "deOrganismo": "PRESIDENCIA DEL C.S.I.C.",
-        "idOrganismo": 27596,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27597
-        ],
-        "deOrganismo": "VICEPRESIDENCIA DE ORGANIZACION Y RELACIONES INSTITUCIONALES",
-        "idOrganismo": 27597,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27598
-        ],
-        "deOrganismo": "EDITORIAL CSIC",
-        "idOrganismo": 27598,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27599
-        ],
-        "deOrganismo": "UNIDAD DE RECURSOS DE INFORMACION CIENTIFICA PARA LA INVESTIGACION",
-        "idOrganismo": 27599,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27600
-        ],
-        "deOrganismo": "ORGANIZACION CENTRAL (SERVICIOS PERIFERICOS)",
-        "idOrganismo": 27600,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27601
-        ],
-        "deOrganismo": "VICEPRESIDENCIA DE INVESTIGACION CIENTIFICA Y TECNICA",
-        "idOrganismo": 27601,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27602
-        ],
-        "deOrganismo": "VICEPRESIDENCIA DE RELACIONES INTERNACIONALES",
-        "idOrganismo": 27602,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27603
-        ],
-        "deOrganismo": "SECRETARIA GENERAL",
-        "idOrganismo": 27603,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27604
-        ],
-        "deOrganismo": "SECRETARIA GENERAL ADJUNTA DE RECURSOS HUMANOS",
-        "idOrganismo": 27604,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27605
-        ],
-        "deOrganismo": "SECRETARIA GENERAL ADJUNTA DE ACTUACION ECONOMICA",
-        "idOrganismo": 27605,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27606
-        ],
-        "deOrganismo": "SECRETARIA GENERAL ADJUNTA DE OBRAS E INFRAESTRUCTURAS",
-        "idOrganismo": 27606,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27607
-        ],
-        "deOrganismo": "VICEPRESIDENCIA ADJUNTA DE PROGRAMACION CIENTIFICA",
-        "idOrganismo": 27607,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27608
-        ],
-        "deOrganismo": "CENTRO DE ESTUDIOS AVANZADOS DE BLANES",
-        "idOrganismo": 27608,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27610
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES MADRID",
-        "idOrganismo": 27610,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27611
-        ],
-        "deOrganismo": "INSTITUTO DE ESTRUCTURA DE LA MATERIA",
-        "idOrganismo": 27611,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27612
-        ],
-        "deOrganismo": "INSTITUTO DE FISICA FUNDAMENTAL",
-        "idOrganismo": 27612,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27613
-        ],
-        "deOrganismo": "INSTITUTO DE FISICA CORPUSCULAR",
-        "idOrganismo": 27613,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27614
-        ],
-        "deOrganismo": "INSTITUTO DE OPTICA DAZA DE VALDES",
-        "idOrganismo": 27614,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27617
-        ],
-        "deOrganismo": "INSTITUTO DE ASTROFISICA DE ANDALUCIA",
-        "idOrganismo": 27617,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27618
-        ],
-        "deOrganismo": "INSTITUTO DE QUIMICA FISICA ROCASOLANO",
-        "idOrganismo": 27618,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27619
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE BARCELONA",
-        "idOrganismo": 27619,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27620
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DE MATERIALES DE ARAGON",
-        "idOrganismo": 27620,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27621
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIA DE MATERIALES DE SEVILLA",
-        "idOrganismo": 27621,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27622
-        ],
-        "deOrganismo": "INSTITUTO DE TECNOLOGIA QUIMICA",
-        "idOrganismo": 27622,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27623
-        ],
-        "deOrganismo": "INSTITUTO DE QUIMICA ORGANICA GENERAL",
-        "idOrganismo": 27623,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27624
-        ],
-        "deOrganismo": "INSTITUTO DE PRODUCTOS NATURALES Y AGROBIOLOGIA",
-        "idOrganismo": 27624,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27625
-        ],
-        "deOrganismo": "CENTRO DE QUIMICA ORGANICA LORA TAMAYO",
-        "idOrganismo": 27625,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27626
-        ],
-        "deOrganismo": "INSTITUTO DE CATALISIS Y PETROLEOQUIMICA",
-        "idOrganismo": 27626,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27627
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIA Y TECNOLOGIA DE POLIMEROS",
-        "idOrganismo": 27627,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27628
-        ],
-        "deOrganismo": "INSTITUTO DE CARBOQUIMICA",
-        "idOrganismo": 27628,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27629
-        ],
-        "deOrganismo": "INSTITUTO DE QUIMICA MEDICA",
-        "idOrganismo": 27629,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27630
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DE LA TIERRA JAUME ALMERA",
-        "idOrganismo": 27630,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27632
-        ],
-        "deOrganismo": "OBSERVATORIO DEL EBRO",
-        "idOrganismo": 27632,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27633
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION Y DESARROLLO PASCUAL VILA",
-        "idOrganismo": 27633,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27634
-        ],
-        "deOrganismo": "CENTRO NACIONAL DE INVESTIGACIONES METALURGICAS (MADRID)",
-        "idOrganismo": 27634,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27635
-        ],
-        "deOrganismo": "INSTITUTO DE CERAMICA Y VIDRIO",
-        "idOrganismo": 27635,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27636
-        ],
-        "deOrganismo": "INSTITUTO CIENCIAS DE LA CONSTRUCCION EDUARDO TORROJA",
-        "idOrganismo": 27636,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27637
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA MOLECULAR ELADIO VI\u00d1UELA",
-        "idOrganismo": 27637,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27638
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACIONES BIOLOGICAS",
-        "idOrganismo": 27638,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27639
-        ],
-        "deOrganismo": "CENTRO NACIONAL DE BIOTECNOLOGIA",
-        "idOrganismo": 27639,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27640
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACIONES BIOMEDICAS ALBERTO SOLS",
-        "idOrganismo": 27640,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27641
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA FUNCIONAL Y GENOMICA",
-        "idOrganismo": 27641,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27642
-        ],
-        "deOrganismo": "INSTITUTO DE BIOQUIMICA VEGETAL Y FOTOSINTESIS",
-        "idOrganismo": 27642,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27644
-        ],
-        "deOrganismo": "INSTITUTO CAJAL",
-        "idOrganismo": 27644,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27646
-        ],
-        "deOrganismo": "REAL JARDIN BOTANICO",
-        "idOrganismo": 27646,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27647
-        ],
-        "deOrganismo": "ESTACION BIOLOGICA DE DO\u00d1ANA",
-        "idOrganismo": 27647,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27648
-        ],
-        "deOrganismo": "INSTITUTO PIRENAICO DE ECOLOGIA",
-        "idOrganismo": 27648,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27649
-        ],
-        "deOrganismo": "ESTACION EXPERIMENTAL DE ZONAS ARIDAS",
-        "idOrganismo": 27649,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27650
-        ],
-        "deOrganismo": "MUSEO NACIONAL DE CIENCIAS NATURALES",
-        "idOrganismo": 27650,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27651
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DEL MAR",
-        "idOrganismo": 27651,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27652
-        ],
-        "deOrganismo": "INSTITUTO DE ACUICULTURA TORRE DE LA SAL",
-        "idOrganismo": 27652,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27653
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS MARINAS DE ANDALUCIA",
-        "idOrganismo": 27653,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27654
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACIONES MARINAS",
-        "idOrganismo": 27654,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27656
-        ],
-        "deOrganismo": "INSTITUTO DE RECURSOS NATURALES Y AGROBIOLOGIA DE SALAMANCA",
-        "idOrganismo": 27656,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27657
-        ],
-        "deOrganismo": "INSTITUTO DE RECURSOS NATURALES Y AGROBIOLOGIA SEVILLA",
-        "idOrganismo": 27657,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27658
-        ],
-        "deOrganismo": "ESTACION EXPERIMENTAL AULA DEI",
-        "idOrganismo": 27658,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27659
-        ],
-        "deOrganismo": "ESTACION EXPERIMENTAL DEL ZAIDIN",
-        "idOrganismo": 27659,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27660
-        ],
-        "deOrganismo": "CENTRO DE EDAFOLOGIA Y BIOLOGIA APLICADA DEL SEGURA",
-        "idOrganismo": 27660,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27661
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACIONES AGROBIOLOGICAS DE GALICIA",
-        "idOrganismo": 27661,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27663
-        ],
-        "deOrganismo": "INSTITUTO DE GANADERIA DE MONTA\u00d1A",
-        "idOrganismo": 27663,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27664
-        ],
-        "deOrganismo": "INSTITUTO DE LA GRASA",
-        "idOrganismo": 27664,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27665
-        ],
-        "deOrganismo": "INSTITUTO DE AGROQUIMICA Y TECNOLOGIA DE ALIMENTOS",
-        "idOrganismo": 27665,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27668
-        ],
-        "deOrganismo": "INSTITUTO DE PRODUCTOS LACTEOS DE ASTURIAS",
-        "idOrganismo": 27668,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27670
-        ],
-        "deOrganismo": "INSTITUTO DE HISTORIA",
-        "idOrganismo": 27670,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27671
-        ],
-        "deOrganismo": "CENTRO DE CIENCIAS HUMANAS Y SOCIALES",
-        "idOrganismo": 27671,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27672
-        ],
-        "deOrganismo": "ESCUELA DE ESTUDIOS HISPANO-AMERICANOS",
-        "idOrganismo": 27672,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27673
-        ],
-        "deOrganismo": "INSTITUTO DE LENGUAS Y CULTURAS DEL MEDITERRANEO Y ORIENTE PROXIMO",
-        "idOrganismo": 27673,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27674
-        ],
-        "deOrganismo": "INSTITUCION MILA Y FONTANALS",
-        "idOrganismo": 27674,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27675
-        ],
-        "deOrganismo": "ESCUELA DE ESTUDIOS ARABES",
-        "idOrganismo": 27675,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27676
-        ],
-        "deOrganismo": "INSTITUTO DE FILOSOFIA",
-        "idOrganismo": 27676,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27677
-        ],
-        "deOrganismo": "INSTITUTO DE ANALISIS ECONOMICO",
-        "idOrganismo": 27677,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27678
-        ],
-        "deOrganismo": "INSTITUTO DE POLITICAS Y BIENES PUBLICOS",
-        "idOrganismo": 27678,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27679
-        ],
-        "deOrganismo": "INSTITUTO DE ESTUDIOS SOCIALES AVANZADOS",
-        "idOrganismo": 27679,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27681
-        ],
-        "deOrganismo": "INSTITUTO DE ESTUDIOS GALLEGOS PADRE SARMIENTO",
-        "idOrganismo": 27681,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27685
-        ],
-        "deOrganismo": "INSTITUTO DE AGRICULTURA SOSTENIBLE",
-        "idOrganismo": 27685,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27686
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA MOLECULAR Y CELULAR DE PLANTAS PRIMO YUFERA",
-        "idOrganismo": 27686,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27687
-        ],
-        "deOrganismo": "INSTITUTO NACIONAL DEL CARBON",
-        "idOrganismo": 27687,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27688
-        ],
-        "deOrganismo": "INSTITUTO DE PARASITOLOGIA Y BIOMEDICINA LOPEZ NEYRA",
-        "idOrganismo": 27688,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27689
-        ],
-        "deOrganismo": "INSTITUTO DE ECONOMIA, GEOGRAFIA Y DEMOGRAFIA",
-        "idOrganismo": 27689,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27690
-        ],
-        "deOrganismo": "INSTITUTO DE MICRO Y NANOTECNOLOGIA",
-        "idOrganismo": 27690,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27691
-        ],
-        "deOrganismo": "INSTITUTO DE MICROELECTRONICA DE BARCELONA",
-        "idOrganismo": 27691,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27692
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACION EN INTELIGENCIA ARTIFICIAL",
-        "idOrganismo": 27692,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27693
-        ],
-        "deOrganismo": "MISION BIOLOGICA DE GALICIA",
-        "idOrganismo": 27693,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27694
-        ],
-        "deOrganismo": "INSTITUTO ANDALUZ DE CIENCIAS DE LA TIERRA",
-        "idOrganismo": 27694,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27695
-        ],
-        "deOrganismo": "INSTITUTO DE FISICA DE CANTABRIA",
-        "idOrganismo": 27695,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27696
-        ],
-        "deOrganismo": "INSTITUTO MEDITERRANEO DE ESTUDIOS AVANZADOS",
-        "idOrganismo": 27696,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27697
-        ],
-        "deOrganismo": "CENTRO DE FISICA MIGUEL A. CATALAN",
-        "idOrganismo": 27697,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27700
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACIONES CIENTIFICAS ISLA DE LA CARTUJA",
-        "idOrganismo": 27700,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27701
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACIONES QUIMICAS",
-        "idOrganismo": 27701,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27702
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACIONES BIOMEDICAS DE BARCELONA",
-        "idOrganismo": 27702,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27703
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACIONES SOBRE DESERTIFICACION",
-        "idOrganismo": 27703,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27704
-        ],
-        "deOrganismo": "INSTITUTO DE BIOMEDICINA DE VALENCIA",
-        "idOrganismo": 27704,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27705
-        ],
-        "deOrganismo": "INSTITUTO DE ROBOTICA E INFORMATICA INDUSTRIAL",
-        "idOrganismo": 27705,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27706
-        ],
-        "deOrganismo": "INSTITUTO DE MICROELECTRONICA DE SEVILLA",
-        "idOrganismo": 27706,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27707
-        ],
-        "deOrganismo": "INSTITUTO DE NEUROCIENCIAS",
-        "idOrganismo": 27707,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27708
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACION EN RECURSOS CINEGETICOS",
-        "idOrganismo": 27708,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27709
-        ],
-        "deOrganismo": "INSTITUTO BIOLOGIA MOLECULAR Y CELULAR DEL CANCER DE SALAMANCA",
-        "idOrganismo": 27709,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27710
-        ],
-        "deOrganismo": "INSTITUTO BOTANICO DE BARCELONA",
-        "idOrganismo": 27710,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27711
-        ],
-        "deOrganismo": "LABORATORIO DE INVESTIGACION EN FLUIDODINAMICA Y TECNOLOGIAS DE LA COMBUSTION",
-        "idOrganismo": 27711,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27712
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA Y GENETICA MOLECULAR",
-        "idOrganismo": 27712,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27713
-        ],
-        "deOrganismo": "CENTRO DE FISICA DE MATERIALES",
-        "idOrganismo": 27713,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27714
-        ],
-        "deOrganismo": "INSTITUTO BIOFISIKA",
-        "idOrganismo": 27714,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27715
-        ],
-        "deOrganismo": "INSTITUTO DE AGROBIOTECNOLOGIA",
-        "idOrganismo": 27715,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27716
-        ],
-        "deOrganismo": "CENTRO DE ASTROBIOLOGIA",
-        "idOrganismo": 27716,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27717
-        ],
-        "deOrganismo": "INSTITUTO GESTION DE LA INNOVACION Y DEL CONOCIMIENTO",
-        "idOrganismo": 27717,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27719
-        ],
-        "deOrganismo": "INSTITUTO DE ARQUEOLOGIA",
-        "idOrganismo": 27719,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            27720
-        ],
-        "deOrganismo": "INSTITUTO DE LENGUA, LITERATURA Y ANTROPOLOGIA",
-        "idOrganismo": 27720,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             27721
         ],
         "deOrganismo": "UNIDAD DE APOYO A LA DIRECCION GENERAL",
@@ -17126,17 +15894,6 @@
     },
     {
         "codigos": [
-            29809
-        ],
-        "deOrganismo": "S.G. DE PLANES Y FONDOS DE PENSIONES",
-        "idOrganismo": 29809,
-        "idPadres": [
-            1190
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             29810
         ],
         "deOrganismo": "S.G. DE AUTORIZACIONES, CONDUCTAS DE MERCADO Y DISTRIBUCION",
@@ -17214,17 +15971,6 @@
     },
     {
         "codigos": [
-            29836
-        ],
-        "deOrganismo": "S.G. DE COMERCIO INTERNACIONAL DE PRODUCTOS AGROALIMENTARIOS",
-        "idOrganismo": 29836,
-        "idPadres": [
-            1198
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             29838
         ],
         "deOrganismo": "S.G. DE POLITICA ARANCELARIA Y DE INSTRUMENTOS DE DEFENSA COMERCIAL",
@@ -17262,28 +16008,6 @@
         ],
         "deOrganismo": "UNIDAD DE APOYO",
         "idOrganismo": 29845,
-        "idPadres": [
-            1200
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            29848
-        ],
-        "deOrganismo": "S.G. DE COMERCIO INTERIOR",
-        "idOrganismo": 29848,
-        "idPadres": [
-            1200
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            29849
-        ],
-        "deOrganismo": "S.G. DE FOMENTO Y MODERNIZACION DEL COMERCIO INTERIOR",
-        "idOrganismo": 29849,
         "idPadres": [
             1200
         ],
@@ -21916,7 +20640,7 @@
         "deOrganismo": "S.G. DE RECURSOS HUMANOS",
         "idOrganismo": 30559,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -21927,7 +20651,7 @@
         "deOrganismo": "OFICIALIA MAYOR",
         "idOrganismo": 30560,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -21938,7 +20662,7 @@
         "deOrganismo": "OFICINA PRESUPUESTARIA",
         "idOrganismo": 30562,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -21949,7 +20673,7 @@
         "deOrganismo": "S.G. DE TECNOLOGIAS DE LA INFORMACION Y DE LAS COMUNICACIONES",
         "idOrganismo": 30563,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -22166,7 +20890,7 @@
         "codigos": [
             30596
         ],
-        "deOrganismo": "SECRETARIA DE LA JUNTA CONSULTIVA DE CONTRATACION ADMINISTRATIVA",
+        "deOrganismo": "SECRETARIA DE LA JUNTA CONSULTIVA DE CONTRATACION PUBLICA DEL ESTADO",
         "idOrganismo": 30596,
         "idPadres": [
             1266
@@ -22483,9 +21207,20 @@
     },
     {
         "codigos": [
+            30642
+        ],
+        "deOrganismo": "I.D. MINISTERIO DE HACIENDA (AREA DE AUDITORIA)",
+        "idOrganismo": 30642,
+        "idPadres": [
+            1274
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             30643
         ],
-        "deOrganismo": "I.D. SECRETARIA GENERAL DEL TESORO Y POLITICA FINANCIERA",
+        "deOrganismo": "I.D. SECRETARIA GENERAL DEL TESORO Y FINANCIACION INTERNACIONAL",
         "idOrganismo": 30643,
         "idPadres": [
             1274
@@ -22551,7 +21286,7 @@
         "codigos": [
             30651
         ],
-        "deOrganismo": "I.D. MINISTERIO DE EDUCACION, CULTURA Y DEPORTE",
+        "deOrganismo": "I.D. MINISTERIO DE EDUCACION Y FORMACION PROFESIONAL",
         "idOrganismo": 30651,
         "idPadres": [
             1274
@@ -22760,7 +21495,7 @@
         "codigos": [
             30672
         ],
-        "deOrganismo": "I.D. MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD",
+        "deOrganismo": "I.D. MINISTERIO DE SANIDAD, CONSUMO Y BIENESTAR SOCIAL",
         "idOrganismo": 30672,
         "idPadres": [
             1274
@@ -22848,10 +21583,10 @@
         "codigos": [
             30692
         ],
-        "deOrganismo": "DELEGACION ESPECIAL DEL MINISTERIO DE HACIENDA Y FUNCION PUBLICA EN RENFE-OPERADORA",
+        "deOrganismo": "DELEGACION ESPECIAL DEL MINISTERIO DE HACIENDA EN RENFE-OPERADORA",
         "idOrganismo": 30692,
         "idPadres": [
-            49909
+            50294
         ],
         "isCsic": false
     },
@@ -22914,7 +21649,7 @@
         "codigos": [
             30703
         ],
-        "deOrganismo": "S.G. DE PROGRAMACION Y EVALUACION",
+        "deOrganismo": "S.G. DE PROGRAMACION Y EVALUACION DEL FONDO EUROPEO DE DESARROLLO REGIONAL",
         "idOrganismo": 30703,
         "idPadres": [
             50015
@@ -30062,17 +28797,6 @@
     },
     {
         "codigos": [
-            31668
-        ],
-        "deOrganismo": "S.G. DE COORDINACION INFORMATIVA NACIONAL A.P.",
-        "idOrganismo": 31668,
-        "idPadres": [
-            50383
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             31673
         ],
         "deOrganismo": "UNIDAD DE APOYO",
@@ -30117,28 +28841,6 @@
     },
     {
         "codigos": [
-            31679
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO GENERAL A.P.",
-        "idOrganismo": 31679,
-        "idPadres": [
-            1364
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31683
-        ],
-        "deOrganismo": "GABINETE DE LA PRESIDENCIA DEL GOBIERNO A.P.",
-        "idOrganismo": 31683,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             31685
         ],
         "deOrganismo": "OFICINA DEL SECRETARIADO DEL GOBIERNO",
@@ -30156,215 +28858,6 @@
         "idOrganismo": 31686,
         "idPadres": [
             1357
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31687
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN ARGENTINA - BUENOS AIRES A.P.",
-        "idOrganismo": 31687,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31688
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN BELGICA -BRUSELAS A.P.",
-        "idOrganismo": 31688,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31689
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN CHILE - SANTIAGO A.P.",
-        "idOrganismo": 31689,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31690
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN LA REPUBLICA POPULAR CHINA - PEKIN A.P.",
-        "idOrganismo": 31690,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31691
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN FRANCIA - PARIS A.P.",
-        "idOrganismo": 31691,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31693
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN ITALIA - ROMA A.P.",
-        "idOrganismo": 31693,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31694
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN MEXICO - MEXICO D.F. A.P.",
-        "idOrganismo": 31694,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31695
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN MARRUECOS - RABAT A.P.",
-        "idOrganismo": 31695,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31696
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN PAISES BAJOS - LA HAYA A.P.",
-        "idOrganismo": 31696,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31697
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN PORTUGAL - LISBOA A.P.",
-        "idOrganismo": 31697,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31698
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN RUSIA (MOSCU) A.P.",
-        "idOrganismo": 31698,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31700
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN EGIPTO - EL CAIRO A.P.",
-        "idOrganismo": 31700,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31701
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN REINO UNIDO - LONDRES A.P.",
-        "idOrganismo": 31701,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31702
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN ESTADOS UNIDOS - WASHINGTON A.P.",
-        "idOrganismo": 31702,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31703
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN VENEZUELA - CARACAS A.P.",
-        "idOrganismo": 31703,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31704
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN LA C.E.E. BELGICA - BRUSELAS A.P.",
-        "idOrganismo": 31704,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31705
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN ALEMANIA - BERLIN A.P.",
-        "idOrganismo": 31705,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31706
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN EE.UU.- NUEVA YORK A.P.",
-        "idOrganismo": 31706,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31707
-        ],
-        "deOrganismo": "SECRETARIA Y OFICINA DEL PRESIDENTE DEL GOBIERNO A.P.",
-        "idOrganismo": 31707,
-        "idPadres": [
-            50245
         ],
         "isCsic": false
     },
@@ -30420,50 +28913,6 @@
         "idOrganismo": 31714,
         "idPadres": [
             1360
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31728
-        ],
-        "deOrganismo": "UNIDAD DE COMUNICACIONES A.P.",
-        "idOrganismo": 31728,
-        "idPadres": [
-            50382
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31730
-        ],
-        "deOrganismo": "UNIDAD DE INFORMATICA A.P.",
-        "idOrganismo": 31730,
-        "idPadres": [
-            50382
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31731
-        ],
-        "deOrganismo": "DEPARTAMENTO DE PROTOCOLO A.P.",
-        "idOrganismo": 31731,
-        "idPadres": [
-            1364
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            31732
-        ],
-        "deOrganismo": "DEPARTAMENTO DE SEGURIDAD A.P.",
-        "idOrganismo": 31732,
-        "idPadres": [
-            1364
         ],
         "isCsic": false
     },
@@ -32638,7 +31087,7 @@
         "codigos": [
             36014
         ],
-        "deOrganismo": "PUESTOS ADSCRITOS A LA SUBSECRETARIA DE EMPLEO Y SEGURIDAD SOCIAL",
+        "deOrganismo": "PUESTOS ADSCRITOS A LA SUBSECRETARIA",
         "idOrganismo": 36014,
         "idPadres": [
             1425
@@ -36642,7 +35091,7 @@
         "codigos": [
             36410
         ],
-        "deOrganismo": "PUESTOS ADSCRITOS A LA SUBSECRETARIA DE EMPLEO Y SEGURIDAD SOCIAL",
+        "deOrganismo": "PUESTOS ADSCRITOS A LA SUBSECRETARIA",
         "idOrganismo": 36410,
         "idPadres": [
             1426
@@ -44912,17 +43361,6 @@
     },
     {
         "codigos": [
-            37515
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 37515,
-        "idPadres": [
-            49397
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             37516
         ],
         "deOrganismo": "S.G. DE PROGRAMACION Y ACTUACION ADMINISTRATIVA",
@@ -44949,6 +43387,17 @@
         ],
         "deOrganismo": "S.G. DE ORDENACION NORMATIVA",
         "idOrganismo": 37518,
+        "idPadres": [
+            50403
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            37519
+        ],
+        "deOrganismo": "OFICINA DE CORRESPONDENCIA CON LA O.I.T.",
+        "idOrganismo": 37519,
         "idPadres": [
             50403
         ],
@@ -45853,50 +44302,6 @@
         "idOrganismo": 37634,
         "idPadres": [
             1447
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            37652
-        ],
-        "deOrganismo": "UNIDAD DE APOYO PRESIDENCIA",
-        "idOrganismo": 37652,
-        "idPadres": [
-            1450
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            37653
-        ],
-        "deOrganismo": "UNIDAD DE APOYO GERENCIA",
-        "idOrganismo": 37653,
-        "idPadres": [
-            1450
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            37654
-        ],
-        "deOrganismo": "DIRECCION DE ADMINISTRACION Y MEDIOS",
-        "idOrganismo": 37654,
-        "idPadres": [
-            1450
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            37655
-        ],
-        "deOrganismo": "DELEGACIONES REALES SITIOS",
-        "idOrganismo": 37655,
-        "idPadres": [
-            1450
         ],
         "isCsic": false
     },
@@ -47893,6 +46298,17 @@
     },
     {
         "codigos": [
+            41319
+        ],
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 41319,
+        "idPadres": [
+            40766
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             41320
         ],
         "deOrganismo": "AREA DE GESTION",
@@ -47948,10 +46364,10 @@
     },
     {
         "codigos": [
-            41329
+            41328
         ],
-        "deOrganismo": "SERVICIO/SECCION DE GESTION TRIBUTARIA GENERAL",
-        "idOrganismo": 41329,
+        "deOrganismo": "AREA DE GESTION",
+        "idOrganismo": 41328,
         "idPadres": [
             40766
         ],
@@ -47959,10 +46375,10 @@
     },
     {
         "codigos": [
-            41332
+            41329
         ],
-        "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
-        "idOrganismo": 41332,
+        "deOrganismo": "SERVICIO/SECCION DE GESTION TRIBUTARIA GENERAL",
+        "idOrganismo": 41329,
         "idPadres": [
             40766
         ],
@@ -48172,6 +46588,17 @@
         ],
         "deOrganismo": "AREA DE RECAUDACION",
         "idOrganismo": 41365,
+        "idPadres": [
+            40766
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            41366
+        ],
+        "deOrganismo": "AREA DE RECURSOS HUMANOS Y GESTION ECONOMICA",
+        "idOrganismo": 41366,
         "idPadres": [
             40766
         ],
@@ -48531,10 +46958,10 @@
     },
     {
         "codigos": [
-            41431
+            41429
         ],
-        "deOrganismo": "AREA DE RECAUDACION",
-        "idOrganismo": 41431,
+        "deOrganismo": "AREA DE GESTION",
+        "idOrganismo": 41429,
         "idPadres": [
             40766
         ],
@@ -48542,10 +46969,10 @@
     },
     {
         "codigos": [
-            41432
+            41431
         ],
-        "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
-        "idOrganismo": 41432,
+        "deOrganismo": "AREA DE RECAUDACION",
+        "idOrganismo": 41431,
         "idPadres": [
             40766
         ],
@@ -49840,6 +48267,17 @@
     },
     {
         "codigos": [
+            41612
+        ],
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 41612,
+        "idPadres": [
+            40766
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             41613
         ],
         "deOrganismo": "AREA DE GESTION",
@@ -50009,6 +48447,17 @@
         ],
         "deOrganismo": "AREA DE JEFATURA",
         "idOrganismo": 41645,
+        "idPadres": [
+            40766
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            41647
+        ],
+        "deOrganismo": "AREA DE GESTION",
+        "idOrganismo": 41647,
         "idPadres": [
             40766
         ],
@@ -51743,6 +50192,17 @@
     },
     {
         "codigos": [
+            41940
+        ],
+        "deOrganismo": "AREA DE RECURSOS HUMANOS Y GESTION ECONOMICA",
+        "idOrganismo": 41940,
+        "idPadres": [
+            40768
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             41941
         ],
         "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
@@ -51831,10 +50291,10 @@
     },
     {
         "codigos": [
-            41965
+            41952
         ],
-        "deOrganismo": "AREA DE ADUANAS",
-        "idOrganismo": 41965,
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 41952,
         "idPadres": [
             40768
         ],
@@ -51842,10 +50302,10 @@
     },
     {
         "codigos": [
-            41966
+            41965
         ],
-        "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
-        "idOrganismo": 41966,
+        "deOrganismo": "AREA DE ADUANAS",
+        "idOrganismo": 41965,
         "idPadres": [
             40768
         ],
@@ -52326,6 +50786,17 @@
     },
     {
         "codigos": [
+            42027
+        ],
+        "deOrganismo": "AREA DE RECURSOS HUMANOS Y GESTION ECONOMICA",
+        "idOrganismo": 42027,
+        "idPadres": [
+            40769
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             42028
         ],
         "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
@@ -52638,6 +51109,17 @@
         ],
         "deOrganismo": "AREA DE JEFATURA",
         "idOrganismo": 42083,
+        "idPadres": [
+            40770
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            42084
+        ],
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 42084,
         "idPadres": [
             40770
         ],
@@ -56891,6 +55373,17 @@
     },
     {
         "codigos": [
+            42699
+        ],
+        "deOrganismo": "AREA DE RECURSOS HUMANOS Y GESTION ECONOMICA",
+        "idOrganismo": 42699,
+        "idPadres": [
+            40774
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             42700
         ],
         "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
@@ -57885,6 +56378,17 @@
         ],
         "deOrganismo": "AREA DE JEFATURA",
         "idOrganismo": 42904,
+        "idPadres": [
+            40774
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            42905
+        ],
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 42905,
         "idPadres": [
             40774
         ],
@@ -60488,17 +58992,6 @@
     },
     {
         "codigos": [
-            43249
-        ],
-        "deOrganismo": "AREA GENERAL DE APOYO ADMINISTRATIVO",
-        "idOrganismo": 43249,
-        "idPadres": [
-            40776
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             43250
         ],
         "deOrganismo": "AREA DE GESTION",
@@ -61141,6 +59634,17 @@
         ],
         "deOrganismo": "AREA DE JEFATURA",
         "idOrganismo": 43320,
+        "idPadres": [
+            40777
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            43321
+        ],
+        "deOrganismo": "AREA DE INFORMATICA",
+        "idOrganismo": 43321,
         "idPadres": [
             40777
         ],
@@ -65735,6 +64239,17 @@
     },
     {
         "codigos": [
+            44113
+        ],
+        "deOrganismo": "AREA DE RECURSOS HUMANOS Y GESTION ECONOMICA",
+        "idOrganismo": 44113,
+        "idPadres": [
+            40776
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             44115
         ],
         "deOrganismo": "SERVICIO/SECCION DE GESTION TRIBUTARIA GENERAL",
@@ -66395,17 +64910,6 @@
     },
     {
         "codigos": [
-            44308
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN LA REPUBLICA FEDERATIVA DE BRASIL A.P.",
-        "idOrganismo": 44308,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             44309
         ],
         "deOrganismo": "AGENCIA DE MORON DE LA FRONTERA",
@@ -66579,28 +65083,6 @@
             1383
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            45801
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION CARDIOVASCULAR",
-        "idOrganismo": 45801,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            45802
-        ],
-        "deOrganismo": "CENTRO ANDALUZ DE BIOLOGIA DEL DESARROLLO",
-        "idOrganismo": 45802,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -66975,23 +65457,12 @@
     },
     {
         "codigos": [
-            45886
-        ],
-        "deOrganismo": "SUBSECRETARIA DE ASUNTOS EXTERIORES Y DE COOPERACION",
-        "idOrganismo": 45886,
-        "idPadres": [
-            45858
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             45887
         ],
         "deOrganismo": "GABINETE TECNICO",
         "idOrganismo": 45887,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -67063,17 +65534,6 @@
     },
     {
         "codigos": [
-            46002
-        ],
-        "deOrganismo": "DIRECCION DE ANALISIS Y ESTUDIOS A.P.",
-        "idOrganismo": 46002,
-        "idPadres": [
-            31683
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             46019
         ],
         "deOrganismo": "DELEGACION DEL GOBIERNO PARA EL PLAN NACIONAL SOBRE DROGAS",
@@ -67134,7 +65594,7 @@
         "deOrganismo": "OFICINA DE ANALISIS Y PREVISION",
         "idOrganismo": 46032,
         "idPadres": [
-            45858
+            50239
         ],
         "isCsic": false
     },
@@ -67156,7 +65616,7 @@
         "deOrganismo": "OFICINA DE ASUNTOS DE GIBRALTAR",
         "idOrganismo": 46039,
         "idPadres": [
-            50033
+            50391
         ],
         "isCsic": false
     },
@@ -67167,7 +65627,7 @@
         "deOrganismo": "S.G. DE AMERICA DEL NORTE",
         "idOrganismo": 46040,
         "idPadres": [
-            49000
+            50389
         ],
         "isCsic": false
     },
@@ -67219,7 +65679,7 @@
         "codigos": [
             46048
         ],
-        "deOrganismo": "S.G. DE AFRICA SUBSAHARIANA",
+        "deOrganismo": "S.G. DE RELACIONES BILATERALES CON LOS PAISES DE AFRICA SUBSAHARIANA",
         "idOrganismo": 46048,
         "idPadres": [
             50027
@@ -67233,7 +65693,7 @@
         "deOrganismo": "S.G. DE ASIA MERIDIONAL Y ORIENTAL",
         "idOrganismo": 46049,
         "idPadres": [
-            49000
+            50389
         ],
         "isCsic": false
     },
@@ -67244,7 +65704,7 @@
         "deOrganismo": "S.G. DE PACIFICO, SURESTE ASIATICO Y FILIPINAS",
         "idOrganismo": 46050,
         "idPadres": [
-            49000
+            50389
         ],
         "isCsic": false
     },
@@ -67274,7 +65734,7 @@
         "codigos": [
             46063
         ],
-        "deOrganismo": "S.G. DE RELACIONES ECONOMICAS BILATERALES",
+        "deOrganismo": "S.G. DE RELACIONES ECONOMICAS BILATERALES Y DE DIPLOMACIA ECONOMICA",
         "idOrganismo": 46063,
         "idPadres": [
             49376
@@ -67376,7 +65836,7 @@
         "deOrganismo": "INSPECCION GENERAL DE SERVICIOS",
         "idOrganismo": 46084,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -67387,7 +65847,7 @@
         "deOrganismo": "OFICINA PRESUPUESTARIA",
         "idOrganismo": 46085,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -67398,7 +65858,7 @@
         "deOrganismo": "ASESORIA JURIDICA INTERNACIONAL",
         "idOrganismo": 46086,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -67442,7 +65902,7 @@
         "deOrganismo": "ESCUELA DIPLOMATICA",
         "idOrganismo": 46092,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -67472,7 +65932,7 @@
         "codigos": [
             46096
         ],
-        "deOrganismo": "DIVISION DE TRATADOS INTERNACIONALES Y ACUERDOS NO NORMATIVOS",
+        "deOrganismo": "DIVISION DE TRATADOS Y OTROS ACUERDOS INTERNACIONALES",
         "idOrganismo": 46096,
         "idPadres": [
             45981
@@ -67541,7 +66001,7 @@
         "deOrganismo": "S.G. DE PROTECCION Y ASISTENCIA CONSULAR",
         "idOrganismo": 46105,
         "idPadres": [
-            49370
+            50559
         ],
         "isCsic": false
     },
@@ -67552,7 +66012,7 @@
         "deOrganismo": "S.G. DE ASUNTOS JURIDICOS CONSULARES",
         "idOrganismo": 46106,
         "idPadres": [
-            49370
+            50559
         ],
         "isCsic": false
     },
@@ -67563,18 +66023,7 @@
         "deOrganismo": "S.G. DE ASUNTOS DE EXTRANJERIA",
         "idOrganismo": 46108,
         "idPadres": [
-            49370
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            46111
-        ],
-        "deOrganismo": "S.G. DE ANALISIS Y DOCUMENTACION A.P.",
-        "idOrganismo": 46111,
-        "idPadres": [
-            49952
+            50559
         ],
         "isCsic": false
     },
@@ -67734,28 +66183,6 @@
     },
     {
         "codigos": [
-            46147
-        ],
-        "deOrganismo": "DEPARTAMENTO DE COMUNICACION CON LOS CIUDADANOS A.P.",
-        "idOrganismo": 46147,
-        "idPadres": [
-            1462
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            46148
-        ],
-        "deOrganismo": "UNIDAD DE MEDIOS OPERATIVOS A.P.",
-        "idOrganismo": 46148,
-        "idPadres": [
-            50382
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             46170
         ],
         "deOrganismo": "INSPECCION GENERAL DE SERVICIOS DEL DEPARTAMENTO",
@@ -67783,7 +66210,7 @@
         "deOrganismo": "CENTRO DE INVESTIGACION Y CONTROL DE LA CALIDAD",
         "idOrganismo": 46173,
         "idPadres": [
-            49701
+            50515
         ],
         "isCsic": false
     },
@@ -67866,17 +66293,6 @@
     },
     {
         "codigos": [
-            46188
-        ],
-        "deOrganismo": "S.G. DE INNOVACION Y MODERNIZACION DEL MEDIO RURAL",
-        "idOrganismo": 46188,
-        "idPadres": [
-            49328
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             46192
         ],
         "deOrganismo": "S.G. DE REGADIOS E INFRAESTRUCTURAS RURALES",
@@ -67916,17 +66332,6 @@
         "idOrganismo": 46208,
         "idPadres": [
             1198
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            46209
-        ],
-        "deOrganismo": "S.G. DE CANALES DE COMERCIALIZACION Y RELACIONES INSTITUCIONALES",
-        "idOrganismo": 46209,
-        "idPadres": [
-            1200
         ],
         "isCsic": false
     },
@@ -68196,17 +66601,6 @@
     },
     {
         "codigos": [
-            46278
-        ],
-        "deOrganismo": "S.G. DE INTEGRACION DE LOS INMIGRANTES",
-        "idOrganismo": 46278,
-        "idPadres": [
-            49401
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             46281
         ],
         "deOrganismo": "S.G. DE EMIGRACION",
@@ -68429,7 +66823,7 @@
         "codigos": [
             46335
         ],
-        "deOrganismo": "S.G. DE POLITICA DE SUELO, INFORMACION Y EVALUACION",
+        "deOrganismo": "S.G. DE SUELO, INFORMACION Y EVALUACION",
         "idOrganismo": 46335,
         "idPadres": [
             49336
@@ -68550,7 +66944,7 @@
         "codigos": [
             46370
         ],
-        "deOrganismo": "I.D. MINISTERIO DE ENERGIA, TURISMO Y AGENDA DIGITAL",
+        "deOrganismo": "I.D. MINISTERIO DE INDUSTRIA, COMERCIO Y TURISMO",
         "idOrganismo": 46370,
         "idPadres": [
             1274
@@ -68561,7 +66955,7 @@
         "codigos": [
             46371
         ],
-        "deOrganismo": "I.D. MINISTERIO DE CULTURA Y DEPORTE",
+        "deOrganismo": "I.D. SECRETARIA DE ESTADO DE CULTURA",
         "idOrganismo": 46371,
         "idPadres": [
             1274
@@ -68605,7 +66999,7 @@
         "codigos": [
             46379
         ],
-        "deOrganismo": "I.D. MINISTERIO DE HACIENDA Y FUNCION PUBLICA",
+        "deOrganismo": "I.D. MINISTERIO DE HACIENDA",
         "idOrganismo": 46379,
         "idPadres": [
             1274
@@ -71652,7 +70046,7 @@
         "codigos": [
             46818
         ],
-        "deOrganismo": "DIVISION DE CONTROL DE LA GESTION",
+        "deOrganismo": "DIVISION DE CONTROL Y MEJORA DE LA GESTION",
         "idOrganismo": 46818,
         "idPadres": [
             46098
@@ -71830,6 +70224,17 @@
         ],
         "deOrganismo": "JEFATURA DE LA CUARTA SUIGE (BURGOS)",
         "idOrganismo": 46855,
+        "idPadres": [
+            1170
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46856
+        ],
+        "deOrganismo": "DIRECCION DE PERSONAL (BURGOS)",
+        "idOrganismo": 46856,
         "idPadres": [
             1170
         ],
@@ -73828,39 +72233,6 @@
     },
     {
         "codigos": [
-            47535
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN JAPON - TOKIO A.P.",
-        "idOrganismo": 47535,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            47536
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN LA REPUBLICA DE POLONIA - VARSOVIA A.P.",
-        "idOrganismo": 47536,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            47537
-        ],
-        "deOrganismo": "OFICINA DE COMUNICACION EN LA REPUBLICA DE TURQUIA - ANKARA A.P.",
-        "idOrganismo": 47537,
-        "idPadres": [
-            1376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             47539
         ],
         "deOrganismo": "UNIDAD DE COLECTIVOS DE REGIMEN ESPECIAL",
@@ -74158,6 +72530,28 @@
     },
     {
         "codigos": [
+            47608
+        ],
+        "deOrganismo": "DIVISION DE METROLOGIA APLICADA Y LEGAL",
+        "idOrganismo": 47608,
+        "idPadres": [
+            1260
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            47609
+        ],
+        "deOrganismo": "SECRETARIA GENERAL",
+        "idOrganismo": 47609,
+        "idPadres": [
+            1260
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             47610
         ],
         "deOrganismo": "AGENCIA ESTATAL BOLETIN OFICIAL DEL ESTADO",
@@ -74388,10 +72782,10 @@
         "codigos": [
             47638
         ],
-        "deOrganismo": "CONS. AGRICULT., ALIMENTACION Y MEDIO AMBIENTE MIS. PERM. DE ESPA\u00d1A ANTE LAS NAC.UNIDAS-N.YORK (USA)",
+        "deOrganismo": "MISION PERMANENTE DE ESPA\u00d1A ANTE LAS NACIONES UNIDAS-NUEVA YORK (USA)",
         "idOrganismo": 47638,
         "idPadres": [
-            47637
+            50489
         ],
         "isCsic": false
     },
@@ -74399,10 +72793,10 @@
         "codigos": [
             47639
         ],
-        "deOrganismo": "CONS. AG. AL.Y MED. AMBIENTE REPRE.PERM.ESPA\u00d1A ANTE PROG.NAC.UNIDAS MEDIOAMB.(PNUMA)-NAIROBI (KENIA)",
+        "deOrganismo": "REP. PERM. DE ESPA\u00d1A ANTE EL PROGRAMA DE LAS NAC. UNIDAS PARA EL MED.AMBIENTE (PNUMA)-NAIROBI(KENIA)",
         "idOrganismo": 47639,
         "idPadres": [
-            47637
+            50489
         ],
         "isCsic": false
     },
@@ -74567,17 +72961,6 @@
             47682
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            47690
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DEL ESPACIO",
-        "idOrganismo": 47690,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -74944,14 +73327,6 @@
     },
     {
         "codigos": [
-            47811
-        ],
-        "deOrganismo": "CONSEJO SUPERIOR DE INVESTIGACIONES CIENTIFICAS - CSIC",
-        "idOrganismo": 47811,
-        "isCsic": true
-    },
-    {
-        "codigos": [
             47832
         ],
         "deOrganismo": "I.D. DEL INSTITUTO DE TURISMO DE ESPA\u00d1A (TURESPA\u00d1A)",
@@ -75034,72 +73409,6 @@
             1274
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            47923
-        ],
-        "deOrganismo": "GABINETE DEL PRESIDENTE",
-        "idOrganismo": 47923,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            47924
-        ],
-        "deOrganismo": "SECRETARIA GENERAL ADJUNTA DE INFORMATICA",
-        "idOrganismo": 47924,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            47925
-        ],
-        "deOrganismo": "VICEPRESIDENCIA ADJUNTA DE TRANSFERENCIA DEL CONOCIMIENTO",
-        "idOrganismo": 47925,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            47926
-        ],
-        "deOrganismo": "VICEPRESIDENCIA ADJUNTA DE AREAS CIENTIFICO-TECNICAS",
-        "idOrganismo": 47926,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            47927
-        ],
-        "deOrganismo": "VICEPRESIDENCIA ADJUNTA DE RELACIONES INSTITUCIONALES",
-        "idOrganismo": 47927,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            47928
-        ],
-        "deOrganismo": "VICEPRESIDENCIA ADJUNTA DE ORGANIZACION Y CULTURA CIENTIFICA",
-        "idOrganismo": 47928,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -75241,28 +73550,6 @@
         "idOrganismo": 47981,
         "idPadres": [
             1309
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            47990
-        ],
-        "deOrganismo": "D.G. DE ANALISIS MACROECONOMICO Y ECONOMIA INTERNACIONAL",
-        "idOrganismo": 47990,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            47991
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 47991,
-        "idPadres": [
-            47990
         ],
         "isCsic": false
     },
@@ -76126,17 +74413,6 @@
     },
     {
         "codigos": [
-            48110
-        ],
-        "deOrganismo": "S.G. DE COORDINACION INFORMATIVA INTERNACIONAL A.P.",
-        "idOrganismo": 48110,
-        "idPadres": [
-            50385
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             48111
         ],
         "deOrganismo": "ADMINISTRACION DE LA SEGURIDAD SOCIAL N.1 DE COIN (N.10 DE MALAGA)",
@@ -76569,17 +74845,6 @@
         "idOrganismo": 48191,
         "idPadres": [
             1168
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            48194
-        ],
-        "deOrganismo": "ABOGACIA DEL ESTADO EN LA AGENCIA ESTATAL DE METEOROLOGIA",
-        "idOrganismo": 48194,
-        "idPadres": [
-            1309
         ],
         "isCsic": false
     },
@@ -77261,7 +75526,7 @@
         "deOrganismo": "S.G. DE PAISES DE LA UNION EUROPEA",
         "idOrganismo": 48529,
         "idPadres": [
-            50033
+            50391
         ],
         "isCsic": false
     },
@@ -77272,7 +75537,7 @@
         "deOrganismo": "S.G. DE PAISES CANDIDATOS , PAISES DEL ESPACIO ECONOMICO EUROPEO Y OTROS PAISES EUROPEOS",
         "idOrganismo": 48530,
         "idPadres": [
-            50033
+            50391
         ],
         "isCsic": false
     },
@@ -77280,7 +75545,7 @@
         "codigos": [
             48531
         ],
-        "deOrganismo": "S.G. DE PLANIFICACION, COHERENCIA DE POLITICAS Y EVALUACION",
+        "deOrganismo": "S.G. DE PLANIFICACION Y DE COHERENCIA DE POLITICAS",
         "idOrganismo": 48531,
         "idPadres": [
             50035
@@ -77313,7 +75578,7 @@
         "codigos": [
             48534
         ],
-        "deOrganismo": "S.G. DE OBRAS Y AMUEBLAMIENTO DE INMUEBLES EN EL EXTERIOR",
+        "deOrganismo": "S.G. DE ASUNTOS PATRIMONIALES",
         "idOrganismo": 48534,
         "idPadres": [
             46098
@@ -77416,17 +75681,6 @@
         "idOrganismo": 48554,
         "idPadres": [
             1274
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            48555
-        ],
-        "deOrganismo": "S.G. DE GESTION ECONOMICA Y FINANCIERA",
-        "idOrganismo": 48555,
-        "idPadres": [
-            49293
         ],
         "isCsic": false
     },
@@ -77614,17 +75868,6 @@
         "idOrganismo": 48587,
         "idPadres": [
             50433
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            48590
-        ],
-        "deOrganismo": "S.G. DE COORDINACION Y RELACIONES INSTITUCIONALES Y CON EUROPA",
-        "idOrganismo": 48590,
-        "idPadres": [
-            49885
         ],
         "isCsic": false
     },
@@ -77987,204 +76230,6 @@
             1170
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            48673
-        ],
-        "deOrganismo": "CENTRO ANDALUZ DE BIOLOGIA MOLECULAR Y MEDICINA REGENERATIVA",
-        "idOrganismo": 48673,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48674
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION EN NANOCIENCIA Y NANOTECNOLOGIA",
-        "idOrganismo": 48674,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48675
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION EN NANOMATERIALES Y NANOTECNOLOGIA",
-        "idOrganismo": 48675,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48676
-        ],
-        "deOrganismo": "INSTITUTO DE BIOMEDICINA DE SEVILLA",
-        "idOrganismo": 48676,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48677
-        ],
-        "deOrganismo": "INSTITUTO DE BIOMEDICINA Y BIOTECNOLOGIA DE CANTABRIA",
-        "idOrganismo": 48677,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48678
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DE LA VID Y EL VINO",
-        "idOrganismo": 48678,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48679
-        ],
-        "deOrganismo": "INSTITUTO DE FISICA INTERDISCIPLINAR Y SISTEMAS COMPLEJOS",
-        "idOrganismo": 48679,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48680
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS MATEMATICAS",
-        "idOrganismo": 48680,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48681
-        ],
-        "deOrganismo": "INSTITUTO DE FISICA TEORICA",
-        "idOrganismo": 48681,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48682
-        ],
-        "deOrganismo": "INSTITUTO DE INVESTIGACION EN CIENCIAS DE ALIMENTACION",
-        "idOrganismo": 48682,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48683
-        ],
-        "deOrganismo": "INSTITUTO DE MEDICINA MOLECULAR PRINCIPE DE ASTURIAS",
-        "idOrganismo": 48683,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48684
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS AGRARIAS",
-        "idOrganismo": 48684,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48686
-        ],
-        "deOrganismo": "CENTRO MEDITERRANEO DE INVESTIGACIONES MARINAS Y AMBIENTALES",
-        "idOrganismo": 48686,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48687
-        ],
-        "deOrganismo": "INSTITUTO DE DIAGNOSTICO AMBIENTAL Y ESTUDIOS DEL AGUA",
-        "idOrganismo": 48687,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48688
-        ],
-        "deOrganismo": "INSTITUTO DE QUIMICA AVANZADA DE CATALU\u00d1A",
-        "idOrganismo": 48688,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48689
-        ],
-        "deOrganismo": "INST. DE BIOLOGIA MOLECULAR DE BARCELONA",
-        "idOrganismo": 48689,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48690
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIA Y TECNOLOGIA DE ALIMENTOS Y NUTRICION",
-        "idOrganismo": 48690,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            48691
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA EVOLUTIVA",
-        "idOrganismo": 48691,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -78606,17 +76651,6 @@
     },
     {
         "codigos": [
-            48808
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION AGRIGENOMICA",
-        "idOrganismo": 48808,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             48812
         ],
         "deOrganismo": "MANDO DE LAS UNIDADES DE FUERZA DE ACCION MARITIMA EN FERROL",
@@ -78633,7 +76667,7 @@
         "deOrganismo": "ADMINISTRACION DEL ESTADO EN EL EXTERIOR",
         "idOrganismo": 48813,
         "idPadres": [
-            49901
+            50240
         ],
         "isCsic": false
     },
@@ -78680,17 +76714,6 @@
             1301
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            48827
-        ],
-        "deOrganismo": "CENTRO DE AUTOMATICA Y ROBOTICA",
-        "idOrganismo": 48827,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -78826,17 +76849,6 @@
     },
     {
         "codigos": [
-            48861
-        ],
-        "deOrganismo": "INSTITUTO DE HORTOFRUTICULTURA SUBTROPICAL Y MEDITERRANEA \"LA MAYORA\"",
-        "idOrganismo": 48861,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             48862
         ],
         "deOrganismo": "S.G. DE RELACIONES INSTITUCIONALES Y TRANSFERENCIA DEL CONOCIMIENTO",
@@ -78861,10 +76873,10 @@
         "codigos": [
             48865
         ],
-        "deOrganismo": "RELACION ESPECIAL DE PUESTOS DEL MINISTERIO DE ASUNTOS EXTERIORES Y DE COOP. (AC.CONS.MIN.02/07/10)",
+        "deOrganismo": "RELACION ESPECIAL DE PUESTOS DEL MINISTERIO DE ASUNTOS EXTERIORES, U.EUR. Y COOP. (A.C.M.02/07/10)",
         "idOrganismo": 48865,
         "idPadres": [
-            45886
+            50338
         ],
         "isCsic": false
     },
@@ -78894,10 +76906,10 @@
         "codigos": [
             48868
         ],
-        "deOrganismo": "RELACIONES ESPECIAL DE PUESTOS DEL MINISTERIO DE HACIENDA Y FUNCION PUBL. (ACUERDO CONS. M. 2/07/10)",
+        "deOrganismo": "RELACION ESPECIAL DE PUESTOS DEL MINISTERIO DE HACIENDA (ACUERDO CONS. M. 2/07/10)",
         "idOrganismo": 48868,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -79046,17 +77058,6 @@
     },
     {
         "codigos": [
-            48928
-        ],
-        "deOrganismo": "RELACION ESPECIAL DE PUESTOS DEL CONSEJO SUPERIOR DE INVEST.CIENTIFICAS (A.CONSEJO MINIST. 2/7/10)",
-        "idOrganismo": 48928,
-        "idPadres": [
-            27596
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             48968
         ],
         "deOrganismo": "SERVICIO PLANIFICACION Y RELACIONES INSTITUCIONALES",
@@ -79117,7 +77118,7 @@
         "deOrganismo": "TRIBUNAL ADMINISTRATIVO CENTRAL DE RECURSOS CONTRACTUALES",
         "idOrganismo": 48973,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -79741,7 +77742,7 @@
         "codigos": [
             49104
         ],
-        "deOrganismo": "S.G. DE TECNOLOGIAS DE LA INFORMACION Y ADMINISTRACION ELECTRONICA",
+        "deOrganismo": "S.G. DE TECNOLOGIAS DE LA INFORMACION Y ADMINISTRACION DIGITAL",
         "idOrganismo": 49104,
         "idPadres": [
             49995
@@ -79755,7 +77756,7 @@
         "deOrganismo": "S.G. DE EUROPA ORIENTAL Y ASIA CENTRAL",
         "idOrganismo": 49110,
         "idPadres": [
-            50033
+            50389
         ],
         "isCsic": false
     },
@@ -79774,10 +77775,10 @@
         "codigos": [
             49112
         ],
-        "deOrganismo": "S.G. DE ASUNTOS MIGRATORIOS",
+        "deOrganismo": "OFICINA DE ASUNTOS MIGRATORIOS",
         "idOrganismo": 49112,
         "idPadres": [
-            49370
+            50239
         ],
         "isCsic": false
     },
@@ -79964,7 +77965,7 @@
         "deOrganismo": "DEPARTAMENTO DE SERVICIOS Y COORDINACION TERRITORIAL",
         "idOrganismo": 49132,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -80011,17 +78012,6 @@
             1283
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            49137
-        ],
-        "deOrganismo": "INSTITUTO DE GEOCIENCIAS",
-        "idOrganismo": 49137,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -80091,17 +78081,6 @@
     },
     {
         "codigos": [
-            49145
-        ],
-        "deOrganismo": "USBA \"GENERAL MORILLO\" (A CORU\u00d1A)",
-        "idOrganismo": 49145,
-        "idPadres": [
-            1170
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49147
         ],
         "deOrganismo": "USAC \"TORREBLANCA\" (SEVILLA)",
@@ -80121,17 +78100,6 @@
             1170
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            49149
-        ],
-        "deOrganismo": "INSTITUTO DE INSTRUMENTACION PARA LA IMAGEN MOLECULAR",
-        "idOrganismo": 49149,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -80163,17 +78131,6 @@
         "idOrganismo": 49154,
         "idPadres": [
             1274
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49155
-        ],
-        "deOrganismo": "DIRECCION DE ACTOS OFICIALES Y CULTURALES",
-        "idOrganismo": 49155,
-        "idPadres": [
-            1450
         ],
         "isCsic": false
     },
@@ -80454,50 +78411,6 @@
     },
     {
         "codigos": [
-            49185
-        ],
-        "deOrganismo": "UNIDAD DE APOYO A.P.",
-        "idOrganismo": 49185,
-        "idPadres": [
-            1364
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49187
-        ],
-        "deOrganismo": "CENTRO DE FISICA TEORICA Y MATEMATICAS",
-        "idOrganismo": 49187,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            49188
-        ],
-        "deOrganismo": "CENTRO DE QUIMICA Y MATERIALES DE ARAGON",
-        "idOrganismo": 49188,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            49189
-        ],
-        "deOrganismo": "INSTITUTO DE SINTESIS QUIMICA Y CATALISIS HOMOGENEA",
-        "idOrganismo": 49189,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             49190
         ],
         "deOrganismo": "CONSEJERIA DE TRABAJO, MIGRACIONES Y SEGURIDAD SOCIAL EN LA REPUBLICA DE CUBA - LA HABANA",
@@ -80572,17 +78485,6 @@
     },
     {
         "codigos": [
-            49198
-        ],
-        "deOrganismo": "INSTITUTO DE CIENCIAS DEL PATRIMONIO",
-        "idOrganismo": 49198,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
             49199
         ],
         "deOrganismo": "FARMACIA CENTRAL DE LA IGESANDEF",
@@ -80591,17 +78493,6 @@
             1165
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            49205
-        ],
-        "deOrganismo": "CENTRO DE INVESTIGACION ECOLOGICA Y APLICACIONES FORESTALES",
-        "idOrganismo": 49205,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -80643,69 +78534,6 @@
     },
     {
         "codigos": [
-            49219
-        ],
-        "deOrganismo": "MINISTERIO DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD",
-        "idOrganismo": 49219,
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49222
-        ],
-        "deOrganismo": "GABINETE DEL MINISTRO",
-        "idOrganismo": 49222,
-        "idPadres": [
-            49214
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49224
-        ],
-        "deOrganismo": "GABINETE DE LA MINISTRA",
-        "idOrganismo": 49224,
-        "idPadres": [
-            49215
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49225
-        ],
-        "deOrganismo": "SECRETARIA DE LA MINISTRA",
-        "idOrganismo": 49225,
-        "idPadres": [
-            49215
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49234
-        ],
-        "deOrganismo": "GABINETE DE LA MINISTRA",
-        "idOrganismo": 49234,
-        "idPadres": [
-            49219
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49235
-        ],
-        "deOrganismo": "SECRETARIA DE LA MINISTRA",
-        "idOrganismo": 49235,
-        "idPadres": [
-            49219
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49236
         ],
         "deOrganismo": "S. DE E. DE ASUNTOS EXTERIORES",
@@ -80723,149 +78551,6 @@
         "idOrganismo": 49237,
         "idPadres": [
             49236
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49251
-        ],
-        "deOrganismo": "S. DE E. DE EDUCACION, FORMACION PROFESIONAL Y UNIVERSIDADES",
-        "idOrganismo": 49251,
-        "idPadres": [
-            49214
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49252
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49252,
-        "idPadres": [
-            49251
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49253
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49253,
-        "idPadres": [
-            49251
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49254
-        ],
-        "deOrganismo": "S. DE E. DE CULTURA",
-        "idOrganismo": 49254,
-        "idPadres": [
-            49214
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49255
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49255,
-        "idPadres": [
-            49254
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49257
-        ],
-        "deOrganismo": "S. DE E. DE EMPLEO",
-        "idOrganismo": 49257,
-        "idPadres": [
-            49215
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49258
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49258,
-        "idPadres": [
-            49257
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49260
-        ],
-        "deOrganismo": "S. DE E. DE LA SEGURIDAD SOCIAL",
-        "idOrganismo": 49260,
-        "idPadres": [
-            49215
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49261
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49261,
-        "idPadres": [
-            49260
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49262
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49262,
-        "idPadres": [
-            49260
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49287
-        ],
-        "deOrganismo": "S. DE E. DE SERVICIOS SOCIALES E IGUALDAD",
-        "idOrganismo": 49287,
-        "idPadres": [
-            49219
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49288
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49288,
-        "idPadres": [
-            49287
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49289
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49289,
-        "idPadres": [
-            49287
         ],
         "isCsic": false
     },
@@ -80937,50 +78622,6 @@
     },
     {
         "codigos": [
-            49306
-        ],
-        "deOrganismo": "GABINETE TECNICO DEL SUBSECRETARIO",
-        "idOrganismo": 49306,
-        "idPadres": [
-            49983
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49308
-        ],
-        "deOrganismo": "SUBSECRETARIA DE SANIDAD, SERVICIOS SOCIALES E IGUALDAD",
-        "idOrganismo": 49308,
-        "idPadres": [
-            49219
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49309
-        ],
-        "deOrganismo": "GABINETE TECNICO DEL SUBSECRETARIO",
-        "idOrganismo": 49309,
-        "idPadres": [
-            49308
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49310
-        ],
-        "deOrganismo": "SECRETARIA DEL SUBSECRETARIO",
-        "idOrganismo": 49310,
-        "idPadres": [
-            49308
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49312
         ],
         "deOrganismo": "D.G. DE LA POLICIA",
@@ -81020,28 +78661,6 @@
         "idOrganismo": 49315,
         "idPadres": [
             49314
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49316
-        ],
-        "deOrganismo": "S.GRAL. DEL TESORO Y POLITICA FINANCIERA",
-        "idOrganismo": 49316,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49317
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO GENERAL",
-        "idOrganismo": 49317,
-        "idPadres": [
-            49316
         ],
         "isCsic": false
     },
@@ -81152,17 +78771,6 @@
         "idOrganismo": 49327,
         "idPadres": [
             49326
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49328
-        ],
-        "deOrganismo": "D.G. DE DESARROLLO RURAL Y POLITICA FORESTAL",
-        "idOrganismo": 49328,
-        "idPadres": [
-            50244
         ],
         "isCsic": false
     },
@@ -81421,50 +79029,6 @@
     },
     {
         "codigos": [
-            49383
-        ],
-        "deOrganismo": "D.G. DE SERVICIOS PARA LA FAMILIA Y LA INFANCIA",
-        "idOrganismo": 49383,
-        "idPadres": [
-            50250
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49384
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 49384,
-        "idPadres": [
-            49383
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49385
-        ],
-        "deOrganismo": "D.G. DE POLITICAS DE APOYO A LA DISCAPACIDAD",
-        "idOrganismo": 49385,
-        "idPadres": [
-            50250
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49386
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 49386,
-        "idPadres": [
-            49385
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49387
         ],
         "deOrganismo": "SECRETARIA GENERAL TECNICA",
@@ -81641,17 +79205,6 @@
     },
     {
         "codigos": [
-            49407
-        ],
-        "deOrganismo": "UNIDAD DE SANIDAD Y POLITICAS SOCIALES A.P.",
-        "idOrganismo": 49407,
-        "idPadres": [
-            49610
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49414
         ],
         "deOrganismo": "S.G. DE ESTUDIOS Y COORDINACION",
@@ -81773,17 +79326,6 @@
     },
     {
         "codigos": [
-            49425
-        ],
-        "deOrganismo": "S.G. DE COORDINACION Y SEGUIMIENTO UNIVERSITARIO",
-        "idOrganismo": 49425,
-        "idPadres": [
-            48750
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49426
         ],
         "deOrganismo": "S.G. DEL PROTECTORADO DE FUNDACIONES",
@@ -81863,7 +79405,7 @@
         "codigos": [
             49436
         ],
-        "deOrganismo": "S.G. DE COMUNICACION DIGITAL Y DIPLOMACIA PUBLICA",
+        "deOrganismo": "S.G. DE COMUNICACION E IMAGEN INSTITUCIONAL Y DIPLOMACIA PUBLICA",
         "idOrganismo": 49436,
         "idPadres": [
             50039
@@ -81993,17 +79535,6 @@
     },
     {
         "codigos": [
-            49451
-        ],
-        "deOrganismo": "GABINETE TECNICO",
-        "idOrganismo": 49451,
-        "idPadres": [
-            49316
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49452
         ],
         "deOrganismo": "S.G. DE GESTION DE LA DEUDA EXTERNA Y LA FINANCIACION EXTERIOR",
@@ -82114,6 +79645,17 @@
     },
     {
         "codigos": [
+            49462
+        ],
+        "deOrganismo": "SECRETARIA DE COOPERACION INTERNACIONAL",
+        "idOrganismo": 49462,
+        "idPadres": [
+            1291
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             49463
         ],
         "deOrganismo": "S.G. DE RELACIONES INSTITUCIONALES Y COORDINACION TERRITORIAL",
@@ -82127,7 +79669,7 @@
         "codigos": [
             49464
         ],
-        "deOrganismo": "I.D. MINISTERIO DE ECONOMIA, INDUSTRIA Y COMPETITIVIDAD",
+        "deOrganismo": "I.D. MINISTERIO DE ECONOMIA Y EMPRESA",
         "idOrganismo": 49464,
         "idPadres": [
             1274
@@ -82296,28 +79838,6 @@
         "idOrganismo": 49500,
         "idPadres": [
             1303
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49501
-        ],
-        "deOrganismo": "DEPARTAMENTO DE SEGURIDAD NACIONAL A.P.",
-        "idOrganismo": 49501,
-        "idPadres": [
-            31683
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49502
-        ],
-        "deOrganismo": "DIRECTOR OPERATIVO DEL DEPARTAMENTO DE SEGURIDAD NACIONAL A.P.",
-        "idOrganismo": 49502,
-        "idPadres": [
-            31683
         ],
         "isCsic": false
     },
@@ -82675,6 +80195,17 @@
     },
     {
         "codigos": [
+            49563
+        ],
+        "deOrganismo": "SECRETARIA DE DESPACHO",
+        "idOrganismo": 49563,
+        "idPadres": [
+            49314
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             49567
         ],
         "deOrganismo": "I.D. MUSEO NACIONAL CENTRO DE ARTE REINA SOFIA",
@@ -82934,50 +80465,6 @@
         "idOrganismo": 49593,
         "idPadres": [
             40782
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49594
-        ],
-        "deOrganismo": "INSTITUTO DE TECNOLOGIAS FISICAS Y DE LA INFORMACION \"LEONARDO TORRES QUEVEDO\"",
-        "idOrganismo": 49594,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
-    },
-    {
-        "codigos": [
-            49610
-        ],
-        "deOrganismo": "DEPARTAMENTO DE ASUNTOS NACIONALES A.P.",
-        "idOrganismo": 49610,
-        "idPadres": [
-            1462
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49611
-        ],
-        "deOrganismo": "DEPARTAMENTO DE ASUNTOS EUROPEOS Y G20 A.P.",
-        "idOrganismo": 49611,
-        "idPadres": [
-            50372
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49612
-        ],
-        "deOrganismo": "UNIDAD DE EDUCACION, CIENCIA Y CULTURA A.P.",
-        "idOrganismo": 49612,
-        "idPadres": [
-            49610
         ],
         "isCsic": false
     },
@@ -83709,28 +81196,6 @@
     },
     {
         "codigos": [
-            49720
-        ],
-        "deOrganismo": "DIRECCION DE LAS COLECCIONES REALES",
-        "idOrganismo": 49720,
-        "idPadres": [
-            1450
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49721
-        ],
-        "deOrganismo": "DIRECCION DE INMUEBLES Y MEDIO NATURAL",
-        "idOrganismo": 49721,
-        "idPadres": [
-            1450
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49722
         ],
         "deOrganismo": "AUTORIDAD INDEPENDIENTE DE RESPONSABILIDAD FISCAL",
@@ -83924,39 +81389,6 @@
         "idOrganismo": 49747,
         "idPadres": [
             1299
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49749
-        ],
-        "deOrganismo": "D.G. DEL TESORO",
-        "idOrganismo": 49749,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49750
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 49750,
-        "idPadres": [
-            49749
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49751
-        ],
-        "deOrganismo": "S.G. DE COORDINACION DE EMISORES PUBLICOS",
-        "idOrganismo": 49751,
-        "idPadres": [
-            49749
         ],
         "isCsic": false
     },
@@ -84259,58 +81691,6 @@
     },
     {
         "codigos": [
-            49789
-        ],
-        "deOrganismo": "AGENCIA ESTATAL DE SEGURIDAD FERROVIARIA",
-        "idOrganismo": 49789,
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49790
-        ],
-        "deOrganismo": "DIRECCION DE LA AGENCIA",
-        "idOrganismo": 49790,
-        "idPadres": [
-            49789
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49791
-        ],
-        "deOrganismo": "S.G. DE INFRAESTRUCTURAS",
-        "idOrganismo": 49791,
-        "idPadres": [
-            49789
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49792
-        ],
-        "deOrganismo": "S.G. DE COORDINACION DE LA SEGURIDAD FERROVIARIA",
-        "idOrganismo": 49792,
-        "idPadres": [
-            49789
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49793
-        ],
-        "deOrganismo": "DIVISION DE ADMINISTRACION",
-        "idOrganismo": 49793,
-        "idPadres": [
-            49789
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49794
         ],
         "deOrganismo": "S.G. DE PLANIFICACION FERROVIARIA",
@@ -84322,12 +81702,12 @@
     },
     {
         "codigos": [
-            49795
+            49796
         ],
-        "deOrganismo": "GABINETE TECNICO A.P.",
-        "idOrganismo": 49795,
+        "deOrganismo": "CENTRO DE REFERENCIA ESTATAL DE ATENCION PSICOSOCIAL A PERSONAS CON TRASTORNO MENTAL GRAVE",
+        "idOrganismo": 49796,
         "idPadres": [
-            1364
+            1427
         ],
         "isCsic": false
     },
@@ -84770,6 +82150,17 @@
     },
     {
         "codigos": [
+            49865
+        ],
+        "deOrganismo": "MUSEO NAVAL DE FERROL",
+        "idOrganismo": 49865,
+        "idPadres": [
+            1171
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             49867
         ],
         "deOrganismo": "UNIDAD DE MODULOS",
@@ -84778,17 +82169,6 @@
             40777
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            49868
-        ],
-        "deOrganismo": "UNIDAD DE TECNOLOGIA MARINA",
-        "idOrganismo": 49868,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -84946,17 +82326,6 @@
     },
     {
         "codigos": [
-            49885
-        ],
-        "deOrganismo": "D.G. DE POLITICA DE INVESTIGACION, DESARROLLO E INNOVACION",
-        "idOrganismo": 49885,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49887
         ],
         "deOrganismo": "CENTRO DEPORTIVO SOCIOCULTURAL MILITAR DE EL FERROL",
@@ -84987,17 +82356,6 @@
             40780
         ],
         "isCsic": false
-    },
-    {
-        "codigos": [
-            49896
-        ],
-        "deOrganismo": "INSTITUTO DE BIOLOGIA INTEGRATIVA DE SISTEMAS",
-        "idOrganismo": 49896,
-        "idPadres": [
-            47811
-        ],
-        "isCsic": true
     },
     {
         "codigos": [
@@ -85033,29 +82391,10 @@
     },
     {
         "codigos": [
-            49905
-        ],
-        "deOrganismo": "MINISTERIO DE ECONOMIA, INDUSTRIA Y COMPETITIVIDAD",
-        "idOrganismo": 49905,
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49906
         ],
         "deOrganismo": "GABINETE DEL MINISTRO",
         "idOrganismo": 49906,
-        "idPadres": [
-            49901
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49908
-        ],
-        "deOrganismo": "S. DE E. DE HACIENDA",
-        "idOrganismo": 49908,
         "idPadres": [
             49901
         ],
@@ -85080,17 +82419,6 @@
         "idOrganismo": 49910,
         "idPadres": [
             49901
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49911
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49911,
-        "idPadres": [
-            49908
         ],
         "isCsic": false
     },
@@ -85129,17 +82457,6 @@
     },
     {
         "codigos": [
-            49920
-        ],
-        "deOrganismo": "S. DE E. PARA LA SOCIEDAD DE LA INFORMACION Y LA AGENDA DIGITAL",
-        "idOrganismo": 49920,
-        "idPadres": [
-            49902
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49922
         ],
         "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
@@ -85151,34 +82468,12 @@
     },
     {
         "codigos": [
-            49924
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49924,
-        "idPadres": [
-            49920
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             49928
         ],
         "deOrganismo": "GABINETE DE LA MINISTRA",
         "idOrganismo": 49928,
         "idPadres": [
             49903
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49933
-        ],
-        "deOrganismo": "GABINETE DE LA VICEPRESIDENTA DEL GOBIERNO",
-        "idOrganismo": 49933,
-        "idPadres": [
-            49904
         ],
         "isCsic": false
     },
@@ -85201,94 +82496,6 @@
         "idOrganismo": 49939,
         "idPadres": [
             49936
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49941
-        ],
-        "deOrganismo": "GABINETE DEL MINISTRO",
-        "idOrganismo": 49941,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49943
-        ],
-        "deOrganismo": "S. DE E. DE ECONOMIA Y APOYO A LA EMPRESA",
-        "idOrganismo": 49943,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49944
-        ],
-        "deOrganismo": "S. DE E. DE COMERCIO",
-        "idOrganismo": 49944,
-        "idPadres": [
-            49905
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49946
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49946,
-        "idPadres": [
-            49943
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49948
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
-        "idOrganismo": 49948,
-        "idPadres": [
-            49944
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49952
-        ],
-        "deOrganismo": "S. DE E. DE COMUNICACION A.P.",
-        "idOrganismo": 49952,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49953
-        ],
-        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO A.P.",
-        "idOrganismo": 49953,
-        "idPadres": [
-            49952
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49954
-        ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO DE ESTADO A.P.",
-        "idOrganismo": 49954,
-        "idPadres": [
-            49952
         ],
         "isCsic": false
     },
@@ -85377,6 +82584,17 @@
         "idOrganismo": 49963,
         "idPadres": [
             50246
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            49964
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 49964,
+        "idPadres": [
+            49963
         ],
         "isCsic": false
     },
@@ -85509,17 +82727,6 @@
         "idOrganismo": 49982,
         "idPadres": [
             49981
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            49983
-        ],
-        "deOrganismo": "SUBSECRETARIA DE ECONOMIA, INDUSTRIA Y COMPETITIVIDAD",
-        "idOrganismo": 49983,
-        "idPadres": [
-            49905
         ],
         "isCsic": false
     },
@@ -85696,28 +82903,6 @@
         "idOrganismo": 50002,
         "idPadres": [
             49346
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50012
-        ],
-        "deOrganismo": "D.G. DE ESTADISTICA Y ANALISIS SOCIOLABORAL",
-        "idOrganismo": 50012,
-        "idPadres": [
-            49215
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50013
-        ],
-        "deOrganismo": "UNIDAD DE APOYO",
-        "idOrganismo": 50013,
-        "idPadres": [
-            50012
         ],
         "isCsic": false
     },
@@ -86020,127 +83205,6 @@
     },
     {
         "codigos": [
-            50044
-        ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50044,
-        "idPadres": [
-            49610
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50045
-        ],
-        "deOrganismo": "D.G. DE LOGISTICA INFORMATIVA A.P.",
-        "idOrganismo": 50045,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50046
-        ],
-        "deOrganismo": "UNIDAD DE APOYO A.P.",
-        "idOrganismo": 50046,
-        "idPadres": [
-            50045
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50047
-        ],
-        "deOrganismo": "D.G. DE COMUNICACION A.P.",
-        "idOrganismo": 50047,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50048
-        ],
-        "deOrganismo": "UNIDAD DE APOYO A.P.",
-        "idOrganismo": 50048,
-        "idPadres": [
-            50047
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50049
-        ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50049,
-        "idPadres": [
-            50047
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50050
-        ],
-        "deOrganismo": "UNIDAD DE COMUNICACION A.P.",
-        "idOrganismo": 50050,
-        "idPadres": [
-            50047
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50051
-        ],
-        "deOrganismo": "D.G. DE LA SECRETARIA TECNICA DE LA COMISION DELEGADA PARA ASUNTOS ECONOMICOS A.P.",
-        "idOrganismo": 50051,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50052
-        ],
-        "deOrganismo": "UNIDAD DE APOYO A.P.",
-        "idOrganismo": 50052,
-        "idPadres": [
-            50051
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50053
-        ],
-        "deOrganismo": "UNIDAD DE PROTOCOLO INFORMATIVO A.P.",
-        "idOrganismo": 50053,
-        "idPadres": [
-            49952
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50054
-        ],
-        "deOrganismo": "UNIDAD DE PUBLICIDAD INSTITUCIONAL A.P.",
-        "idOrganismo": 50054,
-        "idPadres": [
-            49952
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             50055
         ],
         "deOrganismo": "GABINETE TECNICO",
@@ -86201,7 +83265,7 @@
         "deOrganismo": "DIVISION DE EMERGENCIA CONSULAR",
         "idOrganismo": 50060,
         "idPadres": [
-            49370
+            50559
         ],
         "isCsic": false
     },
@@ -86440,7 +83504,7 @@
         "codigos": [
             50085
         ],
-        "deOrganismo": "S.G. DE INFORMACION DE TRANSPARENCIA Y CONTENIDOS WEB",
+        "deOrganismo": "S.G. DE INFORMACION DE TRANSPARENCIA , PROTECCION DE DATOS Y SERVICIOS WEB",
         "idOrganismo": 50085,
         "idPadres": [
             49352
@@ -86598,17 +83662,6 @@
         "idOrganismo": 50123,
         "idPadres": [
             1158
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50126
-        ],
-        "deOrganismo": "I.D. S. DE E. PARA LAS ADMINISTRACIONES TERRITORIALES",
-        "idOrganismo": 50126,
-        "idPadres": [
-            1274
         ],
         "isCsic": false
     },
@@ -86773,29 +83826,7 @@
         "deOrganismo": "OFICINA INDEPENDIENTE DE REGULACION Y SUPERVISION DE LA CONTRATACION",
         "idOrganismo": 50225,
         "idPadres": [
-            49955
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50226
-        ],
-        "deOrganismo": "DIVISION DE LA OFICINA NACIONAL DE EVALUACION",
-        "idOrganismo": 50226,
-        "idPadres": [
-            49955
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50227
-        ],
-        "deOrganismo": "DIVISION DE LA ESTRATEGIA NACIONAL DE CONTRATACION",
-        "idOrganismo": 50227,
-        "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -86806,7 +83837,7 @@
         "deOrganismo": "DIVISION DE SUPERVISION DE LA CONTRATACION",
         "idOrganismo": 50228,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -86817,7 +83848,7 @@
         "deOrganismo": "DIVISION DE ESTUDIOS, PROFESIONALIZACION Y FORMACION ESPECIALIZADA",
         "idOrganismo": 50229,
         "idPadres": [
-            49955
+            50340
         ],
         "isCsic": false
     },
@@ -88225,188 +85256,56 @@
     },
     {
         "codigos": [
-            50371
+            50370
         ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50371,
+        "deOrganismo": "SECRETARIA TECNICA DE LA COMISION DELEGADA DEL GOBIERNO PARA ASUNTOS ECONOMICOS",
+        "idOrganismo": 50370,
         "idPadres": [
-            46002
+            1187
         ],
         "isCsic": false
     },
     {
         "codigos": [
-            50372
+            50389
         ],
-        "deOrganismo": "S.GRAL. DE ASUNTOS INTERNACIONALES, UNION EUROPEA. G20 Y SEGURIDAD GLOBAL A.P.",
-        "idOrganismo": 50372,
+        "deOrganismo": "D.G. PARA AMERICA DEL NORTE, EUROPA ORIENTAL, ASIA Y PACIFICO",
+        "idOrganismo": 50389,
         "idPadres": [
-            31683
+            50239
         ],
         "isCsic": false
     },
     {
         "codigos": [
-            50373
+            50390
         ],
-        "deOrganismo": "SECRETARIA DEL SECRETARIO GENERAL A.P.",
-        "idOrganismo": 50373,
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50390,
         "idPadres": [
-            50372
+            50389
         ],
         "isCsic": false
     },
     {
         "codigos": [
-            50374
+            50391
         ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50374,
+        "deOrganismo": "D.G. DE EUROPA OCCIDENTAL, CENTRAL Y SUDESTE DE EUROPA",
+        "idOrganismo": 50391,
         "idPadres": [
-            1464
+            50239
         ],
         "isCsic": false
     },
     {
         "codigos": [
-            50375
+            50392
         ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50375,
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50392,
         "idPadres": [
-            49611
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50376
-        ],
-        "deOrganismo": "DEPARTAMENTO DE ASUNTOS ECONOMICOS A.P.",
-        "idOrganismo": 50376,
-        "idPadres": [
-            1462
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50377
-        ],
-        "deOrganismo": "UNIDAD DE POLITICAS MACROECONOMICAS Y FINANCIERAS A.P.",
-        "idOrganismo": 50377,
-        "idPadres": [
-            50376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50378
-        ],
-        "deOrganismo": "UNIDAD DE POLITICAS SOCIO-LABORALES A.P.",
-        "idOrganismo": 50378,
-        "idPadres": [
-            50376
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50379
-        ],
-        "deOrganismo": "DIRECCION DE ASUNTOS INSTITUCIONALES A.P.",
-        "idOrganismo": 50379,
-        "idPadres": [
-            1462
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50380
-        ],
-        "deOrganismo": "UNIDAD DE COORDINACION A.P.",
-        "idOrganismo": 50380,
-        "idPadres": [
-            50379
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50381
-        ],
-        "deOrganismo": "UNIDAD DE JUSTICIA E INTERIOR A.P.",
-        "idOrganismo": 50381,
-        "idPadres": [
-            49610
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50382
-        ],
-        "deOrganismo": "VICESECRETARIA GENERAL A.P.",
-        "idOrganismo": 50382,
-        "idPadres": [
-            1364
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50383
-        ],
-        "deOrganismo": "D.G. DE INFORMACION NACIONAL A.P.",
-        "idOrganismo": 50383,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50384
-        ],
-        "deOrganismo": "UNIDAD DE APOYO A.P.",
-        "idOrganismo": 50384,
-        "idPadres": [
-            50383
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50385
-        ],
-        "deOrganismo": "D.G. DE INFORMACION INTERNACIONAL A.P.",
-        "idOrganismo": 50385,
-        "idPadres": [
-            49952
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50387
-        ],
-        "deOrganismo": "OFICINA DEL ALTO COMISIONADO PARA LA LUCHA CONTRA LA POBREZA INFANTIL A.P.",
-        "idOrganismo": 50387,
-        "idPadres": [
-            31683
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50388
-        ],
-        "deOrganismo": "OFICINA DEL ALTO COMISIONADO PARA LA AGENDA 2030 A.P.",
-        "idOrganismo": 50388,
-        "idPadres": [
-            31683
+            50391
         ],
         "isCsic": false
     },
@@ -88439,7 +85338,7 @@
         "deOrganismo": "D.G. DE EJECUCION PENAL Y REINSERCION SOCIAL",
         "idOrganismo": 50397,
         "idPadres": [
-            38
+            47966
         ],
         "isCsic": false
     },
@@ -88506,6 +85405,17 @@
         "idOrganismo": 50403,
         "idPadres": [
             50242
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50404
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50404,
+        "idPadres": [
+            50403
         ],
         "isCsic": false
     },
@@ -88720,6 +85630,17 @@
     },
     {
         "codigos": [
+            50426
+        ],
+        "deOrganismo": "SECRETARIA DEL SECRETARIO GENERAL",
+        "idOrganismo": 50426,
+        "idPadres": [
+            50425
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50427
         ],
         "deOrganismo": "D.G. DEL TESORO Y POLITICA FINANCIERA",
@@ -88731,12 +85652,34 @@
     },
     {
         "codigos": [
+            50428
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50428,
+        "idPadres": [
+            50427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50429
         ],
         "deOrganismo": "D.G. DE ANALISIS MACROECONOMICO",
         "idOrganismo": 50429,
         "idPadres": [
             50249
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50430
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50430,
+        "idPadres": [
+            50429
         ],
         "isCsic": false
     },
@@ -88808,28 +85751,6 @@
     },
     {
         "codigos": [
-            50437
-        ],
-        "deOrganismo": "ALTO COMISIONADO PARA LA LUCHA CONTRA LA POBREZA INFANTIL A.P.",
-        "idOrganismo": 50437,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
-            50438
-        ],
-        "deOrganismo": "ALTO COMISIONADO PARA LA AGENDA 2030 A.P.",
-        "idOrganismo": 50438,
-        "idPadres": [
-            50245
-        ],
-        "isCsic": false
-    },
-    {
-        "codigos": [
             50439
         ],
         "deOrganismo": "GABINETE DE LA MINISTRA",
@@ -88858,6 +85779,50 @@
         "idOrganismo": 50442,
         "idPadres": [
             50441
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50443
+        ],
+        "deOrganismo": "DIRECCION DE PERSONAL (A CORU\u00d1A)",
+        "idOrganismo": 50443,
+        "idPadres": [
+            1170
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50445
+        ],
+        "deOrganismo": "DIRECCION DE PERSONAL (SAN ANDRES DE RABANEDO)",
+        "idOrganismo": 50445,
+        "idPadres": [
+            1170
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50447
+        ],
+        "deOrganismo": "DIRECCION DE PERSONAL (PONTEVEDRA)",
+        "idOrganismo": 50447,
+        "idPadres": [
+            1170
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50448
+        ],
+        "deOrganismo": "DIRECION DE PERSONAL (SIERO)",
+        "idOrganismo": 50448,
+        "idPadres": [
+            1170
         ],
         "isCsic": false
     },
@@ -88913,6 +85878,17 @@
         "idOrganismo": 50454,
         "idPadres": [
             50357
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50455
+        ],
+        "deOrganismo": "ABOGACIA DEL ESTADO EN EL MINISTERIO DE CULTURA Y DEPORTE",
+        "idOrganismo": 50455,
+        "idPadres": [
+            1309
         ],
         "isCsic": false
     },
@@ -88984,6 +85960,28 @@
     },
     {
         "codigos": [
+            50467
+        ],
+        "deOrganismo": "ABOGACIA DEL ESTADO EN EL MINISTERIO DE CIENCIA, INNOVACION Y UNIVERSIDADES",
+        "idOrganismo": 50467,
+        "idPadres": [
+            1309
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50468
+        ],
+        "deOrganismo": "I.D. EN EL MINISTERIO DE CIENCIA, INNOVACION Y UNIVERSIDADES",
+        "idOrganismo": 50468,
+        "idPadres": [
+            1274
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50469
         ],
         "deOrganismo": "S.G. DE COORDINACION Y RELACIONES INSTITUCIONALES",
@@ -89041,7 +86039,7 @@
         "codigos": [
             50474
         ],
-        "deOrganismo": "S.G. DE PERSONAL E INSPECION DE SERVICIOS",
+        "deOrganismo": "S.G. DE PERSONAL E INSPECCION DE SERVICIOS",
         "idOrganismo": 50474,
         "idPadres": [
             50363
@@ -89138,6 +86136,17 @@
     },
     {
         "codigos": [
+            50483
+        ],
+        "deOrganismo": "DIVISION DE SISTEMAS Y TECNOLOGIAS DE LA INFORMACION Y DE LAS COMUNICACIONES",
+        "idOrganismo": 50483,
+        "idPadres": [
+            50355
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50484
         ],
         "deOrganismo": "GABINETE TECNICO",
@@ -89177,6 +86186,17 @@
         "idOrganismo": 50487,
         "idPadres": [
             50415
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50489
+        ],
+        "deOrganismo": "CONSEJERIAS DE MEDIO AMBIENTE",
+        "idOrganismo": 50489,
+        "idPadres": [
+            50247
         ],
         "isCsic": false
     },
@@ -89281,6 +86301,17 @@
     },
     {
         "codigos": [
+            50500
+        ],
+        "deOrganismo": "I.D. EN EL MINISTERIO PARA LA TRANSICION ECOLOGICA",
+        "idOrganismo": 50500,
+        "idPadres": [
+            1274
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50501
         ],
         "deOrganismo": "S.G. DE PROGRAMAS DE PROTECCION INTERNACIONAL",
@@ -89336,6 +86367,28 @@
     },
     {
         "codigos": [
+            50506
+        ],
+        "deOrganismo": "ABOGACIA DEL ESTADO EN EL MINISTERIO DE POLITICA TERRITORIAL Y FUNCION PUBLICA",
+        "idOrganismo": 50506,
+        "idPadres": [
+            1309
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50507
+        ],
+        "deOrganismo": "GABINETE TECNICO",
+        "idOrganismo": 50507,
+        "idPadres": [
+            50399
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50510
         ],
         "deOrganismo": "D.G. DE COOPERACION JURIDICA INTERNACIONAL, RELACIONES CON LAS CONFESIONES Y DERECHOS HUMANOS",
@@ -89358,6 +86411,17 @@
     },
     {
         "codigos": [
+            50512
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50512,
+        "idPadres": [
+            50511
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50513
         ],
         "deOrganismo": "D.G. DE POLITICAS DE DISCAPACIDAD",
@@ -89369,12 +86433,375 @@
     },
     {
         "codigos": [
+            50514
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50514,
+        "idPadres": [
+            50513
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             50515
         ],
         "deOrganismo": "D.G. DE CONSUMO",
         "idOrganismo": 50515,
         "idPadres": [
             50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50516
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50516,
+        "idPadres": [
+            50515
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50520
+        ],
+        "deOrganismo": "S.G. DE COMERCIO INTERNACIONAL DE MERCANCIAS",
+        "idOrganismo": 50520,
+        "idPadres": [
+            1200
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50521
+        ],
+        "deOrganismo": "S.G.DE COMERCIO INTERNACIONAL DE SERVICIOS Y COMERCIO DIGITAL",
+        "idOrganismo": 50521,
+        "idPadres": [
+            1200
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50522
+        ],
+        "deOrganismo": "S.G. DE REGULACION DEL COMERCIO INTERIOR",
+        "idOrganismo": 50522,
+        "idPadres": [
+            1200
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50523
+        ],
+        "deOrganismo": "S.G. DE APOYO A LA COMPETITIVIDAD DEL PEQUE\u00d1O COMERCIO",
+        "idOrganismo": 50523,
+        "idPadres": [
+            1200
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50526
+        ],
+        "deOrganismo": "S.G. DE AYUDA A LAS VICTIMAS DE LA GUERRA CIVIL Y DE LA DICTADURA",
+        "idOrganismo": 50526,
+        "idPadres": [
+            50441
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50527
+        ],
+        "deOrganismo": "DIVISION DE COORDINACION ADMINISTRATIVA Y RELACIONES INSTITUCIONALES",
+        "idOrganismo": 50527,
+        "idPadres": [
+            50441
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50529
+        ],
+        "deOrganismo": "GABINETE TECNICO",
+        "idOrganismo": 50529,
+        "idPadres": [
+            50425
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50530
+        ],
+        "deOrganismo": "S.G. DE LEGISLACION DE MERCADO VALORES E INSTRUMENTOS FINANCIEROS",
+        "idOrganismo": 50530,
+        "idPadres": [
+            50427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50531
+        ],
+        "deOrganismo": "S.G. DE ORGANIZACION, ESTUDIOS Y PREVISION SOCIAL COMPLEMENTARIA",
+        "idOrganismo": 50531,
+        "idPadres": [
+            1190
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50532
+        ],
+        "deOrganismo": "GABINETE TECNICO",
+        "idOrganismo": 50532,
+        "idPadres": [
+            50359
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50533
+        ],
+        "deOrganismo": "SERVICIO DE RECLAMACIONES",
+        "idOrganismo": 50533,
+        "idPadres": [
+            1190
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50536
+        ],
+        "deOrganismo": "GABINETE TECNICO",
+        "idOrganismo": 50536,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50540
+        ],
+        "deOrganismo": "DIVISION DE EVALUACION DE LOS CONTRATOS DE CONCESION",
+        "idOrganismo": 50540,
+        "idPadres": [
+            50340
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50541
+        ],
+        "deOrganismo": "DIVISION DE REGULACION Y ORDENACION DE LA CONTRATACION",
+        "idOrganismo": 50541,
+        "idPadres": [
+            50340
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50542
+        ],
+        "deOrganismo": "DIVISION DE SUPERVISION DE LA CONTRATACION Y RELACIONES INTERNACIONALES",
+        "idOrganismo": 50542,
+        "idPadres": [
+            50340
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50543
+        ],
+        "deOrganismo": "DIVISION DE ASUNTOS GENERALES",
+        "idOrganismo": 50543,
+        "idPadres": [
+            50340
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50546
+        ],
+        "deOrganismo": "REPRESENTACION PERMANENTE DE ESPA\u00d1A ANTE LA OCDE Y EN LA EMBAJADA DE ESPA\u00d1A EN FRANCIA",
+        "idOrganismo": 50546,
+        "idPadres": [
+            50489
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50550
+        ],
+        "deOrganismo": "SECRETARIA DE ESTADO DE LA ESPA\u00d1A GLOBAL",
+        "idOrganismo": 50550,
+        "idPadres": [
+            50239
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50551
+        ],
+        "deOrganismo": "GABINETE DEL SECRETARIO DE ESTADO",
+        "idOrganismo": 50551,
+        "idPadres": [
+            50550
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50552
+        ],
+        "deOrganismo": "SECRETARIA DEL SECRETARIO DE ESTADO",
+        "idOrganismo": 50552,
+        "idPadres": [
+            50550
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50553
+        ],
+        "deOrganismo": "ONGT-AREA NO RESIDENTES",
+        "idOrganismo": 50553,
+        "idPadres": [
+            40757
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50554
+        ],
+        "deOrganismo": "DIRECCION",
+        "idOrganismo": 50554,
+        "idPadres": [
+            1260
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50555
+        ],
+        "deOrganismo": "CENTRO DE REFERENCIA ESTATAL DE ATENCION A PERSONAS EN SITUACION DE DEPENDENCIA - LEON",
+        "idOrganismo": 50555,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50556
+        ],
+        "deOrganismo": "CENTRO DE REFERENCIA ESTATAL DE ATENCION SOCIOSANITARIA PARA PERSONAS EN SITUACION DE DEPEND.-SORIA",
+        "idOrganismo": 50556,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50557
+        ],
+        "deOrganismo": "OFICINA DE LA ESPA\u00d1A GLOBAL",
+        "idOrganismo": 50557,
+        "idPadres": [
+            50239
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50558
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50558,
+        "idPadres": [
+            50557
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50559
+        ],
+        "deOrganismo": "D. G. DE ESPA\u00d1OLES EN EL EXTERIOR Y DE ASUNTOS CONSULARES",
+        "idOrganismo": 50559,
+        "idPadres": [
+            50239
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50560
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 50560,
+        "idPadres": [
+            50559
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50562
+        ],
+        "deOrganismo": "S.G. ASUNTOS MULTIL.Y HORIZ. A. SUBSAH.",
+        "idOrganismo": 50562,
+        "idPadres": [
+            50027
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50563
+        ],
+        "deOrganismo": "S.G. PARA LA PROMOCION DE LA ESPA\u00d1A GLOBAL",
+        "idOrganismo": 50563,
+        "idPadres": [
+            50557
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50568
+        ],
+        "deOrganismo": "DIRECCION EJECUTIVA",
+        "idOrganismo": 50568,
+        "idPadres": [
+            49701
         ],
         "isCsic": false
     }

@@ -20,5 +20,5 @@ find . -iname "*.pdf" -exec pdftotext -layout "{}" "{}-layout.txt" \;
 
 ./get-novacantes.py
 
-./administracion.gob.es/descargar.sh
-./csic.es/descargar.sh
+#./administracion.gob.es/descargar.sh
+#./csic.es/descargar.sh

@@ -266,6 +266,8 @@ class Puesto:
         self.direccionSingular = False
         self.turno = None
         self.nota = None
+        self.deObservaciones = None
+        self.idObservaciones =  None
         if len(args) == 0:
             return
         self.idMinisterio, \

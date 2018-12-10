@@ -28,6 +28,9 @@ Calle Carvajal, 835004 Las Palmas de Gran Canaria, Las Palmas
 28.13528045,-15.4285066511069
 Calle León y Castillo, 310, 35006 Las Palmas de Gran Canaria, Las Palmas
 
+28.1417641,-15.6351138
+Calle Lomo de Guillén S/N 35450 Santa María de Guía de Gran Canaria (Palmas, Las)
+
 28.4633908,-16.2483067
 Avenida Marítima 6 38071 Santa Cruz de Tenerife (Santa Cruz de Tenerife)
 
@@ -79,6 +82,9 @@ Paseo de Carlos III, 3C, 11003 Cádiz
 36.5911131,-6.2266604
 Muelle Exterior, s/n 11500 Puerto Santa María Cádiz
 
+36.6260417,-4.4981179
+Calle Cruz 18 29620 Torremolinos (Málaga)
+
 36.6980222,-6.1369178
 Plaza de las Marinas 1, 11471 Jerez de la Frontera, Cádiz
 
@@ -126,6 +132,9 @@ Av. de Pulianas, 36, 18011 GRANADA
 
 37.2354939,-5.1018184
 Calle San Agustin 6 41640 Osuna (Sevilla)
+
+37.2567463,-6.9504308
+Avenida Martín Alonso Pinzón 3 21071 Huelva (Huelva)
 
 37.2596543,-6.9508557
 Paseo de Santa Fe 22, 21003 Huelva
@@ -809,6 +818,9 @@ Calle Alfar 2 28760 Tres Cantos (Madrid)
 40.62867429,-3.88286022
 Carretera de Torrelodones a Colmenar Viejo, km 10,7, 28240 Hoyo de Manzanares (Madrid)
 
+40.6299543,-3.1663486
+Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara)
+
 40.637702,-3.191691
 Carretera cabanillas, s/n, 19004 Guadalajara
 
@@ -1011,6 +1023,9 @@ Calle Coso Alto 14 22002 Huesca (Huesca)
 42.1394253,-0.414764
 Plaza Cervantes 1 22003 Huesca (Huesca)
 
+42.1754207,2.4834001
+Avenida Uruguai S/N 17800 Olot (Girona)
+
 42.1834043,0.8991474
 Camí Vell de Talarn, s/n, 25640 Tremp, Lleida
 
@@ -1037,9 +1052,6 @@ Avenida Arlanzón 27 09071 Burgos (Burgos)
 
 42.343957,-3.6891862
 Calle Vitoria 39 09004 Burgos (Burgos)
-
-42.3488645,-3.6774901
-Glorieta de Logroño 2, 09006 Burgos
 
 42.3942491,-8.7053760
 Plaza España, s/n, 36920 Marín, Pontevedra
@@ -1106,6 +1118,9 @@ Calle De la Reina 2 27001 Lugo (Lugo)
 
 43.0108047,-7.5581854
 Calle Armanyá 1 27001 Lugo (Lugo)
+
+43.2486324,-5.7727338
+Plaza Vital Aza Álvarez-Buylla 1 33600 Mieres (Asturias)
 
 43.2548467,-2.9345017
 Urizar Kalea, 13, 48012 Bilbo, Bizkaia
