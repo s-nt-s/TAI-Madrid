@@ -1,30 +1,820 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
     <Document id="feat_1">
+        <Style id="stylesel_0">
+            <IconStyle id="substyle_0">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_0">
+                    <href>http://maps.google.com/mapfiles/ms/micons/blue.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_1">
+            <IconStyle id="substyle_1">
+                <color>ff008000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_1">
+                    <href>http://maps.google.com/mapfiles/ms/micons/green.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_2">
+            <IconStyle id="substyle_2">
+                <color>ff0000ff</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_2">
+                    <href>http://maps.google.com/mapfiles/ms/micons/red.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id="stylesel_3">
+            <IconStyle id="substyle_3">
+                <color>ffff0000</color>
+                <colorMode>normal</colorMode>
+                <scale>1</scale>
+                <heading>0</heading>
+                <Icon id="link_3">
+                    <href>http://maps.google.com/mapfiles/ms/micons/grey.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
         <name>TAI 2017</name>
-        <Placemark id="feat_2">
-            <name>[1] Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara) </name>
-            <description># Ministerio de Política Territorial y Función Pública
+        <styleUrl>#stylesel_3</styleUrl>
+        <Folder id="feat_2">
+            <name>Solo 1 o 2 puestos</name>
+            <Placemark id="feat_6">
+                <name>[2] Calle Ruiz de Alarcón 1 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Fomento
+## D.G. de la Marina Mercante
+### S.G. de Coordinación y Gestión Administrativa (DGMM)
+&gt; 170 (5466020) 18.480 € 
+&gt; 171 (5466021) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_0">
+                    <coordinates>-3.6913699,40.4178196,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_7">
+                <name>[1] C/ MIRLO 4, 18014 Granada </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Servicio Publico de Empleo Estatal
+### Direccion Provincial del SEPE de Granada
+&gt; 9 (5076585) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_1">
+                    <coordinates>-3.611885,37.186408,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_8">
+                <name>[1] Calle de Alfonso XII 3, 28014 Madrid </name>
+                <description># Ministerio de Fomento
+## Centro de Estudios y Experimentacion de Obras Publicas
+### Secretaria Cedex
+&gt; 168 (5466026) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_2">
+                    <coordinates>-3.6861369,40.4078464,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_9">
+                <name>[1] Plaza De las Batallas 2 23071 Jaén (Jaén) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Andalucia
+### Subdelegación del Gobierno en Jaen - Subdelegación
+&gt; 14 (5146060) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_3">
+                    <coordinates>-3.7894313,37.772794,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_12">
+                <name>[1] Calle Miguel Angel 25, 28071 Madrid </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Madrid
+### Delegación del Gobierno en Madrid S.Gral.
+&gt; 218 (5089890) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_6">
+                    <coordinates>-3.6914243,40.4369226,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_13">
+                <name>[1] c/ Serrano, 102, 28006 MADRID </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica Inss de Madrid
+&gt; 272 (5465058) 19.300 €  (Algunas veces hay que ir a López de Hoyos 169)</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_7">
+                    <coordinates>-3.68635,40.43392,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_15">
+                <name>[1] Calle Barquillo 5, 28004 Madrid </name>
+                <description># ENTES PÚBLICOS
+## Comision Nacional de los Mercados y la Competencia
+### Subdireccion de Sistemas de Tecnologias de la Informacion y las Comunicaciones
+&gt; 338 (5466184) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_9">
+                    <coordinates>-3.695671,40.4197543,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_17">
+                <name>[1] Calle General Ibañez de Íbero 3 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Fomento
+## Centro Nacional de Informacion Geografica
+### Centro Nacional de Informacion Geografica
+&gt; 169 (5466025) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_11">
+                    <coordinates>-3.7101218,40.4458348,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_18">
+                <name>[1] Avenida Virgen de la Montaña 3 10071 Cáceres (Cáceres) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Extremadura
+### Subdelegación del Gobierno en Caceres - Subdelegación
+&gt; 4 (4692243) 20.650 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_12">
+                    <coordinates>-6.3775451,39.4729016,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_19">
+                <name>[1] c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica Inss de Barcelona
+&gt; 2 (5465053) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_13">
+                    <coordinates>2.163359,41.40308,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_20">
+                <name>[1] Plaza de la Constitución 1, 14004 Cordoba </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Andalucia
+### Subdelegación del Gobierno en Cordoba - Subdelegación
+&gt; 8 (5108967) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_14">
+                    <coordinates>-4.7875488,37.8787709,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_21">
+                <name>[2] Calle Alcalá 9, 28014 Madrid </name>
+                <description># Ministerio de Hacienda
+## Dirección General de Racionalización y Centralización de la Contratación
+### Unidad de Apoyo
+&gt; 176 (4893359) 18.480 € 
+## Subsecretaría de Hacienda
+### Subdirección General de Tecnologías de la Información y de las Comunicaciones
+(También puede tocarte en Paseo de la castellana 3)
+&gt; 192 (5466159) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_15">
+                    <coordinates>-3.7013019,40.4176416,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_22">
+                <name>[2] Calle Benificiencia 8 28004 Madrid (Madrid) </name>
+                <description># Ministerio de Agricultura, Pesca y Alimentación
+## Fondo Español de Garantia Agraria
+### Secretaria General
+&gt; 313 (5464874) 18.480 € 
+&gt; 314 (5464875) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_16">
+                    <coordinates>-3.6995541,40.4259384,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_23">
+                <name>[1] Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Illes Balears
+### Dir.Insular de la A.G.E. en Ibiza Formentera S. Gral
+&gt; 12 (3417293) 20.870 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_17">
+                    <coordinates>1.4144827,38.9269573,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_24">
+                <name>[1] Calle Dacio Darias 103, 38900, Santa Cruz Tenerife, Canarias, España </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Canarias
+### Direccion Insular de la A.G.E. en el Hierro S.Gral.
+&gt; 341 (3454205) 20.650 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_18">
+                    <coordinates>-17.9156176,27.8125375,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_25">
+                <name>[1] Plaza Juan de Lima 5, 11201, Cadiz, Andalucia, España </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Andalucia
+### Oficina de Coordinacion de la A.G.E. en el Campo de Gibraltar
+&gt; 5 (5035756) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_19">
+                    <coordinates>-5.4476512,36.1275408,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_27">
+                <name>[1] La Rambla, 18, 07003 PALMA DE MALLORCA </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica de Baleares
+&gt; 13 (5465054) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_21">
+                    <coordinates>2.649233,39.57412,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_30">
+                <name>[1] Rambla Nova, 84, 43003 TARRAGONA </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica de Tarragona
+&gt; 346 (5465057) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_24">
+                    <coordinates>1.250774,41.1162,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_31">
+                <name>[1] Calle Alcuñeza, 28850 Torrejón de Ardoz, Madrid </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Gerencia de Informatica de la Seguridad Social
+(Algunas son en Calle de los Astros 5/7, en Calle Velazquez 157 y en Calle Genova 24)
+&gt; 271 (5465061) 19.300 € TARDE</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_25">
+                    <coordinates>-3.4740868,40.4514824,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_32">
+                <name>[1] Plaza Imperial Tárraco 3 43005 Tarragona (Tarragona) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Cataluña
+### Subdelegación del Gobierno en Tarragona - Subdelegación
+&gt; 345 (5146063) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_26">
+                    <coordinates>1.2431367,41.1188563,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_33">
+                <name>[1] Plaza Constitución 1 49001 Zamora (Zamora) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Castilla y Leon
+### Subdelegación del Gobierno en Zamora - Subdelegación
+&gt; 349 (5465923) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_27">
+                    <coordinates>-5.7439289,41.5049717,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_35">
+                <name>[1] Calle Atocha 3 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Hacienda
+## Dirección General de Ordenación del Juego
+### Subdirección General de Gestión y Relaciones Institucionales
+&gt; 175 (5466134) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_29">
+                    <coordinates>-3.7051239,40.4148475,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_37">
+                <name>[1] Plaza Zocodover 6, 45001 Toledo </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Castilla-La Mancha
+### Delegación del Gobierno en Castilla La Mancha S.Gral.
+&gt; 348 (5146065) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_31">
+                    <coordinates>-4.0210357,39.8596655,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_38">
+                <name>[1] Calle Echegaray s/n, 51001, Ceuta, Ceuta, España </name>
+                <description># Ministerio de Educación y Formación Profesional
+## Direccion Provincial
+### Dirección Provincial de Educación de Ceuta
+&gt; 6 (1228536) 19.030 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_32">
+                    <coordinates>-5.3060865,35.8872271,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_40">
+                <name>[2] Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España </name>
+                <description># Ministerio de Hacienda
+## Tribunal Económico Administrativo Central
+### S.G. de Organizacion Medios y Procedimientos
+&gt; 193 (5466135) 18.480 € 
+&gt; 194 (5466136) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_34">
+                    <coordinates>-3.6889892,40.4567244,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_41">
+                <name>[1] Paseo Castellana 147, 28020 Madrid </name>
+                <description># Agencia Estatal de Administracion Tributaria
+## Departamento de Inspección Financiera y Tributaria
+### Gerencia y Apoyo Administrativo
+&gt; 91 (4741292) 19.310 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_35">
+                    <coordinates>-3.6907088,40.4603221,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_42">
+                <name>[1] Plaza Cervantes 1 13071 Ciudad Real (Ciudad Real) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Castilla-La Mancha
+### Subdelegación del Gobierno en Ciudad Real - Subdelegación
+&gt; 7 (5135006) 20.320 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_36">
+                    <coordinates>-4.107522,38.6839153,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_43">
+                <name>[1] Calle Parque Ordesa, 328924 Alcorcón, Madrid </name>
+                <description># Agencia Estatal de Administracion Tributaria
+## Departamento de Gestión Tributaria
+### Oficina Nacional de Gestión Tributaria
+&gt; 18 (4741685) 19.310 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_37">
+                    <coordinates>-3.8080528,40.3486333,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_45">
+                <name>[1] Avenida Martín Alonso Pinzón 3 21071 Huelva (Huelva) </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Andalucia
+### Subdelegación del Gobierno en Huelva - Subdelegación
+&gt; 11 (5108969) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_39">
+                    <coordinates>-6.9504308,37.2567463,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_46">
+                <name>[2] Plaza de los Sagrados Corazones, 7, 28002 Madrid </name>
+                <description># Ministerio de Fomento
+## Agencia Estatal de Seguridad Ferroviaria
+### Division de Administracion
+&gt; 96 (5466022) 18.480 € 
+&gt; 97 (5466023) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_40">
+                    <coordinates>-3.6881475,40.4513525,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_47">
+                <name>[2] Costanilla de los Desamparados, 1428014 Madrid </name>
+                <description># Ministerio de Hacienda
+## Secretaría General Técnica
+### Subdirección General de Coordinación de la Información Económico-Financiera
+(Posible mudanza a Calle Alcalá 5)
+&gt; 190 (5466125) 18.480 € 
+&gt; 191 (5466126) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_41">
+                    <coordinates>-3.6989553,40.4117245,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_49">
+                <name>[1] Avda Llano Castellano 17, 28034, Madrid, Comunidad Madrid, España </name>
+                <description># Agencia Estatal de Administracion Tributaria
+## Departamento de Aduanas e Impuestos Especiales
+### Jefatura
+&gt; 17 (4742185) 19.310 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_43">
+                    <coordinates>-3.6853,40.48746999999999,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_51">
+                <name>[2] Paseo de la Castellana 44 28046 Madrid (Madrid) </name>
+                <description># Ministerio de Economía y Empresa
+## Dirección General de Seguros y Fondos de Pensiones
+### Unidad de Apoyo
+(También puede tocarte en General Perón 48)
+&gt; 148 (5068319) 18.480 € 
+&gt; 149 (5068321) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_45">
+                    <coordinates>-3.6876406,40.4338466,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_52">
+                <name>[1] Calle Mallorca 278, 08037, Barcelona </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Cataluña
+### Subdelegación del Gobierno en Barcelona - Subdelegación
+&gt; 1 (5089610) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_46">
+                    <coordinates>2.1650662,41.3955671,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_53">
+                <name>[1] Avenida de la Marina Española 3 52001 Melilla </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en la Ciudad de Melilla
+### Delegación del Gobierno en la Ciudad de Melilla S.Gral.
+&gt; 340 (5035752) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_47">
+                    <coordinates>-2.9374241,35.2910493,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_56">
+                <name>[1] Paseo de Sancha 64, 29016 Málaga </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Andalucia
+### Subdelegación del Gobierno en Malaga - Subdelegación
+&gt; 339 (3924414) 20.650 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_50">
+                    <coordinates>-4.3979632,36.7228884,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_57">
+                <name>[1] Plaza San Juan 4, 44001, Teruel </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Delegación del Gobierno en Aragon
+### Subdelegación del Gobierno en Teruel - Subdelegación
+&gt; 347 (4059585) 20.650 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_51">
+                    <coordinates>-1.1067499,40.3403599,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_61">
+                <name>[1] Paseo Doctor Fernandez Iparraguirre 8 19007 Guadalajara (Guadalajara) </name>
+                <description># Ministerio de Política Territorial y Función Pública
 ## Delegación del Gobierno en Castilla-La Mancha
 ### Subdelegación del Gobierno en Guadalajara - Subdelegación
 &gt; 10 (5146062) 18.480 €</description>
-            <Point id="geom_0">
-                <coordinates>-3.1663486,40.6299543,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_3">
-            <name>[1] C/ Gran Vía, 89, 48011 BILBAO </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_55">
+                    <coordinates>-3.1663486,40.6299543,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_62">
+                <name>[1] C/ Gran Vía, 89, 48011 BILBAO </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
 ## Secretaría de Estado de la Seguridad Social
 ### Unidad Provincial de Informatica de Bizkaia
 &gt; 3 (5465056) 19.300 €</description>
-            <Point id="geom_1">
-                <coordinates>-2.94469,43.26499,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_4">
-            <name>[4] Calle Lérida 32-34, 28020 Madrid </name>
-            <description># Agencia Estatal de Administracion Tributaria
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_56">
+                    <coordinates>-2.94469,43.26499,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_65">
+                <name>[2] Calle Perez Del Toro, 89, Las Palmas </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Las Palmas
+&gt; 15 (5465047) 19.300 € 
+&gt; 16 (5465048) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_59">
+                    <coordinates>-15.4279158,28.1182189,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_67">
+                <name>[2] C/ Pablo Picasso, nº 8, 41018 SEVILLA </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica de Sevilla
+&gt; 343 (5465051) 19.300 € 
+&gt; 344 (5465052) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_61">
+                    <coordinates>-5.97526,37.38976,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_68">
+                <name>[1] Av José Manuel Guimerá N-8 , 38003 SANTA CRUZ DE TENERIFE </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica de Tenerife
+&gt; 342 (5465055) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_62">
+                    <coordinates>-16.251,28.46208,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_69">
+                <name>[1] Calle Huertas 26, 28014 Madrid </name>
+                <description># Ministerio de Economía y Empresa
+## Instituto de Contabilidad y Auditoria de Cuentas
+### Secretaria General
+&gt; 315 (5068335) 18.480 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_63">
+                    <coordinates>-3.6992573,40.4135762,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_73">
+                <name>[2] C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Secretaría de Estado de la Seguridad Social
+### Unidad Provincial de Informatica Tgss Ism de Madrid
+&gt; 273 (5465049) 19.300 € 
+&gt; 274 (5465050) 19.300 €</description>
+                <styleUrl>#stylesel_2</styleUrl>
+                <Point id="geom_67">
+                    <coordinates>-3.68535,40.47001,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_3">
+            <name>De 3 a 10 puestos</name>
+            <Placemark id="feat_10">
+                <name>[3] Paseo Castellana 272 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Hacienda
+## Dirección General del Catastro
+### Subdirección General de Estudios y Sistemas de Informacion
+&gt; 177 (5466140) 18.480 € 
+&gt; 178 (5466141) 18.480 € 
+&gt; 179 (5466142) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_4">
+                    <coordinates>-3.6866869,40.4737694,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_11">
+                <name>[10] Calle Bolsa 8 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Justicia
+## Subsecretaria de Justicia
+### Division de Tecnologias de la Informacion y las Comunicaciones
+(Si te toca CAU vas a San Bernardo 45)
+&gt; 207 (5465957) 18.480 € 
+&gt; 208 (5465958) 18.480 € 
+&gt; 209 (5465959) 18.480 € 
+&gt; 210 (5465960) 18.480 € 
+&gt; 211 (5465961) 18.480 € 
+&gt; 212 (5465962) 18.480 € 
+&gt; 213 (5465963) 18.480 € 
+&gt; 214 (5465964) 18.480 € 
+&gt; 215 (5465965) 18.480 € 
+&gt; 216 (5465966) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_5">
+                    <coordinates>-3.7045189,40.4149615,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_26">
+                <name>[6] Plaza Del Rey 1, 28004 Madrid </name>
+                <description># Ministerio de Cultura y Deporte
+## Subsecretaría de Cultura y Deporte
+### DIVISION DE TECNOLOGIAS DE LA INFORMAC.
+&gt; 125 (5465124) 18.480 € 
+&gt; 126 (5465125) 18.480 € 
+&gt; 127 (5465126) 18.480 € 
+&gt; 128 (5465127) 18.480 € 
+&gt; 129 (5465128) 18.480 € 
+&gt; 130 (5465129) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_20">
+                    <coordinates>-3.6964252,40.4202074,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_28">
+                <name>[4] Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid </name>
+                <description># Ministerio de la Presidencia, Relaciones con las Cortes e Igualdad
+## Subsecretaría de la Presidencia, Relaciones con las Cortes e Igualdad
+### Subdirección General de Tecnologías y Servicios de Información
+&gt; 300 (5089591) 18.480 € 
+&gt; 301 (5206003) 18.480 € 
+&gt; 302 (5278504) 18.480 € 
+## VICESECRETARIA GENERAL A.P.
+### Unidad de Informatica
+&gt; 303 (4987715) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_22">
+                    <coordinates>-3.7340666,40.4464571,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_29">
+                <name>[9] Paseo del Prado 18 y 20, 28014 Madrid </name>
+                <description># Ministerio de Sanidad, Consumo y Bienestar Social
+## Subsecretaría de Sanidad, Consumo y Bienestar Social
+### Subdirección General de Tecnologías de la Información
+(Si te toca el IMSERSO vas a Herrera Oria (puede que sean las dos últimas plazas))
+&gt; 304 (5465478) 18.480 € 
+&gt; 305 (5465479) 18.480 € 
+&gt; 306 (5465480) 18.480 € 
+&gt; 307 (5465481) 18.480 € 
+&gt; 308 (5465482) 18.480 € 
+&gt; 309 (5465483) 18.480 € 
+&gt; 310 (5465484) 18.480 € 
+&gt; 311 (5465485) 18.480 € 
+&gt; 312 (5465486) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_23">
+                    <coordinates>-3.694118,40.4133967,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_36">
+                <name>[9] Edificio Torres Ágora. C/ Serrano Galvache, 26 28071 Madrid </name>
+                <description># Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
+## Dirección General del Servicio Exterior
+### S.G. de Informatica, Comunicaciones y Redes
+(Alguno ira a Plaza de la provincia 1. Se prevé traslado de Serrano a Rubén Darío (no se cuando))
+&gt; 98 (4878540) 18.480 € 
+&gt; 99 (5068328) 18.480 € 
+&gt; 100 (5112544) 18.480 € 
+&gt; 101 (5465131) 18.480 € 
+&gt; 102 (5465132) 18.480 € 
+&gt; 103 (5465133) 18.480 € 
+&gt; 104 (5465134) 18.480 € 
+&gt; 105 (5465135) 18.480 € 
+&gt; 106 (5465136) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_30">
+                    <coordinates>-3.6718852,40.4737364,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_39">
+                <name>[7] Paseo Infanta Isabel 1, 28014 Madrid </name>
+                <description># Ministerio de Agricultura, Pesca y Alimentación
+## Dirección General de Servicios
+### S.G. de Sistemas Informaticos y Comunicaciones
+&gt; 107 (5464867) 18.480 € 
+&gt; 108 (5464868) 18.480 € 
+&gt; 109 (5464869) 18.480 € 
+&gt; 110 (5464870) 18.480 € 
+&gt; 111 (5464871) 18.480 € 
+&gt; 112 (5464872) 18.480 € 
+&gt; 113 (5464873) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_33">
+                    <coordinates>-3.6906168,40.4086372,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_44">
+                <name>[7] Calle María de Molina 50, 28006 Madrid </name>
+                <description># Ministerio de Hacienda
+## Intervención General de la Administración del Estado
+### S.G. de Explotacion
+(Traslado a Agustín de Foxa (no se cuando))
+&gt; 183 (5466127) 18.480 € 
+&gt; 184 (5466128) 18.480 € 
+&gt; 185 (5466129) 18.480 € 
+&gt; 186 (5466130) 18.480 € 
+&gt; 187 (5466131) 18.480 € 
+&gt; 188 (5466132) 18.480 € 
+&gt; 189 (5466133) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_38">
+                    <coordinates>-3.6807443,40.4372153,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_48">
+                <name>[10] Calle de Santa Engracia 7, 28010 Madrid </name>
+                <description># Ministerio de Política Territorial y Función Pública
+## Dirección General de la Función Pública
+### Subdirección General de Planificación de Recursos Humanos y Retribuciones
+&gt; 217 (5126214) 18.480 € 
+## Subsecretaría de Política Territorial y Función Pública
+### División de Tecnologías de la Información
+&gt; 237 (5206005) 18.480 € 
+&gt; 238 (5206038) 18.480 € 
+&gt; 239 (5206047) 18.480 € 
+&gt; 240 (5206048) 18.480 € 
+&gt; 241 (5206075) 18.480 € 
+&gt; 242 (5206084) 18.480 € 
+&gt; 243 (5241524) 18.480 € 
+&gt; 244 (5278509) 18.480 € 
+&gt; 245 (5278525) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_42">
+                    <coordinates>-3.6985618,40.4290185,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_54">
+                <name>[3] Calle José Abascal 4 28003 </name>
+                <description># Ministerio de Hacienda
+## Dirección General del Patrimonio del Estado
+### Subdirección General de Coordinación de la Contratación Electrónica
+&gt; 180 (5466137) 18.480 € 
+&gt; 181 (5466138) 18.480 € 
+&gt; 182 (5466139) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_48">
+                    <coordinates>-3.7032098,40.4384376,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_59">
+                <name>[3] Paseo Castellana 67, 28046 Madrid </name>
+                <description># Ministerio de Fomento
+## D.G. de Transporte Terrestre
+### S.G. de Gestion, Analisis e Innovacion del Transporte Terrestre
+&gt; 174 (5466024) 18.480 € 
+## D.G. DE ORGANIZACION E INSPECCION
+### S.G. de Tecnologias de la Informacion y Administracion Electronica
+&gt; 172 (5466027) 18.480 € 
+&gt; 173 (5466028) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_53">
+                    <coordinates>-3.6935795,40.4435818,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_60">
+                <name>[5] Paseo De la Castellana 160, 28046 Madrid </name>
+                <description># Ministerio de Industria, Comercio y Turismo
+## Dirección General de Industria y de la Pequeña y Mediana Empresa
+### Subdirección General de Gestión y Ejecución de Programas
+&gt; 195 (5232377) 18.480 € 
+&gt; 196 (5278501) 18.480 € 
+## Subsecretaría de Industria, Comercio y Turismo
+### Subdirección General de Tecnologías de la Información y de las Comunicaciones
+&gt; 197 (5206021) 18.480 € 
+&gt; 198 (5206023) 18.480 € 
+&gt; 199 (5206079) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_54">
+                    <coordinates>-3.6888691,40.4579287,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_64">
+                <name>[7] Calle Ocaña 157 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Justicia
+## S.G. de Nuevas Tecnologias de la Justicia
+### S.G. de Nuevas Tecnologias de la Justicia
+&gt; 200 (5465950) 18.480 € 
+&gt; 201 (5465951) 18.480 € 
+&gt; 202 (5465952) 18.480 € 
+&gt; 203 (5465953) 18.480 € 
+&gt; 204 (5465954) 18.480 € 
+&gt; 205 (5465955) 18.480 € 
+&gt; 206 (5465956) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_58">
+                    <coordinates>-3.754074,40.3871101,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_66">
+                <name>[4] Calle Josefa Valcárcel 44, Madrid </name>
+                <description># Ministerio del Interior
+## Jefatura Central de Trafico
+### Gerencia de Informatica
+&gt; 316 (5034664) 18.480 € 
+&gt; 317 (5112171) 18.480 € 
+&gt; 318 (5236977) 18.480 € 
+&gt; 319 (5278515) 18.480 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_60">
+                    <coordinates>-3.6421779,40.4481103,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_71">
+                <name>[10] Calle Vitruvio 4 28006 Madrid (Madrid) </name>
+                <description># Ministerio de Educación y Formación Profesional
+## Subsecretaría de Educación y Formación Profesional
+### S.G. de Tecnologias de la Informacion y Comunicaciones
+(También puede tocarte en Alcalá 34-36 o Calle Torrelaguna)
+&gt; 158 (5206013) 18.480 € 
+&gt; 159 (5465154) 18.480 € 
+&gt; 160 (5465155) 18.480 € 
+&gt; 161 (5465156) 18.480 € 
+&gt; 162 (5465157) 18.480 € 
+&gt; 163 (5465158) 18.480 € 
+&gt; 164 (5465159) 18.480 € 
+&gt; 165 (5465160) 18.480 € 
+&gt; 166 (3619642) 19.030 € 
+&gt; 167 (4473981) 19.030 €</description>
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_65">
+                    <coordinates>-3.6891577,40.442391,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_72">
+                <name>[4] Calle Lérida 32-34, 28020 Madrid </name>
+                <description># Agencia Estatal de Administracion Tributaria
 ## Departamento de Recursos Humanos
 ### Jefatura
 &gt; 92 (4741536) 19.310 € 
@@ -33,23 +823,45 @@
 ### Jefatura
 &gt; 94 (4741660) 19.310 € 
 &gt; 95 (5003866) 19.310 €</description>
-            <Point id="geom_2">
-                <coordinates>-3.7006317,40.4541381,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_5">
-            <name>[1] Paseo Castellana 147, 28020 Madrid </name>
-            <description># Agencia Estatal de Administracion Tributaria
-## Departamento de Inspección Financiera y Tributaria
-### Gerencia y Apoyo Administrativo
-&gt; 91 (4741292) 19.310 €</description>
-            <Point id="geom_3">
-                <coordinates>-3.6907088,40.4603221,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_6">
-            <name>[12] Plaza San Juan de la Cruz S/N 28071 Madrid (Madrid) </name>
-            <description># Ministerio para la Transición Ecológica
+                <styleUrl>#stylesel_3</styleUrl>
+                <Point id="geom_66">
+                    <coordinates>-3.7006317,40.4541381,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_4">
+            <name>De 11 a 20 puestos</name>
+            <Placemark id="feat_14">
+                <name>[17] Arturo Soria 289, 28033 Madrid </name>
+                <description># Ministerio de Defensa
+## S. de E. de Defensa
+### Centro de Sistemas y Tecnologias de la Informacion y las Comunicaciones
+(Algunos puestos pueden ir a Castellana 109 o Pozuelo, pero es raro.)
+&gt; 131 (1054060) 18.480 € 
+&gt; 132 (1065138) 18.480 € 
+&gt; 133 (2055335) 18.480 € 
+&gt; 134 (2266183) 18.480 € 
+&gt; 135 (3552167) 18.480 € 
+&gt; 136 (3673281) 18.480 € 
+&gt; 137 (3691468) 18.480 € 
+&gt; 138 (3765276) 18.480 € 
+&gt; 139 (3811075) 18.480 € 
+&gt; 140 (3811978) 18.480 € 
+&gt; 141 (4153429) 18.480 € 
+&gt; 142 (4893473) 18.480 € 
+&gt; 143 (5465992) 18.480 € 
+&gt; 144 (5465993) 18.480 € 
+&gt; 145 (5465994) 18.480 € 
+&gt; 146 (5465995) 18.480 € 
+&gt; 147 (5465996) 18.480 €</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_8">
+                    <coordinates>-3.6706029,40.4743984,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_34">
+                <name>[12] Plaza San Juan de la Cruz S/N 28071 Madrid (Madrid) </name>
+                <description># Ministerio para la Transición Ecológica
 ## Subsecretaría para la Transición Ecológica
 ### División de Sistemas y Tecnología de la Información y de las Comunicaciones
 (También puede tocarte en Paseo de la Castellana 63-67)
@@ -65,58 +877,72 @@
 &gt; 297 (5464890) 18.480 € 
 &gt; 298 (5464891) 18.480 € 
 &gt; 299 (5464892) 18.480 €</description>
-            <Point id="geom_4">
-                <coordinates>-3.6937457,40.4412742,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_7">
-            <name>[4] Complejo de la Moncloa, Avenida Puerta de Hierro, S/N, 28071 Madrid </name>
-            <description># Ministerio de la Presidencia, Relaciones con las Cortes e Igualdad
-## Subsecretaría de la Presidencia, Relaciones con las Cortes e Igualdad
-### Subdirección General de Tecnologías y Servicios de Información
-&gt; 300 (5089591) 18.480 € 
-&gt; 301 (5206003) 18.480 € 
-&gt; 302 (5278504) 18.480 € 
-## VICESECRETARIA GENERAL A.P.
-### Unidad de Informatica
-&gt; 303 (4987715) 18.480 €</description>
-            <Point id="geom_5">
-                <coordinates>-3.7340666,40.4464571,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_8">
-            <name>[1] Avenida de la Marina Española 3 52001 Melilla </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en la Ciudad de Melilla
-### Delegación del Gobierno en la Ciudad de Melilla S.Gral.
-&gt; 340 (5035752) 18.480 €</description>
-            <Point id="geom_6">
-                <coordinates>-2.9374241,35.2910493,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_9">
-            <name>[1] Calle Echegaray s/n, 51001, Ceuta, Ceuta, España </name>
-            <description># Ministerio de Educación y Formación Profesional
-## Direccion Provincial
-### Dirección Provincial de Educación de Ceuta
-&gt; 6 (1228536) 19.030 €</description>
-            <Point id="geom_7">
-                <coordinates>-5.3060865,35.8872271,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_10">
-            <name>[1] Plaza de la Constitución 1, 14004 Cordoba </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Andalucia
-### Subdelegación del Gobierno en Cordoba - Subdelegación
-&gt; 8 (5108967) 18.480 €</description>
-            <Point id="geom_8">
-                <coordinates>-4.7875488,37.8787709,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_11">
-            <name>[18] Calle de Manuel Cortina 2, 28010 </name>
-            <description># Ministerio de Política Territorial y Función Pública
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_28">
+                    <coordinates>-3.6937457,40.4412742,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_55">
+                <name>[13] Paseo de la Castellana 63 28071 Madrid (Madrid) </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Subsecretaría de Trabajo, Migraciones y Seguridad Social
+### S.G. de Tecnologias de la Informacion y Comunicaciones
+&gt; 275 (5464993) 18.480 € 
+&gt; 276 (5464994) 18.480 € 
+&gt; 277 (5464995) 18.480 € 
+&gt; 278 (5464996) 18.480 € 
+&gt; 279 (5464997) 18.480 € 
+&gt; 280 (5464998) 18.480 € 
+&gt; 281 (5464999) 18.480 € 
+&gt; 282 (5465000) 18.480 € 
+&gt; 283 (5465001) 18.480 € 
+&gt; 284 (5465002) 18.480 € 
+&gt; 285 (5465003) 18.480 € 
+&gt; 286 (5465004) 18.480 € 
+&gt; 287 (5465005) 18.480 €</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_49">
+                    <coordinates>-3.6919265,40.441416,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_58">
+                <name>[19] Paseo De la Castellana 162, 28046 Madrid </name>
+                <description># Ministerio de Economía y Empresa
+## Subsecretaría de Economía y Empresa
+### S.G. de Tecnologias de la Informacion y las Comunicaciones
+(Traslado a Torrelaguna 58)
+&gt; 150 (5068351) 18.480 € 
+&gt; 151 (5112170) 18.480 € 
+&gt; 152 (5112172) 18.480 € 
+&gt; 153 (5112176) 18.480 € 
+&gt; 154 (5112177) 18.480 € 
+&gt; 155 (5112178) 18.480 € 
+&gt; 156 (5112543) 18.480 € 
+&gt; 157 (5112545) 18.480 € 
+
+# Ministerio de Ciencia, Innovación y Universidades
+## Subsecretaría de Ciencia, Innovación y Universidades
+### División de Tecnologías de la Información
+(También puede tocarte en Torrelaguna 58)
+&gt; 114 (3721271) 18.480 € 
+&gt; 115 (3966724) 18.480 € 
+&gt; 116 (4877621) 18.480 € 
+&gt; 117 (4878805) 18.480 € 
+&gt; 118 (4893409) 18.480 € 
+&gt; 119 (4984833) 18.480 € 
+&gt; 120 (5020258) 18.480 € 
+&gt; 121 (5020259) 18.480 € 
+&gt; 122 (5035730) 18.480 € 
+&gt; 123 (5048981) 18.480 € 
+&gt; 124 (5049056) 18.480 €</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_52">
+                    <coordinates>-3.6893451,40.4583429,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_63">
+                <name>[18] Calle de Manuel Cortina 2, 28010 </name>
+                <description># Ministerio de Política Territorial y Función Pública
 ## Secretaría General de Administración Digital
 ### Gabinete Técnico
 &gt; 219 (5126215) 18.480 € 
@@ -137,220 +963,48 @@
 &gt; 234 (5465937) 18.480 € 
 &gt; 235 (5465938) 18.480 € 
 &gt; 236 (5465939) 18.480 €</description>
-            <Point id="geom_9">
-                <coordinates>-3.7017587,40.43041,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_12">
-            <name>[1] Avda Llano Castellano 17, 28034, Madrid, Comunidad Madrid, España </name>
-            <description># Agencia Estatal de Administracion Tributaria
-## Departamento de Aduanas e Impuestos Especiales
-### Jefatura
-&gt; 17 (4742185) 19.310 €</description>
-            <Point id="geom_10">
-                <coordinates>-3.6853,40.48746999999999,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_13">
-            <name>[1] Plaza Imperial Tárraco 3 43005 Tarragona (Tarragona) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Cataluña
-### Subdelegación del Gobierno en Tarragona - Subdelegación
-&gt; 345 (5146063) 18.480 €</description>
-            <Point id="geom_11">
-                <coordinates>1.2431367,41.1188563,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_14">
-            <name>[2] Plaza de los Sagrados Corazones, 7, 28002 Madrid </name>
-            <description># Ministerio de Fomento
-## Agencia Estatal de Seguridad Ferroviaria
-### Division de Administracion
-&gt; 96 (5466022) 18.480 € 
-&gt; 97 (5466023) 18.480 €</description>
-            <Point id="geom_12">
-                <coordinates>-3.6881475,40.4513525,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_15">
-            <name>[2] Calle Ruiz de Alarcón 1 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Fomento
-## D.G. de la Marina Mercante
-### S.G. de Coordinación y Gestión Administrativa (DGMM)
-&gt; 170 (5466020) 18.480 € 
-&gt; 171 (5466021) 18.480 €</description>
-            <Point id="geom_13">
-                <coordinates>-3.6913699,40.4178196,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_16">
-            <name>[1] Av José Manuel Guimerá N-8 , 38003 SANTA CRUZ DE TENERIFE </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica de Tenerife
-&gt; 342 (5465055) 19.300 €</description>
-            <Point id="geom_14">
-                <coordinates>-16.251,28.46208,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_17">
-            <name>[9] Edificio Torres Ágora. C/ Serrano Galvache, 26 28071 Madrid </name>
-            <description># Ministerio de Asuntos Exteriores, Unión Europea y Cooperación
-## Dirección General del Servicio Exterior
-### S.G. de Informatica, Comunicaciones y Redes
-(Alguno ira a Plaza de la provincia 1. Se prevé traslado a Rubén Darío (no se cuando))
-&gt; 98 (4878540) 18.480 € 
-&gt; 99 (5068328) 18.480 € 
-&gt; 100 (5112544) 18.480 € 
-&gt; 101 (5465131) 18.480 € 
-&gt; 102 (5465132) 18.480 € 
-&gt; 103 (5465133) 18.480 € 
-&gt; 104 (5465134) 18.480 € 
-&gt; 105 (5465135) 18.480 € 
-&gt; 106 (5465136) 18.480 €</description>
-            <Point id="geom_15">
-                <coordinates>-3.6718852,40.4737364,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_18">
-            <name>[1] Plaza Zocodover 6, 45001 Toledo </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Castilla-La Mancha
-### Delegación del Gobierno en Castilla La Mancha S.Gral.
-&gt; 348 (5146065) 18.480 €</description>
-            <Point id="geom_16">
-                <coordinates>-4.0210357,39.8596655,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_19">
-            <name>[2] Paseo de la Castellana 44 28046 Madrid (Madrid) </name>
-            <description># Ministerio de Economía y Empresa
-## Dirección General de Seguros y Fondos de Pensiones
-### Unidad de Apoyo
-(También puede tocarte en General Perón 48)
-&gt; 148 (5068319) 18.480 € 
-&gt; 149 (5068321) 18.480 €</description>
-            <Point id="geom_17">
-                <coordinates>-3.6876406,40.4338466,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_20">
-            <name>[1] Paseo de Sancha 64, 29016 Málaga </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Andalucia
-### Subdelegación del Gobierno en Malaga - Subdelegación
-&gt; 339 (3924414) 20.650 €</description>
-            <Point id="geom_18">
-                <coordinates>-4.3979632,36.7228884,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_21">
-            <name>[10] Calle Vitruvio 4 28006 Madrid (Madrid) </name>
-            <description># Ministerio de Educación y Formación Profesional
-## Subsecretaría de Educación y Formación Profesional
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_57">
+                    <coordinates>-3.7017587,40.43041,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_70">
+                <name>[18] Calle Condesa de Venadito 9, 28027 Madrid </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+## Servicio Publico de Empleo Estatal
 ### S.G. de Tecnologias de la Informacion y Comunicaciones
-(También puede tocarte en Alcalá 34-36 o Calle Torrelaguna)
-&gt; 158 (5206013) 18.480 € 
-&gt; 159 (5465154) 18.480 € 
-&gt; 160 (5465155) 18.480 € 
-&gt; 161 (5465156) 18.480 € 
-&gt; 162 (5465157) 18.480 € 
-&gt; 163 (5465158) 18.480 € 
-&gt; 164 (5465159) 18.480 € 
-&gt; 165 (5465160) 18.480 € 
-&gt; 166 (3619642) 19.030 €  (Sistemas)
-&gt; 167 (4473981) 19.030 €  (Sistemas)</description>
-            <Point id="geom_19">
-                <coordinates>-3.6891577,40.442391,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_22">
-            <name>[2] Costanilla de los Desamparados, 1428014 Madrid </name>
-            <description># Ministerio de Hacienda
-## Secretaría General Técnica
-### Subdirección General de Coordinación de la Información Económico-Financiera
-(Posible mudanza a Calle Alcalá 5)
-&gt; 190 (5466125) 18.480 € 
-&gt; 191 (5466126) 18.480 €</description>
-            <Point id="geom_20">
-                <coordinates>-3.6989553,40.4117245,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_23">
-            <name>[1] Calle Miguel Angel 25, 28071 Madrid </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Madrid
-### Delegación del Gobierno en Madrid S.Gral.
-&gt; 218 (5089890) 18.480 €</description>
-            <Point id="geom_21">
-                <coordinates>-3.6914243,40.4369226,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_24">
-            <name>[1] c/ Serrano, 102, 28006 MADRID </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica Inss de Madrid
-&gt; 272 (5465058) 19.300 €  (Algunas veces hay que ir a López de Hoyos 169)</description>
-            <Point id="geom_22">
-                <coordinates>-3.68635,40.43392,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_25">
-            <name>[9] Paseo del Prado 18 y 20, 28014 Madrid </name>
-            <description># Ministerio de Sanidad, Consumo y Bienestar Social
-## Subsecretaría de Sanidad, Consumo y Bienestar Social
-### Subdirección General de Tecnologías de la Información
-(Si te toca el IMSERSO vas a Herrera Oria)
-&gt; 304 (5465478) 18.480 € 
-&gt; 305 (5465479) 18.480 € 
-&gt; 306 (5465480) 18.480 € 
-&gt; 307 (5465481) 18.480 € 
-&gt; 308 (5465482) 18.480 € 
-&gt; 309 (5465483) 18.480 € 
-&gt; 310 (5465484) 18.480 € 
-&gt; 311 (5465485) 18.480 € 
-&gt; 312 (5465486) 18.480 €</description>
-            <Point id="geom_23">
-                <coordinates>-3.694118,40.4133967,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_26">
-            <name>[1] Calle General Ibañez de Íbero 3 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Fomento
-## Centro Nacional de Informacion Geografica
-### Centro Nacional de Informacion Geografica
-&gt; 169 (5466025) 18.480 €</description>
-            <Point id="geom_24">
-                <coordinates>-3.7101218,40.4458348,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_27">
-            <name>[10] Calle Bolsa 8 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Justicia
-## Subsecretaria de Justicia
-### Division de Tecnologias de la Informacion y las Comunicaciones
-(Si te toca CAU vas a San Bernardo 45)
-&gt; 207 (5465957) 18.480 € 
-&gt; 208 (5465958) 18.480 € 
-&gt; 209 (5465959) 18.480 € 
-&gt; 210 (5465960) 18.480 € 
-&gt; 211 (5465961) 18.480 € 
-&gt; 212 (5465962) 18.480 € 
-&gt; 213 (5465963) 18.480 € 
-&gt; 214 (5465964) 18.480 € 
-&gt; 215 (5465965) 18.480 € 
-&gt; 216 (5465966) 18.480 €</description>
-            <Point id="geom_25">
-                <coordinates>-3.7045189,40.4149615,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_28">
-            <name>[72] Calle Santa María Magdalena 16 28016 Madrid (Madrid) </name>
-            <description># Agencia Estatal de Administracion Tributaria
+&gt; 320 (5465006) 18.480 € 
+&gt; 321 (5465007) 18.480 € 
+&gt; 322 (5465008) 18.480 € 
+&gt; 323 (5465009) 18.480 € 
+&gt; 324 (5465010) 18.480 € 
+&gt; 325 (5465011) 18.480 € 
+&gt; 326 (5465012) 18.480 € 
+&gt; 327 (5465013) 18.480 € 
+&gt; 328 (5465014) 18.480 € 
+&gt; 329 (5465015) 18.480 € 
+&gt; 330 (5465016) 18.480 € 
+&gt; 331 (5465017) 18.480 € 
+&gt; 332 (5465018) 18.480 € 
+&gt; 333 (5465019) 18.480 € 
+&gt; 334 (5465020) 18.480 € 
+&gt; 335 (5465021) 18.480 € 
+&gt; 336 (5465022) 18.480 € 
+&gt; 337 (5465023) 18.480 €</description>
+                <styleUrl>#stylesel_0</styleUrl>
+                <Point id="geom_64">
+                    <coordinates>-3.6536728,40.4447566,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Folder id="feat_5">
+            <name>Más de 20 puestos</name>
+            <Placemark id="feat_16">
+                <name>[72] Calle Santa María Magdalena 16 28016 Madrid (Madrid) </name>
+                <description># Agencia Estatal de Administracion Tributaria
 ## Departamento de Informática Tributaria
 ### Jefatura
-(Traslado a Alcalá 480 (no se cuando))
+(Traslado a Alcalá 480 (pero parece que faltan años para eso))
 &gt; 19 (4742575) 19.310 € 
 &gt; 20 (4743873) 19.310 € 
 &gt; 21 (4744160) 19.310 € 
@@ -423,13 +1077,14 @@
 &gt; 88 (5004322) 19.310 € 
 &gt; 89 (5004349) 19.310 € 
 &gt; 90 (5004447) 19.310 €</description>
-            <Point id="geom_26">
-                <coordinates>-3.6702392,40.4627493,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_29">
-            <name>[25] Calle Tolosa Latour s/n 28041 Madrid (Madrid) </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
+                <styleUrl>#stylesel_1</styleUrl>
+                <Point id="geom_10">
+                    <coordinates>-3.6702392,40.4627493,0.0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="feat_50">
+                <name>[25] Calle Tolosa Latour s/n 28041 Madrid (Madrid) </name>
+                <description># Ministerio de Trabajo, Migraciones y Seguridad Social
 ## Secretaría de Estado de la Seguridad Social
 ### Gerencia de Informatica de la Seguridad Social
 (Algunas son en Calle de los Astros 5/7, en Calle Velazquez 157 y en Calle Genova 24)
@@ -458,541 +1113,11 @@
 &gt; 268 (5465046) 19.300 € 
 &gt; 269 (5465059) 19.300 € NOCHE
 &gt; 270 (5465060) 19.300 € NOCHE</description>
-            <Point id="geom_27">
-                <coordinates>-3.7016584,40.3768691,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_30">
-            <name>[1] Plaza San Juan 4, 44001, Teruel </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Aragon
-### Subdelegación del Gobierno en Teruel - Subdelegación
-&gt; 347 (4059585) 20.650 €</description>
-            <Point id="geom_28">
-                <coordinates>-1.1067499,40.3403599,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_31">
-            <name>[1] Plaza Juan de Lima 5, 11201, Cadiz, Andalucia, España </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Andalucia
-### Oficina de Coordinacion de la A.G.E. en el Campo de Gibraltar
-&gt; 5 (5035756) 18.480 €</description>
-            <Point id="geom_29">
-                <coordinates>-5.4476512,36.1275408,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_32">
-            <name>[1] Avenida Martín Alonso Pinzón 3 21071 Huelva (Huelva) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Andalucia
-### Subdelegación del Gobierno en Huelva - Subdelegación
-&gt; 11 (5108969) 18.480 €</description>
-            <Point id="geom_30">
-                <coordinates>-6.9504308,37.2567463,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_33">
-            <name>[1] La Rambla, 18, 07003 PALMA DE MALLORCA </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica de Baleares
-&gt; 13 (5465054) 19.300 €</description>
-            <Point id="geom_31">
-                <coordinates>2.649233,39.57412,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_34">
-            <name>[6] Plaza Del Rey 1, 28004 Madrid </name>
-            <description># Ministerio de Cultura y Deporte
-## Subsecretaría de Cultura y Deporte
-### DIVISION DE TECNOLOGIAS DE LA INFORMAC.
-&gt; 125 (5465124) 18.480 € 
-&gt; 126 (5465125) 18.480 € 
-&gt; 127 (5465126) 18.480 € 
-&gt; 128 (5465127) 18.480 € 
-&gt; 129 (5465128) 18.480 € 
-&gt; 130 (5465129) 18.480 €</description>
-            <Point id="geom_32">
-                <coordinates>-3.6964252,40.4202074,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_35">
-            <name>[1] Calle de Alfonso XII 3, 28014 Madrid </name>
-            <description># Ministerio de Fomento
-## Centro de Estudios y Experimentacion de Obras Publicas
-### Secretaria Cedex
-&gt; 168 (5466026) 18.480 €</description>
-            <Point id="geom_33">
-                <coordinates>-3.6861369,40.4078464,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_36">
-            <name>[1] Calle Mallorca 278, 08037, Barcelona </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Cataluña
-### Subdelegación del Gobierno en Barcelona - Subdelegación
-&gt; 1 (5089610) 18.480 €</description>
-            <Point id="geom_34">
-                <coordinates>2.1650662,41.3955671,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_37">
-            <name>[2] Calle Perez Del Toro, 89, Las Palmas </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Las Palmas
-&gt; 15 (5465047) 19.300 € 
-&gt; 16 (5465048) 19.300 €</description>
-            <Point id="geom_35">
-                <coordinates>-15.4279158,28.1182189,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_38">
-            <name>[2] Calle Alcalá 9, 28014 Madrid </name>
-            <description># Ministerio de Hacienda
-## Dirección General de Racionalización y Centralización de la Contratación
-### Unidad de Apoyo
-&gt; 176 (4893359) 18.480 € 
-## Subsecretaría de Hacienda
-### Subdirección General de Tecnologías de la Información y de las Comunicaciones
-(También puede tocarte en Paseo de la castellana 3)
-&gt; 192 (5466159) 18.480 €</description>
-            <Point id="geom_36">
-                <coordinates>-3.7013019,40.4176416,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_39">
-            <name>[7] Calle María de Molina 50, 28006 Madrid </name>
-            <description># Ministerio de Hacienda
-## Intervención General de la Administración del Estado
-### S.G. de Explotacion
-(Traslado a Agustín de Foxa (no se cuando))
-&gt; 183 (5466127) 18.480 € 
-&gt; 184 (5466128) 18.480 € 
-&gt; 185 (5466129) 18.480 € 
-&gt; 186 (5466130) 18.480 € 
-&gt; 187 (5466131) 18.480 € 
-&gt; 188 (5466132) 18.480 € 
-&gt; 189 (5466133) 18.480 €</description>
-            <Point id="geom_37">
-                <coordinates>-3.6807443,40.4372153,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_40">
-            <name>[2] Calle Panamá 1, 28036, Madrid, Comunidad Madrid, España </name>
-            <description># Ministerio de Hacienda
-## Tribunal Económico Administrativo Central
-### S.G. de Organizacion Medios y Procedimientos
-&gt; 193 (5466135) 18.480 € 
-&gt; 194 (5466136) 18.480 €</description>
-            <Point id="geom_38">
-                <coordinates>-3.6889892,40.4567244,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_41">
-            <name>[1] Calle Alcuñeza, 28850 Torrejón de Ardoz, Madrid </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Gerencia de Informatica de la Seguridad Social
-(Algunas son en Calle de los Astros 5/7, en Calle Velazquez 157 y en Calle Genova 24)
-&gt; 271 (5465061) 19.300 € TARDE</description>
-            <Point id="geom_39">
-                <coordinates>-3.4740868,40.4514824,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_42">
-            <name>[1] Plaza De las Batallas 2 23071 Jaén (Jaén) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Andalucia
-### Subdelegación del Gobierno en Jaen - Subdelegación
-&gt; 14 (5146060) 18.480 €</description>
-            <Point id="geom_40">
-                <coordinates>-3.7894313,37.772794,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_43">
-            <name>[7] Paseo Infanta Isabel 1, 28014 Madrid </name>
-            <description># Ministerio de Agricultura, Pesca y Alimentación
-## Dirección General de Servicios
-### S.G. de Sistemas Informaticos y Comunicaciones
-&gt; 107 (5464867) 18.480 € 
-&gt; 108 (5464868) 18.480 € 
-&gt; 109 (5464869) 18.480 € 
-&gt; 110 (5464870) 18.480 € 
-&gt; 111 (5464871) 18.480 € 
-&gt; 112 (5464872) 18.480 € 
-&gt; 113 (5464873) 18.480 €</description>
-            <Point id="geom_41">
-                <coordinates>-3.6906168,40.4086372,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_44">
-            <name>[1] Calle Huertas 26, 28014 Madrid </name>
-            <description># Ministerio de Economía y Empresa
-## Instituto de Contabilidad y Auditoria de Cuentas
-### Secretaria General
-&gt; 315 (5068335) 18.480 €</description>
-            <Point id="geom_42">
-                <coordinates>-3.6992573,40.4135762,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_45">
-            <name>[1] Paseo Juan Carlos I 11, 07800, Illes Balears, Illes Balears, España </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Illes Balears
-### Dir.Insular de la A.G.E. en Ibiza Formentera S. Gral
-&gt; 12 (3417293) 20.870 €</description>
-            <Point id="geom_43">
-                <coordinates>1.4144827,38.9269573,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_46">
-            <name>[1] C/ MIRLO 4, 18014 Granada </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Servicio Publico de Empleo Estatal
-### Direccion Provincial del SEPE de Granada
-&gt; 9 (5076585) 18.480 €</description>
-            <Point id="geom_44">
-                <coordinates>-3.611885,37.186408,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_47">
-            <name>[18] Calle Condesa de Venadito 9, 28027 Madrid </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Servicio Publico de Empleo Estatal
-### S.G. de Tecnologias de la Informacion y Comunicaciones
-&gt; 320 (5465006) 18.480 € 
-&gt; 321 (5465007) 18.480 € 
-&gt; 322 (5465008) 18.480 € 
-&gt; 323 (5465009) 18.480 € 
-&gt; 324 (5465010) 18.480 € 
-&gt; 325 (5465011) 18.480 € 
-&gt; 326 (5465012) 18.480 € 
-&gt; 327 (5465013) 18.480 € 
-&gt; 328 (5465014) 18.480 € 
-&gt; 329 (5465015) 18.480 € 
-&gt; 330 (5465016) 18.480 € 
-&gt; 331 (5465017) 18.480 € 
-&gt; 332 (5465018) 18.480 € 
-&gt; 333 (5465019) 18.480 € 
-&gt; 334 (5465020) 18.480 € 
-&gt; 335 (5465021) 18.480 € 
-&gt; 336 (5465022) 18.480 € 
-&gt; 337 (5465023) 18.480 €</description>
-            <Point id="geom_45">
-                <coordinates>-3.6536728,40.4447566,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_48">
-            <name>[2] C/ Pablo Picasso, nº 8, 41018 SEVILLA </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica de Sevilla
-&gt; 343 (5465051) 19.300 € 
-&gt; 344 (5465052) 19.300 €</description>
-            <Point id="geom_46">
-                <coordinates>-5.97526,37.38976,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_49">
-            <name>[1] c/ Sant Antoni Maria Claret, 5-11, 08037 BARCELONA </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica Inss de Barcelona
-&gt; 2 (5465053) 19.300 €</description>
-            <Point id="geom_47">
-                <coordinates>2.163359,41.40308,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_50">
-            <name>[17] Arturo Soria 289, 28033 Madrid </name>
-            <description># Ministerio de Defensa
-## S. de E. de Defensa
-### Centro de Sistemas y Tecnologias de la Informacion y las Comunicaciones
-(Algunos puestos pueden ir a Castellana 109 o Pozuelo, pero es raro.)
-&gt; 131 (1054060) 18.480 € 
-&gt; 132 (1065138) 18.480 € 
-&gt; 133 (2055335) 18.480 € 
-&gt; 134 (2266183) 18.480 € 
-&gt; 135 (3552167) 18.480 € 
-&gt; 136 (3673281) 18.480 € 
-&gt; 137 (3691468) 18.480 € 
-&gt; 138 (3765276) 18.480 € 
-&gt; 139 (3811075) 18.480 € 
-&gt; 140 (3811978) 18.480 € 
-&gt; 141 (4153429) 18.480 € 
-&gt; 142 (4893473) 18.480 € 
-&gt; 143 (5465992) 18.480 € 
-&gt; 144 (5465993) 18.480 € 
-&gt; 145 (5465994) 18.480 € 
-&gt; 146 (5465995) 18.480 € 
-&gt; 147 (5465996) 18.480 €</description>
-            <Point id="geom_48">
-                <coordinates>-3.6706029,40.4743984,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_51">
-            <name>[1] Calle Atocha 3 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Hacienda
-## Dirección General de Ordenación del Juego
-### Subdirección General de Gestión y Relaciones Institucionales
-&gt; 175 (5466134) 18.480 €</description>
-            <Point id="geom_49">
-                <coordinates>-3.7051239,40.4148475,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_52">
-            <name>[3] Paseo Castellana 272 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Hacienda
-## Dirección General del Catastro
-### Subdirección General de Estudios y Sistemas de Informacion
-&gt; 177 (5466140) 18.480 € 
-&gt; 178 (5466141) 18.480 € 
-&gt; 179 (5466142) 18.480 €</description>
-            <Point id="geom_50">
-                <coordinates>-3.6866869,40.4737694,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_53">
-            <name>[1] Calle Parque Ordesa, 328924 Alcorcón, Madrid </name>
-            <description># Agencia Estatal de Administracion Tributaria
-## Departamento de Gestión Tributaria
-### Oficina Nacional de Gestión Tributaria
-&gt; 18 (4741685) 19.310 €</description>
-            <Point id="geom_51">
-                <coordinates>-3.8080528,40.3486333,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_54">
-            <name>[4] Calle Josefa Valcárcel 44, Madrid </name>
-            <description># Ministerio del Interior
-## Jefatura Central de Trafico
-### Gerencia de Informatica
-&gt; 316 (5034664) 18.480 € 
-&gt; 317 (5112171) 18.480 € 
-&gt; 318 (5236977) 18.480 € 
-&gt; 319 (5278515) 18.480 €</description>
-            <Point id="geom_52">
-                <coordinates>-3.6421779,40.4481103,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_55">
-            <name>[1] Avenida Virgen de la Montaña 3 10071 Cáceres (Cáceres) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Extremadura
-### Subdelegación del Gobierno en Caceres - Subdelegación
-&gt; 4 (4692243) 20.650 €</description>
-            <Point id="geom_53">
-                <coordinates>-6.3775451,39.4729016,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_56">
-            <name>[5] Paseo De la Castellana 160, 28046 Madrid </name>
-            <description># Ministerio de Industria, Comercio y Turismo
-## Dirección General de Industria y de la Pequeña y Mediana Empresa
-### Subdirección General de Gestión y Ejecución de Programas
-&gt; 195 (5232377) 18.480 € 
-&gt; 196 (5278501) 18.480 € 
-## Subsecretaría de Industria, Comercio y Turismo
-### Subdirección General de Tecnologías de la Información y de las Comunicaciones
-&gt; 197 (5206021) 18.480 € 
-&gt; 198 (5206023) 18.480 € 
-&gt; 199 (5206079) 18.480 €</description>
-            <Point id="geom_54">
-                <coordinates>-3.6888691,40.4579287,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_57">
-            <name>[19] Paseo De la Castellana 162, 28046 Madrid </name>
-            <description># Ministerio de Economía y Empresa
-## Subsecretaría de Economía y Empresa
-### S.G. de Tecnologias de la Informacion y las Comunicaciones
-(Traslado a Torrelaguna 58)
-&gt; 150 (5068351) 18.480 € 
-&gt; 151 (5112170) 18.480 € 
-&gt; 152 (5112172) 18.480 € 
-&gt; 153 (5112176) 18.480 € 
-&gt; 154 (5112177) 18.480 € 
-&gt; 155 (5112178) 18.480 € 
-&gt; 156 (5112543) 18.480 € 
-&gt; 157 (5112545) 18.480 € 
-
-# Ministerio de Ciencia, Innovación y Universidades
-## Subsecretaría de Ciencia, Innovación y Universidades
-### División de Tecnologías de la Información
-(También puede tocarte en Torrelaguna 58)
-&gt; 114 (3721271) 18.480 € 
-&gt; 115 (3966724) 18.480 € 
-&gt; 116 (4877621) 18.480 € 
-&gt; 117 (4878805) 18.480 € 
-&gt; 118 (4893409) 18.480 € 
-&gt; 119 (4984833) 18.480 € 
-&gt; 120 (5020258) 18.480 € 
-&gt; 121 (5020259) 18.480 € 
-&gt; 122 (5035730) 18.480 € 
-&gt; 123 (5048981) 18.480 € 
-&gt; 124 (5049056) 18.480 €</description>
-            <Point id="geom_55">
-                <coordinates>-3.6893451,40.4583429,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_58">
-            <name>[13] Paseo de la Castellana 63 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Subsecretaría de Trabajo, Migraciones y Seguridad Social
-### S.G. de Tecnologias de la Informacion y Comunicaciones
-&gt; 275 (5464993) 18.480 € 
-&gt; 276 (5464994) 18.480 € 
-&gt; 277 (5464995) 18.480 € 
-&gt; 278 (5464996) 18.480 € 
-&gt; 279 (5464997) 18.480 € 
-&gt; 280 (5464998) 18.480 € 
-&gt; 281 (5464999) 18.480 € 
-&gt; 282 (5465000) 18.480 € 
-&gt; 283 (5465001) 18.480 € 
-&gt; 284 (5465002) 18.480 € 
-&gt; 285 (5465003) 18.480 € 
-&gt; 286 (5465004) 18.480 € 
-&gt; 287 (5465005) 18.480 €</description>
-            <Point id="geom_56">
-                <coordinates>-3.6919265,40.441416,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_59">
-            <name>[3] Paseo Castellana 67, 28046 Madrid </name>
-            <description># Ministerio de Fomento
-## D.G. de Transporte Terrestre
-### S.G. de Gestion, Analisis e Innovacion del Transporte Terrestre
-&gt; 174 (5466024) 18.480 € 
-## D.G. DE ORGANIZACION E INSPECCION
-### S.G. de Tecnologias de la Informacion y Administracion Electronica
-&gt; 172 (5466027) 18.480 € 
-&gt; 173 (5466028) 18.480 €</description>
-            <Point id="geom_57">
-                <coordinates>-3.6935795,40.4435818,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_60">
-            <name>[7] Calle Ocaña 157 28071 Madrid (Madrid) </name>
-            <description># Ministerio de Justicia
-## S.G. de Nuevas Tecnologias de la Justicia
-### S.G. de Nuevas Tecnologias de la Justicia
-&gt; 200 (5465950) 18.480 € 
-&gt; 201 (5465951) 18.480 € 
-&gt; 202 (5465952) 18.480 € 
-&gt; 203 (5465953) 18.480 € 
-&gt; 204 (5465954) 18.480 € 
-&gt; 205 (5465955) 18.480 € 
-&gt; 206 (5465956) 18.480 €</description>
-            <Point id="geom_58">
-                <coordinates>-3.754074,40.3871101,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_61">
-            <name>[1] Plaza Constitución 1 49001 Zamora (Zamora) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Castilla y Leon
-### Subdelegación del Gobierno en Zamora - Subdelegación
-&gt; 349 (5465923) 18.480 €</description>
-            <Point id="geom_59">
-                <coordinates>-5.7439289,41.5049717,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_62">
-            <name>[1] Rambla Nova, 84, 43003 TARRAGONA </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica de Tarragona
-&gt; 346 (5465057) 19.300 €</description>
-            <Point id="geom_60">
-                <coordinates>1.250774,41.1162,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_63">
-            <name>[10] Calle de Santa Engracia 7, 28010 Madrid </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Dirección General de la Función Pública
-### Subdirección General de Planificación de Recursos Humanos y Retribuciones
-&gt; 217 (5126214) 18.480 € 
-## Subsecretaría de Política Territorial y Función Pública
-### División de Tecnologías de la Información
-&gt; 237 (5206005) 18.480 € 
-&gt; 238 (5206038) 18.480 € 
-&gt; 239 (5206047) 18.480 € 
-&gt; 240 (5206048) 18.480 € 
-&gt; 241 (5206075) 18.480 € 
-&gt; 242 (5206084) 18.480 € 
-&gt; 243 (5241524) 18.480 € 
-&gt; 244 (5278509) 18.480 € 
-&gt; 245 (5278525) 18.480 €</description>
-            <Point id="geom_61">
-                <coordinates>-3.6985618,40.4290185,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_64">
-            <name>[2] C/ Agustin de Foxa, Nº 28 -30, 28036 MADRID </name>
-            <description># Ministerio de Trabajo, Migraciones y Seguridad Social
-## Secretaría de Estado de la Seguridad Social
-### Unidad Provincial de Informatica Tgss Ism de Madrid
-&gt; 273 (5465049) 19.300 € 
-&gt; 274 (5465050) 19.300 €</description>
-            <Point id="geom_62">
-                <coordinates>-3.68535,40.47001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_65">
-            <name>[2] Calle Benificiencia 8 28004 Madrid (Madrid) </name>
-            <description># Ministerio de Agricultura, Pesca y Alimentación
-## Fondo Español de Garantia Agraria
-### Secretaria General
-&gt; 313 (5464874) 18.480 € 
-&gt; 314 (5464875) 18.480 €</description>
-            <Point id="geom_63">
-                <coordinates>-3.6995541,40.4259384,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_66">
-            <name>[3] Calle José Abascal 4 28003 </name>
-            <description># Ministerio de Hacienda
-## Dirección General del Patrimonio del Estado
-### Subdirección General de Coordinación de la Contratación Electrónica
-&gt; 180 (5466137) 18.480 € 
-&gt; 181 (5466138) 18.480 € 
-&gt; 182 (5466139) 18.480 €</description>
-            <Point id="geom_64">
-                <coordinates>-3.7032098,40.4384376,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_67">
-            <name>[1] Calle Barquillo 5, 28004 Madrid </name>
-            <description># ENTES PÚBLICOS
-## Comision Nacional de los Mercados y la Competencia
-### Subdireccion de Sistemas de Tecnologias de la Informacion y las Comunicaciones
-&gt; 338 (5466184) 18.480 €</description>
-            <Point id="geom_65">
-                <coordinates>-3.695671,40.4197543,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_68">
-            <name>[1] Calle Dacio Darias 103, 38900, Santa Cruz Tenerife, Canarias, España </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Canarias
-### Direccion Insular de la A.G.E. en el Hierro S.Gral.
-&gt; 341 (3454205) 20.650 €</description>
-            <Point id="geom_66">
-                <coordinates>-17.9156176,27.8125375,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_69">
-            <name>[1] Plaza Cervantes 1 13071 Ciudad Real (Ciudad Real) </name>
-            <description># Ministerio de Política Territorial y Función Pública
-## Delegación del Gobierno en Castilla-La Mancha
-### Subdelegación del Gobierno en Ciudad Real - Subdelegación
-&gt; 7 (5135006) 20.320 €</description>
-            <Point id="geom_67">
-                <coordinates>-4.107522,38.6839153,0.0</coordinates>
-            </Point>
-        </Placemark>
+                <styleUrl>#stylesel_1</styleUrl>
+                <Point id="geom_44">
+                    <coordinates>-3.7016584,40.3768691,0.0</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
     </Document>
 </kml>

@@ -8,6 +8,7 @@ import os
 import re
 import sys
 from glob import glob
+import requests
 
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
                  get_direcciones_txt, simplificar_dire, soup_from_file,
@@ -482,7 +483,24 @@ def get_unidad(m, c, u):
         if u =="DIVISION DE ADMINISTRACION":
             return 49793
     return None
-    
+
+'''
+xls_info = {}
+url = "https://docs.google.com/spreadsheet/ccc?key=1OW2tyeRYyufqpacr3z3l6Z_5UX8XqyTJvQA7I9-zLCs&output=xls"
+r = requests.get(url)
+wb = xlrd.open_workbook(file_contents=r.content)
+sh = wb.sheet_by_index(0)
+data_excel={}
+for rx in range(sh.nrows):
+    row = [parse(c) for c in sh.row(rx)]
+    info, index = row[2], row[4]
+    if index is None:
+        index = "¿?¿?¿?"
+    if info is None:
+        info = "¿?¿?¿?"
+    print (str(index) + " ---- " +info)
+'''
+
 idUnidOrganica = set([int(i[33:-5]) for i in glob("fuentes/administracion.gob.es/id_*.html")])
 
 organismos={}
@@ -495,6 +513,7 @@ for o in Organismo.load():
 cod_dir_latlon = get_cod_dir_latlon()
 arreglos = yaml_from_file("arreglos/rpt_dir3.yml")
 notas = dict_from_txt("arreglos/notas.txt")
+vacantes_tai = [p for p in Puesto.load() if p.isTAI() and p.estado=="V"]
 
 class Org:
 
@@ -507,6 +526,7 @@ class Org:
         self.hijos=set()
         self.puestos=[]
         self.rpt = None
+        self.deDireccion = None
         self.organismo = organismos.get(codigo, None)
         if self.organismo is None:
             codigo = arreglos.get(codigo, None)
@@ -519,6 +539,9 @@ class Org:
 
         if ll:
             self.latlon, self.deDireccion = ll
+
+        if self.deDireccion:
+            self.deDireccion = self.deDireccion.replace(" (MADRID)", "")
 
         if isinstance(self.codigo, str):
             self.codigo="¿?"
@@ -539,6 +562,20 @@ class Org:
         if not self.organismo or not self.organismo.deOrganismo:
             return self.descripcion
         return self.organismo.deOrganismo
+
+    @property
+    def vacantes(self):
+        if len(self.puestos)==0:
+            return []
+        nv=max([p.nivel for p in self.puestos])
+        vacantes = {}
+        for p in vacantes_tai:
+            if p.idUnidad == self.codigo and p.nivel>nv:
+                v = vacantes.get(p.nivel, 0) + 1
+                vacantes[p.nivel] = v
+        vacantes = sorted([v for v in vacantes.items()])
+        return vacantes
+        
 
 dict_organ={}
 
@@ -655,18 +692,44 @@ def get_txt(idOrg):
 kml = simplekml.Kml()
 kml.document.name = "TAI 2017"
 
-style_normal = simplekml.Style()
-style_normal.iconstyle.color = simplekml.Color.blue
-style_normal.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/blue.png'
+
+folder1 = kml.newfolder(name="Solo 1 o 2 puestos")
+folder3 = kml.newfolder(name="De 3 a 10 puestos")
+folder11 = kml.newfolder(name="De 11 a 20 puestos")
+folder21 = kml.newfolder(name="Más de 20 puestos")
+
+style_azul = simplekml.Style()
+style_azul.iconstyle.color = simplekml.Color.blue
+style_azul.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/blue.png'
+
+kml.document.style = style_azul
+
+style_verde = simplekml.Style()
+style_verde.iconstyle.color = simplekml.Color.green
+style_verde.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/green.png'
+
+kml.document.style = style_verde
+
+style_rojo = simplekml.Style()
+style_rojo.iconstyle.color = simplekml.Color.red
+style_rojo.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/red.png'
+
+kml.document.style = style_rojo
+
+style_gris = simplekml.Style()
+style_gris.iconstyle.color = simplekml.Color.blue
+style_gris.iconstyle.icon.href = 'http://maps.google.com/mapfiles/ms/micons/grey.png'
+
+kml.document.style = style_gris
 
 coordenadas = set([p.latlon for p in puestos])
 
 for c in coordenadas:
     pts = [p for p in puestos if p.latlon == c]
-    name = "[%s] %s " % (len(pts), pts[0].deDireccion)
+    n_pts = len(pts)
+    name = "[%s] %s " % (n_pts, pts[0].deDireccion)
     utm_split = c.split(",")
     latlon = (float(utm_split[1]), float(utm_split[0]))
-    pnt = kml.newpoint(name=name, coords=[latlon])
     descripcion = ""
     for m in sorted(set([p.idMinisterio for p in pts])):
         descripcion += "\n\n# " + get_txt(m)
@@ -678,6 +741,19 @@ for c in coordenadas:
                     descripcion += "\n> %s (%s) %s € %s" % (p.ranking, p.idPuesto, money(p.sueldo), p.turno or "")
                     if p.nota:
                         descripcion += " ("+p.nota+")"
+    if n_pts < 3:
+        pnt = folder1.newpoint(name=name, coords=[latlon])
+        pnt.style = style_rojo
+    elif n_pts<11:
+        pnt = folder3.newpoint(name=name, coords=[latlon])
+        pnt.style = style_gris
+    elif n_pts<21:
+        pnt = folder11.newpoint(name=name, coords=[latlon])
+        pnt.style = style_azul
+    else:
+        pnt = folder21.newpoint(name=name, coords=[latlon])
+        pnt.style = style_verde
+        
     pnt.description = descripcion.strip()
     
 kml.save("docs/mapa/2017.kml")

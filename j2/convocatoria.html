@@ -65,6 +65,10 @@
                     {% endif %}
                             {% if x.nota %}<br/><span class="nota">{{x.nota}}</span>{% endif %}
                             {% if x.puestos|length > 1 %}<br/>{{x.puestos|length}} puestos.{% endif %}
+                            {% for n, v in x.vacantes %}
+                                {% if loop.index == 1 %}<br/><span title="Vacantes en la actual RPT">RPT:</span> {% endif %}
+                                {{n}}x{{v}}{% if loop.index != loop.length %}, {% endif %}
+                            {% endfor %}
                         </td>
                         
                         <td>{% for p in x.puestos %}<span class="ord">{{p.ranking}}</span> ({{p.idPuesto}}<!--/<span class="n{{p.nivel}}">{{p.nivel}}</span-->) <span class="c{{p.sueldo|money(100, False)}}">{{p.sueldo|money}} €</span>{% if p.turno %} <strong>{{p.turno}}</strong>{% endif %}

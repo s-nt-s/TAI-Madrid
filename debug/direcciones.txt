@@ -5919,7 +5919,9 @@ Calle chantada 1, 27004, Lugo, Galicia, España
 Calle das Pontes (Vial A) 4, oficina 2.02, 36350, Pontevedra, Galicia, España
 Calle de Alfonso XII 3, 28014 Madrid
 Calle de Fortuny, 4, 28010 Madrid
+Calle de Manuel Cortina 2, 28010
 Calle de San Francisco, 25, 40001 Segovia
+Calle de Santa Engracia 7, 28010 Madrid
 Calle de Serrano, 115, 28006 Madrid
 Calle de Serrano, 117, 28006 Madrid
 Calle de Valenzuela 5, 28014 Madrid
@@ -6144,6 +6146,7 @@ Confederacion 5, 31410, Navarra, Comunidad Foral Navarra, España
 Congo (la República Democrática del)
 Corredera de San Bartolomé 43, 23740, Jaen, Andalucia, España
 Costa Rica
+Costanilla de los Desamparados, 1428014 Madrid
 Cote d Ivoire
 Cra De Barcelona (N II) 43, 08302, Barcelona, Cataluna, España
 Cra de Villacastin 4, 40006, Segovia, Castilla Leon, España
@@ -6747,7 +6750,7 @@ Paseo Boliches 24, 11630, Cadiz, Andalucia, España
 Paseo Castellana 106 108, 28020, Madrid, Comunidad Madrid, España
 Paseo Castellana 106-108, 28020 Madrid
 Paseo Castellana 109, 28046 Madrid
-Paseo Castellana 147 28020 Madrid (Madrid)
+Paseo Castellana 147, 28020 Madrid
 Paseo Castellana 160 28046 Madrid (Madrid)
 Paseo Castellana 162, 28071, Madrid, Comunidad Madrid, España
 Paseo Castellana 272 28071 Madrid (Madrid)
@@ -6926,7 +6929,6 @@ Paseo Miño 7 9, 18220, Granada, Andalucia, España
 Paseo Mossên Jacint Verdaguer 84 08700 Igualada (Barcelona)
 Paseo Muelle Alfonso XII 22, 30202, Murcia, Region Murcia, España
 Paseo Ordoñez Valdes S/N, 21230, Huelva, Andalucia, España
-Paseo PASEO DE LA CASTELLANA 162 28046 Madrid (Madrid)
 Paseo Paisos Catalans 46, 17190, Girona, Cataluna, España
 Paseo Paseo Pereda, s/n 39740 Santoña (Cantabria)
 Paseo Paseo de Prado 28 28071 Madrid (Madrid)

@@ -448,6 +448,9 @@ Avenida Vinateros 51 28030 Madrid (Madrid)
 40.4112075,-3.7122344
 Via De San Francisco 4-6 28005 Madrid (Madrid)
 
+40.4117245,-3.6989553
+Costanilla de los Desamparados, 1428014 Madrid
+
 40.4117689,-3.668548
 Calle Astros 5-7 28007 Madrid (Madrid)
 
@@ -483,9 +486,6 @@ Paseo del Prado 6 28014 Madrid (Madrid)
 
 40.4173597,-3.6889892
 Calle Juan de Mena, 1, 28014 Madrid
-
-40.4174615,-3.7018516
-Calle Alcala 5, 28014 Madrid
 
 40.4176416,-3.7013019
 Calle Alcalá 9, 28014 Madrid
@@ -570,6 +570,9 @@ Calle Sagasta 10 28004 Madrid (Madrid)
 40.4289647,-3.696776
 Calle José Marañón 12 28010 Madrid (Madrid)
 
+40.4290185,-3.6985618
+Calle de Santa Engracia 7, 28010 Madrid
+
 40.4290185,-3.6963731
 Calle Santa Engracia 7 28010 Madrid (Madrid)
 
@@ -578,6 +581,9 @@ Calle Alberto Aguilera 15 duplicado 28015 Madrid (Madrid)
 
 40.4300273,-3.6733563
 Calle Ortega y Gasset 71 28006 Madrid (Madrid)
+
+40.43041,-3.7017587
+Calle de Manuel Cortina 2, 28010
 
 40.4325031,-3.6917344
 Calle Almagro 33 2ª 28071 Madrid (Madrid)
@@ -745,7 +751,6 @@ Paseo De la Castellana 160, 28046 Madrid
 Calle Castellana 162 28071 Madrid (Madrid)
 Paseo De la Castellana 162 28036
 Paseo De la Castellana 162, 28046 Madrid
-Paseo PASEO DE LA CASTELLANA 162 28046 Madrid (Madrid)
 Paseo de la Castellana 162 28071
 
 40.4601861,-3.6905666

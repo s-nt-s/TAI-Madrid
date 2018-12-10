@@ -1616,6 +1616,17 @@
     },
     {
         "codigos": [
+            1386
+        ],
+        "deOrganismo": "INSTITUTO NACIONAL DE GESTION SANITARIA",
+        "idOrganismo": 1386,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             1389
         ],
         "deOrganismo": "S.GRAL. DE SANIDAD Y CONSUMO",
@@ -1682,6 +1693,28 @@
     },
     {
         "codigos": [
+            1420
+        ],
+        "deOrganismo": "OA REAL PATRONATO SOBRE DISCAPACIDAD",
+        "idOrganismo": 1420,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            1422
+        ],
+        "deOrganismo": "INSTITUTO DE LA JUVENTUD",
+        "idOrganismo": 1422,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             1423
         ],
         "deOrganismo": "INSTITUTO DE LA MUJER Y PARA LA IGUALDAD DE OPORTUNIDADES, O.A.",
@@ -1721,6 +1754,17 @@
         "idOrganismo": 1426,
         "idPadres": [
             50242
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            1427
+        ],
+        "deOrganismo": "INSTITUTO DE MAYORES Y SERVICIOS SOCIALES (IMSERSO)",
+        "idOrganismo": 1427,
+        "idPadres": [
+            50250
         ],
         "isCsic": false
     },
@@ -30425,6 +30469,61 @@
     },
     {
         "codigos": [
+            31741
+        ],
+        "deOrganismo": "UNIDAD DE APOYO AL DIRECTOR EJECUTIVO",
+        "idOrganismo": 31741,
+        "idPadres": [
+            49701
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31742
+        ],
+        "deOrganismo": "SECRETARIA GENERAL",
+        "idOrganismo": 31742,
+        "idPadres": [
+            49701
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31743
+        ],
+        "deOrganismo": "S.G. DE PROMOCION DE LA SEGURIDAD ALIMENTARIA",
+        "idOrganismo": 31743,
+        "idPadres": [
+            49701
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31744
+        ],
+        "deOrganismo": "S.G. COORDINACION DE ALERTAS Y PROGRAMACION DEL CONTROL OFICIAL",
+        "idOrganismo": 31744,
+        "idPadres": [
+            49701
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31746
+        ],
+        "deOrganismo": "CENTRO NACIONAL DE ALIMENTACION",
+        "idOrganismo": 31746,
+        "idPadres": [
+            49701
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             31752
         ],
         "deOrganismo": "SECRETARIA GENERAL",
@@ -30453,6 +30552,83 @@
         "idOrganismo": 31755,
         "idPadres": [
             49194
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31756
+        ],
+        "deOrganismo": "DIRECCION DEL INSTITUTO NACIONAL DE GESTION SANITARIA",
+        "idOrganismo": 31756,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31757
+        ],
+        "deOrganismo": "S.G. DE ATENCION SANITARIA",
+        "idOrganismo": 31757,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31758
+        ],
+        "deOrganismo": "S.G. DE GESTION ECONOMICA Y RECURSOS HUMANOS",
+        "idOrganismo": 31758,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31776
+        ],
+        "deOrganismo": "DIRECCION TERRITORIAL DE CEUTA",
+        "idOrganismo": 31776,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31777
+        ],
+        "deOrganismo": "DIRECCION TERRITORIAL DE MELILLA",
+        "idOrganismo": 31777,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31778
+        ],
+        "deOrganismo": "AREA DE INSPECCION EN CAPITAL",
+        "idOrganismo": 31778,
+        "idPadres": [
+            1386
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31779
+        ],
+        "deOrganismo": "AREA DE INSPECCION EN CAPITAL",
+        "idOrganismo": 31779,
+        "idPadres": [
+            1386
         ],
         "isCsic": false
     },
@@ -30579,6 +30755,17 @@
     },
     {
         "codigos": [
+            31812
+        ],
+        "deOrganismo": "S.G. DE TECNOLOGIAS DE LA INFORMACION",
+        "idOrganismo": 31812,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             31818
         ],
         "deOrganismo": "DEPARTAMENTO DE PRODUCTOS SANITARIOS",
@@ -30601,12 +30788,67 @@
     },
     {
         "codigos": [
+            31833
+        ],
+        "deOrganismo": "S.G. DE OFICIALIA MAYOR",
+        "idOrganismo": 31833,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31835
+        ],
+        "deOrganismo": "S.G. DE RECURSOS HUMANOS",
+        "idOrganismo": 31835,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31838
+        ],
+        "deOrganismo": "S.G. DE PROGRAMACION Y GESTION ECONOMICO-FINANCIERA",
+        "idOrganismo": 31838,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31839
+        ],
+        "deOrganismo": "OFICINA PRESUPUESTARIA",
+        "idOrganismo": 31839,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             31840
         ],
         "deOrganismo": "S.G. DE ORDENACION PROFESIONAL",
         "idOrganismo": 31840,
         "idPadres": [
             49395
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            31858
+        ],
+        "deOrganismo": "S.G. DE ATENCION AL CIUDADANO",
+        "idOrganismo": 31858,
+        "idPadres": [
+            50361
         ],
         "isCsic": false
     },
@@ -30838,6 +31080,39 @@
         "idOrganismo": 31896,
         "idPadres": [
             1400
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            35745
+        ],
+        "deOrganismo": "UNIDAD DE APOYO AL SECRETARIO GENERAL",
+        "idOrganismo": 35745,
+        "idPadres": [
+            1420
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            35747
+        ],
+        "deOrganismo": "DIRECCION GENERAL",
+        "idOrganismo": 35747,
+        "idPadres": [
+            1422
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            35748
+        ],
+        "deOrganismo": "SECRETARIA GENERAL",
+        "idOrganismo": 35748,
+        "idPadres": [
+            1422
         ],
         "isCsic": false
     },
@@ -41700,6 +41975,61 @@
     },
     {
         "codigos": [
+            36908
+        ],
+        "deOrganismo": "DIRECCION GENERAL",
+        "idOrganismo": 36908,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36909
+        ],
+        "deOrganismo": "SECRETARIA GENERAL",
+        "idOrganismo": 36909,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36910
+        ],
+        "deOrganismo": "S.G. DE PLANIFICACION ORDENACION Y EVALUACION",
+        "idOrganismo": 36910,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36911
+        ],
+        "deOrganismo": "S.G. DE GESTION",
+        "idOrganismo": 36911,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36912
+        ],
+        "deOrganismo": "S.G. DE ANALISIS PRESUPUESTARIO Y DE GESTION FINANCIERA",
+        "idOrganismo": 36912,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             36914
         ],
         "deOrganismo": "CENTRO DE ACOGIDA A REFUGIADOS (CAR) DE VALLECAS - MADRID",
@@ -41739,6 +42069,193 @@
         "idOrganismo": 36917,
         "idPadres": [
             50401
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36920
+        ],
+        "deOrganismo": "CENTRO ESTATAL DE AUTONOMIA PERSONAL Y AYUDAS TECNICAS (CEAPAT)",
+        "idOrganismo": 36920,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36921
+        ],
+        "deOrganismo": "CENTRO DE RECUPERACION DE PERSONAS CON DISCAPACIDAD FISICA DE MADRID",
+        "idOrganismo": 36921,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36923
+        ],
+        "deOrganismo": "CENTRO DE ATENCION A PERSONAL CON DISCAPACIDAD FISICA DE LEGANES (MADRID)",
+        "idOrganismo": 36923,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36924
+        ],
+        "deOrganismo": "CENTRO DE RECUPERACION DE PERSONAS CON DISCAPACIDAD FISICA DE ALBACETE",
+        "idOrganismo": 36924,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36925
+        ],
+        "deOrganismo": "CENTRO DE ATENCION A PERSONAS CON DISCAPACIDAD FISICA DE ALCUESCAR (CACERES)",
+        "idOrganismo": 36925,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36926
+        ],
+        "deOrganismo": "CENTRO DE RECUPERACION DE PERSONAS CON DISCAPACIDAD FISICA DE SAN FERNANDO (CADIZ)",
+        "idOrganismo": 36926,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36927
+        ],
+        "deOrganismo": "CENTRO DE ATENCION A PERSONAS CON DISCAPACIDAD FISICA DE POZOBLANCO (CORDOBA)",
+        "idOrganismo": 36927,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36928
+        ],
+        "deOrganismo": "CENTRO DE ATENCION A PERSONAS CON DISCAPACIDAD FISICA DE EL FERROL (A CORU\u00d1A)",
+        "idOrganismo": 36928,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36929
+        ],
+        "deOrganismo": "CENTRO DE ATENCION A PERSONAS CON DISCAPACIDAD FISICA DE GUADALAJARA",
+        "idOrganismo": 36929,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36930
+        ],
+        "deOrganismo": "CENTRO DE RECUPERACION DE PERSONAS CON DISCAPACIDAD FISCA DE LOGRO\u00d1O (LA RIOJA)",
+        "idOrganismo": 36930,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36931
+        ],
+        "deOrganismo": "CENTRO DE RECUPERACION DE PERSONAS CON DISCAPACIDAD FISICA DE SALAMANCA",
+        "idOrganismo": 36931,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36932
+        ],
+        "deOrganismo": "CENTRO ESTATAL DE ATENCION AL DA\u00d1O CEREBRAL (CEADAC)",
+        "idOrganismo": 36932,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36933
+        ],
+        "deOrganismo": "PRESIDENCIA DEL CONSEJO GENERAL DEL IMSERSO",
+        "idOrganismo": 36933,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36934
+        ],
+        "deOrganismo": "DIRECCION TERRITORIAL DE CEUTA",
+        "idOrganismo": 36934,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36935
+        ],
+        "deOrganismo": "DIRECCION TERRITORIAL DE MELILLA",
+        "idOrganismo": 36935,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36936
+        ],
+        "deOrganismo": "CENTRO POLIVALENTE DE SERVICIOS PARA PERSONAS MAYORES",
+        "idOrganismo": 36936,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            36938
+        ],
+        "deOrganismo": "HOGAR T.E. CEUTA B",
+        "idOrganismo": 36938,
+        "idPadres": [
+            1427
         ],
         "isCsic": false
     },
@@ -65704,7 +66221,7 @@
         "codigos": [
             44277
         ],
-        "deOrganismo": "S.G. DE INFORMACION SANITARIA Y EVALUACION",
+        "deOrganismo": "S.G. DE INFORMACION SANITARIA",
         "idOrganismo": 44277,
         "idPadres": [
             49391
@@ -65719,6 +66236,17 @@
         "idOrganismo": 44279,
         "idPadres": [
             1212
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            44281
+        ],
+        "deOrganismo": "HOGAR DE TERCERA EDAD Y CENTRO DE ESTANCIAS DIURNAS DE MELILLA",
+        "idOrganismo": 44281,
+        "idPadres": [
+            1427
         ],
         "isCsic": false
     },
@@ -66016,6 +66544,28 @@
         "idOrganismo": 45797,
         "idPadres": [
             1425
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            45798
+        ],
+        "deOrganismo": "ORGANIZACION NACIONAL DE TRASPLANTES",
+        "idOrganismo": 45798,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            45799
+        ],
+        "deOrganismo": "UNIDAD DE APOYO",
+        "idOrganismo": 45799,
+        "idPadres": [
+            45798
         ],
         "isCsic": false
     },
@@ -67206,12 +67756,34 @@
     },
     {
         "codigos": [
+            46170
+        ],
+        "deOrganismo": "INSPECCION GENERAL DE SERVICIOS DEL DEPARTAMENTO",
+        "idOrganismo": 46170,
+        "idPadres": [
+            50361
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             46172
         ],
         "deOrganismo": "S.G. DE CALIDAD DE MEDICAMENTOS Y PRODUCTOS SANITARIOS",
         "idOrganismo": 46172,
         "idPadres": [
             49393
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46173
+        ],
+        "deOrganismo": "CENTRO DE INVESTIGACION Y CONTROL DE LA CALIDAD",
+        "idOrganismo": 46173,
+        "idPadres": [
+            49701
         ],
         "isCsic": false
     },
@@ -67256,6 +67828,28 @@
         "idOrganismo": 46178,
         "idPadres": [
             46019
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46179
+        ],
+        "deOrganismo": "S.G. DE COORDINACION, CALIDAD Y COOPERACION EN COSUMO",
+        "idOrganismo": 46179,
+        "idPadres": [
+            50515
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46180
+        ],
+        "deOrganismo": "S.G. DE ARBITRAJE Y DERECHOS DEL CONSUMIDOR",
+        "idOrganismo": 46180,
+        "idPadres": [
+            50515
         ],
         "isCsic": false
     },
@@ -67629,7 +68223,7 @@
         "deOrganismo": "S.G. DE PROGRAMAS SOCIALES",
         "idOrganismo": 46282,
         "idPadres": [
-            49383
+            50511
         ],
         "isCsic": false
     },
@@ -67640,7 +68234,7 @@
         "deOrganismo": "S.G. DE ORGANIZACIONES NO GUBERNAMENTALES Y VOLUNTARIADO",
         "idOrganismo": 46283,
         "idPadres": [
-            49383
+            50511
         ],
         "isCsic": false
     },
@@ -67651,7 +68245,7 @@
         "deOrganismo": "S.G. DE LAS FAMILIAS",
         "idOrganismo": 46284,
         "idPadres": [
-            49383
+            50511
         ],
         "isCsic": false
     },
@@ -67662,7 +68256,7 @@
         "deOrganismo": "S.G. DE INFANCIA",
         "idOrganismo": 46285,
         "idPadres": [
-            49383
+            50511
         ],
         "isCsic": false
     },
@@ -67673,7 +68267,7 @@
         "deOrganismo": "S.G. DE COORDINACION Y ORDENACION",
         "idOrganismo": 46286,
         "idPadres": [
-            49385
+            50513
         ],
         "isCsic": false
     },
@@ -70506,6 +71100,28 @@
     },
     {
         "codigos": [
+            46673
+        ],
+        "deOrganismo": "S.G. DE COOPERACION INTERIOR Y EXTERIOR",
+        "idOrganismo": 46673,
+        "idPadres": [
+            1422
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46674
+        ],
+        "deOrganismo": "DIVISION DE PROGRAMAS",
+        "idOrganismo": 46674,
+        "idPadres": [
+            1422
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             46675
         ],
         "deOrganismo": "UNIDAD DE EXTRANJERIA Y DOCUMENTACION DE CAMPRODON",
@@ -70655,6 +71271,17 @@
         "idOrganismo": 46688,
         "idPadres": [
             1299
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            46689
+        ],
+        "deOrganismo": "CENTRO DE ADAPTACION Y RECUPERACION DE BERGONDO (A CORU\u00d1A)",
+        "idOrganismo": 46689,
+        "idPadres": [
+            1427
         ],
         "isCsic": false
     },
@@ -73031,6 +73658,28 @@
         "idOrganismo": 47476,
         "idPadres": [
             40782
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            47488
+        ],
+        "deOrganismo": "C.ESTATAL DE REFER. ATENC.A PERSONAS CON GRAVE DISCAPAC.FISICA DE S. ANDRES DE RABANEDO (LEON)",
+        "idOrganismo": 47488,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            47489
+        ],
+        "deOrganismo": "C. EST. DE REFERENCIA DE AT. SOCIO-SANITARIA A PERSONAS CON ALZHEIMER Y OTRAS DEMENCIAS (SALAMANCA)",
+        "idOrganismo": 47489,
+        "idPadres": [
+            1427
         ],
         "isCsic": false
     },
@@ -76409,6 +77058,17 @@
     },
     {
         "codigos": [
+            48506
+        ],
+        "deOrganismo": "CENTRO DE REFERENCIA ESTATAL DE ATENCION A PERSONAS CON ENFERMEDADES RARAS Y SUS FAMILIAS",
+        "idOrganismo": 48506,
+        "idPadres": [
+            1427
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             48507
         ],
         "deOrganismo": "S.G. DE RECURSOS Y RELACIONES JURISDICCIONALES",
@@ -76909,7 +77569,7 @@
         "deOrganismo": "S.G. DE DIALOGO CIVIL",
         "idOrganismo": 48576,
         "idPadres": [
-            49385
+            50513
         ],
         "isCsic": false
     },
@@ -78304,6 +78964,17 @@
         "idOrganismo": 48876,
         "idPadres": [
             50353
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            48878
+        ],
+        "deOrganismo": "RELACION ESPECIAL DE PUESTOS DEL MINISTERIO DE SANIDAD, CONS. Y B. SOCIAL. (ACUERDO C. DE M. 2/7/10)",
+        "idOrganismo": 48878,
+        "idPadres": [
+            50361
         ],
         "isCsic": false
     },
@@ -82961,6 +83632,17 @@
     },
     {
         "codigos": [
+            49701
+        ],
+        "deOrganismo": "AGENCIA ESPA\u00d1OLA DE SEGURIDAD ALIMENTARIA Y NUTRICION",
+        "idOrganismo": 49701,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
             49703
         ],
         "deOrganismo": "CENTROS MILITARES DE LA CRIA CABALLAR",
@@ -84980,7 +85662,7 @@
         "deOrganismo": "OFICINA DE ATENCION A LA DISCAPACIDAD",
         "idOrganismo": 49999,
         "idPadres": [
-            49385
+            50513
         ],
         "isCsic": false
     },
@@ -86136,6 +86818,17 @@
         "idOrganismo": 50229,
         "idPadres": [
             49955
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50231
+        ],
+        "deOrganismo": "CENTRO DE REFERENCIA ESTATAL PARA PERSONAS CON DISCAPACIDADES NEUROLOGICAS",
+        "idOrganismo": 50231,
+        "idPadres": [
+            1427
         ],
         "isCsic": false
     },
@@ -88649,6 +89342,39 @@
         "idOrganismo": 50510,
         "idPadres": [
             39
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50511
+        ],
+        "deOrganismo": "D.G. DE SERVICIOS PARA LAS FAMILIAS Y LA INFANCIA",
+        "idOrganismo": 50511,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50513
+        ],
+        "deOrganismo": "D.G. DE POLITICAS DE DISCAPACIDAD",
+        "idOrganismo": 50513,
+        "idPadres": [
+            50250
+        ],
+        "isCsic": false
+    },
+    {
+        "codigos": [
+            50515
+        ],
+        "deOrganismo": "D.G. DE CONSUMO",
+        "idOrganismo": 50515,
+        "idPadres": [
+            50250
         ],
         "isCsic": false
     }
