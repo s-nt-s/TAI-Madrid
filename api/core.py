@@ -268,6 +268,7 @@ class Puesto:
         self.nota = None
         self.deObservaciones = None
         self.idObservaciones =  None
+        self.grupo = None
         if len(args) == 0:
             return
         self.idMinisterio, \

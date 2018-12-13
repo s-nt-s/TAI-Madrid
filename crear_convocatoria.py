@@ -659,6 +659,11 @@ for rx in range(1, sh.nrows):
             p.deDireccion = oU.deDireccion or oC.deDireccion
 
         p.nota = notas.get(p.idPuesto, None)
+        if p.grupo != "C1":
+            if p.nota is None:
+                p.nota = p.grupo
+            else:
+                p.nota = "("+p.grupo+") " + p.nota
 
         org_convocatoria.hijos.add(oM)
         oM.hijos.add(oC)
