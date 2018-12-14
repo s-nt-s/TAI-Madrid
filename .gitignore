@@ -1,3 +1,4 @@
+.ig_*
 test.py
 *.pyc
 *.xml
