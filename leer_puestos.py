@@ -7,6 +7,10 @@ import re
 import xlrd
 import requests
 
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
+
 re_etiqueta=re.compile(r"^(\S+)\s+\[(\d+),\s*(\d+)\]\s*$")
 re_space = re.compile(r"  +")
 re_number = re.compile(r"^\d+,\d+$")
