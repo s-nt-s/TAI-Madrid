@@ -89,11 +89,12 @@ for rx in range(1, sh.nrows):
                     print ("Puesto no encontrado en las etiquetas: %s" % r)
         s_max=max([len(s) for s in orden])
         for o in orden:
-            print(("%"+str(s_max)+"s %s") % (o, posibilidades[o][0]))
+            print(("%"+str(s_max)+"s %s") % (o, posibilidades[o]))
         sys.exit()
     else:
         count = 0
+        m_count = 3 #5 if row[2] is None else max(5, row[2]-5)
         for i in row[3:]:
-            if i is not None and i>0 and count<max(5, row[2]-5):
+            if i is not None and i>0 and count<m_count:
                 pesimista.add(int(i))
                 count = count + 1

@@ -130,3 +130,4 @@ if args.todo or args.ranking:
     )
 
 j2.save("index.html")
+j2.save("asignacion.html")

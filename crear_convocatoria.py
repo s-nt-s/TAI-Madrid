@@ -687,6 +687,8 @@ for u in unidades:
 '''
             
 
+Puesto.save(puestos, name="2017_L")
+
 #wb_out.save("datos/2017_L_normalizado.xls")
 
 j2 = Jnj2("j2/", "docs/")
