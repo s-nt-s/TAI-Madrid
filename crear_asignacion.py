@@ -51,7 +51,6 @@ def get_ok_index(idUnidad, *arg):
     last_unidad = None
     index = 0
     for a in arg:
-        a = abs(int(a))
         unidad = unidades[a]
         if last_unidad is None or unidad!=last_unidad:
             last_unidad = unidad
@@ -59,12 +58,20 @@ def get_ok_index(idUnidad, *arg):
         if unidad==idUnidad:
             return index
     return -1
-    
+
+def contar(*arg):
+    i = 0
+    for a in arg:
+        if a is None:
+            return i
+        i = i +1
+    return i
 
 r = requests.get(url+"&raw=1")
 wb = xlrd.open_workbook(file_contents=r.content)
 sh = wb.sheet_by_index(2)
 
+renuncias=0
 opositores=0
 oks={}
 for rx in range(1, sh.nrows):
@@ -72,9 +79,12 @@ for rx in range(1, sh.nrows):
     asignacion = row[1]
     if asignacion is None or asignacion<1:
         continue
+    peticion = [abs(int(i)) for i in row[3:] if i is not None and abs(int(i))!=0]
+    if len(peticion) < row[0]:
+        renuncias = renuncias + 1
     opositores = opositores + 1
     unidad = unidades[asignacion]
-    index = get_ok_index(unidad, *row[3:])
+    index = get_ok_index(unidad, *peticion)
     ok = oks.get(index, 0) + 1
     oks[index] = ok
 
