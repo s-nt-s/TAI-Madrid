@@ -79,11 +79,11 @@ for rx in range(1, sh.nrows):
     asignacion = row[1]
     if asignacion is None or asignacion<1:
         continue
-    peticion = [abs(int(i)) for i in row[3:] if i is not None and abs(int(i))!=0]
-    opositores = opositores + 1
-    if asignacion not in unidades:
+    if asignacion > 1000:
         renuncias = renuncias + 1
         continue
+    peticion = [abs(int(i)) for i in row[3:] if i is not None and abs(int(i))!=0]
+    opositores = opositores + 1
     unidad = unidades[asignacion]
     index = get_ok_index(unidad, *peticion)
     ok = oks.get(index, 0) + 1
