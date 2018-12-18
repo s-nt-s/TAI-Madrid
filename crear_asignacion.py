@@ -80,9 +80,10 @@ for rx in range(1, sh.nrows):
     if asignacion is None or asignacion<1:
         continue
     peticion = [abs(int(i)) for i in row[3:] if i is not None and abs(int(i))!=0]
-    if len(peticion) < row[0]:
-        renuncias = renuncias + 1
     opositores = opositores + 1
+    if asignacion not in unidades:
+        renuncias = renuncias + 1
+        continue
     unidad = unidades[asignacion]
     index = get_ok_index(unidad, *peticion)
     ok = oks.get(index, 0) + 1
@@ -92,5 +93,6 @@ j2 = Jnj2("j2/", "docs/")
 j2.save("asignacion.html",
     oks=oks,
     now=datetime.now().strftime("%d-%m-%Y %H:%M"),
-    opositores = opositores
+    opositores = opositores,
+    renuncias = renuncias
     )
