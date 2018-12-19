@@ -61,8 +61,12 @@ with open(".ig_leer_puestos") as f:
         e, ini, fin = re_etiqueta.match(e).groups()
         config['ETIQUETAS'][e]=list(range(int(ini), int(fin)+1))
 
-r = requests.get(config['URL']+"&raw=1")
-wb = xlrd.open_workbook(file_contents=r.content)
+if len(sys.argv)>1 and os.path.isfile(sys.argv[1]):
+    wb = xlrd.open_workbook(sys.argv[1])
+else:
+    r = requests.get(config['URL']+"&raw=1")
+    wb = xlrd.open_workbook(file_contents=r.content)
+
 sh = wb.sheet_by_index(2)
 
 posibilidades = {k: (0 ,0) for k in config['ETIQUETAS'].keys()}
