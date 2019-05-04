@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import simplekml
 import utm
@@ -147,7 +147,7 @@ def crear_descripcion(orgs):
             if len(puestos) == 1:
                 p = puestos[0]
                 description += "\n%s/%s - %s\n" % (p.idPuesto,
-                                                 p.nivel, p.abbr_puesto)
+                                                   p.nivel, p.abbr_puesto)
             else:
                 description += "\n(%s) %s:" % (len(puestos), dePuesto)
                 for p in sorted(puestos, key=lambda p: p.idPuesto):
@@ -161,7 +161,7 @@ def crear_descripcion(orgs):
     return name, description, org_puestos
 
 
-print ("Se van a crear %s puntos inexactos" % len(provin_org))
+print("Se van a crear %s puntos inexactos" % len(provin_org))
 for latlon, orgs in provin_org.items():
     name, descripcion, _ = crear_descripcion(orgs)
     utm_split = latlon.split(",")
@@ -172,7 +172,7 @@ for latlon, orgs in provin_org.items():
 
     pnt.description = descripcion
 
-print ("Se van a crear %s puntos exactos" % len(latlon_org))
+print("Se van a crear %s puntos exactos" % len(latlon_org))
 for latlon, orgs in latlon_org.items():
     name, descripcion, org_puestos = crear_descripcion(orgs)
     utm_split = latlon.split(",")

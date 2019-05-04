@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import time
@@ -10,7 +10,8 @@ from stem import Signal
 from stem.control import Controller
 
 from api import (Descripciones, Organismo, Puesto, dict_from_txt,
-                 simplificar_dire, yaml_from_file, yaml_to_file, get_cod_dir_latlon)
+                 get_cod_dir_latlon, simplificar_dire, yaml_from_file,
+                 yaml_to_file)
 
 proxies = {'http': 'socks5://127.0.0.1:9050',
            'https': 'socks5://127.0.0.1:9050'}
@@ -28,12 +29,14 @@ def save_coordenadas(coordenadas):
         for k, v in sorted(coordenadas.items()):
             f.write(v + "    " + k + "\n")
 
+
 organismos = Organismo.load()
 
 direcciones = dict_from_txt("arreglos/dir_latlon.txt",
                             rever=True, parse_key=simplificar_dire)
 
 nm = Nominatim(country_bias="ESP")
+
 
 def geocode(direccion, intento=0):
     if intento == 0:
@@ -56,17 +59,20 @@ def geocode(direccion, intento=0):
         return None
     return Bunch(latitude=l['lat'], longitude=l['lng'], address=r['formatted_address'])
 
-cod_dir_latlon = [(k, v[1]) for k, v in get_cod_dir_latlon().items() if v[0] is None]
-if len(cod_dir_latlon)>0:
-    print ("Calculando coordenadas faltantes en cod_dir_latlon (%s)" % len(cod_dir_latlon))
+
+cod_dir_latlon = [(k, v[1])
+                  for k, v in get_cod_dir_latlon().items() if v[0] is None]
+if len(cod_dir_latlon) > 0:
+    print("Calculando coordenadas faltantes en cod_dir_latlon (%s)" %
+          len(cod_dir_latlon))
     for k, d in sorted(cod_dir_latlon):
         l = geocode(d)
         if l:
             l = str(l.latitude) + "," + str(l.longitude)
         else:
             l = ""
-        print ("%s    %s    %s" % (k, l, d))
-    print ("")
+        print("%s    %s    %s" % (k, l, d))
+    print("")
 
 codigos_tai = set()
 for p in Puesto.load():
@@ -81,7 +87,7 @@ count = 0
 ok = 0
 _ok = 0
 last_ok = ""
-print ("Calculando coordenadas de provincias (%s)" % total)
+print("Calculando coordenadas de provincias (%s)" % total)
 for cod, prov in provincias.items():
     if cod not in direcciones:
         l = geocode(prov + ", España")
@@ -92,7 +98,7 @@ for cod, prov in provincias.items():
     count += 1
     print("%3d%% completado: %-25s (%s) %-25s" %
           (count * 100 / total, prov, ok, last_ok + "   "), end="\r")
-print ("")
+print("")
 
 save_coordenadas(direcciones)
 
@@ -103,7 +109,7 @@ count = 0
 ok = 0
 _ok = 0
 last_ok = ""
-print ("Calculando coordenadas de organismos (%s)" % total)
+print("Calculando coordenadas de organismos (%s)" % total)
 for d1, d2, p in direcciones_falta:
     count += 1
     print("%3d%% completado: %-25s (%s) %-25s" %
@@ -130,5 +136,5 @@ for d1, d2, p in direcciones_falta:
         save_coordenadas(direcciones)
         _ok = ok
 
-print ("")
+print("")
 save_coordenadas(direcciones)

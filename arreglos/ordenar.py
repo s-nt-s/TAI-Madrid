@@ -1,11 +1,12 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import os
+from math import atan2, cos, radians, sin, sqrt
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
-from math import atan2, cos, radians, sin, sqrt
+
 
 def calcula_distancia(latlon1, latlon2):
     R = 6373.0
@@ -28,7 +29,8 @@ def calcula_distancia(latlon1, latlon2):
 
     distance = abs(R * c) * 1000
     return int(distance)
-    
+
+
 d = {}
 latlon = None
 bloque = 1
@@ -40,10 +42,10 @@ with open("direcciones.txt") as y:
         if len(l) == 0 or l.startswith("#"):
             if l.startswith("#") and not l.startswith("# < "):
                 comment = comment + "\n" + l
-            if latlon and len(deDireccion)>0:
-                d[latlon]=(d.get(latlon, "")+deDireccion).strip()
-                deDireccion=""
-                latlon=None
+            if latlon and len(deDireccion) > 0:
+                d[latlon] = (d.get(latlon, "")+deDireccion).strip()
+                deDireccion = ""
+                latlon = None
             bloque = 1
             continue
         if bloque == 1:
@@ -52,10 +54,10 @@ with open("direcciones.txt") as y:
             continue
         if bloque == 2:
             deDireccion = deDireccion + "\n" + l.strip()
-if latlon and len(deDireccion)>0:
-    d[latlon]=(d.get(latlon, "")+deDireccion).strip()
-    deDireccion=""
-    latlon=None
+if latlon and len(deDireccion) > 0:
+    d[latlon] = (d.get(latlon, "")+deDireccion).strip()
+    deDireccion = ""
+    latlon = None
 
 latlons = sorted(d.keys(), key=lambda i: [float(l) for l in i.split(",")])
 
@@ -65,7 +67,7 @@ with open("direcciones.txt", "w") as y:
     y.write(comment.strip()+"\n")
     y.write("\n")
     for l in latlons:
-        if last_latlon is not None and calcula_distancia(last_latlon, l)<metros:
+        if last_latlon is not None and calcula_distancia(last_latlon, l) < metros:
             y.write("# < %sm\n" % metros)
         y.write(l+"\n")
         y.write(d[l]+"\n")

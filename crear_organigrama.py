@@ -1,15 +1,16 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import xlrd
 import os
 import re
-import sys
 from glob import glob
+
+import xlrd
 
 from api import Jnj2
 
 re_space = re.compile(r"  +")
+
 
 def parse(cell):
     if not cell:
@@ -25,12 +26,13 @@ def parse(cell):
         return v if len(v) else None
     return v
 
+
 class Org:
 
     def __init__(self, codigo, descripcion):
-        self.codigo=codigo
-        self.descripcion=descripcion
-        self.hijos=set()
+        self.codigo = codigo
+        self.descripcion = descripcion
+        self.hijos = set()
 
     def get_hijos(self):
         return sorted(self.hijos, key=lambda o: (o.descripcion, o.codigo))
@@ -40,19 +42,21 @@ class Org:
 
     def __hash__(self):
         return self.codigo.__hash__()
-    
 
-organismos=[]
-dict_organ={}
+
+organismos = []
+dict_organ = {}
+
 
 def get_org(i, d):
     if i is None:
         return None
     o = dict_organ.get(i, None)
     if o is None:
-        o=Org(i, d)
-        dict_organ[i]=o
+        o = Org(i, d)
+        dict_organ[i] = o
     return o
+
 
 for x in glob("fuentes/RPT-*-PF*.xls"):
     org = Org(os.path.basename(x), "")

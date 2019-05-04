@@ -9,11 +9,13 @@ def minus(a, b):
         a.remove(b)
     return a
 
+
 def money(value, rounded=10, dotted=True):
     value = int(value / rounded)*rounded
     if dotted:
         value = "{:,.0f}".format(value).replace(",", ".")
     return value
+
 
 class Jnj2():
 

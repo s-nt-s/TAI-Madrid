@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
-import re
 import os
+import re
 
 from .util import yaml_from_file
 
@@ -126,7 +126,6 @@ class Organismo:
                 self.postCode = m.group(1)
         if self.idProvincia is None and self.postCode and self.postCode.isdigit():
             self.idProvincia = int(self.postCode[0:2])
-
 
     def genera_codigos(self):
         self.codigos.add(self.idOrganismo)
@@ -267,7 +266,7 @@ class Puesto:
         self.turno = None
         self.nota = None
         self.deObservaciones = None
-        self.idObservaciones =  None
+        self.idObservaciones = None
         self.grupo = None
         if len(args) == 0:
             return
@@ -315,7 +314,7 @@ class Puesto:
             # https://github.com/s-nt-s/TAI-Madrid/issues/30
             pass
         return self.complemento + c
-        
+
     def calcular_provincia(self, provincias):
         if self.deCentroDirectivo and "CEUTA Y MELILLA" in self.deCentroDirectivo:
             return "Ceuta y Melilla"

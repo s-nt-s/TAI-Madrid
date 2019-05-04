@@ -1,14 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import os
+import re
+import subprocess
+from datetime import datetime, timedelta
 from urllib.parse import urljoin
 
 import bs4
 import requests
-import re
-from datetime import datetime, timedelta
-import os
-import subprocess
 
 re_sp = re.compile(r"\s+")
 
@@ -35,6 +35,7 @@ s.headers = default_headers
 
 re_puesto = re.compile(r"\b(\d{6,7})\b")
 
+
 def get(url):
     r = s.get(url)
     soup = bs4.BeautifulSoup(r.content, "lxml")
@@ -42,12 +43,15 @@ def get(url):
         a.attrs["href"] = urljoin(url, a.attrs["href"])
     return soup
 
-excluir = ("administración local", "universidades", "comunidad autónoma", "comunitat", "comunidad foral", "comunidad de")
+
+excluir = ("administración local", "universidades",
+           "comunidad autónoma", "comunitat", "comunidad foral", "comunidad de")
 tomorrow = datetime.today() + timedelta(days=1)
 desde = "24/09/2018".replace("/", "%2F")
 hasta = tomorrow.strftime("%d/%m/%Y").replace("/", "%2F")
-rango = "1370" # Resolucion
-query = "&dato%5B1%5D=" + rango + "&dato%5B6%5D%5B0%5D=" + desde + "&dato%5B6%5D%5B1%5D=" + hasta
+rango = "1370"  # Resolucion
+query = "&dato%5B1%5D=" + rango + "&dato%5B6%5D%5B0%5D=" + \
+    desde + "&dato%5B6%5D%5B1%5D=" + hasta
 url = "https://www.boe.es/buscar/personal.php?campo%5B0%5D=TIT&dato%5B0%5D=&operador%5B0%5D=and&campo%5B1%5D=ID_RNG&operador%5B1%5D=and&campo%5B2%5D=ID_DEM&dato%5B2%5D=&operador%5B2%5D=and&campo%5B3%5D=DOC&dato%5B3%5D=&operador%5B3%5D=and&campo%5B4%5D=NBO&dato%5B4%5D=&operador%5B4%5D=and&campo%5B5%5D=DOC&dato%5B5%5D=&operador%5B6%5D=and&campo%5B6%5D=FPU&operador%5B7%5D=and&campo%5B7%5D=FAP&dato%5B7%5D%5B0%5D=&dato%5B7%5D%5B1%5D=&page_hits=2000&sort_field%5B0%5D=FPU&sort_order%5B0%5D=desc&sort_field%5B1%5D=ref&sort_order%5B1%5D=asc&accion=Buscar" + query
 url_boes = []
 while url:
@@ -63,11 +67,12 @@ while url:
         a = p.find_parent("li").find("a")
         url_boes.append(a.attrs["href"])
     sig = soup.select("span.pagSigxxx")
-    if sig is None or len(sig)==0:
+    if sig is None or len(sig) == 0:
         url = None
     else:
         a = sig[0].find_parent("a")
         url = a.attrs["href"]
+
 
 def isDone(boe):
     s = "_"+boe+".txt"
@@ -75,6 +80,7 @@ def isDone(boe):
         if f.endswith(s):
             return True
     return False
+
 
 nombramientos = 0
 concursos = 0
@@ -86,12 +92,12 @@ for url in url_boes:
     div = soup.select("div.metadatosDoc")[0]
 
     txt = re_sp.sub(" ", div.get_text())
-    
+
     if "A. Nombramientos, situaciones e incidencias" in txt:
-        nombramientos = nombramientos +1
+        nombramientos = nombramientos + 1
         name_file = "nb_%03d_%s.txt" % (nombramientos, boe)
     elif "B. Oposiciones y concursos" in txt:
-        concursos = concursos +1
+        concursos = concursos + 1
         name_file = "oc_%03d_%s.txt" % (concursos, boe)
     else:
         continue
@@ -100,12 +106,12 @@ for url in url_boes:
         continue
     '''
 
-
     div = soup.select("div#DOdocText")[0]
     if div.find("img"):
         url = soup.select("li.puntoPDF a")[0].attrs["href"]
         p1 = subprocess.Popen(["curl", "-s", url], stdout=subprocess.PIPE)
-        p2 = subprocess.Popen(["pdftotext", "-layout", "-", "-"], stdin=p1.stdout, stdout=subprocess.PIPE)
+        p2 = subprocess.Popen(
+            ["pdftotext", "-layout", "-", "-"], stdin=p1.stdout, stdout=subprocess.PIPE)
         p1.stdout.close()
         txt, err = p2.communicate()
         with open(name_file, "wb") as f:
@@ -114,7 +120,7 @@ for url in url_boes:
         txt = div.get_text()
         with open(name_file, "w") as f:
             f.write(txt)
-    print (name_file+" "+url)
+    print(name_file+" "+url)
 
-print ("%s nombramientos encontrados" % nombramientos)
-print ("%s concursos encontrados" % concursos)
+print("%s nombramientos encontrados" % nombramientos)
+print("%s concursos encontrados" % concursos)

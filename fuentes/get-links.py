@@ -1,12 +1,11 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import re
 from urllib.parse import urljoin
 
 import bs4
 import requests
-import re
-from datetime import datetime
 
 re_sp = re.compile(r"\s+")
 
@@ -39,22 +38,23 @@ def get(url):
 
 
 def get_pdf_boe(boe, descripcion=None):
-    print ('')
+    print('')
     soup = get("http://www.boe.es/diario_boe/txt.php?id=" + boe)
     if descripcion is None:
         descripcion = re_sp.sub(" ", soup.find("h3").get_text()).strip()
-    print ('# %s - %s' % (boe, descripcion))
+    print('# %s - %s' % (boe, descripcion))
     url = soup.select("li.puntoPDF a")[0].attrs["href"]
     print(url)
 
+
 soup = get(root)
 
-print ('# Códigos de provincia')
-print ('http://www.ine.es/daco/daco42/codmun/cod_provincia.htm')
-print ('')
-print ('# Dir3')
-print ('http://dir3rdf.redsara.es/Unidades.rdf')
-print ('http://dir3rdf.redsara.es/Oficinas.rdf')
+print('# Códigos de provincia')
+print('http://www.ine.es/daco/daco42/codmun/cod_provincia.htm')
+print('')
+print('# Dir3')
+print('http://dir3rdf.redsara.es/Unidades.rdf')
+print('http://dir3rdf.redsara.es/Oficinas.rdf')
 
 # get_pdf_boe('BOE-A-2017-7916', '2016 Libre Opositores')
 get_pdf_boe('BOE-A-2018-991',  '2016 Libre Nombramientos')
@@ -76,26 +76,27 @@ get_pdf_boe('BOE-A-2018-9564')
 '''
 
 visto = set()
-suprimidos = soup.find("a", attrs={"href": re.compile(r".*MinisteriosSuprimidos.html")})
+suprimidos = soup.find(
+    "a", attrs={"href": re.compile(r".*MinisteriosSuprimidos.html")})
 if suprimidos is None:
-    suprimidos=[]
+    suprimidos = []
 else:
-    suprimidos=[suprimidos]
+    suprimidos = [suprimidos]
 for i in suprimidos + soup.select("section#block_content_ministerios a"):
     page = get(i.attrs["href"])
     for li in page.select("article#cont_gen li"):
-        print ('')
-        print ('# ' + i.get_text().strip())
+        print('')
+        print('# ' + i.get_text().strip())
         if "funcionario" in li.get_text().lower():
             pdf, xls = li.findAll("a")
             xls = xls.attrs["href"]
             pdf = pdf.attrs["href"]
             if xls in visto:
-                print ('#', end=' ')
-            print (xls)
+                print('#', end=' ')
+            print(xls)
             if pdf in visto:
-                print ('#', end=' ')
-            print (pdf)
+                print('#', end=' ')
+            print(pdf)
 
             visto.add(xls)
             visto.add(pdf)

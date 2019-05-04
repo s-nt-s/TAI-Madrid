@@ -1,17 +1,18 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import os
+import re
 import sys
 import textwrap
-import re
-import xlrd
+
 import requests
+import xlrd
 
 abspath = os.path.abspath(__file__)
 dname = os.path.dirname(abspath)
 os.chdir(dname)
 
-re_etiqueta=re.compile(r"^(\S+)\s+\[(\d+),\s*(\d+)\]\s*$")
+re_etiqueta = re.compile(r"^(\S+)\s+\[(\d+),\s*(\d+)\]\s*$")
 re_space = re.compile(r"  +")
 re_number = re.compile(r"^\d+,\d+$")
 
@@ -35,6 +36,7 @@ if not os.path.isfile(".ig_leer_puestos"):
         aeat [19, 90]
     ''').strip())
 
+
 def parse(cell, parse_number=True):
     if not cell:
         return None
@@ -51,17 +53,17 @@ def parse(cell, parse_number=True):
     return v
 
 
-config={}
+config = {}
 with open(".ig_leer_puestos") as f:
-    lineas=[l.strip() for l in f.readlines() if l.strip()]
-    config['URL']=lineas[0]
-    config['PUESTO']=int(lineas[1])
-    config['ETIQUETAS']={}
+    lineas = [l.strip() for l in f.readlines() if l.strip()]
+    config['URL'] = lineas[0]
+    config['PUESTO'] = int(lineas[1])
+    config['ETIQUETAS'] = {}
     for e in lineas[2:]:
         e, ini, fin = re_etiqueta.match(e).groups()
-        config['ETIQUETAS'][e]=list(range(int(ini), int(fin)+1))
+        config['ETIQUETAS'][e] = list(range(int(ini), int(fin)+1))
 
-if len(sys.argv)>1 and os.path.isfile(sys.argv[1]):
+if len(sys.argv) > 1 and os.path.isfile(sys.argv[1]):
     wb = xlrd.open_workbook(sys.argv[1])
 else:
     r = requests.get(config['URL']+"&raw=1")
@@ -69,36 +71,37 @@ else:
 
 sh = wb.sheet_by_index(2)
 
-posibilidades = {k: (0 ,0) for k in config['ETIQUETAS'].keys()}
-orden=[]
+posibilidades = {k: (0, 0) for k in config['ETIQUETAS'].keys()}
+orden = []
 pesimista = set()
 
 for rx in range(1, sh.nrows):
     row = [parse(c) for c in sh.row(rx)]
     if row[0] == config['PUESTO']:
-        print ("Faltan %s por delante" % row[2])
+        print("Faltan %s por delante" % row[2])
         asignacion = row[1]
         for r in row[3:]:
-            if r is not None and r>0:
-                r=int(r)
+            if r is not None and r > 0:
+                r = int(r)
                 ok = False
                 for k, v in config['ETIQUETAS'].items():
                     if r in v:
                         pesi = posibilidades[k][1]
-                        posibilidades[k]=(posibilidades[k][0]+1, pesi+1 if r not in pesimista else pesi)
+                        posibilidades[k] = (
+                            posibilidades[k][0]+1, pesi+1 if r not in pesimista else pesi)
                         ok = True
                         if k not in orden:
                             orden.append(k)
                 if not ok:
-                    print ("Puesto no encontrado en las etiquetas: %s" % r)
-        s_max=max([len(s) for s in orden])
+                    print("Puesto no encontrado en las etiquetas: %s" % r)
+        s_max = max([len(s) for s in orden])
         for o in orden:
             print(("%"+str(s_max)+"s %s") % (o, posibilidades[o]))
         sys.exit()
     else:
         count = 0
-        m_count = 3 #5 if row[2] is None else max(5, row[2]-5)
+        m_count = 3  # 5 if row[2] is None else max(5, row[2]-5)
         for i in row[3:]:
-            if i is not None and i>0 and count<m_count:
+            if i is not None and i > 0 and count < m_count:
                 pesimista.add(int(i))
                 count = count + 1
