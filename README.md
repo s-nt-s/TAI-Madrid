@@ -1,5 +1,5 @@
 **IMPORTANTE**: Ya no doy mantenimiento a este proyecto.
-Si acabas de aprobar y crees que te puede ser útil, hace un fork y recluta gente entre tu promoción para actualizarlo.
+Si acabas de aprobar y crees que te puede ser útil, haz un fork y recluta gente entre tu promoción para actualizarlo.
 
 ---
 
