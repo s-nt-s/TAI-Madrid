@@ -1,3 +1,8 @@
+**IMPORTANTE**: Ya no doy mantenimiento a este proyecto.
+Si acabas de aprobar y crees que te puede ser útil, hace un fork y recluta gente entre tu promoción para actualizarlo.
+
+---
+
 Nota: El proyecto se llamaba `TAI Madrid` porque al principio era solo de Madrid, pero ahora salen todos los puestos sin importar donde esta.
 
 La salida de este proyecto es:
